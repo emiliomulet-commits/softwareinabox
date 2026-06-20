@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#FAFAF8}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:scale(1)}}
+@keyframes drawLine{to{stroke-dashoffset:0}}
+@keyframes growX{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes dim{to{opacity:.18}}
+@keyframes pulseDot{from{opacity:1;transform:scale(1)}to{opacity:.4;transform:scale(1.6)}}
+@keyframes pulseRing{from{opacity:.28}to{opacity:.85}}
+@keyframes lidOpen{from{transform:translateY(0)}to{transform:translateY(-42px)}}
+@keyframes flash{0%,100%{opacity:0}48%,56%{opacity:1}}
+@keyframes bounceA{from{transform:translate(0,0)}to{transform:translate(40px,22px)}}
+@keyframes bounceB{from{transform:translate(0,0)}to{transform:translate(-32px,26px)}}
+@keyframes bounceC{from{transform:translate(0,0)}to{transform:translate(44px,-18px)}}
+@keyframes escapeTry{0%{transform:translate(0,0)}45%{transform:translate(150px,0)}55%{transform:translate(150px,0)}100%{transform:translate(0,0)}}
+</style>
+</helmet>
+<div ref="{{ setRoot }}" style="background:#FAFAF8;min-height:100vh;font-family:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;color:#1A1A1A;padding:56px 24px 96px">
+  <div style="max-width:1060px;margin:0 auto">
+
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;border-bottom:1px solid #E5E5E2;padding-bottom:30px;margin-bottom:46px">
+      <div style="max-width:690px">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#B7841F;margin:0;font-weight:600">{{ tx.eyebrow }}</p>
+        <h1 style="font-family:'IBM Plex Serif',Georgia,serif;font-weight:500;color:#0C2340;font-size:46px;line-height:1.04;letter-spacing:-.018em;margin:16px 0 0">{{ tx.title }}</h1>
+        <p style="color:#4A4A4A;font-size:16px;line-height:1.6;margin:18px 0 0;max-width:580px">{{ tx.sub }}</p>
+      </div>
+      <div style="display:flex;gap:8px;flex:none">
+        <button onClick="{{ pickEs }}" style="{{ esStyle }}">ES</button>
+        <button onClick="{{ pickEn }}" style="{{ enStyle }}">EN</button>
+      </div>
+    </div>
+
+    <!-- ============ COMPONENT 1 ============ -->
+    <section data-anim-frame data-screen-label="01" style="margin-bottom:38px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:14px">
+        <div>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0;font-weight:600">{{ tx.c1.kicker }}</p>
+          <h2 style="font-family:'IBM Plex Serif',Georgia,serif;font-weight:500;color:#0C2340;font-size:26px;letter-spacing:-.01em;margin:8px 0 0">{{ tx.c1.title }}</h2>
+        </div>
+        <button data-replay style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#B7841F;background:transparent;border:1px solid #e3d9c0;padding:8px 13px;cursor:pointer;border-radius:3px;white-space:nowrap;flex:none">&#8635; {{ tx.replay }}</button>
+      </div>
+      <div style="background:#0C2340;border:1px solid #16294a;border-radius:4px;overflow:hidden">
+        <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block" font-family="'IBM Plex Mono', monospace">
+          <rect width="760" height="340" fill="#0C2340"/>
+          <text x="30" y="32" fill="#B7841F" font-size="10.5" letter-spacing="2.5" font-weight="600">CLOUD INFERENCE  &#8594;  ON-PREM SOVEREIGN SERVER</text>
+
+          <g>
+            <rect x="70" y="176" width="116" height="120" fill="#15294a" stroke="#B7841F" stroke-width="1"/>
+            <rect x="70" y="176" width="116" height="6" fill="#1F3A66"/>
+            <g fill="#F5E8C4" opacity="0.5">
+              <rect x="84" y="196" width="14" height="12"/><rect x="108" y="196" width="14" height="12"/><rect x="132" y="196" width="14" height="12"/><rect x="156" y="196" width="14" height="12"/>
+              <rect x="84" y="218" width="14" height="12"/><rect x="108" y="218" width="14" height="12"/><rect x="132" y="218" width="14" height="12"/><rect x="156" y="218" width="14" height="12"/>
+              <rect x="84" y="240" width="14" height="12"/><rect x="108" y="240" width="14" height="12"/><rect x="132" y="240" width="14" height="12"/><rect x="156" y="240" width="14" height="12"/>
+            </g>
+            <rect x="116" y="266" width="24" height="30" fill="#0C2340" stroke="#B7841F" stroke-width="0.8"/>
+            <text x="128" y="314" text-anchor="middle" fill="#cbd6ea" font-size="10.5" letter-spacing="1.5">TU EMPRESA</text>
+          </g>
+
+          <g data-play="dim|0.8s|ease|2.3s|1|normal|forwards" style="opacity:1">
+            <g fill="#16243f">
+              <circle cx="520" cy="96" r="24"/><circle cx="566" cy="78" r="34"/><circle cx="610" cy="94" r="26"/>
+              <ellipse cx="566" cy="106" rx="86" ry="28"/>
+            </g>
+            <text x="566" y="90" text-anchor="middle" fill="#DC4842" font-size="12" font-weight="700" letter-spacing="1">HYPERSCALER</text>
+            <text x="566" y="108" text-anchor="middle" fill="#e88e89" font-size="9" letter-spacing="1">us-east &#183; eu-azure</text>
+          </g>
+
+          <g data-play="dim|0.8s|ease|2.4s|1|normal|forwards" style="opacity:1">
+            <path d="M168 185 Q 360 70 560 120" fill="none" stroke="#DC4842" stroke-width="1.6" stroke-dasharray="540" stroke-dashoffset="540" data-play="drawLine|1.5s|ease|0.3s"/>
+            <circle r="4.5" fill="#f0a59f" data-flow data-begin="300" style="opacity:0"><animateMotion dur="2.2s" repeatCount="indefinite" begin="indefinite" path="M168 185 Q 360 70 560 120"/></circle>
+            <circle r="4.5" fill="#f0a59f" data-flow data-begin="1100" style="opacity:0"><animateMotion dur="2.2s" repeatCount="indefinite" begin="indefinite" path="M168 185 Q 360 70 560 120"/></circle>
+          </g>
+
+          <g data-play="pop|0.5s|cubic-bezier(.2,1.4,.3,1)|2.3s|1|normal|forwards" style="opacity:0;transform-box:fill-box;transform-origin:center">
+            <circle cx="372" cy="92" r="13" fill="#0C2340" stroke="#DC4842" stroke-width="1.4"/>
+            <path d="M366 86 L378 98 M378 86 L366 98" stroke="#DC4842" stroke-width="1.8"/>
+          </g>
+
+          <path d="M186 250 Q 360 252 498 256" fill="none" stroke="#B7841F" stroke-width="1.8" stroke-dasharray="330" stroke-dashoffset="330" data-play="drawLine|1.2s|ease|2.9s"/>
+          <circle r="4.5" fill="#F5E8C4" data-flow data-begin="3000" style="opacity:0"><animateMotion dur="2s" repeatCount="indefinite" begin="indefinite" path="M186 250 Q 360 252 498 256"/></circle>
+          <circle r="4.5" fill="#F5E8C4" data-flow data-begin="3700" style="opacity:0"><animateMotion dur="2s" repeatCount="indefinite" begin="indefinite" path="M186 250 Q 360 252 498 256"/></circle>
+
+          <g>
+            <rect x="498" y="206" width="196" height="98" fill="#1F3A66" stroke="#B7841F" stroke-width="1"/>
+            <rect x="498" y="206" width="196" height="5" fill="#B7841F"/>
+            <text x="514" y="234" fill="#F5E8C4" font-size="12" font-weight="700" letter-spacing="1">SERVIDOR PROPIO</text>
+            <text x="514" y="254" fill="#9fb2d4" font-size="10">Core &#183; Vault &#183; Hub &#183; Nexus</text>
+            <line x1="514" y1="266" x2="678" y2="266" stroke="#2c477a"/>
+            <text x="514" y="286" fill="#7fae93" font-size="10" letter-spacing="1">GPU &#183; IN-SITU INFERENCE</text>
+            <circle cx="676" cy="226" r="5" fill="#2E7D4F" data-play="pulseDot|1.6s|ease-in-out|3.1s|infinite|alternate" style="transform-box:fill-box;transform-origin:center"/>
+          </g>
+        </svg>
+      </div>
+      <sc-if value="{{ showCaptions }}" hint-placeholder-val="{{ true }}">
+        <p style="color:#4A4A4A;font-size:14px;line-height:1.65;margin:15px 2px 0;max-width:790px">{{ tx.c1.cap }}</p>
+      </sc-if>
+    </section>
+
+    <!-- ============ COMPONENT 2 ============ -->
+    <section data-anim-frame data-screen-label="02" style="margin-bottom:38px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:14px">
+        <div>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0;font-weight:600">{{ tx.c2.kicker }}</p>
+          <h2 style="font-family:'IBM Plex Serif',Georgia,serif;font-weight:500;color:#0C2340;font-size:26px;letter-spacing:-.01em;margin:8px 0 0">{{ tx.c2.title }}</h2>
+        </div>
+        <button data-replay style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#B7841F;background:transparent;border:1px solid #e3d9c0;padding:8px 13px;cursor:pointer;border-radius:3px;white-space:nowrap;flex:none">&#8635; {{ tx.replay }}</button>
+      </div>
+      <div style="background:#0C2340;border:1px solid #16294a;border-radius:4px;overflow:hidden">
+        <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block" font-family="'IBM Plex Mono', monospace">
+          <rect width="760" height="340" fill="#0C2340"/>
+          <text x="60" y="32" fill="#2E7D4F" font-size="10" letter-spacing="2" font-weight="700">CUSTOMER PHYSICAL PERIMETER &#183; ZERO EGRESS</text>
+          <rect x="60" y="44" width="640" height="232" rx="14" fill="none" stroke="#2E7D4F" stroke-width="1.5" stroke-dasharray="7 5" data-play="pulseRing|3s|ease-in-out|0s|infinite|alternate" style="opacity:.28"/>
+
+          <rect x="312" y="130" width="170" height="86" rx="8" fill="#1F3A66" stroke="#B7841F" stroke-width="1"/>
+          <rect x="312" y="130" width="170" height="5" rx="2" fill="#B7841F"/>
+          <text x="397" y="164" text-anchor="middle" fill="#F5E8C4" font-size="12" font-weight="700" letter-spacing="1">COGNITIVE</text>
+          <text x="397" y="182" text-anchor="middle" fill="#F5E8C4" font-size="12" font-weight="700" letter-spacing="1">SERVER</text>
+          <text x="397" y="202" text-anchor="middle" fill="#7fae93" font-size="9" letter-spacing="1">data stays here</text>
+
+          <rect x="150" y="80" width="13" height="13" rx="2" fill="#F5E8C4" data-play="bounceA|3.4s|ease-in-out|0s|infinite|alternate"/>
+          <rect x="558" y="96" width="13" height="13" rx="2" fill="#9fb2d4" data-play="bounceB|4.2s|ease-in-out|0s|infinite|alternate"/>
+          <rect x="196" y="226" width="13" height="13" rx="2" fill="#B7841F" data-play="bounceC|3.8s|ease-in-out|0s|infinite|alternate"/>
+          <rect x="520" y="232" width="13" height="13" rx="2" fill="#F5E8C4" data-play="bounceA|4.6s|ease-in-out|0.4s|infinite|alternate"/>
+
+          <rect x="498" y="150" width="13" height="13" rx="2" fill="#DC4842" data-play="escapeTry|4.5s|ease|0s|infinite|normal"/>
+          <g data-play="flash|4.5s|ease|0s|infinite|normal" style="opacity:0">
+            <line x1="700" y1="120" x2="700" y2="200" stroke="#B7841F" stroke-width="3"/>
+            <text x="688" y="116" text-anchor="end" fill="#B7841F" font-size="9" letter-spacing="1.5">BLOCKED</text>
+          </g>
+
+          <text x="80" y="306" fill="#cbd6ea" font-size="10.5" letter-spacing="2">PACKETS THAT LEFT THE PERIMETER</text>
+          <text x="688" y="312" text-anchor="end" fill="#2E7D4F" font-size="30" font-weight="700">0</text>
+        </svg>
+      </div>
+      <sc-if value="{{ showCaptions }}" hint-placeholder-val="{{ true }}">
+        <p style="color:#4A4A4A;font-size:14px;line-height:1.65;margin:15px 2px 0;max-width:790px">{{ tx.c2.cap }}</p>
+      </sc-if>
+    </section>
+
+    <!-- ============ COMPONENT 3 ============ -->
+    <section data-anim-frame data-screen-label="03" style="margin-bottom:38px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:14px">
+        <div>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0;font-weight:600">{{ tx.c3.kicker }}</p>
+          <h2 style="font-family:'IBM Plex Serif',Georgia,serif;font-weight:500;color:#0C2340;font-size:26px;letter-spacing:-.01em;margin:8px 0 0">{{ tx.c3.title }}</h2>
+        </div>
+        <button data-replay style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#B7841F;background:transparent;border:1px solid #e3d9c0;padding:8px 13px;cursor:pointer;border-radius:3px;white-space:nowrap;flex:none">&#8635; {{ tx.replay }}</button>
+      </div>
+      <div style="background:#0C2340;border:1px solid #16294a;border-radius:4px;overflow:hidden">
+        <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block" font-family="'IBM Plex Mono', monospace">
+          <rect width="760" height="340" fill="#0C2340"/>
+          <text x="210" y="40" text-anchor="middle" fill="#DC4842" font-size="12" font-weight="700" letter-spacing="2">HIPERESCALAR</text>
+          <text x="552" y="40" text-anchor="middle" fill="#B7841F" font-size="12" font-weight="700" letter-spacing="2">PROPIETARIO</text>
+          <line x1="381" y1="54" x2="381" y2="300" stroke="#2c477a" stroke-width="1"/>
+
+          <!-- row 1 -->
+          <text x="381" y="78" text-anchor="middle" fill="#9fb2d4" font-size="10" letter-spacing="2">SOBERAN&#205;A</text>
+          <rect x="307" y="85" width="66" height="20" fill="#DC4842" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.4s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:right center"/>
+          <rect x="389" y="85" width="300" height="20" fill="#B7841F" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.5s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:left center"/>
+          <text x="299" y="100" text-anchor="end" fill="#e88e89" font-size="11" data-play="fadeIn|0.4s|ease|1.4s" style="opacity:0">22%</text>
+          <text x="697" y="100" text-anchor="start" fill="#F5E8C4" font-size="11" data-play="fadeIn|0.4s|ease|1.5s" style="opacity:0">100%</text>
+
+          <!-- row 2 -->
+          <text x="381" y="130" text-anchor="middle" fill="#9fb2d4" font-size="10" letter-spacing="2">COSTE</text>
+          <rect x="283" y="137" width="90" height="20" fill="#DC4842" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.58s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:right center"/>
+          <rect x="389" y="137" width="288" height="20" fill="#B7841F" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.68s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:left center"/>
+          <text x="275" y="152" text-anchor="end" fill="#e88e89" font-size="11" data-play="fadeIn|0.4s|ease|1.55s" style="opacity:0">30%</text>
+          <text x="685" y="152" text-anchor="start" fill="#F5E8C4" font-size="11" data-play="fadeIn|0.4s|ease|1.65s" style="opacity:0">96%</text>
+
+          <!-- row 3 -->
+          <text x="381" y="182" text-anchor="middle" fill="#9fb2d4" font-size="10" letter-spacing="2">LATENCIA</text>
+          <rect x="246" y="189" width="135" height="20" fill="#DC4842" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.76s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:right center"/>
+          <rect x="389" y="189" width="276" height="20" fill="#B7841F" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.86s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:left center"/>
+          <text x="238" y="204" text-anchor="end" fill="#e88e89" font-size="11" data-play="fadeIn|0.4s|ease|1.7s" style="opacity:0">45%</text>
+          <text x="673" y="204" text-anchor="start" fill="#F5E8C4" font-size="11" data-play="fadeIn|0.4s|ease|1.8s" style="opacity:0">92%</text>
+
+          <!-- row 4 -->
+          <text x="381" y="234" text-anchor="middle" fill="#9fb2d4" font-size="10" letter-spacing="2">AUDITOR&#205;A</text>
+          <rect x="298" y="241" width="75" height="20" fill="#DC4842" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|0.94s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:right center"/>
+          <rect x="389" y="241" width="300" height="20" fill="#B7841F" data-play="growX|0.9s|cubic-bezier(.25,1,.4,1)|1.04s" style="transform:scaleX(0);transform-box:fill-box;transform-origin:left center"/>
+          <text x="290" y="256" text-anchor="end" fill="#e88e89" font-size="11" data-play="fadeIn|0.4s|ease|1.85s" style="opacity:0">25%</text>
+          <text x="697" y="256" text-anchor="start" fill="#F5E8C4" font-size="11" data-play="fadeIn|0.4s|ease|1.95s" style="opacity:0">100%</text>
+
+          <text x="210" y="296" text-anchor="middle" fill="#8aa0c4" font-size="9.5" letter-spacing="1">lo decide otro</text>
+          <text x="552" y="296" text-anchor="middle" fill="#c9a24a" font-size="9.5" letter-spacing="1">lo decides t&#250;</text>
+        </svg>
+      </div>
+      <sc-if value="{{ showCaptions }}" hint-placeholder-val="{{ true }}">
+        <p style="color:#4A4A4A;font-size:14px;line-height:1.65;margin:15px 2px 0;max-width:790px">{{ tx.c3.cap }}</p>
+      </sc-if>
+    </section>
+
+    <!-- ============ COMPONENT 4 ============ -->
+    <section data-anim-frame data-screen-label="04" style="margin-bottom:38px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:14px">
+        <div>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0;font-weight:600">{{ tx.c4.kicker }}</p>
+          <h2 style="font-family:'IBM Plex Serif',Georgia,serif;font-weight:500;color:#0C2340;font-size:26px;letter-spacing:-.01em;margin:8px 0 0">{{ tx.c4.title }}</h2>
+        </div>
+        <button data-replay style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#B7841F;background:transparent;border:1px solid #e3d9c0;padding:8px 13px;cursor:pointer;border-radius:3px;white-space:nowrap;flex:none">&#8635; {{ tx.replay }}</button>
+      </div>
+      <div style="background:#0C2340;border:1px solid #16294a;border-radius:4px;overflow:hidden">
+        <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block" font-family="'IBM Plex Mono', monospace">
+          <rect width="760" height="340" fill="#0C2340"/>
+          <text x="380" y="32" text-anchor="middle" fill="#B7841F" font-size="10.5" letter-spacing="2.5" font-weight="600">SOFTWARE IN A BOX &#183; ONE OS &#183; FOUR APPS</text>
+
+          <rect x="250" y="92" width="260" height="196" rx="10" fill="#11203a" stroke="#1F3A66" stroke-width="1.2"/>
+
+          <g data-play="lidOpen|1s|cubic-bezier(.4,0,.2,1)|0.2s" style="transform:translateY(0)">
+            <rect x="242" y="76" width="276" height="24" rx="6" fill="#B7841F"/>
+            <rect x="368" y="82" width="24" height="12" rx="3" fill="#0C2340"/>
+          </g>
+
+          <g data-play="drawLine|0.9s|ease|1.2s">
+            <line x1="323" y1="142" x2="437" y2="142" stroke="#9c7019" stroke-width="1.2" stroke-dasharray="120" stroke-dashoffset="120"/>
+          </g>
+          <line x1="323" y1="218" x2="437" y2="218" stroke="#9c7019" stroke-width="1.2" stroke-dasharray="120" stroke-dashoffset="120" data-play="drawLine|0.9s|ease|1.3s"/>
+          <line x1="323" y1="142" x2="323" y2="218" stroke="#9c7019" stroke-width="1.2" stroke-dasharray="80" stroke-dashoffset="80" data-play="drawLine|0.9s|ease|1.35s"/>
+          <line x1="437" y1="142" x2="437" y2="218" stroke="#9c7019" stroke-width="1.2" stroke-dasharray="80" stroke-dashoffset="80" data-play="drawLine|0.9s|ease|1.4s"/>
+
+          <g data-play="fadeUp|0.6s|ease|0.55s" style="opacity:0">
+            <rect x="270" y="112" width="106" height="60" rx="6" fill="#1F3A66"/>
+            <rect x="270" y="112" width="106" height="4" fill="#B7841F"/>
+            <text x="282" y="138" fill="#F5E8C4" font-size="15" font-family="'IBM Plex Serif', serif" font-weight="600">Core</text>
+            <text x="282" y="156" fill="#9fb2d4" font-size="9">audit &#183; runtime</text>
+          </g>
+          <g data-play="fadeUp|0.6s|ease|0.75s" style="opacity:0">
+            <rect x="384" y="112" width="106" height="60" rx="6" fill="#1F3A66"/>
+            <rect x="384" y="112" width="106" height="4" fill="#B7841F"/>
+            <text x="396" y="138" fill="#F5E8C4" font-size="15" font-family="'IBM Plex Serif', serif" font-weight="600">Vault</text>
+            <text x="396" y="156" fill="#9fb2d4" font-size="9">data space</text>
+          </g>
+          <g data-play="fadeUp|0.6s|ease|0.95s" style="opacity:0">
+            <rect x="270" y="188" width="106" height="60" rx="6" fill="#1F3A66"/>
+            <rect x="270" y="188" width="106" height="4" fill="#B7841F"/>
+            <text x="282" y="214" fill="#F5E8C4" font-size="15" font-family="'IBM Plex Serif', serif" font-weight="600">Hub</text>
+            <text x="282" y="232" fill="#9fb2d4" font-size="9">systems atlas</text>
+          </g>
+          <g data-play="fadeUp|0.6s|ease|1.15s" style="opacity:0">
+            <rect x="384" y="188" width="106" height="60" rx="6" fill="#1F3A66"/>
+            <rect x="384" y="188" width="106" height="4" fill="#B7841F"/>
+            <text x="396" y="214" fill="#F5E8C4" font-size="15" font-family="'IBM Plex Serif', serif" font-weight="600">Nexus</text>
+            <text x="396" y="232" fill="#9fb2d4" font-size="9">orchestrator</text>
+          </g>
+
+          <g data-play="fadeIn|0.7s|ease|1.5s" style="opacity:0">
+            <rect x="270" y="258" width="220" height="22" rx="4" fill="#16294a"/>
+            <text x="280" y="273" fill="#F5E8C4" font-size="9.5" letter-spacing="1.5" font-weight="600">THE FABRIC &#183; BRIDGE &#183; SHIELD &#183; CHAIN</text>
+          </g>
+
+          <text x="612" y="150" fill="#7fae93" font-size="10" letter-spacing="1">CERTIFIED</text>
+          <text x="612" y="166" fill="#7fae93" font-size="10" letter-spacing="1">APPLIANCE</text>
+          <text x="612" y="210" fill="#9fb2d4" font-size="10" letter-spacing="1">CUSTOMER</text>
+          <text x="612" y="226" fill="#9fb2d4" font-size="10" letter-spacing="1">PERIMETER</text>
+        </svg>
+      </div>
+      <sc-if value="{{ showCaptions }}" hint-placeholder-val="{{ true }}">
+        <p style="color:#4A4A4A;font-size:14px;line-height:1.65;margin:15px 2px 0;max-width:790px">{{ tx.c4.cap }}</p>
+      </sc-if>
+    </section>
+
+    <!-- ============ COMPONENT 5 ============ -->
+    <section data-anim-frame data-screen-label="05" style="margin-bottom:10px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:14px">
+        <div>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0;font-weight:600">{{ tx.c5.kicker }}</p>
+          <h2 style="font-family:'IBM Plex Serif',Georgia,serif;font-weight:500;color:#0C2340;font-size:26px;letter-spacing:-.01em;margin:8px 0 0">{{ tx.c5.title }}</h2>
+        </div>
+        <button data-replay style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#B7841F;background:transparent;border:1px solid #e3d9c0;padding:8px 13px;cursor:pointer;border-radius:3px;white-space:nowrap;flex:none">&#8635; {{ tx.replay }}</button>
+      </div>
+      <div style="background:#0C2340;border:1px solid #16294a;border-radius:4px;overflow:hidden">
+        <svg viewBox="0 0 760 340" style="width:100%;height:auto;display:block" font-family="'IBM Plex Mono', monospace">
+          <rect width="760" height="340" fill="#0C2340"/>
+          <text x="40" y="40" fill="#B7841F" font-size="10.5" letter-spacing="2.5" font-weight="600">IMMUTABLE AUDIT CHAIN</text>
+
+          <line x1="200" y1="178" x2="240" y2="178" stroke="#B7841F" stroke-width="1.6" stroke-dasharray="40" stroke-dashoffset="40" data-play="drawLine|0.4s|ease|0.7s"/>
+          <line x1="370" y1="178" x2="410" y2="178" stroke="#B7841F" stroke-width="1.6" stroke-dasharray="40" stroke-dashoffset="40" data-play="drawLine|0.4s|ease|1.2s"/>
+          <line x1="540" y1="178" x2="580" y2="178" stroke="#B7841F" stroke-width="1.6" stroke-dasharray="40" stroke-dashoffset="40" data-play="drawLine|0.4s|ease|1.7s"/>
+
+          <g data-play="pop|0.5s|cubic-bezier(.2,1.3,.3,1)|0.3s|1|normal|forwards" style="opacity:0;transform-box:fill-box;transform-origin:center">
+            <rect x="70" y="124" width="130" height="108" rx="8" fill="#1F3A66" stroke="#2c477a"/>
+            <rect x="70" y="124" width="130" height="4" fill="#B7841F"/>
+            <text x="84" y="150" fill="#F5E8C4" font-size="11" font-weight="700" letter-spacing="1">BLOCK 01</text>
+            <text x="84" y="176" fill="#9fb2d4" font-size="9">prev &#8230; 0000</text>
+            <text x="84" y="194" fill="#cbd6ea" font-size="10">#7f3a&#8230;c2</text>
+            <text x="84" y="218" fill="#7fae93" font-size="9" letter-spacing="1">&#10003; SEALED</text>
+          </g>
+          <g data-play="pop|0.5s|cubic-bezier(.2,1.3,.3,1)|0.8s|1|normal|forwards" style="opacity:0;transform-box:fill-box;transform-origin:center">
+            <rect x="240" y="124" width="130" height="108" rx="8" fill="#1F3A66" stroke="#2c477a"/>
+            <rect x="240" y="124" width="130" height="4" fill="#B7841F"/>
+            <text x="254" y="150" fill="#F5E8C4" font-size="11" font-weight="700" letter-spacing="1">BLOCK 02</text>
+            <text x="254" y="176" fill="#9fb2d4" font-size="9">prev &#8230; 7f3a</text>
+            <text x="254" y="194" fill="#cbd6ea" font-size="10">#b18e&#8230;4d</text>
+            <text x="254" y="218" fill="#7fae93" font-size="9" letter-spacing="1">&#10003; SEALED</text>
+          </g>
+          <g data-play="pop|0.5s|cubic-bezier(.2,1.3,.3,1)|1.3s|1|normal|forwards" style="opacity:0;transform-box:fill-box;transform-origin:center">
+            <rect x="410" y="124" width="130" height="108" rx="8" fill="#1F3A66" stroke="#2c477a"/>
+            <rect x="410" y="124" width="130" height="4" fill="#B7841F"/>
+            <text x="424" y="150" fill="#F5E8C4" font-size="11" font-weight="700" letter-spacing="1">BLOCK 03</text>
+            <text x="424" y="176" fill="#9fb2d4" font-size="9">prev &#8230; b18e</text>
+            <text x="424" y="194" fill="#cbd6ea" font-size="10">#2c47&#8230;9a</text>
+            <text x="424" y="218" fill="#7fae93" font-size="9" letter-spacing="1">&#10003; SEALED</text>
+          </g>
+          <g data-play="pop|0.5s|cubic-bezier(.2,1.3,.3,1)|1.8s|1|normal|forwards" style="opacity:0;transform-box:fill-box;transform-origin:center">
+            <rect x="580" y="124" width="130" height="108" rx="8" fill="#1F3A66" stroke="#B7841F" stroke-width="1.4"/>
+            <rect x="580" y="124" width="130" height="4" fill="#B7841F"/>
+            <text x="594" y="150" fill="#F5E8C4" font-size="11" font-weight="700" letter-spacing="1">BLOCK 04</text>
+            <text x="594" y="176" fill="#9fb2d4" font-size="9">prev &#8230; 2c47</text>
+            <text x="594" y="194" fill="#cbd6ea" font-size="10">#e8a1&#8230;f0</text>
+            <text x="594" y="218" fill="#F5E8C4" font-size="9" letter-spacing="1">&#10003; LIVE</text>
+          </g>
+
+          <text x="40" y="290" fill="#7f93b4" font-size="11" font-style="italic" font-family="'IBM Plex Serif', serif">cada bloque sella el anterior &#183; no se puede alterar</text>
+        </svg>
+      </div>
+      <sc-if value="{{ showCaptions }}" hint-placeholder-val="{{ true }}">
+        <p style="color:#4A4A4A;font-size:14px;line-height:1.65;margin:15px 2px 0;max-width:790px">{{ tx.c5.cap }}</p>
+      </sc-if>
+    </section>
+
+    <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;color:#8A8A8A;margin:40px 2px 0;border-top:1px solid #E5E5E2;padding-top:24px">{{ tx.footnote }}</p>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;lang&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;es&quot;,&quot;options&quot;:[&quot;es&quot;,&quot;en&quot;],&quot;tsType&quot;:&quot;'es'|'en'&quot;},&quot;motionOff&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showCaptions&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = { lang: this.props.lang || 'es' };
+
+  componentDidMount() {
+    const root = this._root;
+    if (!root) return;
+    this.reduced = !!this.props.motionOff || (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    const frames = Array.from(root.querySelectorAll('[data-anim-frame]'));
+    if (this.reduced) { frames.forEach(f => this.finalize(f)); return; }
+    const io = new IntersectionObserver((ents) => {
+      ents.forEach(e => {
+        if (e.isIntersecting && !e.target.__played) {
+          e.target.__played = true;
+          this.playFrame(e.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    frames.forEach(f => io.observe(f));
+    this._io = io;
+    this._onClick = (ev) => {
+      const b = ev.target.closest && ev.target.closest('[data-replay]');
+      if (!b) return;
+      const f = b.closest('[data-anim-frame]');
+      if (f) this.playFrame(f);
+    };
+    root.addEventListener('click', this._onClick);
+  }
+
+  componentWillUnmount() {
+    if (this._io) this._io.disconnect();
+    if (this._root && this._onClick) this._root.removeEventListener('click', this._onClick);
+  }
+
+  playFrame(frame) {
+    if (this.reduced) return this.finalize(frame);
+    frame.querySelectorAll('[data-play]').forEach(el => {
+      const p = el.dataset.play.split('|');
+      const name = p[0], dur = p[1], ease = p[2] || 'ease', delay = p[3] || '0s',
+            iter = p[4] || '1', dir = p[5] || 'normal', fill = p[6] || 'forwards';
+      el.style.animation = 'none';
+      void el.offsetWidth;
+      el.style.animation = name + ' ' + dur + ' ' + ease + ' ' + delay + ' ' + iter + ' ' + dir + ' ' + fill;
+    });
+    frame.querySelectorAll('[data-flow]').forEach(dot => {
+      const b = +(dot.dataset.begin || 0);
+      const am = dot.querySelector('animateMotion');
+      dot.style.opacity = '0';
+      if (dot.__t) clearTimeout(dot.__t);
+      dot.__t = setTimeout(() => {
+        dot.style.opacity = '1';
+        if (am && am.beginElement) { try { am.beginElement(); } catch (e) {} }
+      }, b);
+    });
+  }
+
+  finalize(frame) {
+    frame.querySelectorAll('[data-play]').forEach(el => {
+      el.style.animation = 'none';
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+      el.style.strokeDashoffset = '0';
+    });
+    frame.querySelectorAll('[data-flow]').forEach(d => { d.style.opacity = '1'; });
+  }
+
+  renderVals() {
+    const L = {
+      es: {
+        eyebrow: 'SOFTWARE IN A BOX · COMPONENTES EN MOVIMIENTO',
+        title: 'Inteligencia artificial propietaria, en movimiento.',
+        sub: 'Del cloud al servidor de IA propio de tu empresa. Control total, sin dependencia de hiperescalares.',
+        replay: 'Repetir',
+        footnote: 'Cada componente se reproduce solo al entrar en pantalla · pulsa ↻ para repetir · ES / EN conmutable.',
+        c1: { kicker: '01 · LA MIGRACIÓN', title: 'El corte del cable', cap: 'La inferencia deja de viajar al hiperescalar. El cable se corta y el cómputo se reenruta a tu servidor propio, dentro de tus instalaciones.' },
+        c2: { kicker: '02 · EL PERÍMETRO', title: 'Zero egress — los datos no salen', cap: 'Dentro del perímetro físico del cliente los datos circulan libres. En el borde, todo intento de salida se bloquea. Paquetes que salen: cero.' },
+        c3: { kicker: '03 · CONTROL TOTAL', title: 'Hiperescalar vs. propietario', cap: 'Soberanía, coste, latencia y auditabilidad. En un servidor propietario el control llega al 100 %. En el hiperescalar, lo decide otro.' },
+        c4: { kicker: '04 · LA CAJA', title: 'Un appliance, cuatro aplicaciones', cap: 'La caja se abre y revela un sistema operativo cognitivo —Core, Vault, Hub y Nexus— unido por The Fabric. Eso es software in a box.' },
+        c5: { kicker: '05 · LA PRUEBA', title: 'Cadena de auditoría inmutable', cap: 'Cada operación se sella criptográficamente y se encadena a la anterior. Una traza verificable que no se puede alterar.' }
+      },
+      en: {
+        eyebrow: 'SOFTWARE IN A BOX · COMPONENTS IN MOTION',
+        title: 'Proprietary AI, in motion.',
+        sub: 'From the cloud to your company’s own AI server. Total control, zero hyperscaler dependency.',
+        replay: 'Replay',
+        footnote: 'Each component plays itself on scroll into view · press ↻ to replay · switchable ES / EN.',
+        c1: { kicker: '01 · THE MIGRATION', title: 'Cutting the cord', cap: 'Inference stops travelling to the hyperscaler. The cord is cut and compute reroutes to your own server, inside your premises.' },
+        c2: { kicker: '02 · THE PERIMETER', title: 'Zero egress — data never leaves', cap: 'Inside the customer’s physical perimeter data moves freely. At the edge, every attempt to leave is blocked. Packets that left: zero.' },
+        c3: { kicker: '03 · TOTAL CONTROL', title: 'Hyperscaler vs. proprietary', cap: 'Sovereignty, cost, latency and auditability. On a proprietary server control reaches 100%. On the hyperscaler, someone else decides.' },
+        c4: { kicker: '04 · THE BOX', title: 'One appliance, four applications', cap: 'The box opens to reveal a cognitive operating system —Core, Vault, Hub and Nexus— bound by The Fabric. That is software in a box.' },
+        c5: { kicker: '05 · THE PROOF', title: 'Immutable audit chain', cap: 'Every operation is cryptographically sealed and chained to the previous one. A verifiable trace that cannot be altered.' }
+      }
+    };
+    const lang = this.state.lang;
+    const tx = L[lang] || L.es;
+    const base = "font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:8px 15px;cursor:pointer;border-radius:3px;transition:all .18s;";
+    const active = 'color:#FAFAF8;background:#0C2340;border:1px solid #0C2340;';
+    const idle = 'color:#8A8A8A;background:#fff;border:1px solid #d9d9d4;';
+    return {
+      lang,
+      tx,
+      setRoot: (el) => { this._root = el; },
+      pickEs: () => this.setState({ lang: 'es' }),
+      pickEn: () => this.setState({ lang: 'en' }),
+      esStyle: base + (lang === 'es' ? active : idle),
+      enStyle: base + (lang === 'en' ? active : idle),
+      showCaptions: this.props.showCaptions != null ? this.props.showCaptions : true
+    };
+  }
+}
+</script>
+</body>
+</html>

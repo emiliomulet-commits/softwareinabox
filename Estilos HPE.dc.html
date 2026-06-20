@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0}
+  .swatch{transition:transform .15s ease, box-shadow .15s ease;cursor:pointer}
+  .swatch:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.14)}
+  .hpe-btn{transition:all .16s ease;cursor:pointer}
+</style>
+</helmet>
+
+<div style="background:#F4F5F5;min-height:100vh;font-family:'Hanken Grotesk',sans-serif;color:#425563">
+
+  <!-- TOP BAR -->
+  <div style="background:#fff;border-bottom:1px solid #DDE0E0;padding:16px 40px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10">
+    <div style="display:flex;align-items:center;gap:16px">
+      <!-- HPE element mark -->
+      <div style="display:flex;align-items:center;gap:11px">
+        <div style="width:46px;height:24px;border:3px solid #00B388"></div>
+        <div style="line-height:1.05">
+          <p style="font-family:'Archivo',sans-serif;font-weight:700;font-size:9px;letter-spacing:.02em;color:#425563;margin:0;text-transform:none">Hewlett Packard</p>
+          <p style="font-family:'Archivo',sans-serif;font-weight:700;font-size:9px;letter-spacing:.02em;color:#425563;margin:0">Enterprise</p>
+        </div>
+      </div>
+      <div style="width:1px;height:26px;background:#DDE0E0"></div>
+      <span style="font-family:'Archivo',sans-serif;font-weight:600;font-size:13px;letter-spacing:.02em;color:#425563">Software in a Box</span>
+    </div>
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#80746E;text-transform:uppercase">Tablilla de estilos · v1</span>
+  </div>
+
+  <div style="max-width:1160px;margin:0 auto;padding:56px 40px 96px">
+
+    <!-- TITLE -->
+    <p style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#00B388;margin:0">Brand System · HPE</p>
+    <h1 style="font-family:'Archivo',sans-serif;font-weight:800;font-size:52px;line-height:1.02;letter-spacing:-.02em;margin:16px 0 0;color:#425563">Estilos y colores HPE</h1>
+    <p style="font-size:17px;line-height:1.6;color:#5F7A76;margin:18px 0 0;max-width:640px">Paleta, tipografía y componentes para alinear la plataforma con la identidad de Hewlett Packard Enterprise. Haz clic en cualquier muestra para copiar su valor HEX.</p>
+
+    <!-- ===== PRIMARY ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #425563;padding-bottom:12px">
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#425563">01 · Color primario</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E">HPE GREEN</span>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-top:28px">
+        <!-- Big green -->
+        <div class="swatch" data-hex="#00B388" onClick="{{ onCopy }}" style="background:#00B388;border-radius:4px;padding:32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;color:#fff">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;opacity:.9">PMS 339</span>
+          <div>
+            <p style="font-family:'Archivo',sans-serif;font-weight:800;font-size:30px;margin:0;letter-spacing:-.01em">HPE Green</p>
+            <div style="display:flex;gap:24px;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px">
+              <span>#00B388</span><span>RGB 0·179·136</span>
+            </div>
+            <p style="font-size:13px;line-height:1.55;margin:14px 0 0;max-width:380px;opacity:.95">Color de firma. Innovación, confianza y sofisticación técnica. Reservado para acentos y elementos clave.</p>
+          </div>
+        </div>
+        <!-- Fiord -->
+        <div class="swatch" data-hex="#425563" onClick="{{ onCopy }}" style="background:#425563;border-radius:4px;padding:32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;color:#fff">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;opacity:.8">PMS 7545</span>
+          <div>
+            <p style="font-family:'Archivo',sans-serif;font-weight:800;font-size:30px;margin:0;letter-spacing:-.01em">Fiord</p>
+            <div style="display:flex;gap:24px;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px;opacity:.92">
+              <span>#425563</span><span>RGB 66·85·99</span>
+            </div>
+            <p style="font-size:13px;line-height:1.55;margin:14px 0 0;opacity:.88">Gris azulado. Estabilidad. Color principal de tipografía y estructura.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== VIBRANT ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #425563;padding-bottom:12px">
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#425563">02 · Colores vibrantes</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E">ACCENTS</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px">
+        <sc-for list="{{ vibrant }}" as="c" hint-placeholder-count="3">
+          <div class="swatch" data-hex="{{ c.hex }}" onClick="{{ onCopy }}" style="border-radius:4px;overflow:hidden;border:1px solid #DDE0E0;background:#fff">
+            <div style="height:130px;background:{{ c.hex }}"></div>
+            <div style="padding:16px">
+              <p style="font-family:'Archivo',sans-serif;font-weight:700;font-size:16px;margin:0;color:#425563">{{ c.name }}</p>
+              <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E;margin:6px 0 0">{{ c.hex }} · {{ c.pms }}</p>
+              <p style="font-size:12px;line-height:1.45;color:#5F7A76;margin:10px 0 0">{{ c.note }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- ===== NEUTRALS ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #425563;padding-bottom:12px">
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#425563">03 · Neutrales</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E">GRAY RAMP · UI</span>
+      </div>
+      <div style="display:flex;border-radius:4px;overflow:hidden;margin-top:28px;border:1px solid #DDE0E0">
+        <sc-for list="{{ neutrals }}" as="n" hint-placeholder-count="6">
+          <div class="swatch" data-hex="{{ n.hex }}" onClick="{{ onCopy }}" style="flex:1;background:{{ n.hex }};height:130px;display:flex;flex-direction:column;justify-content:flex-end;padding:12px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:{{ n.fg }}">{{ n.hex }}</span>
+            <span style="font-family:'Archivo',sans-serif;font-weight:600;font-size:11px;color:{{ n.fg }};margin-top:2px">{{ n.name }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- ===== TYPOGRAPHY ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #425563;padding-bottom:12px">
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#425563">04 · Tipografía</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E">METRIC → ARCHIVO (WEB)</span>
+      </div>
+      <div style="background:#fff;border:1px solid #DDE0E0;border-radius:4px;padding:36px;margin-top:28px">
+        <p style="font-size:13px;color:#5F7A76;margin:0 0 28px;line-height:1.6;max-width:680px">Metric (Klim) es la tipografía corporativa de HPE. Para web usamos <strong style="color:#425563">Archivo</strong> en titulares y <strong style="color:#425563">Hanken Grotesk</strong> en cuerpo como sustitutos grotescos cercanos.</p>
+
+        <div style="border-top:1px solid #E8EAEA;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E;width:130px;flex:none">Display · 800</span>
+          <span style="font-family:'Archivo',sans-serif;font-weight:800;font-size:46px;letter-spacing:-.02em;line-height:1;color:#425563">Inteligencia propietaria</span>
+        </div>
+        <div style="border-top:1px solid #E8EAEA;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E;width:130px;flex:none">H2 · 700</span>
+          <span style="font-family:'Archivo',sans-serif;font-weight:700;font-size:32px;letter-spacing:-.01em;color:#425563">Servidor de IA en una caja</span>
+        </div>
+        <div style="border-top:1px solid #E8EAEA;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E;width:130px;flex:none">H3 · 600</span>
+          <span style="font-family:'Archivo',sans-serif;font-weight:600;font-size:22px;color:#425563">Control total, cero dependencia</span>
+        </div>
+        <div style="border-top:1px solid #E8EAEA;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E;width:130px;flex:none">Body · 400</span>
+          <span style="font-family:'Hanken Grotesk',sans-serif;font-weight:400;font-size:16px;line-height:1.6;max-width:560px;color:#5F7A76">La inferencia se ejecuta dentro de tu perímetro físico. Cero egress, por arquitectura — no por contrato. Tus datos nunca salen de tu empresa.</span>
+        </div>
+        <div style="border-top:1px solid #E8EAEA;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E;width:130px;flex:none">Label · mono</span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:#00B388">ZERO EGRESS · GDPR · EU AI ACT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPONENTS ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #425563;padding-bottom:12px">
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#425563">05 · Componentes</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#80746E">BUTTONS · ELEMENT · ACCENT</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px">
+        <!-- buttons -->
+        <div style="background:#fff;border:1px solid #DDE0E0;border-radius:4px;padding:32px">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#80746E;margin:0 0 22px">BOTONES</p>
+          <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+            <button class="hpe-btn" style="background:#00B388;color:#fff;border:2px solid #00B388;font-family:'Archivo',sans-serif;font-weight:600;font-size:14px;padding:13px 26px;border-radius:2px" style-hover="background:#009974;border-color:#009974">Solicitar demo</button>
+            <button class="hpe-btn" style="background:transparent;color:#425563;border:2px solid #425563;font-family:'Archivo',sans-serif;font-weight:600;font-size:14px;padding:13px 26px;border-radius:2px" style-hover="background:#425563;color:#fff">Arquitectura</button>
+            <button class="hpe-btn" style="background:transparent;color:#00B388;border:none;font-family:'Archivo',sans-serif;font-weight:600;font-size:14px;padding:13px 4px;display:inline-flex;gap:8px;align-items:center" style-hover="gap:12px">Saber más →</button>
+          </div>
+          <div style="margin-top:26px;display:flex;gap:14px;flex-wrap:wrap">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#00876A;background:#E0F5EF;padding:6px 12px;border-radius:2px">HPE GREEN</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#1FA39B;background:#E0F6F5;padding:6px 12px;border-radius:2px">AQUA</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#D9633F;background:#FFEAE2;padding:6px 12px;border-radius:2px">CORAL</span>
+          </div>
+        </div>
+        <!-- element motif -->
+        <div style="background:#fff;border:1px solid #DDE0E0;border-radius:4px;padding:32px">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#80746E;margin:0 0 22px">EL ELEMENTO · LOGO LOCKUP</p>
+          <div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap">
+            <div style="width:72px;height:38px;border:4px solid #00B388"></div>
+            <div style="width:72px;height:38px;background:#00B388"></div>
+            <div style="width:72px;height:38px;border:4px solid #fff;background:#425563"></div>
+          </div>
+          <p style="font-size:13px;line-height:1.55;color:#5F7A76;margin:20px 0 0">«El elemento» —el rectángulo verde abierto— es el activo de marca distintivo de HPE. Encuadra contenido y firma la comunicación sin competir con el mensaje.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== NOTE ===== -->
+    <div style="margin-top:48px">
+      <div style="background:#E0F5EF;border-left:3px solid #00B388;border-radius:2px;padding:24px">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#00876A;margin:0 0 8px">NOTA DE USO</p>
+        <p style="font-size:13px;line-height:1.6;color:#425563;margin:0;max-width:760px">Valores tomados del spec de color oficial de HPE (PMS/RGB/HEX). HPE Green (#00B388) se reserva para acentos y elementos de marca; los fondos y la tipografía se apoyan en blanco y en la gama Fiord/neutros. El verde metálico está reservado para aplicaciones premium y eventos.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TOAST -->
+  <sc-if value="{{ copied }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:#425563;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.06em;padding:12px 22px;border-radius:3px;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.25)">Copiado · {{ copied }}</div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1240,&quot;height&quot;:1700}}">
+class Component extends DCLogic {
+  state = { copied: null };
+
+  vibrant = [
+    { name: "Aqua", hex: "#2AD2C9", pms: "PMS 2227", note: "Acento fresco para datos, gráficos y estados activos." },
+    { name: "Coral", hex: "#FF8D6D", pms: "PMS 1635", note: "Energía y alerta cálida. Úsalo con moderación." },
+    { name: "Purple", hex: "#614767", pms: "PMS 5195", note: "Profundidad y contraste para fondos sofisticados." }
+  ];
+
+  neutrals = [
+    { name: "White", hex: "#FFFFFF", fg: "#80746E" },
+    { name: "Light Gray", hex: "#C6C9CA", fg: "#425563" },
+    { name: "Slate Green", hex: "#5F7A76", fg: "#fff" },
+    { name: "Warm Gray", hex: "#80746E", fg: "#fff" },
+    { name: "Fiord", hex: "#425563", fg: "#fff" },
+    { name: "Black", hex: "#000000", fg: "#fff" }
+  ];
+
+  copy(hex) {
+    try { navigator.clipboard && navigator.clipboard.writeText(hex); } catch (e) {}
+    this.setState({ copied: hex });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ copied: null }), 1400);
+  }
+
+  componentWillUnmount() { clearTimeout(this._t); }
+
+  renderVals() {
+    return {
+      vibrant: this.vibrant,
+      neutrals: this.neutrals,
+      copied: this.state.copied,
+      onCopy: (e) => this.copy(e.currentTarget.getAttribute("data-hex"))
+    };
+  }
+}
+</script>
+</body>
+</html>

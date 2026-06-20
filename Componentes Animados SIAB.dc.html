@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0}
+  @keyframes siab-fade{from{opacity:0}to{opacity:1}}
+  /* play gating */
+  [data-scene] .j{animation-play-state:paused}
+  [data-scene].play .j{animation-play-state:running}
+  @media (prefers-reduced-motion: reduce){ [data-scene] .j{animation:none!important;opacity:1!important;filter:none!important;transform:none!important} }
+
+  /* ===== HERO radar ===== */
+  .h-sweep{animation:siab-spin 7s linear infinite}
+  .h-ring{animation:siab-hpulse 4s ease-out infinite}
+  [data-scene] .h-ring:nth-of-type(2){animation-delay:1.3s}
+  [data-scene] .h-ring:nth-of-type(3){animation-delay:2.6s}
+  .h-core{animation:siab-glow 3.4s ease-in-out infinite}
+  .h-blip{animation:siab-blip 7s linear infinite}
+  @keyframes siab-spin{to{transform:rotate(360deg)}}
+  @keyframes siab-hpulse{0%{transform:scale(.45);opacity:0}25%{opacity:.6}100%{transform:scale(1.25);opacity:0}}
+  @keyframes siab-glow{0%,100%{box-shadow:0 0 0 0 rgba(183,132,31,.0)}50%{box-shadow:0 0 34px 4px rgba(183,132,31,.45)}}
+  @keyframes siab-blip{0%,92%{opacity:0;transform:scale(.5)}94%{opacity:1;transform:scale(1.2)}100%{opacity:0;transform:scale(.5)}}
+
+  /* ===== Scene 1 cord ===== */
+  .s1-edot{animation:siab-s1up 2.8s ease-in forwards}
+  [data-scene] .s1-edot:nth-of-type(2){animation-delay:.35s}
+  [data-scene] .s1-edot:nth-of-type(3){animation-delay:.7s}
+  .s1-cut{animation:siab-s1cut .55s cubic-bezier(.2,.9,.3,1.4) 1.25s both}
+  .s1-cloud{animation:siab-s1cloud 1s ease 1.3s forwards}
+  .s1-cabletop{animation:siab-s1dim .6s ease 1.3s forwards}
+  .s1-orbit{animation:siab-spin 3.4s linear 1.7s infinite}
+  .s1-ring{animation:siab-s1ring 2.2s ease-out 1.7s infinite}
+  .s1-loopcap{animation:siab-fade .7s ease 1.9s both;opacity:0}
+  @keyframes siab-s1up{0%{transform:translateY(0);opacity:0}12%{opacity:1}45%{transform:translateY(-118px);opacity:1}56%{opacity:0}100%{opacity:0}}
+  @keyframes siab-s1cut{0%{transform:translate(-50%,-50%) scale(0)}60%{transform:translate(-50%,-50%) scale(1.35)}100%{transform:translate(-50%,-50%) scale(1);opacity:1}}
+  @keyframes siab-s1cloud{to{filter:grayscale(1);opacity:.28}}
+  @keyframes siab-s1dim{to{opacity:.12}}
+  @keyframes siab-s1ring{0%{transform:scale(.7);opacity:.55}100%{transform:scale(1.5);opacity:0}}
+  @keyframes siab-fade{to{opacity:1}}
+
+  /* ===== Scene 2 perimeter ===== */
+  .s2-rot{animation:siab-spin 22s linear infinite}
+  .s2-dot{animation:siab-s2breathe 3.4s ease-in-out infinite alternate}
+  [data-scene] .s2-arm:nth-of-type(2) .s2-dot{animation-delay:.5s}
+  [data-scene] .s2-arm:nth-of-type(3) .s2-dot{animation-delay:1s}
+  [data-scene] .s2-arm:nth-of-type(4) .s2-dot{animation-delay:1.5s}
+  [data-scene] .s2-arm:nth-of-type(5) .s2-dot{animation-delay:2s}
+  [data-scene] .s2-arm:nth-of-type(6) .s2-dot{animation-delay:2.5s}
+  .s2-border{animation:siab-s2pulse 3.2s ease-in-out infinite}
+  @keyframes siab-s2breathe{from{transform:translateX(58px)}to{transform:translateX(96px)}}
+  @keyframes siab-s2pulse{0%,100%{opacity:.45}50%{opacity:1}}
+
+  /* ===== Scene 3 split ===== */
+  .s3-tl{animation:siab-s3tl 2.6s ease-in-out infinite}
+  .s3-tr{animation:siab-s3tr 2.6s ease-in-out .4s infinite}
+  .s3-bl{animation:siab-s3bl 2.6s ease-in-out .8s infinite}
+  .s3-br{animation:siab-s3br 2.6s ease-in-out 1.2s infinite}
+  .s3-rot{animation:siab-spin 3.2s linear infinite}
+  @keyframes siab-s3tl{0%{transform:translate(0,0);opacity:0}15%{opacity:1}80%{opacity:1}100%{transform:translate(-78px,-58px);opacity:0}}
+  @keyframes siab-s3tr{0%{transform:translate(0,0);opacity:0}15%{opacity:1}80%{opacity:1}100%{transform:translate(78px,-58px);opacity:0}}
+  @keyframes siab-s3bl{0%{transform:translate(0,0);opacity:0}15%{opacity:1}80%{opacity:1}100%{transform:translate(-78px,58px);opacity:0}}
+  @keyframes siab-s3br{0%{transform:translate(0,0);opacity:0}15%{opacity:1}80%{opacity:1}100%{transform:translate(78px,58px);opacity:0}}
+
+  /* ===== Scene 4 box ===== */
+  .s4-lid{animation:siab-s4lid 1.1s cubic-bezier(.3,.7,.2,1) .3s forwards}
+  .s4-layer{animation:siab-s4layer .75s cubic-bezier(.2,.7,.2,1) both}
+  [data-scene] .s4-layer:nth-of-type(1){animation-delay:.55s}
+  [data-scene] .s4-layer:nth-of-type(2){animation-delay:.75s}
+  [data-scene] .s4-layer:nth-of-type(3){animation-delay:.95s}
+  [data-scene] .s4-layer:nth-of-type(4){animation-delay:1.15s}
+  .s4-scan{animation:siab-s4scan 1.8s ease-in-out 1.5s forwards}
+  @keyframes siab-s4lid{0%{transform:rotateX(0)}100%{transform:rotateX(-115deg)}}
+  @keyframes siab-s4layer{0%{transform:translateY(34px);opacity:0}100%{transform:translateY(0);opacity:1}}
+  @keyframes siab-s4scan{0%{transform:translateY(0);opacity:0}15%{opacity:.85}100%{transform:translateY(150px);opacity:0}}
+</style>
+</helmet>
+
+<div style="background:#FAFAF8;min-height:100vh;font-family:'IBM Plex Sans',sans-serif;padding:56px 24px 96px">
+  <div style="max-width:1200px;margin:0 auto">
+
+    <!-- HEADER -->
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;border-bottom:1px solid #E5E5E2;padding-bottom:32px">
+      <div style="max-width:720px">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#B7841F;margin:0">SOFTWARE IN A BOX</p>
+        <h1 style="font-family:'IBM Plex Serif',serif;font-weight:500;font-size:46px;line-height:1.04;letter-spacing:-.015em;color:#0C2340;margin:18px 0 0">{{ c.title }}</h1>
+        <p style="font-size:16px;line-height:1.65;color:#4A4A4A;margin:18px 0 0;max-width:620px">{{ c.subtitle }}</p>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.15em;color:#8A8A8A">IDIOMA</span>
+        <div style="display:flex;border:1px solid #0C2340">
+          <button onClick="{{ setES }}" style="{{ esStyle }}">ES</button>
+          <button onClick="{{ setEN }}" style="{{ enStyle }}">EN</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO BAND -->
+    <div data-scene="hero" style="position:relative;overflow:hidden;background:#0C2340;border:1px solid #1F3A66;margin-top:40px;padding:56px 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;min-height:380px">
+      <div style="position:relative;z-index:2">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:#B7841F;margin:0">{{ c.heroEyebrow }}</p>
+        <h2 style="font-family:'IBM Plex Serif',serif;font-weight:500;font-size:42px;line-height:1.08;letter-spacing:-.015em;color:#FAFAF8;margin:20px 0 0;max-width:460px">{{ c.heroTitle }}</h2>
+        <div style="display:flex;gap:28px;margin-top:34px;border-top:1px solid rgba(183,132,31,.45);padding-top:22px">
+          <div><p style="font-family:'IBM Plex Serif',serif;font-size:30px;color:#B7841F;margin:0">0</p><p style="font-size:12px;color:rgba(250,250,248,.7);margin:6px 0 0">{{ c.heroStat1 }}</p></div>
+          <div><p style="font-family:'IBM Plex Serif',serif;font-size:30px;color:#B7841F;margin:0">100%</p><p style="font-size:12px;color:rgba(250,250,248,.7);margin:6px 0 0">{{ c.heroStat2 }}</p></div>
+          <div><p style="font-family:'IBM Plex Serif',serif;font-size:30px;color:#B7841F;margin:0">1</p><p style="font-size:12px;color:rgba(250,250,248,.7);margin:6px 0 0">{{ c.heroStat3 }}</p></div>
+        </div>
+      </div>
+      <!-- radar -->
+      <div style="position:relative;height:300px">
+        <div style="position:absolute;top:50%;left:50%;width:300px;height:300px;transform:translate(-50%,-50%)">
+          <div class="j h-ring" style="position:absolute;inset:0;border:1px solid rgba(183,132,31,.55);border-radius:50%"></div>
+          <div class="j h-ring" style="position:absolute;inset:0;border:1px solid rgba(183,132,31,.55);border-radius:50%"></div>
+          <div class="j h-ring" style="position:absolute;inset:0;border:1px solid rgba(183,132,31,.55);border-radius:50%"></div>
+          <div style="position:absolute;inset:38px;border:1px dashed rgba(250,250,248,.18);border-radius:50%"></div>
+          <div style="position:absolute;inset:86px;border:1px dashed rgba(250,250,248,.12);border-radius:50%"></div>
+          <!-- sweep -->
+          <div class="j h-sweep" style="position:absolute;top:50%;left:50%;width:150px;height:150px;transform-origin:0 0">
+            <div style="position:absolute;top:0;left:0;width:150px;height:150px;background:conic-gradient(from 0deg, rgba(183,132,31,.32), rgba(183,132,31,0) 70deg);border-radius:0 100% 0 0"></div>
+          </div>
+          <!-- blips -->
+          <div class="j h-blip" style="position:absolute;top:62px;left:210px;width:7px;height:7px;border-radius:50%;background:#2E7D4F"></div>
+          <!-- core -->
+          <div class="j h-core" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:86px;height:86px;background:#0C2340;border:1.5px solid #B7841F;display:flex;align-items:center;justify-content:center;flex-direction:column">
+            <div style="width:30px;height:30px;border:1.5px solid #B7841F"></div>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.12em;color:#F5E8C4;margin-top:7px">CORE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRID -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:28px">
+
+      <!-- CARD 1 cord -->
+      <div data-scene="s1" style="background:#fff;border:1px solid #E5E5E2;display:flex;flex-direction:column">
+        <div style="padding:28px 28px 0">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0">{{ c.s1label }}</p>
+          <h3 style="font-family:'IBM Plex Serif',serif;font-weight:500;font-size:24px;color:#0C2340;margin:10px 0 0;letter-spacing:-.01em">{{ c.s1title }}</h3>
+          <p style="font-size:14px;line-height:1.6;color:#4A4A4A;margin:10px 0 0">{{ c.s1desc }}</p>
+        </div>
+        <div style="position:relative;height:300px;margin-top:8px">
+          <!-- cloud -->
+          <div class="j s1-cloud" style="position:absolute;top:26px;left:50%;transform:translateX(-50%);text-align:center">
+            <div style="width:120px;height:46px;border:1.5px solid #DC4842;background:#F6E5E3;display:flex;align-items:center;justify-content:center;border-radius:24px">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#DC4842">CLOUD AI</span>
+            </div>
+          </div>
+          <!-- cable -->
+          <div class="j s1-cabletop" style="position:absolute;top:74px;left:50%;transform:translateX(-50%);width:0;height:96px;border-left:2px dashed #DC4842"></div>
+          <!-- egress dots -->
+          <div class="j s1-edot" style="position:absolute;top:170px;left:50%;width:7px;height:7px;border-radius:50%;background:#DC4842;margin-left:-3.5px"></div>
+          <div class="j s1-edot" style="position:absolute;top:170px;left:50%;width:7px;height:7px;border-radius:50%;background:#DC4842;margin-left:-3.5px"></div>
+          <div class="j s1-edot" style="position:absolute;top:170px;left:50%;width:7px;height:7px;border-radius:50%;background:#DC4842;margin-left:-3.5px"></div>
+          <!-- cut mark -->
+          <div class="j s1-cut" style="position:absolute;top:120px;left:50%;width:30px;height:30px;opacity:0;display:flex;align-items:center;justify-content:center">
+            <div style="position:absolute;width:30px;height:2px;background:#DC4842;transform:rotate(45deg)"></div>
+            <div style="position:absolute;width:30px;height:2px;background:#DC4842;transform:rotate(-45deg)"></div>
+          </div>
+          <!-- local server + orbit -->
+          <div style="position:absolute;top:178px;left:50%;transform:translateX(-50%)">
+            <div class="j s1-ring" style="position:absolute;top:50%;left:50%;width:110px;height:110px;border:1.5px solid #2E7D4F;border-radius:50%;transform:translate(-50%,-50%)"></div>
+            <div class="j s1-orbit" style="position:absolute;top:50%;left:50%;width:0;height:0">
+              <div style="position:absolute;top:-46px;left:-3px;width:7px;height:7px;border-radius:50%;background:#2E7D4F"></div>
+            </div>
+            <div style="position:relative;width:128px;height:54px;background:#0C2340;border:1.5px solid #2E7D4F;display:flex;align-items:center;justify-content:center;margin-left:-64px">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:#F5E8C4;text-align:center">{{ c.s1server }}</span>
+            </div>
+          </div>
+          <p class="j s1-loopcap" style="position:absolute;bottom:14px;left:0;right:0;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#2E7D4F;margin:0">{{ c.s1loop }}</p>
+        </div>
+        <div style="border-top:1px solid #E5E5E2;padding:12px 28px;display:flex;justify-content:flex-end">
+          <button data-target="s1" onClick="{{ onReplay }}" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#0C2340;background:none;border:none;cursor:pointer;display:flex;gap:6px;align-items:center">↻ {{ c.replay }}</button>
+        </div>
+      </div>
+
+      <!-- CARD 2 perimeter -->
+      <div data-scene="s2" style="background:#fff;border:1px solid #E5E5E2;display:flex;flex-direction:column">
+        <div style="padding:28px 28px 0">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0">{{ c.s2label }}</p>
+          <h3 style="font-family:'IBM Plex Serif',serif;font-weight:500;font-size:24px;color:#0C2340;margin:10px 0 0;letter-spacing:-.01em">{{ c.s2title }}</h3>
+          <p style="font-size:14px;line-height:1.6;color:#4A4A4A;margin:10px 0 0">{{ c.s2desc }}</p>
+        </div>
+        <div style="position:relative;height:300px;margin-top:8px">
+          <!-- perimeter -->
+          <div class="j s2-border" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:240px;height:230px;border:1.5px dashed #2E7D4F;border-radius:10px"></div>
+          <span style="position:absolute;top:34px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.14em;color:#2E7D4F">{{ c.s2perim }}</span>
+          <!-- breathing dots group -->
+          <div class="j s2-rot" style="position:absolute;top:50%;left:50%;width:0;height:0">
+            <div class="s2-arm" style="position:absolute;transform:rotate(0deg)"><div class="j s2-dot" style="width:6px;height:6px;border-radius:50%;background:#1F3A66;margin:-3px 0 0 -3px"></div></div>
+            <div class="s2-arm" style="position:absolute;transform:rotate(60deg)"><div class="j s2-dot" style="width:6px;height:6px;border-radius:50%;background:#1F3A66;margin:-3px 0 0 -3px"></div></div>
+            <div class="s2-arm" style="position:absolute;transform:rotate(120deg)"><div class="j s2-dot" style="width:6px;height:6px;border-radius:50%;background:#1F3A66;margin:-3px 0 0 -3px"></div></div>
+            <div class="s2-arm" style="position:absolute;transform:rotate(180deg)"><div class="j s2-dot" style="width:6px;height:6px;border-radius:50%;background:#1F3A66;margin:-3px 0 0 -3px"></div></div>
+            <div class="s2-arm" style="position:absolute;transform:rotate(240deg)"><div class="j s2-dot" style="width:6px;height:6px;border-radius:50%;background:#1F3A66;margin:-3px 0 0 -3px"></div></div>
+            <div class="s2-arm" style="position:absolute;transform:rotate(300deg)"><div class="j s2-dot" style="width:6px;height:6px;border-radius:50%;background:#1F3A66;margin:-3px 0 0 -3px"></div></div>
+          </div>
+          <!-- core -->
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;background:#0C2340;border:1.5px solid #B7841F;display:flex;align-items:center;justify-content:center">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;color:#F5E8C4">CORE</span>
+          </div>
+          <!-- counter -->
+          <div style="position:absolute;bottom:18px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#2E7D4F;border:1px solid #2E7D4F;padding:5px 12px;background:#fff">EGRESS · 0 B</div>
+        </div>
+        <div style="border-top:1px solid #E5E5E2;padding:12px 28px;display:flex;justify-content:flex-end">
+          <button data-target="s2" onClick="{{ onReplay }}" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#0C2340;background:none;border:none;cursor:pointer;display:flex;gap:6px;align-items:center">↻ {{ c.replay }}</button>
+        </div>
+      </div>
+
+      <!-- CARD 3 split -->
+      <div data-scene="s3" style="background:#fff;border:1px solid #E5E5E2;display:flex;flex-direction:column">
+        <div style="padding:28px 28px 0">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0">{{ c.s3label }}</p>
+          <h3 style="font-family:'IBM Plex Serif',serif;font-weight:500;font-size:24px;color:#0C2340;margin:10px 0 0;letter-spacing:-.01em">{{ c.s3title }}</h3>
+          <p style="font-size:14px;line-height:1.6;color:#4A4A4A;margin:10px 0 0">{{ c.s3desc }}</p>
+        </div>
+        <div style="position:relative;height:300px;margin-top:8px;display:grid;grid-template-columns:1fr 1fr">
+          <!-- LEFT hyperscaler -->
+          <div style="position:relative;border-right:1px solid #E5E5E2">
+            <span style="position:absolute;top:18px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;color:#DC4842;white-space:nowrap">{{ c.s3left }}</span>
+            <!-- region chips -->
+            <div style="position:absolute;top:54px;left:14px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#DC4842;border:1px solid #DC4842;background:#F6E5E3;padding:3px 7px">EU</div>
+            <div style="position:absolute;top:54px;right:14px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#DC4842;border:1px solid #DC4842;background:#F6E5E3;padding:3px 7px">US</div>
+            <div style="position:absolute;bottom:54px;left:14px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#DC4842;border:1px solid #DC4842;background:#F6E5E3;padding:3px 7px">CA</div>
+            <div style="position:absolute;bottom:54px;right:14px;font-family:'IBM Plex Mono',monospace;font-size:9px;color:#DC4842;border:1px solid #DC4842;background:#F6E5E3;padding:3px 7px">AU</div>
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px;border:1.5px solid #DC4842;background:#fff;display:flex;align-items:center;justify-content:center;border-radius:50%"><span style="font-size:18px">⌘</span></div>
+            <div class="j s3-tl" style="position:absolute;top:50%;left:50%;width:6px;height:6px;border-radius:50%;background:#DC4842;margin:-3px 0 0 -3px"></div>
+            <div class="j s3-tr" style="position:absolute;top:50%;left:50%;width:6px;height:6px;border-radius:50%;background:#DC4842;margin:-3px 0 0 -3px"></div>
+            <div class="j s3-bl" style="position:absolute;top:50%;left:50%;width:6px;height:6px;border-radius:50%;background:#DC4842;margin:-3px 0 0 -3px"></div>
+            <div class="j s3-br" style="position:absolute;top:50%;left:50%;width:6px;height:6px;border-radius:50%;background:#DC4842;margin:-3px 0 0 -3px"></div>
+            <span style="position:absolute;bottom:18px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.1em;color:#DC4842;white-space:nowrap">{{ c.s3leftsub }}</span>
+          </div>
+          <!-- RIGHT proprietary -->
+          <div style="position:relative">
+            <span style="position:absolute;top:18px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;color:#2E7D4F;white-space:nowrap">{{ c.s3right }}</span>
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:130px;height:120px;border:1.5px dashed #2E7D4F;border-radius:8px"></div>
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:60px;height:50px;background:#0C2340;border:1.5px solid #2E7D4F;display:flex;align-items:center;justify-content:center"><span style="font-family:'IBM Plex Mono',monospace;font-size:8px;color:#F5E8C4">SRV</span></div>
+            <div class="j s3-rot" style="position:absolute;top:50%;left:50%;width:0;height:0"><div style="position:absolute;top:-40px;left:-3px;width:6px;height:6px;border-radius:50%;background:#2E7D4F"></div></div>
+            <span style="position:absolute;bottom:18px;left:50%;transform:translateX(-50%);font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.1em;color:#2E7D4F;white-space:nowrap">{{ c.s3rightsub }}</span>
+          </div>
+        </div>
+        <div style="border-top:1px solid #E5E5E2;padding:12px 28px;display:flex;justify-content:flex-end">
+          <button data-target="s3" onClick="{{ onReplay }}" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#0C2340;background:none;border:none;cursor:pointer;display:flex;gap:6px;align-items:center">↻ {{ c.replay }}</button>
+        </div>
+      </div>
+
+      <!-- CARD 4 box -->
+      <div data-scene="s4" style="background:#fff;border:1px solid #E5E5E2;display:flex;flex-direction:column">
+        <div style="padding:28px 28px 0">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#B7841F;margin:0">{{ c.s4label }}</p>
+          <h3 style="font-family:'IBM Plex Serif',serif;font-weight:500;font-size:24px;color:#0C2340;margin:10px 0 0;letter-spacing:-.01em">{{ c.s4title }}</h3>
+          <p style="font-size:14px;line-height:1.6;color:#4A4A4A;margin:10px 0 0">{{ c.s4desc }}</p>
+        </div>
+        <div style="position:relative;height:300px;margin-top:8px;display:flex;align-items:center;justify-content:center;perspective:900px">
+          <div style="position:relative;width:230px">
+            <!-- lid -->
+            <div class="j s4-lid" style="position:absolute;top:-22px;left:0;width:230px;height:22px;background:#1F3A66;border:1.5px solid #B7841F;transform-origin:top center;z-index:5"></div>
+            <!-- box body with layers -->
+            <div style="position:relative;width:230px;background:#0C2340;border:1.5px solid #B7841F;padding:14px;display:flex;flex-direction:column;gap:9px;overflow:hidden">
+              <div class="j s4-scan" style="position:absolute;top:0;left:0;right:0;height:40px;background:linear-gradient(180deg,rgba(245,232,196,.32),rgba(245,232,196,0));z-index:6;pointer-events:none"></div>
+              <div class="j s4-layer" style="display:flex;justify-content:space-between;align-items:center;background:#142c4f;border-left:3px solid #B7841F;padding:9px 12px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;color:#F5E8C4">CORE</span>
+                <span style="font-family:'IBM Plex Sans',sans-serif;font-size:10px;color:rgba(250,250,248,.6)">{{ c.s4a }}</span>
+              </div>
+              <div class="j s4-layer" style="display:flex;justify-content:space-between;align-items:center;background:#142c4f;border-left:3px solid #B7841F;padding:9px 12px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;color:#F5E8C4">VAULT</span>
+                <span style="font-family:'IBM Plex Sans',sans-serif;font-size:10px;color:rgba(250,250,248,.6)">{{ c.s4b }}</span>
+              </div>
+              <div class="j s4-layer" style="display:flex;justify-content:space-between;align-items:center;background:#142c4f;border-left:3px solid #B7841F;padding:9px 12px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;color:#F5E8C4">HUB</span>
+                <span style="font-family:'IBM Plex Sans',sans-serif;font-size:10px;color:rgba(250,250,248,.6)">{{ c.s4c }}</span>
+              </div>
+              <div class="j s4-layer" style="display:flex;justify-content:space-between;align-items:center;background:#142c4f;border-left:3px solid #B7841F;padding:9px 12px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;color:#F5E8C4">NEXUS</span>
+                <span style="font-family:'IBM Plex Sans',sans-serif;font-size:10px;color:rgba(250,250,248,.6)">{{ c.s4d }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="border-top:1px solid #E5E5E2;padding:12px 28px;display:flex;justify-content:flex-end">
+          <button data-target="s4" onClick="{{ onReplay }}" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#0C2340;background:none;border:none;cursor:pointer;display:flex;gap:6px;align-items:center">↻ {{ c.replay }}</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1240,&quot;height&quot;:1500},&quot;lang&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;es&quot;,&quot;en&quot;],&quot;default&quot;:&quot;es&quot;,&quot;tsType&quot;:&quot;\&quot;es\&quot; | \&quot;en\&quot;&quot;}}">
+class Component extends DCLogic {
+  state = { lang: this.props.lang || "es" };
+
+  COPY = {
+    es: {
+      title: "Inteligencia Artificial Propietaria",
+      subtitle: "Componentes en movimiento para explicar el servidor de IA propietario de tu empresa — control total, sin dependencia de hiperescalares.",
+      heroEyebrow: "SERVIDOR DE INTELIGENCIA ARTIFICIAL PROPIETARIO",
+      heroTitle: "Tu inteligencia. Tu servidor. Cero dependencia.",
+      heroStat1: "bytes de egress", heroStat2: "en tu perímetro", heroStat3: "appliance, una instalación",
+      s1label: "Del cloud al servidor propio", s1title: "Cortamos el cable al hiperescalar",
+      s1desc: "La inferencia deja de viajar a la nube. Pasa a ejecutarse, en bucle cerrado, dentro de tu servidor.",
+      s1server: "SERVIDOR PROPIO", s1loop: "INFERENCIA LOCAL · EN BUCLE",
+      s2label: "Perímetro físico · Zero egress", s2title: "Tus datos nunca salen",
+      s2desc: "El procesamiento ocurre dentro de tu perímetro físico. Cero egress, por arquitectura — no por contrato.",
+      s2perim: "PERÍMETRO DEL CLIENTE",
+      s3label: "Hiperescalar vs propietario", s3title: "Control total del procesamiento",
+      s3desc: "Con el hiperescalar tus prompts se dispersan por jurisdicciones. Con el servidor propio, todo queda en casa.",
+      s3left: "HIPERESCALAR", s3leftsub: "PROCESAMIENTO EXTRA-TERRITORIAL",
+      s3right: "PROPIETARIO", s3rightsub: "EN TUS INSTALACIONES",
+      s4label: "Software in a box", s4title: "El stack, en una caja",
+      s4desc: "Un appliance que se instala una vez. Dentro: CORE, VAULT, HUB y NEXUS — tu inteligencia, lista para operar.",
+      s4a: "Inferencia", s4b: "Datos cifrados", s4c: "Integraciones", s4d: "Orquestación",
+      replay: "Repetir"
+    },
+    en: {
+      title: "Proprietary Artificial Intelligence",
+      subtitle: "Animated components explaining your company's proprietary AI server — total control, zero hyperscaler dependency.",
+      heroEyebrow: "PROPRIETARY ARTIFICIAL INTELLIGENCE SERVER",
+      heroTitle: "Your intelligence. Your server. Zero dependency.",
+      heroStat1: "bytes of egress", heroStat2: "inside your perimeter", heroStat3: "appliance, one install",
+      s1label: "From cloud to owned server", s1title: "We cut the cord to the hyperscaler",
+      s1desc: "Inference stops traveling to the cloud. It runs, in a closed loop, inside your own server.",
+      s1server: "OWNED SERVER", s1loop: "LOCAL INFERENCE · LOOPED",
+      s2label: "Physical perimeter · Zero egress", s2title: "Your data never leaves",
+      s2desc: "Processing happens inside your physical perimeter. Zero egress, by architecture — not by contract.",
+      s2perim: "CUSTOMER PERIMETER",
+      s3label: "Hyperscaler vs proprietary", s3title: "Total control of processing",
+      s3desc: "With the hyperscaler your prompts scatter across jurisdictions. With your own server, everything stays home.",
+      s3left: "HYPERSCALER", s3leftsub: "EXTRA-TERRITORIAL PROCESSING",
+      s3right: "PROPRIETARY", s3rightsub: "ON YOUR PREMISES",
+      s4label: "Software in a box", s4title: "The stack, in a box",
+      s4desc: "An appliance you install once. Inside: CORE, VAULT, HUB and NEXUS — your intelligence, ready to run.",
+      s4a: "Inference", s4b: "Encrypted data", s4c: "Integrations", s4d: "Orchestration",
+      replay: "Replay"
+    }
+  };
+
+  componentDidMount() {
+    this.obs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add("play");
+          this.obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.35 });
+    setTimeout(() => {
+      document.querySelectorAll("[data-scene]").forEach((el) => this.obs.observe(el));
+    }, 60);
+  }
+
+  componentWillUnmount() { if (this.obs) this.obs.disconnect(); }
+
+  restart(id) {
+    const el = document.querySelector('[data-scene="' + id + '"]');
+    if (!el) return;
+    el.classList.remove("play");
+    void el.offsetWidth;
+    el.classList.add("play");
+  }
+
+  renderVals() {
+    const lang = this.state.lang;
+    const active = { background: "#0C2340", color: "#FAFAF8", border: "none", padding: "7px 14px", fontFamily: "'IBM Plex Mono',monospace", fontSize: "11px", letterSpacing: "0.1em", cursor: "pointer" };
+    const idle = { background: "transparent", color: "#0C2340", border: "none", padding: "7px 14px", fontFamily: "'IBM Plex Mono',monospace", fontSize: "11px", letterSpacing: "0.1em", cursor: "pointer" };
+    return {
+      c: this.COPY[lang],
+      esStyle: lang === "es" ? active : idle,
+      enStyle: lang === "en" ? active : idle,
+      setES: () => this.setState({ lang: "es" }),
+      setEN: () => this.setState({ lang: "en" }),
+      onReplay: (e) => this.restart(e.currentTarget.getAttribute("data-target"))
+    };
+  }
+}
+</script>
+</body>
+</html>

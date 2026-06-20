@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0}
+  .swatch{transition:transform .15s ease, box-shadow .15s ease;cursor:pointer}
+  .swatch:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.14)}
+  .dell-btn{transition:all .16s ease;cursor:pointer}
+</style>
+</helmet>
+
+<div style="background:#F4F6F8;min-height:100vh;font-family:'Hanken Grotesk',sans-serif;color:#444444">
+
+  <!-- TOP BAR -->
+  <div style="background:#fff;border-bottom:1px solid #E2E6EA;padding:16px 40px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10">
+    <div style="display:flex;align-items:center;gap:16px">
+      <!-- Dell element -->
+      <div style="width:54px;height:54px;border:2px solid #0076CE;border-radius:50%;display:flex;align-items:center;justify-content:center">
+        <span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:13px;letter-spacing:.04em;color:#0076CE;line-height:1">D<span style="display:inline-block;transform:rotate(8deg)">E</span>LL</span>
+      </div>
+      <div style="width:1px;height:26px;background:#E2E6EA"></div>
+      <span style="font-family:'Manrope',sans-serif;font-weight:600;font-size:13px;letter-spacing:.01em;color:#444444">Software in a Box</span>
+    </div>
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#8A9099;text-transform:uppercase">Tablilla de estilos · v1</span>
+  </div>
+
+  <div style="max-width:1160px;margin:0 auto;padding:56px 40px 96px">
+
+    <!-- TITLE -->
+    <p style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#0076CE;margin:0">Brand System · Dell</p>
+    <h1 style="font-family:'Manrope',sans-serif;font-weight:800;font-size:52px;line-height:1.02;letter-spacing:-.025em;margin:16px 0 0;color:#1A2530">Estilos y colores Dell</h1>
+    <p style="font-size:17px;line-height:1.6;color:#5A636C;margin:18px 0 0;max-width:640px">Paleta, tipografía y componentes para alinear la plataforma con la identidad de Dell Technologies. Haz clic en cualquier muestra para copiar su valor HEX.</p>
+
+    <!-- ===== PRIMARY ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A2530;padding-bottom:12px">
+        <h2 style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#1A2530">01 · Color primario</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099">DELL BLUE</span>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-top:28px">
+        <!-- Big blue -->
+        <div class="swatch" data-hex="#0076CE" onClick="{{ onCopy }}" style="background:#0076CE;border-radius:4px;padding:32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;color:#fff">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;opacity:.9">PANTONE 2174 C</span>
+          <div>
+            <p style="font-family:'Manrope',sans-serif;font-weight:800;font-size:30px;margin:0;letter-spacing:-.01em">Dell Blue</p>
+            <div style="display:flex;gap:24px;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px">
+              <span>#0076CE</span><span>RGB 0·118·206</span>
+            </div>
+            <p style="font-size:13px;line-height:1.55;margin:14px 0 0;max-width:380px;opacity:.95">Color primario. Universal e intuitivo. Úsalo como fondo dominante y firma de marca tan a menudo como sea posible.</p>
+          </div>
+        </div>
+        <!-- White -->
+        <div class="swatch" data-hex="#FFFFFF" onClick="{{ onCopy }}" style="background:#fff;border:1px solid #E2E6EA;border-radius:4px;padding:32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:#8A9099">NEUTRAL BASE</span>
+          <div>
+            <p style="font-family:'Manrope',sans-serif;font-weight:800;font-size:30px;margin:0;letter-spacing:-.01em;color:#1A2530">White</p>
+            <div style="display:flex;gap:24px;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#5A636C">
+              <span>#FFFFFF</span><span>RGB 255·255·255</span>
+            </div>
+            <p style="font-size:13px;line-height:1.55;margin:14px 0 0;color:#5A636C">Aire y accesibilidad. Base limpia que deja respirar al azul.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COLOR FAMILIES ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A2530;padding-bottom:12px">
+        <h2 style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#1A2530">02 · Familias de color</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099">BLUE · GREEN · PURPLE · RED</span>
+      </div>
+      <p style="font-size:13px;color:#5A636C;margin:16px 0 0;max-width:680px;line-height:1.55">Cuatro familias de un solo tono. Usa <strong style="color:#1A2530">una familia a la vez</strong> por composición; combina tonos dentro de la misma familia para layouts tono-sobre-tono.</p>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px">
+        <sc-for list="{{ families }}" as="c" hint-placeholder-count="4">
+          <div class="swatch" data-hex="{{ c.hex }}" onClick="{{ onCopy }}" style="border-radius:4px;overflow:hidden;border:1px solid #E2E6EA;background:#fff">
+            <div style="height:120px;background:{{ c.hex }}"></div>
+            <div style="padding:16px">
+              <p style="font-family:'Manrope',sans-serif;font-weight:700;font-size:15px;margin:0;color:#1A2530">{{ c.name }}</p>
+              <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099;margin:6px 0 0">{{ c.hex }} · {{ c.pms }}</p>
+              <p style="font-size:12px;line-height:1.45;color:#5A636C;margin:10px 0 0">{{ c.note }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- ===== NEUTRALS ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A2530;padding-bottom:12px">
+        <h2 style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#1A2530">03 · Neutrales</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099">GRAY RAMP · UI</span>
+      </div>
+      <div style="display:flex;border-radius:4px;overflow:hidden;margin-top:28px;border:1px solid #E2E6EA">
+        <sc-for list="{{ neutrals }}" as="n" hint-placeholder-count="6">
+          <div class="swatch" data-hex="{{ n.hex }}" onClick="{{ onCopy }}" style="flex:1;background:{{ n.hex }};height:130px;display:flex;flex-direction:column;justify-content:flex-end;padding:12px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:{{ n.fg }}">{{ n.hex }}</span>
+            <span style="font-family:'Manrope',sans-serif;font-weight:600;font-size:11px;color:{{ n.fg }};margin-top:2px">{{ n.name }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- ===== TYPOGRAPHY ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A2530;padding-bottom:12px">
+        <h2 style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#1A2530">04 · Tipografía</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099">MUSEO → MANROPE (WEB)</span>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E6EA;border-radius:4px;padding:36px;margin-top:28px">
+        <p style="font-size:13px;color:#5A636C;margin:0 0 28px;line-height:1.6;max-width:680px">Museo es la familia del logotipo de Dell. Para web usamos <strong style="color:#1A2530">Manrope</strong> en titulares y <strong style="color:#1A2530">Hanken Grotesk</strong> en cuerpo como sustitutos geométricos cercanos.</p>
+
+        <div style="border-top:1px solid #EDF0F2;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099;width:130px;flex:none">Display · 800</span>
+          <span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:46px;letter-spacing:-.025em;line-height:1;color:#1A2530">Inteligencia propietaria</span>
+        </div>
+        <div style="border-top:1px solid #EDF0F2;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099;width:130px;flex:none">H2 · 700</span>
+          <span style="font-family:'Manrope',sans-serif;font-weight:700;font-size:32px;letter-spacing:-.015em;color:#1A2530">Servidor de IA en una caja</span>
+        </div>
+        <div style="border-top:1px solid #EDF0F2;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099;width:130px;flex:none">H3 · 600</span>
+          <span style="font-family:'Manrope',sans-serif;font-weight:600;font-size:22px;color:#1A2530">Control total, cero dependencia</span>
+        </div>
+        <div style="border-top:1px solid #EDF0F2;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099;width:130px;flex:none">Body · 400</span>
+          <span style="font-family:'Hanken Grotesk',sans-serif;font-weight:400;font-size:16px;line-height:1.6;max-width:560px;color:#5A636C">La inferencia se ejecuta dentro de tu perímetro físico. Cero egress, por arquitectura — no por contrato. Tus datos nunca salen de tu empresa.</span>
+        </div>
+        <div style="border-top:1px solid #EDF0F2;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099;width:130px;flex:none">Label · mono</span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:#0076CE">ZERO EGRESS · GDPR · EU AI ACT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPONENTS ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A2530;padding-bottom:12px">
+        <h2 style="font-family:'Manrope',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em;color:#1A2530">05 · Componentes</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A9099">BUTTONS · ELEMENT · ACCENT</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px">
+        <!-- buttons -->
+        <div style="background:#fff;border:1px solid #E2E6EA;border-radius:4px;padding:32px">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#8A9099;margin:0 0 22px">BOTONES</p>
+          <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+            <button class="dell-btn" style="background:#0076CE;color:#fff;border:2px solid #0076CE;font-family:'Manrope',sans-serif;font-weight:600;font-size:14px;padding:13px 26px;border-radius:3px" style-hover="background:#005FA8;border-color:#005FA8">Solicitar demo</button>
+            <button class="dell-btn" style="background:transparent;color:#0076CE;border:2px solid #0076CE;font-family:'Manrope',sans-serif;font-weight:600;font-size:14px;padding:13px 26px;border-radius:3px" style-hover="background:#0076CE;color:#fff">Arquitectura</button>
+            <button class="dell-btn" style="background:transparent;color:#0076CE;border:none;font-family:'Manrope',sans-serif;font-weight:600;font-size:14px;padding:13px 4px;display:inline-flex;gap:8px;align-items:center" style-hover="gap:12px">Saber más →</button>
+          </div>
+          <div style="margin-top:26px;display:flex;gap:14px;flex-wrap:wrap">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#0076CE;background:#E2F0FB;padding:6px 12px;border-radius:2px">DELL BLUE</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#5A8A00;background:#EEF6DC;padding:6px 12px;border-radius:2px">GREEN</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#6E2585;background:#F1E6F5;padding:6px 12px;border-radius:2px">PURPLE</span>
+          </div>
+        </div>
+        <!-- element motif -->
+        <div style="background:#fff;border:1px solid #E2E6EA;border-radius:4px;padding:32px">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#8A9099;margin:0 0 22px">DELL ELEMENT · LOGO LOCKUP</p>
+          <div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap">
+            <div style="width:60px;height:60px;border:2px solid #0076CE;border-radius:50%;display:flex;align-items:center;justify-content:center"><span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:14px;color:#0076CE">D<span style="display:inline-block;transform:rotate(8deg)">E</span>LL</span></div>
+            <div style="width:60px;height:60px;background:#0076CE;border-radius:50%;display:flex;align-items:center;justify-content:center"><span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:14px;color:#fff">D<span style="display:inline-block;transform:rotate(8deg)">E</span>LL</span></div>
+            <div style="width:60px;height:60px;border:2px solid #fff;background:#1A2530;border-radius:50%;display:flex;align-items:center;justify-content:center"><span style="font-family:'Manrope',sans-serif;font-weight:800;font-size:14px;color:#fff">D<span style="display:inline-block;transform:rotate(8deg)">E</span>LL</span></div>
+          </div>
+          <p style="font-size:13px;line-height:1.55;color:#5A636C;margin:20px 0 0">«El Dell Element» —el anillo con la E inclinada— es el activo distintivo de marca. Funciona en azul, blanco o sobre fondos oscuros.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== NOTE ===== -->
+    <div style="margin-top:48px">
+      <div style="background:#E2F0FB;border-left:3px solid #0076CE;border-radius:2px;padding:24px">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#0076CE;margin:0 0 8px">NOTA DE USO</p>
+        <p style="font-size:13px;line-height:1.6;color:#1A2530;margin:0;max-width:760px">Dell Blue (#0076CE, PMS 2174 C) es el color primario confirmado. Evita tintes o degradados de los colores de la paleta. No mezcles más de tres colores de apoyo con el azul en un mismo layout, y usa una sola familia de color por composición.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TOAST -->
+  <sc-if value="{{ copied }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:#1A2530;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.06em;padding:12px 22px;border-radius:3px;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.25)">Copiado · {{ copied }}</div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1240,&quot;height&quot;:1720}}">
+class Component extends DCLogic {
+  state = { copied: null };
+
+  families = [
+    { name: "Dell Blue", hex: "#0076CE", pms: "PMS 2174 C", note: "Familia primaria. Confianza e intuición." },
+    { name: "Dell Green", hex: "#7AB800", pms: "PMS 376", note: "Crecimiento, sostenibilidad, energía positiva." },
+    { name: "Dell Purple", hex: "#6E2585", pms: "PMS 2603", note: "Innovación y sofisticación tecnológica." },
+    { name: "Dell Red", hex: "#CE1126", pms: "PMS 186", note: "Urgencia y foco. Para estados y alertas." }
+  ];
+
+  neutrals = [
+    { name: "White", hex: "#FFFFFF", fg: "#8A9099" },
+    { name: "Gallery", hex: "#EEEEEE", fg: "#5A636C" },
+    { name: "Dell Gray", hex: "#AAAAAA", fg: "#fff" },
+    { name: "Tundora", hex: "#444444", fg: "#fff" },
+    { name: "Ink", hex: "#1A2530", fg: "#fff" },
+    { name: "Black", hex: "#000000", fg: "#fff" }
+  ];
+
+  copy(hex) {
+    try { navigator.clipboard && navigator.clipboard.writeText(hex); } catch (e) {}
+    this.setState({ copied: hex });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ copied: null }), 1400);
+  }
+
+  componentWillUnmount() { clearTimeout(this._t); }
+
+  renderVals() {
+    return {
+      families: this.families,
+      neutrals: this.neutrals,
+      copied: this.state.copied,
+      onCopy: (e) => this.copy(e.currentTarget.getAttribute("data-hex"))
+    };
+  }
+}
+</script>
+</body>
+</html>

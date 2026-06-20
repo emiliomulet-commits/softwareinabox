@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}body{margin:0}html{scroll-behavior:smooth}a{text-decoration:none;color:inherit}
+  .navlink{transition:color .15s ease}.navlink:hover{color:#E1251B}
+  .btnr{transition:background .16s ease}.btnr:hover{background:#B81C13}
+  .scard{transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease}
+  .scard:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(16,19,23,.12);border-color:#C9CDD2}
+  .scard:hover .stitle{color:#E1251B}
+  .stitle{transition:color .15s ease}
+  .schip{transition:all .15s ease;cursor:pointer}
+  .btnd{transition:all .16s ease}.btnd:hover{background:#fff;color:#16181D;border-color:#fff}
+</style>
+</helmet>
+
+<div style="background:#fff;font-family:'Hanken Grotesk',sans-serif;color:#16181D">
+
+  <!-- NAV -->
+  <div style="position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #E3E5E8">
+    <div style="max-width:1240px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px">
+      <a href="SIAB-Inicio.dc.html" style="display:flex;align-items:center;gap:13px">
+        <div style="border:2px solid #E1251B;padding:4px 8px 5px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:16px;color:#E1251B;letter-spacing:-.01em;line-height:1">Lenovo</span></div>
+        <span style="font-family:'Montserrat',sans-serif;font-weight:500;font-size:11px;color:#6B7178">Tecnología <span style="display:inline-block;border:0.085em solid currentColor;padding:0.02em 0.28em;border-radius:1px;line-height:1.12">COGNITIV</span> · de Software in a Box</span>
+      </a>
+      <div style="display:flex;align-items:center;gap:24px">
+        <a class="navlink" href="SIAB-COGNITIV.dc.html" style="font-size:13.5px;font-weight:500"><span style="display:inline-block;border:0.085em solid currentColor;padding:0.02em 0.28em;border-radius:1px;line-height:1.12">COGNITIV</span></a>
+        <a class="navlink" href="SIAB-Inicio.dc.html#bloques" style="font-size:13.5px;font-weight:500">Los 5 bloques</a>
+        <a class="navlink" href="SIAB-Casos-Exito.dc.html" style="font-size:13.5px;font-weight:500">Casos de éxito</a>
+        <a class="navlink" href="SIAB-Servidores.dc.html" style="font-size:13.5px;font-weight:500">Servidores</a>
+        <a class="btnr" href="#contacto" style="background:#E1251B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:2px">Solicitar demo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BREADCRUMB -->
+  <div style="max-width:1240px;margin:0 auto;padding:14px 32px 0">
+    <p style="font-size:12px;color:#9aa0a6;margin:0">Inicio <span style="color:#C9CDD2">›</span> Casos de éxito <span style="color:#C9CDD2">›</span> <span style="color:#16181D">IA</span></p>
+  </div>
+
+  <!-- HERO -->
+  <div style="max-width:1240px;margin:18px auto 0;padding:0 32px">
+    <div style="position:relative;border-radius:12px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:420px;background:linear-gradient(120deg,#101317 0%,#1a1426 60%,#2a1030 100%)">
+      <div style="padding:56px 48px;position:relative;z-index:2">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:#E1251B;margin:0">CASOS DE ÉXITO · IA SOBERANA</p>
+        <h1 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:48px;line-height:1.02;letter-spacing:-.03em;color:#fff;margin:18px 0 0">Innovar de forma más inteligente</h1>
+        <p style="font-size:16px;line-height:1.6;color:rgba(255,255,255,.74);margin:20px 0 0;max-width:440px">Desde saber dónde comenzar hasta implementar la infraestructura y las soluciones correctas, ayudamos a nuestros clientes a superar sus mayores obstáculos de IA — con el dato siempre dentro de casa.</p>
+        <a href="#casos" class="btnd" style="display:inline-block;background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5);font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:14px 28px;border-radius:30px;margin-top:28px">Lea estudios de casos</a>
+      </div>
+      <div style="position:relative;min-height:380px">
+        <div style="position:absolute;inset:0;background:radial-gradient(90% 90% at 70% 40%, rgba(225,37,27,.4), rgba(138,43,140,.18) 50%, transparent 72%)"></div>
+        <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="cs-hero" shape="rect" placeholder="Foto hero · caso de éxito" style="position:absolute;inset:0;width:100%;height:100%;display:block;max-width:100%;background:transparent" hint-size="100%,380px"></x-import>
+      </div>
+    </div>
+  </div>
+
+  <!-- METRICS -->
+  <div style="max-width:1240px;margin:0 auto;padding:56px 32px 8px">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px">
+      <div style="text-align:center;padding:22px 16px;border:1px solid #E3E5E8;border-radius:8px"><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:34px;color:#E1251B;margin:0;letter-spacing:-.02em">0</p><p style="font-size:13px;color:#4A4F57;margin:8px 0 0">datos fuera del perímetro</p></div>
+      <div style="text-align:center;padding:22px 16px;border:1px solid #E3E5E8;border-radius:8px"><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:34px;color:#E1251B;margin:0;letter-spacing:-.02em">90 días</p><p style="font-size:13px;color:#4A4F57;margin:8px 0 0">a producción con AI Fast Start</p></div>
+      <div style="text-align:center;padding:22px 16px;border:1px solid #E3E5E8;border-radius:8px"><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:34px;color:#E1251B;margin:0;letter-spacing:-.02em">+40%</p><p style="font-size:13px;color:#4A4F57;margin:8px 0 0">horas recuperadas por equipo</p></div>
+      <div style="text-align:center;padding:22px 16px;border:1px solid #E3E5E8;border-radius:8px"><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:34px;color:#E1251B;margin:0;letter-spacing:-.02em">100%</p><p style="font-size:13px;color:#4A4F57;margin:8px 0 0">cumplimiento por diseño</p></div>
+    </div>
+  </div>
+
+  <!-- FILTERS + STORIES -->
+  <div id="casos" style="max-width:1240px;margin:0 auto;padding:48px 32px 16px">
+    <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;letter-spacing:-.02em;margin:0;text-align:center">Historias de clientes</h2>
+    <div id="secChips" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:24px">
+      <button type="button" class="schip" data-sec="all" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;border:1.5px solid #D6DBE0;background:#fff;color:#4A4F57;padding:9px 18px;border-radius:30px">Todos</button>
+      <button type="button" class="schip" data-sec="industria" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;border:1.5px solid #D6DBE0;background:#fff;color:#4A4F57;padding:9px 18px;border-radius:30px">Industria</button>
+      <button type="button" class="schip" data-sec="salud" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;border:1.5px solid #D6DBE0;background:#fff;color:#4A4F57;padding:9px 18px;border-radius:30px">Salud</button>
+      <button type="button" class="schip" data-sec="finanzas" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;border:1.5px solid #D6DBE0;background:#fff;color:#4A4F57;padding:9px 18px;border-radius:30px">Finanzas</button>
+      <button type="button" class="schip" data-sec="legal" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;border:1.5px solid #D6DBE0;background:#fff;color:#4A4F57;padding:9px 18px;border-radius:30px">Legal</button>
+      <button type="button" class="schip" data-sec="publico" style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;border:1.5px solid #D6DBE0;background:#fff;color:#4A4F57;padding:9px 18px;border-radius:30px">Sector público</button>
+    </div>
+  </div>
+  <div style="max-width:1240px;margin:0 auto;padding:24px 32px 8px">
+    <div id="storyGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;min-width:0">
+      <div id="csNone" style="display:none;grid-column:1/-1;text-align:center;padding:40px;color:#9aa0a6">No hay casos en esta categoría todavía.</div>
+    </div>
+    <p style="font-size:12px;color:#9aa0a6;margin:24px 0 0;line-height:1.5">Casos de uso representativos de despliegues de IA soberana sobre servidores Lenovo ThinkSystem con tecnología COGNITIV. Los nombres de cliente se omiten por confidencialidad.</p>
+  </div>
+
+  <!-- FEATURED -->
+  <div style="background:#101317;color:#fff;margin-top:40px">
+    <div style="max-width:1240px;margin:0 auto;padding:0 32px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch;min-height:380px">
+        <div style="position:relative;min-height:340px">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="cs-feat" shape="rect" placeholder="Foto · caso destacado" style="position:absolute;inset:0;width:100%;height:100%;display:block;max-width:100%;background:linear-gradient(135deg,#1a1030,#3a1530)" hint-size="100%,380px"></x-import>
+        </div>
+        <div style="padding:56px 48px;display:flex;flex-direction:column;justify-content:center">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;color:#E1251B;margin:0">CASO DESTACADO · INDUSTRIA</p>
+          <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;line-height:1.1;letter-spacing:-.02em;margin:16px 0 0">Una fábrica unifica su operación sin que el dato salga de planta</h2>
+          <p style="font-size:15px;line-height:1.6;color:rgba(255,255,255,.74);margin:18px 0 0;max-width:460px">Un fabricante industrial desplegó su Servidor de IA propietario para cruzar ERP, producción y calidad en una sola pregunta. El conocimiento de sus veteranos quedó en una memoria corporativa, y el secreto de fabricación nunca abandonó el perímetro.</p>
+          <div style="display:flex;gap:30px;margin-top:26px;flex-wrap:wrap">
+            <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:26px;color:#fff;margin:0">−35%</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">tiempo de consulta</p></div>
+            <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:26px;color:#fff;margin:0">0</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">datos en la nube</p></div>
+            <div><p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:26px;color:#fff;margin:0">24/7</p><p style="font-size:12px;color:rgba(255,255,255,.6);margin:4px 0 0">disponibilidad local</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div id="contacto" style="background:#fff;border-top:1px solid #E3E5E8">
+    <div style="max-width:1240px;margin:0 auto;padding:72px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:28px">
+      <div>
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:32px;letter-spacing:-.02em;margin:0;max-width:580px">¿Quiere ser el próximo caso de éxito?</h2>
+        <p style="font-size:16px;color:#6B7178;margin:14px 0 0;max-width:520px">Hablemos de su caso de uso y diseñemos su Servidor de IA propietario.</p>
+      </div>
+      <a class="btnr" href="SIAB-Contacto.dc.html" style="background:#E1251B;color:#fff;font-family:'Montserrat',sans-serif;font-weight:600;font-size:15px;padding:16px 34px;border-radius:2px;white-space:nowrap">Solicitar una demo</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#0B0D10;color:rgba(255,255,255,.55)">
+    <div style="max-width:1240px;margin:0 auto;padding:30px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <div style="border:1.5px solid #E1251B;padding:3px 7px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:13px;color:#E1251B">Lenovo</span></div>
+        <span style="font-family:'Montserrat',sans-serif;font-weight:500;font-size:11px;color:rgba(255,255,255,.6)">Tecnología <span style="display:inline-block;border:0.085em solid currentColor;padding:0.02em 0.28em;border-radius:1px;line-height:1.12">COGNITIV</span> · de Software in a Box</span>
+      </div>
+      <span style="font-size:12px">Casos de éxito de IA soberana · Soberanía por diseño</span>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  STORIES = [
+    { sec:"industria", tag:"INDUSTRIA", title:"Inteligencia de planta sin sacar el dato", desc:"Cruza ERP, producción y calidad en una sola pregunta; el secreto de fabricación nunca sale del perímetro.", metric:"−35% tiempo de consulta", img:"assets/casos/industria-control-crop.jpg", link:"SIAB-Caso-Industria.dc.html" },
+    { sec:"finanzas", tag:"FINANZAS", title:"Análisis de riesgo conforme a DORA", desc:"Inferencia local sobre cartera y operaciones, auditable y resiliente, sin exponer información a terceros.", metric:"Auditable extremo a extremo", img:"assets/casos/finanzas-crop.jpg", link:"SIAB-Caso-Finanzas.dc.html" },
+    { sec:"legal", tag:"LEGAL", title:"Conocimiento jurídico bajo secreto profesional", desc:"Búsqueda y redacción asistida sobre el fondo documental del despacho, sin que un solo expediente salga.", metric:"Secreto preservado", img:"assets/casos/legal-crop.jpg", link:"SIAB-Caso-Legal.dc.html" },
+    { sec:"industria", tag:"INDUSTRIA", title:"Memoria corporativa que no se jubila", desc:"El criterio de los técnicos veteranos queda como activo consultable cuando cambian de puesto o se van.", metric:"Saber retenido", img:"assets/casos/veterano-crop.jpg", link:"SIAB-Caso-Industria.dc.html" },
+    { sec:"salud", tag:"SALUD", title:"Historia clínica que no abandona el hospital", desc:"IA sobre datos de paciente dentro del centro, con permisos por rol y trazabilidad total. RGPD por diseño.", metric:"100% dato in situ", img:"", link:"" },
+    { sec:"publico", tag:"SECTOR PÚBLICO", title:"Servicios al ciudadano con soberanía total", desc:"Atención e informes con IA dentro de la administración, trazable y alineada con el marco europeo.", metric:"Soberanía garantizada", img:"", link:"" },
+  ];
+  state = { sec: "all" };
+
+  componentDidMount() { this.renderGrid(); this.highlight(); }
+
+  highlight() {
+    document.querySelectorAll(".schip").forEach(c => {
+      const on = c.getAttribute("data-sec") === this.state.sec;
+      c.style.background = on ? "#E1251B" : "#fff";
+      c.style.color = on ? "#fff" : "#4A4F57";
+      c.style.borderColor = on ? "#E1251B" : "#D6DBE0";
+      if (!c._wired) { c._wired = true; c.addEventListener("click", () => { this.setState({ sec: c.getAttribute("data-sec") }); setTimeout(() => { this.renderGrid(); this.highlight(); }, 0); }); }
+    });
+  }
+
+  renderGrid() {
+    const grid = document.getElementById("storyGrid");
+    const none = document.getElementById("csNone");
+    if (!grid) return;
+    grid.querySelectorAll(".scard").forEach(n => n.remove());
+    const list = this.STORIES.filter(s => this.state.sec === "all" || s.sec === this.state.sec);
+    if (none) none.style.display = list.length ? "none" : "block";
+    list.forEach(s => {
+      const card = document.createElement(s.link ? "a" : "div");
+      card.className = "scard";
+      if (s.link) { card.href = s.link; card.style.cursor = "pointer"; }
+      card.style.cssText += "background:#fff;border:1px solid #E3E5E8;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0;text-decoration:none";
+      const media = s.img
+        ? '<div style="height:170px;position:relative;overflow:hidden"><img src="' + s.img + '" alt="' + s.tag + '" style="width:100%;height:100%;object-fit:cover"/><span style="position:absolute;left:16px;bottom:16px;font-family:\'IBM Plex Mono\',monospace;font-size:9px;letter-spacing:.12em;color:#fff;background:rgba(225,37,27,.9);padding:5px 10px;border-radius:2px">' + s.tag + '</span></div>'
+        : '<div style="height:170px;background:linear-gradient(135deg,#1a1030,#3a1530);position:relative;display:flex;align-items:flex-end;padding:16px"><span style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;letter-spacing:.12em;color:#fff;background:rgba(225,37,27,.85);padding:5px 10px;border-radius:2px">' + s.tag + '</span></div>';
+      const cta = s.link ? '<span style="font-family:\'Montserrat\',sans-serif;font-weight:600;font-size:12px;color:#E1251B;margin-left:auto">Ver caso →</span>' : '';
+      card.innerHTML =
+        media +
+        '<div style="padding:24px;display:flex;flex-direction:column;flex:1">' +
+        '<h3 class="stitle" style="font-family:\'Montserrat\',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#16181D;margin:0">' + s.title + '</h3>' +
+        '<p style="font-size:13.5px;line-height:1.55;color:#6B7178;margin:12px 0 0">' + s.desc + '</p>' +
+        '<div style="margin-top:auto;padding-top:16px;display:flex;align-items:center;gap:8px;border-top:1px solid #F0F1F3;margin-top:18px"><span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:#E1251B;font-weight:600">' + s.metric + '</span>' + cta + '</div>' +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

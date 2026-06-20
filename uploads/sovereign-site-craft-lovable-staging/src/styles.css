@@ -1,0 +1,299 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 6px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Brand */
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-coral: var(--coral);
+  --color-coral-soft: var(--coral-soft);
+  --color-cream: var(--cream);
+  --color-line: var(--line);
+  --color-body-dark: var(--body-dark);
+  --color-body-mid: var(--body-mid);
+  --color-body-mute: var(--body-mute);
+  --color-blue-soft: var(--blue-soft);
+  --color-green: var(--green);
+
+  /* Aliases kept for older components */
+  --color-rule: var(--line);
+  --color-surface: var(--cream);
+  --color-surface-2: var(--blue-soft);
+  --color-signal: var(--gold);
+  --color-signal-dim: var(--gold-light);
+  --color-ink: var(--navy);
+
+  --font-display: "IBM Plex Serif", ui-serif, Georgia, serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root {
+  --radius: 0.25rem;
+
+  --navy: #0C2340;
+  --navy-2: #1F3A66;
+  --gold: #B7841F;
+  --gold-light: #F5E8C4;
+  --coral: #DC4842;
+  --coral-soft: #F6E5E3;
+  --cream: #FAFAF8;
+  --line: #E5E5E2;
+  --body-dark: #1A1A1A;
+  --body-mid: #4A4A4A;
+  --body-mute: #8A8A8A;
+  --blue-soft: #E8EEF7;
+  --green: #2E7D4F;
+
+  --background: var(--cream);
+  --foreground: var(--body-dark);
+  --card: #ffffff;
+  --card-foreground: var(--body-dark);
+  --popover: #ffffff;
+  --popover-foreground: var(--body-dark);
+  --primary: var(--navy);
+  --primary-foreground: var(--cream);
+  --secondary: var(--blue-soft);
+  --secondary-foreground: var(--navy);
+  --muted: var(--blue-soft);
+  --muted-foreground: var(--body-mid);
+  --accent: var(--gold);
+  --accent-foreground: var(--navy);
+  --destructive: var(--coral);
+  --destructive-foreground: var(--cream);
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--gold);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+
+  [id] { scroll-margin-top: 5rem; }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+    color: var(--navy);
+    font-weight: 500;
+  }
+
+  ::selection {
+    background: var(--gold);
+    color: var(--navy);
+  }
+}
+
+@layer utilities {
+  .font-display { font-family: var(--font-display); }
+  .font-mono { font-family: var(--font-mono); }
+
+  .label-mono {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .text-balance { text-wrap: balance; }
+
+  /* Button system */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    padding: 0.875rem 1.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1;
+    transition: all 180ms ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--navy);
+    border-color: var(--gold);
+  }
+  .btn-primary:hover { background: var(--gold-light); border-color: var(--gold-light); }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--navy);
+    border-color: var(--navy);
+  }
+  .btn-secondary:hover { background: var(--navy); color: var(--cream); }
+
+  .btn-on-navy {
+    background: transparent;
+    color: var(--gold);
+    border-color: var(--gold);
+  }
+  .btn-on-navy:hover { background: var(--gold); color: var(--navy); }
+
+  .btn-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--navy);
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color 180ms ease;
+  }
+  .btn-arrow::after {
+    content: "→";
+    transition: transform 180ms ease;
+  }
+  .btn-arrow:hover { color: var(--gold); }
+  .btn-arrow:hover::after { transform: translateX(4px); }
+
+  /* Card system */
+  .card {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    transition: border-color 180ms ease;
+    position: relative;
+  }
+  .card:hover { border-color: var(--body-mute); }
+
+  .card-accent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--gold);
+  }
+
+  /* Section system */
+  .section { border-bottom: 1px solid var(--line); }
+  .section-white { background: #ffffff; }
+  .section-cream { background: var(--cream); }
+  .section-navy { background: var(--navy); color: var(--cream); border-color: var(--navy-2); }
+  .section-navy h1, .section-navy h2, .section-navy h3, .section-navy h4 { color: var(--cream); }
+
+  .container-1200 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    .container-1200 { padding-left: 2.5rem; padding-right: 2.5rem; }
+  }
+
+  /* Code blocks */
+  .code-block {
+    background: var(--navy);
+    color: var(--cream);
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    line-height: 1.7;
+    padding: 1.5rem 1.75rem;
+    border: 1px solid var(--navy-2);
+    overflow-x: auto;
+    white-space: pre;
+  }
+  .code-block .kw { color: var(--gold); }
+  .code-block .str { color: var(--coral); }
+  .code-block .com { color: rgb(255 255 255 / 0.4); font-style: italic; }
+  .code-block .fn { color: var(--gold-light); }
+
+  /* Callouts */
+  .callout {
+    background: var(--blue-soft);
+    border-left: 3px solid var(--gold);
+    padding: 1.25rem 1.5rem;
+    font-size: 0.9375rem;
+    color: var(--body-dark);
+    line-height: 1.7;
+  }
+  .callout-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  /* Doc prose */
+  .prose-doc p { color: var(--body-mid); line-height: 1.75; }
+  .prose-doc p + p { margin-top: 1.25rem; }
+  .prose-doc h2 { font-size: 2rem; margin-top: 4rem; margin-bottom: 1rem; scroll-margin-top: 5rem; }
+  .prose-doc h3 { font-size: 1.375rem; margin-top: 2.5rem; margin-bottom: 0.75rem; scroll-margin-top: 5rem; }
+  .prose-doc strong { color: var(--navy); font-weight: 600; }
+  .prose-doc code:not(.code-block code) {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    color: var(--navy);
+    background: var(--blue-soft);
+    padding: 0.1rem 0.4rem;
+  }
+}
