@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0}
+  .swatch{transition:transform .15s ease, box-shadow .15s ease;cursor:pointer}
+  .swatch:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.14)}
+  .lnv-btn{transition:all .16s ease;cursor:pointer}
+</style>
+</helmet>
+
+<div style="background:#F5F4F2;min-height:100vh;font-family:'Hanken Grotesk',sans-serif;color:#1A1A1A">
+
+  <!-- TOP BAR -->
+  <div style="background:#fff;border-bottom:1px solid #E5E3E0;padding:16px 40px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10">
+    <div style="display:flex;align-items:center;gap:16px">
+      <!-- Lenovo logo lockup -->
+      <div style="border:2px solid #E1251B;padding:5px 9px 6px;display:inline-flex">
+        <span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:19px;letter-spacing:-.01em;color:#E1251B;line-height:1">Lenovo</span>
+      </div>
+      <div style="width:1px;height:26px;background:#E5E3E0"></div>
+      <span style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;letter-spacing:.02em;color:#1A1A1A">Software in a Box</span>
+    </div>
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#8A8784;text-transform:uppercase">Tablilla de estilos · v1</span>
+  </div>
+
+  <div style="max-width:1160px;margin:0 auto;padding:56px 40px 96px">
+
+    <!-- TITLE -->
+    <p style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#E1251B;margin:0">Brand System · Lenovo</p>
+    <h1 style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:52px;line-height:1.02;letter-spacing:-.02em;margin:16px 0 0;color:#1A1A1A">Estilos y colores Lenovo</h1>
+    <p style="font-size:17px;line-height:1.6;color:#4A4946;margin:18px 0 0;max-width:640px">Paleta, tipografía y componentes para alinear la plataforma con la identidad visual de Lenovo. Haz clic en cualquier muestra para copiar su valor HEX.</p>
+
+    <!-- ===== PRIMARY ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A1A1A;padding-bottom:12px">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em">01 · Color primario</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784">SIGNATURE RED</span>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:24px;margin-top:28px">
+        <!-- Big red -->
+        <div class="swatch" data-hex="#E1251B" onClick="{{ onCopy }}" style="background:#E1251B;border-radius:4px;padding:32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;color:#fff">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;opacity:.85">PMS 485 C</span>
+          <div>
+            <p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;margin:0;letter-spacing:-.01em">Lenovo Red</p>
+            <div style="display:flex;gap:24px;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px">
+              <span>#E1251B</span><span>RGB 225·37·27</span>
+            </div>
+            <p style="font-size:13px;line-height:1.55;margin:14px 0 0;max-width:380px;opacity:.9">Color de firma. Pasión y energía. Debe estar presente en todos los puntos de contacto.</p>
+          </div>
+        </div>
+        <!-- White -->
+        <div class="swatch" data-hex="#FFFFFF" onClick="{{ onCopy }}" style="background:#fff;border:1px solid #E5E3E0;border-radius:4px;padding:32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:#8A8784">NEUTRAL BASE</span>
+          <div>
+            <p style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:30px;margin:0;letter-spacing:-.01em;color:#1A1A1A">White</p>
+            <div style="display:flex;gap:24px;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#4A4946">
+              <span>#FFFFFF</span><span>RGB 255·255·255</span>
+            </div>
+            <p style="font-size:13px;line-height:1.55;margin:14px 0 0;color:#4A4946">Espacio, claridad y respiro. Fondo dominante del sistema.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== ONE LENOVO COMPANION ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A1A1A;padding-bottom:12px">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em">02 · Sistema One Lenovo</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784">CONNECTOR · SECONDARY · DEEP</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px">
+        <sc-for list="{{ companion }}" as="c" hint-placeholder-count="4">
+          <div class="swatch" data-hex="{{ c.hex }}" onClick="{{ onCopy }}" style="border-radius:4px;overflow:hidden;border:1px solid #E5E3E0;background:#fff">
+            <div style="height:120px;background:{{ c.hex }}"></div>
+            <div style="padding:16px">
+              <p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin:0;color:#1A1A1A">{{ c.name }}</p>
+              <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;margin:6px 0 0">{{ c.hex }} · {{ c.pms }}</p>
+              <p style="font-size:12px;line-height:1.45;color:#4A4946;margin:10px 0 0">{{ c.note }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- ===== NEUTRALS ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A1A1A;padding-bottom:12px">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em">03 · Neutrales cálidos</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784">GRAY RAMP · UI</span>
+      </div>
+      <div style="display:flex;border-radius:4px;overflow:hidden;margin-top:28px;border:1px solid #E5E3E0">
+        <sc-for list="{{ neutrals }}" as="n" hint-placeholder-count="6">
+          <div class="swatch" data-hex="{{ n.hex }}" onClick="{{ onCopy }}" style="flex:1;background:{{ n.hex }};height:130px;display:flex;flex-direction:column;justify-content:flex-end;padding:12px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:{{ n.fg }}">{{ n.hex }}</span>
+            <span style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:11px;color:{{ n.fg }};margin-top:2px">{{ n.name }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <!-- ===== TYPOGRAPHY ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A1A1A;padding-bottom:12px">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em">04 · Tipografía</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784">GOTHAM → MONTSERRAT (WEB)</span>
+      </div>
+      <div style="background:#fff;border:1px solid #E5E3E0;border-radius:4px;padding:36px;margin-top:28px">
+        <p style="font-size:13px;color:#4A4946;margin:0 0 28px;line-height:1.6;max-width:680px">Gotham es la tipografía corporativa de Lenovo (dos pesos principales). Para web usamos <strong>Montserrat</strong> en titulares y <strong>Hanken Grotesk</strong> en cuerpo como sustitutos geométricos cercanos.</p>
+
+        <div style="border-top:1px solid #E5E3E0;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;width:130px;flex:none">Display · 800</span>
+          <span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:46px;letter-spacing:-.02em;line-height:1">Inteligencia propietaria</span>
+        </div>
+        <div style="border-top:1px solid #E5E3E0;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;width:130px;flex:none">H2 · 700</span>
+          <span style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:32px;letter-spacing:-.01em">Servidor de IA en una caja</span>
+        </div>
+        <div style="border-top:1px solid #E5E3E0;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;width:130px;flex:none">H3 · 600</span>
+          <span style="font-family:'Montserrat',sans-serif;font-weight:600;font-size:22px">Control total, cero dependencia</span>
+        </div>
+        <div style="border-top:1px solid #E5E3E0;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;width:130px;flex:none">Body · 400</span>
+          <span style="font-family:'Hanken Grotesk',sans-serif;font-weight:400;font-size:16px;line-height:1.6;max-width:560px;color:#4A4946">La inferencia se ejecuta dentro de tu perímetro físico. Cero egress, por arquitectura — no por contrato. Tus datos nunca salen de tu empresa.</span>
+        </div>
+        <div style="border-top:1px solid #E5E3E0;padding:18px 0;display:flex;align-items:baseline;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;width:130px;flex:none">Label · mono</span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:#E1251B">ZERO EGRESS · GDPR · EU AI ACT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== COMPONENTS ===== -->
+    <div style="margin-top:64px">
+      <div style="display:flex;align-items:baseline;gap:14px;border-bottom:2px solid #1A1A1A;padding-bottom:12px">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:24px;margin:0;letter-spacing:-.01em">05 · Componentes</h2>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784">BUTTONS · CONTAINER · ACCENT</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px">
+        <!-- buttons -->
+        <div style="background:#fff;border:1px solid #E5E3E0;border-radius:4px;padding:32px">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#8A8784;margin:0 0 22px">BOTONES</p>
+          <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+            <button class="lnv-btn" style="background:#E1251B;color:#fff;border:2px solid #E1251B;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:13px 26px;border-radius:2px" style-hover="background:#B81C13;border-color:#B81C13">Solicitar demo</button>
+            <button class="lnv-btn" style="background:transparent;color:#1A1A1A;border:2px solid #1A1A1A;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:13px 26px;border-radius:2px" style-hover="background:#1A1A1A;color:#fff">Arquitectura</button>
+            <button class="lnv-btn" style="background:transparent;color:#E1251B;border:none;font-family:'Montserrat',sans-serif;font-weight:600;font-size:14px;padding:13px 4px;display:inline-flex;gap:8px;align-items:center" style-hover="gap:12px">Saber más →</button>
+          </div>
+          <div style="margin-top:26px;display:flex;gap:14px;flex-wrap:wrap">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#E1251B;background:#FCE9E8;padding:6px 12px;border-radius:2px">SIGNATURE RED</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#702F8A;background:#F1E9F5;padding:6px 12px;border-radius:2px">CONNECTOR</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;color:#11184F;background:#E7E9F2;padding:6px 12px;border-radius:2px">SECONDARY</span>
+          </div>
+        </div>
+        <!-- container motif -->
+        <div style="background:#fff;border:1px solid #E5E3E0;border-radius:4px;padding:32px">
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#8A8784;margin:0 0 22px">CONTENEDOR · LOGO LOCKUP</p>
+          <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+            <div style="border:2px solid #E1251B;padding:8px 14px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:24px;color:#E1251B;letter-spacing:-.01em">Lenovo</span></div>
+            <div style="background:#E1251B;padding:8px 14px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:24px;color:#fff;letter-spacing:-.01em">Lenovo</span></div>
+            <div style="background:#11184F;padding:8px 14px"><span style="font-family:'Montserrat',sans-serif;font-weight:800;font-size:24px;color:#fff;letter-spacing:-.01em">Lenovo</span></div>
+          </div>
+          <p style="font-size:13px;line-height:1.55;color:#4A4946;margin:20px 0 0">El contenedor rectangular funciona como ventana flexible: el fondo puede adaptarse al contexto manteniendo el wordmark.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== LEGACY / NOTE ===== -->
+    <div style="margin-top:48px;display:grid;grid-template-columns:1fr 1fr;gap:24px">
+      <div style="background:#fff;border:1px solid #E5E3E0;border-radius:4px;padding:24px;display:flex;gap:18px;align-items:center">
+        <div class="swatch" data-hex="#064A89" onClick="{{ onCopy }}" style="width:64px;height:64px;background:#064A89;border-radius:4px;flex:none"></div>
+        <div>
+          <p style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:15px;margin:0">Legacy Blue</p>
+          <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A8784;margin:6px 0 0">#064A89 · 2003–2015</p>
+          <p style="font-size:12px;color:#4A4946;margin:8px 0 0;line-height:1.45">Solo referencia histórica. No usar en producto actual.</p>
+        </div>
+      </div>
+      <div style="background:#FCE9E8;border-left:3px solid #E1251B;border-radius:2px;padding:24px">
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;color:#E1251B;margin:0 0 8px">NOTA DE USO</p>
+        <p style="font-size:13px;line-height:1.6;color:#4A4946;margin:0">El rojo de firma (#E1251B, PMS 485 C) está confirmado por Lenovo. Los tonos del sistema One Lenovo (púrpura conector, azul secundario, profundos) son aproximaciones; confírmalos contra el portal oficial de marca antes de producción.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TOAST -->
+  <sc-if value="{{ copied }}" hint-placeholder-val="{{ false }}">
+    <div style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:#1A1A1A;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.06em;padding:12px 22px;border-radius:3px;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.25)">Copiado · {{ copied }}</div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1240,&quot;height&quot;:1700}}">
+class Component extends DCLogic {
+  state = { copied: null };
+
+  companion = [
+    { name: "Purple", hex: "#702F8A", pms: "PMS 262 C", note: "Conector. Compañero armónico del rojo." },
+    { name: "Blue", hex: "#11184F", pms: "Secondary", note: "Aporta frescura y profundidad al conjunto." },
+    { name: "Deep Purple", hex: "#4D144A", pms: "Deep", note: "Acento profundo para fondos y contraste." },
+    { name: "Deep Red", hex: "#1E0013", pms: "Deep", note: "Casi negro cálido. Tipografía sobre claro." }
+  ];
+
+  neutrals = [
+    { name: "Cloud", hex: "#F5F4F2", fg: "#4A4946" },
+    { name: "Mist", hex: "#E5E3E0", fg: "#4A4946" },
+    { name: "Stone", hex: "#C9C6C1", fg: "#1A1A1A" },
+    { name: "Slate", hex: "#8A8784", fg: "#fff" },
+    { name: "Graphite", hex: "#4A4946", fg: "#fff" },
+    { name: "Ink", hex: "#1A1A1A", fg: "#fff" }
+  ];
+
+  copy(hex) {
+    try { navigator.clipboard && navigator.clipboard.writeText(hex); } catch (e) {}
+    this.setState({ copied: hex });
+    clearTimeout(this._t);
+    this._t = setTimeout(() => this.setState({ copied: null }), 1400);
+  }
+
+  componentWillUnmount() { clearTimeout(this._t); }
+
+  renderVals() {
+    return {
+      companion: this.companion,
+      neutrals: this.neutrals,
+      copied: this.state.copied,
+      onCopy: (e) => this.copy(e.currentTarget.getAttribute("data-hex"))
+    };
+  }
+}
+</script>
+</body>
+</html>

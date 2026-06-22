@@ -1,0 +1,212 @@
+[
+  {
+    "num": "01",
+    "title": "Soberanía del dato",
+    "subtitle": "Inteligencia artificial soberana porque el dato nunca sale: la soberanía está en el diseño, no en un contrato.",
+    "queEs": "El Servidor de IA es inteligencia artificial soberana por arquitectura. El dato del cliente nunca abandona su perímetro: en lugar de enviar la información a un motor externo, es el modelo el que se ejecuta donde vive el dato. Es el principio compute-to-data: la computación viaja al dato, no el dato a la computación. La soberanía deja de ser una promesa que se firma y pasa a ser una propiedad física del sistema. Y es verificable: se puede desconectar el cable de red del servidor y comprobar que sigue funcionando.",
+    "porQue": "En una nube tradicional, los datos del cliente salen de su control en el momento en que se procesan fuera. Para sectores regulados o con secreto industrial, eso es un riesgo inasumible. La soberanía por arquitectura lo elimina de raiz: no hay que confiar, se comprueba."
+  },
+  {
+    "num": "02",
+    "title": "Inferencia 100% propietaria",
+    "subtitle": "La inteligencia razona dentro: no se alquila, se posee, sin depender de terceros.",
+    "queEs": "La capacidad de inferencia del Servidor de IA es cien por cien propietaria. Los modelos de IA se ejecutan dentro del servidor del cliente; no se realizan llamadas a una API externa que pueda caerse, encarecerse o cambiar sus condiciones de un día para otro. El cliente no alquila inteligencia por consumo: la posee. Lo que compra funciona igual mañana que hoy, pase lo que pase fuera.",
+    "porQue": "Depender de una API externa significa depender de la disponibilidad, los precios y las políticas de un tercero sobre el que no se tiene control. Para una capacidad estratégica como la IA, esa dependencia es un riesgo de negocio."
+  },
+  {
+    "num": "03",
+    "title": "Eres dueño, no inquilino",
+    "subtitle": "Soberanía es que nadie de fuera decide por ti; control es que tú lo decides todo.",
+    "queEs": "Soberanía y control son dos caras de lo mismo. Soberanía significa que ningún tercero ajeno decide sobre tu inteligencia o tus datos. Control significa que eres tu quien decide todo: que datos entran, quien accede, que hace el sistema y que no. El cliente no es usuario de una plataforma ajena: es dueño de su inteligencia. Esa es la diferencia entre alquilar una capacidad y poseer una capacidad estratégica.",
+    "porQue": "En el modelo de nube dominante, la empresa es inquilina: usa una capacidad que pertenece y obedece a otro. Para algo tan estratégico como la IA, ser inquilino es una posición débil. La soberanía convierte al cliente en propietario."
+  },
+  {
+    "num": "04",
+    "title": "Infraestructura propia, sin nube",
+    "subtitle": "El servidor vive en casa del cliente: coste fijo, sin nube, sin que nadie de fuera pueda apagarlo.",
+    "queEs": "El Servidor de IA funciona sobre infraestructura propia del cliente, en sus instalaciones y sobre su propio hardware, sin dependencia de la nube ni de proveedores externos. El coste es fijo y predecible: no hay tarifa por consulta ni sorpresas en la factura. Y la disponibilidad está bajo control del cliente: ningún tercero puede apagarlo, limitarlo o cambiar las reglas del juego.",
+    "porQue": "Los modelos de nube cobran por consumo, lo que hace el coste impredecible y creciente con el uso, y dejan la disponibilidad en manos de un tercero. La infraestructura propia da previsibilidad de coste y control de disponibilidad, dos cosas que las direcciones financiera y de sistemas valoran enormemente."
+  },
+  {
+    "num": "05",
+    "title": "Control de modelos y agentes",
+    "subtitle": "Tú eliges qué modelo usas y que puede hacer cada agente: nada cambia a tus espaldas.",
+    "queEs": "El cliente tiene control total sobre los modelos y los agentes de inteligencia artificial. Elige que modelo se usa (por ejemplo Llama 3 o Mistral), que versión, y define que puede y que no puede hacer cada agente. Nada se actualiza ni cambia sin su permiso. La inteligencia y los agentes trabajan bajo las reglas del cliente, no bajo las de un proveedor.",
+    "porQue": "En los servicios de IA en la nube, el proveedor cambia el modelo, sus capacidades y su comportamiento cuando quiere, y el cliente no decide. Para procesos de negocio que dependen de la IA, esa falta de control es un riesgo. Poseer el control de modelos y agentes da estabilidad y previsibilidad."
+  },
+  {
+    "num": "06",
+    "title": "Independencia tecnológica",
+    "subtitle": "Sin atadura a un fabricante: estándares abiertos y modelos intercambiables, nunca un cautiverio.",
+    "queEs": "El Servidor de IA se construye sobre estándares abiertos y modelos de código abierto intercambiables. El cliente no queda atrapado en la tecnología propietaria de un fabricante que decide precios, condiciones y hoja de ruta. Si mañana aparece un modelo mejor, una mejor opción de hardware o cambia su estrategia, el cliente puede moverse. Su inversión no queda secuestrada por la decisión comercial de un tercero.",
+    "porQue": "El vendor lock-in es uno de los costes ocultos más caros de la tecnología: cuando solo un proveedor puede mantener tu sistema, ese proveedor pone el precio. La independencia tecnológica protege la inversión y la capacidad de negociar del cliente a lo largo del tiempo."
+  },
+  {
+    "num": "07",
+    "title": "IA por roles y permisos",
+    "subtitle": "La misma inteligencia, pero cada persona accede solo a lo que su puesto permite.",
+    "queEs": "El Servidor de IA no da el mismo acceso a todo el mundo. Cada usuario interactúa con la inteligencia según su rol: el operario obtiene el contexto de su tarea, el jefe de turno el de su área, la dirección la visión completa. No es una capa de permisos pegada por encima y fácil de sortear: es la propia inteligencia la que respeta el permiso antes de responder. Si alguien pregunta por algo fuera de su ámbito, el sistema sencillamente no responde.",
+    "porQue": "Las herramientas de IA genéricas no entienden de jerarquías ni de confidencialidad: responden a quien pregunte. En una empresa eso es inviable. El control por roles permite desplegar IA en toda la organización sin abrir la información sensible a quien no debe verla."
+  },
+  {
+    "num": "08",
+    "title": "Protocolo europeo de permisos",
+    "subtitle": "Los permisos siguen un estándar europeo abierto y auditable, no reglas propietarias de un fabricante.",
+    "queEs": "Los permisos del Servidor de IA no son una invención cerrada del fabricante: se expresan con ODRL, el lenguaje estándar para describir derechos de uso de datos, conforme a la norma UNE 0087. Son permisos legibles por máquina: la regla de uso viaja pegada al propio dato, no en un documento aparte que alguien pueda ignorar. Además, cada consulta y cada acceso quedan registrados de forma auditable.",
+    "porQue": "Que el gobierno del dato se base en un estándar europeo abierto da garantias que ninguna regla propietaria ofrece: interoperabilidad, auditabilidad y alineamiento con el marco regulatorio europeo. El cliente no queda atado a la lógica de un fabricante."
+  },
+  {
+    "num": "09",
+    "title": "Cumplimiento por diseño",
+    "subtitle": "Cumplir la normativa europea de IA y datos deja de ser un coste y pasa a ser un argumento de venta.",
+    "queEs": "Europa ha levantado un marco normativo exigente sobre IA y datos: el Reglamento de IA, el RGPD, el Data Act, el Reglamento de Gobernanza de Datos, la directiva NIS2 de ciberseguridad y, en finanzas, DORA. Cumplir todo eso apoyandose en una nube ajena es una batalla constante. Con el Servidor de IA, buena parte del cumplimiento es estructural: si el dato no sale del perímetro y cada acceso queda permisionado y registrado, muchas obligaciones se satisfacen por diseño.",
+    "porQue": "El cumplimiento suele vivirse como un coste y un freno. Convertirlo en una propiedad del producto -y por tanto en un argumento de venta- cambia por completo la conversación con el cliente, sobre todo en sectores regulados."
+  },
+  {
+    "num": "10",
+    "title": "Trazabilidad y auditoría total",
+    "subtitle": "Cada pregunta, cada respuesta y cada acción quedan registradas: nada ocurre en la sombra.",
+    "queEs": "Todo lo que pasa en el Servidor de IA deja rastro. Quien pregunto, que pregunto, que respondió el sistema, que agente actuo y cuando: todo queda registrado de forma integra y consultable. La IA deja de ser una caja negra y se convierte en un sistema auditable. Ese registro no es un añadido opcional: es parte de la arquitectura, igual que los permisos. Lo que no se puede auditar, no se puede gobernar.",
+    "porQue": "Las direcciones de cumplimiento, seguridad y riesgos necesitan poder demostrar que paso. Con la IA en la nube, gran parte de la traza está en manos del proveedor. Con el Servidor de IA, la traza completa es del cliente y está siempre disponible para una auditoría, una inspección o una investigación interna."
+  },
+  {
+    "num": "11",
+    "title": "Ciberseguridad por aislamiento",
+    "subtitle": "Lo que no está expuesto a internet no se puede atacar desde internet: superficie mínima.",
+    "queEs": "El Servidor de IA vive dentro del perímetro del cliente y no necesita estar expuesto a internet para funcionar. Eso reduce drásticamente la superficie de ataque: no hay credenciales viajando a una nube, no hay un endpoint público que comprometer, no hay un proveedor externo cuya brecha se convierta en tu brecha. La seguridad deja de depender de la cadena de terceros y vuelve a estar donde el cliente puede controlarla: dentro de casa.",
+    "porQue": "Cada conexión a un servicio externo es una puerta más que vigilar y un riesgo que no controlas del todo: las grandes fugas de datos de los últimos años han venido, muchas veces, de proveedores en la nube. Mantener la IA y los datos dentro del perímetro elimina toda una categoría de riesgo de un solo golpe."
+  },
+  {
+    "num": "12",
+    "title": "Tu conocimiento no entrena a otros",
+    "subtitle": "Tus datos no alimentan el modelo de nadie ni acaban beneficiando a tu competencia.",
+    "queEs": "Cuando una empresa usa IA en la nube, sus preguntas, sus documentos y su know-how pueden acabar -directa o indirectamente- mejorando un modelo que despues usara cualquiera, incluida su competencia. Con el Servidor de IA eso no ocurre: los datos y el conocimiento del cliente se quedan dentro y solo trabajan para el. El conocimiento de la empresa es un activo. Mantenerlo dentro evita que ese activo se diluya en un modelo público.",
+    "porQue": "El saber hacer de una empresa -como produce, como negocia, como resuelve- es su ventaja. Entregarlo a un modelo compartido es regalar parte de esa ventaja. La soberanía del dato protege no solo la privacidad, sino el valor competitivo de lo que la empresa sabe."
+  },
+  {
+    "num": "13",
+    "title": "Orquestador vectorial",
+    "subtitle": "Una sola pregunta sobre todo el negocio: inteligencia sobre toda la operación, no sobre un documento.",
+    "queEs": "El Servidor de IA es un orquestador vectorial de todos los datos, internos y externos. Unifica la información de ERP, CRM, almacén, producción y la de clientes y proveedores en una única memoria vectorial. El usuario lanza una sola pregunta en lenguaje natural y obtiene una respuesta que cruza todas esas fuentes a la vez. No es un asistente que responde sobre un documento: es inteligencia sobre toda la operación de la empresa.",
+    "porQue": "La información de una empresa vive dispersa en silos que no se hablan entre si. Responder a una pregunta de negocio suele exigir cruzar varios sistemas a mano. El orquestador vectorial elimina ese trabajo: convierte todos los datos en una memoria consultable de una vez."
+  },
+  {
+    "num": "14",
+    "title": "Federado dentro y fuera",
+    "subtitle": "Un mismo nodo orquesta tu empresa por dentro y tu cadena de valor por fuera.",
+    "queEs": "El Servidor de IA trabaja de forma federada en dos direcciones. Hacia dentro, conecta a todos los miembros de la organización con todos sus sistemas, dando una visión transversal del negocio. Hacia fuera, federa con clientes y proveedores: las organizaciones comparten conocimiento sin compartir datos, y cada una sigue siendo dueña de los suyos. Es el mismo nodo el que opera en ambos sentidos.",
+    "porQue": "Las empresas necesitan colaborar con su entorno -proveedores, clientes- pero no pueden ni quieren entregar sus datos. La federacion resuelve esa tensión: permite colaboración real sin ceder la soberanía del dato, algo imposible con los enfoques tradicionales."
+  },
+  {
+    "num": "15",
+    "title": "Memoria corporativa que no se va",
+    "subtitle": "El conocimiento de la empresa se queda en la empresa, aunque las personas cambien.",
+    "queEs": "El Servidor de IA construye una memoria viva de la organización: procedimientos, decisiones, históricos, criterios. Ese conocimiento deja de vivir solo en la cabeza de unas pocas personas y pasa a ser un activo consultable que permanece cuando alguien se jubila, cambia de puesto o se va. La empresa deja de perder saber cada vez que pierde a una persona clave.",
+    "porQue": "La fuga de conocimiento es un coste silencioso: cuando se va un veterano, se va con el su criterio y su contexto. Una memoria corporativa consultable convierte ese saber tácito en un activo permanente de la empresa, no de la persona."
+  },
+  {
+    "num": "16",
+    "title": "Especializado en tu negocio",
+    "subtitle": "No es una IA genérica: aprende tu vocabulario, tus productos y tu forma de trabajar.",
+    "queEs": "El Servidor de IA se nutre de los datos y documentos del propio cliente, de modo que sus respuestas están ancladas en la realidad de su negocio: sus referencias, sus clientes, sus procesos, su terminología. No improvisa con conocimiento general: razona sobre la información real de la empresa. Es la diferencia entre un asistente que sabe de todo en general y uno que sabe de tu empresa en concreto.",
+    "porQue": "Una IA genérica da respuestas generales, y en un contexto de negocio eso no basta -y a veces inventa. Anclar la inteligencia en los datos propios del cliente hace las respuestas útiles, precisas y fiables, porque hablan el idioma de la empresa."
+  },
+  {
+    "num": "17",
+    "title": "Agentes autónomos bajo control",
+    "subtitle": "La IA no solo responde: ejecuta tareas completas, siempre con los límites que tu pongas.",
+    "queEs": "El Servidor de IA puede desplegar agentes que ejecutan procesos de principio a fin: preparar un pedido, revisar una factura, generar un informe, cruzar una incidencia. No se limitan a contestar; actúan. Pero cada agente opera dentro de límites explicitos: que puede consultar, que puede ejecutar y que tiene prohibido. Automatizacion real, pero con la barandilla siempre puesta y todo registrado.",
+    "porQue": "El valor de la IA no está solo en responder, sino en quitar trabajo repetitivo a las personas. Los agentes lo hacen, pero la clave es el control: una automatizacion sin límites claros da miedo, y con razón. Aquí el cliente define exactamente hasta donde llega cada agente."
+  },
+  {
+    "num": "18",
+    "title": "Multimodal y multiidioma",
+    "subtitle": "Entiende documentos, hojas, correos e idiomas: toda tu información, no solo el texto limpio.",
+    "queEs": "La información de una empresa no es solo texto ordenado: son PDF, hojas de cálculo, correos, albaranes escaneados, fichas, y a menudo en varios idiomas. El Servidor de IA está preparado para entender ese material heterogéneo y trabajar con el de forma unificada. Una sola inteligencia que lee lo que la empresa realmente produce, en el formato y el idioma en que lo produce.",
+    "porQue": "Gran parte del conocimiento útil de una empresa está atrapado en formatos incomodos y en distintos idiomas. Una IA que solo entiende texto limpio deja fuera la mayor parte. La capacidad multimodal y multiidioma desbloquea información que hasta ahora nadie podía consultar de forma ágil."
+  },
+  {
+    "num": "19",
+    "title": "Coste fijo y previsible",
+    "subtitle": "Pagas una vez y usas cuanto quieras: sin tarifa por consulta, sin factura que se dispara.",
+    "queEs": "El modelo de coste del Servidor de IA es una inversión en infraestructura propia, no una tarifa por consumo. El cliente paga por el sistema y lo usa cuanto necesite, sin que cada pregunta sume a la factura. El coste es conocido, fijo y amortizable. Frente a la nube, donde más uso significa más gasto, aquí el éxito de adopción no penaliza: cuanto más se usa, mejor sale.",
+    "porQue": "La tarifa por consumo de la nube tiene un problema estructural: justo cuando la IA funciona y todo el mundo la usa, la factura se dispara. Eso frena la adopción. El coste fijo invierte la lógica: usar más el sistema no cuesta más, así que se fomenta su uso."
+  },
+  {
+    "num": "20",
+    "title": "ROI medible",
+    "subtitle": "No es un gasto en tecnología: es horas recuperadas, errores evitados y decisiones más rápidas.",
+    "queEs": "El retorno del Servidor de IA se mide en realidades concretas: horas que el equipo deja de perder buscando información, errores que se evitan al cruzar datos automáticamente, decisiones que se toman antes porque la respuesta está en segundos en lugar de en días. Es un activo que produce retorno, no una línea de gasto que justificar.",
+    "porQue": "Para que una dirección apruebe una inversión necesita ver el retorno. La IA soberana lo tiene en sitios muy tangibles: productividad, calidad y velocidad de decisión. Traducir el argumento a esos números es lo que convierte el interes en compra."
+  },
+  {
+    "num": "21",
+    "title": "El fin de los silos",
+    "subtitle": "Se acabó abrir cinco programas y cruzar datos a mano: una pregunta, toda la operación.",
+    "queEs": "En la mayoría de empresas, responder a una pregunta de negocio sencilla exige abrir varios sistemas, exportar, cruzar a mano y rezar para no equivocarse. El Servidor de IA elimina ese trabajo: unifica las fuentes y responde de una vez, sin saltar de programa en programa. Se recupera el tiempo que hoy se va en hacer de puente entre sistemas que no se hablan.",
+    "porQue": "Los silos de información son uno de los mayores ladrones de productividad de una empresa. No es que falte el dato: es que está repartido y nadie lo cruza con agilidad. Romper los silos libera horas y reduce errores en cadena."
+  },
+  {
+    "num": "22",
+    "title": "Continuidad de negocio",
+    "subtitle": "Si se cae internet o un proveedor falla, tu inteligencia sigue funcionando: nadie la apaga.",
+    "queEs": "Como el Servidor de IA vive y razona dentro del cliente, su funcionamiento no depende de la conexión a internet ni de la disponibilidad de un proveedor externo. Una caida del operador, una incidencia de un hyperscaler o un cambio de condiciones del proveedor no detienen la operación. La IA pasa a ser una capacidad sobre la que se puede construir proceso crítico, porque su disponibilidad está bajo control del cliente.",
+    "porQue": "Si un proceso de negocio depende de la IA, esa IA tiene que estar siempre. Depender de un servicio en la nube significa que la continuidad de tu negocio depende de la continuidad -y de las decisiones- de un tercero. La infraestructura propia devuelve esa garantia al cliente."
+  },
+  {
+    "num": "23",
+    "title": "Velocidad y respuesta local",
+    "subtitle": "La inteligencia está al lado del dato: respuestas inmediatas, sin ida y vuelta a la nube.",
+    "queEs": "Como el modelo se ejecuta donde están los datos, no hay viaje a un servidor remoto ni cola en una API compartida. La respuesta es local e inmediata, incluso con grandes volúmenes de información interna y aunque muchas personas usen el sistema a la vez. La cercanía física entre inteligencia y dato se traduce en agilidad: la herramienta responde al ritmo del trabajo, no al ritmo de la red.",
+    "porQue": "Una herramienta lenta no se usa. La latencia y las colas de las APIs compartidas penalizan justo cuando más se necesita una respuesta rápida. Tener la inteligencia al lado del dato garantiza un rendimiento que no depende del tráfico de un servicio de terceros."
+  },
+  {
+    "num": "24",
+    "title": "Un activo, no un gasto",
+    "subtitle": "La IA soberana es una capacidad estratégica que se posee: ventaja competitiva que no se alquila.",
+    "queEs": "Cuando una empresa posee su inteligencia -no la alquila- esa capacidad se convierte en un activo estratégico propio: especializado en su negocio, alimentado por su conocimiento y mejorando con el tiempo. Es una ventaja que la competencia no puede simplemente comprar en la misma tienda, porque está construida sobre los datos y el saber del cliente. Alquilar la misma IA genérica que usa todo el mundo no diferencia; poseer una inteligencia propia, si.",
+    "porQue": "Si todos alquilan la misma capacidad en la misma nube, esa capacidad no diferencia a nadie. La ventaja competitiva real nace de lo que es propio. Una IA soberana, especializada y poseida es un foso: algo que el cliente tiene y los demás no pueden replicar fácilmente."
+  },
+  {
+    "num": "25",
+    "title": "Soberanía digital europea",
+    "subtitle": "Alineado con la apuesta de Europa: autonomía estratégica en IA y datos, no dependencia exterior.",
+    "queEs": "Europa ha hecho de la soberanía digital una prioridad estratégica: depender menos de tecnología extranjera para sus datos y su inteligencia. El Servidor de IA encarna ese principio a escala de empresa -dato dentro, modelos abiertos, estándares europeos- y alinea al cliente con la dirección que marcan la regulación y la financiación pública europeas. Comprar soberanía no es solo una decisión técnica: es ponerse del lado correcto de una tendencia de fondo.",
+    "porQue": "La soberanía digital es ya un criterio que pesa en regulación, en contratación pública y en financiación europea. Una solución alineada con ese marco no solo cumple mejor: abre puertas a ayudas, a licitaciones y a una posición más solida frente a clientes e instituciones."
+  },
+  {
+    "num": "26",
+    "title": "Independencia geopolítica",
+    "subtitle": "Tu inteligencia no queda a merced de decisiones de otro país, otra ley o otra empresa.",
+    "queEs": "Cuando la IA de una empresa vive en la nube de un proveedor extranjero, queda sujeta a las leyes, las sanciones y las decisiones comerciales de ese país y esa compañía. Un cambio normativo lejano, una tensión geopolítica o una decisión unilateral del proveedor pueden alterar el acceso o las condiciones de un día para otro. Con infraestructura propia, esa exposición desaparece: la capacidad está físicamente en casa del cliente, fuera del alcance de decisiones ajenas.",
+    "porQue": "La dependencia de proveedores extranjeros se ha revelado como un riesgo real: leyes de acceso a datos transfronterizo, sanciones, restricciones de exportación, cambios de política. Para una capacidad estratégica, estar expuesto a decisiones que se toman fuera y sin tu voz es una vulnerabilidad de negocio."
+  },
+  {
+    "num": "27",
+    "title": "Casos de uso por sector",
+    "subtitle": "El mismo principio, valor distinto en cada sector: industria, salud, finanzas, legal y público.",
+    "queEs": "La soberanía del dato no es un argumento abstracto: aterriza distinto en cada sector. En industria, protege el secreto de fabricación y unifica la planta. En salud, mantiene el dato del paciente dentro y facilita el RGPD. En finanzas, ayuda con DORA y la confidencialidad. En legal, preserva el secreto profesional. En el sector público, garantiza soberanía y trazabilidad. Un mismo producto, una propuesta de valor afilada para cada interlocutor.",
+    "porQue": "Un argumento genérico convence menos que uno que habla del dolor concreto del cliente. Conocer como aterriza la soberanía en cada sector permite al comercial pasar de hablar del producto a hablar del problema del cliente, que es donde se cierran las ventas."
+  },
+  {
+    "num": "28",
+    "title": "Escala contigo",
+    "subtitle": "Empiezas por un caso, creces por módulos: una hoja de ruta, no un salto al vacío.",
+    "queEs": "No hace falta transformar la empresa de golpe. El Servidor de IA se despliega por fases: se empieza por un caso de uso con valor claro, se demuestra el retorno y se va ampliando -más fuentes, más áreas, más agentes, federacion externa- de forma modular y controlada. Una hoja de ruta que crece con el cliente, no un proyecto de todo o nada.",
+    "porQue": "Los grandes proyectos tecnológicos asustan -y fracasan- cuando se plantean como un salto al vacío. Un despliegue modular reduce el riesgo, demuestra valor pronto y permite a la dirección decidir cada ampliación sobre resultados reales, no sobre promesas."
+  },
+  {
+    "num": "29",
+    "title": "Eficiente y sostenible",
+    "subtitle": "Cómputo dimensionado a tu necesidad real: menos desperdicio, más control, huella bajo tu mando.",
+    "queEs": "El Servidor de IA se dimensiona para la necesidad real del cliente y ejecuta los modelos de forma eficiente en local, sin el sobreconsumo de enviar cada consulta a un centro de datos remoto. El cliente controla su propio consumo y puede optimizarlo, en lugar de depender de la eficiencia -opaca- de un tercero. Eficiencia energética y control de huella pasan a ser una variable más que el cliente gobierna.",
+    "porQue": "La sostenibilidad es ya un criterio de compra y de reporte para muchas empresas. Un sistema local, dimensionado y bajo control permite medir y optimizar el consumo, frente a la opacidad de la nube. Es un argumento que suma en dirección, en compras y en sostenibilidad."
+  },
+  {
+    "num": "30",
+    "title": "Un partner, no un proveedor",
+    "subtitle": "No vendemos una caja y desaparecemos: implantamos, acompañamos y respondemos contigo.",
+    "queEs": "El Servidor de IA no es un producto que se entrega y se olvida. Detras hay un acompañamiento: análisis del caso de uso, integracion con los sistemas del cliente, formación de su equipo, soporte y evolucion. El cliente posee la inteligencia, y nosotros nos quedamos para que funcione y siga dando valor. Propiedad para el cliente, responsabilidad compartida en hacerla funcionar: esa es la relación.",
+    "porQue": "La diferencia entre que la IA funcione o se quede en un cajón casi nunca es el modelo: es el acompañamiento. Un buen partner reduce el riesgo de implantación, acelera el valor y da tranquilidad a la dirección. Es, muchas veces, el factor que inclina la decisión."
+  }
+]
