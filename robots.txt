@@ -1,35 +1,25 @@
 # robots.txt · Software in a Box / COGNITIV
-# Permite indexación completa + rastreadores de IA generativa (Google, Gemini, OpenAI, Perplexity, etc.)
+# Una sola regla: todo el sitio abierto a buscadores clásicos y a buscadores/asistentes de IA.
+# (Bot Preference Sync de Cloudflare desactivado el 2026-11-04 para que este archivo sea el único que manda.)
 
 User-agent: *
 Allow: /
 
-# --- Buscadores de IA: permitidos explícitamente para aparecer/ser citado ---
+# Buscadores y asistentes de IA (permitidos explícitamente para aparecer y ser citados)
 User-agent: Googlebot
-Allow: /
-
 User-agent: Google-Extended
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Anthropic-AI
-Allow: /
-
 User-agent: Bingbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: DuckAssistBot
 Allow: /
 
 Sitemap: https://www.softwareinabox.eu/sitemap.xml
