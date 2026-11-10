@@ -17,3 +17,4 @@
 - [Español](https://www.softwareinabox.eu/)
 - [English](https://www.softwareinabox.eu/en/)
 - [Français](https://www.softwareinabox.eu/fr/)
+- [Deutsch](https://www.softwareinabox.eu/de/)
