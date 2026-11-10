@@ -19,3 +19,5 @@
 - [Français](https://www.softwareinabox.eu/fr/)
 - [Deutsch](https://www.softwareinabox.eu/de/)
 - [Nederlands](https://www.softwareinabox.eu/nl/)
+- [Português](https://www.softwareinabox.eu/pt/)
+- [Italiano](https://www.softwareinabox.eu/it/)
