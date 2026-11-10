@@ -15,8 +15,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4' stroke-linejoin='round'/%3E%3Cpath d='M14 23l18 10 18-10M32 33v18' fill='none' stroke='%23C9A227' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/fonts.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
  {"@type":"Organization","@id":"https://www.softwareinabox.eu/#organization","name":"Software in a Box","url":"https://www.softwareinabox.eu/",
@@ -30,114 +29,8 @@
  {"@type":"WebSite","@id":"https://www.softwareinabox.eu/#website","url":"https://www.softwareinabox.eu/","name":"Software in a Box","inLanguage":"es","publisher":{"@id":"https://www.softwareinabox.eu/#organization"}}
 ]}
 </script>
-<style>
-:root{--navy:#0B2545;--navy2:#13315C;--gold:#C9A227;--gold-t:#8A6D0B;--teal:#1B998B;--red:#E1251B;--cream:#F7F5EF;--ink:#1E2633;--mute:#5B6573;--line:#E3E6EC}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Hanken Grotesk',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.55;-webkit-font-smoothing:antialiased}
-h1,h2,h3,.mont{font-family:'Montserrat',sans-serif;letter-spacing:-.015em;color:var(--navy)}
-a{color:inherit}
-.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
-.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px 12px;z-index:99}
-/* header */
-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Montserrat';font-weight:800;font-size:18px;color:var(--navy)}
-.logo svg{width:34px;height:34px}
-.menu{display:flex;gap:26px;align-items:center;font-size:15px;font-weight:600}
-.menu a{text-decoration:none;color:var(--ink)}.menu a:hover{color:var(--teal)}.menu a.btn-navy,.menu a.btn-navy:hover{color:#fff}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none;border:2px solid transparent;transition:.2s}
-.btn-gold{background:var(--gold);color:var(--navy)}.btn-gold:hover{background:#d8b234}
-.btn-line{border-color:rgba(255,255,255,.4);color:#fff}.btn-line:hover{border-color:#fff}
-.btn-navy{background:var(--navy);color:#fff}.btn-navy:hover{background:var(--navy2)}
-.burger{display:none;background:none;border:0;font-size:26px;color:var(--navy)}
-/* hero */
-.hero{background:radial-gradient(1200px 500px at 85% -10%,#1F4E79 0%,transparent 60%),linear-gradient(160deg,#0B2545,#0F3D52 70%,#0F4D55);color:#fff;overflow:hidden}
-.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:84px;padding-bottom:84px}
-.eyebrow{font-family:'Montserrat';font-weight:700;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px}
-.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
-.hero h1{color:#fff;font-size:clamp(34px,4.6vw,56px);line-height:1.06;font-weight:800;margin:18px 0}
-.hero h1 em{font-style:normal;color:var(--gold)}
-.hero p.lead{font-size:19px;color:#C9D3E0;max-width:560px}
-.hero .ctas{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
-.hero-kpis{display:flex;gap:30px;margin-top:40px;flex-wrap:wrap}
-.hero-kpis div b{display:block;font-family:'Montserrat';font-size:28px;color:#fff}
-.hero-kpis div span{font-size:13.5px;color:#AAB7C8}
-/* sections */
-section{padding:88px 0}
-.sec-head{max-width:760px;margin-bottom:44px}
-.sec-head h2{font-size:clamp(28px,3.2vw,40px);line-height:1.12;font-weight:800;margin-top:12px}
-.sec-head p{font-size:18px;color:var(--mute);margin-top:14px}
-.eyebrow.dark{color:var(--gold-t)}
-/* products */
-.prods{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.prod{border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;background:#fff;box-shadow:0 6px 24px rgba(11,37,69,.06);transition:.25s;text-decoration:none}
-.prod:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(11,37,69,.13)}
-.prod .top{padding:26px 26px 22px;color:#fff;position:relative;min-height:170px}
-.prod .tag{font-family:'Montserrat';font-size:12px;font-weight:700;letter-spacing:.14em;opacity:.85}
-.prod .name{font-family:'Montserrat';font-weight:800;font-size:30px;margin-top:8px;letter-spacing:-.01em}
-.prod .name .box{border:2px solid currentColor;padding:0 8px;border-radius:4px}
-.prod .claim{font-size:16px;margin-top:8px;opacity:.92}
-.prod .top svg{position:absolute;right:20px;top:20px;width:52px;height:52px;opacity:.9}
-.prod .body{padding:22px 26px 26px;display:flex;flex-direction:column;gap:12px;flex:1;color:var(--ink)}
-.prod ul{list-style:none;display:flex;flex-direction:column;gap:8px;font-size:15px}
-.prod li{display:flex;gap:10px}.prod li:before{content:'';flex:none;width:8px;height:8px;margin-top:8px;border-radius:50%;background:var(--c)}
-.prod .go{margin-top:auto;padding-top:14px;font-weight:700;color:var(--c2);display:flex;justify-content:space-between;border-top:1px solid var(--line)}
-.p-cog{--c:var(--red);--c2:#B71C13}.p-cog .top{background:linear-gradient(135deg,#1A1D21,#2B2F35)}
-.p-arg{--c:var(--gold);--c2:var(--gold-t)}.p-arg .top{background:linear-gradient(135deg,#0B2545,#1F4E79)}
-.p-dat{--c:var(--teal);--c2:#137A6F}.p-dat .top{background:linear-gradient(135deg,#0F4D55,#1B998B)}
-/* principle */
-.principle{background:var(--cream)}
-.pr-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
-.pr-points{display:flex;flex-direction:column;gap:18px}
-.pt{display:flex;gap:16px}.pt .n{flex:none;width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:'Montserrat';font-weight:800;display:flex;align-items:center;justify-content:center}
-.pt h3{font-size:18px}.pt p{color:var(--mute);font-size:15.5px}
-.diagram{background:#fff;border-radius:20px;padding:20px;box-shadow:0 6px 24px rgba(11,37,69,.08)}
-/* experience */
-.exp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.exp{border-radius:16px;padding:24px;border:1px solid var(--line);background:#fff}
-.exp .ic{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
-.exp h3{font-size:19px}.exp .sub{font-size:13.5px;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.06em;margin:2px 0 10px}
-.exp p{font-size:15.5px;color:var(--mute)}
-.stack{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-.chip{font-size:14px;font-weight:600;padding:8px 14px;border-radius:999px;background:#EEF2F7;color:var(--navy)}
-/* sectors */
-.sectors{background:var(--navy);color:#fff}
-.sectors h2{color:#fff}.sectors .sec-head p{color:#AAB7C8}
-.sec-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
-.sect{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:20px}
-.sect svg{width:30px;height:30px;color:var(--gold)}
-.sect h3{color:#fff;font-size:17px;margin:12px 0 6px}
-.sect p{font-size:14px;color:#AAB7C8}
-.sect .pp{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.sect .pp span{font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:6px;background:rgba(255,255,255,.1)}
-/* eco */
-.eco{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.eco div{border:1px dashed #C8CED6;border-radius:14px;padding:20px;text-align:center}
-.eco b{font-family:'Montserrat';font-size:18px;color:var(--navy);display:block}
-.eco span{font-size:14px;color:var(--mute)}
-/* contact */
-.contact{background:linear-gradient(160deg,#0B2545,#0F4D55);color:#fff}
-.ct-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
-.contact h2{color:#fff;font-size:clamp(28px,3.4vw,42px)}
-.contact p{color:#C9D3E0;font-size:18px;margin-top:14px}
-.card-ct{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:18px;padding:26px;display:flex;flex-direction:column;gap:14px}
-.card-ct a{text-decoration:none;font-weight:600}
-.card-ct .l{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:700}
-footer{background:#081A33;color:#AAB7C8;padding:40px 0;font-size:14.5px}
-.ft{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
-.ft a{color:#fff;text-decoration:none}.ft a:hover{color:var(--gold)}
-.ft ul{list-style:none;display:flex;flex-direction:column;gap:6px}
-.ft b{color:#fff;display:block;margin-bottom:8px;font-family:'Montserrat'}
-@media (max-width:980px){
- .hero .wrap,.pr-grid,.ct-grid{grid-template-columns:1fr}
- .prods,.exp-grid{grid-template-columns:1fr}
- .sec-grid{grid-template-columns:repeat(2,1fr)} .eco{grid-template-columns:repeat(2,1fr)}
- .menu{display:none}.menu.open{display:flex;position:absolute;top:68px;left:0;right:0;flex-direction:column;background:#fff;padding:20px;border-bottom:1px solid var(--line)}
- .burger{display:block} section{padding:64px 0}
-}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
-</style>
+<link rel="stylesheet" href="/assets/siab.css">
+
 </head>
 <body>
 <a class="skip" href="#main">Saltar al contenido</a>
@@ -273,7 +166,7 @@ footer{background:#081A33;color:#AAB7C8;padding:40px 0;font-size:14.5px}
 
 <section id="ecosistema">
   <div class="wrap">
-    <div class="sec-head"><div class="eyebrow dark">Ecosistema</div><h2>Tecnología abierta y socios de primer nivel</h2></div>
+    <div class="sec-head"><div class="eyebrow dark">Ecosistema</div><h2>Tecnologías y socios con los que trabajamos</h2></div>
     <div class="eco">
       <div><b>Lenovo</b><span>servidores ThinkSystem para COGNITIV</span></div>
       <div><b>V-Valley</b><span>distribución y preventa</span></div>
@@ -286,12 +179,23 @@ footer{background:#081A33;color:#AAB7C8;padding:40px 0;font-size:14.5px}
 <section class="contact" id="contacto">
   <div class="wrap ct-grid">
     <div><div class="eyebrow">Contacto</div><h2>¿Hablamos de su caso?</h2><p>Cuéntenos qué datos necesita proteger y qué quiere conseguir con ellos. Le proponemos el producto y la arquitectura adecuados.</p>
-      <div class="ctas" style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-gold" href="mailto:emilio.mulet@softwareinabox.eu?subject=Software%20in%20a%20Box%20%C2%B7%20Solicitud%20de%20reuni%C3%B3n">Escribir un correo</a><a class="btn btn-line" href="tel:+34601398868">Llamar</a></div></div>
-    <div class="card-ct">
-      <div><div class="l">Correo</div><a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a></div>
-      <div><div class="l">Teléfono</div><a href="tel:+34601398868">+34 601 398 868</a></div>
-      <div><div class="l">Oficina</div><span>Calle Ramírez de Arellano, 17, 4ª planta · 28043 Madrid</span></div>
-    </div>
+      <div class="ctas" style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-gold" href="mailto:emilio.mulet@softwareinabox.eu?subject=Software%20in%20a%20Box%20%C2%B7%20Solicitud%20de%20reuni%C3%B3n">Escribir un correo</a><a class="btn btn-line" href="tel:+34601398868">Llamar</a></div>
+      <p style="font-size:15px;margin-top:22px;color:#AAB7C8">Oficina: Calle Ramírez de Arellano, 17, 4ª planta · 28043 Madrid</p></div>
+    <form class="card-ct form" action="https://formsubmit.co/emilio.mulet@softwareinabox.eu" method="POST">
+      <input type="hidden" name="_subject" value="Nueva consulta · www.softwareinabox.eu">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://www.softwareinabox.eu/gracias.html">
+      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="l">Escríbanos</div>
+      <label class="sr" for="f-nombre" style="position:absolute;left:-999px">Nombre</label><input id="f-nombre" name="Nombre" required placeholder="Nombre y apellidos" autocomplete="name">
+      <label for="f-email" style="position:absolute;left:-999px">Correo</label><input id="f-email" type="email" name="Email" required placeholder="Correo profesional" autocomplete="email">
+      <label for="f-interes" style="position:absolute;left:-999px">Interés</label><select id="f-interes" name="Interés"><option value="">¿Qué le interesa?</option><option>COGNITIV · IA soberana</option><option>ARGOS · cumplimiento</option><option>Espacios de datos federados</option><option>Otro</option></select>
+      <label for="f-msg" style="position:absolute;left:-999px">Mensaje</label><textarea id="f-msg" name="Mensaje" placeholder="Cuéntenos brevemente su caso"></textarea>
+      <label class="ok"><input type="checkbox" name="Consentimiento" value="Acepta la política de privacidad" required><span>He leído y acepto la <a href="/privacidad.html" target="_blank" rel="noopener">política de privacidad</a>. Usaremos sus datos solo para responderle.</span></label>
+      <button class="btn btn-gold" type="submit">Enviar consulta</button>
+      <p style="font-size:13.5px;color:#C9D3E0;margin:0">O directamente: <a href="mailto:emilio.mulet@softwareinabox.eu" style="color:#fff">emilio.mulet@softwareinabox.eu</a> · <a href="tel:+34601398868" style="color:#fff">+34 601 398 868</a></p>
+    </form>
   </div>
 </section>
 </main>
@@ -303,7 +207,7 @@ footer{background:#081A33;color:#AAB7C8;padding:40px 0;font-size:14.5px}
     <div><b>Empresa</b><ul><li><a href="#principio">Cómo trabajamos</a></li><li><a href="#experiencia">Experiencia</a></li><li><a href="#contacto">Contacto</a></li></ul></div>
     <div><b>Recursos</b><ul><li><a href="/llms.txt">llms.txt</a></li><li><a href="/sitemap.xml">Mapa del sitio</a></li></ul></div>
   </div>
-  <div class="wrap" style="margin-top:26px;font-size:13px">© 2026 Software in a Box</div>
+  <div class="wrap ft-legal"><span>© 2026 Software in a Box · marca de Ullswater Investments S.L.</span><nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a></nav></div>
 </footer>
 </body>
 </html>
