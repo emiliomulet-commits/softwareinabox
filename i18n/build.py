@@ -22,9 +22,12 @@ SRC = CFG["source_lang"]
 ALL = [SRC] + LANGS
 
 
+BUILDING = set()
+
+
 def active():
-    """Idiomas publicados: español + los que tienen fichero de traducción."""
-    return [SRC] + [l for l in LANGS if os.path.exists(os.path.join(HERE, f"{l}.json"))]
+    """Idiomas publicados: español + los que se están generando + los que ya tienen carpeta."""
+    return [SRC] + [l for l in LANGS if l in BUILDING or os.path.isdir(os.path.join(ROOT, l))]
 
 INLINE = {"a", "b", "strong", "i", "em", "span", "br", "small", "sup", "sub", "code", "u",
           "mark", "abbr", "s", "wbr", "q", "cite", "time", "tspan", "bdi", "kbd", "del", "ins"}
@@ -263,6 +266,10 @@ def load_tr(lang):
     for k in keep:
         if k in strings and k not in d:
             d[k] = strings[k]
+    if lang != "en" and os.path.exists(os.path.join(HERE, "en.json")):
+        for k, v in json.load(open(os.path.join(HERE, "en.json"), encoding="utf-8")).items():
+            if v == "=" and k not in d:  # marcas y siglas: se heredan del inglés
+                d[k] = "="
     for k, v in list(d.items()):
         if k not in strings:
             continue
@@ -511,7 +518,8 @@ def llms():
 
 
 def build(only=None):
-    langs = [l for l in LANGS if not only or l in only]
+    langs = [l for l in LANGS if (not only or l in only) and os.path.exists(os.path.join(HERE, f"{l}.json"))]
+    BUILDING.update(langs)
     report = {}
     for pg in SITE["pages"]:
         out = build_page(pg, SRC, {}, [])
