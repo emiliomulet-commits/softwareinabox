@@ -1,7 +1,6 @@
 # robots.txt · Software in a Box (todo abierto a buscadores y asistentes de IA)
 User-agent: *
 Allow: /
+Disallow: /nuevo/
 
 Sitemap: https://www.softwareinabox.eu/sitemap.xml
-
-Disallow: /nuevo/
