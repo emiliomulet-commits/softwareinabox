@@ -9,20 +9,88 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:image" content="https://www.softwareinabox.eu/assets/og.jpg">
 
-<meta name="description" content="Software in a Box builds software for sensitive data: COGNITIV (sovereign AI on your own server), ARGOS (verified compliance) and federated data spaces.">
+<meta name="description" content="Software in a Box builds software for sensitive data: COGNITIV (sovereign AI on your server), ARGOS (verified compliance) and federated data spaces.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.softwareinabox.eu/en/">
-<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/">
-<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/">
-<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Software in a Box">
 <meta property="og:locale" content="en_GB">
 <meta property="og:title" content="Software in a Box · Sovereign AI and federated data spaces">
-<meta property="og:description" content="Three products, one idea: intelligence goes to the data and the data stays home. COGNITIV, ARGOS and federated data spaces.">
+<meta property="og:description" content="Three products, one idea: intelligence goes to the data and the data never leaves home. COGNITIV, ARGOS and federated data spaces.">
 <meta property="og:url" content="https://www.softwareinabox.eu/en/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.softwareinabox.eu/#organization",
+   "name": "Software in a Box",
+   "url": "https://www.softwareinabox.eu/en/",
+   "description": "Software product company for sensitive data: sovereign AI (COGNITIV), verified regulatory compliance (ARGOS) and federated data spaces aligned with Gaia-X and the EHDS.",
+   "email": "emilio.mulet@softwareinabox.eu",
+   "telephone": "+34601398868",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Ramírez de Arellano, 17, 4ª planta",
+    "postalCode": "28043",
+    "addressLocality": "Madrid",
+    "addressCountry": "ES"
+   },
+   "areaServed": "EU",
+   "knowsAbout": [
+    "sovereign AI",
+    "compute-to-data",
+    "federated data spaces",
+    "Gaia-X",
+    "EHDS",
+    "GDPR",
+    "AI Act",
+    "ODRL",
+    "Eclipse Dataspace Components"
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "itemOffered": {
+      "@type": "SoftwareApplication",
+      "name": "COGNITIV",
+      "url": "https://cognitiv.softwareinabox.eu/en/"
+     }
+    },
+    {
+     "@type": "Offer",
+     "itemOffered": {
+      "@type": "SoftwareApplication",
+      "name": "ARGOS",
+      "url": "https://argos.softwareinabox.eu/en/"
+     }
+    },
+    {
+     "@type": "Offer",
+     "itemOffered": {
+      "@type": "Service",
+      "name": "Federated data spaces",
+      "url": "https://datos.softwareinabox.eu/en/"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.softwareinabox.eu/#website",
+   "url": "https://www.softwareinabox.eu/en/",
+   "name": "Software in a Box",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   }
+  }
+ ]
+}
+</script>
 <meta name="theme-color" content="#0B2545">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="/assets/fonts.css">
@@ -204,24 +272,24 @@ section{scroll-margin-top:72px}
   .ft .cols{grid-template-columns:1fr}
 }
 </style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/">
+<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/">
+<!-- I18N:END -->
 </head>
 <body>
 <a class="skip" href="#contenido">Skip to content</a>
 
 <header class="hd">
   <div class="wrap">
-    <a class="logo" href="/" aria-label="Software in a Box, home">
+    <a class="logo" href="/en/" aria-label="Software in a Box, home">
       <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
       Software in a Box
     </a>
     <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav" aria-label="Main">
-      <a href="#productos">Products</a>
-      <a href="#como">How we work</a>
-      <a href="#experiencia">Experience</a>
-      <a href="#sectores">Sectors</a>
-      <a href="/" lang="es" hreflang="es">Español</a>
-      <a class="btn btn-gold" href="#contacto">Let's talk</a>
+      <a href="#productos">Products</a> <a href="#como">How we work</a> <a href="#experiencia">Track record</a> <a href="#sectores">Sectors</a> <a class="btn btn-gold" href="#contacto">Let's talk</a>
     </nav>
   </div>
 </header>
@@ -233,12 +301,11 @@ section{scroll-margin-top:72px}
       <h1>Your AI and your data, <span>kept in-house.</span></h1>
       <p class="lead">Software in a Box builds software for organisations that cannot let their data leave their perimeter: artificial intelligence on their own server, compliance they can prove, and data spaces to share without losing control.</p>
       <div class="ctas">
-        <a class="btn btn-gold" href="#productos">Explore the products</a>
-        <a class="btn btn-line" href="#contacto">Book a meeting</a>
+        <a class="btn btn-gold" href="#productos">Explore the products</a> <a class="btn btn-line" href="#contacto">Request a meeting</a>
       </div>
       <div class="proof">
         <div><b>3 products</b>each with its own website</div>
-        <div><b>3 data spaces</b>data spaces co-funded by SEDIA</div>
+        <div><b>3 data spaces</b>co-funded by Spain's SEDIA</div>
         <div><b>0 data</b>outside your perimeter</div>
       </div>
     </div>
@@ -260,7 +327,7 @@ section{scroll-margin-top:72px}
       </g>
 
       <!-- capa 1: espacios de datos -->
-      <a href="https://datos.softwareinabox.eu/" aria-label="Federated data spaces">
+      <a href="https://datos.softwareinabox.eu/en/" aria-label="Federated data spaces">
         <g class="slab s-dat">
           <g class="slab-shape">
             <polygon points="250,296 400,382 250,468 100,382" fill="#2BB8B8"/>
@@ -280,7 +347,7 @@ section{scroll-margin-top:72px}
       </a>
 
       <!-- capa 2: ARGOS -->
-      <a href="https://argos.softwareinabox.eu/" aria-label="ARGOS, verified compliance">
+      <a href="https://argos.softwareinabox.eu/en/" aria-label="ARGOS, verified compliance">
         <g class="slab s-arg">
           <g class="slab-shape">
             <polygon points="250,206 400,292 250,378 100,292" fill="#8B73F5"/>
@@ -301,7 +368,7 @@ section{scroll-margin-top:72px}
       </a>
 
       <!-- capa 3: COGNITIV -->
-      <a href="https://cognitiv.softwareinabox.eu/" aria-label="COGNITIV, sovereign AI">
+      <a href="https://cognitiv.softwareinabox.eu/en/" aria-label="COGNITIV, sovereign AI">
         <g class="slab s-cog">
           <g class="slab-shape">
             <polygon points="250,116 400,202 250,288 100,202" fill="#E4572E"/>
@@ -335,13 +402,13 @@ section{scroll-margin-top:72px}
 <section class="sec" id="productos">
   <div class="wrap">
     <div class="sec-h">
-      <h2>Three products, one problem</h2>
-      <p>Using AI and sharing data without handing over control. Each product solves one part and has its own website (in Spanish).</p>
+      <h2>Three products for the same problem</h2>
+      <p>Using artificial intelligence and sharing data without giving up control. Each product solves one part and has its own website.</p>
     </div>
     <div class="drawers">
-      <a class="drawer d-cog" href="https://cognitiv.softwareinabox.eu/">
+      <a class="drawer d-cog" href="https://cognitiv.softwareinabox.eu/en/">
         <span class="bar" aria-hidden="true"></span>
-        <div><h3>COGNITIV</h3><p class="what">Your AI, on your server, under your control.</p></div>
+        <div><h3>COGNITIV</h3><p class="what">Your artificial intelligence, on your server and under your control.</p></div>
         <ul>
           <li>Your own AI server on Lenovo ThinkSystem</li>
           <li>Inference runs inside your network</li>
@@ -349,19 +416,19 @@ section{scroll-margin-top:72px}
         </ul>
         <span class="go">Go to COGNITIV</span>
       </a>
-      <a class="drawer d-arg" href="https://argos.softwareinabox.eu/">
+      <a class="drawer d-arg" href="https://argos.softwareinabox.eu/en/">
         <span class="bar" aria-hidden="true"></span>
-        <div><h3>ARGOS</h3><p class="what">An agent that tests your systems and proves they comply.</p></div>
+        <div><h3>ARGOS</h3><p class="what">An agent that puts your systems to the test and proves they comply.</p></div>
         <ul>
-          <li>Tests access, transfers and deletion end to end</li>
+          <li>Tests access, transfers and erasure end to end</li>
           <li>GDPR, EHDS, AI Act, NIS2 and Data Act</li>
           <li>Report issued as a verifiable credential</li>
         </ul>
         <span class="go">Go to ARGOS</span>
       </a>
-      <a class="drawer d-dat" href="https://datos.softwareinabox.eu/">
+      <a class="drawer d-dat" href="https://datos.softwareinabox.eu/en/">
         <span class="bar" aria-hidden="true"></span>
-        <div><h3>Data spaces</h3><p class="what">Share data with other organisations without it leaving home.</p></div>
+        <div><h3>Data spaces</h3><p class="what">Share data with other organisations without it ever leaving home.</p></div>
         <ul>
           <li>Eclipse EDC and Pontus-X connectors with ODRL contracts</li>
           <li>Identity with Gaia-X credentials</li>
@@ -377,13 +444,13 @@ section{scroll-margin-top:72px}
   <div class="wrap">
     <div class="sec-h">
       <h2>AI goes to the data. The data stays put.</h2>
-      <p>Sovereignty does not depend on a contract with a provider: it is built into the architecture.</p>
+      <p>Sovereignty does not depend on a contract with a vendor: it is built into the architecture.</p>
     </div>
     <div class="compare">
       <div class="panel">
         <h3>The usual way</h3>
-        <p>Data is copied to the provider's cloud so a model can process it.</p>
-        <svg viewBox="0 0 460 170" role="img" aria-label="Data leaves the organisation for the provider's cloud">
+        <p>Data is copied to the vendor's cloud so that a model can process it.</p>
+        <svg viewBox="0 0 460 170" role="img" aria-label="Data leaves the organisation for the vendor&#x27;s cloud">
           <rect x="16" y="40" width="120" height="100" rx="12" fill="#F2F5F9" stroke="#D5DDE7" stroke-width="1.5"/>
           <text x="76" y="160" text-anchor="middle" font-size="14" fill="#5A6A80" font-family="Hanken Grotesk">Your organisation</text>
           <g fill="#5A6A80"><rect x="44" y="64" width="64" height="10" rx="3"/><rect x="44" y="82" width="64" height="10" rx="3"/><rect x="44" y="100" width="64" height="10" rx="3"/></g>
@@ -392,13 +459,13 @@ section{scroll-margin-top:72px}
           <g fill="#C8411B"><rect x="190" y="72" width="22" height="9" rx="2"/><rect x="236" y="98" width="22" height="9" rx="2"/></g>
           <text x="225" y="62" text-anchor="middle" font-size="13.5" fill="#C8411B" font-family="Hanken Grotesk" font-weight="600">copy of your data</text>
           <path d="M346 112 a28 28 0 0 1 4-55 a38 38 0 0 1 72 6 a24 24 0 0 1 2 49 z" fill="#F2F5F9" stroke="#D5DDE7" stroke-width="1.5"/>
-          <text x="388" y="160" text-anchor="middle" font-size="14" fill="#5A6A80" font-family="Hanken Grotesk">Provider's cloud</text>
+          <text x="388" y="160" text-anchor="middle" font-size="14" fill="#5A6A80" font-family="Hanken Grotesk">Vendor cloud</text>
         </svg>
       </div>
       <div class="panel us">
         <h3>With Software in a Box</h3>
         <p>The model runs where the data lives. Only the result you authorise leaves.</p>
-        <svg viewBox="0 0 460 170" role="img" aria-label="The model comes into the organisation and the data does not leave">
+        <svg viewBox="0 0 460 170" role="img" aria-label="The model enters the organisation and the data does not leave">
           <rect x="16" y="22" width="250" height="124" rx="14" fill="#0E2B50" stroke="#C9A227" stroke-width="1.5"/>
           <text x="141" y="164" text-anchor="middle" font-size="14" fill="#AFC0D6" font-family="Hanken Grotesk">Your organisation</text>
           <g fill="#AFC0D6"><rect x="40" y="52" width="64" height="10" rx="3"/><rect x="40" y="70" width="64" height="10" rx="3"/><rect x="40" y="88" width="64" height="10" rx="3"/></g>
@@ -408,15 +475,15 @@ section{scroll-margin-top:72px}
           <path d="M294 76 L280 84 L294 92" fill="none" stroke="#C9A227" stroke-width="2.5"/>
           <text x="364" y="70" text-anchor="middle" font-size="13.5" fill="#C9A227" font-family="Hanken Grotesk" font-weight="600">the model comes in</text>
           <path d="M290 112 H420" stroke="#2BB8B8" stroke-width="2" stroke-dasharray="3 6"/>
-          <text x="364" y="134" text-anchor="middle" font-size="13.5" fill="#2BB8B8" font-family="Hanken Grotesk" font-weight="600">only the result leaves</text>
+          <text x="364" y="134" text-anchor="middle" font-size="13.5" fill="#2BB8B8" font-family="Hanken Grotesk" font-weight="600">only the result goes out</text>
         </svg>
       </div>
     </div>
     <div class="principles">
       <div><h3>Machine-readable rules</h3><p>Every use of the data is governed by an ODRL contract, and every access is logged and auditable.</p></div>
-      <div><h3>European standards</h3><p>Gaia-X, Dataspace Protocol, HealthDCAT-AP and EHDS: any member connects without depending on a single vendor.</p></div>
-      <div><h3>Compliance by design</h3><p>GDPR, AI Act, EHDS, NIS2 and Data Act are addressed in the architecture, not afterwards.</p></div>
-      <div><h3>Hardware in your server room</h3><p>Servers are installed on your premises or in your data centre, with no dependence on hyperscalers.</p></div>
+      <div><h3>European standards</h3><p>Gaia-X, Dataspace Protocol, HealthDCAT-AP and EHDS: any member can connect without depending on a single vendor.</p></div>
+      <div><h3>Compliance by design</h3><p>GDPR, the AI Act, EHDS, NIS2 and the Data Act are addressed in the architecture, not afterwards.</p></div>
+      <div><h3>Hardware in your own room</h3><p>Servers are installed on your premises or in your data centre, with no dependence on hyperscalers.</p></div>
     </div>
   </div>
 </section>
@@ -429,8 +496,8 @@ section{scroll-margin-top:72px}
         <p>The Software in a Box team has taken part in the technology development of three data spaces co-funded by Spain's Secretariat of State for Digitalisation and Artificial Intelligence (SEDIA).</p>
       </div>
       <ul class="proj">
-        <li><i class="dot" aria-hidden="true"></i><div><b>Global Data Care</b><span>Health · Pontus-X and Gaia-X</span><p>Federated health data space, with compliance work for the Trust List of Spain's data spaces programme.</p></div></li>
-        <li><i class="dot" aria-hidden="true"></i><div><b>PROCUREDATA</b><span>Procurement · Eclipse EDC</span><p>Procurement management integrated with ERP systems and Eclipse-family connectors.</p></div></li>
+        <li><i class="dot" aria-hidden="true"></i><div><b>Global Data Care</b><span>Health · Pontus-X and Gaia-X</span><p>Federated health data space, including compliance work for the Trust List of the Spanish data spaces programme.</p></div></li>
+        <li><i class="dot" aria-hidden="true"></i><div><b>PROCUREDATA</b><span>Procurement · Eclipse EDC</span><p>Procurement management with ERP integration and connectors from the Eclipse family.</p></div></li>
         <li><i class="dot" aria-hidden="true"></i><div><b>EcoDataNet</b><span>Waste and circular economy</span><p>Circular-economy traceability with usage policies and verifiable credentials.</p></div></li>
       </ul>
       <p class="stack"><strong>Technology we have already deployed:</strong> Eclipse Dataspace Components, Dataspace Protocol, Pontus-X, ODRL, verifiable credentials, Gaia-X Trust Framework, FHIR, DICOM, OMOP, Kubernetes, Terraform and Helm.</p>
@@ -463,7 +530,7 @@ section{scroll-margin-top:72px}
         <path d="M260 220 l20 11 v20 l-20 11 l-20-11 v-20z" fill="none" stroke="#C9A227" stroke-width="2.5" stroke-linejoin="round"/>
       </g>
       <text x="260" y="298" text-anchor="middle" font-family="Hanken Grotesk" font-size="14" font-weight="600" fill="#5A6A80">SiaB connector</text>
-      <text x="260" y="452" text-anchor="middle" font-family="Hanken Grotesk" font-size="14" fill="#5A6A80">Each node keeps its data; the network shares only what is authorised.</text>
+      <text x="260" y="452" text-anchor="middle" font-family="Hanken Grotesk" font-size="14" fill="#5A6A80">Each node keeps its own data; the network shares only what is authorised.</text>
     </svg>
   </div>
 </section>
@@ -483,40 +550,38 @@ section{scroll-margin-top:72px}
         <th scope="col" class="p" style="--c:var(--dat)">Data<i></i></th>
       </tr></thead>
       <tbody>
-        <tr><th scope="row">Health</th><td class="d">Health records and medical imaging in hospitals, clinics and MedTech, under the EHDS.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Yes</span></td></tr>
+        <tr><th scope="row">Health</th><td class="d">Medical records and medical imaging in hospitals, clinics and MedTech, under the EHDS.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Yes</span></td></tr>
         <tr><th scope="row">Finance</th><td class="d">Portfolios and transactions in banking and insurance, under DORA and banking secrecy.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m"><span class="no"></span><span class="sr">No</span></td></tr>
-        <tr><th scope="row">Industry</th><td class="d">ERP, production and quality data that never leaves the plant.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m"><span class="no"></span><span class="sr">No</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Yes</span></td></tr>
+        <tr><th scope="row">Industry</th><td class="d">ERP, production and quality data without it leaving the plant.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m"><span class="no"></span><span class="sr">No</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Yes</span></td></tr>
         <tr><th scope="row">Legal</th><td class="d">Law-firm document archives under professional secrecy.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m"><span class="no"></span><span class="sr">No</span></td></tr>
-        <tr><th scope="row">Public sector</th><td class="d">Citizens' data in public administrations under Spain's ENS.</td><td class="m"><span class="no"></span><span class="sr">No</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Yes</span></td></tr>
+        <tr><th scope="row">Public sector</th><td class="d">Citizen data in public administrations under Spain's National Security Framework (ENS).</td><td class="m"><span class="no"></span><span class="sr">No</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Yes</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Yes</span></td></tr>
       </tbody>
     </table>
-    <p class="eco"><strong>Who we work with:</strong> Lenovo (ThinkSystem servers for COGNITIV), V-Valley (distribution and pre-sales), Microsoft Azure (health data and AI nodes) and the European Gaia-X trust framework.</p>
+    <p class="eco"><strong>Who we work with:</strong> Lenovo (ThinkSystem servers for COGNITIV), V-Valley (distribution and presales), Microsoft Azure (health data and AI nodes) and the European Gaia-X trust framework.</p>
   </div>
 </section>
 
 <section class="sec contact" id="contacto">
   <div class="wrap">
     <div>
-      <h2>Let's talk about your case</h2>
+      <h2>Shall we talk about your case?</h2>
       <p class="l">Tell us what data you need to protect and what you want to achieve with it. We will propose the right product and architecture.</p>
       <p class="direct">
-        <a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a><br>
-        <a href="tel:+34601398868">+34 601 398 868</a><br>
-        Calle Ramírez de Arellano 17, 4th floor, 28043 Madrid, Spain
+        <a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a><br> <a href="tel:+34601398868">+34 601 398 868</a><br> Calle Ramírez de Arellano, 17, 4th floor, 28043 Madrid, Spain
       </p>
     </div>
     <form class="form" action="https://formsubmit.co/emilio.mulet@softwareinabox.eu" method="POST">
-      <input type="hidden" name="_subject" value="New enquiry (EN) · www.softwareinabox.eu">
+      <input type="hidden" name="_subject" value="Nueva consulta · www.softwareinabox.eu [EN]">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://www.softwareinabox.eu/gracias.html">
+      <input type="hidden" name="_next" value="https://www.softwareinabox.eu/en/gracias.html">
       <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
       <label class="f">Name<input name="Nombre" required autocomplete="name"></label>
-      <label class="f">Organisation<input name="Organisation" autocomplete="organization"></label>
+      <label class="f">Organisation<input name="Organización" autocomplete="organization"></label>
       <label class="f full">Work email<input type="email" name="Email" required autocomplete="email"></label>
-      <label class="f full">What are you interested in<select name="Interés"><option>COGNITIV · sovereign AI</option><option>ARGOS · compliance</option><option>Federated data spaces</option><option>Not sure yet</option></select></label>
+      <label class="f full">What are you interested in?<select name="Interés"><option>COGNITIV · sovereign AI</option><option>ARGOS · compliance</option><option>Federated data spaces</option><option>Not sure yet</option></select></label>
       <label class="f full">Message<textarea name="Mensaje" placeholder="Briefly describe your case"></textarea></label>
-      <label class="ok full"><input type="checkbox" name="Consentimiento" value="Acepta la privacy policy (in Spanish)" required><span>I have read and accept the <a href="/privacidad.html" hreflang="es" target="_blank" rel="noopener">privacy policy (in Spanish)</a>. We will only use your data to reply to you.</span></label>
+      <label class="ok full"><input type="checkbox" name="Consentimiento" value="Acepta la política de privacidad" required><span>I have read and accept the <a href="/en/privacidad.html" target="_blank" rel="noopener">privacy policy</a>. We will only use your data to reply to you.</span></label>
       <button class="btn btn-gold full" type="submit">Send enquiry</button>
     </form>
   </div>
@@ -527,16 +592,16 @@ section{scroll-margin-top:72px}
   <div class="wrap">
     <div class="cols">
       <div>
-        <a class="logo" href="/" style="display:flex">Software in a Box</a>
+        <a class="logo" href="/en/" style="display:flex">Software in a Box</a>
         <p style="margin-top:12px;max-width:26em">Software for sensitive data: sovereign AI, verified compliance and federated data spaces. Madrid, European Union.</p>
       </div>
-      <div><h4>Products</h4><a href="https://cognitiv.softwareinabox.eu/">COGNITIV</a><a href="https://argos.softwareinabox.eu/">ARGOS</a><a href="https://datos.softwareinabox.eu/">Data spaces</a></div>
-      <div><h4>Company</h4><a href="#como">How we work</a><a href="#experiencia">Experience</a><a href="#contacto">Contact</a></div>
+      <div><h4>Products</h4><a href="https://cognitiv.softwareinabox.eu/en/">COGNITIV</a><a href="https://argos.softwareinabox.eu/en/">ARGOS</a><a href="https://datos.softwareinabox.eu/en/">Data spaces</a></div>
+      <div><h4>Company</h4><a href="#como">How we work</a><a href="#experiencia">Track record</a><a href="#contacto">Contact</a></div>
       <div><h4>Resources</h4><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Sitemap</a></div>
     </div>
     <div class="legal">
       <span>© 2026 Software in a Box, a brand of Ullswater Investments S.L.</span>
-      <nav aria-label="Legal"><a href="/aviso-legal.html">Legal notice</a><a href="/privacidad.html" hreflang="es">Privacy</a><a href="/cookies.html">Cookies</a></nav>
+      <nav aria-label="Legal"><a href="/en/aviso-legal.html">Legal notice</a><a href="/en/privacidad.html">Privacy</a><a href="/en/cookies.html">Cookies</a></nav>
     </div>
   </div>
 </footer>
@@ -550,5 +615,6 @@ section{scroll-margin-top:72px}
   requestAnimationFrame(function(){setTimeout(function(){box.classList.remove('closed')},350)});
 })();
 </script>
+<!-- I18N-SW:BEGIN --><style>.i18n-sw{position:fixed;left:16px;bottom:16px;z-index:2147483000;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw details{background:#0B2545;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);overflow:hidden}.i18n-sw summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;align-items:center;gap:8px;user-select:none}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{list-style:none;margin:0;padding:4px 0 8px;border-top:1px solid rgba(255,255,255,.15)}.i18n-sw a{display:block;padding:7px 16px;color:#C9D3E0;text-decoration:none;font-weight:500}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Language"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>EN</summary><ul><li><a href="https://www.softwareinabox.eu/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/" hreflang="en" lang="en" aria-current="true">English</a></li></ul></details></nav><!-- I18N-SW:END -->
 </body>
 </html>

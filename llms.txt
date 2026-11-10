@@ -12,3 +12,7 @@
 
 ## Contacto
 - emilio.mulet@softwareinabox.eu · +34 601 398 868 · Calle Ramírez de Arellano, 17, 4ª planta, 28043 Madrid (España).
+
+## Idiomas / Languages
+- [Español](https://www.softwareinabox.eu/)
+- [English](https://www.softwareinabox.eu/en/)

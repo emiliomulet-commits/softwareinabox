@@ -1,0 +1,60 @@
+{
+  "source_lang": "es",
+  "langs": ["en", "fr", "de", "nl", "pt", "it"],
+  "x_default": "en",
+  "locales": {"es": "es_ES", "en": "en_GB", "fr": "fr_FR", "de": "de_DE", "nl": "nl_NL", "pt": "pt_PT", "it": "it_IT"},
+  "names": {"es": "Español", "en": "English", "fr": "Français", "de": "Deutsch", "nl": "Nederlands", "pt": "Português", "it": "Italiano"},
+  "sites": {
+    "www": {
+      "repo": "softwareinabox",
+      "base": "https://www.softwareinabox.eu",
+      "hosts": ["www.softwareinabox.eu", "softwareinabox.eu"],
+      "pages": [
+        {"file": "index.html", "path": "/", "changefreq": "monthly", "priority": "1.0"},
+        {"file": "aviso-legal.html", "path": "/aviso-legal.html", "changefreq": "yearly", "priority": "0.2"},
+        {"file": "privacidad.html", "path": "/privacidad.html", "changefreq": "yearly", "priority": "0.2"},
+        {"file": "cookies.html", "path": "/cookies.html", "changefreq": "yearly", "priority": "0.2"},
+        {"file": "gracias.html", "path": "/gracias.html", "sitemap": false}
+      ]
+    },
+    "cognitiv": {
+      "repo": "siab-cognitiv",
+      "base": "https://cognitiv.softwareinabox.eu",
+      "hosts": ["cognitiv.softwareinabox.eu"],
+      "pages": [
+        {"file": "index.html", "path": "/", "changefreq": "weekly", "priority": "1.0"},
+        {"file": "que-es-cognitiv.html", "path": "/que-es-cognitiv", "changefreq": "monthly", "priority": "0.9"},
+        {"file": "servidores.html", "path": "/servidores", "changefreq": "monthly", "priority": "0.9"},
+        {"file": "escenarios.html", "path": "/escenarios", "changefreq": "monthly", "priority": "0.8"},
+        {"file": "escenario-industria.html", "path": "/escenario-industria", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "escenario-finanzas.html", "path": "/escenario-finanzas", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "escenario-legal.html", "path": "/escenario-legal", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "soberania-y-control.html", "path": "/soberania-y-control", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "seguridad-y-cumplimiento.html", "path": "/seguridad-y-cumplimiento", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "inteligencia-y-capacidad.html", "path": "/inteligencia-y-capacidad", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "valor-economico.html", "path": "/valor-economico", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "estrategia-y-confianza.html", "path": "/estrategia-y-confianza", "changefreq": "monthly", "priority": "0.7"},
+        {"file": "contacto.html", "path": "/contacto", "changefreq": "yearly", "priority": "0.6"},
+        {"file": "gracias.html", "path": "/gracias.html", "sitemap": false}
+      ]
+    },
+    "argos": {
+      "repo": "siab-argos",
+      "base": "https://argos.softwareinabox.eu",
+      "hosts": ["argos.softwareinabox.eu"],
+      "skip_script_ids": ["banco-pr"],
+      "skip_script_types": ["text/plain"],
+      "pages": [
+        {"file": "index.html", "path": "/", "changefreq": "monthly", "priority": "1.0"}
+      ]
+    },
+    "datos": {
+      "repo": "siab-datos",
+      "base": "https://datos.softwareinabox.eu",
+      "hosts": ["datos.softwareinabox.eu"],
+      "pages": [
+        {"file": "index.html", "path": "/", "changefreq": "monthly", "priority": "1.0"}
+      ]
+    }
+  }
+}
