@@ -1,36 +1,14 @@
-# Software in a Box · COGNITIV
+# Software in a Box
 
-> COGNITIV es el software de IA soberana de Software in a Box (Madrid). Convierte un servidor Lenovo ThinkSystem en un Servidor de IA propietario: los modelos se ejecutan donde viven los datos (compute-to-data), dentro del perímetro del cliente. Inferencia 100% propietaria, 0 bytes que salen del perímetro y control total del cliente. Soberanía por arquitectura, no por contrato.
+> Software in a Box (Madrid) desarrolla software para el dato sensible: IA soberana, cumplimiento normativo verificado y espacios de datos federados. Principio común: la inteligencia va al dato (compute-to-data) y el dato no sale de la organización que lo custodia. Soberanía por arquitectura, no por contrato.
 
-Datos clave:
-- Empresa: Software in a Box. Producto: COGNITIV. Hardware: servidores Lenovo ThinkSystem (rack y edge).
-- Cinco módulos en una sola caja: CORE (inferencia), VAULT (gobierno del dato y permisos ODRL / UNE 0087), HUB (orquestador vectorial sobre ERP, CRM, almacén, producción y documentos), NEXUS (agentes y memoria corporativa) y TRACE (trazabilidad y auditoría).
-- Cumplimiento por diseño: Reglamento europeo de IA, RGPD, Data Act, NIS2 y DORA.
-- Modelo de coste: inversión en infraestructura propia, coste fijo y previsible, sin tarifa por consulta.
-- Sectores: industria, finanzas, legal, salud y sector público.
-- Contacto: emilio.mulet@softwareinabox.eu · +34 601 398 868 · Calle Ramírez de Arellano, 17, 4ª planta, 28043 Madrid (España).
+## Productos
+- [COGNITIV](https://cognitiv.softwareinabox.eu/): servidor de IA soberano sobre Lenovo ThinkSystem; inferencia 100 % dentro del perímetro del cliente; módulos CORE, VAULT, HUB, NEXUS y TRACE.
+- [ARGOS](https://argos.softwareinabox.eu/): agente de IA que reta a los sistemas de información frente al RGPD, el EHDS y el Reglamento de IA y emite el informe como credencial verificable.
+- [Espacios de datos federados](https://datos.softwareinabox.eu/): conectores Eclipse EDC y Pontus-X, contratos ODRL, credenciales Gaia-X; primer vertical: clínicas dentales con IA sobre Microsoft Azure.
 
-## Producto
-
-- [COGNITIV](https://www.softwareinabox.eu/SIAB-COGNITIV.dc.html): qué es, arquitectura de cinco módulos y cómo funciona compute-to-data.
-- [Servidores de IA Lenovo ThinkSystem](https://www.softwareinabox.eu/SIAB-Servidores.dc.html): catálogo de modelos, comparativa y servicios de implantación.
-- [Inicio](https://www.softwareinabox.eu/): resumen de la propuesta de valor.
-
-## Los 30 argumentos (5 bloques)
-
-- [Bloque I · Soberanía y control (01–06)](https://www.softwareinabox.eu/SIAB-Bloque-1.dc.html): soberanía del dato, inferencia propietaria, propiedad frente a alquiler, infraestructura sin nube.
-- [Bloque II · Seguridad, permisos y cumplimiento (07–12)](https://www.softwareinabox.eu/SIAB-Bloque-2.dc.html): IA por roles, permisos europeos ODRL/UNE 0087, cumplimiento por diseño, auditoría.
-- [Bloque III · Inteligencia y capacidad (13–18)](https://www.softwareinabox.eu/SIAB-Bloque-3.dc.html): orquestador vectorial, federación, memoria corporativa, especialización.
-- [Bloque IV · Valor económico y de negocio (19–24)](https://www.softwareinabox.eu/SIAB-Bloque-4.dc.html): coste fijo, ROI, fin de los silos, continuidad.
-- [Bloque V · Estrategia, sector y confianza (25–30)](https://www.softwareinabox.eu/SIAB-Bloque-5.dc.html): soberanía digital europea, independencia geopolítica, casos por sector, escalabilidad.
-
-## Casos de uso
-
-- [Casos de éxito](https://www.softwareinabox.eu/SIAB-Casos-Exito.dc.html): índice de casos.
-- [Industria](https://www.softwareinabox.eu/SIAB-Caso-Industria.dc.html): ERP, MES, calidad y mantenimiento en una sola pregunta, sin que el dato salga de planta.
-- [Finanzas](https://www.softwareinabox.eu/SIAB-Caso-Finanzas.dc.html): análisis de riesgo local, auditable y conforme a DORA.
-- [Legal](https://www.softwareinabox.eu/SIAB-Caso-Legal.dc.html): búsqueda y redacción sobre el fondo documental bajo secreto profesional.
+## Experiencia
+- El equipo de Software in a Box ha participado en el desarrollo tecnológico de tres espacios de datos cofinanciados por la SEDIA (2024–2026): Global Data Care (salud), PROCUREDATA (compras) y EcoDataNet (economía circular).
 
 ## Contacto
-
-- [Solicitar una demo](https://www.softwareinabox.eu/SIAB-Contacto.dc.html)
+- emilio.mulet@softwareinabox.eu · +34 601 398 868 · Calle Ramírez de Arellano, 17, 4ª planta, 28043 Madrid (España).
