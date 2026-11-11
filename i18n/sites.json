@@ -1,60 +1,259 @@
 {
   "source_lang": "es",
-  "langs": ["en", "fr", "de", "nl", "pt", "it"],
+  "langs": [
+    "en",
+    "fr",
+    "de",
+    "nl",
+    "pt",
+    "it",
+    "da",
+    "fr-be",
+    "nl-be"
+  ],
   "x_default": "en",
-  "locales": {"es": "es_ES", "en": "en_GB", "fr": "fr_FR", "de": "de_DE", "nl": "nl_NL", "pt": "pt_PT", "it": "it_IT"},
-  "names": {"es": "Español", "en": "English", "fr": "Français", "de": "Deutsch", "nl": "Nederlands", "pt": "Português", "it": "Italiano"},
+  "locales": {
+    "es": "es_ES",
+    "en": "en_GB",
+    "fr": "fr_FR",
+    "de": "de_DE",
+    "nl": "nl_NL",
+    "pt": "pt_PT",
+    "it": "it_IT",
+    "da": "da_DK",
+    "fr-be": "fr_BE",
+    "nl-be": "nl_BE"
+  },
+  "names": {
+    "es": "Español",
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch",
+    "nl": "Nederlands",
+    "pt": "Português",
+    "it": "Italiano",
+    "da": "Dansk",
+    "fr-be": "Français (Belgique)",
+    "nl-be": "Nederlands (België)"
+  },
   "sites": {
     "www": {
       "repo": "softwareinabox",
       "base": "https://www.softwareinabox.eu",
-      "hosts": ["www.softwareinabox.eu", "softwareinabox.eu"],
+      "hosts": [
+        "www.softwareinabox.eu",
+        "softwareinabox.eu"
+      ],
       "pages": [
-        {"file": "index.html", "path": "/", "changefreq": "monthly", "priority": "1.0"},
-        {"file": "aviso-legal.html", "path": "/aviso-legal.html", "changefreq": "yearly", "priority": "0.2"},
-        {"file": "privacidad.html", "path": "/privacidad.html", "changefreq": "yearly", "priority": "0.2"},
-        {"file": "cookies.html", "path": "/cookies.html", "changefreq": "yearly", "priority": "0.2"},
-        {"file": "gracias.html", "path": "/gracias.html", "sitemap": false}
+        {
+          "file": "index.html",
+          "path": "/",
+          "changefreq": "monthly",
+          "priority": "1.0"
+        },
+        {
+          "file": "aviso-legal.html",
+          "path": "/aviso-legal.html",
+          "changefreq": "yearly",
+          "priority": "0.2"
+        },
+        {
+          "file": "privacidad.html",
+          "path": "/privacidad.html",
+          "changefreq": "yearly",
+          "priority": "0.2"
+        },
+        {
+          "file": "cookies.html",
+          "path": "/cookies.html",
+          "changefreq": "yearly",
+          "priority": "0.2"
+        },
+        {
+          "file": "gracias.html",
+          "path": "/gracias.html",
+          "sitemap": false
+        }
       ]
     },
     "cognitiv": {
       "repo": "siab-cognitiv",
       "base": "https://cognitiv.softwareinabox.eu",
-      "hosts": ["cognitiv.softwareinabox.eu"],
+      "hosts": [
+        "cognitiv.softwareinabox.eu"
+      ],
       "pages": [
-        {"file": "index.html", "path": "/", "changefreq": "weekly", "priority": "1.0"},
-        {"file": "que-es-cognitiv.html", "path": "/que-es-cognitiv", "changefreq": "monthly", "priority": "0.9"},
-        {"file": "servidores.html", "path": "/servidores", "changefreq": "monthly", "priority": "0.9"},
-        {"file": "escenarios.html", "path": "/escenarios", "changefreq": "monthly", "priority": "0.8"},
-        {"file": "escenario-industria.html", "path": "/escenario-industria", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "escenario-finanzas.html", "path": "/escenario-finanzas", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "escenario-legal.html", "path": "/escenario-legal", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "soberania-y-control.html", "path": "/soberania-y-control", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "seguridad-y-cumplimiento.html", "path": "/seguridad-y-cumplimiento", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "inteligencia-y-capacidad.html", "path": "/inteligencia-y-capacidad", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "valor-economico.html", "path": "/valor-economico", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "estrategia-y-confianza.html", "path": "/estrategia-y-confianza", "changefreq": "monthly", "priority": "0.7"},
-        {"file": "contacto.html", "path": "/contacto", "changefreq": "yearly", "priority": "0.6"},
-        {"file": "gracias.html", "path": "/gracias.html", "sitemap": false}
+        {
+          "file": "index.html",
+          "path": "/",
+          "changefreq": "weekly",
+          "priority": "1.0"
+        },
+        {
+          "file": "que-es-cognitiv.html",
+          "path": "/que-es-cognitiv",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
+          "file": "servidores.html",
+          "path": "/servidores",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
+          "file": "escenarios.html",
+          "path": "/escenarios",
+          "changefreq": "monthly",
+          "priority": "0.8"
+        },
+        {
+          "file": "escenario-industria.html",
+          "path": "/escenario-industria",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "escenario-finanzas.html",
+          "path": "/escenario-finanzas",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "escenario-legal.html",
+          "path": "/escenario-legal",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "soberania-y-control.html",
+          "path": "/soberania-y-control",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "seguridad-y-cumplimiento.html",
+          "path": "/seguridad-y-cumplimiento",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "inteligencia-y-capacidad.html",
+          "path": "/inteligencia-y-capacidad",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "valor-economico.html",
+          "path": "/valor-economico",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "estrategia-y-confianza.html",
+          "path": "/estrategia-y-confianza",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "contacto.html",
+          "path": "/contacto",
+          "changefreq": "yearly",
+          "priority": "0.6"
+        },
+        {
+          "file": "gracias.html",
+          "path": "/gracias.html",
+          "sitemap": false
+        }
       ]
     },
     "argos": {
       "repo": "siab-argos",
       "base": "https://argos.softwareinabox.eu",
-      "hosts": ["argos.softwareinabox.eu"],
-      "skip_script_ids": ["banco-pr"],
-      "skip_script_types": ["text/plain"],
+      "hosts": [
+        "argos.softwareinabox.eu"
+      ],
+      "skip_script_ids": [
+        "banco-pr"
+      ],
+      "skip_script_types": [
+        "text/plain"
+      ],
       "pages": [
-        {"file": "index.html", "path": "/", "changefreq": "monthly", "priority": "1.0"}
+        {
+          "file": "index.html",
+          "path": "/",
+          "changefreq": "monthly",
+          "priority": "1.0"
+        }
       ]
     },
     "datos": {
       "repo": "siab-datos",
       "base": "https://datos.softwareinabox.eu",
-      "hosts": ["datos.softwareinabox.eu"],
+      "hosts": [
+        "datos.softwareinabox.eu"
+      ],
       "pages": [
-        {"file": "index.html", "path": "/", "changefreq": "monthly", "priority": "1.0"}
+        {
+          "file": "index.html",
+          "path": "/",
+          "changefreq": "monthly",
+          "priority": "1.0"
+        },
+        {
+          "file": "recursos.html",
+          "path": "/recursos",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "paths": {
+            "en": "/resources",
+            "fr": "/ressources",
+            "de": "/ressourcen",
+            "nl": "/bronnen",
+            "it": "/risorse",
+            "da": "/ressourcer",
+            "fr-be": "/ressources",
+            "nl-be": "/bronnen"
+          }
+        },
+        {
+          "file": "articulos/geopolitica-estandarizacion-datos.html",
+          "path": "/articulos/geopolitica-estandarizacion-datos",
+          "changefreq": "yearly",
+          "priority": "0.7",
+          "paths": {
+            "en": "/articles/geopolitics-of-data-standards",
+            "fr": "/articles/geopolitique-des-normes-de-donnees",
+            "de": "/artikel/geopolitik-der-datenstandards",
+            "nl": "/artikelen/geopolitiek-van-datastandaarden",
+            "it": "/articoli/geopolitica-degli-standard-dei-dati",
+            "pt": "/artigos/geopolitica-das-normas-de-dados",
+            "da": "/artikler/datastandardernes-geopolitik",
+            "fr-be": "/articles/geopolitique-des-normes-de-donnees",
+            "nl-be": "/artikelen/geopolitiek-van-datastandaarden"
+          }
+        }
       ]
     }
+  },
+  "fallback": {
+    "fr-be": "fr",
+    "nl-be": "nl",
+    "da": "en"
+  },
+  "lang_sites": {
+    "fr-be": [
+      "www",
+      "datos"
+    ],
+    "nl-be": [
+      "www",
+      "datos"
+    ],
+    "da": [
+      "datos"
+    ]
   }
 }

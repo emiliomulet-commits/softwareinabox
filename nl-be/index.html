@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software in a Box · Soevereine AI, aantoonbare compliance en dataspaces</title>
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+
+<meta name="description" content="Software in a Box ontwikkelt software voor gevoelige data: COGNITIV (soevereine AI op uw server), ARGOS (aantoonbare compliance) en gefedereerde dataspaces.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/nl-be/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:title" content="Software in a Box · Soevereine AI en gefedereerde dataspaces">
+<meta property="og:description" content="Drie producten, één idee: de intelligentie gaat naar de data en de data blijft in huis. COGNITIV, ARGOS en gefedereerde dataspaces.">
+<meta property="og:url" content="https://www.softwareinabox.eu/nl-be/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.softwareinabox.eu/#organization",
+   "name": "Software in a Box",
+   "url": "https://www.softwareinabox.eu/nl-be/",
+   "description": "Softwarebedrijf voor gevoelige data: soevereine AI (COGNITIV), aantoonbare naleving van regelgeving (ARGOS) en gefedereerde dataspaces conform Gaia-X en de EHDS.",
+   "email": "emilio.mulet@softwareinabox.eu",
+   "telephone": "+34601398868",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Ramírez de Arellano, 17, 4ª planta",
+    "postalCode": "28043",
+    "addressLocality": "Madrid",
+    "addressCountry": "ES"
+   },
+   "areaServed": "EU",
+   "knowsAbout": [
+    "soevereine AI",
+    "compute-to-data",
+    "gefedereerde dataspaces",
+    "Gaia-X",
+    "EHDS",
+    "AVG",
+    "AI-verordening",
+    "ODRL",
+    "Eclipse Dataspace Components"
+   ],
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "itemOffered": {
+      "@type": "SoftwareApplication",
+      "name": "COGNITIV",
+      "url": "https://cognitiv.softwareinabox.eu/nl/"
+     }
+    },
+    {
+     "@type": "Offer",
+     "itemOffered": {
+      "@type": "SoftwareApplication",
+      "name": "ARGOS",
+      "url": "https://argos.softwareinabox.eu/nl/"
+     }
+    },
+    {
+     "@type": "Offer",
+     "itemOffered": {
+      "@type": "Service",
+      "name": "Gefedereerde dataspaces",
+      "url": "https://datos.softwareinabox.eu/nl-be/"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.softwareinabox.eu/#website",
+   "url": "https://www.softwareinabox.eu/nl-be/",
+   "name": "Software in a Box",
+   "inLanguage": "nl-be",
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   }
+  }
+ ]
+}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+h1,h2,h3{font-family:var(--disp);color:var(--ink);letter-spacing:-.025em;line-height:1.08}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:15px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+
+/* ---------- cabecera ---------- */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500}
+.nav a:hover{color:#fff}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* ---------- hero ---------- */
+.hero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.02fr 1fr;gap:40px;align-items:center;padding-top:80px;padding-bottom:96px}
+.hero h1{color:#fff;font-size:clamp(42px,5.4vw,74px);font-weight:800;letter-spacing:-.035em;line-height:1.02}
+.hero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.hero p.lead{font-size:20px;color:#C9D3E0;max-width:34em;margin:28px 0 36px;line-height:1.55}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .proof{margin-top:44px;display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:36px;color:#AFC0D6;font-size:15px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px}
+.hero .proof b{display:block;color:#fff;font-family:var(--disp);font-size:22px;letter-spacing:-.02em}
+.box{width:100%;height:auto;overflow:visible}
+.box .slab{transition:transform .9s cubic-bezier(.2,.8,.2,1),opacity .4s}
+.box a{text-decoration:none;cursor:pointer}
+.box a:hover .lbl-n,.box a:focus-visible .lbl-n{text-decoration:underline;text-underline-offset:5px}
+.box a:hover .slab-shape,.box a:focus-visible .slab-shape{filter:brightness(1.12)}
+.box text{font-family:var(--body)}
+.box .lbl-n{font-family:var(--disp);font-weight:800;font-size:27px;fill:#fff;letter-spacing:-.01em}
+.box .lbl-d{font-size:18px;fill:#AFC0D6}
+.box.closed .s-cog{transform:translateY(150px)}
+.box.closed .s-arg{transform:translateY(100px)}
+.box.closed .s-dat{transform:translateY(50px)}
+.box.closed .s-lid{transform:translateY(290px)}
+.box.closed .lbl{opacity:0}
+.box .lbl{transition:opacity .6s .7s}
+@media (prefers-reduced-motion:reduce){.box .slab,.box .lbl{transition:none}}
+
+/* ---------- secciones ---------- */
+section{scroll-margin-top:72px}
+.sec{padding:112px 0}
+.sec-h{max-width:760px;margin-bottom:56px}
+.sec-h h2{font-size:clamp(32px,3.6vw,48px);font-weight:800}
+.sec-h p{font-size:19px;color:var(--mute);margin-top:18px;max-width:40em}
+
+/* productos: cajones */
+.drawers{border-top:1px solid var(--line)}
+.drawer{display:grid;grid-template-columns:8px 1.1fr 1.2fr auto;gap:0 40px;align-items:center;padding:40px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;position:relative}
+.drawer .bar{align-self:stretch;border-radius:4px;background:var(--c)}
+.drawer h3{font-size:34px;font-weight:800;color:var(--c)}
+.drawer .what{font-family:var(--disp);font-weight:600;font-size:19px;color:var(--ink);margin-top:6px;letter-spacing:-.01em;line-height:1.35}
+.drawer ul{list-style:none;display:flex;flex-direction:column;gap:8px;font-size:16.5px;color:var(--text)}
+.drawer li{padding-left:20px;position:relative}
+.drawer li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:2px;background:var(--c);transform:rotate(45deg)}
+.drawer .go{font-family:var(--disp);font-weight:700;font-size:15px;color:var(--c);white-space:nowrap;padding:12px 18px;border:1.5px solid currentColor;border-radius:999px;transition:background .2s,color .2s}
+.drawer:hover .go,.drawer:focus-visible .go{background:var(--c);color:#fff;border-color:var(--c)}
+.d-cog{--c:var(--cog)}.d-arg{--c:var(--arg)}.d-dat{--c:var(--dat)}
+
+/* cómo trabajamos */
+.how{background:var(--paper)}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:32px 32px 28px}
+.panel.us{background:var(--ink);border-color:var(--ink);color:#C9D3E0}
+.panel h3{font-size:22px;font-weight:700;margin-bottom:6px}
+.panel.us h3{color:#fff}
+.panel p{font-size:16.5px;color:var(--mute)}
+.panel.us p{color:#C9D3E0}
+.panel svg{margin:22px 0 18px;width:100%;height:auto}
+.principles{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:64px}
+.principles h3{font-size:19px;font-weight:700;margin-bottom:10px;padding-top:18px;border-top:3px solid var(--gold)}
+.principles p{font-size:16px;color:var(--mute);line-height:1.6}
+
+/* experiencia: red */
+.exp .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:64px;align-items:center}
+.exp .sec-h{margin-bottom:28px}
+.proj{list-style:none;display:flex;flex-direction:column;gap:22px}
+.proj li{display:grid;grid-template-columns:14px 1fr;gap:16px}
+.proj .dot{width:14px;height:14px;border-radius:50%;margin-top:7px;background:var(--gold);box-shadow:0 0 0 5px rgba(201,162,39,.18)}
+.proj b{font-family:var(--disp);color:var(--ink);font-size:19px;letter-spacing:-.01em}
+.proj span{display:block;font-size:14.5px;color:var(--gold-d);font-weight:600;margin:2px 0 4px}
+.proj p{font-size:16px;color:var(--mute)}
+.stack{margin-top:30px;font-size:15px;color:var(--mute);line-height:1.8}
+.stack strong{color:var(--ink);font-weight:600}
+
+/* sectores: matriz */
+.sect{background:var(--paper)}
+.matrix{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.matrix th,.matrix td{padding:22px 26px;text-align:left;border-bottom:1px solid var(--line)}
+.matrix tr:last-child th,.matrix tr:last-child td{border-bottom:0}
+.matrix thead th{font-family:var(--disp);font-size:15px;font-weight:700;color:var(--ink);background:#F8FAFC}
+.matrix thead th.p{text-align:center;width:150px}
+.matrix thead th.p i{display:block;width:26px;height:4px;border-radius:2px;margin:8px auto 0;background:var(--c)}
+.matrix tbody th{font-family:var(--disp);font-size:18px;font-weight:700;color:var(--ink);width:200px}
+.matrix tbody td.d{font-size:16px;color:var(--mute)}
+.matrix td.m{text-align:center}
+.yes{display:inline-block;width:16px;height:16px;border-radius:50%;background:var(--c)}
+.no{display:inline-block;width:16px;height:2px;background:var(--line);vertical-align:middle}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.eco{margin-top:40px;font-size:16.5px;color:var(--mute);max-width:52em}
+.eco strong{color:var(--ink)}
+
+/* contacto */
+.contact{background:var(--deep);color:#C9D3E0}
+.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.contact h2{color:#fff;font-size:clamp(34px,3.8vw,52px);font-weight:800}
+.contact p.l{font-size:19px;margin:20px 0 30px;max-width:30em}
+.contact .direct{font-size:16.5px;line-height:2}
+.contact .direct a{color:#fff;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.form{background:#0E2B50;border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form label.f{display:flex;flex-direction:column;gap:6px;font-size:14.5px;font-weight:600;color:#DCE3EC}
+.form .full{grid-column:1/-1}
+.form input,.form select,.form textarea{font:inherit;font-size:16px;padding:13px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.2);background:#fff;color:var(--ink);width:100%}
+.form textarea{min-height:110px;resize:vertical}
+.form .ok{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.5;color:#DCE3EC;font-weight:400}
+.form .ok input{width:20px;height:20px;flex:none;margin-top:1px;accent-color:var(--gold)}
+.form .ok a{color:var(--gold);font-weight:600}
+.form button{border:0;cursor:pointer;justify-content:center}
+.form .hp{display:none}
+
+/* pie */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+/* ---------- responsive ---------- */
+@media (max-width:1020px){
+  .hero .wrap,.exp .wrap,.contact .wrap{grid-template-columns:1fr}
+  .hero .wrap{padding-top:56px;padding-bottom:64px}
+  .box{max-width:620px;margin:0 auto}
+  .drawer{grid-template-columns:8px 1fr;gap:16px 24px}
+  .drawer ul,.drawer .go{grid-column:2}
+  .drawer .go{justify-self:start}
+  .principles{grid-template-columns:1fr 1fr}
+  .ft .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  body{font-size:17px}
+  .hero .proof{grid-template-columns:1fr 1fr;gap:20px 28px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:76px 0}
+  .compare,.principles{grid-template-columns:1fr}
+  .drawer h3{font-size:28px}
+  .matrix thead th.p{width:auto;padding:16px 8px;font-size:13px}
+  .matrix tbody th{width:auto;font-size:16px;padding:16px 12px}
+  .matrix td{padding:16px 8px}
+  .matrix .d{display:none}
+  .form{grid-template-columns:1fr;padding:22px}
+  .ft .cols{grid-template-columns:1fr}
+}
+</style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/">
+<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/">
+<link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/">
+<link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/">
+<link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/">
+<link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/">
+<link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/">
+<link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/">
+<link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Naar de inhoud</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="/nl-be/" aria-label="Software in a Box, home">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
+      Software in a Box
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Hoofdmenu">
+      <a href="#productos">Producten</a> <a href="#como">Onze aanpak</a> <a href="#experiencia">Ervaring</a> <a href="#sectores">Sectoren</a> <a class="btn btn-gold" href="#contacto">Neem contact op</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Uw AI en uw data <span>blijven in huis.</span></h1>
+      <p class="lead">Software in a Box ontwikkelt software voor organisaties die hun data niet buiten hun perimeter mogen laten gaan: kunstmatige intelligentie op de eigen server, compliance die aantoonbaar is en dataspaces om data te delen zonder de controle te verliezen.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#productos">Bekijk de producten</a> <a class="btn btn-line" href="#contacto">Plan een afspraak</a>
+      </div>
+      <div class="proof">
+        <div><b>3 producten</b>elk met een eigen website</div>
+        <div><b>3 dataspaces</b>medegefinancierd door het Spaanse SEDIA</div>
+        <div><b>0 data</b>buiten uw perimeter</div>
+      </div>
+    </div>
+
+    <svg class="box closed" id="box" viewBox="0 -60 720 665" role="img" aria-labelledby="box-t">
+      <title id="box-t">Een open doos met drie lagen: dataspaces onderaan, ARGOS in het midden en COGNITIV bovenaan</title>
+      <defs>
+        <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="rgba(255,255,255,.05)"/></pattern>
+      </defs>
+      <!-- base de la caja (abierta) -->
+      <g>
+        <polygon points="250,360 430,464 250,568 70,464" fill="#0A2240" stroke="#C9A227" stroke-width="1.5" opacity=".9"/>
+        <polygon points="70,464 250,568 250,600 70,496" fill="#0E2B50"/>
+        <polygon points="250,568 430,464 430,496 250,600" fill="#081B33"/>
+        <polyline points="70,464 70,496 250,600 430,496 430,464" fill="none" stroke="#C9A227" stroke-width="1.5"/>
+        <!-- paredes interiores insinuadas -->
+        <polyline points="70,464 70,392 250,288 430,392 430,464" fill="none" stroke="rgba(201,162,39,.45)" stroke-width="1.5" stroke-dasharray="4 6"/>
+        <line x1="250" y1="288" x2="250" y2="360" stroke="rgba(201,162,39,.3)" stroke-width="1.5" stroke-dasharray="4 6"/>
+      </g>
+
+      <!-- capa 1: espacios de datos -->
+      <a href="https://datos.softwareinabox.eu/nl-be/" aria-label="Gefedereerde dataspaces">
+        <g class="slab s-dat">
+          <g class="slab-shape">
+            <polygon points="250,296 400,382 250,468 100,382" fill="#2BB8B8"/>
+            <polygon points="100,382 250,468 250,498 100,412" fill="#0E8A8A"/>
+            <polygon points="250,468 400,382 400,412 250,498" fill="#0A6666"/>
+            <g stroke="#E6FFFB" stroke-width="2" fill="#E6FFFB" opacity=".9">
+              <line x1="190" y1="382" x2="250" y2="356"/><line x1="250" y1="356" x2="310" y2="382"/><line x1="310" y1="382" x2="250" y2="410"/><line x1="250" y1="410" x2="190" y2="382"/>
+              <circle cx="190" cy="382" r="6"/><circle cx="250" cy="356" r="6"/><circle cx="310" cy="382" r="6"/><circle cx="250" cy="410" r="6"/>
+            </g>
+          </g>
+          <g class="lbl">
+            <line x1="405" y1="398" x2="470" y2="398" stroke="#2BB8B8" stroke-width="1.5"/>
+            <text class="lbl-n" x="480" y="396">Dataspaces</text>
+            <text class="lbl-d" x="480" y="426">delen zonder data af te staan</text>
+          </g>
+        </g>
+      </a>
+
+      <!-- capa 2: ARGOS -->
+      <a href="https://argos.softwareinabox.eu/nl/" aria-label="ARGOS, aantoonbare compliance">
+        <g class="slab s-arg">
+          <g class="slab-shape">
+            <polygon points="250,206 400,292 250,378 100,292" fill="#8B73F5"/>
+            <polygon points="100,292 250,378 250,408 100,322" fill="#6C4CF1"/>
+            <polygon points="250,378 400,292 400,322 250,408" fill="#4F33C9"/>
+            <g fill="none" stroke="#F1EDFF" stroke-width="2.2" opacity=".95">
+              <ellipse cx="250" cy="292" rx="74" ry="42"/>
+              <ellipse cx="250" cy="292" rx="40" ry="23"/>
+              <polyline points="232,292 246,301 270,282" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </g>
+          <g class="lbl">
+            <line x1="405" y1="306" x2="470" y2="306" stroke="#8B73F5" stroke-width="1.5"/>
+            <text class="lbl-n" x="480" y="304">ARGOS</text>
+            <text class="lbl-d" x="480" y="334">compliance die u kunt aantonen</text>
+          </g>
+        </g>
+      </a>
+
+      <!-- capa 3: COGNITIV -->
+      <a href="https://cognitiv.softwareinabox.eu/nl/" aria-label="COGNITIV, soevereine AI">
+        <g class="slab s-cog">
+          <g class="slab-shape">
+            <polygon points="250,116 400,202 250,288 100,202" fill="#E4572E"/>
+            <polygon points="100,202 250,288 250,318 100,232" fill="#C8411B"/>
+            <polygon points="250,288 400,202 400,232 250,318" fill="#9C3214"/>
+            <g fill="none" stroke="#FFE9E1" stroke-width="2" opacity=".95">
+              <polygon points="250,166 300,195 250,224 200,195"/>
+              <polygon points="250,180 276,195 250,210 224,195" fill="#FFE9E1" fill-opacity=".35"/>
+              <line x1="225" y1="152" x2="210" y2="160"/><line x1="250" y1="152" x2="250" y2="140"/><line x1="275" y1="152" x2="290" y2="160"/>
+              <line x1="225" y1="238" x2="210" y2="230"/><line x1="250" y1="238" x2="250" y2="250"/><line x1="275" y1="238" x2="290" y2="230"/>
+            </g>
+          </g>
+          <g class="lbl">
+            <line x1="405" y1="216" x2="470" y2="216" stroke="#E4572E" stroke-width="1.5"/>
+            <text class="lbl-n" x="480" y="214">COGNITIV</text>
+            <text class="lbl-d" x="480" y="244">soevereine AI op uw server</text>
+          </g>
+        </g>
+      </a>
+
+      <!-- tapa -->
+      <g class="slab s-lid" aria-hidden="true">
+        <polygon points="250,-55 430,49 250,153 70,49" fill="rgba(201,162,39,.06)" stroke="#C9A227" stroke-width="1.8"/>
+        <polygon points="70,49 250,153 250,163 70,59" fill="rgba(201,162,39,.25)"/>
+        <polygon points="250,153 430,49 430,59 250,163" fill="rgba(201,162,39,.15)"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section class="sec" id="productos">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>Drie producten voor hetzelfde probleem</h2>
+      <p>Kunstmatige intelligentie gebruiken en data delen zonder de controle uit handen te geven. Elk product lost een deel op en heeft een eigen website.</p>
+    </div>
+    <div class="drawers">
+      <a class="drawer d-cog" href="https://cognitiv.softwareinabox.eu/nl/">
+        <span class="bar" aria-hidden="true"></span>
+        <div><h3>COGNITIV</h3><p class="what">Uw kunstmatige intelligentie, op uw server en onder uw controle.</p></div>
+        <ul>
+          <li>Eigen AI-server op Lenovo ThinkSystem</li>
+          <li>De inferentie draait binnen uw netwerk</li>
+          <li>Vijf modules: CORE, VAULT, HUB, NEXUS en TRACE</li>
+        </ul>
+        <span class="go">Naar COGNITIV</span>
+      </a>
+      <a class="drawer d-arg" href="https://argos.softwareinabox.eu/nl/">
+        <span class="bar" aria-hidden="true"></span>
+        <div><h3>ARGOS</h3><p class="what">Een agent die uw systemen op de proef stelt en aantoont dat ze voldoen.</p></div>
+        <ul>
+          <li>Test toegang, doorgifte en verwijdering van begin tot eind</li>
+          <li>AVG, EHDS, AI-verordening, NIS2 en Data Act</li>
+          <li>Rapport uitgegeven als verifieerbaar bewijs (verifiable credential)</li>
+        </ul>
+        <span class="go">Naar ARGOS</span>
+      </a>
+      <a class="drawer d-dat" href="https://datos.softwareinabox.eu/nl-be/">
+        <span class="bar" aria-hidden="true"></span>
+        <div><h3>Dataspaces</h3><p class="what">Deel data met andere organisaties zonder dat ze uw huis verlaten.</p></div>
+        <ul>
+          <li>Eclipse EDC- en Pontus-X-connectoren met ODRL-contracten</li>
+          <li>Identiteit met Gaia-X-credentials</li>
+          <li>Eerste verticale toepassing: tandartspraktijken met AI op Azure Belgium Central</li>
+        </ul>
+        <span class="go">Naar Dataspaces</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sec how" id="como">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>De AI gaat naar de data. De data blijft waar ze is.</h2>
+      <p>Soevereiniteit hangt niet af van een contract met een leverancier: ze zit in de architectuur.</p>
+    </div>
+    <div class="compare">
+      <div class="panel">
+        <h3>De gebruikelijke aanpak</h3>
+        <p>De data wordt naar de cloud van de leverancier gekopieerd zodat een model ze kan verwerken.</p>
+        <svg viewBox="0 0 460 170" role="img" aria-label="De data verlaat de organisatie richting de cloud van de leverancier">
+          <rect x="16" y="40" width="120" height="100" rx="12" fill="#F2F5F9" stroke="#D5DDE7" stroke-width="1.5"/>
+          <text x="76" y="160" text-anchor="middle" font-size="14" fill="#5A6A80" font-family="Hanken Grotesk">Uw organisatie</text>
+          <g fill="#5A6A80"><rect x="44" y="64" width="64" height="10" rx="3"/><rect x="44" y="82" width="64" height="10" rx="3"/><rect x="44" y="100" width="64" height="10" rx="3"/></g>
+          <path d="M150 90 H300" stroke="#C8411B" stroke-width="2.5" stroke-dasharray="7 7"/>
+          <path d="M296 82 L310 90 L296 98" fill="none" stroke="#C8411B" stroke-width="2.5"/>
+          <g fill="#C8411B"><rect x="190" y="72" width="22" height="9" rx="2"/><rect x="236" y="98" width="22" height="9" rx="2"/></g>
+          <text x="225" y="62" text-anchor="middle" font-size="13.5" fill="#C8411B" font-family="Hanken Grotesk" font-weight="600">kopie van uw data</text>
+          <path d="M346 112 a28 28 0 0 1 4-55 a38 38 0 0 1 72 6 a24 24 0 0 1 2 49 z" fill="#F2F5F9" stroke="#D5DDE7" stroke-width="1.5"/>
+          <text x="388" y="160" text-anchor="middle" font-size="14" fill="#5A6A80" font-family="Hanken Grotesk">Cloud van de leverancier</text>
+        </svg>
+      </div>
+      <div class="panel us">
+        <h3>Met Software in a Box</h3>
+        <p>Het model draait waar de data staat. Alleen het resultaat dat u toestaat gaat naar buiten.</p>
+        <svg viewBox="0 0 460 170" role="img" aria-label="Het model komt de organisatie binnen en de data gaat niet naar buiten">
+          <rect x="16" y="22" width="250" height="124" rx="14" fill="#0E2B50" stroke="#C9A227" stroke-width="1.5"/>
+          <text x="141" y="164" text-anchor="middle" font-size="14" fill="#AFC0D6" font-family="Hanken Grotesk">Uw organisatie</text>
+          <g fill="#AFC0D6"><rect x="40" y="52" width="64" height="10" rx="3"/><rect x="40" y="70" width="64" height="10" rx="3"/><rect x="40" y="88" width="64" height="10" rx="3"/></g>
+          <path d="M150 50 L190 72 L150 94 L110 72 Z" transform="translate(52 12)" fill="#E4572E"/>
+          <text x="202" y="132" text-anchor="middle" font-size="13.5" fill="#fff" font-family="Hanken Grotesk" font-weight="600">AI-model</text>
+          <path d="M440 84 H290" stroke="#C9A227" stroke-width="2.5"/>
+          <path d="M294 76 L280 84 L294 92" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+          <text x="364" y="70" text-anchor="middle" font-size="13.5" fill="#C9A227" font-family="Hanken Grotesk" font-weight="600">het model komt binnen</text>
+          <path d="M290 112 H420" stroke="#2BB8B8" stroke-width="2" stroke-dasharray="3 6"/>
+          <text x="364" y="134" text-anchor="middle" font-size="13.5" fill="#2BB8B8" font-family="Hanken Grotesk" font-weight="600">alleen het resultaat gaat naar buiten</text>
+        </svg>
+      </div>
+    </div>
+    <div class="principles">
+      <div><h3>Machineleesbare regels</h3><p>Elk gebruik van de data valt onder een ODRL-contract, en elke toegang wordt gelogd en is controleerbaar.</p></div>
+      <div><h3>Europese standaarden</h3><p>Gaia-X, Dataspace Protocol, HealthDCAT-AP en EHDS: elk lid kan aansluiten zonder afhankelijk te zijn van één leverancier.</p></div>
+      <div><h3>Compliance by design</h3><p>AVG, AI-verordening, EHDS, NIS2 en Data Act worden in de architectuur opgelost, niet achteraf.</p></div>
+      <div><h3>Hardware in uw eigen ruimte</h3><p>De servers worden bij u op locatie of in uw datacenter geïnstalleerd, zonder afhankelijkheid van hyperscalers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec exp" id="experiencia">
+  <div class="wrap">
+    <div>
+      <div class="sec-h">
+        <h2>Drie echte dataspaces achter het product</h2>
+        <p>Het team van Software in a Box heeft meegewerkt aan de technologische ontwikkeling van drie dataspaces die worden medegefinancierd door het Spaanse Staatssecretariaat voor Digitalisering en Kunstmatige Intelligentie (SEDIA).</p>
+      </div>
+      <ul class="proj">
+        <li><i class="dot" aria-hidden="true"></i><div><b>Global Data Care</b><span>Zorg · Pontus-X en Gaia-X</span><p>Gefedereerde zorgdataspace, inclusief compliancewerk voor de Vertrouwenslijst van het Spaanse dataspaceprogramma.</p></div></li>
+        <li><i class="dot" aria-hidden="true"></i><div><b>PROCUREDATA</b><span>Inkoop · Eclipse EDC</span><p>Inkoopbeheer met ERP-integratie en connectoren uit de Eclipse-familie.</p></div></li>
+        <li><i class="dot" aria-hidden="true"></i><div><b>EcoDataNet</b><span>Afval en circulaire economie</span><p>Traceerbaarheid in de circulaire economie met gebruiksbeleid en verifieerbare credentials.</p></div></li>
+      </ul>
+      <p class="stack"><strong>Technologie die we al hebben ingezet:</strong> Eclipse Dataspace Components, Dataspace Protocol, Pontus-X, ODRL, verifieerbare credentials, Gaia-X Trust Framework, FHIR, DICOM, OMOP, Kubernetes, Terraform en Helm.</p>
+    </div>
+    <svg viewBox="0 0 520 470" role="img" aria-labelledby="net-t">
+      <title id="net-t">Gefedereerd netwerk: drie dataspaces verbonden door de connector van Software in a Box</title>
+      <g stroke="#D5DDE7" stroke-width="1.5" fill="none">
+        <circle cx="260" cy="240" r="190" stroke-dasharray="3 7"/>
+        <circle cx="260" cy="240" r="110"/>
+      </g>
+      <g stroke="#C9A227" stroke-width="2.5">
+        <line x1="260" y1="240" x2="260" y2="70"/>
+        <line x1="260" y1="240" x2="110" y2="340"/>
+        <line x1="260" y1="240" x2="410" y2="340"/>
+      </g>
+      <g stroke="#D5DDE7" stroke-width="1.5" stroke-dasharray="5 6">
+        <line x1="260" y1="70" x2="110" y2="340"/><line x1="110" y1="340" x2="410" y2="340"/><line x1="410" y1="340" x2="260" y2="70"/>
+      </g>
+      <g font-family="Montserrat" font-weight="700" text-anchor="middle">
+        <circle cx="260" cy="70" r="42" fill="#fff" stroke="#0B2545" stroke-width="2"/>
+        <circle cx="260" cy="70" r="10" fill="#0E8A8A"/>
+        <text x="260" y="138" font-size="17" fill="#0B2545">Global Data Care</text>
+        <circle cx="110" cy="340" r="42" fill="#fff" stroke="#0B2545" stroke-width="2"/>
+        <circle cx="110" cy="340" r="10" fill="#0E8A8A"/>
+        <text x="110" y="408" font-size="17" fill="#0B2545">PROCUREDATA</text>
+        <circle cx="410" cy="340" r="42" fill="#fff" stroke="#0B2545" stroke-width="2"/>
+        <circle cx="410" cy="340" r="10" fill="#0E8A8A"/>
+        <text x="410" y="408" font-size="17" fill="#0B2545">EcoDataNet</text>
+        <rect x="214" y="206" width="92" height="68" rx="14" fill="#0B2545"/>
+        <path d="M260 220 l20 11 v20 l-20 11 l-20-11 v-20z" fill="none" stroke="#C9A227" stroke-width="2.5" stroke-linejoin="round"/>
+      </g>
+      <text x="260" y="298" text-anchor="middle" font-family="Hanken Grotesk" font-size="14" font-weight="600" fill="#5A6A80">SiaB-connector</text>
+      <text x="260" y="452" text-anchor="middle" font-family="Hanken Grotesk" font-size="14" fill="#5A6A80">Elk knooppunt houdt zijn eigen data; het netwerk deelt alleen wat is toegestaan.</text>
+    </svg>
+  </div>
+</section>
+
+<section class="sec sect" id="sectores">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>Voor sectoren waar data niet naar buiten mag</h2>
+      <p>Welk product past bij welke gereguleerde sector.</p>
+    </div>
+    <table class="matrix">
+      <caption class="sr">Producten van Software in a Box per sector</caption>
+      <thead><tr>
+        <th scope="col">Sector</th><th scope="col" class="d">Wat we beschermen</th>
+        <th scope="col" class="p" style="--c:var(--cog)">COGNITIV<i></i></th>
+        <th scope="col" class="p" style="--c:var(--arg)">ARGOS<i></i></th>
+        <th scope="col" class="p" style="--c:var(--dat)">Data<i></i></th>
+      </tr></thead>
+      <tbody>
+        <tr><th scope="row">Zorg</th><td class="d">Patiëntendossiers en medische beelden in ziekenhuizen, klinieken en medtech, onder de EHDS.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Ja</span></td></tr>
+        <tr><th scope="row">Financiën</th><td class="d">Portefeuilles en transacties in bank- en verzekeringswezen, met DORA en bankgeheim.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m"><span class="no"></span><span class="sr">Nee</span></td></tr>
+        <tr><th scope="row">Industrie</th><td class="d">ERP, productie en kwaliteit zonder dat de data de fabriek verlaat.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m"><span class="no"></span><span class="sr">Nee</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Ja</span></td></tr>
+        <tr><th scope="row">Juridisch</th><td class="d">Documentarchieven van advocatenkantoren onder beroepsgeheim.</td><td class="m" style="--c:var(--cog)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m"><span class="no"></span><span class="sr">Nee</span></td></tr>
+        <tr><th scope="row">Publieke sector</th><td class="d">Burgergegevens bij overheden onder het Spaanse Nationale Veiligheidskader (ENS).</td><td class="m"><span class="no"></span><span class="sr">Nee</span></td><td class="m" style="--c:var(--arg)"><span class="yes"></span><span class="sr">Ja</span></td><td class="m" style="--c:var(--dat)"><span class="yes"></span><span class="sr">Ja</span></td></tr>
+      </tbody>
+    </table>
+    <p class="eco"><strong>Met wie we werken:</strong> Lenovo (ThinkSystem-servers voor COGNITIV), V-Valley (distributie en presales), Microsoft Azure (knooppunten voor zorgdata en AI) en het Europese vertrouwenskader Gaia-X. Bent u Microsoft-partner in België? <a href="https://datos.softwareinabox.eu/nl-be/#partners">Ontdek ons partnerprogramma</a>.</p>
+  </div>
+</section>
+
+<section class="sec contact" id="contacto">
+  <div class="wrap">
+    <div>
+      <h2>Zullen we uw situatie bespreken?</h2>
+      <p class="l">Vertel ons welke data u moet beschermen en wat u ermee wilt bereiken. Wij stellen het juiste product en de juiste architectuur voor.</p>
+      <p class="direct">
+        <a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a><br> <a href="tel:+34601398868">+34 601 398 868</a><br> Brussel: de Meeûssquare 37, 1000 Brussel<br> Madrid: Calle Ramírez de Arellano, 17, 28043 Madrid (Spanje)
+      </p>
+    </div>
+    <form class="form" action="https://formsubmit.co/emilio.mulet@softwareinabox.eu" method="POST">
+      <input type="hidden" name="_subject" value="Nueva consulta · www.softwareinabox.eu [NL-BE]">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://www.softwareinabox.eu/nl-be/gracias.html">
+      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label class="f">Naam<input name="Nombre" required autocomplete="name"></label>
+      <label class="f">Organisatie<input name="Organización" autocomplete="organization"></label>
+      <label class="f full">Zakelijk e-mailadres<input type="email" name="Email" required autocomplete="email"></label>
+      <label class="f full">Waar bent u in geïnteresseerd?<select name="Interés"><option>COGNITIV · soevereine AI</option><option>ARGOS · compliance</option><option>Gefedereerde dataspaces</option><option>Weet ik nog niet</option></select></label>
+      <label class="f full">Bericht<textarea name="Mensaje" placeholder="Beschrijf kort uw situatie"></textarea></label>
+      <label class="ok full"><input type="checkbox" name="Consentimiento" value="Acepta la política de privacidad" required><span>Ik heb het <a href="/nl-be/privacidad.html" target="_blank" rel="noopener">privacybeleid</a> gelezen en ga ermee akkoord. We gebruiken uw gegevens alleen om u te antwoorden.</span></label>
+      <button class="btn btn-gold full" type="submit">Aanvraag versturen</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="/nl-be/" style="display:flex">Software in a Box</a>
+        <p style="margin-top:12px;max-width:26em">Software voor gevoelige data: soevereine AI, aantoonbare compliance en gefedereerde dataspaces. Brussel en Madrid, Europese Unie.</p>
+      </div>
+      <div><h4>Producten</h4><a href="https://cognitiv.softwareinabox.eu/nl/">COGNITIV</a><a href="https://argos.softwareinabox.eu/nl/">ARGOS</a><a href="https://datos.softwareinabox.eu/nl-be/">Dataspaces</a></div>
+      <div><h4>Bedrijf</h4><a href="#como">Onze aanpak</a><a href="#experiencia">Ervaring</a><a href="#contacto">Contact</a></div>
+      <div><h4>Bronnen</h4><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Sitemap</a></div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Software in a Box, een merk van Ullswater Investments S.L.</span>
+      <nav aria-label="Juridisch"><a href="/nl-be/aviso-legal.html">Juridische informatie</a><a href="/nl-be/privacidad.html">Privacy</a><a href="/nl-be/cookies.html">Cookies</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+  var box=document.getElementById('box');
+  requestAnimationFrame(function(){setTimeout(function(){box.classList.remove('closed')},350)});
+})();
+</script>
+<!-- I18N-SW:BEGIN --><style>.i18n-sw{position:fixed;left:16px;bottom:16px;z-index:2147483000;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw details{background:#0B2545;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);overflow:hidden}.i18n-sw summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;align-items:center;gap:8px;user-select:none}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{list-style:none;margin:0;padding:4px 0 8px;border-top:1px solid rgba(255,255,255,.15)}.i18n-sw a{display:block;padding:7px 16px;color:#C9D3E0;text-decoration:none;font-weight:500}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Taal"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>NL-BE</summary><ul><li><a href="https://www.softwareinabox.eu/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/fr-be/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/" hreflang="nl-be" lang="nl-be" aria-current="true">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+</body>
+</html>

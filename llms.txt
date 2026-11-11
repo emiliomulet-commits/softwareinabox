@@ -21,3 +21,5 @@
 - [Nederlands](https://www.softwareinabox.eu/nl/)
 - [Português](https://www.softwareinabox.eu/pt/)
 - [Italiano](https://www.softwareinabox.eu/it/)
+- [Français (Belgique)](https://www.softwareinabox.eu/fr-be/)
+- [Nederlands (België)](https://www.softwareinabox.eu/nl-be/)
