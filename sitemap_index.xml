@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Índice de sitemaps de Software in a Box: una entrada por web (cada sitemap incluye los 7 idiomas con hreflang). -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.softwareinabox.eu/sitemap.xml</loc>
+    <lastmod>2026-11-11</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://cognitiv.softwareinabox.eu/sitemap.xml</loc>
+    <lastmod>2026-11-11</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://argos.softwareinabox.eu/sitemap.xml</loc>
+    <lastmod>2026-11-11</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://datos.softwareinabox.eu/sitemap.xml</loc>
+    <lastmod>2026-11-11</lastmod>
+  </sitemap>
+</sitemapindex>

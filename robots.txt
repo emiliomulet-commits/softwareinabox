@@ -4,3 +4,4 @@ Allow: /
 Disallow: /nuevo/
 
 Sitemap: https://www.softwareinabox.eu/sitemap.xml
+Sitemap: https://www.softwareinabox.eu/sitemap_index.xml
