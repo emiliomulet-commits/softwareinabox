@@ -395,13 +395,17 @@ def hreflang_block(pg):
     return "\n".join(lines)
 
 
-SW_CSS = ("<style>.i18n-sw{position:fixed;left:16px;bottom:16px;z-index:2147483000;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}"
-          ".i18n-sw details{background:#0B2545;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);overflow:hidden}"
-          ".i18n-sw summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;align-items:center;gap:8px;user-select:none}"
+SW_CSS = ("<style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}"
+          ".i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}"
+          "header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}"
+          ".i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;"
+          "background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}"
+          ".i18n-sw summary:hover{border-color:#C9A227}"
           ".i18n-sw summary::-webkit-details-marker{display:none}"
           ".i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}"
-          ".i18n-sw ul{list-style:none;margin:0;padding:4px 0 8px;border-top:1px solid rgba(255,255,255,.15)}"
-          ".i18n-sw a{display:block;padding:7px 16px;color:#C9D3E0;text-decoration:none;font-weight:500}"
+          ".i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;"
+          "background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}"
+          ".i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}"
           ".i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}"
           ".i18n-sw a[aria-current]{color:#C9A227;font-weight:700}"
           "@media print{.i18n-sw{display:none}}</style>")
@@ -430,11 +434,14 @@ def strip_i18n(raw):
 
 def add_common(raw, pg, lang):
     raw = re.sub(r"</head>", hreflang_block(pg) + "\n</head>", raw, count=1)
+    # Selector arriba a la derecha: dentro de la cabecera, tras el menú principal.
+    m = re.search(r"</div>\s*</header>", raw)
+    if m:
+        raw = raw[:m.start()] + switcher(pg, lang) + "\n  " + raw[m.start():]
+        return raw
+    sw = switcher(pg, lang).replace('class="i18n-sw"', 'class="i18n-sw fl"')
     i = raw.rfind("</body>")
-    if i < 0:
-        raw += switcher(pg, lang)
-    else:
-        raw = raw[:i] + switcher(pg, lang) + "\n" + raw[i:]
+    raw = raw + sw if i < 0 else raw[:i] + sw + "\n" + raw[i:]
     return raw
 
 

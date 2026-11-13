@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.softwareinabox.eu/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/en/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/de/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/pt/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/it/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr-be/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl-be/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/"/>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -162,7 +162,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/en/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -178,7 +178,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -194,7 +194,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/de/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -210,7 +210,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -226,7 +226,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/pt/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/it/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -258,7 +258,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr-be/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -274,7 +274,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl-be/aviso-legal.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/aviso-legal.html"/>
@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -306,7 +306,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/en/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -322,7 +322,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -338,7 +338,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/de/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -354,7 +354,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -370,7 +370,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/pt/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -386,7 +386,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/it/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -402,7 +402,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr-be/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -418,7 +418,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl-be/privacidad.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/privacidad.html"/>
@@ -434,7 +434,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -450,7 +450,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/en/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -466,7 +466,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -482,7 +482,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/de/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -498,7 +498,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -514,7 +514,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/pt/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -530,7 +530,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/it/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -546,7 +546,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/fr-be/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
@@ -562,7 +562,7 @@
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/nl-be/cookies.html</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/cookies.html"/>
