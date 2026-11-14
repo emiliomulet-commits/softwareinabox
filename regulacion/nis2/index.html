@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NIS2: ficha completa de la Directiva europea de ciberseguridad · Software in a Box</title>
+<meta name="description" content="Ficha completa de NIS2: quién está obligado, entidades esenciales e importantes, las diez medidas del art. 21, notificación 24 h / 72 h / 1 mes, sanciones, la transposición pendiente en España, el TJUE y la propuesta de modificación de 2026.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/regulacion/nis2/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="NIS2: ficha completa de la Directiva europea de ciberseguridad">
+<meta property="og:description" content="Ficha completa de NIS2: quién está obligado, entidades esenciales e importantes, las diez medidas del art. 21, notificación 24 h / 72 h / 1 mes, sanciones, la transposición pendiente en España, el TJUE y la propuesta de modificación de 2026.">
+<meta property="og:url" content="https://www.softwareinabox.eu/regulacion/nis2/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://www.softwareinabox.eu/regulacion/nis2/#article", "url": "https://www.softwareinabox.eu/regulacion/nis2/", "headline": "NIS2: ficha completa de la Directiva europea de ciberseguridad", "description": "Ficha completa de NIS2: quién está obligado, entidades esenciales e importantes, las diez medidas del art. 21, notificación 24 h / 72 h / 1 mes, sanciones, la transposición pendiente en España, el TJUE y la propuesta de modificación de 2026.", "inLanguage": "es", "dateModified": "2026-11-14", "isPartOf": {"@id": "https://www.softwareinabox.eu/#website"}, "publisher": {"@id": "https://www.softwareinabox.eu/#organization"}, "author": {"@id": "https://www.softwareinabox.eu/#organization"}, "about": {"@type": "Legislation", "name": "Directiva (UE) 2022/2555 (NIS2)", "legislationIdentifier": "Directiva (UE) 2022/2555", "legislationJurisdiction": "UE"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Software in a Box", "item": "https://www.softwareinabox.eu/"}, {"@type": "ListItem", "position": 2, "name": "Regulación UE", "item": "https://www.softwareinabox.eu/regulacion/"}, {"@type": "ListItem", "position": 3, "name": "NIS2", "item": "https://www.softwareinabox.eu/regulacion/nis2/"}]}]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+</style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/nis2/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/nis2/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Software in a Box, inicio">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
+      Software in a Box
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="/#productos">Productos</a>
+      <a href="/#como">Cómo trabajamos</a>
+      <a href="/#experiencia">Experiencia</a>
+      <a href="/#sectores">Sectores</a>
+      <a href="/regulacion/" aria-current="page">Regulación UE</a>
+      <a class="btn btn-gold" href="/regulacion/#contacto">Hablemos</a>
+    </nav>
+            
+  <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>ES</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/nis2/" hreflang="es" lang="es" aria-current="true">Español</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Secciones de la ficha"><div class="wrap">
+  <a href="#resumen">Resumen</a><a href="#calendario">Calendario</a><a href="#ambito">Quién está obligado</a><a href="#medidas">Medidas</a><a href="#notificacion">Notificación</a><a href="#sanciones">Supervisión y sanciones</a><a href="#espana">España y UE</a><a href="#reforma">Reforma 2026</a><a href="#eslabon">Por eslabón</a><a href="#relacion">Otras normas</a><a href="#hacer">Qué hacer</a><a href="#fuentes">Fuentes</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a> › <a href="/regulacion/">Regulación UE</a> › NIS2</nav>
+    <div class="eyebrow">Ficha completa · Ciberseguridad</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="badge b-esp">Pendiente en España</span><span class="layer l-arg">ARGOS</span></div>
+        <h1>Directiva NIS2</h1>
+        <p class="lead">La norma europea que obliga a <b>miles de empresas y administraciones</b> de sectores críticos a gestionar sus riesgos de ciberseguridad, <b>notificar incidentes</b> en 24 horas y <b>controlar a sus proveedores</b>. La nube, los centros de datos y los proveedores de servicios gestionados están dentro como infraestructura digital.</p>
+        <div class="callout">España no ha transpuesto NIS2: el plazo venció el 17-10-2024 y la Comisión llevó a España al Tribunal de Justicia en julio de 2026. Mientras, sigue aplicándose el RD-ley 12/2018 (NIS1), pero los clientes ya piden NIS2 en sus contratos.</div>
+      </div>
+      <div class="facts">
+        <h4>Ficha técnica</h4>
+        <dl class="kv">
+          <dt>Norma</dt><dd>Directiva (UE) 2022/2555 (DOUE 27-12-2022)</dd>
+          <dt>Entrada en vigor</dt><dd>16 de enero de 2023</dd>
+          <dt>Transposición</dt><dd>17-10-2024 · aplicación desde el 18-10-2024</dd>
+          <dt>Forma</dt><dd>Directiva (requiere ley nacional)</dd>
+          <dt>Base jurídica</dt><dd>Art. 114 TFUE</dd>
+          <dt>Estructura</dt><dd>9 capítulos · 46 artículos · 3 anexos</dd>
+          <dt>Desarrollo</dt><dd>Reglamento de Ejecución (UE) 2024/2690 (infraestructura y servicios digitales) · guía técnica de ENISA (junio de 2025)</dd>
+          <dt>España</dt><dd>Anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad (14-1-2025), sin aprobar</dd>
+          <dt>Multas máximas</dt><dd>Esenciales: 10 M€ o 2 % · Importantes: 7 M€ o 1,4 %</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Lo esencial en tres ideas</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>Por tamaño y sector</h4><p>Se aplica a las medianas y grandes empresas de 18 sectores. Algunos actores están dentro sea cual sea su tamaño: proveedores de DNS, registros de dominios, servicios de confianza y redes públicas de comunicaciones.</p><div class="mini">Arts. 2–3 · Anexos I y II</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>La dirección responde</h4><p>Los órganos de dirección aprueban las medidas, supervisan su aplicación, reciben formación y pueden ser considerados responsables de los incumplimientos.</p><div class="mini">Art. 20</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>La cadena de suministro cuenta</h4><p>La seguridad de los proveedores es una de las diez medidas obligatorias. Por eso NIS2 llega también a empresas que no están obligadas: sus clientes les trasladan los requisitos por contrato.</p><div class="mini">Art. 21.2.d</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Calendario</div><h2>Qué se aplica y desde cuándo</h2></div>
+    <div class="tbl"><table><caption class="sr">Calendario de NIS2</caption>
+      <thead><tr><th style="width:150px">Fecha</th><th>Hito</th><th>Situación</th></tr></thead><tbody>
+      <tr><td><b>16-1-2023</b></td><td>Entrada en vigor de la Directiva</td><td><span class="badge b-vig">Cumplido</span></td></tr>
+      <tr><td><b>17-10-2024</b></td><td>Fin del plazo de transposición. Reglamento de Ejecución (UE) 2024/2690 para proveedores de infraestructura y servicios digitales</td><td><span class="badge b-vig">Cumplido</span></td></tr>
+      <tr><td><b>14-1-2025</b></td><td>España aprueba en primera vuelta el anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad</td><td><span class="badge b-esp">Sin aprobar</span></td></tr>
+      <tr><td><b>Junio de 2025</b></td><td>Guía técnica de ENISA para aplicar el Reglamento 2024/2690</td><td><span class="badge b-vig">Publicada</span></td></tr>
+      <tr><td><b>6-12-2025</b></td><td>Entra en vigor la ley alemana de transposición (NIS2UmsuCG)</td><td><span class="badge b-vig">Cumplido</span></td></tr>
+      <tr><td><b>20-1-2026</b></td><td>La Comisión propone modificar NIS2 junto con la CSA2</td><td><span class="badge b-pro">Propuesta</span></td></tr>
+      <tr><td><b>26-5-2026</b></td><td>El Grupo de Cooperación NIS adopta plantillas comunes de notificación de incidentes</td><td><span class="badge b-vig">Cumplido</span></td></tr>
+      <tr><td><b>8-7-2026</b></td><td>La Comisión lleva a España, Irlanda, Francia y Países Bajos al TJUE y pide sanciones económicas</td><td><span class="badge b-esp">En curso</span></td></tr>
+      <tr><td><b>17-10-2027</b></td><td>Revisión de la Directiva por la Comisión (art. 40)</td><td><span class="badge b-gra">Previsto</span></td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="ambito">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Ámbito</div><h2>Quién está obligado</h2>
+    <p class="lead">La regla general es de tamaño: medianas empresas (50 o más empleados, o más de 10 M€ de facturación y de balance) y grandes. Cada Estado puede añadir entidades por su papel crítico.</p></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Anexo I · sectores de alta criticidad</h4><ul class="check">
+        <li>Energía, transporte, banca, infraestructuras de mercados financieros</li>
+        <li>Sanidad, agua potable y aguas residuales</li>
+        <li><b>Infraestructura digital:</b> puntos de intercambio de internet, DNS, registros de dominios, <b>computación en nube</b>, <b>centros de datos</b>, redes de distribución de contenidos, servicios de confianza, redes y servicios públicos de comunicaciones</li>
+        <li><b>Gestión de servicios TIC entre empresas:</b> proveedores de servicios gestionados (MSP) y de seguridad gestionada (MSSP)</li>
+        <li>Administración pública y espacio</li></ul></div>
+      <div class="card soft"><h4>Anexo II · otros sectores críticos</h4><ul class="check">
+        <li>Servicios postales y gestión de residuos</li>
+        <li>Química, alimentación</li>
+        <li><b>Fabricación</b> de productos sanitarios, ordenadores y electrónica, equipos eléctricos, maquinaria y vehículos</li>
+        <li><b>Proveedores digitales:</b> mercados en línea, motores de búsqueda y redes sociales</li>
+        <li>Investigación</li></ul></div>
+    </div>
+    <div class="tbl" style="margin-top:24px"><table><caption class="sr">Entidades esenciales e importantes</caption>
+      <thead><tr><th style="width:200px"></th><th>Entidad esencial</th><th>Entidad importante</th></tr></thead><tbody>
+      <tr><td><b>Quién</b></td><td>Grandes empresas del Anexo I, más algunas por su naturaleza (DNS, registros de dominios, servicios de confianza cualificados, administración central)</td><td>El resto: medianas del Anexo I y medianas y grandes del Anexo II</td></tr>
+      <tr><td><b>Supervisión</b></td><td>Previa y posterior (ex ante): inspecciones, auditorías periódicas</td><td>Posterior (ex post): cuando hay indicios de incumplimiento</td></tr>
+      <tr><td><b>Multa máxima</b></td><td>10 M€ o 2 % del volumen de negocios mundial</td><td>7 M€ o 1,4 % del volumen de negocios mundial</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="medidas">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Artículo 21</div><h2>Las diez medidas de gestión de riesgos</h2>
+    <p class="lead">Medidas técnicas, operativas y organizativas proporcionadas al riesgo, con un enfoque «todos los peligros». Para nube, centros de datos, MSP y otros proveedores digitales, el Reglamento de Ejecución (UE) 2024/2690 las concreta requisito por requisito.</p></div>
+    <div class="grid2">
+      <div class="card soft"><ul class="check">
+        <li>Políticas de análisis de riesgos y seguridad de los sistemas</li>
+        <li>Gestión de incidentes</li>
+        <li>Continuidad de negocio: copias de seguridad, recuperación ante desastres, gestión de crisis</li>
+        <li><b>Seguridad de la cadena de suministro</b>, incluida la relación con cada proveedor</li>
+        <li>Seguridad en la adquisición, desarrollo y mantenimiento de sistemas, incluida la gestión de vulnerabilidades</li></ul></div>
+      <div class="card soft"><ul class="check">
+        <li>Evaluación de la eficacia de las medidas</li>
+        <li>Higiene cibernética básica y formación</li>
+        <li>Criptografía y, en su caso, cifrado</li>
+        <li>Seguridad de los recursos humanos, control de acceso y gestión de activos</li>
+        <li>Autenticación multifactor o continua y comunicaciones seguras</li></ul></div>
+    </div>
+    <div class="callout">En la práctica, la medida que más se nota fuera de las entidades obligadas es la cuarta: cuestionarios de seguridad, cláusulas de notificación y derechos de auditoría que los clientes NIS2 imponen a sus proveedores.</div>
+  </div>
+</section>
+
+<section class="sec" id="notificacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Artículo 23</div><h2>Notificación de incidentes significativos</h2>
+    <p class="lead">Un incidente es significativo si causa o puede causar una perturbación operativa grave o pérdidas económicas, o si afecta a terceros con daños considerables. El Reglamento 2024/2690 fija umbrales concretos para los proveedores digitales.</p></div>
+    <div class="levels">
+      <div class="lv"><div class="big">24 h</div><div class="tag">Alerta temprana</div><ul><li>Desde que se tiene conocimiento</li><li>Si puede ser malicioso o tener efecto transfronterizo</li></ul></div>
+      <div class="lv"><div class="big">72 h</div><div class="tag">Notificación</div><ul><li>Evaluación inicial: gravedad, impacto</li><li>Indicadores de compromiso</li></ul></div>
+      <div class="lv"><div class="big">A petición</div><div class="tag">Informe intermedio</div><ul><li>Actualizaciones de situación</li><li>Si lo pide el CSIRT o la autoridad</li></ul></div>
+      <div class="lv"><div class="big">1 mes</div><div class="tag">Informe final</div><ul><li>Descripción, causa raíz, medidas</li><li>Impacto transfronterizo</li></ul></div>
+    </div>
+    <p class="note">En España, mientras no haya ley nueva, se notifica a los CSIRT de referencia: INCIBE-CERT (sector privado), CCN-CERT (sector público) y ESPDEF-CERT (defensa). El Grupo de Cooperación NIS adoptó plantillas comunes en mayo de 2026.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="sanciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Supervisión</div><h2>Supervisión, sanciones y responsabilidad</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Poderes de la autoridad</h4><ul class="check">
+        <li>Inspecciones in situ y a distancia, auditorías de seguridad y análisis de evidencias</li>
+        <li>Requerimientos de información y órdenes de corrección con plazo</li>
+        <li>Para entidades esenciales, suspensión temporal de certificaciones o autorizaciones</li>
+        <li>Prohibición temporal de funciones directivas a los responsables</li></ul></div>
+      <div class="card soft"><h4>Registro</h4><p>Las entidades se registran ante la autoridad nacional. Los proveedores de DNS, registros de dominios, nube, centros de datos, redes de distribución de contenidos, MSP, MSSP y plataformas digitales se registran en el Estado de su establecimiento principal en la UE y ENISA mantiene un registro común.</p><p class="mini">Arts. 3.4 y 27</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Transposición</div><h2>España y los países vecinos</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>España</h4><p>El Consejo de Ministros aprobó en primera vuelta el <b>anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad</b> el 14-1-2025; casi dos años después no se ha remitido como proyecto a las Cortes. Sigue vigente el <b>RD-ley 12/2018</b>, que transpuso NIS1.</p><p>Mientras, el CCN publicó el perfil de cumplimiento específico <b>CCN-STIC 892</b>, que encaja las medidas de NIS2 en el ENS, e INCIBE mantiene una tabla de entidades esenciales e importantes y guías para pymes.</p><p>El 8-7-2026 la Comisión remitió a España al TJUE por no transponer, con petición de sanciones económicas.</p></div>
+      <div class="card soft"><h4>Otros Estados</h4><ul class="check">
+        <li><b>Alemania:</b> la NIS2UmsuCG está en vigor desde el 6-12-2025; unas 29.500 entidades debían registrarse ante el BSI antes del 6-3-2026.</li>
+        <li><b>Italia:</b> transpuso con el Decreto Legislativo 138/2024; la Agencia de Ciberseguridad Nacional (ACN) ha publicado obligaciones de base, guías de incidentes y ha empezado auditorías.</li>
+        <li><b>Francia:</b> el proyecto de ley Resiliencia (NIS2, entidades críticas y DORA) llegó al pleno de la Asamblea Nacional en octubre de 2026; la ANSSI tiene su marco ReCyf como documento de trabajo.</li>
+        <li><b>Irlanda y Países Bajos:</b> remitidos al TJUE junto con España y Francia.</li></ul></div>
+    </div>
+    <div class="callout">Que España no haya transpuesto no exime a una empresa española que preste servicios en Alemania o Italia: allí ya está obligada. Y los proveedores de nube, centros de datos y MSP responden ante el Estado de su establecimiento principal.</div>
+  </div>
+</section>
+
+<section class="sec alt" id="reforma">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Propuesta COM(2026) 13 · procedimiento 2026/0012(COD)</div><h2>La modificación propuesta en enero de 2026</h2>
+    <p class="lead">Presentada el 20-1-2026 junto con la propuesta de nueva Cybersecurity Act (CSA2), para simplificar y armonizar. <b>Es propuesta, no derecho vigente.</b></p></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Qué cambiaría</h4><ul class="check">
+        <li>Nueva categoría de <b>pequeñas empresas de mediana capitalización</b> (menos de 750 empleados y hasta 150 M€ de facturación), tratadas como entidades importantes</li>
+        <li>Inclusión de los proveedores de <b>carteras europeas de identidad digital</b></li>
+        <li>Más armonización de medidas y notificaciones entre Estados</li>
+        <li>Coordinación con el marco de proveedores de alto riesgo de la CSA2</li>
+        <li>Doce meses para transponer los cambios</li></ul></div>
+      <div class="card soft"><h4>Y el Ómnibus Digital</h4><p>La propuesta de Ómnibus Digital de noviembre de 2025 plantea un <b>punto único de notificación</b> de incidentes («notificar una vez, compartir muchas») para NIS2, RGPD, DORA, eIDAS y entidades críticas. Tampoco está aprobado.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="eslabon">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Lectura por eslabón</div><h2>Qué significa para cada actor de la cadena</h2></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="eF" role="tab" aria-selected="true">Fabricante</button>
+      <button class="tab" data-p="eM" role="tab" aria-selected="false">Mayorista</button>
+      <button class="tab" data-p="eI" role="tab" aria-selected="false">Integrador</button>
+      <button class="tab" data-p="eC" role="tab" aria-selected="false">Cliente final</button>
+    </div>
+    <div class="tabpane on" id="eF" role="tabpanel"><div class="grid2">
+      <div><h4>Puede estar obligado</h4><ul class="check">
+        <li>Si es mediano o grande y fabrica ordenadores, electrónica, equipos eléctricos o maquinaria (Anexo II).</li>
+        <li>Si su software es servicio en la nube, puede ser infraestructura digital (Anexo I).</li></ul></div>
+      <div><h4>Siempre le llega</h4><ul class="check">
+        <li>Cuestionarios de cadena de suministro de clientes obligados.</li>
+        <li>Petición de gestión de vulnerabilidades y avisos, que el CRA hará además obligatoria.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eM" role="tabpanel"><div class="grid2">
+      <div><h4>Riesgo</h4><ul class="check">
+        <li>Los distribuidores TIC no están en los anexos, pero los clientes NIS2 los tratan como proveedores críticos.</li>
+        <li>Si presta servicios gestionados al canal, puede ser MSP.</li></ul></div>
+      <div><h4>Oportunidad</h4><ul class="check">
+        <li>Catálogo de seguridad alineado con las diez medidas.</li>
+        <li>Formación del canal para vender cumplimiento NIS2 con producto y servicio.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eI" role="tabpanel"><div class="grid2">
+      <div><h4>Obligaciones propias</h4><ul class="check">
+        <li>Los MSP y MSSP medianos y grandes son entidades del Anexo I, con el Reglamento 2024/2690 como guía detallada.</li>
+        <li>Notificación de incidentes que afecten a sus clientes.</li></ul></div>
+      <div><h4>Línea de servicio</h4><ul class="check">
+        <li>Análisis de alcance y de brecha frente al art. 21.</li>
+        <li>Gestión de incidentes 24/72 horas y planes de continuidad.</li>
+        <li>Gestión de riesgos de proveedores del cliente.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eC" role="tabpanel"><div class="grid2">
+      <div><h4>Si está obligado</h4><ul class="check">
+        <li>Aprobación y formación de la dirección.</li>
+        <li>Las diez medidas documentadas y evaluadas.</li>
+        <li>Procedimiento de notificación y relación con el CSIRT.</li></ul></div>
+      <div><h4>Qué pedir a proveedores</h4><ul class="check">
+        <li>Cláusulas de notificación, auditoría y continuidad.</li>
+        <li>Evidencias de seguridad (ENS, ISO 27001) y gestión de vulnerabilidades.</li></ul></div>
+    </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Encaje con otras normas</div><h2>Con quién comparte terreno</h2></div>
+    <div class="tbl"><table><caption class="sr">Relación de NIS2 con otras normas</caption>
+      <thead><tr><th style="width:220px">Norma</th><th>Punto de contacto</th></tr></thead><tbody>
+      <tr><td><a href="/regulacion/cra/"><b>CRA</b></a></td><td>NIS2 obliga a las entidades; el CRA, a los productos que compran. Los productos conformes con el CRA facilitan cumplir la seguridad de la cadena de suministro.</td></tr>
+      <tr><td><a href="/regulacion/dora/"><b>DORA</b></a></td><td>Para banca e infraestructuras de mercados financieros, DORA es norma especial y prevalece en gestión de riesgos y notificación.</td></tr>
+      <tr><td><a href="/regulacion/csa2-eucs/"><b>CSA2</b></a></td><td>La propuesta de nueva Cybersecurity Act permitiría prohibir componentes de proveedores de alto riesgo a entidades NIS2 en activos TIC clave.</td></tr>
+      <tr><td><b>Directiva de entidades críticas (CER)</b></td><td>Resiliencia física de las mismas entidades; se transpone a menudo en la misma ley.</td></tr>
+      <tr><td><b>ENS</b></td><td>En España, el perfil CCN-STIC 892 alinea el Esquema Nacional de Seguridad con NIS2.</td></tr>
+      <tr><td><a href="/regulacion/#cada"><b>CADA</b></a></td><td>Las entidades NIS2 son candidatas naturales a los niveles de garantía altos de la propuesta para servicios cloud críticos.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Hoja de ruta</div><h2>Qué hacer sin esperar a la ley española</h2></div>
+    <div class="cards4">
+      <div class="card soft"><h4><span class="k">Ya</span>Alcance</h4><p class="dl">Sector, tamaño y países en que opera: si es entidad esencial o importante, o proveedor de una.</p></div>
+      <div class="card soft"><h4><span class="k">1T 2027</span>Brecha</h4><p class="dl">Análisis frente al art. 21 y, si es proveedor digital, frente al Reglamento 2024/2690.</p></div>
+      <div class="card soft"><h4><span class="k">2T 2027</span>Incidentes</h4><p class="dl">Procedimiento 24/72 horas/1 mes probado, responsables y relación con el CSIRT.</p></div>
+      <div class="card soft"><h4><span class="k">Continuo</span>Proveedores</h4><p class="dl">Inventario, evaluación y cláusulas de seguridad en contratos.</p></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Cómo ayuda Software in a Box</h4><p><span class="layer l-arg">ARGOS</span> centraliza el inventario de activos y proveedores, la evidencia de las diez medidas y el registro de incidentes, y prepara las respuestas a los cuestionarios de cadena de suministro. La misma evidencia sirve para el CRA y la CADA.</p></div>
+      <div class="card"><h4>Más en la sección Regulación UE</h4><p>Radar de 18 normas, calendario 2025–2030, matriz de impacto y autodiagnóstico.</p><div class="ficha-nav"><a class="btn btn-ink" href="/regulacion/#radar">Volver al radar</a><a class="btn btn-out" href="/regulacion/#contacto">Hablemos</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Fuentes principales</h3>
+    <ul class="src">
+      <li>Texto · <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2555">Directiva (UE) 2022/2555 (EUR-Lex)</a></li>
+      <li>Texto · <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R2690">Reglamento de Ejecución (UE) 2024/2690</a></li>
+      <li>ENISA · <a href="https://www.enisa.europa.eu/publications/nis2-technical-implementation-guidance">Guía técnica de aplicación</a></li>
+      <li>Comisión · <a href="https://digital-strategy.ec.europa.eu/en/policies/nis2-directive">Directiva NIS2</a></li>
+      <li>Parlamento Europeo · <a href="https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1884097">Procedimiento 2026/0012(COD)</a></li>
+      <li>España · <a href="https://www.interior.gob.es/opencms/pdf/servicios-al-ciudadano/participacion-ciudadana/Participacion-publica-en-proyectos-normativos/Audiencia-e-informacion-publica/01_2025_Anteproyecto_ley_coordinacion_gobernanza_ciberseguridad.pdf">Anteproyecto de Ley de Coordinación y Gobernanza de la Ciberseguridad (PDF)</a></li>
+      <li>España · <a href="https://www.incibe.es/incibe-cert/sectores-estrategicos/NIs2-necesitas-saber">INCIBE-CERT: NIS2, lo que necesitas saber</a></li>
+      <li>España · <a href="https://incibe.es/sites/default/files/2024-08/Entidades_NIS2.pdf">INCIBE: entidades esenciales e importantes (PDF)</a></li>
+      <li>TJUE · <a href="https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2">Remisión de cuatro Estados (The Record)</a></li>
+      <li>Alemania · <a href="https://www.taylorwessing.com/en/insights-and-events/insights/2025/11/germanys-implementation-of-nis2">Taylor Wessing: la transposición alemana</a></li>
+    </ul>
+    <p class="note">Ficha elaborada a partir de un catálogo de 123 fuentes sobre NIS2 mantenido por Software in a Box. Información orientativa; no constituye asesoramiento jurídico. Última revisión: 14 de noviembre de 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="/" style="display:flex">Software in a Box</a>
+        <p style="margin-top:12px;max-width:26em">Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.</p>
+      </div>
+      <div><h4>Productos</h4><a href="https://cognitiv.softwareinabox.eu/">COGNITIV</a><a href="https://argos.softwareinabox.eu/">ARGOS</a><a href="https://datos.softwareinabox.eu/">Espacios de datos</a></div>
+      <div><h4>Empresa</h4><a href="/#como">Cómo trabajamos</a><a href="/#experiencia">Experiencia</a><a href="/#contacto">Contacto</a></div>
+      <div><h4>Recursos</h4><a href="/regulacion/">Regulación UE</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Mapa del sitio</a></div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Software in a Box, marca de Ullswater Investments S.L.</span>
+      <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a></nav>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.querySelector(".burger"),n=document.getElementById("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+</body>
+</html>

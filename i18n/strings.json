@@ -1604,8 +1604,8 @@
   ]
  },
  {
-  "id": "00c7093c2e",
-  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle. CADA, AI Act, Data Act y CRA tienen ficha completa.",
+  "id": "1813b58620",
+  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle. CADA, AI Act, Data Act, CRA, NIS2, CSA2, DORA, DMA y EHDS tienen ficha completa.",
   "kind": "html",
   "pages": [
    "regulacion/index.html"
@@ -4872,16 +4872,16 @@
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"

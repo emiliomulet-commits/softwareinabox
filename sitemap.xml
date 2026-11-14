@@ -313,6 +313,46 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/cra/"/>
   </url>
   <url>
+    <loc>https://www.softwareinabox.eu/regulacion/nis2/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/nis2/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/nis2/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/csa2-eucs/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/csa2-eucs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/csa2-eucs/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/dora/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/dora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/dora/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/dma-nube/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/dma-nube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/dma-nube/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/ehds/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ehds/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ehds/"/>
+  </url>
+  <url>
     <loc>https://www.softwareinabox.eu/aviso-legal.html</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>yearly</changefreq>
