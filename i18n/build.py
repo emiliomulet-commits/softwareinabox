@@ -548,6 +548,48 @@ def apply_landing(raw, lfile_):
     return raw
 
 
+# ---------------------------------------------------------------- adaptación por país de las fichas traducidas
+# i18n/fichas_pais/<lang>.html: bloques <!--SLUG:x-->…<!--/SLUG--> con
+#   <!--SEC:id-->…<!--/SEC-->     sustituye el contenido de <section id="id"> (se conserva la etiqueta <section>)
+#   <!--AFTER:id-->…<!--/AFTER--> inserta una sección completa tras <section id="id">
+#   <!--R-->viejo<!--=>-->nuevo<!--/R-->  sustituye texto ya traducido (debe aparecer; si no, error)
+#   <!--RX-->regex<!--=>-->nuevo<!--/RX--> igual, con expresión regular (re.S)
+PAIS_DIR = os.path.join(HERE, "fichas_pais")
+
+
+def apply_country(raw, lang, slug):
+    f = os.path.join(PAIS_DIR, lang + ".html")
+    if not os.path.exists(f):
+        return raw
+    m = re.search(r"<!--SLUG:" + re.escape(slug) + r"-->(.*?)<!--/SLUG-->", open(f, encoding="utf-8").read(), re.S)
+    if not m:
+        return raw
+    blk = m.group(1)
+    for old, new in re.findall(r"<!--R-->(.*?)<!--=>-->(.*?)<!--/R-->", blk, re.S):
+        if old not in raw:
+            raise SystemExit(f"fichas_pais/{lang}.html [{slug}]: no encuentro «{old[:80]}»")
+        raw = raw.replace(old, new)
+    for pat, new in re.findall(r"<!--RX-->(.*?)<!--=>-->(.*?)<!--/RX-->", blk, re.S):
+        raw, k = re.subn(pat, lambda _m: new, raw, flags=re.S)
+        if not k:
+            raise SystemExit(f"fichas_pais/{lang}.html [{slug}]: el patrón no encaja «{pat[:80]}»")
+    for sid, body in re.findall(r"<!--SEC:([a-z0-9-]+)-->(.*?)<!--/SEC-->", blk, re.S):
+        mm = re.search(r'(<section[^>]*\bid="' + re.escape(sid) + r'"[^>]*>)(.*?)(</section>)', raw, re.S)
+        if not mm:
+            raise SystemExit(f"fichas_pais/{lang}.html [{slug}]: no existe la sección {sid}")
+        raw = raw[:mm.start(2)] + "\n" + body.strip() + "\n" + raw[mm.end(2):]
+    for sid, body in re.findall(r"<!--AFTER:([a-z0-9-]+)-->(.*?)<!--/AFTER-->", blk, re.S):
+        mm = re.search(r'<section[^>]*\bid="' + re.escape(sid) + r'"[^>]*>.*?</section>', raw, re.S)
+        if not mm:
+            raise SystemExit(f"fichas_pais/{lang}.html [{slug}]: no existe la sección {sid}")
+        raw = raw[:mm.end()] + "\n\n" + body.strip() + "\n" + raw[mm.end():]
+    if "<!--AFTER:" in blk:  # rehacer los fondos alternos
+        import build_fichas as BF
+        mm = re.search(r'(<main id="contenido">)(.*)(</main>)', raw, re.S)
+        raw = raw[:mm.start(2)] + BF.landing_body(mm.group(2), mm.group(2)) + raw[mm.end(2):]
+    return raw
+
+
 def src_file(pg, lang):
     """Fuente de la página. "tr_src" en sites.json: fuente distinta para los idiomas traducidos
     (p. ej. la landing española de un país y la ficha UE que se traduce mientras no hay landing propia)."""
@@ -581,6 +623,9 @@ def build_page(pg, lang, tr, missing):
             continue  # solapamiento: se queda la unidad exterior ya aplicada
         raw = raw[:a] + t + raw[b:]
         last = a
+    ms = re.match(r"^/regulacion/([a-z0-9-]+)/$", pg["path"])
+    if ms:
+        raw = apply_country(raw, lang, ms.group(1))
     lf = landing_file(pg, lang)
     if lf:
         raw = apply_landing(raw, lf)

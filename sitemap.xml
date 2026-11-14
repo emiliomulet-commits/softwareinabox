@@ -1876,7 +1876,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rgpd-omnibus/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/data-union/</loc>
@@ -1884,7 +2046,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/data-union/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/chips-act/</loc>
@@ -1892,7 +2216,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/chips-act/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/</loc>
@@ -1900,7 +2386,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ecodiseno-servidores/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/raee/</loc>
@@ -1908,7 +2556,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/raee/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/factura-electronica/</loc>
@@ -1916,7 +2726,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/factura-electronica/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/ens/</loc>
@@ -1924,7 +2896,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ens/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/</loc>
@@ -1932,7 +3066,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/ley-gobernanza-ia/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/regulacion/rd-centros-datos/</loc>
@@ -1940,7 +3236,169 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/rd-centros-datos/"/>
   </url>
   <url>
     <loc>https://www.softwareinabox.eu/aviso-legal.html</loc>
