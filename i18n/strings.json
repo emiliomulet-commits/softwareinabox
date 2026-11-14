@@ -14,6 +14,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -35,6 +36,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -56,6 +58,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -137,6 +140,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -162,6 +166,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -187,6 +192,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -765,6 +771,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -931,6 +938,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -948,6 +956,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -969,6 +978,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -990,6 +1000,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1007,6 +1018,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1024,6 +1036,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1042,6 +1055,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1063,6 +1077,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1080,6 +1095,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1097,6 +1113,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1114,6 +1131,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1131,6 +1149,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1257,6 +1276,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1278,6 +1298,7 @@
   "pages": [
    "index.html",
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -1425,7 +1446,8 @@
   "src": "Industria cliente final",
   "kind": "html",
   "pages": [
-   "regulacion/index.html"
+   "regulacion/index.html",
+   "regulacion/informe-cada/index.html"
   ]
  },
  {
@@ -1926,6 +1948,7 @@
   "kind": "html",
   "pages": [
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -5133,6 +5156,7 @@
   "kind": "attr",
   "pages": [
    "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -5164,20 +5188,21 @@
   "src": "Secciones de la página",
   "kind": "attr",
   "pages": [
-   "regulacion/index.html"
+   "regulacion/index.html",
+   "regulacion/informe-cada/index.html"
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
@@ -7765,11 +7790,11 @@
   ]
  },
  {
-  "id": "996a1e6032",
-  "src": "AI Act: ficha completa del Reglamento europeo de Inteligencia Artificial tras el Ómnibus · Software in a Box",
+  "id": "c7a7e3b7cd",
+  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final · Software in a Box",
   "kind": "html",
   "pages": [
-   "regulacion/ai-act/index.html"
+   "regulacion/informe-cada/index.html"
   ]
  },
  {
@@ -7777,6 +7802,7 @@
   "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"/regulacion/#contacto\">Hablemos</a>",
   "kind": "html",
   "pages": [
+   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
@@ -7785,6 +7811,527 @@
    "regulacion/dora/index.html",
    "regulacion/dma-nube/index.html",
    "regulacion/ehds/index.html"
+  ]
+ },
+ {
+  "id": "b9ec924424",
+  "src": "<a href=\"#resumen\">Resumen</a><a href=\"#eslabon\">Por eslabón</a><a href=\"#contenido\">Contenido</a><a href=\"#infografias\">Infografías</a><a href=\"#descarga\">Descarga</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "f78fbdafb3",
+  "src": "<a href=\"/\">Inicio</a> › <a href=\"/regulacion/\">Regulación UE</a> › Informe CADA",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "1152e35048",
+  "src": "Informe estratégico · Noviembre 2026",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "0d7027bbd4",
+  "src": "<span class=\"badge b-gra\">Descarga gratuita</span><span class=\"badge b-vig\">Actualizado el 14-11-2026</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "f5e28c11d5",
+  "src": "La CADA y la cadena de valor tecnológica",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "650bcc955c",
+  "src": "Qué cambia la <b>Cloud and AI Development Act</b> para <b>fabricantes, mayoristas, distribuidores e integradores</b> y para la <b>industria cliente final</b>, qué cuellos de botella puede provocar y qué oportunidades abre para quien se prepare antes.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "a2710b82ac",
+  "src": "La soberanía no la acredita un actor aislado: la acredita una cadena de suministro documentada. El nivel se otorga a cada servicio, pero la evidencia está repartida entre fabricante, mayorista e integrador.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "d41906d957",
+  "src": "<a class=\"btn btn-gold\" href=\"/descargas/informe-cada/CADA_informe_es.pdf\" download>Descargar el informe (PDF)</a><a class=\"btn btn-line\" href=\"/regulacion/#contacto\">Hablemos</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "8554863a06",
+  "src": "El informe",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "7c90c017f0",
+  "src": "Extensión",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "78262cf942",
+  "src": "95 páginas, 32 capítulos y 4 anexos",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "30ed321cf3",
+  "src": "Infografías",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "c43959bc05",
+  "src": "35, una por capítulo",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "0f5d33d123",
+  "src": "Fuentes",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ad091518fe",
+  "src": "93 referencias citadas",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ab19140111",
+  "src": "Propuesta COM(2026) 502, procedimiento 2026/0138(COD)",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "19724254d1",
+  "src": "Ecosistema",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "0e29c1dd30",
+  "src": "AI Act, Data Act, NIS2, CSA2, CRA, DORA, DMA, EHDS, RAEE, ecodiseño",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ed2c91c4d3",
+  "src": "Mercados",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "b25bb2401e",
+  "src": "España y Portugal, con lectura europea",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "55373365fd",
+  "src": "Idiomas",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "736c67ced6",
+  "src": "Español, inglés, francés, alemán, neerlandés, portugués, italiano y danés",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "7cf3052036",
+  "src": "Autor",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "639c7b53d5",
+  "src": "Software in a Box (Madrid · Bruselas)",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "e3c3809145",
+  "src": "Lo esencial en tres ideas",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html",
+   "regulacion/dora/index.html",
+   "regulacion/dma-nube/index.html",
+   "regulacion/ehds/index.html"
+  ]
+ },
+ {
+  "id": "985568d68e",
+  "src": "<span class=\"n\">1</span>Cuatro niveles de garantía",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "083c1fb1ec",
+  "src": "La CADA ordena la compra pública de nube e IA por niveles de soberanía. El nivel 1 se acredita por autoevaluación; los niveles 2 a 4 exigen auditoría, certificado europeo y control de la cadena de software.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ac304ac433",
+  "src": "<span class=\"n\">2</span>La evidencia está en la cadena",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "2617b4ebc9",
+  "src": "Telemetría, soporte, propiedad y SBOM dependen del fabricante; el soporte de primer nivel y la logística, del mayorista; la operación del servicio, del integrador.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "5bc4b41de1",
+  "src": "<span class=\"n\">3</span>Una ventana de dos años",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "d1a944c917",
+  "src": "2027 para diagnosticar y diseñar la oferta, 2028 para reunir evidencia y alianzas, 2029–2030 para las primeras licitaciones con niveles exigidos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "3d3da398cf",
+  "src": "Qué encontrará cada eslabón",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ea81012618",
+  "src": "Fabricantes",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "5ebf3a0ab3",
+  "src": "Qué pedirán los integradores sobre telemetría, gestión local, soporte desde la UE, SBOM y uso de datos para entrenar IA, y la ficha de soberanía por familia de producto.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "1524586bd5",
+  "src": "Mayoristas y distribuidores",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ab213c1673",
+  "src": "El mayorista de valor como orquestador de la evidencia: catálogo por niveles, configuraciones de referencia, obligaciones CRA del distribuidor y un modelo de servicio en tres capas.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "1f8e4b9955",
+  "src": "Integradores y MSP",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "8ae11f2b6e",
+  "src": "Cuatro perfiles de integrador ante la CADA, el expediente de soberanía por servicio, la vía de las pymes y un caso práctico de primera licitación.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "e1bd52e13b",
+  "src": "Evaluación de riesgos, evaluaciones voluntarias en sectores críticos, migraciones conformes con el Data Act e IA local y soberana.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "e57fdf1b19",
+  "src": "Contenido",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html",
+   "regulacion/data-act/index.html"
+  ]
+ },
+ {
+  "id": "4e657179c4",
+  "src": "<span class=\"k\">1–9</span>La CADA explicada",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "58fa99b2f1",
+  "src": "Origen y calendario, centros de datos y zonas de aceleración, los cuatro niveles, la evidencia de los Anexos II y III, reconocimiento, evaluación de riesgos y compra pública.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "0273271aeb",
+  "src": "<span class=\"k\">10–16</span>El ecosistema normativo",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "4f1089d91f",
+  "src": "AI Act, Data Act, NIS2, CSA2, EUCS, CRA, DORA, DMA, espacios de datos, RAEE, ecodiseño, factura electrónica y el marco español y portugués.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ce5856325d",
+  "src": "<span class=\"k\">17–22</span>El mercado",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "bf3ddb91b1",
+  "src": "Nube europea y demanda soberana, distribución TI en la península, programas de fabricante, centros de datos e IA, precedentes y escenarios de tamaño.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "79b07f7f19",
+  "src": "<span class=\"k\">23–32</span>Impacto y hoja de ruta",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "c9d694bae6",
+  "src": "Impacto por eslabón, oportunidades, cuellos de botella normativos, técnicos y de mercado, escenarios 2027–2030 y recomendaciones.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "3828500f19",
+  "src": "Anexos: mapa de la propuesta artículo por artículo, calendario consolidado 2025–2030, lista de verificación por actor y glosario.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "aa40baadcd",
+  "src": "Algunas infografías",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "f3246e2444",
+  "src": "Descargue el informe completo",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "8e5030574c",
+  "src": "95 páginas y 35 infografías en PDF, sin registro. Si quiere aplicarlo a su catálogo, a su canal o a sus clientes, hablemos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "febaf252e5",
+  "src": "<a class=\"btn btn-gold\" href=\"/descargas/informe-cada/CADA_informe_es.pdf\" download>Descargar PDF</a><a class=\"btn btn-line\" href=\"/regulacion/#contacto\">Contactar</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "72f338dbad",
+  "src": "Documento de trabajo basado en la propuesta de la Comisión de 3 de junio de 2026; el texto final puede cambiar durante la tramitación. Información orientativa; no constituye asesoramiento jurídico. Última revisión: 14 de noviembre de 2026.",
+  "kind": "html",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "2ca8589ea2",
+  "src": "Informe gratuito de 95 páginas y 35 infografías sobre la Cloud and AI Development Act: niveles de soberanía, evidencia por eslabón, cuellos de botella, oportunidades y hoja de ruta 2027–2030 para el canal tecnológico.",
+  "kind": "attr",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "44f9e435a8",
+  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final",
+  "kind": "attr",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "cb2ee30a53",
+  "src": "Cloud and AI Development Act (CADA), COM(2026) 502",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "c31ab50614",
+  "src": "Informe CADA",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "ad94e5f9d8",
+  "src": "Infografía: los cuatro niveles de garantía de soberanía",
+  "kind": "attr",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "09bee8e704",
+  "src": "Infografía: quién aporta cada prueba del Anexo III en la cadena",
+  "kind": "attr",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "bf5f39a42e",
+  "src": "Infografía: hoja de ruta 2027–2030 para fabricantes, mayoristas e integradores",
+  "kind": "attr",
+  "pages": [
+   "regulacion/informe-cada/index.html"
+  ]
+ },
+ {
+  "id": "af2e985885",
+  "src": "-40% 0px -55% 0px",
+  "kind": "js",
+  "pages": [
+   "regulacion/informe-cada/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html",
+   "regulacion/dora/index.html",
+   "regulacion/dma-nube/index.html",
+   "regulacion/ehds/index.html"
+  ]
+ },
+ {
+  "id": "996a1e6032",
+  "src": "AI Act: ficha completa del Reglamento europeo de Inteligencia Artificial tras el Ómnibus · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html"
   ]
  },
  {
@@ -7946,21 +8493,6 @@
   "kind": "html",
   "pages": [
    "regulacion/ai-act/index.html"
-  ]
- },
- {
-  "id": "e3c3809145",
-  "src": "Lo esencial en tres ideas",
-  "kind": "html",
-  "pages": [
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html"
   ]
  },
  {
@@ -10506,21 +11038,6 @@
   ]
  },
  {
-  "id": "af2e985885",
-  "src": "-40% 0px -55% 0px",
-  "kind": "js",
-  "pages": [
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html"
-  ]
- },
- {
   "id": "fe178ee7d9",
   "src": "Data Act: ficha completa del Reglamento europeo de Datos · Software in a Box",
   "kind": "html",
@@ -10782,14 +11299,6 @@
  {
   "id": "e280aee07e",
   "src": "Cláusulas abusivas (art. 13) aplicables también a determinados contratos de datos celebrados antes del 12-9-2025",
-  "kind": "html",
-  "pages": [
-   "regulacion/data-act/index.html"
-  ]
- },
- {
-  "id": "e57fdf1b19",
-  "src": "Contenido",
   "kind": "html",
   "pages": [
    "regulacion/data-act/index.html"

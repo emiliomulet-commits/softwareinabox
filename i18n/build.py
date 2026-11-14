@@ -534,6 +534,11 @@ def build_page(pg, lang, tr, missing):
     raw = re.sub(r'(<meta property="og:url" content=")[^"]*"', r"\g<1>" + url + '"', raw)
     raw = re.sub(r'(<meta property="og:locale" content=")[^"]*"', r"\g<1>" + CFG["locales"][lang] + '"', raw)
     raw = rewrite_links(raw, lang)
+    # descargas por idioma: /descargas/…_es.(pdf|jpg|png) -> _<lang> (fr-be -> fr, nl-be -> nl) si el archivo existe
+    def _dl(m):
+        cand = m.group(1) + "_" + lang.split("-")[0] + m.group(2)
+        return cand if os.path.exists(os.path.join(ROOT, cand.lstrip("/"))) else m.group(0)
+    raw = re.sub(r'(/descargas/[^"\'\s]*?)_es(\.(?:pdf|jpg|png))', _dl, raw)
     # fichas de /regulacion/: enlace JS al idioma si la ficha existe traducida; si no, queda la española
     # y la etiqueta conserva el "(en español)"; si existe, se le quita.
     def fic(m):

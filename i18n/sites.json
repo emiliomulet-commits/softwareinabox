@@ -58,6 +58,12 @@
           "priority": "0.9"
         },
         {
+          "file": "regulacion/informe-cada/index.html",
+          "path": "/regulacion/informe-cada/",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
           "file": "regulacion/ai-act/index.html",
           "path": "/regulacion/ai-act/",
           "tr_src": "i18n/src/regulacion-ai-act.html",
