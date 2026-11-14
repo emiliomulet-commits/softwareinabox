@@ -55,175 +55,480 @@
           "file": "productos/index.html",
           "path": "/productos/",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/products/",
+            "fr": "/produits/",
+            "de": "/produkte/",
+            "nl": "/producten/",
+            "pt": "/produtos/",
+            "it": "/prodotti/",
+            "da": "/produkter/",
+            "fr-be": "/produits/",
+            "nl-be": "/producten/"
+          }
         },
         {
           "file": "productos/cognitiv/index.html",
           "path": "/productos/cognitiv/",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/products/cognitiv/",
+            "fr": "/produits/cognitiv/",
+            "de": "/produkte/cognitiv/",
+            "nl": "/producten/cognitiv/",
+            "pt": "/produtos/cognitiv/",
+            "it": "/prodotti/cognitiv/",
+            "da": "/produkter/cognitiv/",
+            "fr-be": "/produits/cognitiv/",
+            "nl-be": "/producten/cognitiv/"
+          }
         },
         {
           "file": "productos/argos/index.html",
           "path": "/productos/argos/",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/products/argos/",
+            "fr": "/produits/argos/",
+            "de": "/produkte/argos/",
+            "nl": "/producten/argos/",
+            "pt": "/produtos/argos/",
+            "it": "/prodotti/argos/",
+            "da": "/produkter/argos/",
+            "fr-be": "/produits/argos/",
+            "nl-be": "/producten/argos/"
+          }
         },
         {
           "file": "productos/espacios-de-datos/index.html",
           "path": "/productos/espacios-de-datos/",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/products/data-spaces/",
+            "fr": "/produits/espaces-de-donnees/",
+            "de": "/produkte/datenraeume/",
+            "nl": "/producten/dataruimten/",
+            "pt": "/produtos/espacos-de-dados/",
+            "it": "/prodotti/spazi-di-dati/",
+            "da": "/produkter/datarum/",
+            "fr-be": "/produits/espaces-de-donnees/",
+            "nl-be": "/producten/dataruimten/"
+          }
         },
         {
           "file": "empresa/index.html",
           "path": "/empresa/",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/company/",
+            "fr": "/entreprise/",
+            "de": "/unternehmen/",
+            "nl": "/bedrijf/",
+            "it": "/azienda/",
+            "da": "/virksomhed/",
+            "fr-be": "/entreprise/",
+            "nl-be": "/bedrijf/"
+          }
         },
         {
           "file": "contacto/index.html",
           "path": "/contacto/",
           "changefreq": "yearly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/contact/",
+            "fr": "/contact/",
+            "de": "/kontakt/",
+            "nl": "/contact/",
+            "it": "/contatti/",
+            "da": "/kontakt/",
+            "fr-be": "/contact/",
+            "nl-be": "/contact/"
+          }
         },
         {
           "file": "mapa-del-sitio/index.html",
           "path": "/mapa-del-sitio/",
           "gen": "sitemap",
           "changefreq": "weekly",
-          "priority": "0.4"
+          "priority": "0.4",
+          "paths": {
+            "en": "/sitemap/",
+            "fr": "/plan-du-site/",
+            "de": "/sitemap/",
+            "nl": "/sitemap/",
+            "pt": "/mapa-do-site/",
+            "it": "/mappa-del-sito/",
+            "da": "/sitemap/",
+            "fr-be": "/plan-du-site/",
+            "nl-be": "/sitemap/"
+          }
         },
         {
           "file": "regulacion/index.html",
           "path": "/regulacion/",
           "changefreq": "weekly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/regulation/",
+            "fr": "/reglementation/",
+            "de": "/regulierung/",
+            "nl": "/regelgeving/",
+            "pt": "/regulamentacao/",
+            "it": "/normativa/",
+            "da": "/regulering/",
+            "fr-be": "/reglementation/",
+            "nl-be": "/regelgeving/"
+          }
         },
         {
           "file": "regulacion/informe-cada/index.html",
           "path": "/regulacion/informe-cada/",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/regulation/cada-report/",
+            "fr": "/reglementation/rapport-cada/",
+            "de": "/regulierung/cada-bericht/",
+            "nl": "/regelgeving/cada-rapport/",
+            "pt": "/regulamentacao/relatorio-cada/",
+            "it": "/normativa/rapporto-cada/",
+            "da": "/regulering/cada-rapport/",
+            "fr-be": "/reglementation/rapport-cada/",
+            "nl-be": "/regelgeving/cada-rapport/"
+          }
         },
         {
           "file": "regulacion/ai-act/index.html",
           "path": "/regulacion/ai-act/",
           "tr_src": "i18n/src/regulacion-ai-act.html",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/ai-act/",
+            "fr": "/reglementation/ai-act/",
+            "de": "/regulierung/ai-act/",
+            "nl": "/regelgeving/ai-act/",
+            "pt": "/regulamentacao/ai-act/",
+            "it": "/normativa/ai-act/",
+            "da": "/regulering/ai-act/",
+            "fr-be": "/reglementation/ai-act/",
+            "nl-be": "/regelgeving/ai-act/"
+          }
         },
         {
           "file": "regulacion/data-act/index.html",
           "path": "/regulacion/data-act/",
           "tr_src": "i18n/src/regulacion-data-act.html",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/data-act/",
+            "fr": "/reglementation/data-act/",
+            "de": "/regulierung/data-act/",
+            "nl": "/regelgeving/data-act/",
+            "pt": "/regulamentacao/data-act/",
+            "it": "/normativa/data-act/",
+            "da": "/regulering/data-act/",
+            "fr-be": "/reglementation/data-act/",
+            "nl-be": "/regelgeving/data-act/"
+          }
         },
         {
           "file": "regulacion/cra/index.html",
           "path": "/regulacion/cra/",
           "tr_src": "i18n/src/regulacion-cra.html",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/cra/",
+            "fr": "/reglementation/cra/",
+            "de": "/regulierung/cra/",
+            "nl": "/regelgeving/cra/",
+            "pt": "/regulamentacao/cra/",
+            "it": "/normativa/cra/",
+            "da": "/regulering/cra/",
+            "fr-be": "/reglementation/cra/",
+            "nl-be": "/regelgeving/cra/"
+          }
         },
         {
           "file": "regulacion/nis2/index.html",
           "path": "/regulacion/nis2/",
           "tr_src": "i18n/src/regulacion-nis2.html",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/nis2/",
+            "fr": "/reglementation/nis2/",
+            "de": "/regulierung/nis2/",
+            "nl": "/regelgeving/nis2/",
+            "pt": "/regulamentacao/nis2/",
+            "it": "/normativa/nis2/",
+            "da": "/regulering/nis2/",
+            "fr-be": "/reglementation/nis2/",
+            "nl-be": "/regelgeving/nis2/"
+          }
         },
         {
           "file": "regulacion/csa2-eucs/index.html",
           "tr_src": "i18n/src/regulacion-csa2-eucs.html",
           "path": "/regulacion/csa2-eucs/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/csa2-eucs/",
+            "fr": "/reglementation/csa2-eucs/",
+            "de": "/regulierung/csa2-eucs/",
+            "nl": "/regelgeving/csa2-eucs/",
+            "pt": "/regulamentacao/csa2-eucs/",
+            "it": "/normativa/csa2-eucs/",
+            "da": "/regulering/csa2-eucs/",
+            "fr-be": "/reglementation/csa2-eucs/",
+            "nl-be": "/regelgeving/csa2-eucs/"
+          }
         },
         {
           "file": "regulacion/dora/index.html",
           "path": "/regulacion/dora/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/dora/",
+            "fr": "/reglementation/dora/",
+            "de": "/regulierung/dora/",
+            "nl": "/regelgeving/dora/",
+            "pt": "/regulamentacao/dora/",
+            "it": "/normativa/dora/",
+            "da": "/regulering/dora/",
+            "fr-be": "/reglementation/dora/",
+            "nl-be": "/regelgeving/dora/"
+          }
         },
         {
           "file": "regulacion/dma-nube/index.html",
           "path": "/regulacion/dma-nube/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/dma-cloud/",
+            "fr": "/reglementation/dma-cloud/",
+            "de": "/regulierung/dma-cloud/",
+            "nl": "/regelgeving/dma-cloud/",
+            "pt": "/regulamentacao/dma-cloud/",
+            "it": "/normativa/dma-cloud/",
+            "da": "/regulering/dma-cloud/",
+            "fr-be": "/reglementation/dma-cloud/",
+            "nl-be": "/regelgeving/dma-cloud/"
+          }
         },
         {
           "file": "regulacion/ehds/index.html",
           "path": "/regulacion/ehds/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/ehds/",
+            "fr": "/reglementation/ehds/",
+            "de": "/regulierung/ehds/",
+            "nl": "/regelgeving/ehds/",
+            "pt": "/regulamentacao/ehds/",
+            "it": "/normativa/ehds/",
+            "da": "/regulering/ehds/",
+            "fr-be": "/reglementation/ehds/",
+            "nl-be": "/regelgeving/ehds/"
+          }
         },
         {
           "file": "regulacion/rgpd-omnibus/index.html",
           "path": "/regulacion/rgpd-omnibus/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/gdpr-omnibus/",
+            "fr": "/reglementation/rgpd-omnibus/",
+            "de": "/regulierung/dsgvo-omnibus/",
+            "nl": "/regelgeving/avg-omnibus/",
+            "pt": "/regulamentacao/rgpd-omnibus/",
+            "it": "/normativa/gdpr-omnibus/",
+            "da": "/regulering/gdpr-omnibus/",
+            "fr-be": "/reglementation/rgpd-omnibus/",
+            "nl-be": "/regelgeving/avg-omnibus/"
+          }
         },
         {
           "file": "regulacion/data-union/index.html",
           "path": "/regulacion/data-union/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/data-union/",
+            "fr": "/reglementation/data-union/",
+            "de": "/regulierung/data-union/",
+            "nl": "/regelgeving/data-union/",
+            "pt": "/regulamentacao/data-union/",
+            "it": "/normativa/data-union/",
+            "da": "/regulering/data-union/",
+            "fr-be": "/reglementation/data-union/",
+            "nl-be": "/regelgeving/data-union/"
+          }
         },
         {
           "file": "regulacion/chips-act/index.html",
           "path": "/regulacion/chips-act/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/chips-act/",
+            "fr": "/reglementation/chips-act/",
+            "de": "/regulierung/chips-act/",
+            "nl": "/regelgeving/chips-act/",
+            "pt": "/regulamentacao/chips-act/",
+            "it": "/normativa/chips-act/",
+            "da": "/regulering/chips-act/",
+            "fr-be": "/reglementation/chips-act/",
+            "nl-be": "/regelgeving/chips-act/"
+          }
         },
         {
           "file": "regulacion/ecodiseno-servidores/index.html",
           "path": "/regulacion/ecodiseno-servidores/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/server-ecodesign/",
+            "fr": "/reglementation/ecoconception-serveurs/",
+            "de": "/regulierung/oekodesign-server/",
+            "nl": "/regelgeving/ecodesign-servers/",
+            "pt": "/regulamentacao/ecodesign-servidores/",
+            "it": "/normativa/ecodesign-server/",
+            "da": "/regulering/ecodesign-servere/",
+            "fr-be": "/reglementation/ecoconception-serveurs/",
+            "nl-be": "/regelgeving/ecodesign-servers/"
+          }
         },
         {
           "file": "regulacion/raee/index.html",
           "path": "/regulacion/raee/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/weee/",
+            "fr": "/reglementation/deee/",
+            "de": "/regulierung/elektroaltgeraete/",
+            "nl": "/regelgeving/aeea/",
+            "pt": "/regulamentacao/reee/",
+            "it": "/normativa/raee/",
+            "da": "/regulering/weee/",
+            "fr-be": "/reglementation/deee/",
+            "nl-be": "/regelgeving/aeea/"
+          }
         },
         {
           "file": "regulacion/factura-electronica/index.html",
           "path": "/regulacion/factura-electronica/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/e-invoicing/",
+            "fr": "/reglementation/facturation-electronique/",
+            "de": "/regulierung/e-rechnung/",
+            "nl": "/regelgeving/e-facturatie/",
+            "pt": "/regulamentacao/faturacao-eletronica/",
+            "it": "/normativa/fatturazione-elettronica/",
+            "da": "/regulering/e-faktura/",
+            "fr-be": "/reglementation/facturation-electronique/",
+            "nl-be": "/regelgeving/e-facturatie/"
+          }
         },
         {
           "file": "regulacion/ens/index.html",
           "path": "/regulacion/ens/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/ens/",
+            "fr": "/reglementation/ens/",
+            "de": "/regulierung/ens/",
+            "nl": "/regelgeving/ens/",
+            "pt": "/regulamentacao/ens/",
+            "it": "/normativa/ens/",
+            "da": "/regulering/ens/",
+            "fr-be": "/reglementation/ens/",
+            "nl-be": "/regelgeving/ens/"
+          }
         },
         {
           "file": "regulacion/ley-gobernanza-ia/index.html",
           "path": "/regulacion/ley-gobernanza-ia/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/ai-governance-law/",
+            "fr": "/reglementation/loi-gouvernance-ia/",
+            "de": "/regulierung/ki-governance-gesetz/",
+            "nl": "/regelgeving/ai-governancewet/",
+            "pt": "/regulamentacao/lei-governacao-ia/",
+            "it": "/normativa/legge-governance-ia/",
+            "da": "/regulering/ai-styringslov/",
+            "fr-be": "/reglementation/loi-gouvernance-ia/",
+            "nl-be": "/regelgeving/ai-governancewet/"
+          }
         },
         {
           "file": "regulacion/rd-centros-datos/index.html",
           "path": "/regulacion/rd-centros-datos/",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/regulation/data-centre-decree/",
+            "fr": "/reglementation/decret-centres-donnees/",
+            "de": "/regulierung/rechenzentren-dekret/",
+            "nl": "/regelgeving/datacenterdecreet/",
+            "pt": "/regulamentacao/decreto-centros-dados/",
+            "it": "/normativa/decreto-data-center/",
+            "da": "/regulering/datacenter-dekret/",
+            "fr-be": "/reglementation/decret-centres-donnees/",
+            "nl-be": "/regelgeving/datacenterdecreet/"
+          }
         },
         {
           "file": "aviso-legal.html",
           "path": "/aviso-legal.html",
           "changefreq": "yearly",
-          "priority": "0.2"
+          "priority": "0.2",
+          "paths": {
+            "en": "/legal-notice.html",
+            "fr": "/mentions-legales.html",
+            "de": "/impressum.html",
+            "nl": "/juridische-kennisgeving.html",
+            "it": "/note-legali.html",
+            "da": "/juridisk-meddelelse.html",
+            "fr-be": "/mentions-legales.html",
+            "nl-be": "/juridische-kennisgeving.html"
+          }
         },
         {
           "file": "privacidad.html",
           "path": "/privacidad.html",
           "changefreq": "yearly",
-          "priority": "0.2"
+          "priority": "0.2",
+          "paths": {
+            "en": "/privacy.html",
+            "fr": "/confidentialite.html",
+            "de": "/datenschutz.html",
+            "nl": "/privacy.html",
+            "pt": "/privacidade.html",
+            "it": "/privacy.html",
+            "da": "/privatliv.html",
+            "fr-be": "/confidentialite.html",
+            "nl-be": "/privacy.html"
+          }
         },
         {
           "file": "cookies.html",

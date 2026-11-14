@@ -167,11 +167,17 @@ def inject(raw, pg, lang, tr):
             c = "<!--SX:CR-->" + c + "<!--/SX:CR-->"
             raw = raw.replace("<!--SX:CRUMBS-->", c, 1) if "<!--SX:CRUMBS-->" in raw else raw.replace("</header>", "</header>\n" + c, 1)
     raw = raw.replace("</head>", f'<link rel="stylesheet" href="/assets/nav.css?v={v}">\n</head>', 1)
+    # imagen social propia de la página (i18n/og_pages.py), si existe
+    k = pg["path"].strip("/").replace(".html", "").replace("/", "-")
+    base = {"fr-be": "fr", "nl-be": "nl"}.get(lang, lang)
+    if k and os.path.exists(os.path.join(ROOT, "assets", "og", f"{k}_{base}.jpg")):
+        img = f"https://www.softwareinabox.eu/assets/og/{k}_{base}.jpg"
+        raw = re.sub(r'(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*"', lambda m: m.group(1) + img + '"', raw)
     k = raw.rfind("</body>")
     raw = raw[:k] + top_button(lang, tr) + f'\n<script src="/assets/nav.js?v={v}" defer></script>\n' + raw[k:]
     # los scripts propios de cada página ya no gobiernan el menú (lo hace nav.js)
-    raw = raw.replace("document.querySelector(\".burger\")", "document.querySelector(\".sx-none\")")
-    raw = raw.replace("document.querySelector('.burger')", "document.querySelector('.sx-none')")
+    raw = re.sub(r"document\.querySelector\(([\"'])\.(?:burger|sx-none)\1\),n=document\.getElementById\(([\"'])nav\2\)",
+                 'document.createElement("button"),n=document.createElement("nav")', raw)
     # anclas antiguas de la portada que ya no existen
     raw = raw.replace('href="/#principio"', 'href="' + U("/empresa/", lang) + '#como"')
     return raw
@@ -270,6 +276,10 @@ def postpass(langs):
                 f = out_file(pg, lang)
                 os.makedirs(os.path.dirname(f), exist_ok=True)
                 open(f, "w", encoding="utf-8").write(sitemap_page(pg, lang, tr, labels))
+                if lang != B.SRC and B.lfile(pg, lang) != pg["file"]:  # ruta antigua -> nueva
+                    old = os.path.join(ROOT, lang, pg["file"])
+                    os.makedirs(os.path.dirname(old), exist_ok=True)
+                    open(old, "w", encoding="utf-8").write(B.redirect_stub(B.SITE["base"] + B.lpath(pg, lang)))
     open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(page_404(langs))
     if MISSING:
         print("nav: textos sin traducir:", sorted(MISSING)[:20], "…" if len(MISSING) > 20 else "")

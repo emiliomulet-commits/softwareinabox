@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-seo="auto">AI Act em Portugal: obrigações, riscos e casos</title>
+<meta name="description" data-seo="auto" content="Guia do AI Act para empresas em Portugal: ANACOM anunciada sem diploma, CNPD, Código do Trabalho e algoritmos, obrigações por elo (fabricante, grossista…">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/pt/regulamentacao/ai-act/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:title" content="AI Act em Portugal: obrigações, riscos, casos reais e desafios para toda a cadeia de valor">
+<meta property="og:description" content="Guia do AI Act para empresas em Portugal: ANACOM anunciada sem diploma, CNPD, Código do Trabalho e algoritmos, obrigações por elo (fabricante, grossista, integrador, cliente final), riscos, casos reais (Worldcoin, Censos 2021) e roteiro.">
+<meta property="og:url" content="https://www.softwareinabox.eu/pt/regulamentacao/ai-act/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og/regulacion-ai-act_pt.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://www.softwareinabox.eu/pt/regulamentacao/ai-act/#article", "url": "https://www.softwareinabox.eu/pt/regulamentacao/ai-act/", "headline": "AI Act em Portugal: obrigações, riscos, casos reais e desafios para toda a cadeia de valor", "description": "Guia do AI Act para empresas em Portugal: ANACOM anunciada sem diploma, CNPD, Código do Trabalho e algoritmos, obrigações por elo (fabricante, grossista, integrador, cliente final), riscos, casos reais (Worldcoin, Censos 2021) e roteiro.", "inLanguage": "pt", "dateModified": "2026-11-14", "isPartOf": {"@id": "https://www.softwareinabox.eu/#website"}, "publisher": {"@id": "https://www.softwareinabox.eu/#organization"}, "author": {"@id": "https://www.softwareinabox.eu/#organization"}, "about": {"@type": "Legislation", "name": "Regulamento (UE) 2024/1689 sobre Inteligência Artificial", "legislationIdentifier": "Reglamento (UE) 2024/1689", "legislationJurisdiction": "UE"}, "spatialCoverage": {"@type": "Country", "name": "Portugal"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Software in a Box", "item": "https://www.softwareinabox.eu/pt/"}, {"@type": "ListItem", "position": 2, "name": "Regulamentação UE", "item": "https://www.softwareinabox.eu/pt/regulamentacao/"}, {"@type": "ListItem", "position": 3, "name": "AI Act em Portugal", "item": "https://www.softwareinabox.eu/pt/regulamentacao/ai-act/"}]}, {"@type": "FAQPage", "@id": "https://www.softwareinabox.eu/pt/regulamentacao/ai-act/#faq", "mainEntity": [{"@type": "Question", "name": "O AI Act aplica-se em Portugal sem lei portuguesa?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. É um regulamento europeu, diretamente aplicável. O diploma nacional deve designar as autoridades e fixar o regime sancionatório; enquanto não existir, as obrigações continuam exigíveis e a CNPD pode atuar sobre os mesmos sistemas pela via do RGPD."}}, {"@type": "Question", "name": "Quem vai fiscalizar a IA em Portugal?", "acceptedAnswer": {"@type": "Answer", "text": "O Governo anunciou a ANACOM como autoridade de fiscalização do mercado e ponto de contacto único. A CNPD mantém as competências sobre dados pessoais. Falta o diploma que formaliza a designação."}}, {"@type": "Question", "name": "O meu chatbot tem de avisar que é uma IA?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, desde 2-8-2026 (art. 50.º, n.º 1), o mais tardar na primeira interação, salvo se for evidente pelo contexto."}}, {"@type": "Question", "name": "Uso IA para recrutar ou avaliar trabalhadores. O que tenho de fazer já?", "acceptedAnswer": {"@type": "Answer", "text": "Informar por escrito os parâmetros, critérios e regras dos algoritmos (art. 106.º do Código do Trabalho), informar as estruturas representativas, fazer uma AIPD e garantir supervisão humana real. As obrigações de risco elevado do AI Act (emprego) somam-se a 2-12-2027."}}, {"@type": "Question", "name": "Se revendo uma solução de IA com a minha marca, sou prestador?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, num sistema de risco elevado: pôr o seu nome ou marca, modificá-lo substancialmente ou mudar a finalidade faz de si prestador (art. 25.º). Nos restantes casos, verifique as obrigações de transparência do art. 50.º."}}, {"@type": "Question", "name": "Quando se aplicam as obrigações de risco elevado?", "acceptedAnswer": {"@type": "Answer", "text": "Após o Omnibus digital sobre IA (Regulamento (UE) 2026/1744): a 2-12-2027 para o anexo III (emprego, crédito, educação, biometria, serviços essenciais…) e a 2-8-2028 para a IA integrada em produtos regulados do anexo I."}}]}]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
+/* landings de país */
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.flag{display:inline-flex;align-items:center;gap:8px;font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.5);border-radius:999px;padding:5px 12px}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:8px 0 34px}
+.flow>div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 14px;position:relative;font-size:14.5px}
+.flow>div b{display:block;font:800 14px var(--disp);color:var(--ink);margin-bottom:6px}
+.flow>div:not(:last-child):after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--gold-d);font-weight:800;z-index:2}
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:10px}
+.case .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.case h4{margin:0}
+.case dl{margin:0;font-size:15px}.case dt{font:700 12.5px var(--disp);color:var(--gold-d);text-transform:uppercase;letter-spacing:.06em;margin-top:8px}.case dd{margin:2px 0 0}
+.case .src-l{font-size:13.5px;margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}.case .src-l a{color:var(--ink);font-weight:600}
+.scen{border:1.5px dashed var(--gold);background:var(--gold-t)}
+.scen .meta .sl{background:var(--gold);color:var(--ink);padding:3px 9px;border-radius:6px;letter-spacing:.04em}
+.risk td:nth-child(3),.risk td:nth-child(4){white-space:nowrap}
+.lvl{display:inline-block;font:700 12px var(--disp);padding:3px 10px;border-radius:999px}
+.lvl.h{background:#FCEFEA;color:#A3201A}.lvl.m{background:#FDF6E6;color:var(--warn)}.lvl.b{background:#EEF8F2;color:var(--ok)}
+.faq{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:10px}
+.faq summary{cursor:pointer;padding:18px 22px;font:700 16.5px var(--disp);color:var(--ink);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--gold-d);font-weight:800}
+.faq[open] summary:after{content:"–"}
+.faq>div{padding:0 22px 18px;font-size:16px}
+.ctaband{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:40px;color:#C9D3E0;display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.ctaband h3{color:#fff;margin:0 0 8px}.ctaband p{margin:0;max-width:40em}
+.split{font:700 12.5px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.12em;margin:40px 0 16px}
+@media(max-width:1100px){.flow{grid-template-columns:repeat(3,1fr)}.flow>div:nth-child(3):after{display:none}}
+@media(max-width:680px){.flow{grid-template-columns:1fr}.flow>div:after{display:none}.ctaband{padding:26px}}
+</style>
+<link rel="stylesheet" href="/assets/nav.css?v=30ca4ad7">
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es-ES" href="https://www.softwareinabox.eu/regulacion/ai-act/">
+<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulation/ai-act/">
+<link rel="alternate" hreflang="fr-FR" href="https://www.softwareinabox.eu/fr/reglementation/ai-act/">
+<link rel="alternate" hreflang="de-DE" href="https://www.softwareinabox.eu/de/regulierung/ai-act/">
+<link rel="alternate" hreflang="nl-NL" href="https://www.softwareinabox.eu/nl/regelgeving/ai-act/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.softwareinabox.eu/pt/regulamentacao/ai-act/">
+<link rel="alternate" hreflang="it-IT" href="https://www.softwareinabox.eu/it/normativa/ai-act/">
+<link rel="alternate" hreflang="da-DK" href="https://www.softwareinabox.eu/da/regulering/ai-act/">
+<link rel="alternate" hreflang="fr-BE" href="https://www.softwareinabox.eu/fr-be/reglementation/ai-act/">
+<link rel="alternate" hreflang="nl-BE" href="https://www.softwareinabox.eu/nl-be/regelgeving/ai-act/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulation/ai-act/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar para o conteúdo</a>
+
+<header class="sx-hd" data-nav>
+  <div class="sx-wrap">
+    <a class="sx-logo" href="/pt/" aria-label="Software in a Box, início"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg><span>Software in a Box</span></a>
+    <button class="sx-burger" type="button" aria-expanded="false" aria-controls="sx-nav">Menu</button>
+    <nav class="sx-nav" id="sx-nav" aria-label="Menu principal"><a href="/pt/">Início</a><div class="sx-dd"><a href="/pt/produtos/">Produtos</a><button type="button" aria-expanded="false" aria-label="Expandir: Produtos"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/pt/produtos/cognitiv/">COGNITIV<small>IA soberana no seu servidor</small></a><a href="/pt/produtos/argos/">ARGOS<small>Testes de conformidade verificáveis</small></a><a href="/pt/produtos/espacos-de-dados/">Espaços de dados<small>Partilhar dados sem os mover</small></a><hr><a href="/pt/produtos/">Todos os produtos</a></div></div><div class="sx-dd"><a href="/pt/regulamentacao/" aria-current="page">Regulamentação UE</a><button type="button" aria-expanded="false" aria-label="Expandir: Regulamentação UE"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/pt/regulamentacao/">Índice e radar</a><a href="/pt/regulamentacao/#calendario">Calendário</a><a href="/pt/regulamentacao/relatorio-cada/">Relatório CADA</a><hr><a href="/pt/mapa-do-site/#normas">Todas as normas (A–Z)</a></div></div><div class="sx-dd"><a href="/pt/empresa/">Empresa</a><button type="button" aria-expanded="false" aria-label="Expandir: Empresa"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/pt/empresa/#como">Como trabalhamos</a><a href="/pt/empresa/#experiencia">Experiência</a><a href="/pt/empresa/#sectores">Setores</a></div></div><a class="sx-cta" href="/pt/contacto/">Contacto</a></nav>
+  <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>PT</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/ai-act/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulation/ai-act/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/reglementation/ai-act/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulierung/ai-act/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regelgeving/ai-act/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulamentacao/ai-act/" hreflang="pt" lang="pt" aria-current="true">Português</a></li><li><a href="https://www.softwareinabox.eu/it/normativa/ai-act/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulering/ai-act/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/reglementation/ai-act/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regelgeving/ai-act/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Secções da página"><div class="wrap">
+  <a href="#resumen">Resumo</a><a href="#espana">Portugal</a><a href="#paises">Outros países</a><a href="#obligaciones">Obrigações</a><a href="#cadena">Cadeia de valor</a><a href="#riesgos">Riscos</a><a href="#casos">Casos</a><a href="#calendario">Calendário</a><a href="#riesgo">Fundamentos</a><a href="#oportunidades">Oportunidades</a><a href="#hacer">O que fazer</a><a href="#faq">Perguntas</a><a href="#fuentes">Fontes</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Percurso"><a href="/pt/">Início</a> › <a href="/pt/regulamentacao/">Regulação UE</a> › AI Act em Portugal</nav>
+    <div class="eyebrow">Inteligência artificial · Portugal</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="flag">Portugal</span><span class="badge b-gra">Aplicação gradual</span><span class="layer l-cog">COGNITIV</span><span class="layer l-arg">ARGOS</span></div>
+        <h1>AI Act em Portugal: o que já se exige, e a quem</h1>
+        <p class="lead">O regulamento europeu da IA aplica-se diretamente em Portugal. O Governo anunciou a <b>ANACOM</b> como autoridade de fiscalização do mercado e ponto de contacto único, mas a designação <b>não tem diploma publicado</b> e não há regime sancionatório nacional. Entretanto, o risco vem da <b>CNPD</b> e do <b>Código do Trabalho</b>, que desde 2023 obriga a informar os trabalhadores sobre os algoritmos que decidem sobre eles.</p>
+        <div class="callout">O risco elevado chega a 2-12-2027, mas a transparência do art. 50.º, a literacia em IA e as práticas proibidas já se aplicam. E em Portugal a informação aos trabalhadores sobre algoritmos já é obrigatória.</div>
+        <div class="hero-cta"><a class="btn btn-gold" href="/pt/regulamentacao/#contacto">Falemos do seu caso</a><a class="btn btn-line" href="/pt/regulamentacao/#diagnostico">Autodiagnóstico</a></div>
+      </div>
+      <div class="facts">
+        <h4>Ficha Portugal</h4>
+        <dl class="kv">
+          <dt>Norma</dt><dd>Regulamento (UE) 2024/1689, alterado pelo Regulamento (UE) 2026/1744 (Omnibus digital sobre IA)</dd>
+          <dt>Autoridade anunciada</dt><dd>ANACOM (fiscalização do mercado e ponto de contacto único, anunciada a 19-9-2025)</dd>
+          <dt>Base legal</dt><dd>Designação sem diploma publicado; regime sancionatório e sandbox pendentes</dd>
+          <dt>Dados</dt><dd>CNPD (RGPD e Lei 58/2019)</dd>
+          <dt>Direitos fundamentais</dt><dd>Lista de 14 entidades do art. 77.º publicada</dd>
+          <dt>Trabalho</dt><dd>Informação sobre algoritmos e IA (art. 106.º, n.º 3, alínea s), do Código do Trabalho, Lei 13/2023)</dd>
+          <dt>Estratégia</dt><dd>Agenda Nacional de IA (RCM 2/2026)</dd>
+          <dt>Coimas do regulamento</dt><dd>35 M€ ou 7 % · 15 M€ ou 3 % · 7,5 M€ ou 1 %</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">O essencial para uma empresa em Portugal</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>Aplica-se sem lei portuguesa</h4><p>As obrigações são diretamente aplicáveis. Falta o diploma que designa as autoridades e fixa o regime sancionatório. A CNPD já pode atuar sobre os mesmos sistemas pela via do RGPD.</p><div class="mini">Art. 288.º TFUE · art. 99.º do regulamento</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>Várias frentes ao mesmo tempo</h4><p>Um sistema de IA responde em Portugal ao AI Act, ao RGPD e à Lei 58/2019, e ao Código do Trabalho, que já exige transparência algorítmica perante cada trabalhador.</p><div class="mini">ANACOM · CNPD · ACT · tribunais</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Toda a cadeia responde</h4><p>Cada elo precisa da documentação do anterior. Pôr a própria marca, mudar a finalidade ou modificar substancialmente um sistema faz de si <b>o prestador</b>, com todas as obrigações.</p><div class="mini">Art. 25.º e 26.º</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Situação nacional · novembro de 2026</div><h2>O que muda em Portugal face ao resto da UE</h2>
+    <p class="lead">Portugal transpôs a NIS2 e concentra o digital na ANACOM, mas a IA continua sem diploma de execução.</p></div>
+    <div class="grid3">
+      <div class="card"><h4>ANACOM sem diploma</h4><p>A ANACOM foi anunciada como autoridade de fiscalização do mercado e ponto de contacto único, e já consultou o mercado sobre recomendações relativas às práticas proibidas. A designação formal, o regime sancionatório e o sandbox continuam pendentes.</p></div>
+      <div class="card"><h4>14 entidades de direitos fundamentais</h4><p>Portugal publicou a lista de autoridades públicas que supervisionam direitos fundamentais (art. 77.º) e que poderão pedir documentação sobre sistemas de risco elevado.</p></div>
+      <div class="card"><h4>Algoritmos no contrato de trabalho</h4><p>Desde a Agenda do Trabalho Digno (Lei 13/2023, em vigor desde 1-5-2023), o empregador deve informar os parâmetros, critérios, regras e instruções dos algoritmos e sistemas de IA que afetam o acesso e a manutenção do emprego e as condições de trabalho. A violação é contraordenação grave.</p></div>
+      <div class="card"><h4>Biometria no trabalho, limitada</h4><p>A Lei 58/2019 só admite dados biométricos de trabalhadores para controlo de assiduidade e de acesso às instalações (art. 28.º, n.º 6). Qualquer outro uso biométrico laboral fica fora.</p></div>
+      <div class="card"><h4>CNPD ativa</h4><p>A CNPD suspendeu a recolha de íris da Worldcoin em 2024 e aplicou ao INE a maior coima de sempre em Portugal por transferências de dados dos Censos 2021 para fora da UE.</p></div>
+      <div class="card"><h4>Agenda Nacional de IA</h4><p>A RCM 2/2026 define a estratégia nacional. Para quem vende à Administração, conte com exigências de transparência e soberania dos dados nos procedimentos de contratação.</p></div>
+    </div>
+    <p class="note">Comparação com Espanha, Bélgica, Países Baixos, Alemanha, França, Itália e Dinamarca abaixo. Alemanha, Itália e Dinamarca já têm lei nacional de execução.</p>
+  </div>
+</section>
+
+<section class="sec" id="paises">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Em cada país</div><h2>Autoridades e sanções nos oito mercados-chave</h2></div>
+    <div class="tbl"><table><caption class="sr">Aplicação nacional do AI Act por país</caption>
+      <thead><tr><th style="width:130px">País</th><th>Lei e autoridade</th><th>O que muda</th><th style="width:120px">Situação</th></tr></thead><tbody>
+      <tr><td><b>Espanha</b></td><td>Agência própria, a <b>AESIA</b> (2023); o projeto de lei orgânica caducou com a dissolução das Cortes (6-10-2026).</td><td>Sem regime sancionatório nacional até ser aprovada uma nova lei.</td><td><span class="badge b-esp">Pendente</span></td></tr>
+      <tr><td><b>Portugal</b></td><td><b>ANACOM</b> anunciada como autoridade de fiscalização do mercado e ponto de contacto único, sem diploma de designação.</td><td>Regime sancionatório e ambientes de testagem ainda pendentes.</td><td><span class="badge b-esp">Pendente</span></td></tr>
+      <tr><td><b>Bélgica</b></td><td><b>IBPT</b> anunciado como autoridade principal, sem lei.</td><td>Coordenação do SPF Economia.</td><td><span class="badge b-esp">Pendente</span></td></tr>
+      <tr><td><b>Países Baixos</b></td><td>Anteprojeto de lei de execução (<b>Uvai</b>) em consulta desde 20-4-2026.</td><td>Dez autoridades de fiscalização; coordenadas pela AP (proteção de dados) e pela RDI.</td><td><span class="badge b-gra">Em curso</span></td></tr>
+      <tr><td><b>Alemanha</b></td><td><b>KI-MIG</b>, em vigor desde 29-7-2026; autoridade central: BNetzA.</td><td>Câmara de fiscalização independente para certos sistemas de risco elevado, serviço de apoio às PME e ambiente de testagem; os recursos vão para o tribunal local (Amtsgericht).</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>França</b></td><td>Projeto de lei <b>DDADUE</b>, aprovado pelo Senado e pendente na Assembleia Nacional.</td><td>Repartição de competências ainda em discussão entre a DGCCRF e a CNIL.</td><td><span class="badge b-gra">Em curso</span></td></tr>
+      <tr><td><b>Itália</b></td><td><b>Lei 132/2025</b> e <b>Decreto Legislativo 179/2026</b>; autoridades: ACN e AgID.</td><td>Primeira lei nacional de IA: formação obrigatória em IA, crime de deepfake e regras próprias no trabalho, na saúde e na Administração; coimas até 35 M€.</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>Dinamarca</b></td><td><b>Lei 467/2025</b>, em vigor desde 2-8-2025; autoridade: Digitaliseringsstyrelsen.</td><td>Primeira lei de execução do AI Act na UE; as sanções são aplicadas pelos tribunais.</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+    </tbody></table></div>
+    <div class="callout">O AI Act é o mesmo em toda a UE, mas quem fiscaliza e como se sanciona muda de país para país. A Itália acrescenta obrigações próprias que afetam qualquer fornecedor ou responsável pela implantação que lá opere.</div>
+    <p class="dl">Situação a 14-11-2026. Espanha, Portugal, Bélgica, Países Baixos, Alemanha, França, Itália e Dinamarca.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="obligaciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Obrigações específicas</div><h2>O que cada elo deve fazer, e a partir de quando</h2>
+    <p class="lead">Obrigações do regulamento por papel, com a data de aplicação após o Omnibus e a prova que clientes, auditores ou autoridades vão pedir. As obrigações nacionais adicionais estão assinaladas.</p></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="oF" role="tab" aria-selected="true">Fabricante ou desenvolvedor</button>
+      <button class="tab" data-p="oM" role="tab" aria-selected="false">Grossista, importador, distribuidor</button>
+      <button class="tab" data-p="oI" role="tab" aria-selected="false">Integrador</button>
+      <button class="tab" data-p="oC" role="tab" aria-selected="false">Cliente final</button>
+      <button class="tab" data-p="oA" role="tab" aria-selected="false">Administração Pública</button>
+    </div>
+    <div class="tabpane on" id="oF" role="tabpanel"><div class="tbl"><table><caption class="sr">Obrigações do prestador</caption>
+      <thead><tr><th>Obrigação</th><th style="width:120px">Base</th><th style="width:130px">Desde</th><th>Prova pedida</th></tr></thead><tbody>
+      <tr><td>Medidas para promover a literacia no domínio da IA do pessoal (redação atenuada pelo Omnibus: nenhum nível a garantir)</td><td>Art. 4.º</td><td>2-2-2025</td><td>Plano de formação por perfil e registo de presenças</td></tr>
+      <tr><td>Não colocar no mercado práticas proibidas; novas proibições (imagens íntimas não consentidas, material de abuso sexual de crianças)</td><td>Art. 5.º</td><td>2-2-2025 · 2-12-2026</td><td>Análise documentada dos usos previstos e das utilizações indevidas previsíveis</td></tr>
+      <tr><td>Conceber o sistema para avisar que se está a interagir com uma IA</td><td>Art. 50.º, n.º 1</td><td>2-8-2026</td><td>Capturas do aviso e opções de conceção</td></tr>
+      <tr><td>Marcar o conteúdo sintético num formato legível por máquina</td><td>Art. 50.º, n.º 2</td><td>2-8-2026 (2-12-2026 se já no mercado)</td><td>Técnica de marcação, testes de deteção</td></tr>
+      <tr><td>Sistemas de risco elevado do anexo III: gestão de riscos, governação de dados, documentação técnica, registos, instruções, supervisão humana, exatidão e cibersegurança</td><td>Art. 9.º–15.º</td><td>2-12-2027</td><td>Processo técnico completo</td></tr>
+      <tr><td>Sistema de gestão da qualidade, avaliação da conformidade, declaração UE, marcação CE e registo na base de dados da UE</td><td>Art. 16.º, 17.º, 43.º, 47.º–49.º</td><td>2-12-2027</td><td>Certificado ou autoavaliação, declaração UE, número de registo</td></tr>
+      <tr><td>IA integrada em produtos regulados (máquinas, dispositivos médicos, brinquedos, ascensores), na avaliação do produto</td><td>Art. 6.º, n.º 1 · anexo I</td><td>2-8-2028</td><td>Avaliação conjunta com o organismo notificado do produto</td></tr>
+      <tr><td>Acompanhamento pós-comercialização e notificação de incidentes graves</td><td>Art. 72.º–73.º</td><td>2-12-2027</td><td>Plano de acompanhamento e procedimento de notificação</td></tr>
+      <tr><td>Acordo escrito com os fornecedores de componentes e modelos integrados num sistema de risco elevado</td><td>Art. 25.º, n.º 4</td><td>2-12-2027</td><td>Contratos com cláusulas de informação e assistência</td></tr>
+      
+    </tbody></table></div>
+    <div class="callout">Se o seu produto usa um modelo de IA de finalidade geral de terceiros, o prestador do modelo tem de lhe fornecer a informação e a documentação necessárias (art. 53.º). Exija-as por contrato.</div></div>
+
+    <div class="tabpane" id="oM" role="tabpanel"><div class="tbl"><table><caption class="sr">Obrigações do importador e do distribuidor</caption>
+      <thead><tr><th>Obrigação</th><th style="width:120px">Base</th><th style="width:130px">Desde</th><th>Prova</th></tr></thead><tbody>
+      <tr><td><b>Importador</b> de um sistema de risco elevado de fora da UE: verificar avaliação da conformidade, documentação técnica, marcação CE, declaração UE e mandatário; indicar nome e morada; conservar a documentação 10 anos</td><td>Art. 23.º</td><td>2-12-2027</td><td>Lista de verificação por referência e arquivo</td></tr>
+      <tr><td><b>Distribuidor</b>: verificar marcação CE, declaração UE e instruções; não vender em caso de dúvida; avisar o prestador ou o importador; cuidar do armazenamento e transporte</td><td>Art. 24.º</td><td>2-12-2027</td><td>Procedimento de referenciação e bloqueio</td></tr>
+      <tr><td>Quem comercializa com <b>marca própria</b> ou modifica substancialmente um sistema de risco elevado passa a ser prestador</td><td>Art. 25.º, n.º 1</td><td>2-12-2027</td><td>Análise de papel por referência do catálogo</td></tr>
+      <tr><td>Assistentes e chatbots usados com clientes e revendedores: aviso de IA</td><td>Art. 50.º</td><td>2-8-2026</td><td>Capturas e política de utilização</td></tr>
+      <tr><td>Literacia em IA das equipas comerciais, de pré-venda e de suporte</td><td>Art. 4.º</td><td>2-2-2025</td><td>Plano de formação</td></tr>
+    </tbody></table></div>
+    <div class="callout">O grossista não responde pela conceção, mas responde por vender sem marcação nem documentação. O canal que verifica antes de referenciar evita bloqueios e devoluções em 2027.</div></div>
+
+    <div class="tabpane" id="oI" role="tabpanel"><div class="tbl"><table><caption class="sr">Obrigações do integrador</caption>
+      <thead><tr><th>Obrigação</th><th style="width:120px">Base</th><th style="width:130px">Desde</th><th>Prova</th></tr></thead><tbody>
+      <tr><td>Determinar, projeto a projeto, se atua como prestador, como responsável pela implantação ou como mero prestador de serviços</td><td>Art. 3.º e 25.º</td><td>Já</td><td>Ficha de papel na proposta e no contrato</td></tr>
+      <tr><td>Alterar a finalidade para um uso de risco elevado, ou modificar substancialmente o sistema, implica as obrigações do prestador</td><td>Art. 25.º, n.º 1, b) e c)</td><td>2-12-2027</td><td>Processo técnico próprio</td></tr>
+      <tr><td>Aviso de interação com IA nos chatbots e assistentes entregues</td><td>Art. 50.º, n.º 1</td><td>2-8-2026</td><td>Testes de aceitação com o aviso</td></tr>
+      <tr><td>Repartição de obrigações e acesso à documentação com o prestador do modelo e com o cliente</td><td>Art. 25.º, n.º 4</td><td>2-12-2027</td><td>Cláusulas contratuais</td></tr>
+      <tr><td>Projetos de RH: preparar a informação aos trabalhadores e a avaliação de impacto sobre a proteção de dados (AIPD)</td><td>Art. 35.º RGPD · direito nacional</td><td>Já</td><td>Modelo de informação e AIPD</td></tr>
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oC" role="tabpanel"><div class="tbl"><table><caption class="sr">Obrigações do responsável pela implantação</caption>
+      <thead><tr><th>Obrigação</th><th style="width:120px">Base</th><th style="width:130px">Desde</th><th>Prova</th></tr></thead><tbody>
+      <tr><td>Medidas de literacia em IA do pessoal que utiliza os sistemas</td><td>Art. 4.º</td><td>2-2-2025</td><td>Plano de formação</td></tr>
+      <tr><td>Informar as pessoas expostas a reconhecimento de emoções ou categorização biométrica</td><td>Art. 50.º, n.º 3</td><td>2-8-2026</td><td>Avisos e registo</td></tr>
+      <tr><td>Divulgar as falsificações profundas e os textos gerados publicados para informar o público</td><td>Art. 50.º, n.º 4</td><td>2-8-2026</td><td>Política editorial e rótulos</td></tr>
+      <tr><td>Risco elevado: utilizar segundo as instruções, supervisão humana competente, dados de entrada pertinentes, conservar registos pelo menos seis meses, monitorizar o funcionamento</td><td>Art. 26.º</td><td>2-12-2027</td><td>Procedimento de utilização e registos</td></tr>
+      <tr><td>Informar os trabalhadores e os seus representantes antes de usar um sistema de risco elevado no trabalho; informar as pessoas afetadas por decisões</td><td>Art. 26.º, n.os 7 e 11</td><td>2-12-2027</td><td>Comunicações datadas</td></tr>
+      <tr><td>Avaliação de impacto sobre os direitos fundamentais: entidades privadas que prestam serviços públicos, avaliação de solvabilidade, seguros de vida e de saúde</td><td>Art. 27.º</td><td>2-12-2027</td><td>Relatório de avaliação notificado</td></tr>
+      <tr><td>AIPD prévia para biometria e decisões automatizadas; supervisão humana real (não apenas validar a pontuação)</td><td>Art. 22.º e 35.º RGPD</td><td>Já</td><td>AIPD, análise de necessidade e proporcionalidade</td></tr>
+      <tr><td><b>Portugal:</b> informar por escrito os parâmetros, critérios, regras e instruções dos algoritmos e sistemas de IA que afetam o emprego e as condições de trabalho</td><td>Art. 106.º, n.º 3, s) CT</td><td>Já</td><td>Documento de informação ao trabalhador</td></tr>
+      <tr><td><b>Portugal:</b> dados biométricos de trabalhadores só para assiduidade e controlo de acessos</td><td>Art. 28.º, n.º 6, Lei 58/2019</td><td>Já</td><td>AIPD e limitação da finalidade</td></tr>
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oA" role="tabpanel"><div class="tbl"><table><caption class="sr">Administração Pública e os seus fornecedores</caption>
+      <thead><tr><th>Obrigação</th><th style="width:120px">Base</th><th style="width:130px">Desde</th><th>Prova</th></tr></thead><tbody>
+      <tr><td>Todas as obrigações do responsável pela implantação, mais a avaliação de impacto sobre os direitos fundamentais antes de usar um sistema de risco elevado</td><td>Art. 26.º–27.º</td><td>2-12-2027</td><td>Relatório de avaliação</td></tr>
+      <tr><td>Registar a utilização de sistemas de risco elevado na base de dados da UE</td><td>Art. 26.º, n.º 8, e 49.º</td><td>2-12-2027</td><td>Número de registo</td></tr>
+      <tr><td>Sistemas de risco elevado já em serviço em autoridades públicas</td><td>Art. 111.º</td><td>2-8-2030</td><td>Plano de adaptação</td></tr>
+      
+    </tbody></table></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cadena">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Desafios para toda a cadeia de valor</div><h2>Nenhum elo cumpre sozinho</h2>
+    <p class="lead">O regulamento reparte as obrigações, mas as provas viajam pela cadeia. Se um elo não as transmite, o seguinte não consegue cumprir.</p></div>
+    <div class="flow" aria-label="Cadeia de valor da IA">
+      <div><b>Prestador do modelo</b>Modelo de finalidade geral, muitas vezes de fora da UE</div>
+      <div><b>Fabricante ou desenvolvedor</b>Produto ou software com IA</div>
+      <div><b>Grossista e importador</b>Catálogo, marca, logística</div>
+      <div><b>Integrador</b>Adapta, configura, implanta</div>
+      <div><b>Cliente final</b>Usa o sistema com pessoas</div>
+      <div><b>Pessoa afetada</b>Trabalhador, cliente, cidadão</div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h4><span class="k">01</span>A documentação tem de descer a cadeia</h4><p>Instruções, limitações, registos e métricas de exatidão são produzidos pelo prestador mas usados pelo responsável pela implantação. Sem cláusulas que obriguem à entrega, o cliente final não cumpre o art. 26.º nem defende a sua AIPD.</p></div>
+      <div class="card"><h4><span class="k">02</span>A mudança de papel invisível</h4><p>Pôr a própria marca, fazer um ajuste fino ou usar o sistema para uma nova finalidade transforma um grossista ou um integrador em prestador (art. 25.º). Desde o Omnibus, estas obrigações de cadeia entram expressamente no regime de coimas.</p></div>
+      <div class="card"><h4><span class="k">03</span>Modelos de terceiros e opacidade</h4><p>A maior parte da IA generativa vendida na Europa assenta em modelos de fora da UE. Onde corre o modelo, se os dados do cliente o treinam e que resumo dos dados de treino é publicado: o canal tem de saber responder.</p></div>
+      <div class="card"><h4><span class="k">04</span>IA que chega com uma atualização</h4><p>Funções de IA aparecem no CRM, no pacote de escritório ou nas câmaras sem que ninguém as classifique. O inventário não é um exercício único: repete-se a cada atualização relevante.</p></div>
+      <div class="card"><h4><span class="k">05</span>Várias normas sobre o mesmo sistema</h4><p>Uma ferramenta de recrutamento responde ao AI Act (risco elevado a partir de 2027), ao RGPD (já) e ao direito do trabalho nacional (já). As provas pedem-se hoje, mesmo que o risco elevado chegue depois.</p></div>
+      <div class="card"><h4><span class="k">06</span>Um calendário que se move</h4><p>O Omnibus adiou o risco elevado dezasseis meses. Os contratos de três a cinco anos assinados hoje cobrem 2027 e 2028: devem prever as obrigações mesmo que ainda não se apliquem.</p></div>
+      <div class="card"><h4><span class="k">07</span>Normas técnicas em construção</h4><p>A EN 18286 (sistema de gestão da qualidade) é a primeira norma harmonizada. As restantes chegarão por fases: presunção de conformidade e prova caso a caso vão coexistir durante algum tempo.</p></div>
+      <div class="card"><h4><span class="k">08</span>Capacidade e perfis</h4><p>Faltam organismos notificados para IA, auditores e perfis que dominem ao mesmo tempo modelos, dados pessoais e relações laborais. Quem os garantir antes de 2027 terá vantagem.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="riesgos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Mapa de riscos</div><h2>O que pode correr mal, e quanto custa</h2>
+    <p class="lead">Probabilidade estimada pela Software in a Box para uma empresa em Portugal em novembro de 2026, segundo a atividade das autoridades e o estado da lei.</p></div>
+    <div class="tbl risk"><table><caption class="sr">Mapa de riscos do AI Act em Portugal</caption>
+      <thead><tr><th>Risco</th><th>Quem o sofre</th><th>Probabilidade</th><th>Impacto</th><th>Como se materializa</th><th>Mitigação</th></tr></thead><tbody>
+      <tr><td><b>Coima do RGPD</b> por biometria ou transferências</td><td>Cliente final e fornecedor</td><td><span class="lvl h">Alta</span></td><td><span class="lvl h">Alto</span></td><td>Coimas da CNPD e suspensão do tratamento. Worldcoin, INE</td><td>AIPD prévia, diligência na escolha do subcontratante, dados na UE</td></tr>
+      <tr><td><b>Contraordenação laboral</b> por falta de informação sobre algoritmos</td><td>Empregador</td><td><span class="lvl h">Alta</span></td><td><span class="lvl m">Médio</span></td><td>Contraordenação grave (art. 106.º do Código do Trabalho)</td><td>Informação escrita com parâmetros e critérios, atualizada</td></tr>
+      <tr><td><b>Biometria laboral fora da lei</b></td><td>Empregador e fornecedor do sistema</td><td><span class="lvl m">Média</span></td><td><span class="lvl m">Médio</span></td><td>Uso biométrico para além de assiduidade e acessos (Lei 58/2019)</td><td>Limitar a finalidade; alternativa não biométrica</td></tr>
+      <tr><td><b>Tornar-se prestador</b> sem saber</td><td>Grossista e integrador</td><td><span class="lvl m">Média</span></td><td><span class="lvl h">Alto</span></td><td>Todas as obrigações do risco elevado a partir de 2-12-2027</td><td>Análise de papel por referência e projeto; cláusulas do art. 25.º, n.º 4</td></tr>
+      <tr><td><b>Perda de contratos</b> por falta de documentação</td><td>Fabricante e grossista</td><td><span class="lvl h">Alta</span></td><td><span class="lvl m">Médio</span></td><td>Clientes e Administração pedem provas para os seus processos</td><td>Pacote documental por produto</td></tr>
+      <tr><td><b>Responsabilidade civil</b> por produtos com IA</td><td>Fabricante e importador</td><td><span class="lvl m">Média</span></td><td><span class="lvl h">Alto</span></td><td>A Diretiva (UE) 2024/2853 inclui o software como produto (produtos colocados no mercado a partir de 9-12-2026)</td><td>Gestão de riscos documentada, atualizações e registos</td></tr>
+      <tr><td><b>Coima do AI Act</b></td><td>Todos</td><td><span class="lvl b">Baixa hoje</span></td><td><span class="lvl h">Muito alto</span></td><td>Sem regime nacional ainda; a Comissão já pode sancionar prestadores de modelos de finalidade geral desde 2-8-2026</td><td>Cumprir já: o diploma vai chegar e o risco elevado começa em 2027</td></tr>
+    </tbody></table></div>
+    <p class="note">Probabilidade e impacto são estimativas indicativas, não uma previsão jurídica.</p>
+  </div>
+</section>
+
+<section class="sec" id="casos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Casos de estudo</div><h2>O que já aconteceu em Portugal</h2>
+    <p class="lead">Casos reais e públicos, com fonte. Foram resolvidos pela via do RGPD, mas tocam sistemas e práticas que o AI Act regula.</p></div>
+    <div class="grid2">
+      <article class="case"><div class="meta"><span class="badge b-gra">Medida urgente</span>CNPD · 2024</div><h4>Worldcoin: recolha de íris suspensa</h4><dl>
+        <dt>O que aconteceu</dt><dd>Mais de 300.000 pessoas em Portugal entregaram dados de íris e rosto à Worldcoin; a CNPD recebeu dezenas de queixas, sobretudo sobre menores sem autorização dos pais.</dd>
+        <dt>Resultado</dt><dd>A 25-3-2024 a CNPD ordenou a limitação temporária da recolha durante 90 dias. Em julho de 2024 remeteu o processo à autoridade da Baviera, autoridade principal, e a empresa manteve a suspensão.</dd>
+        <dt>Lição para o AI Act</dt><dd>A identificação biométrica é risco elevado e a proteção de menores pesa. O supervisor pode parar um sistema antes de concluir a investigação.</dd></dl>
+        <div class="src-l">Fonte: <a href="https://observador.pt/2024/03/26/comissao-de-protecao-de-dados-suspende-recolha-de-dados-da-iris-pela-worldcoin/">Observador</a> · <a href="https://observador.pt/2024/07/11/protecao-de-dados-envia-caso-da-worldcoin-para-autoridade-da-baviera/">Observador</a></div></article>
+      <article class="case"><div class="meta"><span class="badge b-esp">Coima</span>CNPD · 2022</div><h4>Censos 2021: dados a caminho dos EUA</h4><dl>
+        <dt>O que aconteceu</dt><dd>O INE contratou a Cloudflare, sem negociação nem diligência prévia, para proteger o site dos Censos, com possibilidade de transferência de dados para os EUA e outros países.</dd>
+        <dt>Resultado</dt><dd>Coima única de 4,3 M€, a maior aplicada em Portugal, por cinco infrações ao RGPD, incluindo transferências internacionais e falta de AIPD. O INE anunciou impugnação.</dd>
+        <dt>Lição</dt><dd>A escolha do fornecedor tecnológico é responsabilidade do cliente. Com IA alojada fora da UE, o risco é o mesmo.</dd></dl>
+        <div class="src-l">Fonte: <a href="https://observador.pt/2022/12/12/protecao-de-dados-multa-ine-em-43-milhoes-de-euros-por-violacoes-no-ambito-dos-censos/">Observador</a> · <a href="https://edpb.europa.eu/news/national-news/2022/portuguese-supervisory-authority-fines-portuguese-national-statistics_da">CEPD</a></div></article>
+      <article class="case"><div class="meta"><span class="badge b-pro">Parecer</span>CNPD</div><h4>Reconhecimento facial no estádio do Vitória SC</h4><dl>
+        <dt>O que aconteceu</dt><dd>O Vitória de Guimarães pediu à CNPD uma avaliação prévia para usar reconhecimento facial na videovigilância do estádio e impedir a entrada de pessoas interditas.</dd>
+        <dt>Resultado</dt><dd>A CNPD admitiu a utilidade potencial, mas concluiu que faltava enquadramento legal: a lei proíbe decisões individuais automatizadas baseadas em dados biométricos.</dd>
+        <dt>Lição</dt><dd>Utilidade não é base legal. A identificação biométrica precisa de uma norma habilitante específica.</dd></dl>
+        <div class="src-l">Fonte: <a href="https://www.dn.pt/arquivo/diario-de-noticias/protecao-de-dados-nega-ao-vitoria-de-guimaraes-tecnologia-de-reconhecimento-facial-no-estadio-12737135.html">Diário de Notícias</a></div></article>
+    </div>
+    <div class="split">Cenários ilustrativos para cada elo</div>
+    <p class="mut" style="max-width:52em">Não são casos reais: descrevem situações típicas do mercado para mostrar como se aplicam as obrigações.</p>
+    <div class="grid2">
+      <article class="case scen"><div class="meta"><span class="sl">Cenário ilustrativo</span></div><h4>Fabricante de máquinas com visão artificial</h4><dl>
+        <dt>Situação</dt><dd>Uma embaladora integra uma câmara com IA que deteta uma mão na zona de corte e para a máquina.</dd>
+        <dt>Enquadramento</dt><dd>Componente de segurança de uma máquina: risco elevado do anexo I a partir de 2-8-2028, avaliado com o Regulamento Máquinas (UE) 2023/1230, aplicável desde 20-1-2027.</dd>
+        <dt>O que fazer</dt><dd>Um único processo técnico para ambas as normas e um organismo notificado que cubra as duas.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Cenário ilustrativo</span></div><h4>Grossista que lança um assistente com marca própria</h4><dl>
+        <dt>Situação</dt><dd>Um grossista de TI oferece aos revendedores um assistente de pré-venda com a sua marca, construído sobre um modelo de terceiros.</dd>
+        <dt>Enquadramento</dt><dd>É prestador do sistema: aviso de IA (art. 50.º, n.º 1) e documentação do art. 53.º a exigir ao prestador do modelo.</dd>
+        <dt>O que fazer</dt><dd>Contrato com o prestador do modelo, aviso na interface e política sobre os dados dos revendedores.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Cenário ilustrativo</span></div><h4>Integrador que adapta um modelo para recrutamento</h4><dl>
+        <dt>Situação</dt><dd>Um integrador ajusta um modelo de linguagem para que uma cadeia hoteleira ordene candidaturas.</dd>
+        <dt>Enquadramento</dt><dd>Emprego: risco elevado do anexo III. Se o vender como solução própria, é prestador. O hotel é responsável pela implantação e já tem de informar os trabalhadores e fazer uma AIPD.</dd>
+        <dt>O que fazer</dt><dd>Repartir por contrato quem faz cada avaliação e prever desde o início uma supervisão humana real.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Cenário ilustrativo</span></div><h4>Seguradora que tarifa seguros de saúde com IA</h4><dl>
+        <dt>Situação</dt><dd>Um modelo estima o risco e o prémio de apólices de saúde.</dd>
+        <dt>Enquadramento</dt><dd>Risco elevado do anexo III (seguros de vida e de saúde) com avaliação de impacto sobre os direitos fundamentais (art. 27.º) a partir de 2-12-2027. O art. 22.º do RGPD já se aplica às decisões automatizadas.</dd>
+        <dt>O que fazer</dt><dd>Integrar o risco de modelo na gestão do risco de TIC do DORA e preparar a avaliação de impacto com antecedência.</dd></dl></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Calendário de aplicação</div><h2>O que se aplica e desde quando</h2>
+    <p class="lead">Datas do Regulamento 2024/1689 tal como ficam após o Regulamento (UE) 2026/1744.</p></div>
+    <div class="tbl"><table><caption class="sr">Calendário do AI Act</caption>
+      <thead><tr><th style="width:150px">Data</th><th>O que se aplica</th><th>Situação</th></tr></thead><tbody>
+      <tr><td><b>1-8-2024</b></td><td>Entrada em vigor do Regulamento</td><td><span class="badge b-vig">Cumprido</span></td></tr>
+      <tr><td><b>2-2-2025</b></td><td>Práticas proibidas (art. 5.º), definições e literacia em IA (art. 4.º)</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>2-8-2025</b></td><td>Obrigações dos modelos de finalidade geral, governação (Serviço e Comité para a IA), autoridades nacionais e regime sancionatório geral</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>27-7-2026</b></td><td>Entra em vigor o Omnibus Digital sobre IA (Regulamento (UE) 2026/1744)</td><td><span class="badge b-vig">Cumprido</span></td></tr>
+      <tr><td><b>2-8-2026</b></td><td>Aplicação geral: transparência do art. 50.º (aviso de interação com IA, rotulagem de falsificações profundas, reconhecimento de emoções) e poderes sancionatórios do Serviço para a IA sobre modelos de finalidade geral</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>2-12-2026</b></td><td>Fim do período de tolerância da marcação legível por máquina (art. 50.º, n.º 2) para sistemas generativos colocados no mercado antes de 2-8-2026. Aplica-se a nova proibição de sistemas que geram imagens íntimas não consentidas ou material de abuso sexual de crianças</td><td><span class="badge b-gra">Iminente</span></td></tr>
+      <tr><td><b>2-8-2027</b></td><td>Ambientes de testagem da regulamentação (sandboxes) nacionais operacionais. Os modelos de finalidade geral colocados no mercado antes de 2-8-2025 devem cumprir</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>2-12-2027</b></td><td>Sistemas de risco elevado do Anexo III (biometria, infraestruturas críticas, educação, emprego, crédito, serviços públicos essenciais, justiça…)</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>2-8-2028</b></td><td>Sistemas de risco elevado do Anexo I (IA integrada em produtos regulamentados: máquinas, dispositivos médicos, brinquedos, ascensores…)</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>2-8-2030</b></td><td>Prazo final para sistemas de risco elevado utilizados por autoridades públicas que já estavam em serviço</td><td><span class="badge b-gra">Previsto</span></td></tr>
+    </tbody></table></div>
+    <p class="note">Os sistemas generativos colocados no mercado a partir de 2-8-2026 não têm período de tolerância: devem marcar o seu conteúdo desde o primeiro dia. O dever do responsável pela implantação de rotular falsificações profundas (art. 50.º, n.º 4) já está em vigor, mesmo que o prestador ainda esteja no seu período de tolerância.</p>
+  </div>
+</section>
+
+<section class="sec" id="riesgo">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Arquitetura do Regulamento</div><h2>Quatro níveis de risco</h2>
+    <p class="lead">A classificação decide tudo o resto. O erro mais caro é não a fazer, ou fazê-la pela tecnologia em vez de pela finalidade.</p></div>
+    <div class="levels">
+      <div class="lv"><div class="big" style="color:#A3201A">✕</div><div class="tag">Inaceitável · proibido</div><ul>
+        <li>Manipulação subliminar ou enganosa que cause danos</li><li>Exploração de vulnerabilidades (idade, deficiência, situação social)</li><li>Classificação social</li><li>Previsão de crimes baseada apenas na definição de perfis</li><li>Recolha generalizada de imagens faciais</li><li>Reconhecimento de emoções no trabalho e na educação</li><li>Categorização biométrica com base em dados sensíveis</li><li>Identificação biométrica à distância em tempo real para fins policiais (salvo exceções)</li><li>Novo (Omnibus): geração de imagens íntimas não consentidas e material de abuso de crianças</li></ul></div>
+      <div class="lv"><div class="big" style="color:var(--cog-l)">!</div><div class="tag">Risco elevado · requisitos</div><ul>
+        <li><b>Anexo I:</b> componente de segurança de um produto regulamentado (máquinas, saúde, brinquedos…)</li><li><b>Anexo III:</b> biometria, infraestruturas críticas, educação, emprego, acesso a serviços essenciais e crédito, aplicação da lei, migração, justiça e processos democráticos</li><li>Exceção do art. 6.º, n.º 3, se não houver risco significativo, salvo se o sistema definir perfis</li><li>Gestão de riscos, dados, documentação, registos, supervisão humana, robustez e cibersegurança</li></ul></div>
+      <div class="lv"><div class="big" style="color:var(--gold-d)">i</div><div class="tag">Transparência · art. 50.º</div><ul>
+        <li>Avisar que se está a interagir com uma IA</li><li>Marcar o conteúdo sintético em formato legível por máquina</li><li>Rotular falsificações profundas e textos de interesse público gerados</li><li>Informar sobre o uso de reconhecimento de emoções ou categorização biométrica</li></ul></div>
+      <div class="lv"><div class="big" style="color:var(--prop)">○</div><div class="tag">Mínimo · sem obrigações específicas</div><ul>
+        <li>A maioria dos usos empresariais: filtros, sistemas de recomendação internos, otimização</li><li>Códigos de conduta voluntários</li><li>Continua a aplicar-se o dever de promover a literacia em IA</li></ul></div>
+    </div>
+
+    <h3 class="sub-h">O que o risco elevado exige</h3>
+    <div class="tbl"><table><caption class="sr">Requisitos dos sistemas de risco elevado</caption>
+      <thead><tr><th>Requisito</th><th>Artigo</th><th>O que é preciso ter</th></tr></thead><tbody>
+      <tr><td><b>Gestão de riscos</b></td><td>Art. 9.º</td><td>Processo contínuo ao longo de todo o ciclo de vida, com testes</td></tr>
+      <tr><td><b>Dados e governação</b></td><td>Art. 10.º</td><td>Conjuntos de dados pertinentes e representativos; deteção de enviesamentos (dados sensíveis apenas se estritamente necessário)</td></tr>
+      <tr><td><b>Documentação técnica</b></td><td>Art. 11.º · Anexo IV</td><td>Dossiê completo; formulário simplificado para PME e pequenas empresas de média capitalização</td></tr>
+      <tr><td><b>Manutenção de registos</b></td><td>Art. 12.º</td><td>Registo automático de eventos para rastreabilidade</td></tr>
+      <tr><td><b>Transparência para o utilizador</b></td><td>Art. 13.º</td><td>Instruções de utilização claras para o responsável pela implantação</td></tr>
+      <tr><td><b>Supervisão humana</b></td><td>Art. 14.º</td><td>Medidas que permitam compreender, vigiar e interromper o sistema</td></tr>
+      <tr><td><b>Exatidão, robustez, cibersegurança</b></td><td>Art. 15.º</td><td>Níveis declarados e resistência a ataques (envenenamento de dados, exemplos antagónicos)</td></tr>
+      <tr><td><b>Sistema de gestão da qualidade</b></td><td>Art. 17.º</td><td>Norma harmonizada EN 18286:2026 disponível desde outubro de 2026</td></tr>
+      <tr><td><b>Conformidade e registo</b></td><td>Arts. 43.º–49.º</td><td>Avaliação (interna ou com organismo notificado), declaração UE, marcação CE e registo na base de dados da UE</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="roles">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Quem responde por quê</div><h2>Obrigações por papel</h2></div>
+    <div class="tbl"><table><caption class="sr">Obrigações por papel no AI Act</caption>
+      <thead><tr><th style="width:210px">Papel</th><th>Quem é</th><th>Principais obrigações</th></tr></thead><tbody>
+      <tr><td><b>Prestador</b></td><td>Quem desenvolve o sistema ou modelo e o comercializa com o seu nome</td><td>Todos os requisitos do risco elevado, conformidade, marcação CE, registo, acompanhamento pós-comercialização e notificação de incidentes graves</td></tr>
+      <tr><td><b>Responsável pela implantação</b></td><td>Quem utiliza o sistema sob a sua autoridade (a empresa cliente)</td><td>Utilizá-lo de acordo com as instruções, supervisão humana competente, conservar registos, informar os trabalhadores; avaliação de impacto nos direitos fundamentais (art. 27.º) se for entidade pública, prestar serviços públicos ou avaliar solvabilidade ou seguros</td></tr>
+      <tr><td><b>Importador</b></td><td>Quem introduz na UE um sistema de um prestador de fora</td><td>Verificar a conformidade, a documentação e a marcação CE antes de comercializar</td></tr>
+      <tr><td><b>Distribuidor</b></td><td>Qualquer outro elo que o disponibilize</td><td>Verificar a marcação CE e a documentação; não distribuir se suspeitar de incumprimento</td></tr>
+      <tr><td><b>«Novo prestador»</b> (art. 25.º)</td><td>Integrador ou cliente que coloca a sua marca, altera a finalidade ou modifica substancialmente um sistema de risco elevado</td><td>Assume todas as obrigações do prestador</td></tr>
+    </tbody></table></div>
+    <div class="callout">O integrador que adapta um sistema a um caso de uso do Anexo III pode tornar-se prestador sem o saber. A primeira pergunta de cada projeto é: isto altera a finalidade prevista?</div>
+  </div>
+</section>
+
+<section class="sec" id="gpai">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Modelos de IA de finalidade geral</div><h2>O que os prestadores de modelos devem fazer</h2>
+    <p class="lead">Aplicável desde 2-8-2025, com poderes sancionatórios do Serviço para a IA desde 2-8-2026. Afeta quem treina e comercializa o modelo, não quem o utiliza através de uma API.</p></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Todos os modelos de finalidade geral</h4><ul class="check">
+        <li>Documentação técnica do modelo para o Serviço para a IA</li>
+        <li>Informação aos prestadores que o integram nos seus sistemas</li>
+        <li>Política de cumprimento dos direitos de autor, incluindo a reserva de direitos (autoexclusão)</li>
+        <li>Resumo público do conteúdo de treino, com o modelo da Comissão</li></ul></div>
+      <div class="card soft"><h4>Modelos com risco sistémico</h4><ul class="check">
+        <li>Limiar de referência: mais de 10<sup>25</sup> FLOP de computação de treino, ou designação pela Comissão</li>
+        <li>Avaliação do modelo e testes antagónicos</li>
+        <li>Avaliação e atenuação dos riscos sistémicos</li>
+        <li>Notificação de incidentes graves e cibersegurança reforçada</li></ul></div>
+    </div>
+    <p class="note">O Código de Boas Práticas para modelos de finalidade geral (julho de 2025) é voluntário, mas serve para demonstrar o cumprimento perante o Serviço para a IA.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="omnibus">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Regulamento (UE) 2026/1744</div><h2>O que mudou com o Omnibus Digital sobre IA</h2>
+    <p class="lead">Proposto a 19-11-2025, acordado em trílogo a 7-5-2026, assinado a 8-7-2026 e em vigor desde 27-7-2026. Não é uma pausa geral: a maioria das obrigações segue o seu curso.</p></div>
+    <div class="grid2">
+      <div><h4>Principais alterações</h4><ul class="check">
+        <li><b>Risco elevado com datas fixas:</b> Anexo III a 2-12-2027; Anexo I a 2-8-2028.</li>
+        <li><b>Novas proibições:</b> sistemas que geram imagens íntimas não consentidas («despidores») ou material de abuso sexual de crianças.</li>
+        <li><b>Literacia em IA:</b> passa de obrigação de resultado a dever de adotar medidas de promoção.</li>
+        <li><b>PME e pequenas empresas de média capitalização:</b> documentação e sistema de qualidade simplificados e acesso prioritário a sandboxes.</li>
+        <li><b>Sandbox europeia</b> gerida pelo Serviço para a IA; as nacionais, operacionais a 2-8-2027.</li>
+        <li><b>Registo simplificado</b> para sistemas do Anexo III que o prestador considera isentos ao abrigo do art. 6.º, n.º 3.</li></ul></div>
+      <div><h4>O que não mudou</h4><ul class="check">
+        <li>As práticas proibidas originais, em vigor desde 2-2-2025.</li>
+        <li>As obrigações dos modelos de finalidade geral.</li>
+        <li>A transparência do art. 50.º, salvo um período de tolerância de quatro meses (até 2-12-2026) para a marcação técnica de sistemas já comercializados.</li>
+        <li>O regime sancionatório e os montantes máximos.</li>
+        <li>A relação com o RGPD: o AI Act não cria fundamento jurídico para tratar dados pessoais.</li></ul></div>
+    </div>
+    <p class="note">A outra metade do pacote, o Omnibus Digital sobre dados (RGPD, ePrivacy, Data Act), continua em negociação: o Conselho fixou a sua posição a 21-10-2026 e o Parlamento ainda não.</p>
+  </div>
+</section>
+
+<section class="sec" id="guias">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Direito não vinculativo e normas técnicas</div><h2>Orientações da Comissão e normas harmonizadas</h2></div>
+    <div class="tbl"><table><caption class="sr">Orientações e normas do AI Act</caption>
+      <thead><tr><th>Documento</th><th>Data</th><th>Para que serve</th></tr></thead><tbody>
+      <tr><td>Orientações sobre a definição de sistema de IA</td><td>Fev. 2025</td><td>Saber se um software é um «sistema de IA» para efeitos do Regulamento</td></tr>
+      <tr><td>Orientações sobre práticas proibidas</td><td>Fev. 2025</td><td>Interpretação do art. 5.º com exemplos</td></tr>
+      <tr><td>Orientações e Código de Boas Práticas dos modelos de finalidade geral</td><td>Jul. 2025</td><td>Âmbito de «prestador» de um modelo e forma de cumprir</td></tr>
+      <tr><td>Projeto de orientações de classificação de risco elevado (art. 6.º)</td><td>19-5-2026</td><td>Três documentos com exemplos por categoria do Anexo III; versão final esperada no final de 2026</td></tr>
+      <tr><td>Código de Boas Práticas sobre transparência do conteúdo gerado</td><td>Jun. 2026</td><td>Marcação técnica (art. 50.º, n.º 2) e rotulagem (art. 50.º, n.º 4)</td></tr>
+      <tr><td>Orientações finais sobre a transparência do art. 50.º</td><td>20-7-2026</td><td>O quê, quem e como informar e rotular</td></tr>
+      <tr><td>EN 18286:2026, sistema de gestão da qualidade</td><td>JO de 14-10-2026</td><td>Primeira norma harmonizada do AI Act (Decisão de Execução (UE) 2026/2274): dá presunção de conformidade com o art. 17.º</td></tr>
+    </tbody></table></div>
+    <p class="note">As restantes normas harmonizadas (gestão de riscos, dados, cibersegurança, exatidão, supervisão humana…) estão a ser preparadas pelo CEN-CENELEC JTC 21. Aplicá-las é voluntário, mas é a via mais segura para a presunção de conformidade.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Oportunidades de negócio</div><h2>Onde está o mercado</h2>
+    <p class="lead">A obrigação cria procura. Estas são as que vemos em cada elo.</p></div>
+    <div class="cards4">
+      <div class="card"><h4>Fabricante</h4><ul class="ul"><li>Pacote documental por produto, pronto para o processo do cliente</li><li>Versões de IA executadas localmente</li><li>Marcação de conteúdo de série</li></ul></div>
+      <div class="card"><h4>Grossista</h4><ul class="ul"><li>Catálogo com classificação de risco e documentação verificada</li><li>Configurações «duplamente conformes» (AI Act e soberania dos dados)</li><li>Formação de parceiros</li></ul></div>
+      <div class="card"><h4>Integrador</h4><ul class="ul"><li>Inventário e classificação de IA</li><li>Sistemas de gestão da qualidade segundo a EN 18286</li><li>AIPD e avaliações de impacto sobre direitos fundamentais</li><li>Informação aos trabalhadores</li></ul></div>
+      <div class="card"><h4>Cliente final</h4><ul class="ul"><li>Vantagem em concursos e junto de clientes regulados</li><li>Menor exposição à autoridade de proteção de dados</li><li>IA sem que os dados saiam do perímetro</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Articulação com outras normas</div><h2>O AI Act não se cumpre isoladamente</h2></div>
+    <div class="tbl"><table><caption class="sr">Relação do AI Act com outras normas</caption>
+      <thead><tr><th style="width:200px">Norma</th><th>Ponto de contacto</th></tr></thead><tbody>
+      <tr><td><b>RGPD</b></td><td>Qualquer tratamento de dados pessoais para treinar ou utilizar IA precisa de fundamento jurídico próprio. O Comité Europeu para a Proteção de Dados publicou o seu parecer sobre modelos de IA (dez. 2024) e orientações sobre extração da web para IA generativa (2026).</td></tr>
+      <tr><td><a href="/pt/regulamentacao/cra/"><b>CRA</b></a></td><td>Um sistema de risco elevado que seja produto com elementos digitais e cumpra o CRA presume-se conforme com a cibersegurança do art. 15.º do AI Act.</td></tr>
+      <tr><td><a href="/pt/regulamentacao/data-act/"><b>Data Act</b></a></td><td>Os dados de produtos conectados são matéria-prima para treinar modelos; o Data Act decide quem lhes pode aceder.</td></tr>
+      <tr><td><a href="/pt/regulamentacao/#cada"><b>CADA</b></a></td><td>O critério F do Anexo III da proposta (IA de países terceiros) proíbe nos níveis 2–4 treinar IA de fora da UE com os dados do cliente.</td></tr>
+      <tr><td><b>Dispositivos médicos e máquinas</b></td><td>O risco elevado do Anexo I é avaliado juntamente com o MDR/IVDR ou o Regulamento Máquinas, com um único organismo notificado quando possível.</td></tr>
+      <tr><td><b>DORA e setor financeiro</b></td><td>A Autoridade Bancária Europeia não vê conflito estrutural; o risco de modelos integra-se na gestão do risco das TIC.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Roteiro</div><h2>O que fazer, por ordem</h2></div>
+    <div class="cards4">
+      <div class="card"><h4><span class="k">Já</span>O que já é exigível</h4><ul class="check"><li>Avisos de IA e rotulagem do conteúdo gerado</li><li>Plano de literacia em IA</li><li>AIPD de todo o sistema biométrico</li><li>Informação escrita sobre algoritmos (art. 106.º do Código do Trabalho)</li></ul></div>
+      <div class="card"><h4><span class="k">2-12-2026</span>Marcação técnica</h4><ul class="check"><li>Marcação legível por máquina em sistemas generativos anteriores a 2-8-2026</li><li>Rever as duas novas proibições</li></ul></div>
+      <div class="card"><h4><span class="k">1.º sem. 2027</span>Inventário e contratos</h4><ul class="check"><li>Inventário de IA própria, de terceiros e embutida</li><li>Classificação por finalidade (orientações do art. 6.º)</li><li>Análise de papel (art. 25.º) e cláusulas de cadeia</li></ul></div>
+      <div class="card"><h4><span class="k">2-12-2027</span>Risco elevado</h4><ul class="check"><li>Sistema de gestão da qualidade e processo técnico</li><li>Avaliação da conformidade, marcação CE e registo</li><li>Supervisão humana e avaliação de impacto sobre direitos fundamentais</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Como a Software in a Box ajuda</h4><p>O <b>COGNITIV</b> executa os modelos na infraestrutura do cliente: os dados não saem e a documentação da implantação fica sob o seu controlo. O <b>ARGOS</b> mantém o inventário, a classificação de risco e as provas de conformidade de cada sistema.</p></div>
+      <div class="card"><h4>Mais em Regulação UE</h4><p>Radar de 18 normas, calendário 2025–2030, matriz de impacto e autodiagnóstico.</p><div class="ficha-nav"><a class="btn btn-ink" href="/pt/regulamentacao/">Voltar ao radar</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Perguntas frequentes</div><h2>O que mais nos perguntam</h2></div>
+    <details class="faq"><summary>O AI Act aplica-se em Portugal sem lei portuguesa?</summary><div>Sim. É um regulamento europeu, diretamente aplicável. O diploma nacional deve designar as autoridades e fixar o regime sancionatório; enquanto não existir, as obrigações continuam exigíveis e a CNPD pode atuar sobre os mesmos sistemas pela via do RGPD.</div></details>
+    <details class="faq"><summary>Quem vai fiscalizar a IA em Portugal?</summary><div>O Governo anunciou a ANACOM como autoridade de fiscalização do mercado e ponto de contacto único. A CNPD mantém as competências sobre dados pessoais. Falta o diploma que formaliza a designação.</div></details>
+    <details class="faq"><summary>O meu chatbot tem de avisar que é uma IA?</summary><div>Sim, desde 2-8-2026 (art. 50.º, n.º 1), o mais tardar na primeira interação, salvo se for evidente pelo contexto.</div></details>
+    <details class="faq"><summary>Uso IA para recrutar ou avaliar trabalhadores. O que tenho de fazer já?</summary><div>Informar por escrito os parâmetros, critérios e regras dos algoritmos (art. 106.º do Código do Trabalho), informar as estruturas representativas, fazer uma AIPD e garantir supervisão humana real. As obrigações de risco elevado do AI Act (emprego) somam-se a 2-12-2027.</div></details>
+    <details class="faq"><summary>Se revendo uma solução de IA com a minha marca, sou prestador?</summary><div>Sim, num sistema de risco elevado: pôr o seu nome ou marca, modificá-lo substancialmente ou mudar a finalidade faz de si prestador (art. 25.º). Nos restantes casos, verifique as obrigações de transparência do art. 50.º.</div></details>
+    <details class="faq"><summary>Quando se aplicam as obrigações de risco elevado?</summary><div>Após o Omnibus digital sobre IA (Regulamento (UE) 2026/1744): a 2-12-2027 para o anexo III (emprego, crédito, educação, biometria, serviços essenciais…) e a 2-8-2028 para a IA integrada em produtos regulados do anexo I.</div></details>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="ctaband"><div><h3>Que sistemas de IA usa a sua empresa, e em que elo está?</h3><p>Ajudamos a fazer o inventário, a classificar cada sistema e a preparar a documentação que a CNPD, os seus clientes e, a partir de 2027, a autoridade de IA vão pedir.</p></div><a class="btn btn-gold" href="/pt/regulamentacao/#contacto">Falemos</a></div>
+  </div>
+</section>
+
+<section class="sec alt" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Principais fontes</h3>
+    <ul class="src">
+      <li>Texto · <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R1689">Regulamento (UE) 2024/1689 (EUR-Lex)</a></li>
+      <li>Omnibus · <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj">Regulamento (UE) 2026/1744</a></li>
+      <li>Governo · <a href="https://digital.gov.pt/en/estrategia-digital/regulamentacao/ai-act/legislacao-secundaria-atos-de-execucao">Legislação secundária do AI Act</a></li>
+      <li>Trabalho · <a href="https://www.mlgts.pt/xms/files/site_2018/guias/2023/Agenda_do_Trabalho_Digno_-_principais_alteracoes.pdf">Agenda do Trabalho Digno (Morais Leitão)</a></li>
+      <li>CNPD · <a href="https://observador.pt/2024/03/26/comissao-de-protecao-de-dados-suspende-recolha-de-dados-da-iris-pela-worldcoin/">Suspensão da Worldcoin (Observador)</a></li>
+      <li>CNPD · <a href="https://edpb.europa.eu/news/national-news/2022/portuguese-supervisory-authority-fines-portuguese-national-statistics_da">Coima ao INE (CEPD)</a></li>
+      <li>CNPD · <a href="https://www.dn.pt/arquivo/diario-de-noticias/protecao-de-dados-nega-ao-vitoria-de-guimaraes-tecnologia-de-reconhecimento-facial-no-estadio-12737135.html">Reconhecimento facial no estádio (DN)</a></li>
+      <li>Responsabilidade · <a href="https://eur-lex.europa.eu/eli/dir/2024/2853/oj">Diretiva (UE) 2024/2853 sobre produtos defeituosos</a></li>
+    </ul>
+    <p class="note">Página elaborada a partir de um catálogo de 408 fontes sobre o AI Act e 83 fontes nacionais sobre Portugal mantido pela Software in a Box. Informação indicativa; não constitui aconselhamento jurídico. Última revisão: 14 de novembro de 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<!--SX:PG--><nav class="sx-pager" data-nav aria-label="Norma anterior / Norma seguinte"><div class="sx-wrap"><a class="sx-prev" href="/pt/regulamentacao/decreto-centros-dados/" rel="prev"><small>← Norma anterior</small><b>RD espanhol dos centros de dados</b></a><a class="sx-up" href="/pt/regulamentacao/#radar">Voltar ao radar</a><a class="sx-next" href="/pt/regulamentacao/data-act/" rel="next"><small>Norma seguinte →</small><b>Data Act em Portugal</b></a></div></nav><!--/SX:PG-->
+<footer class="sx-ft" data-nav>
+  <div class="sx-wrap">
+    <div class="sx-cols">
+      <div><a class="sx-brand" href="/pt/">Software in a Box</a><p>Software para o dado sensível: IA soberana, conformidade verificada e espaços de dados federados. Madrid, União Europeia.</p></div>
+      <div><h2>Produtos</h2><a href="/pt/produtos/cognitiv/">COGNITIV</a><a href="/pt/produtos/argos/">ARGOS</a><a href="/pt/produtos/espacos-de-dados/">Espaços de dados</a><a href="/pt/produtos/">Todos os produtos</a></div>
+      <div><h2>Regulamentação UE</h2><a href="/pt/regulamentacao/">Índice e radar</a><a href="/pt/regulamentacao/relatorio-cada/">Relatório CADA</a><a href="/pt/mapa-do-site/#normas">Todas as normas (A–Z)</a></div>
+      <div><h2>Empresa</h2><a href="/pt/empresa/#como">Como trabalhamos</a><a href="/pt/empresa/#experiencia">Experiência</a><a href="/pt/empresa/#sectores">Setores</a><a href="/pt/contacto/">Contacto</a></div>
+      <div><h2>Recursos</h2><a href="/pt/mapa-do-site/">Mapa do site</a><a href="https://cognitiv.softwareinabox.eu/">cognitiv.softwareinabox.eu</a><a href="https://argos.softwareinabox.eu/">argos.softwareinabox.eu</a><a href="https://datos.softwareinabox.eu/">datos.softwareinabox.eu</a><a href="/llms.txt">llms.txt</a></div>
+    </div>
+    <div class="sx-legal"><span>© 2026 Software in a Box, marca da Ullswater Investments S.L.</span><nav aria-label="Jurídico"><a href="/pt/aviso-legal.html">Aviso legal</a><a href="/pt/privacidade.html">Privacidade</a><a href="/pt/cookies.html">Cookies</a></nav></div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.createElement("button"),n=document.createElement("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+<button class="sx-top" type="button" data-nav aria-label="Voltar ao topo" title="Voltar ao topo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="/assets/nav.js?v=30ca4ad7" defer></script>
+</body>
+</html>

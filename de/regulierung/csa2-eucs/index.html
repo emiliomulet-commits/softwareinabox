@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-seo="auto">CSA2 und EUCS in Deutschland: Pflichten, Risiken, Fälle</title>
+<meta name="description" data-seo="auto" content="Leitfaden zum Vorschlag für einen neuen Cybersecurity Act (CSA2) und zum Cloud-Schema EUCS für Unternehmen in Deutschland: BSI als…">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/de/regulierung/csa2-eucs/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="CSA2 und EUCS in Deutschland: Hochrisiko-Anbieter, Cloud-Zertifizierung, echte Fälle und Herausforderungen für die Wertschöpfungskette">
+<meta property="og:description" content="Leitfaden zum Vorschlag für einen neuen Cybersecurity Act (CSA2) und zum Cloud-Schema EUCS für Unternehmen in Deutschland: BSI als Zertifizierungsbehörde, C5, Huawei und ZTE bis Ende 2026 aus dem 5G-Kern, STACKIT in der souveränen Cloud der Kommission, was jedes Glied vorbereiten sollte und Fahrplan.">
+<meta property="og:url" content="https://www.softwareinabox.eu/de/regulierung/csa2-eucs/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og/regulacion-csa2-eucs_de.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://www.softwareinabox.eu/de/regulierung/csa2-eucs/#article", "url": "https://www.softwareinabox.eu/de/regulierung/csa2-eucs/", "headline": "CSA2 und EUCS in Deutschland: Hochrisiko-Anbieter, Cloud-Zertifizierung, echte Fälle und Herausforderungen für die Wertschöpfungskette", "description": "Leitfaden zum Vorschlag für einen neuen Cybersecurity Act (CSA2) und zum Cloud-Schema EUCS für Unternehmen in Deutschland: BSI als Zertifizierungsbehörde, C5, Huawei und ZTE bis Ende 2026 aus dem 5G-Kern, STACKIT in der souveränen Cloud der Kommission, was jedes Glied vorbereiten sollte und Fahrplan.", "inLanguage": "de", "dateModified": "2026-11-14", "isPartOf": {"@id": "https://www.softwareinabox.eu/#website"}, "publisher": {"@id": "https://www.softwareinabox.eu/#organization"}, "author": {"@id": "https://www.softwareinabox.eu/#organization"}, "about": {"@type": "Legislation", "name": "Vorschlag für eine Cybersicherheitsverordnung 2 (CSA2) und EUCS-Schema", "legislationIdentifier": "COM(2026) 11", "legislationJurisdiction": "UE"}, "spatialCoverage": {"@type": "Country", "name": "Deutschland"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Software in a Box", "item": "https://www.softwareinabox.eu/de/"}, {"@type": "ListItem", "position": 2, "name": "EU-Regulierung", "item": "https://www.softwareinabox.eu/de/regulierung/"}, {"@type": "ListItem", "position": 3, "name": "CSA2 und EUCS in Deutschland", "item": "https://www.softwareinabox.eu/de/regulierung/csa2-eucs/"}]}, {"@type": "FAQPage", "@id": "https://www.softwareinabox.eu/de/regulierung/csa2-eucs/#faq", "mainEntity": [{"@type": "Question", "name": "Verpflichtet der CSA2 schon zu etwas?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Es ist ein Vorschlag der Kommission vom 20-1-2026, der in Rat und Parlament verhandelt wird. In Kraft sind der Cybersecurity Act von 2019, das EUCC-Schema und in Deutschland die Verträge zum 5G-Netz."}}, {"@type": "Question", "name": "Was ist ein Hochrisiko-Anbieter?", "acceptedAnswer": {"@type": "Answer", "text": "Nach dem Vorschlag ein Anbieter unter Kontrolle eines Drittstaats, den die Union als Cybersicherheitsproblem benannt hat. Die Listen würden durch Durchführungsrechtsakte beschlossen, mit Anhörung und öffentlichem Register."}}, {"@type": "Question", "name": "Muss ich installierte Geräte austauschen?", "acceptedAnswer": {"@type": "Answer", "text": "Nur wenn sie von einem benannten Anbieter stammen und in IKT-Schlüsselanlagen einer NIS2-Einrichtung stehen. Die Kommission schlug 36 Monate für Mobilfunknetze vor; die Mitgliedstaaten wollen im Einzelfall entscheiden."}}, {"@type": "Question", "name": "Was wird aus dem EUCS?", "acceptedAnswer": {"@type": "Answer", "text": "Es ist weiterhin nicht angenommen. Der Vorschlag nimmt Souveränität aus der Zertifizierung heraus und behandelt sie in der Lieferkette. In Deutschland bleibt C5 die Referenz."}}, {"@type": "Question", "name": "Wer zertifiziert in Deutschland?", "acceptedAnswer": {"@type": "Answer", "text": "Das BSI als nationale Zertifizierungsbehörde für Cybersicherheit; es stellt Zertifikate der Stufe „hoch“ aus und überwacht die Einhaltung."}}, {"@type": "Question", "name": "Wann gilt der CSA2?", "acceptedAnswer": {"@type": "Answer", "text": "Analysten erwarten keine politische Einigung vor Ende 2026 und halten 2027 für wahrscheinlicher. Die Verordnung gälte unmittelbar; Austauschfristen liefen ab den Benennungen."}}]}]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
+/* landings de país */
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.flag{display:inline-flex;align-items:center;gap:8px;font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.5);border-radius:999px;padding:5px 12px}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:8px 0 34px}
+.flow>div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 14px;position:relative;font-size:14.5px}
+.flow>div b{display:block;font:800 14px var(--disp);color:var(--ink);margin-bottom:6px}
+.flow>div:not(:last-child):after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--gold-d);font-weight:800;z-index:2}
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:10px}
+.case .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.case h4{margin:0}
+.case dl{margin:0;font-size:15px}.case dt{font:700 12.5px var(--disp);color:var(--gold-d);text-transform:uppercase;letter-spacing:.06em;margin-top:8px}.case dd{margin:2px 0 0}
+.case .src-l{font-size:13.5px;margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}.case .src-l a{color:var(--ink);font-weight:600}
+.scen{border:1.5px dashed var(--gold);background:var(--gold-t)}
+.scen .meta .sl{background:var(--gold);color:var(--ink);padding:3px 9px;border-radius:6px;letter-spacing:.04em}
+.risk td:nth-child(3),.risk td:nth-child(4){white-space:nowrap}
+.lvl{display:inline-block;font:700 12px var(--disp);padding:3px 10px;border-radius:999px}
+.lvl.h{background:#FCEFEA;color:#A3201A}.lvl.m{background:#FDF6E6;color:var(--warn)}.lvl.b{background:#EEF8F2;color:var(--ok)}
+.faq{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:10px}
+.faq summary{cursor:pointer;padding:18px 22px;font:700 16.5px var(--disp);color:var(--ink);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--gold-d);font-weight:800}
+.faq[open] summary:after{content:"–"}
+.faq>div{padding:0 22px 18px;font-size:16px}
+.ctaband{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:40px;color:#C9D3E0;display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.ctaband h3{color:#fff;margin:0 0 8px}.ctaband p{margin:0;max-width:40em}
+.split{font:700 12.5px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.12em;margin:40px 0 16px}
+@media(max-width:1100px){.flow{grid-template-columns:repeat(3,1fr)}.flow>div:nth-child(3):after{display:none}}
+@media(max-width:680px){.flow{grid-template-columns:1fr}.flow>div:after{display:none}.ctaband{padding:26px}}
+</style>
+<link rel="stylesheet" href="/assets/nav.css?v=30ca4ad7">
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es-ES" href="https://www.softwareinabox.eu/regulacion/csa2-eucs/">
+<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulation/csa2-eucs/">
+<link rel="alternate" hreflang="fr-FR" href="https://www.softwareinabox.eu/fr/reglementation/csa2-eucs/">
+<link rel="alternate" hreflang="de-DE" href="https://www.softwareinabox.eu/de/regulierung/csa2-eucs/">
+<link rel="alternate" hreflang="nl-NL" href="https://www.softwareinabox.eu/nl/regelgeving/csa2-eucs/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.softwareinabox.eu/pt/regulamentacao/csa2-eucs/">
+<link rel="alternate" hreflang="it-IT" href="https://www.softwareinabox.eu/it/normativa/csa2-eucs/">
+<link rel="alternate" hreflang="da-DK" href="https://www.softwareinabox.eu/da/regulering/csa2-eucs/">
+<link rel="alternate" hreflang="fr-BE" href="https://www.softwareinabox.eu/fr-be/reglementation/csa2-eucs/">
+<link rel="alternate" hreflang="nl-BE" href="https://www.softwareinabox.eu/nl-be/regelgeving/csa2-eucs/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulation/csa2-eucs/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Zum Inhalt springen</a>
+
+<header class="sx-hd" data-nav>
+  <div class="sx-wrap">
+    <a class="sx-logo" href="/de/" aria-label="Software in a Box, Startseite"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg><span>Software in a Box</span></a>
+    <button class="sx-burger" type="button" aria-expanded="false" aria-controls="sx-nav">Menü</button>
+    <nav class="sx-nav" id="sx-nav" aria-label="Hauptnavigation"><a href="/de/">Startseite</a><div class="sx-dd"><a href="/de/produkte/">Produkte</a><button type="button" aria-expanded="false" aria-label="Aufklappen: Produkte"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/de/produkte/cognitiv/">COGNITIV<small>souveräne KI auf Ihrem Server</small></a><a href="/de/produkte/argos/">ARGOS<small>Nachprüfbare Compliance-Tests</small></a><a href="/de/produkte/datenraeume/">Datenräume<small>Daten teilen, ohne sie zu verschieben</small></a><hr><a href="/de/produkte/">Alle Produkte</a></div></div><div class="sx-dd"><a href="/de/regulierung/" aria-current="page">EU-Regulierung</a><button type="button" aria-expanded="false" aria-label="Aufklappen: EU-Regulierung"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/de/regulierung/">Übersicht und Radar</a><a href="/de/regulierung/#calendario">Zeitplan</a><a href="/de/regulierung/cada-bericht/">CADA-Bericht</a><hr><a href="/de/sitemap/#normas">Alle Vorschriften (A–Z)</a></div></div><div class="sx-dd"><a href="/de/unternehmen/">Unternehmen</a><button type="button" aria-expanded="false" aria-label="Aufklappen: Unternehmen"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/de/unternehmen/#como">Unser Ansatz</a><a href="/de/unternehmen/#experiencia">Referenzen</a><a href="/de/unternehmen/#sectores">Branchen</a></div></div><a class="sx-cta" href="/de/kontakt/">Kontakt</a></nav>
+  <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Sprache"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>DE</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/csa2-eucs/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulation/csa2-eucs/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/reglementation/csa2-eucs/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulierung/csa2-eucs/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regelgeving/csa2-eucs/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulamentacao/csa2-eucs/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/normativa/csa2-eucs/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulering/csa2-eucs/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/reglementation/csa2-eucs/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regelgeving/csa2-eucs/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Abschnitte der Seite"><div class="wrap">
+  <a href="#resumen">Überblick</a><a href="#espana">Deutschland</a><a href="#paises">Andere Länder</a><a href="#obligaciones">Je Akteur</a><a href="#retos">Herausforderungen</a><a href="#riesgos">Risiken</a><a href="#casos">Fälle</a><a href="#cadena">Hohes Risiko</a><a href="#certificacion">Zertifizierung</a><a href="#eucs">EUCS</a><a href="#tramitacion">Verhandlung</a><a href="#oportunidades">Chancen</a><a href="#hacer">Was tun</a><a href="#faq">Fragen</a><a href="#fuentes">Quellen</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Brotkrumen"><a href="/de/">Start</a> › <a href="/de/regulierung/">EU-Regulierung</a> › CSA2 und EUCS in Deutschland</nav>
+    <div class="eyebrow">Cybersicherheit und Souveränität · Deutschland</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="flag">Deutschland</span><span class="badge b-pro">Vorschlag in Verhandlung</span><span class="layer l-arg">ARGOS</span></div>
+        <h1>CSA2 und EUCS in Deutschland: Ende 2026 muss Huawei aus dem 5G-Kern</h1>
+        <p class="lead">Die Kommission schlug im Januar 2026 vor, den Cybersecurity Act durch eine Verordnung zu ersetzen, mit der <b>Hochrisiko-Anbieter</b> aus Drittstaaten benannt und aus kritischen Anlagen entfernt werden könnten und die die <b>europäische Zertifizierung</b> beschleunigt. Deutschland hat sich vertraglich festgelegt: Kritische Komponenten von <b>Huawei und ZTE</b> müssen bis Ende 2026 aus dem 5G-Kernnetz und ihre kritischen Managementsysteme bis Ende 2029 aus dem Zugangs- und Transportnetz. Das <b>BSI</b> ist nationale Zertifizierungsbehörde und führt mit <b>C5</b> die Cloud-Referenz.</p>
+        <div class="callout">Es ist ein Vorschlag, kein Gesetz. Für deutsche Betreiber ist der Austausch im Kern aber bereits Pflicht, und die erste Frist läuft in wenigen Wochen ab.</div>
+        <div class="hero-cta"><a class="btn btn-gold" href="/de/regulierung/#contacto">Sprechen wir über Ihren Fall</a><a class="btn btn-line" href="/de/regulierung/#diagnostico">Selbstdiagnose</a></div>
+      </div>
+      <div class="facts">
+        <h4>Steckbrief Deutschland</h4>
+        <dl class="kv">
+          <dt>Vorschlag</dt><dd>COM(2026) 11, 20-1-2026; würde die Verordnung (EU) 2019/881 ersetzen</dd>
+          <dt>Stand</dt><dd>In Verhandlung in Rat und Parlament</dd>
+          <dt>Zertifizierungsbehörde</dt><dd>BSI (seit dem IT-Sicherheitsgesetz 2.0)</dd>
+          <dt>Cloud-Referenz</dt><dd>C5-Kriterienkatalog des BSI</dd>
+          <dt>Hohes Risiko im 5G</dt><dd>Kern bis Ende 2026, Management bis Ende 2029</dd>
+          <dt>Geltendes EU-Schema</dt><dd>EUCC (Durchführungsverordnung 2024/482)</dd>
+          <dt>Vorgeschlagene Bußgelder</dt><dd>Bis zu 7 % des weltweiten Umsatzes</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Das Wichtigste für ein Unternehmen in Deutschland</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>Risiko wird geopolitisch</h4><p>Es reicht nicht mehr, dass ein Gerät technisch sicher ist: Entscheidend ist, wer den Hersteller kontrolliert. Ein benannter Anbieter wäre von Schlüsselanlagen, öffentlichen Aufträgen und europäischer Zertifizierung ausgeschlossen.</p><div class="mini">Titel IV des Vorschlags</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>C5 bleibt Maßstab</h4><p>Solange es kein EUCS gibt, ist das C5-Testat des BSI der Nachweis, den öffentliche und regulierte Kunden in Deutschland von Cloud-Anbietern verlangen.</p><div class="mini">BSI C5</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Inventar vor den Listen</h4><p>Wer heute weiß, welche Komponenten er hat und von wem, kann auf eine Liste in Tagen reagieren. Wer nicht, braucht Monate.</p><div class="mini">Fahrplan</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Lage in Deutschland · November 2026</div><h2>Was in Deutschland anders ist als im Rest der EU</h2>
+    <p class="lead">Deutschland hat lange gezögert, dann aber feste Fristen vereinbart und verfügt mit dem BSI über eine starke Zertifizierungsbehörde.</p></div>
+    <div class="grid3">
+      <div class="card"><h4>Das BSI zertifiziert</h4><p>Mit dem IT-Sicherheitsgesetz 2.0 vom Mai 2021 wurde das BSI als nationale Zertifizierungsbehörde benannt. Es stellt europäische Zertifikate der Stufe „hoch“ aus und überwacht die Schemata.</p></div>
+      <div class="card"><h4>Verträge statt Verbot</h4><p>Das Bundesinnenministerium hat mit Deutscher Telekom, Vodafone und Telefónica öffentlich-rechtliche Verträge geschlossen, die sie zum Austausch kritischer Komponenten von Huawei und ZTE verpflichten.</p></div>
+      <div class="card"><h4>Zwei Stufen</h4><p>Bis Ende 2026 müssen die Komponenten aus dem 5G-Kernnetz, bis Ende 2029 die kritischen Managementsysteme aus dem Zugangs- und Transportnetz.</p></div>
+      <div class="card"><h4>Hoher Ausgangsbestand</h4><p>Ende 2022 stammten laut Strand Consult 59 % des in Deutschland verbauten 5G-RAN von chinesischen Anbietern. Der Austausch ist entsprechend aufwendig.</p></div>
+      <div class="card"><h4>C5 und Souveränität</h4><p>Der C5-Katalog des BSI ist in Deutschland die Referenz für Cloud-Sicherheit. Die Frage der Souveränität, die in Frankreich SecNumCloud regelt, bleibt beim EUCS weiter offen.</p></div>
+      <div class="card"><h4>Souveräne Anbieter</h4><p>STACKIT, die Cloud der Schwarz-Gruppe, erreichte 2026 in der Ausschreibung der Kommission für souveräne Cloud die Stufe SEAL-3.</p></div>
+    </div>
+    <p class="note">Vergleich mit Spanien, Portugal, Belgien, den Niederlanden, Frankreich, Italien und Dänemark weiter unten.</p>
+  </div>
+</section>
+
+<section class="sec" id="paises">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">In jedem Land</div><h2>Zertifizierung, Cloud und Hochrisiko-Anbieter in den acht wichtigsten Märkten</h2>
+    <p class="lead">Der CSA2 ist noch kein Gesetz, aber jeder Mitgliedstaat hat bereits eine nationale Behörde für die Cybersicherheitszertifizierung (benannt nach dem Cybersecurity Act von 2019), eine eigene Referenz für die Cloud und eine eigene Antwort auf Hochrisiko-Anbieter im 5G. Darauf setzt die Verordnung auf.</p></div>
+    <div class="tbl"><table><caption class="sr">Zertifizierung, Cloud und Hochrisiko-Anbieter nach Land</caption>
+      <thead><tr><th style="width:120px">Land</th><th>Zertifizierungsbehörde</th><th>Nationale Cloud-Referenz</th><th>Hochrisiko-Anbieter im 5G</th></tr></thead><tbody>
+      <tr><td><b>Spanien</b></td><td>CCN</td><td>ENS (RD 311/2022) und CCN-STIC-Leitfäden</td><td>Das 5G-Cybersicherheitsgesetz erlaubt die Einstufung; keine öffentliche Benennung</td></tr>
+      <tr><td><b>Portugal</b></td><td>CNCS</td><td>Kein eigenes Cloud-Schema</td><td>Ausschluss durch Beschluss 1/2023 des CSSC; vor Gericht angefochten</td></tr>
+      <tr><td><b>Belgien</b></td><td>CCB</td><td>Kein eigenes Cloud-Schema</td><td>Hohes Risiko seit 2020 aus dem 5G-Kern; die Betreiber ersetzten Huawei</td></tr>
+      <tr><td><b>Niederlande</b></td><td>RDI</td><td>Kein eigenes Cloud-Schema</td><td>Risikoanbieter per Verfügung aus kritischen Netzteilen; 2026 gerichtlich bestätigt</td></tr>
+      <tr><td><b>Deutschland</b></td><td>BSI</td><td>C5-Kriterienkatalog des BSI</td><td>Huawei und ZTE Ende 2026 aus dem 5G-Kern und bis 2029 aus dem Management des Zugangsnetzes</td></tr>
+      <tr><td><b>Frankreich</b></td><td>ANSSI</td><td>SecNumCloud, gesetzlich vorgeschrieben für sensible Daten des Staates</td><td>Gesetz von 2019: Vorabgenehmigung der ANSSI; Huawei-Antennen bis 2028 abzubauen</td></tr>
+      <tr><td><b>Italien</b></td><td>ACN</td><td>Cloud-Qualifizierung der ACN für die Verwaltung (Stufen 1 bis 4)</td><td>Golden Power: 5G-Verträge mit Auflagen oder untersagt</td></tr>
+      <tr><td><b>Dänemark</b></td><td>Sikkerhedsstyrelsen</td><td>Kein eigenes Cloud-Schema</td><td>Gesetz über Lieferantensicherheit in der Telekommunikation (2021): Anbieter können verboten werden</td></tr>
+    </tbody></table></div>
+    <div class="callout">Der CSA2 würde diese nationalen Antworten in einen gemeinsamen Rahmen überführen: europäische Listen von Hochrisiko-Anbietern und europäische Zertifizierung mit Rechtswirkung. Länder, die bereits gehandelt haben, wie Frankreich, Deutschland oder Portugal, wird das weniger verändern als die anderen.</div>
+    <p class="dl">Stand 14-11-2026.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="obligaciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Was es für jeden Akteur bedeutet</div><h2>Was der CSA2 vorschlägt und was jetzt vorzubereiten ist</h2>
+    <p class="lead">Der CSA2 ist ein Vorschlag in Verhandlung: Er schafft noch keine Pflichten. Die Richtung ist aber klar, und Verträge, die heute unterschrieben werden, laufen noch, wenn er gilt. Das sollte jedes Glied vorbereiten.</p></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="oF" role="tab" aria-selected="true">Hersteller</button>
+      <button class="tab" data-p="oM" role="tab" aria-selected="false">Großhändler oder Distributor</button>
+      <button class="tab" data-p="oI" role="tab" aria-selected="false">Integrator</button>
+      <button class="tab" data-p="oN" role="tab" aria-selected="false">Cloud-Anbieter</button>
+      <button class="tab" data-p="oC" role="tab" aria-selected="false">NIS2-Kunde oder Betreiber</button>
+    </div>
+    <div class="tabpane on" id="oF" role="tabpanel"><div class="tbl"><table><caption class="sr">Hersteller</caption>
+      <thead><tr><th>Was der CSA2 vorschlägt</th><th style="width:130px">Grundlage</th><th style="width:120px">Wann</th><th>Was vorzubereiten ist</th></tr></thead><tbody>
+      <tr><td>Ein Anbieter unter Kontrolle eines benannten Drittstaats könnte als Hochrisiko eingestuft werden: ausgeschlossen von öffentlichen Aufträgen für Schlüsselanlagen, von EU-Förderung und von der europäischen Zertifizierung</td><td>Titel IV des Vorschlags</td><td>Nach Annahme und ersten Listen</td><td>Transparenz über Eigentum, Kontrolle und Herkunft der Komponenten</td></tr>
+      <tr><td>Europäische Schemata in zwölf Monaten erarbeitet, mit Konformitätsvermutung für andere Rechtsakte wie den CRA</td><td>Titel III des Vorschlags</td><td>Nach Annahme</td><td>Übersicht der Schemata je Produkt</td></tr>
+      <tr><td>Bereits verfügbar: das EUCC-Zertifikat (Common Criteria) für IKT-Produkte, Stufen „substanziell“ und „hoch“</td><td>Durchführungsverordnung 2024/482</td><td>Bereits</td><td>EUCC für Sicherheitsprodukte prüfen</td></tr>
+      
+    </tbody></table></div>
+    <div class="callout">Eine Komponente eines benannten Anbieters in Ihrem Produkt kann es aus den Schlüsselanlagen Ihrer Kunden ausschließen. Transparenz der Lieferkette wird zum Verkaufsargument.</div></div>
+
+    <div class="tabpane" id="oM" role="tabpanel"><div class="tbl"><table><caption class="sr">Großhändler oder Distributor</caption>
+      <thead><tr><th>Was der CSA2 vorschlägt</th><th style="width:130px">Grundlage</th><th style="width:120px">Wann</th><th>Was vorzubereiten ist</th></tr></thead><tbody>
+      <tr><td>Verbot von Komponenten von Hochrisiko-Anbietern in IKT-Schlüsselanlagen von NIS2-Einrichtungen</td><td>Titel IV des Vorschlags</td><td>Nach Benennung</td><td>Katalog nach Kontrollstaat des Herstellers markiert</td></tr>
+      <tr><td>Ausschluss benannter Anbieter von Ausschreibungen für Schlüsselanlagen</td><td>Titel IV des Vorschlags</td><td>Nach Benennung</td><td>Alternativen im Katalog für jede betroffene Linie</td></tr>
+      <tr><td>Lagerbestand und Supportverträge von Marken, die benannt werden könnten</td><td>Praktische Folge</td><td>Ab sofort</td><td>Ausstiegsklauseln mit Herstellern und Kunden</td></tr>
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oI" role="tabpanel"><div class="tbl"><table><caption class="sr">Integrator</caption>
+      <thead><tr><th>Was der CSA2 vorschlägt</th><th style="width:130px">Grundlage</th><th style="width:120px">Wann</th><th>Was vorzubereiten ist</th></tr></thead><tbody>
+      <tr><td>NIS2-Kunden müssen Hochrisiko-Komponenten in festen Fristen aus ihren Schlüsselanlagen entfernen</td><td>Titel IV · Anhang II</td><td>Nach Benennung</td><td>Komponenteninventar nach Anbieter und Land bei jedem Kunden</td></tr>
+      <tr><td>Zertifizierung der Cybersicherheitslage einer Organisation</td><td>Titel III des Vorschlags</td><td>Nach Annahme</td><td>Beratungsangebot zur Zertifizierung</td></tr>
+      <tr><td>Verantwortung für Architekturen mit Schlüsselanlagen</td><td>Praktische Folge</td><td>Ab sofort</td><td>Entwürfe ohne Abhängigkeit von einem Anbieter</td></tr>
+      
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oN" role="tabpanel"><div class="tbl"><table><caption class="sr">Cloud-Anbieter</caption>
+      <thead><tr><th>Was der CSA2 vorschlägt</th><th style="width:130px">Grundlage</th><th style="width:120px">Wann</th><th>Was vorzubereiten ist</th></tr></thead><tbody>
+      <tr><td>Das EUCS ist weiter nicht angenommen; der Vorschlag nimmt Souveränität aus der Zertifizierung heraus und behandelt sie in der Lieferkette</td><td>Titel III und IV</td><td>Offen</td><td>Nationale Zertifizierungen bis dahin</td></tr>
+      <tr><td>Nationale Schemata mit demselben Gegenstand wie ein europäisches Schema wären nicht mehr zulässig</td><td>Titel III des Vorschlags</td><td>Sobald es das europäische Schema gibt</td><td>Übergangsplan vom nationalen Schema</td></tr>
+      <tr><td>Die CADA und der Souveränitätsrahmen der Kommission messen Souveränität bereits in Stufen</td><td>CADA-Vorschlag · Cloud Sovereignty Framework</td><td>Seit 2026 bei Beschaffungen der Kommission</td><td>Selbstbewertung nach den acht Zielen des Rahmens</td></tr>
+      <tr><td><b>Deutschland:</b> das C5-Testat des BSI ist der Nachweis, den öffentliche und regulierte Kunden von Cloud-Anbietern verlangen</td><td>BSI C5</td><td>Bereits</td><td>C5-Testat (Typ 2) und Abgleich mit künftigen EU-Schemata</td></tr>
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oC" role="tabpanel"><div class="tbl"><table><caption class="sr">NIS2-Kunde oder Betreiber</caption>
+      <thead><tr><th>Was der CSA2 vorschlägt</th><th style="width:130px">Grundlage</th><th style="width:120px">Wann</th><th>Was vorzubereiten ist</th></tr></thead><tbody>
+      <tr><td>Entfernung von Hochrisiko-Komponenten aus Schlüsselanlagen; für Mobilfunknetze schlug die Kommission 36 Monate vor, die Mitgliedstaaten wollen im Einzelfall entscheiden</td><td>Titel IV · Anhang II</td><td>Nach Benennung</td><td>Inventar der Anbieter aus Drittstaaten in kritischen Anlagen</td></tr>
+      <tr><td>Transparenzpflichten, geprüfte Schutzvorkehrungen und Grenzen der Fernverarbeitung</td><td>Titel IV des Vorschlags</td><td>Nach Benennung</td><td>Audit- und Fernzugriffsklauseln in Verträgen</td></tr>
+      <tr><td>Heute geschlossene Verträge, die über den Anwendungsbeginn hinaus laufen</td><td>Praktische Folge</td><td>Ab sofort</td><td>Austausch- und Ausstiegsklauseln</td></tr>
+      <tr><td><b>Deutschland:</b> Mobilfunkbetreiber sind vertraglich verpflichtet, kritische Komponenten von Huawei und ZTE bis Ende 2026 aus dem 5G-Kern zu entfernen</td><td>Öffentlich-rechtliche Verträge mit dem BMI</td><td>Ende 2026 · Ende 2029</td><td>Nachweis des Austauschs und Plan für das Zugangsnetz</td></tr>
+    </tbody></table></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="retos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Herausforderungen für die ganze Wertschöpfungskette</div><h2>Vom technischen zum geopolitischen Risiko</h2>
+    <p class="lead">Bisher wurde Cybersicherheit in Schwachstellen gemessen. Der CSA2 fügt für jede Komponente eine neue Frage hinzu: Wer kontrolliert den, der sie herstellt.</p></div>
+    <div class="flow" aria-label="Die Wertschöpfungskette unter dem CSA2">
+      <div><b>Komponenten</b>Herkunft und Kontrolle des Herstellers</div>
+      <div><b>Hersteller</b>Transparenz und Zertifizierung</div>
+      <div><b>Großhändler</b>Katalog nach Risiko markiert</div>
+      <div><b>Integrator</b>Inventar und Austausch</div>
+      <div><b>Cloud</b>Zertifizierung und Souveränität</div>
+      <div><b>NIS2-Kunde</b>Saubere Schlüsselanlagen</div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h4><span class="k">01</span>Wissen, was verbaut ist</h4><p>Wenige Organisationen haben ein Komponenteninventar nach Hersteller und Kontrollstaat. Ohne es wird aus einer Hochrisiko-Liste kein Plan.</p></div>
+      <div class="card"><h4><span class="k">02</span>Schlüsselanlagen bestimmen</h4><p>Das Verbot träfe IKT-Schlüsselanlagen, die in koordinierten Bewertungen bestimmt werden. Bis dahin muss jeder Sektor sie vorwegnehmen.</p></div>
+      <div class="card"><h4><span class="k">03</span>Austauschkosten</h4><p>Die Betreiber sprechen von Milliarden. In Portugal fordert ein Betreiber bereits Entschädigung vom Staat für den Ausschluss seines Lieferanten.</p></div>
+      <div class="card"><h4><span class="k">04</span>Fristen, die sich verschieben</h4><p>Die Kommission schlug 36 Monate für Mobilfunknetze vor; die Mitgliedstaaten wollen im Einzelfall entscheiden. Mit einer einzigen Frist zu planen, ist riskant.</p></div>
+      <div class="card"><h4><span class="k">05</span>Ein Cloud-Schema, das nicht kommt</h4><p>Sieben Jahre nach dem Auftrag gibt es das EUCS nicht. Jedes Land behält seine Referenz: SecNumCloud, C5, ENS oder die ACN-Qualifizierung.</p></div>
+      <div class="card"><h4><span class="k">06</span>Fragmentierung</h4><p>Ein Cloud-Anbieter, der in mehreren Ländern verkauft, braucht mehrere nationale Zertifizierungen. Der CSA2 verspricht ein einheitliches Schema, aber noch ohne Termin.</p></div>
+      <div class="card"><h4><span class="k">07</span>Langfristige Verträge</h4><p>Ein heute geschlossener Netz- oder Cloudvertrag über acht Jahre wird mit den Hochrisiko-Listen zusammenfallen. Ohne Ausstiegsklausel trägt der Unterzeichner die Kosten.</p></div>
+      <div class="card"><h4><span class="k">08</span>Umstrittene Rechtsgrundlage</h4><p>Mehrere Mitgliedstaaten bezweifeln die Zuständigkeit der EU in Fragen der nationalen Sicherheit. Der Endtext kann enger ausfallen als der Vorschlag.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="riesgos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Risikokarte</div><h2>Was schiefgehen kann und was es kostet</h2>
+    <p class="lead">Wahrscheinlichkeit geschätzt von Software in a Box für ein Unternehmen in Deutschland im November 2026, unter der Annahme einer Annahme des CSA2 im Jahr 2027.</p></div>
+    <div class="tbl risk"><table><caption class="sr">Risikokarte des CSA2 in Deutschland</caption>
+      <thead><tr><th>Risiko</th><th>Wen es trifft</th><th>Wahrscheinlichkeit</th><th>Auswirkung</th><th>Wie es eintritt</th><th>Abhilfe</th></tr></thead><tbody>
+      <tr><td><b>Frist Ende 2026</b> verfehlt</td><td>Mobilfunkbetreiber, Lieferanten</td><td><span class="lvl m">Mittel</span></td><td><span class="lvl h">Hoch</span></td><td>Kritische Komponenten im Kern nicht rechtzeitig ersetzt</td><td>Austauschplan mit Meilensteinen und Reserven</td></tr>
+      <tr><td><b>Austausch außerhalb des Telekom-Sektors</b></td><td>NIS2-Einrichtung (Energie, Gesundheit, Verkehr)</td><td><span class="lvl m">Mittel</span></td><td><span class="lvl h">Sehr hoch</span></td><td>Eine europäische Liste gilt auch für andere Sektoren</td><td>Inventar und gestufter Austauschplan</td></tr>
+      <tr><td><b>Ausschluss von Ausschreibungen</b></td><td>Hersteller, Großhändler</td><td><span class="lvl m">Mittel</span></td><td><span class="lvl h">Hoch</span></td><td>Ein benannter Anbieter kann sich nicht mehr für Schlüsselanlagen bewerben</td><td>Alternativen im Katalog</td></tr>
+      <tr><td><b>Vertrag ohne Ausstieg</b></td><td>Kunde, Integrator</td><td><span class="lvl h">Hoch</span></td><td><span class="lvl m">Mittel</span></td><td>Langfristige Verträge ohne Austauschklausel</td><td>Ausstiegsklauseln in neuen Verträgen</td></tr>
+      <tr><td><b>Doppelte Zertifizierung</b></td><td>Cloud-Anbieter</td><td><span class="lvl h">Hoch</span></td><td><span class="lvl m">Mittel</span></td><td>Kunden im Ausland verlangen SecNumCloud oder andere Nachweise zusätzlich zu C5</td><td>Zertifizierung nach Zielmärkten planen</td></tr>
+      <tr><td><b>Planung mit wandernder Frist</b></td><td>Betreiber, Integrator</td><td><span class="lvl m">Mittel</span></td><td><span class="lvl m">Mittel</span></td><td>Die 36-Monats-Frist kann entfallen oder kürzer werden</td><td>Szenarien mit mehreren Fristen</td></tr>
+    </tbody></table></div>
+    <p class="note">Wahrscheinlichkeit und Auswirkung sind indikative Schätzungen, keine rechtliche Prognose.</p>
+  </div>
+</section>
+
+<section class="sec" id="casos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Fallstudien</div><h2>Was in Deutschland bereits passiert ist</h2>
+    <p class="lead">Echte und öffentliche Fälle, mit Quelle. Sie zeigen, wie Deutschland den Austausch von Hochrisiko-Anbietern organisiert hat und was souveräne Cloud aus Deutschland heute erreicht.</p></div>
+    <div class="grid2">
+      <article class="case"><div class="meta"><span class="badge b-vig">Vertrag</span>Bundesinnenministerium · 2024</div><h4>Huawei und ZTE raus aus dem 5G-Kern</h4><dl>
+        <dt>Was geschah</dt><dd>Nach umfangreichen Prüfungen verhandelte das Bundesinnenministerium im Sommer 2024 mit Deutscher Telekom, Vodafone und Telefónica und schloss mit allen drei öffentlich-rechtliche Verträge.</dd>
+        <dt>Ergebnis</dt><dd>Kritische Komponenten von Huawei und ZTE müssen bis Ende 2026 aus den 5G-Kernnetzen verschwinden; die kritischen Managementsysteme im Zugangs- und Transportnetz bis Ende 2029. Die erste Frist wurde dabei um ein Jahr verlängert.</dd>
+        <dt>Lehre für den CSA2</dt><dd>Ohne europäischen Rahmen hat Deutschland Jahre gebraucht und Fristen verlängert. Der CSA2 würde Fristen und Verfahren für alle Mitgliedstaaten vereinheitlichen.</dd></dl>
+        <div class="src-l">Quelle: <a href="https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2024/07/5g-en.html">BMI</a> · <a href="https://telecomtv.com/content/5g/germany-finally-unveils-huawei-zte-ban-plan-50809">TelecomTV</a></div></article>
+      <article class="case"><div class="meta"><span class="badge b-pro">Beschaffung</span>Kommission · 2026</div><h4>STACKIT erreicht SEAL-3 in der souveränen Cloud</h4><dl>
+        <dt>Was geschah</dt><dd>Im April 2026 vergab die Kommission ihre Ausschreibung für souveräne Cloud, bis zu 180 Millionen Euro über sechs Jahre, an vier europäische Anbieter. STACKIT, die Cloud der Schwarz-Gruppe, ist einer davon.</dd>
+        <dt>Ergebnis</dt><dd>STACKIT erreichte wie Scaleway und Post Telecom mit OVHcloud und Clever Cloud die Stufe SEAL-3 des Cloud Sovereignty Framework. Kein Anbieter erreichte SEAL-4, das eine vollständig europäische Lieferkette verlangt.</dd>
+        <dt>Lehre</dt><dd>Ohne EUCS misst die öffentliche Beschaffung Souveränität bereits. Anbieter mit eigener Technologie haben einen Vorsprung.</dd></dl>
+        <div class="src-l">Quelle: <a href="https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en">Europäische Kommission</a> · <a href="https://www.vshn.ch/en/blog/eur-180-million-for-sovereign-cloud-what-the-eus-first-sovereignty-scored-procurement-means-for-swiss-organisations/">VSHN</a></div></article>
+    </div>
+    <div class="split">Veranschaulichende Szenarien je Glied</div>
+    <p class="mut" style="max-width:52em">Dies sind keine echten Fälle: Sie beschreiben typische Situationen, um zu zeigen, wie der Vorschlag wirken könnte.</p>
+    <div class="grid2">
+      <article class="case scen"><div class="meta"><span class="sl">Veranschaulichendes Szenario</span></div><h4>Wasserversorger erneuert sein OT-Netz</h4><dl>
+        <dt>Situation</dt><dd>Ein Wasserversorger, NIS2-Einrichtung, schreibt Industrie-Switches und Firewalls für die nächsten zehn Jahre aus.</dd>
+        <dt>Risiko</dt><dd>Würde einer der angebotenen Hersteller als Hochrisiko benannt, müsste er ihn aus seinen Schlüsselanlagen entfernen.</dd>
+        <dt>Was tun</dt><dd>In der Ausschreibung Eigentum und Kontrollstaat des Herstellers sowie kostenfreie Austauschklauseln verlangen.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Veranschaulichendes Szenario</span></div><h4>Großhändler mit asiatischer Speichermarke</h4><dl>
+        <dt>Situation</dt><dd>Ein Großhändler vertreibt Speichersysteme eines Herstellers aus einem Drittstaat an Integratoren im öffentlichen Sektor.</dd>
+        <dt>Risiko</dt><dd>Eine Benennung schlösse ihn von Ausschreibungen für Schlüsselanlagen aus und hinterließe schwer verkäuflichen Bestand.</dd>
+        <dt>Was tun</dt><dd>Eine europäische oder verbündete Alternative im Katalog führen und gebundenen Bestand begrenzen.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Veranschaulichendes Szenario</span></div><h4>Integrator eines Krankenhauses</h4><dl>
+        <dt>Situation</dt><dd>Ein Integrator betreut Netz und Server eines Krankenhauses mit Geräten verschiedener Marken.</dd>
+        <dt>Risiko</dt><dd>Das Krankenhaus wird ein Inventar nach Hersteller und Land verlangen und einen Austauschplan, sobald es Listen gibt.</dd>
+        <dt>Was tun</dt><dd>Das Inventar jetzt aufbauen und als wiederkehrende Leistung anbieten.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Veranschaulichendes Szenario</span></div><h4>Regionaler Cloud-Anbieter</h4><dl>
+        <dt>Situation</dt><dd>Ein nationaler Cloud-Anbieter will an Verwaltungen in zwei Ländern verkaufen.</dd>
+        <dt>Risiko</dt><dd>Ohne EUCS braucht er eine Zertifizierung je Land, und seine Lieferkette wird bewertet.</dd>
+        <dt>Was tun</dt><dd>Nach der nationalen Referenz seines Hauptmarkts zertifizieren und sich am Souveränitätsrahmen der Kommission messen.</dd></dl></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="cadena">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Titel IV des Vorschlags</div><h2>Sicherheit der IKT-Lieferkette</h2>
+    <p class="lead">Ein neuer horizontaler Rahmen für nicht-technische Risiken, anwendbar auf die NIS2-Sektoren, der verbindlich macht, was die 5G-Toolbox jedem Mitgliedstaat überließ.</p></div>
+    <div class="levels">
+      <div class="lv"><div class="big">1</div><div class="tag">Risikobewertung</div><ul><li>Koordinierte Bewertungen kritischer Dienste, Systeme oder Produkte auf EU-Ebene</li><li>Ermittlung zentraler IKT-Anlagen</li></ul></div>
+      <div class="lv"><div class="big">2</div><div class="tag">Benennung</div><ul><li>Drittstaaten, die Cybersicherheitsbedenken aufwerfen</li><li>Listen von Hochrisikoanbietern durch Durchführungsrechtsakte</li></ul></div>
+      <div class="lv"><div class="big">3</div><div class="tag">Maßnahmen</div><ul><li>Verbot, ihre Komponenten in zentralen Anlagen zu verwenden</li><li>Transparenz, geprüfte Schutzvorkehrungen, Beschränkungen der Fernverarbeitung</li></ul></div>
+      <div class="lv"><div class="big">4</div><div class="tag">Entfernung</div><ul><li>Mobilfunknetze: höchstens 36 Monate</li><li>Festnetze, Satellit und andere Sektoren: Fristen per Durchführungsrechtsakt</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="card soft"><h4>Folgen für einen Hochrisikoanbieter</h4><ul class="check">
+        <li>Ausschluss von öffentlichen Aufträgen über zentrale IKT-Anlagen</li>
+        <li>Ausschluss von Unionsmitteln</li>
+        <li>Kein Recht, europäische Zertifikate zu beantragen oder zu behalten</li>
+        <li>Ausschluss von der Erarbeitung europäischer Normen</li>
+        <li>Ausnahmeverfahren, Verteidigungsrechte und öffentliches Register der Entscheidungen</li></ul></div>
+      <div class="card soft"><h4>Die Kritik</h4><p>Juristen und die spanische Handelskammer stellen die Rechtsgrundlage in Fragen der nationalen Sicherheit infrage und fordern begründete, überprüfbare Entscheidungen statt pauschaler Ausschlüsse. Mehrere Mitgliedstaaten brachten dies im Rat vor. Die Telekommunikationsbranche schätzt die Austauschkosten auf Milliarden.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="certificacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Europäischer Zertifizierungsrahmen</div><h2>Was sich bei der Zertifizierung ändert</h2>
+    <p class="lead">In sieben Jahren hat der Cybersecurity Act nur ein angenommenes Schema hervorgebracht. Der Vorschlag räumt ein, dass die Umsetzung „ins Stocken geraten“ ist.</p></div>
+    <div class="tbl"><table><caption class="sr">Zertifizierung: heute und mit dem CSA2</caption>
+      <thead><tr><th style="width:220px">Aspekt</th><th>Cybersecurity Act (2019)</th><th>CSA2-Vorschlag</th></tr></thead><tbody>
+      <tr><td><b>Vorbereitungsfrist</b></td><td>Keine Frist</td><td>Zwölf Monate ab dem Auftrag, sofern nichts anderes festgelegt ist</td></tr>
+      <tr><td><b>Gegenstand</b></td><td>IKT-Produkte, -Dienste und -Prozesse; verwaltete Sicherheitsdienste</td><td>Zusätzlich die Cybersicherheitslage einer Organisation</td></tr>
+      <tr><td><b>Rechtswirkung</b></td><td>Freiwillig, sofern kein anderes Regelwerk es verlangt</td><td>Freiwillig, aber mit Konformitätsvermutung für andere EU-Regelwerke</td></tr>
+      <tr><td><b>Nationale Schemata</b></td><td>Bestehen neben den europäischen</td><td>Unzulässig, wenn sie denselben Gegenstand wie ein europäisches Schema haben</td></tr>
+      <tr><td><b>Nicht-technische Risiken</b></td><td>Offene Debatte (Souveränität im EUCS)</td><td>Außerhalb der Zertifizierung: im Rahmen der Lieferkette behandelt</td></tr>
+    </tbody></table></div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="card soft"><h4>EUCC, das Schema, das funktioniert</h4><p>Basiert auf den Common Criteria (ISO/IEC 15408) für IKT-Produkte, mit den Stufen „substanziell“ und „hoch“. Geändert durch die Durchführungsverordnungen 2024/3144 und 2025/2462. Die ENISA veröffentlicht die Zertifikate. Der CRA sieht vor, dass es eine Konformitätsvermutung begründet.</p></div>
+      <div class="card soft"><h4>ENISA mit mehr Aufgaben</h4><p>Frühwarnungen, Unterstützung bei Risikobewertungen der Lieferkette, Testumgebungen, Bewertung harmonisierter Normen und ein Pilotprojekt zur Akkreditierung von Cybersicherheitskompetenzen.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="eucs">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">European Cybersecurity Certification Scheme for Cloud Services</div><h2>Das EUCS: sieben Jahre Blockade</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Was es ist</h4><p>Ein Zertifizierungsschema für Cloud-Dienste mit drei Stufen (niedrig, substanziell und hoch). Der erste Entwurf der ENISA stammt vom Dezember 2020.</p><h4 style="margin-top:16px">Warum es nicht vorankommt</h4><p>Frankreich und andere Mitgliedstaaten verlangten für die hohe Stufe <b>Souveränitäts</b>anforderungen: Sitz in der EU, Daten in der EU und Vorrang des EU-Rechts vor Gesetzen von Drittstaaten. Der Entwurf vom Mai 2023 enthielt sie; spätere Fassungen strichen sie, und das Schema blieb ohne Konsens.</p></div>
+      <div class="card soft"><h4>Bis dahin</h4><ul class="check">
+        <li><b>Frankreich:</b> SecNumCloud der ANSSI mit Anforderungen an die Immunität gegenüber ausländischen Gesetzen, für die Verwaltung bei sensiblen Daten gesetzlich vorgeschrieben.</li>
+        <li><b>Deutschland:</b> C5-Katalog des BSI.</li>
+        <li><b>Spanien:</b> Das ENS und seine Konformitätszertifizierung sind die Referenz im öffentlichen Sektor.</li>
+        <li><b>EU:</b> Der Vorschlag für den <a href="/de/regulierung/#cada">CADA</a> behandelt mit Vertrauensstufen die Souveränität, die das EUCS nicht gelöst hat.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="tramitacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Ordentliches Gesetzgebungsverfahren</div><h2>Stand der Verhandlungen</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Rat</h4><p>Der Fortschrittsbericht vom 22.5.2026 hält Zweifel an der Zuständigkeit der EU für die nationale Sicherheit, an der Reichweite des Mechanismus für Hochrisikoanbieter und an der Beteiligung der Mitgliedstaaten an den Benennungen fest. Eine Abschwächung des Textes ist absehbar.</p></div>
+      <div class="card soft"><h4>Parlament</h4><p>In erster Lesung. EDSA und EDSB haben Klarstellungen zur Verarbeitung personenbezogener Daten durch die ENISA und zum Kompetenzrahmen gefordert.</p></div>
+    </div>
+    <div class="callout">Die befragten Kanzleien und Analysten sind sich einig: politische Einigung nicht vor Ende 2026, eher 2027, und Anwendung der Entfernungsfristen (36 Monate) erst nach der Benennung.</div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Zeitplan</div><h2>Vom Cybersecurity Act 2019 zum CSA2</h2></div>
+    <div class="tbl"><table><caption class="sr">Zeitplan von CSA2 und EUCS</caption>
+      <thead><tr><th style="width:150px">Datum</th><th>Meilenstein</th><th>Stand</th></tr></thead><tbody>
+      <tr><td><b>27-6-2019</b></td><td>Der Cybersecurity Act (Verordnung 2019/881) tritt in Kraft: ständiges Mandat der ENISA und freiwilliger Zertifizierungsrahmen</td><td><span class="badge b-vig">In Kraft</span></td></tr>
+      <tr><td><b>Dez. 2019</b></td><td>Die Kommission beauftragt die ENISA mit dem Cloud-Schema EUCS</td><td><span class="badge b-esp">Blockiert</span></td></tr>
+      <tr><td><b>31-1-2024</b></td><td>Das EUCC, das erste und einzige europäische Schema, wird angenommen (Durchführungsverordnung 2024/482); Zertifikate seit Februar 2025</td><td><span class="badge b-vig">In Kraft</span></td></tr>
+      <tr><td><b>20-1-2026</b></td><td>CSA2-Vorschlag und Vorschlag zur Änderung von NIS2</td><td><span class="badge b-pro">Vorschlag</span></td></tr>
+      <tr><td><b>18-3-2026</b></td><td>Gemeinsame Stellungnahme 4/2026 von EDSA und EDSB</td><td><span class="badge b-vig">Veröffentlicht</span></td></tr>
+      <tr><td><b>12-5-2026</b></td><td>Ende der öffentlichen Konsultationsfrist</td><td><span class="badge b-vig">Erledigt</span></td></tr>
+      <tr><td><b>22-5-2026</b></td><td>Fortschrittsbericht des Rates: Zweifel der Mitgliedstaaten an Zuständigkeit und Anwendungsbereich</td><td><span class="badge b-vig">Veröffentlicht</span></td></tr>
+      <tr><td><b>2027</b></td><td>Politische Einigung absehbar; unmittelbare Anwendung nach Veröffentlichung</td><td><span class="badge b-gra">Geplant</span></td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Geschäftschancen</div><h2>Wo der Markt liegt</h2>
+    <p class="lead">Die Unsicherheit über Anbieter und Zertifizierung schafft Nachfrage nach Inventarisierung, Austausch und Nachweisen.</p></div>
+    <div class="cards4">
+      <div class="card"><h4>Hersteller</h4><ul class="ul"><li>Transparente Eigentumsverhältnisse als Argument</li><li>EUCC-Zertifizierung für Sicherheitsprodukte</li><li>Konformitätsvermutung für den CRA</li></ul></div>
+      <div class="card"><h4>Großhändler</h4><ul class="ul"><li>Katalog nach Anbieterrisiko markiert</li><li>Alternativen für Schlüsselanlagen</li><li>Austauschleistungen mit Integratoren</li></ul></div>
+      <div class="card"><h4>Integrator</h4><ul class="ul"><li>Inventar nach Hersteller und Land</li><li>Austausch- und Migrationspläne</li><li>Begleitung bei der Zertifizierung</li></ul></div>
+      <div class="card"><h4>Cloud-Anbieter</h4><ul class="ul"><li>Nationale Zertifizierungen heute</li><li>Souveränitätsstufen für die CADA</li><li>Öffentliche Beschaffung mit Souveränitätskriterien</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Zusammenspiel mit anderen Regelwerken</div><h2>Womit er sich überschneidet</h2></div>
+    <div class="tbl"><table><caption class="sr">Verhältnis des CSA2 zu anderen Regelwerken</caption>
+      <thead><tr><th style="width:220px">Regelwerk</th><th>Berührungspunkt</th></tr></thead><tbody>
+      <tr><td><a href="/de/regulierung/nis2/"><b>NIS2</b></a></td><td>Die Verbote von Hochrisikoanbietern würden für NIS2-Einrichtungen gelten; beide Vorschläge wurden zusammen vorgelegt.</td></tr>
+      <tr><td><a href="/de/regulierung/cra/"><b>CRA</b></a></td><td>Ein EUCC-Zertifikat wird über einen delegierten Rechtsakt eine Konformitätsvermutung mit dem CRA begründen.</td></tr>
+      <tr><td><a href="/de/regulierung/#cada"><b>CADA</b></a></td><td>Die Vertrauensstufen des CADA-Vorschlags decken die Cloud-Souveränität ab, die das EUCS nie festlegen konnte; die technische Zertifizierung des CSA2 würde Nachweise für diese Stufen liefern.</td></tr>
+      <tr><td><a href="/de/regulierung/dora/"><b>DORA</b></a></td><td>Gefahr von Doppelungen zwischen der Bewertung kritischer Anbieter nach DORA und den koordinierten Bewertungen des CSA2.</td></tr>
+      <tr><td><b>5G-Toolbox</b></td><td>Empfehlung 2019/534 und Schlussfolgerungen des Rates; der CSA2 macht die Entfernung von Hochrisikoanbietern verpflichtend.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Fahrplan</div><h2>Was während der Verhandlungen zu tun ist</h2></div>
+    <div class="cards4">
+      <div class="card"><h4><span class="k">Jetzt</span>Inventar</h4><ul class="check"><li>Komponenten nach Hersteller und Kontrollstaat</li><li>Eigene kritische Anlagen und die der Kunden</li><li>Abhängigkeiten von einem einzigen Anbieter</li><li>Prüfen, ob eigene Lieferungen an Mobilfunkbetreiber von den Fristen 2026 und 2029 betroffen sind</li></ul></div>
+      <div class="card"><h4><span class="k">2027</span>Verträge</h4><ul class="check"><li>Austausch- und Ausstiegsklauseln</li><li>Transparenz über Eigentum des Anbieters</li><li>Audit und Fernzugriff</li></ul></div>
+      <div class="card"><h4><span class="k">2027</span>Zertifizierung</h4><ul class="check"><li>Nationale Referenz heute</li><li>EUCC für Produkte</li><li>Neue Schemata verfolgen</li></ul></div>
+      <div class="card"><h4><span class="k">Laufend</span>Beobachtung</h4><ul class="check"><li>Endtext von Rat und Parlament</li><li>Erste Hochrisiko-Listen</li><li>Koordinierte Bewertungen je Sektor</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Wie Software in a Box hilft</h4><p><b>ARGOS</b> erfasst Herkunft und Kontrolle jedes Anbieters und jeder Komponente, markiert die Schlüsselanlagen und bewahrt die Zertifizierungsnachweise auf. Erscheint eine Hochrisiko-Liste, ist die Auswirkung in Minuten sichtbar.</p></div>
+      <div class="card"><h4>Mehr unter EU-Regulierung</h4><p>Radar mit 18 Regelwerken, Kalender 2025–2030, Auswirkungsmatrix und Selbstdiagnose.</p><div class="ficha-nav"><a class="btn btn-ink" href="/de/regulierung/">Zurück zum Radar</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="faq">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Häufige Fragen</div><h2>Was wir am häufigsten gefragt werden</h2></div>
+    <details class="faq"><summary>Verpflichtet der CSA2 schon zu etwas?</summary><div>Nein. Es ist ein Vorschlag der Kommission vom 20-1-2026, der in Rat und Parlament verhandelt wird. In Kraft sind der Cybersecurity Act von 2019, das EUCC-Schema und in Deutschland die Verträge zum 5G-Netz.</div></details>
+    <details class="faq"><summary>Was ist ein Hochrisiko-Anbieter?</summary><div>Nach dem Vorschlag ein Anbieter unter Kontrolle eines Drittstaats, den die Union als Cybersicherheitsproblem benannt hat. Die Listen würden durch Durchführungsrechtsakte beschlossen, mit Anhörung und öffentlichem Register.</div></details>
+    <details class="faq"><summary>Muss ich installierte Geräte austauschen?</summary><div>Nur wenn sie von einem benannten Anbieter stammen und in IKT-Schlüsselanlagen einer NIS2-Einrichtung stehen. Die Kommission schlug 36 Monate für Mobilfunknetze vor; die Mitgliedstaaten wollen im Einzelfall entscheiden.</div></details>
+    <details class="faq"><summary>Was wird aus dem EUCS?</summary><div>Es ist weiterhin nicht angenommen. Der Vorschlag nimmt Souveränität aus der Zertifizierung heraus und behandelt sie in der Lieferkette. In Deutschland bleibt C5 die Referenz.</div></details>
+    <details class="faq"><summary>Wer zertifiziert in Deutschland?</summary><div>Das BSI als nationale Zertifizierungsbehörde für Cybersicherheit; es stellt Zertifikate der Stufe „hoch“ aus und überwacht die Einhaltung.</div></details>
+    <details class="faq"><summary>Wann gilt der CSA2?</summary><div>Analysten erwarten keine politische Einigung vor Ende 2026 und halten 2027 für wahrscheinlicher. Die Verordnung gälte unmittelbar; Austauschfristen liefen ab den Benennungen.</div></details>
+  </div>
+</section>
+
+<section class="sec alt" style="padding-top:0">
+  <div class="wrap">
+    <div class="ctaband"><div><h3>Wissen Sie, welche Anbieter aus Drittstaaten in Ihren kritischen Anlagen stecken?</h3><p>Wir helfen beim Aufbau des Inventars, bei der Prüfung der Verträge und bei der Vorbereitung der Zertifizierung, bevor die Hochrisiko-Listen kommen.</p></div><a class="btn btn-gold" href="/de/regulierung/#contacto">Sprechen wir darüber</a></div>
+  </div>
+</section>
+
+<section class="sec" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Wichtigste Quellen</h3>
+    <ul class="src">
+      <li>Kommission · <a href="https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-cybersecurity-act">Vorschlag zur Überarbeitung des Cybersecurity Act</a></li>
+      <li>Geltender Text · <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019R0881">Verordnung (EU) 2019/881 (EUR-Lex)</a></li>
+      <li>Verhandlung · <a href="https://www.techzine.eu/news/infrastructure/144663/telecom-sector-gets-more-time-to-phase-out-high-risk-suppliers/">Mitgliedstaaten streichen die feste 36-Monats-Frist (Techzine)</a></li>
+      <li>BSI · <a href="https://www.bsi.bund.de/dok/ncca-en">Das BSI als nationale Zertifizierungsbehörde</a></li>
+      <li>BSI · <a href="https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Kriterienkatalog-C5/kriterienkatalog-c5_node.html">C5-Kriterienkatalog</a></li>
+      <li>Fall · <a href="https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2024/07/5g-en.html">Einigung zu kritischen Komponenten im 5G-Netz (BMI)</a></li>
+      <li>Fall · <a href="https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en">Ausschreibung für souveräne Cloud (Kommission)</a></li>
+    </ul>
+    <p class="note">Seite erstellt auf Grundlage eines Katalogs von 92 Quellen zum CSA2 und zum EUCS, den Software in a Box pflegt. Indikative Information; keine Rechtsberatung. Letzte Aktualisierung: 14. November 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<!--SX:PG--><nav class="sx-pager" data-nav aria-label="Vorherige Vorschrift / Nächste Vorschrift"><div class="sx-wrap"><a class="sx-prev" href="/de/regulierung/nis2/" rel="prev"><small>← Vorherige Vorschrift</small><b>NIS2 in Deutschland</b></a><a class="sx-up" href="/de/regulierung/#radar">Zurück zum Radar</a><a class="sx-next" href="/de/regulierung/dora/" rel="next"><small>Nächste Vorschrift →</small><b>DORA</b></a></div></nav><!--/SX:PG-->
+<footer class="sx-ft" data-nav>
+  <div class="sx-wrap">
+    <div class="sx-cols">
+      <div><a class="sx-brand" href="/de/">Software in a Box</a><p>Software für sensible Daten: souveräne KI, nachgewiesene Compliance und föderierte Datenräume. Madrid, Europäische Union.</p></div>
+      <div><h2>Produkte</h2><a href="/de/produkte/cognitiv/">COGNITIV</a><a href="/de/produkte/argos/">ARGOS</a><a href="/de/produkte/datenraeume/">Datenräume</a><a href="/de/produkte/">Alle Produkte</a></div>
+      <div><h2>EU-Regulierung</h2><a href="/de/regulierung/">Übersicht und Radar</a><a href="/de/regulierung/cada-bericht/">CADA-Bericht</a><a href="/de/sitemap/#normas">Alle Vorschriften (A–Z)</a></div>
+      <div><h2>Unternehmen</h2><a href="/de/unternehmen/#como">Unser Ansatz</a><a href="/de/unternehmen/#experiencia">Referenzen</a><a href="/de/unternehmen/#sectores">Branchen</a><a href="/de/kontakt/">Kontakt</a></div>
+      <div><h2>Ressourcen</h2><a href="/de/sitemap/">Sitemap</a><a href="https://cognitiv.softwareinabox.eu/">cognitiv.softwareinabox.eu</a><a href="https://argos.softwareinabox.eu/">argos.softwareinabox.eu</a><a href="https://datos.softwareinabox.eu/">datos.softwareinabox.eu</a><a href="/llms.txt">llms.txt</a></div>
+    </div>
+    <div class="sx-legal"><span>© 2026 Software in a Box, eine Marke der Ullswater Investments S.L.</span><nav aria-label="Recht"><a href="/de/impressum.html">Impressum</a><a href="/de/datenschutz.html">Datenschutz</a><a href="/de/cookies.html">Cookies</a></nav></div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.createElement("button"),n=document.createElement("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+<button class="sx-top" type="button" data-nav aria-label="Nach oben" title="Nach oben"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="/assets/nav.js?v=30ca4ad7" defer></script>
+</body>
+</html>

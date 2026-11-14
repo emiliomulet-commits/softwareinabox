@@ -351,6 +351,8 @@ def lfile(pg, lang):
     p = pg.get("paths", {}).get(lang)
     if not p:
         return pg["file"]
+    if p.endswith("/"):  # carpeta con index.html (URL con barra final)
+        return p.strip("/") + "/index.html"
     return (p.strip("/") or "index") + ("" if p.endswith(".html") else ".html")
 
 
@@ -698,8 +700,30 @@ def build_page(pg, lang, tr, missing):
     return add_common(nav.inject(seo_short(raw, pg, lang), pg, lang, tr), pg, lang)
 
 
+def file_dates():
+    """Fecha real de cada fichero publicado: último commit que lo cambió; hoy si tiene cambios sin publicar."""
+    import subprocess
+    today = datetime.date.today().isoformat()
+    dates = {}
+    try:
+        log = subprocess.run(["git", "-C", ROOT, "log", "--format=@%cs", "--name-only", "--no-renames"],
+                             capture_output=True, text=True, check=True).stdout
+        d = None
+        for line in log.splitlines():
+            if line.startswith("@"):
+                d = line[1:]
+            elif line and line not in dates:
+                dates[line] = d
+        st = subprocess.run(["git", "-C", ROOT, "status", "--porcelain", "-uall"], capture_output=True, text=True, check=True).stdout
+        for line in st.splitlines():
+            dates[line[3:].strip().strip('"')] = today
+    except Exception:
+        pass
+    return lambda f: dates.get(f, today)
+
+
 def sitemap():
-    base = SITE["base"]; today = datetime.date.today().isoformat()
+    base = SITE["base"]; date_of = file_dates()
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for pg in SITE["pages"]:
@@ -709,7 +733,8 @@ def sitemap():
         xd = CFG["x_default"] if has_lang(pg, CFG["x_default"]) else SRC
         alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, xd)}"/>'
         for l in active(pg):
-            out.append(f"  <url>\n    <loc>{base}{lpath(pg, l)}</loc>\n    <lastmod>{today}</lastmod>\n"
+            f = pg["file"] if l == SRC else l + "/" + lfile(pg, l)
+            out.append(f"  <url>\n    <loc>{base}{lpath(pg, l)}</loc>\n    <lastmod>{date_of(f)}</lastmod>\n"
                        f"    <changefreq>{pg.get('changefreq', 'monthly')}</changefreq>\n    <priority>{pg.get('priority', '0.5')}</priority>{alts}\n  </url>")
     out.append("</urlset>\n")
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(out))

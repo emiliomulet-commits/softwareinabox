@@ -22,13 +22,21 @@ def serve():
 
 def clear(raw):
     for k in BLOCKS:
-        raw = re.sub(rf"<!--PRE:{k}-->.*?<!--/PRE:{k}-->", f"<!--PRE:{k}--><!--/PRE:{k}-->", raw, flags=re.S)
+        raw = re.sub(rf"<!--PRE:{k}-->.*<!--/PRE:{k}-->", f"<!--PRE:{k}--><!--/PRE:{k}-->", raw, flags=re.S)
     return raw
+
+
+def hub_path(d):
+    """Ruta pública del índice /regulacion/ en cada idioma (sites.json puede traducir el slug)."""
+    import json
+    cfg = json.load(open(os.path.join(ROOT, "i18n", "sites.json"), encoding="utf-8"))
+    pg = next(p for p in cfg["sites"]["www"]["pages"] if p["path"] == "/regulacion/")
+    return ("/" + d if d else "") + (pg.get("paths", {}).get(d) or "/regulacion/") if d else "/regulacion/"
 
 
 def pages():
     for d in LANG_DIRS:
-        p = os.path.join(ROOT, d, "regulacion", "index.html")
+        p = os.path.join(ROOT, hub_path(d).strip("/"), "index.html")
         if os.path.exists(p):
             yield d, p
 
@@ -51,7 +59,7 @@ async def main():
         for d, p in pages():
             pg = await b.new_page()
             await pg.add_init_script("try{localStorage.clear()}catch(e){}")
-            await pg.goto(f"http://127.0.0.1:{srv.server_address[1]}/{d + '/' if d else ''}regulacion/")
+            await pg.goto(f"http://127.0.0.1:{srv.server_address[1]}{hub_path(d)}")
             out = {k: await pg.eval_on_selector(sel, "e=>e.innerHTML") for k, sel in BLOCKS.items()}
             await pg.close()
             raw = open(p, encoding="utf-8").read()

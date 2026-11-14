@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-seo="auto">CRA in Italia: obblighi, rischi e casi · Software in a Box</title>
+<meta name="description" data-seo="auto" content="Guida al Cyber Resilience Act per le imprese in Italia: segnalazione delle vulnerabilità dall’11-9-2026, schema di decreto con ACN autorità di notifica…">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/it/normativa/cra/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="CRA in Italia: obblighi, rischi, casi reali e sfide per tutta la catena del valore">
+<meta property="og:description" content="Guida al Cyber Resilience Act per le imprese in Italia: segnalazione delle vulnerabilità dall’11-9-2026, schema di decreto con ACN autorità di notifica e vigilanza, obblighi di fabbricanti, importatori, grossisti e integratori, rischi, casi reali e tabella di marcia fino alla marcatura CE del 2027.">
+<meta property="og:url" content="https://www.softwareinabox.eu/it/normativa/cra/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og/regulacion-cra_it.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://www.softwareinabox.eu/it/normativa/cra/#article", "url": "https://www.softwareinabox.eu/it/normativa/cra/", "headline": "CRA in Italia: obblighi, rischi, casi reali e sfide per tutta la catena del valore", "description": "Guida al Cyber Resilience Act per le imprese in Italia: segnalazione delle vulnerabilità dall’11-9-2026, schema di decreto con ACN autorità di notifica e vigilanza, obblighi di fabbricanti, importatori, grossisti e integratori, rischi, casi reali e tabella di marcia fino alla marcatura CE del 2027.", "inLanguage": "it", "dateModified": "2026-11-14", "isPartOf": {"@id": "https://www.softwareinabox.eu/#website"}, "publisher": {"@id": "https://www.softwareinabox.eu/#organization"}, "author": {"@id": "https://www.softwareinabox.eu/#organization"}, "about": {"@type": "Legislation", "name": "Regolamento (UE) 2024/2847 sulla ciberresilienza", "legislationIdentifier": "Reglamento (UE) 2024/2847", "legislationJurisdiction": "UE"}, "spatialCoverage": {"@type": "Country", "name": "Italia"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Software in a Box", "item": "https://www.softwareinabox.eu/it/"}, {"@type": "ListItem", "position": 2, "name": "Normativa UE", "item": "https://www.softwareinabox.eu/it/normativa/"}, {"@type": "ListItem", "position": 3, "name": "CRA in Italia", "item": "https://www.softwareinabox.eu/it/normativa/cra/"}]}, {"@type": "FAQPage", "@id": "https://www.softwareinabox.eu/it/normativa/cra/#faq", "mainEntity": [{"@type": "Question", "name": "Che cosa si applica già in Italia?", "acceptedAnswer": {"@type": "Answer", "text": "La segnalazione delle vulnerabilità attivamente sfruttate e degli incidenti gravi (art. 14), dall’11-9-2026, per tutti i prodotti con elementi digitali sul mercato. Il resto, requisiti essenziali, SBOM, valutazione della conformità e marcatura CE, dall’11-12-2027."}}, {"@type": "Question", "name": "A chi devo segnalare?", "acceptedAnswer": {"@type": "Answer", "text": "Alla piattaforma unica di segnalazione dell’ENISA, che inoltra al CSIRT coordinatore dello Stato in cui il fabbricante ha lo stabilimento principale; per un fabbricante stabilito in Italia, il CSIRT Italia."}}, {"@type": "Question", "name": "Il decreto italiano è già in vigore?", "acceptedAnswer": {"@type": "Answer", "text": "No. È stato approvato in esame preliminare il 2-10-2026 e attende i pareri parlamentari, il voto definitivo e la pubblicazione. Gli obblighi del regolamento, però, valgono già direttamente."}}, {"@type": "Question", "name": "Vendo con il mio marchio apparati di un fabbricante asiatico. Mi riguarda?", "acceptedAnswer": {"@type": "Answer", "text": "Sì: per il CRA il fabbricante siete voi (art. 21). Dovete segnalare da subito e, dal 2027, avere fascicolo tecnico, periodo di assistenza, dichiarazione UE e marcatura CE propri."}}, {"@type": "Question", "name": "Per quanto tempo devo fornire patch?", "acceptedAnswer": {"@type": "Answer", "text": "Per il periodo di assistenza dichiarato, che deve riflettere l’uso previsto ed essere di almeno cinque anni, salvo che il prodotto sia usato per meno tempo. La data di fine deve essere visibile all’acquisto."}}, {"@type": "Question", "name": "Quali sanzioni prevede il CRA?", "acceptedAnswer": {"@type": "Answer", "text": "Fino a 15 M€ o il 2,5 % del fatturato mondiale per i requisiti essenziali, 10 M€ o il 2 % per gli altri obblighi e 5 M€ o l’1 % per informazioni inesatte. Le sanzioni si applicano dall’11-12-2027."}}]}]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
+/* landings de país */
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.flag{display:inline-flex;align-items:center;gap:8px;font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.5);border-radius:999px;padding:5px 12px}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:8px 0 34px}
+.flow>div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 14px;position:relative;font-size:14.5px}
+.flow>div b{display:block;font:800 14px var(--disp);color:var(--ink);margin-bottom:6px}
+.flow>div:not(:last-child):after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--gold-d);font-weight:800;z-index:2}
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:10px}
+.case .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.case h4{margin:0}
+.case dl{margin:0;font-size:15px}.case dt{font:700 12.5px var(--disp);color:var(--gold-d);text-transform:uppercase;letter-spacing:.06em;margin-top:8px}.case dd{margin:2px 0 0}
+.case .src-l{font-size:13.5px;margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}.case .src-l a{color:var(--ink);font-weight:600}
+.scen{border:1.5px dashed var(--gold);background:var(--gold-t)}
+.scen .meta .sl{background:var(--gold);color:var(--ink);padding:3px 9px;border-radius:6px;letter-spacing:.04em}
+.risk td:nth-child(3),.risk td:nth-child(4){white-space:nowrap}
+.lvl{display:inline-block;font:700 12px var(--disp);padding:3px 10px;border-radius:999px}
+.lvl.h{background:#FCEFEA;color:#A3201A}.lvl.m{background:#FDF6E6;color:var(--warn)}.lvl.b{background:#EEF8F2;color:var(--ok)}
+.faq{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:10px}
+.faq summary{cursor:pointer;padding:18px 22px;font:700 16.5px var(--disp);color:var(--ink);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--gold-d);font-weight:800}
+.faq[open] summary:after{content:"–"}
+.faq>div{padding:0 22px 18px;font-size:16px}
+.ctaband{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:40px;color:#C9D3E0;display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.ctaband h3{color:#fff;margin:0 0 8px}.ctaband p{margin:0;max-width:40em}
+.split{font:700 12.5px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.12em;margin:40px 0 16px}
+@media(max-width:1100px){.flow{grid-template-columns:repeat(3,1fr)}.flow>div:nth-child(3):after{display:none}}
+@media(max-width:680px){.flow{grid-template-columns:1fr}.flow>div:after{display:none}.ctaband{padding:26px}}
+</style>
+<link rel="stylesheet" href="/assets/nav.css?v=30ca4ad7">
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es-ES" href="https://www.softwareinabox.eu/regulacion/cra/">
+<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulation/cra/">
+<link rel="alternate" hreflang="fr-FR" href="https://www.softwareinabox.eu/fr/reglementation/cra/">
+<link rel="alternate" hreflang="de-DE" href="https://www.softwareinabox.eu/de/regulierung/cra/">
+<link rel="alternate" hreflang="nl-NL" href="https://www.softwareinabox.eu/nl/regelgeving/cra/">
+<link rel="alternate" hreflang="pt-PT" href="https://www.softwareinabox.eu/pt/regulamentacao/cra/">
+<link rel="alternate" hreflang="it-IT" href="https://www.softwareinabox.eu/it/normativa/cra/">
+<link rel="alternate" hreflang="da-DK" href="https://www.softwareinabox.eu/da/regulering/cra/">
+<link rel="alternate" hreflang="fr-BE" href="https://www.softwareinabox.eu/fr-be/reglementation/cra/">
+<link rel="alternate" hreflang="nl-BE" href="https://www.softwareinabox.eu/nl-be/regelgeving/cra/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulation/cra/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Vai al contenuto</a>
+
+<header class="sx-hd" data-nav>
+  <div class="sx-wrap">
+    <a class="sx-logo" href="/it/" aria-label="Software in a Box, home"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg><span>Software in a Box</span></a>
+    <button class="sx-burger" type="button" aria-expanded="false" aria-controls="sx-nav">Menu</button>
+    <nav class="sx-nav" id="sx-nav" aria-label="Menu principale"><a href="/it/">Home</a><div class="sx-dd"><a href="/it/prodotti/">Prodotti</a><button type="button" aria-expanded="false" aria-label="Espandi: Prodotti"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/it/prodotti/cognitiv/">COGNITIV<small>IA sovrana sul vostro server</small></a><a href="/it/prodotti/argos/">ARGOS<small>Verifiche di conformità verificabili</small></a><a href="/it/prodotti/spazi-di-dati/">Spazi di dati<small>Condividere i dati senza spostarli</small></a><hr><a href="/it/prodotti/">Tutti i prodotti</a></div></div><div class="sx-dd"><a href="/it/normativa/" aria-current="page">Normativa UE</a><button type="button" aria-expanded="false" aria-label="Espandi: Normativa UE"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/it/normativa/">Indice e radar</a><a href="/it/normativa/#calendario">Calendario</a><a href="/it/normativa/rapporto-cada/">Rapporto CADA</a><hr><a href="/it/mappa-del-sito/#normas">Tutte le norme (A–Z)</a></div></div><div class="sx-dd"><a href="/it/azienda/">Azienda</a><button type="button" aria-expanded="false" aria-label="Espandi: Azienda"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/it/azienda/#como">Il nostro approccio</a><a href="/it/azienda/#experiencia">Esperienza</a><a href="/it/azienda/#sectores">Settori</a></div></div><a class="sx-cta" href="/it/contatti/">Contatti</a></nav>
+  <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Lingua"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>IT</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/cra/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulation/cra/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/reglementation/cra/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulierung/cra/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regelgeving/cra/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulamentacao/cra/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/normativa/cra/" hreflang="it" lang="it" aria-current="true">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulering/cra/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/reglementation/cra/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regelgeving/cra/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Sezioni della pagina"><div class="wrap">
+  <a href="#resumen">Sintesi</a><a href="#espana">Italia</a><a href="#paises">Altri Paesi</a><a href="#obligaciones">Obblighi</a><a href="#cadena">Catena del valore</a><a href="#riesgos">Rischi</a><a href="#casos">Casi</a><a href="#calendario">Calendario</a><a href="#categorias">Classi</a><a href="#notificacion">Segnalazione</a><a href="#oportunidades">Opportunità</a><a href="#hacer">Che cosa fare</a><a href="#faq">Domande</a><a href="#fuentes">Fonti</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Percorso"><a href="/it/">Home</a> › <a href="/it/normativa/">Regolazione UE</a> › CRA in Italia</nav>
+    <div class="eyebrow">Cibersicurezza dei prodotti · Italia</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="flag">Italia</span><span class="badge b-gra">Decreto in esame</span><span class="layer l-arg">ARGOS</span></div>
+        <h1>CRA in Italia: l’ACN vigilerà sul mercato, il decreto è in Parlamento</h1>
+        <p class="lead">Il regolamento sulla ciberresilienza si applica in Italia dall’<b>11-9-2026</b> per la <b>segnalazione</b> delle vulnerabilità sfruttate, e pienamente dall’<b>11-12-2027</b>, quando la cibersicurezza diventerà requisito della <b>marcatura CE</b>. Il 2-10-2026 il Consiglio dei ministri ha approvato in esame preliminare lo schema di decreto che designa l’<b>ACN</b> autorità di notifica e di vigilanza del mercato, con il supporto della <b>Guardia di Finanza</b>. Le commissioni parlamentari hanno tempo fino al 18-11-2026 per il parere.</p>
+        <div class="callout">Lo schema prevede anche una sandbox CRA e un canale dedicato alle PMI. Ma finché il decreto non è definitivo, chi costruisce i processi su di esso deve mettere in conto qualche correzione.</div>
+        <div class="hero-cta"><a class="btn btn-gold" href="/it/normativa/#contacto">Parliamo del vostro caso</a><a class="btn btn-line" href="/it/normativa/#diagnostico">Autodiagnosi</a></div>
+      </div>
+      <div class="facts">
+        <h4>Scheda Italia</h4>
+        <dl class="kv">
+          <dt>Norma</dt><dd>Regolamento (UE) 2024/2847 (CRA), direttamente applicabile</dd>
+          <dt>Segnalazione</dt><dd>Dall’11-9-2026, sulla piattaforma ENISA</dd>
+          <dt>Piena applicazione</dt><dd>11-12-2027: requisiti essenziali, SBOM, marcatura CE</dd>
+          <dt>Decreto nazionale</dt><dd>Esame preliminare 2-10-2026 (Atto del Governo 447)</dd>
+          <dt>Vigilanza e notifica</dt><dd>ACN, con la Guardia di Finanza</dd>
+          <dt>CSIRT</dt><dd>CSIRT Italia (ACN)</dd>
+          <dt>Sanzioni massime</dt><dd>15 M€ o 2,5 % del fatturato mondiale</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">L’essenziale per un’impresa in Italia</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>La segnalazione è già obbligatoria</h4><p>Dall’11-9-2026 ogni fabbricante di un prodotto con elementi digitali venduto nell’UE segnala le vulnerabilità sfruttate e gli incidenti gravi. Anche per i prodotti venduti prima.</p><div class="mini">Art. 14</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>L’ACN in prima linea</h4><p>L’Agenzia per la cybersicurezza nazionale supervisiona già la NIS2 e ospita il CSIRT Italia. Con il decreto diventa anche autorità di vigilanza del mercato CRA.</p><div class="mini">Schema di decreto · art. 4 e 9</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Il marchio rende fabbricanti</h4><p>Grossisti e integratori che vendono apparati di terzi con il proprio marchio sono fabbricanti per il CRA, con tutti gli obblighi.</p><div class="mini">Art. 21</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Situazione nazionale · novembre 2026</div><h2>Che cosa cambia in Italia rispetto al resto dell’UE</h2>
+    <p class="lead">Gli obblighi sono europei; l’Italia concentra le competenze nell’ACN e aggiunge strumenti propri, come la sandbox e il canale per le PMI.</p></div>
+    <div class="grid3">
+      <div class="card"><h4>Lo schema di decreto</h4><p>Approvato in esame preliminare il 2-10-2026 e trasmesso alla Camera il 9-10-2026, attua la delega dell’articolo 15 della legge 36/2026. Dopo i pareri servono il voto definitivo e la pubblicazione in Gazzetta Ufficiale.</p></div>
+      <div class="card"><h4>ACN e Guardia di Finanza</h4><p>L’ACN è autorità di notifica e di vigilanza del mercato; la Guardia di Finanza la supporta nei controlli. Il CSIRT Italia riceve le segnalazioni dei fabbricanti stabiliti in Italia.</p></div>
+      <div class="card"><h4>Sandbox CRA</h4><p>Lo schema crea uno spazio di sperimentazione per il CRA, coordinato con quelli per i servizi finanziari e l’intelligenza artificiale.</p></div>
+      <div class="card"><h4>Un canale per le PMI</h4><p>Le piccole e medie imprese avranno un canale dedicato di supporto, coerente con le misure di sostegno che il CRA chiede agli Stati.</p></div>
+      <div class="card"><h4>Sanzioni da definire</h4><p>Le modalità di alcuni poteri saranno fissate con un regolamento adottato con decreto del Presidente del Consiglio. Il procedimento sanzionatorio non risulta ancora del tutto disciplinato.</p></div>
+      <div class="card"><h4>All’estero, già controlli</h4><p>La Germania ha approvato la sua legge di attuazione nell’ottobre 2026 e il BSI vigilerà sul mercato. Un fabbricante italiano che vende lì deve prepararsi.</p></div>
+    </div>
+    <p class="note">Confronto con Spagna, Portogallo, Belgio, Paesi Bassi, Germania, Francia e Danimarca qui sotto.</p>
+  </div>
+</section>
+
+<section class="sec" id="paises">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">In ogni Paese</div><h2>Chi vigila sul CRA negli otto mercati principali</h2>
+    <p class="lead">Il CRA è un regolamento: gli obblighi sono uguali in tutta l’UE. Ogni Stato designa l’autorità di vigilanza del mercato, l’autorità di notifica degli organismi di valutazione e il CSIRT che riceve le segnalazioni.</p></div>
+    <div class="tbl"><table><caption class="sr">Autorità CRA per Paese</caption>
+      <thead><tr><th style="width:130px">Paese</th><th>Vigilanza del mercato e autorità di notifica</th><th>CSIRT per le segnalazioni</th><th style="width:120px">Stato</th></tr></thead><tbody>
+      <tr><td><b>Spagna</b></td><td>Progetto di regio decreto: Segreteria di Stato per le Telecomunicazioni (vigilanza) e Centro Criptológico Nacional (notifica)</td><td>INCIBE-CERT e CCN-CERT; coordinatore CRA da confermare</td><td><span class="badge b-esp">Bozza</span></td></tr>
+      <tr><td><b>Portogallo</b></td><td>Nessuna designazione nota</td><td>CNCS (CERT.PT)</td><td><span class="badge b-esp">In attesa</span></td></tr>
+      <tr><td><b>Belgio</b></td><td>CCB, con il SPF Economia, in preparazione</td><td>CCB</td><td><span class="badge b-gra">In corso</span></td></tr>
+      <tr><td><b>Paesi Bassi</b></td><td>Rijksinspectie Digitale Infrastructuur (RDI), vigilanza e notifica; legge di attuazione 36 875</td><td>NCSC</td><td><span class="badge b-gra">In corso</span></td></tr>
+      <tr><td><b>Germania</b></td><td>BSI, vigilanza e notifica; legge di attuazione approvata dal Bundestag il 15-10-2026</td><td>BSI</td><td><span class="badge b-vig">Approvata</span></td></tr>
+      <tr><td><b>Francia</b></td><td>ANSSI (notifica), con ANFR e DGE per vigilanza e accompagnamento</td><td>ANSSI (CERT-FR)</td><td><span class="badge b-gra">In corso</span></td></tr>
+      <tr><td><b>Italia</b></td><td>ACN, vigilanza e notifica, con il supporto della Guardia di Finanza; decreto approvato in esame preliminare il 2-10-2026</td><td>CSIRT Italia (ACN)</td><td><span class="badge b-gra">In corso</span></td></tr>
+      <tr><td><b>Danimarca</b></td><td>Styrelsen for Samfundssikkerhed, vigilanza e notifica; progetto di legge in consultazione fino al 2-11-2026</td><td>CSIRT nazionale</td><td><span class="badge b-gra">In corso</span></td></tr>
+    </tbody></table></div>
+    <div class="callout">La segnalazione dell’articolo 14 si fa una sola volta, sulla piattaforma dell’ENISA, che la inoltra al CSIRT coordinatore dello Stato in cui il fabbricante ha lo stabilimento principale. Il Paese del fabbricante decide chi riceve la segnalazione; quello del mercato, chi controlla il prodotto.</div>
+    <p class="dl">Situazione al 14-11-2026.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="obligaciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Obblighi concreti</div><h2>Che cosa deve fare ogni anello</h2>
+    <p class="lead">Gli obblighi del regolamento per ruolo, con la prova che chiederanno l’autorità di vigilanza, l’organismo notificato o il cliente. La segnalazione delle vulnerabilità si applica già; il resto dall’11-12-2027. Le particolarità nazionali sono indicate.</p></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="oF" role="tab" aria-selected="true">Fabbricante</button>
+      <button class="tab" data-p="oP" role="tab" aria-selected="false">Importatore o rappresentante</button>
+      <button class="tab" data-p="oM" role="tab" aria-selected="false">Grossista o distributore</button>
+      <button class="tab" data-p="oI" role="tab" aria-selected="false">Integratore</button>
+      <button class="tab" data-p="oC" role="tab" aria-selected="false">Cliente finale o stazione appaltante</button>
+    </div>
+    <div class="tabpane on" id="oF" role="tabpanel"><div class="tbl"><table><caption class="sr">Obblighi del fabbricante</caption>
+      <thead><tr><th>Obbligo</th><th style="width:120px">Base</th><th style="width:130px">Quando</th><th>Prova richiesta</th></tr></thead><tbody>
+      <tr><td>Segnalare le vulnerabilità attivamente sfruttate e gli incidenti gravi: preallarme entro 24 ore, notifica entro 72 ore, relazione finale; e informare gli utilizzatori</td><td>Art. 14</td><td>Già (dall’11-9-2026), anche per i prodotti già venduti</td><td>Procedura, account sulla piattaforma ENISA, registro dei casi</td></tr>
+      <tr><td>Valutazione dei rischi e progettazione secondo i requisiti essenziali dell’allegato I</td><td>Art. 13 · allegato I</td><td>11-12-2027</td><td>Valutazione dei rischi documentata</td></tr>
+      <tr><td>Gestione delle vulnerabilità per il periodo di assistenza: SBOM, patch gratuite, politica di divulgazione coordinata e punto di contatto</td><td>Art. 13 · allegato I, parte II</td><td>11-12-2027</td><td>SBOM, politica di divulgazione, avvisi pubblicati</td></tr>
+      <tr><td>Dichiarare un periodo di assistenza di almeno cinque anni, salvo uso previsto più breve, con data di fine visibile all’acquisto</td><td>Art. 13, par. 8</td><td>11-12-2027</td><td>Scheda prodotto con data di fine assistenza</td></tr>
+      <tr><td>Diligenza sui componenti di terzi, compreso l’open source</td><td>Art. 13, par. 5</td><td>11-12-2027</td><td>Inventario dei componenti e loro valutazione</td></tr>
+      <tr><td>Documentazione tecnica, valutazione della conformità secondo la classe, dichiarazione UE e marcatura CE</td><td>Art. 28–32</td><td>11-12-2027</td><td>Fascicolo tecnico, certificato dell’organismo notificato se necessario</td></tr>
+      <tr><td><b>Italia:</b> lo schema di decreto designa l’ACN autorità di notifica; finché non è definitivo non ci sono organismi italiani notificati per il CRA</td><td>Schema di decreto, art. 4</td><td>In attesa</td><td>Prenotazione presso un organismo notificato UE</td></tr>
+    </tbody></table></div>
+    <div class="callout">La segnalazione dell’articolo 14 vale già per tutto ciò che è sul mercato, anche se venduto prima del 2027. Un fabbricante senza procedura di 24 ore è già inadempiente.</div></div>
+
+    <div class="tabpane" id="oP" role="tabpanel"><div class="tbl"><table><caption class="sr">Obblighi dell’importatore e del rappresentante</caption>
+      <thead><tr><th>Obbligo</th><th style="width:120px">Base</th><th style="width:130px">Quando</th><th>Prova</th></tr></thead><tbody>
+      <tr><td>Immettere sul mercato solo prodotti conformi: verificare valutazione della conformità, documentazione tecnica, marcatura CE, dichiarazione UE e identificazione del fabbricante</td><td>Art. 19</td><td>11-12-2027</td><td>Lista di controllo per articolo</td></tr>
+      <tr><td>Indicare nome e recapiti sul prodotto, sull’imballaggio o nella documentazione</td><td>Art. 19</td><td>11-12-2027</td><td>Etichettatura</td></tr>
+      <tr><td>Informare il fabbricante e, in caso di rischio significativo, l’autorità di vigilanza delle vulnerabilità rilevate</td><td>Art. 19</td><td>11-12-2027</td><td>Canale di allerta e registro</td></tr>
+      <tr><td>Il rappresentante agisce su mandato scritto di un fabbricante extra UE</td><td>Art. 18</td><td>11-12-2027</td><td>Mandato e documentazione a disposizione dell’autorità</td></tr>
+      
+    </tbody></table></div>
+    <div class="callout">Chi importa con il proprio marchio, o modifica sostanzialmente il prodotto, diventa fabbricante con tutti i suoi obblighi (art. 21).</div></div>
+
+    <div class="tabpane" id="oM" role="tabpanel"><div class="tbl"><table><caption class="sr">Obblighi del grossista e del distributore</caption>
+      <thead><tr><th>Obbligo</th><th style="width:120px">Base</th><th style="width:130px">Quando</th><th>Prova</th></tr></thead><tbody>
+      <tr><td>Agire con la dovuta diligenza: verificare marcatura CE, dati di fabbricante e importatore e istruzioni prima di vendere</td><td>Art. 20</td><td>11-12-2027</td><td>Controllo di conformità all’inserimento di ogni prodotto</td></tr>
+      <tr><td>Non distribuire prodotti non conformi e informare fabbricante e autorità in caso di rischio</td><td>Art. 20</td><td>11-12-2027</td><td>Procedura di blocco e richiamo</td></tr>
+      <tr><td>Trasmettere ai clienti gli avvisi di vulnerabilità del fabbricante</td><td>Art. 14, par. 8, e 20</td><td>Da subito</td><td>Canale di allerta verso la rete</td></tr>
+      <tr><td>Se vende con il proprio marchio o modifica sostanzialmente, è fabbricante</td><td>Art. 21</td><td>11-12-2027</td><td>Analisi del ruolo per linea di prodotto</td></tr>
+    </tbody></table></div>
+    <div class="callout">Per un grossista l’inserimento a catalogo diventa un controllo di conformità. Senza dichiarazione UE, marcatura e periodo di assistenza verificati, dal dicembre 2027 un articolo non dovrebbe più entrare a listino.</div></div>
+
+    <div class="tabpane" id="oI" role="tabpanel"><div class="tbl"><table><caption class="sr">Obblighi dell’integratore</caption>
+      <thead><tr><th>Obbligo</th><th style="width:120px">Base</th><th style="width:130px">Quando</th><th>Prova</th></tr></thead><tbody>
+      <tr><td>Se commercializza una soluzione con il proprio marchio (appliance, software in pacchetto), è fabbricante</td><td>Art. 3 e 13</td><td>Segnalazione già · il resto all’11-12-2027</td><td>Analisi del ruolo per soluzione</td></tr>
+      <tr><td>Se modifica sostanzialmente un prodotto già venduto, è fabbricante anche di quella versione</td><td>Art. 22</td><td>11-12-2027</td><td>Registro delle modifiche e loro valutazione</td></tr>
+      <tr><td>Scegliere prodotti la cui assistenza copra la durata del progetto e inoltrare gli avvisi al cliente</td><td>Art. 13, par. 8 (del fabbricante)</td><td>Da subito</td><td>Matrice prodotti con fine assistenza</td></tr>
+      
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oC" role="tabpanel"><div class="tbl"><table><caption class="sr">Diritti del cliente finale e della stazione appaltante</caption>
+      <thead><tr><th>Diritto o pratica</th><th style="width:120px">Base</th><th style="width:130px">Quando</th><th>Come usarlo</th></tr></thead><tbody>
+      <tr><td>Ricevere aggiornamenti di sicurezza gratuiti per il periodo di assistenza dichiarato</td><td>Art. 13 · allegato I</td><td>Prodotti immessi dall’11-12-2027</td><td>Chiedere la data di fine assistenza nell’offerta</td></tr>
+      <tr><td>Essere informati delle vulnerabilità sfruttate e degli incidenti che toccano il prodotto, e delle misure da adottare</td><td>Art. 14, par. 8</td><td>Già</td><td>Iscrivere i responsabili tecnici ai canali del fabbricante</td></tr>
+      <tr><td>Chiedere negli acquisti classe CRA, dichiarazione UE, periodo di assistenza e politica sulle vulnerabilità</td><td>Art. 13 e 28</td><td>Da subito</td><td>Clausole in gare e contratti</td></tr>
+      
+    </tbody></table></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cadena">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Sfide per tutta la catena del valore</div><h2>La sicurezza del prodotto non finisce più con la vendita</h2>
+    <p class="lead">Il CRA fa della cibersicurezza un requisito della marcatura CE e la estende all’intero periodo di assistenza. Ogni anello deve verificare, trasmettere o rispondere.</p></div>
+    <div class="flow" aria-label="La catena del valore del CRA">
+      <div><b>Componenti</b>Chip, firmware, open source</div>
+      <div><b>Fabbricante</b>Progetta, documenta, corregge</div>
+      <div><b>Importatore</b>Verifica ciò che entra nell’UE</div>
+      <div><b>Grossista</b>Controlla il listino, allerta la rete</div>
+      <div><b>Integratore</b>Installa, mantiene, aggiorna</div>
+      <div><b>Cliente</b>Riceve patch e avvisi</div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h4><span class="k">01</span>Classificare bene</h4><p>La maggior parte dei prodotti rientra nella classe predefinita e si autovaluta. Ma router, firewall, sistemi operativi o prodotti domotici di sicurezza sono importanti, e una classe sbagliata invalida tutto il fascicolo.</p></div>
+      <div class="card"><h4><span class="k">02</span>24 ore che iniziano presto</h4><p>Il termine decorre da quando il fabbricante viene a conoscenza della vulnerabilità. Senza un team di risposta di prodotto e turni di reperibilità, il preallarme arriva tardi.</p></div>
+      <div class="card"><h4><span class="k">03</span>Ciò che non si vede: le dipendenze</h4><p>Un prodotto può contenere centinaia di librerie di terzi e open source. Senza SBOM non si sa se una vulnerabilità pubblicata lo riguarda, né in quali versioni.</p></div>
+      <div class="card"><h4><span class="k">04</span>Cinque anni di patch costano</h4><p>Il periodo di assistenza diventa una voce del prezzo. I prodotti a basso margine e ciclo breve dovranno rivedere il modello.</p></div>
+      <div class="card"><h4><span class="k">05</span>Pochi organismi notificati</h4><p>I prodotti di classe II e quelli di classe I senza norme armonizzate hanno bisogno di un terzo. Nel 2027 ci saranno code.</p></div>
+      <div class="card"><h4><span class="k">06</span>Norme che arrivano tardi</h4><p>La maggior parte delle norme armonizzate sarà pubblicata solo poco prima del dicembre 2027. Senza di esse il fabbricante dimostra la conformità con la propria documentazione.</p></div>
+      <div class="card"><h4><span class="k">07</span>Il marchio proprio rende fabbricanti</h4><p>Grossisti e integratori che vendono apparati di terzi con il proprio marchio assumono tutti gli obblighi del fabbricante, compresa la segnalazione.</p></div>
+      <div class="card"><h4><span class="k">08</span>Conta anche il parco installato</h4><p>La segnalazione si applica ai prodotti venduti prima del 2027. Una falla sfruttata in un apparato del 2022 si segnala allo stesso modo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="riesgos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Mappa dei rischi</div><h2>Che cosa può andare storto e quanto costa</h2>
+    <p class="lead">Probabilità stimata da Software in a Box per un’impresa in Italia a novembre 2026.</p></div>
+    <div class="tbl risk"><table><caption class="sr">Mappa dei rischi del CRA in Italia</caption>
+      <thead><tr><th>Rischio</th><th>Chi lo subisce</th><th>Probabilità</th><th>Impatto</th><th>Come si concretizza</th><th>Mitigazione</th></tr></thead><tbody>
+      <tr><td><b>Segnalazione tardiva</b> di una vulnerabilità sfruttata</td><td>Fabbricante, marchio proprio</td><td><span class="lvl h">Alta</span></td><td><span class="lvl h">Alto</span></td><td>Senza procedura né reperibilità le 24 ore passano senza allerta</td><td>Procedura testata e account sulla piattaforma ENISA</td></tr>
+      <tr><td><b>Processi su un decreto che cambia</b></td><td>Tutti</td><td><span class="lvl m">Media</span></td><td><span class="lvl m">Medio</span></td><td>Il testo definitivo differisce dallo schema dopo i pareri</td><td>Basare i processi sul regolamento e adattare i dettagli</td></tr>
+      <tr><td><b>Nessun organismo notificato</b> in tempo</td><td>Fabbricante di classe I o II</td><td><span class="lvl h">Alta</span></td><td><span class="lvl h">Alto</span></td><td>Code nel 2027</td><td>Prenotare capacità con mesi di anticipo</td></tr>
+      <tr><td><b>Essere fabbricante senza saperlo</b></td><td>Grossista, integratore</td><td><span class="lvl m">Media</span></td><td><span class="lvl h">Alto</span></td><td>Vendita a marchio proprio o modifica sostanziale</td><td>Analisi del ruolo per linea di prodotto</td></tr>
+      <tr><td><b>Costo dell’assistenza</b> non previsto</td><td>Fabbricante</td><td><span class="lvl h">Alta</span></td><td><span class="lvl m">Medio</span></td><td>Cinque anni di patch gratuite non inclusi nel prezzo</td><td>Inserire l’assistenza nel modello di business</td></tr>
+      <tr><td><b>Doppia sanzione</b> CRA e GDPR</td><td>Fabbricante che tratta dati</td><td><span class="lvl b">Bassa oggi</span></td><td><span class="lvl h">Molto alto</span></td><td>Una falla sfruttata comporta anche una violazione di dati personali</td><td>Coordinare segnalazione CRA e notifica al Garante</td></tr>
+    </tbody></table></div>
+    <p class="note">Probabilità e impatto sono stime indicative, non una previsione giuridica.</p>
+  </div>
+</section>
+
+<section class="sec" id="casos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Casi di studio</div><h2>Che cosa è già successo in Italia</h2>
+    <p class="lead">Casi reali e pubblici, con fonte. Mostrano come si sta costruendo la vigilanza CRA in Italia e quanto costa una sicurezza non verificata a fondo.</p></div>
+    <div class="grid2">
+      <article class="case"><div class="meta"><span class="badge b-gra">Norma</span>Consiglio dei ministri · 2026</div><h4>Lo schema di decreto CRA arriva in Parlamento</h4><dl>
+        <dt>Che cosa è successo</dt><dd>Il 2-10-2026 il Consiglio dei ministri n. 191 ha approvato in esame preliminare lo schema di decreto legislativo di adeguamento al CRA; il 9-10-2026 è stato trasmesso alla Camera come Atto del Governo 447.</dd>
+        <dt>Risultato</dt><dd>Lo schema designa l’ACN autorità di notifica e di vigilanza del mercato, crea una sandbox CRA e un canale per le PMI. Le commissioni hanno tempo fino al 18-11-2026 per il parere.</dd>
+        <dt>Lezione per il CRA</dt><dd>La segnalazione non aspetta il decreto: è obbligatoria dall’11-9-2026. Il decreto aggiunge chi controlla e come si sanziona.</dd></dl>
+        <div class="src-l">Fonte: <a href="https://www.cybersecurity360.it/?p=109566">Cybersecurity360</a> · <a href="https://www.agendadigitale.eu/?p=285099">Agenda Digitale</a></div></article>
+      <article class="case"><div class="meta"><span class="badge b-esp">Sanzione</span>Garante privacy · 2026</div><h4>WindTre multata per carenze di sicurezza</h4><dl>
+        <dt>Che cosa è successo</dt><dd>Dopo due violazioni di dati notificate nel febbraio 2025, che hanno esposto i dati di oltre 365.000 clienti, il Garante ha sanzionato Wind Tre per 1.715.600 euro.</dd>
+        <dt>Risultato</dt><dd>Il Garante ha rilevato carenze nella protezione di credenziali e certificati digitali e controlli di sicurezza non abbastanza approfonditi, che non avevano individuato vulnerabilità rilevabili con verifiche più accurate.</dd>
+        <dt>Lezione</dt><dd>Le autorità valutano già la qualità dei controlli di sicurezza. Con il CRA, la gestione delle vulnerabilità diventa un obbligo di prodotto, non solo del titolare dei dati.</dd></dl>
+        <div class="src-l">Fonte: <a href="https://www.greenme.it/?p=1422519">greenMe</a> · <a href="https://www.cybersecurity360.it/news/sanzione-privacy-a-wind-tre-il-garante-porta-la-cyber-al-centro-della-compliance-gdpr/">Cybersecurity360</a></div></article>
+    </div>
+    <div class="split">Scenari illustrativi per anello</div>
+    <p class="mut" style="max-width:52em">Non sono casi reali: descrivono situazioni frequenti per mostrare come si applicano gli obblighi.</p>
+    <div class="grid2">
+      <article class="case scen"><div class="meta"><span class="sl">Scenario illustrativo</span></div><h4>Fabbricante di gateway industriali</h4><dl>
+        <dt>Situazione</dt><dd>Un’azienda di 120 dipendenti produce gateway IoT con firewall integrato per impianti idrici ed energetici.</dd>
+        <dt>Qualificazione</dt><dd>Probabilmente prodotto importante per la funzione firewall: servirà un organismo notificato o norme armonizzate applicate integralmente.</dd>
+        <dt>Che cosa fare</dt><dd>Procedura di segnalazione da subito, SBOM nella catena di build e prenotazione di un organismo notificato nel 2027.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Scenario illustrativo</span></div><h4>Grossista con telecamere IP a marchio proprio</h4><dl>
+        <dt>Situazione</dt><dd>Un grossista importa telecamere dall’Asia e le vende con il proprio marchio agli installatori di sicurezza.</dd>
+        <dt>Qualificazione</dt><dd>Con il proprio marchio è fabbricante: segnalazione da subito e, dal 2027, fascicolo, periodo di assistenza e marcatura CE propri.</dd>
+        <dt>Che cosa fare</dt><dd>Contratto con il fabbricante originale che garantisca patch, SBOM e risposta tempestiva alle vulnerabilità.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Scenario illustrativo</span></div><h4>Integratore che vende un’appliance</h4><dl>
+        <dt>Situazione</dt><dd>Un integratore assembla server, sistema operativo e il proprio software di gestione flotte in un apparato a suo marchio.</dd>
+        <dt>Qualificazione</dt><dd>È fabbricante dell’appliance completa, anche se i componenti sono di terzi.</dd>
+        <dt>Che cosa fare</dt><dd>Valutazione dei rischi dell’insieme, monitoraggio delle vulnerabilità per componente e canale di allerta verso i clienti.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Scenario illustrativo</span></div><h4>Ospedale che rinnova la rete</h4><dl>
+        <dt>Situazione</dt><dd>Un ospedale bandisce una gara per switch, access point e telecamere per i prossimi otto anni.</dd>
+        <dt>Qualificazione</dt><dd>Non ha obblighi CRA, ma li ha per la NIS2: la sicurezza dei fornitori fa parte delle sue misure.</dd>
+        <dt>Che cosa fare</dt><dd>Chiedere nel capitolato la classe CRA, la dichiarazione UE dal 2027 e un periodo di assistenza che copra la vita utile prevista.</dd></dl></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Calendario di applicazione</div><h2>Cosa si applica e da quando</h2></div>
+    <div class="tbl"><table><caption class="sr">Calendario del CRA</caption>
+      <thead><tr><th style="width:150px">Data</th><th>Cosa si applica</th><th>Stato</th></tr></thead><tbody>
+      <tr><td><b>10-12-2024</b></td><td>Entrata in vigore</td><td><span class="badge b-vig">Completato</span></td></tr>
+      <tr><td><b>28-11-2025</b></td><td>Regolamento di esecuzione (UE) 2025/2392: descrizione tecnica dei prodotti importanti e critici</td><td><span class="badge b-vig">Completato</span></td></tr>
+      <tr><td><b>11-6-2026</b></td><td>Norme sugli organismi di valutazione della conformità e sulle autorità di notifica (capo IV)</td><td><span class="badge b-vig">In vigore</span></td></tr>
+      <tr><td><b>27-7-2026</b></td><td>Guida applicativa della Commissione C(2026) 5252, con esempi pratici</td><td><span class="badge b-vig">Completato</span></td></tr>
+      <tr><td><b>11-9-2026</b></td><td>Notifica delle vulnerabilità attivamente sfruttate e degli incidenti gravi (art. 14), anche per i prodotti già commercializzati. Piattaforma unica dell'ENISA operativa</td><td><span class="badge b-vig">In vigore</span></td></tr>
+      <tr><td><b>T4 2026</b></td><td>Atto delegato sulla presunzione di conformità mediante certificazione europea EUCC</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>11-12-2026</b></td><td>Obiettivo di disporre di organismi notificati sufficienti negli Stati membri</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>30-10-2027</b></td><td>Seconda serie di norme armonizzate</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>11-12-2027</b></td><td>Applicazione piena: requisiti essenziali, gestione delle vulnerabilità, SBOM, documentazione tecnica, valutazione della conformità, marcatura CE e obblighi di importatori e distributori</td><td><span class="badge b-gra">Previsto</span></td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="categorias">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Classificazione</div><h2>Quattro classi di prodotto, quattro livelli di controllo</h2>
+    <p class="lead">La classe dipende dalla funzionalità principale del prodotto, non dai componenti che integra. Il Regolamento di esecuzione (UE) 2025/2392 descrive tecnicamente ogni categoria.</p></div>
+    <div class="levels">
+      <div class="lv"><div class="big">P</div><div class="tag">Predefinita · la grande maggioranza</div><ul><li>Tutto ciò che non è negli Allegati III e IV</li><li>Autovalutazione del produttore (modulo A)</li><li>Può optare per una terza parte</li></ul></div>
+      <div class="lv"><div class="big">I</div><div class="tag">Importante · classe I</div><ul><li>Gestori di identità e password, browser, antimalware, VPN, gestione di rete, SIEM, avvio, sistemi operativi, router e modem, prodotti di sicurezza per la casa intelligente, giocattoli connessi, dispositivi indossabili…</li><li>Autovalutazione solo se si applicano integralmente norme armonizzate, specifiche comuni o certificazione; altrimenti organismo notificato</li></ul></div>
+      <div class="lv"><div class="big">II</div><div class="tag">Importante · classe II</div><ul><li>Hypervisor e ambienti di esecuzione di container, firewall, sistemi di rilevamento e prevenzione delle intrusioni, microprocessori e microcontrollori resistenti alle manomissioni</li><li>Sempre organismo notificato (moduli B+C o H) o certificazione europea</li></ul></div>
+      <div class="lv"><div class="big">C</div><div class="tag">Critico · Allegato IV</div><ul><li>Moduli di sicurezza hardware, gateway per contatori intelligenti, smart card ed elementi sicuri</li><li>Certificazione europea se un atto delegato la richiede; altrimenti organismo notificato</li></ul></div>
+    </div>
+    <p class="note">Il software libero delle categorie dell'Allegato III può usare le procedure predefinite se la sua documentazione tecnica è pubblica (art. 32, par. 5).</p>
+  </div>
+</section>
+
+<section class="sec alt" id="requisitos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Allegato I</div><h2>Requisiti essenziali di cibersicurezza</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Parte I · Proprietà del prodotto</h4><ul class="check">
+        <li>Nessuna vulnerabilità sfruttabile nota al momento dell'immissione sul mercato</li>
+        <li>Configurazione sicura per impostazione predefinita e ripristino allo stato originale</li>
+        <li>Correzione delle vulnerabilità tramite aggiornamenti, automatici ove opportuno</li>
+        <li>Protezione dagli accessi non autorizzati (autenticazione, gestione delle identità)</li>
+        <li>Riservatezza e integrità dei dati, minimizzazione dei dati</li>
+        <li>Disponibilità delle funzioni essenziali e resistenza al denial of service</li>
+        <li>Superficie di attacco limitata e registrazione degli eventi di sicurezza</li>
+        <li>Cancellazione sicura di dati e configurazioni</li></ul></div>
+      <div class="card soft"><h4>Parte II · Gestione delle vulnerabilità</h4><ul class="check">
+        <li><b>SBOM</b> in formato leggibile da macchina, almeno con le dipendenze di primo livello (non deve essere pubblica)</li>
+        <li>Correzione senza ritardo e aggiornamenti di sicurezza gratuiti</li>
+        <li>Test e revisioni di sicurezza periodici</li>
+        <li>Politica di divulgazione coordinata delle vulnerabilità e punto di contatto</li>
+        <li>Distribuzione sicura degli aggiornamenti</li>
+        <li>Informazione pubblica sulle vulnerabilità corrette</li></ul></div>
+    </div>
+    <div class="tbl" style="margin-top:24px"><table><caption class="sr">Periodi di assistenza e conservazione</caption><tbody>
+      <tr><td style="width:260px"><b>Periodo di assistenza</b></td><td>Riflette il tempo di utilizzo previsto; almeno cinque anni salvo che l'uso previsto sia più breve. Data di fine (mese e anno) visibile all'acquisto (art. 13, par. 8)</td></tr>
+      <tr><td><b>Disponibilità di ogni aggiornamento</b></td><td>Dieci anni o il resto del periodo di assistenza, se più lungo (art. 13, par. 9)</td></tr>
+      <tr><td><b>Documentazione tecnica e dichiarazione UE</b></td><td>Dieci anni dall'immissione sul mercato o il periodo di assistenza, se più lungo (art. 13, par. 13)</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="notificacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Articolo 14 · in vigore dall'11-9-2026</div><h2>Notifica di vulnerabilità e incidenti</h2>
+    <p class="lead">Si applica a tutti i prodotti nell'ambito del CRA, compresi quelli commercializzati prima del 2027. Si notifica una sola volta sulla piattaforma unica dell'ENISA, che la inoltra al CSIRT coordinatore dello Stato del produttore.</p></div>
+    <div class="levels">
+      <div class="lv"><div class="big">24 h</div><div class="tag">Preallarme</div><ul><li>Da quando il produttore ne viene a conoscenza</li><li>Indicare gli Stati interessati</li></ul></div>
+      <div class="lv"><div class="big">72 h</div><div class="tag">Notifica</div><ul><li>Informazioni generali, misure correttive o di attenuazione</li><li>Grado di sensibilità delle informazioni</li></ul></div>
+      <div class="lv"><div class="big">14 g</div><div class="tag">Relazione finale · vulnerabilità</div><ul><li>Da quando è disponibile una misura correttiva</li><li>Descrizione, gravità, impatto e correzione</li></ul></div>
+      <div class="lv"><div class="big">1 mese</div><div class="tag">Relazione finale · incidente grave</div><ul><li>Dalla notifica a 72 ore</li><li>Causa principale e attenuazione</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="card soft"><h4>Cosa si notifica</h4><p>Vulnerabilità <b>attivamente sfruttate</b> e <b>incidenti gravi</b> che incidono sulla sicurezza del prodotto. Il produttore deve anche informare gli utenti interessati e, se del caso, delle misure che possono adottare.</p></div>
+      <div class="card soft"><h4>La piattaforma</h4><p>L'ENISA gestisce la piattaforma unica (versione 1.2.1 dal 20-10-2026), con scheda informativa e domande frequenti. Anche gli amministratori di software open source notificano, ma non sono soggetti a sanzioni.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="normas">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Norme armonizzate e guide</div><h2>I tasselli che ancora mancano</h2></div>
+    <div class="tbl"><table><caption class="sr">Norme e guide del CRA</caption>
+      <thead><tr><th>Documento</th><th>Stato</th><th>A cosa serve</th></tr></thead><tbody>
+      <tr><td>Richiesta di normazione M/606 a CEN, CENELEC ed ETSI (41 norme)</td><td>Accettata ad aprile 2025; scadenze rinviate di due mesi</td><td>Norme orizzontali (tipo A e B) e verticali per prodotto (tipo C) che conferiranno presunzione di conformità</td></tr>
+      <tr><td>Serie EN 40000 (principi di ciberresilienza, gestione delle vulnerabilità)</td><td>In elaborazione</td><td>Base orizzontale per tutti i prodotti</td></tr>
+      <tr><td>IEC 62443 e serie prEN 50770</td><td>Riferimento industriale / in elaborazione</td><td>Prodotti di automazione e tecnologie operative</td></tr>
+      <tr><td>Regolamento di esecuzione (UE) 2025/2392</td><td>In vigore</td><td>Cosa rientra in ciascuna categoria importante o critica</td></tr>
+      <tr><td>Guida della Commissione C(2026) 5252 e domande frequenti</td><td>27-7-2026</td><td>Elaborazione remota dei dati, software open source, modifica sostanziale, periodo di assistenza, rapporto con altre norme</td></tr>
+      <tr><td>BSI TR-03183 (Germania)</td><td>Pubblicata</td><td>Il riferimento pratico più concreto per il contenuto della SBOM</td></tr>
+    </tbody></table></div>
+    <div class="grid2" style="margin-top:24px">
+      <div class="card soft"><h4>Cosa chiarisce la guida di luglio 2026</h4><ul class="check">
+        <li>La maggior parte dei siti e delle applicazioni web puramente remoti è esclusa, salvo che costituiscano l'elaborazione remota di un prodotto rientrante nell'ambito.</li>
+        <li>I sistemi interni del produttore (risorse umane, CRM, pipeline di integrazione e distribuzione, distribuzione degli aggiornamenti) non sono elaborazione remota dei dati del prodotto.</li>
+        <li>Una nuova versione del software costituisce nuova immissione sul mercato solo se comporta una modifica sostanziale.</li>
+        <li>Il software open source monetizzato indirettamente può essere considerato immesso sul mercato.</li></ul></div>
+      <div class="card soft"><h4>Conformarsi senza norme pubblicate</h4><p>L'autorità francese (ANSSI) lo ha ricordato: la conformità non dipende dall'esistenza di norme armonizzate. Senza di esse, il produttore dimostra il rispetto dell'Allegato I con la propria documentazione, e i prodotti di classe I richiedono un organismo notificato.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Opportunità commerciali</div><h2>Dov’è il mercato</h2>
+    <p class="lead">Ogni requisito dell’allegato I è un servizio che qualcuno deve fornire, o un argomento di vendita per chi lo soddisfa per primo.</p></div>
+    <div class="cards4">
+      <div class="card"><h4>Fabbricante</h4><ul class="ul"><li>Assistenza lunga come argomento di vendita</li><li>Team di risposta condiviso tra le linee</li><li>Fascicolo riutilizzabile per NIS2 e CADA</li></ul></div>
+      <div class="card"><h4>Grossista</h4><ul class="ul"><li>Catalogo con classe CRA e data di fine assistenza</li><li>Verifica di conformità per fabbricanti extra UE</li><li>Allerte di vulnerabilità alla rete</li></ul></div>
+      <div class="card"><h4>Integratore</h4><ul class="ul"><li>Gestione del ciclo di vita delle vulnerabilità del parco</li><li>Inventario software e SBOM aggregati</li><li>Selezione di prodotti con assistenza adeguata</li></ul></div>
+      <div class="card"><h4>Cliente finale</h4><ul class="ul"><li>Apparati con patch garantite</li><li>Meno rischio nella catena di fornitura NIS2</li><li>Acquisti con criteri oggettivi</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Rapporto con altre norme</div><h2>Con cosa si sovrappone</h2></div>
+    <div class="tbl"><table><caption class="sr">Rapporto del CRA con altre norme</caption>
+      <thead><tr><th style="width:220px">Norma</th><th>Punto di contatto</th></tr></thead><tbody>
+      <tr><td><b>Direttiva sulle apparecchiature radio</b></td><td>Il relativo atto delegato sulla cibersicurezza (Regolamento delegato 2022/30) si applica da agosto 2025 alle apparecchiature wireless; se ne prevede l'abrogazione quando il CRA sarà pienamente applicabile.</td></tr>
+      <tr><td><b>NIS2</b></td><td>NIS2 obbliga i soggetti; il CRA i prodotti che acquistano. Il CRA è lo strumento per la sicurezza della catena di approvvigionamento di NIS2.</td></tr>
+      <tr><td><a href="/it/normativa/ai-act/"><b>AI Act</b></a></td><td>Un sistema di IA ad alto rischio conforme al CRA si presume conforme ai requisiti di cibersicurezza dell'AI Act.</td></tr>
+      <tr><td><b>Responsabilità per danno da prodotti difettosi</b></td><td>La nuova Direttiva (UE) 2024/2853 tratta il software come prodotto: violare il CRA facilita le richieste di risarcimento.</td></tr>
+      <tr><td><b>Certificazione europea (EUCC)</b></td><td>Un atto delegato previsto per il T4 2026 stabilirà quale presunzione di conformità conferisce un certificato EUCC di livello sostanziale o elevato.</td></tr>
+      <tr><td><a href="/it/normativa/#cada"><b>CADA</b></a></td><td>Il criterio I dell'Allegato III della proposta (catena del software) richiede la SBOM per i livelli alti: le evidenze del CRA servono due volte.</td></tr>
+      <tr><td><b>Omnibus digitale</b></td><td>Propone di usare la piattaforma unica del CRA come punto unico di notifica degli incidenti per NIS2, DORA, GDPR e altre norme.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Tabella di marcia</div><h2>Che cosa fare, in ordine</h2></div>
+    <div class="cards4">
+      <div class="card"><h4><span class="k">Ora</span>Segnalare</h4><ul class="check"><li>Procedura 24/72 ore con responsabili e reperibilità</li><li>Account sulla piattaforma ENISA</li><li>Punto di contatto pubblico per le vulnerabilità</li><li>Seguire l’iter del decreto e valutare la sandbox CRA dell’ACN</li></ul></div>
+      <div class="card"><h4><span class="k">T1 2027</span>Classificare</h4><ul class="check"><li>Classe di ogni famiglia di prodotti</li><li>Percorso di conformità</li><li>Prenotazione di un organismo notificato se serve</li></ul></div>
+      <div class="card"><h4><span class="k">T2–T3 2027</span>Fascicolo</h4><ul class="check"><li>Valutazione dei rischi e SBOM</li><li>Periodo di assistenza e suo costo</li><li>Documentazione tecnica</li></ul></div>
+      <div class="card"><h4><span class="k">11-12-2027</span>Marcatura CE</h4><ul class="check"><li>Dichiarazione UE e marcatura</li><li>Controllo all’inserimento per importatori e distributori</li><li>Scheda con data di fine assistenza</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Come aiuta Software in a Box</h4><p><b>ARGOS</b> mantiene per ogni prodotto classe CRA, periodo di assistenza, SBOM e prove di conformità, e genera la scheda che chiedono grossisti e integratori. Le stesse prove alimentano i fascicoli NIS2 e CADA.</p></div>
+      <div class="card"><h4>Altro in Regolazione UE</h4><p>Radar di 18 norme, calendario 2025–2030, matrice d’impatto e autodiagnosi.</p><div class="ficha-nav"><a class="btn btn-ink" href="/it/normativa/">Torna al radar</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="faq">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Domande frequenti</div><h2>Che cosa ci chiedono più spesso</h2></div>
+    <details class="faq"><summary>Che cosa si applica già in Italia?</summary><div>La segnalazione delle vulnerabilità attivamente sfruttate e degli incidenti gravi (art. 14), dall’11-9-2026, per tutti i prodotti con elementi digitali sul mercato. Il resto, requisiti essenziali, SBOM, valutazione della conformità e marcatura CE, dall’11-12-2027.</div></details>
+    <details class="faq"><summary>A chi devo segnalare?</summary><div>Alla piattaforma unica di segnalazione dell’ENISA, che inoltra al CSIRT coordinatore dello Stato in cui il fabbricante ha lo stabilimento principale; per un fabbricante stabilito in Italia, il CSIRT Italia.</div></details>
+    <details class="faq"><summary>Il decreto italiano è già in vigore?</summary><div>No. È stato approvato in esame preliminare il 2-10-2026 e attende i pareri parlamentari, il voto definitivo e la pubblicazione. Gli obblighi del regolamento, però, valgono già direttamente.</div></details>
+    <details class="faq"><summary>Vendo con il mio marchio apparati di un fabbricante asiatico. Mi riguarda?</summary><div>Sì: per il CRA il fabbricante siete voi (art. 21). Dovete segnalare da subito e, dal 2027, avere fascicolo tecnico, periodo di assistenza, dichiarazione UE e marcatura CE propri.</div></details>
+    <details class="faq"><summary>Per quanto tempo devo fornire patch?</summary><div>Per il periodo di assistenza dichiarato, che deve riflettere l’uso previsto ed essere di almeno cinque anni, salvo che il prodotto sia usato per meno tempo. La data di fine deve essere visibile all’acquisto.</div></details>
+    <details class="faq"><summary>Quali sanzioni prevede il CRA?</summary><div>Fino a 15 M€ o il 2,5 % del fatturato mondiale per i requisiti essenziali, 10 M€ o il 2 % per gli altri obblighi e 5 M€ o l’1 % per informazioni inesatte. Le sanzioni si applicano dall’11-12-2027.</div></details>
+  </div>
+</section>
+
+<section class="sec alt" style="padding-top:0">
+  <div class="wrap">
+    <div class="ctaband"><div><h3>Fabbricate, importate o vendete a marchio proprio prodotti connessi?</h3><p>Vi aiutiamo a impostare la segnalazione entro 24 ore, a classificare i prodotti e a preparare il fascicolo per la marcatura CE del dicembre 2027.</p></div><a class="btn btn-gold" href="/it/normativa/#contacto">Parliamone</a></div>
+  </div>
+</section>
+
+<section class="sec" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Fonti principali</h3>
+    <ul class="src">
+      <li>Testo · <a href="https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R2847">Regolamento (UE) 2024/2847 (EUR-Lex)</a></li>
+      <li>Commissione · <a href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation">Orientamenti C(2026) 5252</a></li>
+      <li>ENISA · <a href="https://www.enisa.europa.eu/cra-srp/">Piattaforma unica di segnalazione</a></li>
+      <li>Italia · <a href="https://documenti.camera.it/Leg19/Dossier/Pdf/AC0546.Pdf">Dossier della Camera sullo schema di decreto</a></li>
+      <li>Italia · <a href="https://certifico.com/cybersicurezza/schema-dlgs-adeguamento-normativa-nazionale-regolamento-ciberresilienza-cra">Testo dello schema di decreto (Certifico)</a></li>
+      <li>Caso · <a href="https://www.cybersecurity360.it/?p=109566">Schema di decreto: controlli, certificazioni e sanzioni (Cybersecurity360)</a></li>
+      <li>Caso · <a href="https://www.greenme.it/?p=1422519">Sanzione del Garante a WindTre (greenMe)</a></li>
+    </ul>
+    <p class="note">Pagina elaborata a partire da un catalogo di 220 fonti sul CRA curato da Software in a Box. Informazione indicativa; non costituisce consulenza legale. Ultimo aggiornamento: 14 novembre 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<!--SX:PG--><nav class="sx-pager" data-nav aria-label="Norma precedente / Norma successiva"><div class="sx-wrap"><a class="sx-prev" href="/it/normativa/data-act/" rel="prev"><small>← Norma precedente</small><b>Data Act in Italia</b></a><a class="sx-up" href="/it/normativa/#radar">Torna al radar</a><a class="sx-next" href="/it/normativa/nis2/" rel="next"><small>Norma successiva →</small><b>NIS2 in Italia</b></a></div></nav><!--/SX:PG-->
+<footer class="sx-ft" data-nav>
+  <div class="sx-wrap">
+    <div class="sx-cols">
+      <div><a class="sx-brand" href="/it/">Software in a Box</a><p>Software per il dato sensibile: IA sovrana, conformità verificata e spazi di dati federati. Madrid, Unione europea.</p></div>
+      <div><h2>Prodotti</h2><a href="/it/prodotti/cognitiv/">COGNITIV</a><a href="/it/prodotti/argos/">ARGOS</a><a href="/it/prodotti/spazi-di-dati/">Spazi di dati</a><a href="/it/prodotti/">Tutti i prodotti</a></div>
+      <div><h2>Normativa UE</h2><a href="/it/normativa/">Indice e radar</a><a href="/it/normativa/rapporto-cada/">Rapporto CADA</a><a href="/it/mappa-del-sito/#normas">Tutte le norme (A–Z)</a></div>
+      <div><h2>Azienda</h2><a href="/it/azienda/#como">Il nostro approccio</a><a href="/it/azienda/#experiencia">Esperienza</a><a href="/it/azienda/#sectores">Settori</a><a href="/it/contatti/">Contatti</a></div>
+      <div><h2>Risorse</h2><a href="/it/mappa-del-sito/">Mappa del sito</a><a href="https://cognitiv.softwareinabox.eu/">cognitiv.softwareinabox.eu</a><a href="https://argos.softwareinabox.eu/">argos.softwareinabox.eu</a><a href="https://datos.softwareinabox.eu/">datos.softwareinabox.eu</a><a href="/llms.txt">llms.txt</a></div>
+    </div>
+    <div class="sx-legal"><span>© 2026 Software in a Box, marchio di Ullswater Investments S.L.</span><nav aria-label="Legale"><a href="/it/note-legali.html">Note legali</a><a href="/it/privacy.html">Privacy</a><a href="/it/cookies.html">Cookie</a></nav></div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.createElement("button"),n=document.createElement("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+<button class="sx-top" type="button" data-nav aria-label="Torna su" title="Torna su"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="/assets/nav.js?v=30ca4ad7" defer></script>
+</body>
+</html>
