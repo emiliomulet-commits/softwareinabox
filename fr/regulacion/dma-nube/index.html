@@ -421,6 +421,34 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
 .tbl td,.tbl th{vertical-align:top}
 @media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.cards4{grid-template-columns:1fr}}
+/* landings de país */
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.flag{display:inline-flex;align-items:center;gap:8px;font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.5);border-radius:999px;padding:5px 12px}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:8px 0 34px}
+.flow>div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 14px;position:relative;font-size:14.5px}
+.flow>div b{display:block;font:800 14px var(--disp);color:var(--ink);margin-bottom:6px}
+.flow>div:not(:last-child):after{content:"→";position:absolute;right:-12px;top:50%;transform:translateY(-50%);color:var(--gold-d);font-weight:800;z-index:2}
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:10px}
+.case .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.case h4{margin:0}
+.case dl{margin:0;font-size:15px}.case dt{font:700 12.5px var(--disp);color:var(--gold-d);text-transform:uppercase;letter-spacing:.06em;margin-top:8px}.case dd{margin:2px 0 0}
+.case .src-l{font-size:13.5px;margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}.case .src-l a{color:var(--ink);font-weight:600}
+.scen{border:1.5px dashed var(--gold);background:var(--gold-t)}
+.scen .meta:before{content:"Escenario ilustrativo";background:var(--gold);color:var(--ink);padding:3px 9px;border-radius:6px;letter-spacing:.04em}
+.risk td:nth-child(3),.risk td:nth-child(4){white-space:nowrap}
+.lvl{display:inline-block;font:700 12px var(--disp);padding:3px 10px;border-radius:999px}
+.lvl.h{background:#FCEFEA;color:#A3201A}.lvl.m{background:#FDF6E6;color:var(--warn)}.lvl.b{background:#EEF8F2;color:var(--ok)}
+.faq{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:10px}
+.faq summary{cursor:pointer;padding:18px 22px;font:700 16.5px var(--disp);color:var(--ink);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--gold-d);font-weight:800}
+.faq[open] summary:after{content:"–"}
+.faq>div{padding:0 22px 18px;font-size:16px}
+.ctaband{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:40px;color:#C9D3E0;display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.ctaband h3{color:#fff;margin:0 0 8px}.ctaband p{margin:0;max-width:40em}
+.split{font:700 12.5px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.12em;margin:40px 0 16px}
+@media(max-width:1100px){.flow{grid-template-columns:repeat(3,1fr)}.flow>div:nth-child(3):after{display:none}}
+@media(max-width:680px){.flow{grid-template-columns:1fr}.flow>div:after{display:none}.ctaband{padding:26px}}
 </style>
 <!-- I18N:BEGIN -->
 <link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/dma-nube/">
@@ -449,8 +477,8 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
     <nav class="nav" id="nav" aria-label="Principal">
       <a href="/fr/#productos">Produits</a> <a href="/fr/#como">Notre approche</a> <a href="/fr/#experiencia">Références</a> <a href="/fr/#sectores">Secteurs</a> <a href="/fr/regulacion/" aria-current="page">Réglementation UE</a> <a class="btn btn-gold" href="/fr/regulacion/#contacto">Parlons-en</a>
     </nav>
-            
-          <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Langue"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>FR</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/dma-nube/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulacion/dma-nube/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/regulacion/dma-nube/" hreflang="fr" lang="fr" aria-current="true">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulacion/dma-nube/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regulacion/dma-nube/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulacion/dma-nube/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/regulacion/dma-nube/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulacion/dma-nube/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/regulacion/dma-nube/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regulacion/dma-nube/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+                            
+      <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Langue"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>FR</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/dma-nube/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulacion/dma-nube/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/regulacion/dma-nube/" hreflang="fr" lang="fr" aria-current="true">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulacion/dma-nube/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regulacion/dma-nube/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulacion/dma-nube/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/regulacion/dma-nube/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulacion/dma-nube/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/regulacion/dma-nube/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regulacion/dma-nube/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
   </div>
 </header>
 

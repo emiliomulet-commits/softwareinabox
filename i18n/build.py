@@ -252,7 +252,7 @@ def extract():
     for pg in SITE["pages"]:
         if pg.get("langs") and not [l for l in pg["langs"] if l != SRC]:
             continue  # página solo en español: no hay nada que traducir
-        raw = strip_i18n(open(os.path.join(ROOT, pg["file"]), encoding="utf-8").read())
+        raw = strip_i18n(open(os.path.join(ROOT, src_file(pg, "en")), encoding="utf-8").read())
         for a, b, kind, s, x in units(raw):
             items = jsonld_strings(s) if kind == "jsonld" else [s]
             for it in items:
@@ -495,8 +495,16 @@ def js_escape(t, q):
     return re.sub(r"(?<!\\)" + re.escape(q), "\\" + q, t).replace("\n", "\\n")
 
 
+def src_file(pg, lang):
+    """Fuente de la página. "tr_src" en sites.json: fuente distinta para los idiomas traducidos
+    (p. ej. la landing española de un país y la ficha UE que se traduce mientras no hay landing propia)."""
+    if lang != SRC and pg.get("tr_src"):
+        return pg["tr_src"]
+    return pg["file"]
+
+
 def build_page(pg, lang, tr, missing):
-    path = os.path.join(ROOT, pg["file"])
+    path = os.path.join(ROOT, src_file(pg, lang))
     raw = strip_i18n(open(path, encoding="utf-8").read())
     if lang == SRC:
         return add_common(raw, pg, lang)

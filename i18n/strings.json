@@ -5337,8 +5337,8 @@
   ]
  },
  {
-  "id": "ee7fdf27fa",
-  "src": "Ficha completa",
+  "id": "195c8823e7",
+  "src": "Guía completa · España",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -5420,6 +5420,14 @@
  {
   "id": "1b578fd881",
   "src": "Clasificación de riesgo y documentación de datos y modelos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee7fdf27fa",
+  "src": "Ficha completa",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
