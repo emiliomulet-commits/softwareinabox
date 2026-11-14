@@ -1,0 +1,162 @@
+<!--B:paises--><section class="sec" id="paises">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">I hvert land</div><h2>Hvem fører tilsyn med CRA på de otte vigtigste markeder</h2>
+    <p class="lead">CRA er en forordning: forpligtelserne er de samme i hele EU. Hvert land udpeger markedsovervågningsmyndigheden, den bemyndigende myndighed for overensstemmelsesvurderingsorganer og den CSIRT, der modtager indberetningerne.</p></div>
+    <div class="tbl"><table><caption class="sr">CRA-myndigheder pr. land</caption>
+      <thead><tr><th style="width:130px">Land</th><th>Markedsovervågning og bemyndigende myndighed</th><th>CSIRT for indberetninger</th><th style="width:120px">Status</th></tr></thead><tbody>
+      <tr><td><b>Spanien</b></td><td>Udkast til kongelig anordning: statssekretariatet for telekommunikation (tilsyn) og Centro Criptológico Nacional (bemyndigelse)</td><td>INCIBE-CERT og CCN-CERT; CRA-koordinator endnu ikke bekræftet</td><td><span class="badge b-esp">Udkast</span></td></tr>
+      <tr><td><b>Portugal</b></td><td>Ingen kendt udpegning</td><td>CNCS (CERT.PT)</td><td><span class="badge b-esp">Afventer</span></td></tr>
+      <tr><td><b>Belgien</b></td><td>CCB sammen med FOD Økonomi, under forberedelse</td><td>CCB</td><td><span class="badge b-gra">I gang</span></td></tr>
+      <tr><td><b>Nederlandene</b></td><td>Rijksinspectie Digitale Infrastructuur (RDI), tilsyn og bemyndigelse; gennemførelseslov 36 875</td><td>NCSC</td><td><span class="badge b-gra">I gang</span></td></tr>
+      <tr><td><b>Tyskland</b></td><td>BSI, tilsyn og bemyndigelse; gennemførelseslov vedtaget af Forbundsdagen 15-10-2026</td><td>BSI</td><td><span class="badge b-vig">Vedtaget</span></td></tr>
+      <tr><td><b>Frankrig</b></td><td>ANSSI (bemyndigelse), med ANFR og DGE til tilsyn og vejledning</td><td>ANSSI (CERT-FR)</td><td><span class="badge b-gra">I gang</span></td></tr>
+      <tr><td><b>Italien</b></td><td>ACN, tilsyn og bemyndigelse, med støtte fra Guardia di Finanza; dekret foreløbigt godkendt 2-10-2026</td><td>CSIRT Italia (ACN)</td><td><span class="badge b-gra">I gang</span></td></tr>
+      <tr><td><b>Danmark</b></td><td>Styrelsen for Samfundssikkerhed, tilsyn og bemyndigelse; lovudkast i høring til 2-11-2026</td><td>Den nationale CSIRT</td><td><span class="badge b-gra">I gang</span></td></tr>
+    </tbody></table></div>
+    <div class="callout">Indberetningen efter artikel 14 sker én gang, på ENISA’s platform, som sender den videre til den koordinerende CSIRT i det land, hvor producenten har sit hovedforretningssted. Producentens land afgør, hvem der modtager indberetningen; markedets land, hvem der kontrollerer produktet.</div>
+    <p class="dl">Status pr. 14-11-2026.</p>
+  </div>
+</section><!--/B-->
+
+<!--B:obligaciones--><section class="sec alt" id="obligaciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Konkrete forpligtelser</div><h2>Hvad hvert led skal gøre</h2>
+    <p class="lead">Forordningens forpligtelser pr. rolle, med den dokumentation, som markedsovervågningen, det bemyndigede organ eller kunden vil kræve. Indberetning af sårbarheder gælder allerede; resten fra 11-12-2027. Nationale særtræk er markeret.</p></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="oF" role="tab" aria-selected="true">Producent</button>
+      <button class="tab" data-p="oP" role="tab" aria-selected="false">Importør eller repræsentant</button>
+      <button class="tab" data-p="oM" role="tab" aria-selected="false">Grossist eller distributør</button>
+      <button class="tab" data-p="oI" role="tab" aria-selected="false">Integrator</button>
+      <button class="tab" data-p="oC" role="tab" aria-selected="false">Slutkunde eller offentlig indkøber</button>
+    </div>
+    <div class="tabpane on" id="oF" role="tabpanel"><div class="tbl"><table><caption class="sr">Producentens forpligtelser</caption>
+      <thead><tr><th>Forpligtelse</th><th style="width:120px">Grundlag</th><th style="width:130px">Hvornår</th><th>Krævet dokumentation</th></tr></thead><tbody>
+      <tr><td>Indberette aktivt udnyttede sårbarheder og alvorlige hændelser: tidlig varsling inden for 24 timer, indberetning inden for 72 timer, endelig rapport; og informere brugerne</td><td>Art. 14</td><td>Allerede (siden 11-9-2026), også for allerede solgte produkter</td><td>Procedure, konto på ENISA-platformen, sagsregister</td></tr>
+      <tr><td>Risikovurdering og design efter de væsentlige krav i bilag I</td><td>Art. 13 · bilag I</td><td>11-12-2027</td><td>Dokumenteret risikovurdering</td></tr>
+      <tr><td>Håndtering af sårbarheder i supportperioden: SBOM, gratis rettelser, politik for koordineret offentliggørelse og kontaktpunkt</td><td>Art. 13 · bilag I, del II</td><td>11-12-2027</td><td>SBOM, offentliggørelsespolitik, publicerede advarsler</td></tr>
+      <tr><td>Angive en supportperiode på mindst fem år, medmindre den forventede brug er kortere, med en slutdato, der er synlig ved købet</td><td>Art. 13, stk. 8</td><td>11-12-2027</td><td>Produktark med slutdato for support</td></tr>
+      <tr><td>Omhu med tredjepartskomponenter, herunder open source</td><td>Art. 13, stk. 5</td><td>11-12-2027</td><td>Komponentfortegnelse og vurdering</td></tr>
+      <tr><td>Teknisk dokumentation, overensstemmelsesvurdering efter klasse, EU-overensstemmelseserklæring og CE-mærkning</td><td>Art. 28–32</td><td>11-12-2027</td><td>Teknisk dossier, evt. certifikat fra bemyndiget organ</td></tr>
+      <!--NAT:oF-->
+    </tbody></table></div>
+    <div class="callout">Indberetningspligten i artikel 14 gælder allerede for alt på markedet, også det, der er solgt før 2027. En producent uden 24-timersprocedure er allerede i restance.</div></div>
+
+    <div class="tabpane" id="oP" role="tabpanel"><div class="tbl"><table><caption class="sr">Importørens og repræsentantens forpligtelser</caption>
+      <thead><tr><th>Forpligtelse</th><th style="width:120px">Grundlag</th><th style="width:130px">Hvornår</th><th>Dokumentation</th></tr></thead><tbody>
+      <tr><td>Kun bringe overensstemmende produkter i omsætning: kontrollere overensstemmelsesvurdering, teknisk dokumentation, CE-mærkning, EU-erklæring og producentoplysninger</td><td>Art. 19</td><td>11-12-2027</td><td>Tjekliste pr. vare</td></tr>
+      <tr><td>Angive navn og kontaktoplysninger på produkt, emballage eller dokumentation</td><td>Art. 19</td><td>11-12-2027</td><td>Mærkning</td></tr>
+      <tr><td>Informere producenten og ved væsentlig risiko markedsovervågningen om opdagede sårbarheder</td><td>Art. 19</td><td>11-12-2027</td><td>Varslingskanal og register</td></tr>
+      <tr><td>Repræsentanten handler efter skriftligt mandat fra en producent uden for EU</td><td>Art. 18</td><td>11-12-2027</td><td>Mandat og dokumentation til rådighed for myndigheden</td></tr>
+      <!--NAT:oP-->
+    </tbody></table></div>
+    <div class="callout">Den, der importerer under eget mærke eller ændrer produktet væsentligt, bliver producent med alle forpligtelser (art. 21).</div></div>
+
+    <div class="tabpane" id="oM" role="tabpanel"><div class="tbl"><table><caption class="sr">Grossistens og distributørens forpligtelser</caption>
+      <thead><tr><th>Forpligtelse</th><th style="width:120px">Grundlag</th><th style="width:130px">Hvornår</th><th>Dokumentation</th></tr></thead><tbody>
+      <tr><td>Handle med fornøden omhu: kontrollere CE-mærkning, oplysninger om producent og importør samt vejledning før salg</td><td>Art. 20</td><td>11-12-2027</td><td>Overensstemmelseskontrol ved optagelse af hvert produkt</td></tr>
+      <tr><td>Ikke distribuere produkter, der ikke overholder kravene, og informere producent og myndighed ved risiko</td><td>Art. 20</td><td>11-12-2027</td><td>Procedure for spærring og tilbagekaldelse</td></tr>
+      <tr><td>Videregive producentens sårbarhedsadvarsler til kunderne</td><td>Art. 14, stk. 8, og 20</td><td>Fra nu</td><td>Varslingskanal til netværket</td></tr>
+      <tr><td>Sælger man under eget mærke eller ændrer væsentligt, er man producent</td><td>Art. 21</td><td>11-12-2027</td><td>Rolleanalyse pr. produktlinje</td></tr>
+    </tbody></table></div>
+    <div class="callout">For en grossist bliver optagelse i sortimentet en overensstemmelseskontrol. Uden kontrolleret EU-erklæring, mærkning og supportperiode bør en vare ikke komme i kataloget fra december 2027.</div></div>
+
+    <div class="tabpane" id="oI" role="tabpanel"><div class="tbl"><table><caption class="sr">Integratorens forpligtelser</caption>
+      <thead><tr><th>Forpligtelse</th><th style="width:120px">Grundlag</th><th style="width:130px">Hvornår</th><th>Dokumentation</th></tr></thead><tbody>
+      <tr><td>Sælger man en løsning under eget mærke (appliance, pakket software), er man producent</td><td>Art. 3 og 13</td><td>Indberetning allerede · resten 11-12-2027</td><td>Rolleanalyse pr. løsning</td></tr>
+      <tr><td>Ændrer man et allerede solgt produkt væsentligt, er man også producent af den version</td><td>Art. 22</td><td>11-12-2027</td><td>Register over ændringer og deres vurdering</td></tr>
+      <tr><td>Vælge produkter, hvis support dækker projektets levetid, og videregive advarsler til kunden</td><td>Art. 13, stk. 8 (producentens)</td><td>Fra nu</td><td>Produktmatrix med supportophør</td></tr>
+      <!--NAT:oI-->
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oC" role="tabpanel"><div class="tbl"><table><caption class="sr">Slutkundens og den offentlige indkøbers rettigheder</caption>
+      <thead><tr><th>Rettighed eller praksis</th><th style="width:120px">Grundlag</th><th style="width:130px">Hvornår</th><th>Sådan bruges den</th></tr></thead><tbody>
+      <tr><td>Modtage gratis sikkerhedsopdateringer i den angivne supportperiode</td><td>Art. 13 · bilag I</td><td>Produkter bragt i omsætning fra 11-12-2027</td><td>Kræve slutdato for support i tilbuddet</td></tr>
+      <tr><td>Blive informeret om udnyttede sårbarheder og hændelser, der berører produktet, og om tiltag, der skal tages</td><td>Art. 14, stk. 8</td><td>Allerede</td><td>Tilmelde de teknisk ansvarlige producentens kanaler</td></tr>
+      <tr><td>Kræve CRA-klasse, EU-erklæring, supportperiode og sårbarhedspolitik ved indkøb</td><td>Art. 13 og 28</td><td>Fra nu</td><td>Klausuler i udbud og kontrakter</td></tr>
+      <!--NAT:oC-->
+    </tbody></table></div></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:cadena--><section class="sec" id="cadena">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Udfordringer for hele værdikæden</div><h2>Produktsikkerhed slutter ikke længere ved salget</h2>
+    <p class="lead">CRA gør cybersikkerhed til et krav for CE-mærkningen og udstrækker den til hele supportperioden. Hvert led skal kontrollere, videregive eller reagere.</p></div>
+    <div class="flow" aria-label="CRA-værdikæden">
+      <div><b>Komponenter</b>Chips, firmware, open source</div>
+      <div><b>Producent</b>Designer, dokumenterer, retter</div>
+      <div><b>Importør</b>Kontrollerer, hvad der kommer ind i EU</div>
+      <div><b>Grossist</b>Kontrollerer sortimentet, varsler netværket</div>
+      <div><b>Integrator</b>Installerer, vedligeholder, opdaterer</div>
+      <div><b>Kunde</b>Modtager rettelser og advarsler</div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h4><span class="k">01</span>Klassificere rigtigt</h4><p>De fleste produkter hører til standardklassen og selvvurderer. Men routere, firewalls, styresystemer eller smarte sikkerhedsprodukter er vigtige, og en forkert klasse ugyldiggør hele dossieret.</p></div>
+      <div class="card"><h4><span class="k">02</span>24 timer, der begynder tidligt</h4><p>Fristen løber fra det tidspunkt, producenten får kendskab til sårbarheden. Uden et produktresponsteam og vagtordning kommer den tidlige varsling for sent.</p></div>
+      <div class="card"><h4><span class="k">03</span>Det, man ikke ser: afhængigheder</h4><p>Et produkt kan indeholde hundredvis af tredjeparts- og open source-biblioteker. Uden SBOM ved man ikke, om en offentliggjort sårbarhed berører det, eller i hvilke versioner.</p></div>
+      <div class="card"><h4><span class="k">04</span>Fem års rettelser koster</h4><p>Supportperioden bliver en post i prisen. Produkter med lav margin og kort cyklus må revidere deres model.</p></div>
+      <div class="card"><h4><span class="k">05</span>Få bemyndigede organer</h4><p>Produkter i klasse II og i klasse I uden harmoniserede standarder kræver en tredjepart. I 2027 bliver der kø.</p></div>
+      <div class="card"><h4><span class="k">06</span>Standarder, der kommer sent</h4><p>De fleste harmoniserede standarder udkommer først kort før december 2027. Uden dem dokumenterer producenten overensstemmelse med egen dokumentation.</p></div>
+      <div class="card"><h4><span class="k">07</span>Eget mærke gør til producent</h4><p>Grossister og integratorer, der sælger andres udstyr under eget mærke, bærer alle producentens forpligtelser, også indberetningen.</p></div>
+      <div class="card"><h4><span class="k">08</span>Den installerede base tæller også</h4><p>Indberetningspligten gælder for produkter solgt før 2027. En udnyttet fejl i udstyr fra 2022 indberettes på samme måde.</p></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:escenarios--><div class="split">Illustrative scenarier pr. led</div>
+    <p class="mut" style="max-width:52em">Det er ikke virkelige sager: de beskriver almindelige situationer for at vise, hvordan forpligtelserne virker.</p>
+    <div class="grid2">
+      <article class="case scen"><div class="meta"><span class="sl">Illustrativt scenarie</span></div><h4>Producent af industrielle gateways</h4><dl>
+        <dt>Situation</dt><dd>En virksomhed med 120 ansatte fremstiller IoT-gateways med indbygget firewall til vand- og energianlæg.</dd>
+        <dt>Kvalifikation</dt><dd>Sandsynligvis et vigtigt produkt på grund af firewallfunktionen: der kræves et bemyndiget organ eller fuldt anvendte harmoniserede standarder.</dd>
+        <dt>Hvad skal gøres</dt><dd>Indberetningsprocedure nu, SBOM i byggekæden og reservation af et bemyndiget organ i 2027.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Illustrativt scenarie</span></div><h4>Grossist med IP-kameraer under eget mærke</h4><dl>
+        <dt>Situation</dt><dd>En grossist importerer kameraer fra Asien og sælger dem under eget mærke til sikringsinstallatører.</dd>
+        <dt>Kvalifikation</dt><dd>Med eget mærke er han producent: indberetning fra nu og fra 2027 eget dossier, supportperiode og CE-mærkning.</dd>
+        <dt>Hvad skal gøres</dt><dd>Kontrakt med den oprindelige producent, der sikrer rettelser, SBOM og rettidig reaktion på sårbarheder.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Illustrativt scenarie</span></div><h4>Integrator, der sælger en appliance</h4><dl>
+        <dt>Situation</dt><dd>En integrator samler server, styresystem og sin egen flådestyringssoftware i et apparat under sit mærke.</dd>
+        <dt>Kvalifikation</dt><dd>Han er producent af hele appliancen, selv om komponenterne kommer fra tredjeparter.</dd>
+        <dt>Hvad skal gøres</dt><dd>Risikovurdering af helheden, opfølgning på sårbarheder pr. komponent og varslingskanal til kunderne.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Illustrativt scenarie</span></div><h4>Hospital, der fornyer sit netværk</h4><dl>
+        <dt>Situation</dt><dd>Et hospital udbyder switche, access points og kameraer til de næste otte år.</dd>
+        <dt>Kvalifikation</dt><dd>Det har ingen CRA-forpligtelser, men NIS2-forpligtelser: leverandørsikkerhed er en del af dets foranstaltninger.</dd>
+        <dt>Hvad skal gøres</dt><dd>Kræve CRA-klasse, EU-erklæring fra 2027 og en supportperiode, der dækker den forventede levetid, i udbudsmaterialet.</dd></dl></article>
+    </div><!--/B-->
+
+<!--B:oportunidades--><section class="sec alt" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Forretningsmuligheder</div><h2>Hvor markedet er</h2>
+    <p class="lead">Hvert krav i bilag I er en ydelse, som nogen skal levere, eller et salgsargument for den, der opfylder det først.</p></div>
+    <div class="cards4">
+      <div class="card"><h4>Producent</h4><ul class="ul"><li>Lang support som salgsargument</li><li>Produktresponsteam delt på tværs af linjer</li><li>Dossier genbrugeligt til NIS2 og CADA</li></ul></div>
+      <div class="card"><h4>Grossist</h4><ul class="ul"><li>Katalog med CRA-klasse og slutdato for support</li><li>Overensstemmelseskontrol for producenter uden for EU</li><li>Sårbarhedsvarsler til netværket</li></ul></div>
+      <div class="card"><h4>Integrator</h4><ul class="ul"><li>Livscyklusstyring af sårbarheder i den installerede base</li><li>Samlet softwarefortegnelse og SBOM</li><li>Valg af produkter med tilstrækkelig support</li></ul></div>
+      <div class="card"><h4>Slutkunde</h4><ul class="ul"><li>Udstyr med garanterede rettelser</li><li>Mindre risiko i NIS2-forsyningskæden</li><li>Indkøb på objektive kriterier</li></ul></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:hacer--><section class="sec" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Køreplan</div><h2>Hvad der skal gøres, i rækkefølge</h2></div>
+    <div class="cards4">
+      <div class="card"><h4><span class="k">Nu</span>Indberette</h4><ul class="check"><li>24/72-timersprocedure med ansvarlige og vagtordning</li><li>Konto på ENISA-platformen</li><li>Offentligt kontaktpunkt for sårbarheder</li><!--NAT:hacer-ya--></ul></div>
+      <div class="card"><h4><span class="k">K1 2027</span>Klassificere</h4><ul class="check"><li>Klasse for hver produktfamilie</li><li>Overensstemmelsesvej</li><li>Reservation af bemyndiget organ om nødvendigt</li></ul></div>
+      <div class="card"><h4><span class="k">K2–K3 2027</span>Dossier</h4><ul class="check"><li>Risikovurdering og SBOM</li><li>Supportperiode og dens omkostning</li><li>Teknisk dokumentation</li></ul></div>
+      <div class="card"><h4><span class="k">11-12-2027</span>CE-mærkning</h4><ul class="check"><li>EU-erklæring og mærkning</li><li>Kontrol ved optagelse for importører og distributører</li><li>Produktark med slutdato for support</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Sådan hjælper Software in a Box</h4><p><b>ARGOS</b> holder for hvert produkt styr på CRA-klasse, supportperiode, SBOM og overensstemmelsesdokumentation og genererer det produktark, som grossister og integratorer beder om. Den samme dokumentation føder NIS2- og CADA-dossiererne.</p></div>
+      <div class="card"><h4>Mere under EU-regulering</h4><p>Radar med 18 regelsæt, kalender 2025–2030, konsekvensmatrix og selvdiagnose.</p><div class="ficha-nav"><a class="btn btn-ink" href="/regulacion/">Tilbage til radaren</a></div></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:cta--><section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="ctaband"><div><h3>Producerer, importerer eller sælger I forbundne produkter under eget mærke?</h3><p>Vi hjælper jer med at etablere indberetningen inden for 24 timer, klassificere jeres produkter og forberede dossieret til CE-mærkningen i december 2027.</p></div><a class="btn btn-gold" href="/regulacion/#contacto">Lad os tale sammen</a></div>
+  </div>
+</section><!--/B-->

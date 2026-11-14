@@ -80,6 +80,7 @@
         {
           "file": "regulacion/cra/index.html",
           "path": "/regulacion/cra/",
+          "tr_src": "i18n/src/regulacion-cra.html",
           "changefreq": "monthly",
           "priority": "0.8"
         },

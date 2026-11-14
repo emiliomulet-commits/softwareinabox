@@ -1,0 +1,162 @@
+<!--B:paises--><section class="sec" id="paises">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">En cada país</div><h2>Quién vigila el CRA en los ocho mercados clave</h2>
+    <p class="lead">El CRA es un reglamento: las obligaciones son las mismas en toda la UE. Cada Estado designa la autoridad de vigilancia del mercado, la autoridad notificante de los organismos de evaluación y el CSIRT que recibe las notificaciones.</p></div>
+    <div class="tbl"><table><caption class="sr">Autoridades del CRA por país</caption>
+      <thead><tr><th style="width:130px">País</th><th>Vigilancia del mercado y notificante</th><th>CSIRT para notificaciones</th><th style="width:120px">Situación</th></tr></thead><tbody>
+      <tr><td><b>España</b></td><td>Proyecto de real decreto: Secretaría de Estado de Telecomunicaciones (vigilancia) y Centro Criptológico Nacional (notificante)</td><td>INCIBE-CERT y CCN-CERT; coordinador CRA por confirmar</td><td><span class="badge b-esp">Borrador</span></td></tr>
+      <tr><td><b>Portugal</b></td><td>Sin designación conocida</td><td>CNCS (CERT.PT)</td><td><span class="badge b-esp">Pendiente</span></td></tr>
+      <tr><td><b>Bélgica</b></td><td>CCB, con el SPF Economía, en preparación</td><td>CCB</td><td><span class="badge b-gra">En curso</span></td></tr>
+      <tr><td><b>Países Bajos</b></td><td>Rijksinspectie Digitale Infrastructuur (RDI), vigilancia y notificante; ley de ejecución 36 875</td><td>NCSC</td><td><span class="badge b-gra">En curso</span></td></tr>
+      <tr><td><b>Alemania</b></td><td>BSI, vigilancia y notificante; ley de ejecución aprobada por el Bundestag el 15-10-2026</td><td>BSI</td><td><span class="badge b-vig">Aprobada</span></td></tr>
+      <tr><td><b>Francia</b></td><td>ANSSI (notificante), con la ANFR y la DGE en la vigilancia y el acompañamiento</td><td>ANSSI (CERT-FR)</td><td><span class="badge b-gra">En curso</span></td></tr>
+      <tr><td><b>Italia</b></td><td>ACN, vigilancia y notificante, con apoyo de la Guardia di Finanza; decreto aprobado en primera lectura el 2-10-2026</td><td>CSIRT Italia (ACN)</td><td><span class="badge b-gra">En curso</span></td></tr>
+      <tr><td><b>Dinamarca</b></td><td>Styrelsen for Samfundssikkerhed, vigilancia y notificante; anteproyecto en consulta hasta el 2-11-2026</td><td>CSIRT nacional</td><td><span class="badge b-gra">En curso</span></td></tr>
+    </tbody></table></div>
+    <div class="callout">La notificación del art. 14 se hace una sola vez, en la plataforma de ENISA, que la reenvía al CSIRT coordinador del Estado donde el fabricante tiene su establecimiento principal. El país del fabricante decide quién la recibe; el del mercado, quién vigila el producto.</div>
+    <p class="dl">Situación a 14-11-2026.</p>
+  </div>
+</section><!--/B-->
+
+<!--B:obligaciones--><section class="sec alt" id="obligaciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Obligaciones concretas</div><h2>Qué tiene que hacer cada eslabón</h2>
+    <p class="lead">Obligaciones del Reglamento por papel, con la evidencia que pedirán la autoridad de vigilancia, el organismo notificado o el cliente. La notificación de vulnerabilidades ya obliga; el resto, desde el 11-12-2027. Las particularidades nacionales van marcadas.</p></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="oF" role="tab" aria-selected="true">Fabricante</button>
+      <button class="tab" data-p="oP" role="tab" aria-selected="false">Importador o representante</button>
+      <button class="tab" data-p="oM" role="tab" aria-selected="false">Mayorista o distribuidor</button>
+      <button class="tab" data-p="oI" role="tab" aria-selected="false">Integrador</button>
+      <button class="tab" data-p="oC" role="tab" aria-selected="false">Cliente final o comprador público</button>
+    </div>
+    <div class="tabpane on" id="oF" role="tabpanel"><div class="tbl"><table><caption class="sr">Obligaciones del fabricante</caption>
+      <thead><tr><th>Obligación</th><th style="width:120px">Base</th><th style="width:130px">Cuándo</th><th>Evidencia exigible</th></tr></thead><tbody>
+      <tr><td>Notificar vulnerabilidades explotadas activamente e incidentes graves: alerta en 24 h, notificación en 72 h, informe final; e informar a los usuarios</td><td>Art. 14</td><td>Ya (desde 11-9-2026), también para productos ya vendidos</td><td>Procedimiento, registro en la plataforma de ENISA, registro de casos</td></tr>
+      <tr><td>Evaluación de riesgos y diseño conforme a los requisitos esenciales del Anexo I</td><td>Art. 13 · Anexo I</td><td>11-12-2027</td><td>Evaluación de riesgos documentada</td></tr>
+      <tr><td>Gestión de vulnerabilidades durante el periodo de soporte: SBOM, parches gratuitos, política de divulgación coordinada y punto de contacto</td><td>Art. 13 · Anexo I, parte II</td><td>11-12-2027</td><td>SBOM, política de divulgación, avisos publicados</td></tr>
+      <tr><td>Declarar un periodo de soporte de al menos cinco años, salvo uso previsto más corto, con fecha de fin visible al comprar</td><td>Art. 13.8</td><td>11-12-2027</td><td>Ficha de producto con fecha de fin de soporte</td></tr>
+      <tr><td>Diligencia con los componentes de terceros, incluido el código abierto</td><td>Art. 13.5</td><td>11-12-2027</td><td>Inventario de componentes y su evaluación</td></tr>
+      <tr><td>Documentación técnica, evaluación de la conformidad según la clase, declaración UE y marcado CE</td><td>Arts. 28–32</td><td>11-12-2027</td><td>Expediente técnico, certificado del organismo notificado si procede</td></tr>
+      <!--NAT:oF-->
+    </tbody></table></div>
+    <div class="callout">La notificación del art. 14 ya se aplica a todo lo que está en el mercado, aunque se vendiera antes de 2027. Un fabricante sin procedimiento de 24 horas ya incumple.</div></div>
+
+    <div class="tabpane" id="oP" role="tabpanel"><div class="tbl"><table><caption class="sr">Obligaciones del importador y del representante</caption>
+      <thead><tr><th>Obligación</th><th style="width:120px">Base</th><th style="width:130px">Cuándo</th><th>Evidencia</th></tr></thead><tbody>
+      <tr><td>Comercializar solo productos conformes: comprobar evaluación de la conformidad, documentación técnica, marcado CE, declaración UE e identificación del fabricante</td><td>Art. 19</td><td>11-12-2027</td><td>Lista de comprobación por referencia</td></tr>
+      <tr><td>Indicar su nombre y datos de contacto en el producto, el embalaje o la documentación</td><td>Art. 19</td><td>11-12-2027</td><td>Etiquetado</td></tr>
+      <tr><td>Informar al fabricante y, si hay riesgo significativo, a la autoridad de vigilancia de las vulnerabilidades que detecte</td><td>Art. 19</td><td>11-12-2027</td><td>Canal de avisos y registro</td></tr>
+      <tr><td>El representante autorizado actúa por mandato escrito de un fabricante de fuera de la UE</td><td>Art. 18</td><td>11-12-2027</td><td>Mandato y documentación disponible para la autoridad</td></tr>
+      <!--NAT:oP-->
+    </tbody></table></div>
+    <div class="callout">Quien importa con su propia marca, o modifica sustancialmente el producto, pasa a ser fabricante con todas sus obligaciones (art. 21).</div></div>
+
+    <div class="tabpane" id="oM" role="tabpanel"><div class="tbl"><table><caption class="sr">Obligaciones del mayorista y del distribuidor</caption>
+      <thead><tr><th>Obligación</th><th style="width:120px">Base</th><th style="width:130px">Cuándo</th><th>Evidencia</th></tr></thead><tbody>
+      <tr><td>Actuar con la diligencia debida: comprobar el marcado CE, la información del fabricante y del importador y las instrucciones antes de vender</td><td>Art. 20</td><td>11-12-2027</td><td>Control de conformidad en el alta de cada referencia</td></tr>
+      <tr><td>No distribuir productos no conformes e informar al fabricante y a la autoridad si hay riesgo</td><td>Art. 20</td><td>11-12-2027</td><td>Procedimiento de bloqueo y retirada</td></tr>
+      <tr><td>Transmitir a los clientes los avisos de vulnerabilidades del fabricante</td><td>Arts. 14.8 y 20</td><td>Ya conviene</td><td>Canal de avisos al canal</td></tr>
+      <tr><td>Si vende con su marca o modifica sustancialmente: es fabricante</td><td>Art. 21</td><td>11-12-2027</td><td>Análisis de papel por línea de producto</td></tr>
+    </tbody></table></div>
+    <div class="callout">Para un mayorista, el alta de producto se convierte en un control de conformidad. Sin declaración UE, marcado y periodo de soporte verificados, la referencia no debería entrar en catálogo desde diciembre de 2027.</div></div>
+
+    <div class="tabpane" id="oI" role="tabpanel"><div class="tbl"><table><caption class="sr">Obligaciones del integrador</caption>
+      <thead><tr><th>Obligación</th><th style="width:120px">Base</th><th style="width:130px">Cuándo</th><th>Evidencia</th></tr></thead><tbody>
+      <tr><td>Si comercializa una solución con su marca (appliance, software empaquetado), es fabricante</td><td>Arts. 3 y 13</td><td>Notificación ya · resto 11-12-2027</td><td>Análisis de papel por solución</td></tr>
+      <tr><td>Si modifica sustancialmente un producto ya comercializado, también es fabricante de esa versión</td><td>Art. 22</td><td>11-12-2027</td><td>Registro de cambios y su evaluación</td></tr>
+      <tr><td>Elegir productos con soporte suficiente para la vida útil del proyecto y trasladar los avisos al cliente</td><td>Art. 13.8 (del fabricante)</td><td>Ya conviene</td><td>Matriz de productos con fin de soporte</td></tr>
+      <!--NAT:oI-->
+    </tbody></table></div></div>
+
+    <div class="tabpane" id="oC" role="tabpanel"><div class="tbl"><table><caption class="sr">Derechos del cliente final y del comprador público</caption>
+      <thead><tr><th>Derecho o práctica</th><th style="width:120px">Base</th><th style="width:130px">Cuándo</th><th>Cómo usarlo</th></tr></thead><tbody>
+      <tr><td>Recibir actualizaciones de seguridad gratuitas durante el periodo de soporte declarado</td><td>Art. 13 · Anexo I</td><td>Productos desde 11-12-2027</td><td>Exigir la fecha de fin de soporte en la oferta</td></tr>
+      <tr><td>Ser informado de vulnerabilidades explotadas e incidentes que afecten al producto y de las medidas que puede tomar</td><td>Art. 14.8</td><td>Ya</td><td>Registrar a los responsables técnicos en los canales del fabricante</td></tr>
+      <tr><td>Pedir en las compras la clase CRA, la declaración UE, el periodo de soporte y la política de vulnerabilidades</td><td>Arts. 13 y 28</td><td>Ya conviene</td><td>Cláusulas en pliegos y contratos</td></tr>
+      <!--NAT:oC-->
+    </tbody></table></div></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:cadena--><section class="sec" id="cadena">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Retos para toda la cadena de valor</div><h2>La seguridad del producto ya no termina en la venta</h2>
+    <p class="lead">El CRA convierte la ciberseguridad en requisito del marcado CE y la extiende a todo el periodo de soporte. Cada eslabón tiene que verificar, transmitir o responder.</p></div>
+    <div class="flow" aria-label="La cadena de valor del CRA">
+      <div><b>Componentes</b>Chips, firmware, código abierto</div>
+      <div><b>Fabricante</b>Diseña, documenta, parchea</div>
+      <div><b>Importador</b>Verifica lo que entra en la UE</div>
+      <div><b>Mayorista</b>Controla el alta y avisa al canal</div>
+      <div><b>Integrador</b>Instala, mantiene, actualiza</div>
+      <div><b>Cliente</b>Recibe parches y avisos</div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h4><span class="k">01</span>Clasificar bien</h4><p>La mayoría de productos son de la clase por defecto y se autoevalúan. Pero routers, cortafuegos, sistemas operativos o productos domóticos de seguridad son importantes, y un error de clase invalida todo el expediente.</p></div>
+      <div class="card"><h4><span class="k">02</span>24 horas que empiezan pronto</h4><p>El plazo corre desde que el fabricante tiene conocimiento. Sin un equipo de respuesta de producto y sin turnos, la alerta temprana llega tarde.</p></div>
+      <div class="card"><h4><span class="k">03</span>Lo que no se ve: las dependencias</h4><p>Un producto puede integrar cientos de librerías de terceros y de código abierto. Sin SBOM no se sabe si una vulnerabilidad publicada afecta, ni a qué versiones.</p></div>
+      <div class="card"><h4><span class="k">04</span>Cinco años de parches cuestan dinero</h4><p>El periodo de soporte se convierte en una partida del precio. Productos de bajo margen y ciclo corto tendrán que replantear su modelo.</p></div>
+      <div class="card"><h4><span class="k">05</span>Organismos notificados escasos</h4><p>Los productos de clase II y los de clase I sin normas armonizadas necesitan un tercero. Habrá cola en 2027.</p></div>
+      <div class="card"><h4><span class="k">06</span>Normas que llegan tarde</h4><p>La mayoría de normas armonizadas no estarán publicadas mucho antes de diciembre de 2027. Sin ellas, el fabricante demuestra la conformidad con su propia documentación.</p></div>
+      <div class="card"><h4><span class="k">07</span>La marca blanca convierte en fabricante</h4><p>Mayoristas e integradores que venden equipos de terceros con su marca asumen todas las obligaciones del fabricante, incluida la notificación.</p></div>
+      <div class="card"><h4><span class="k">08</span>El parque instalado también cuenta</h4><p>La notificación se aplica a productos vendidos antes de 2027. Un fallo explotado en un equipo de 2022 se notifica igual.</p></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:escenarios--><div class="split">Escenarios ilustrativos por eslabón</div>
+    <p class="mut" style="max-width:52em">No son casos reales: describen situaciones típicas del mercado para mostrar cómo se aplican las obligaciones.</p>
+    <div class="grid2">
+      <article class="case scen"><div class="meta"><span class="sl">Escenario ilustrativo</span></div><h4>Fabricante de pasarelas industriales</h4><dl>
+        <dt>Situación</dt><dd>Una empresa de 120 empleados fabrica pasarelas IoT con cortafuegos integrado para plantas de agua y energía.</dd>
+        <dt>Calificación</dt><dd>Probablemente producto importante por su función de cortafuegos: necesitará organismo notificado o normas armonizadas aplicadas en su totalidad.</dd>
+        <dt>Qué hacer</dt><dd>Procedimiento de notificación ya, SBOM en la cadena de compilación y reserva de organismo notificado en 2027.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Escenario ilustrativo</span></div><h4>Mayorista con cámaras IP de marca propia</h4><dl>
+        <dt>Situación</dt><dd>Un mayorista importa cámaras de Asia y las vende con su marca a instaladores de seguridad.</dd>
+        <dt>Calificación</dt><dd>Al poner su marca es fabricante: notificación desde ya, y desde 2027 expediente, periodo de soporte y marcado CE propios.</dd>
+        <dt>Qué hacer</dt><dd>Contrato con el fabricante original que garantice parches, SBOM y respuesta a vulnerabilidades en plazo.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Escenario ilustrativo</span></div><h4>Integrador que vende un appliance</h4><dl>
+        <dt>Situación</dt><dd>Un integrador empaqueta servidor, sistema operativo y su software de gestión de flotas en un equipo con su marca.</dd>
+        <dt>Calificación</dt><dd>Es fabricante del appliance completo, aunque los componentes sean de terceros.</dd>
+        <dt>Qué hacer</dt><dd>Evaluación de riesgos del conjunto, seguimiento de vulnerabilidades de cada componente y canal de avisos a sus clientes.</dd></dl></article>
+      <article class="case scen"><div class="meta"><span class="sl">Escenario ilustrativo</span></div><h4>Hospital que renueva su red</h4><dl>
+        <dt>Situación</dt><dd>Un hospital licita conmutadores, puntos de acceso y cámaras para los próximos ocho años.</dd>
+        <dt>Calificación</dt><dd>No tiene obligaciones CRA, pero sí NIS2: la seguridad de los proveedores es una de sus medidas.</dd>
+        <dt>Qué hacer</dt><dd>Exigir en el pliego la clase CRA, la declaración UE desde 2027 y un periodo de soporte que cubra la vida útil prevista.</dd></dl></article>
+    </div><!--/B-->
+
+<!--B:oportunidades--><section class="sec alt" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Oportunidades de negocio</div><h2>Dónde está el mercado</h2>
+    <p class="lead">Cada requisito del Anexo I es un servicio que alguien tiene que prestar o un argumento de venta para quien lo cumple antes.</p></div>
+    <div class="cards4">
+      <div class="card"><h4>Fabricante</h4><ul class="ul"><li>Soporte largo como argumento de venta</li><li>Equipo de respuesta de producto compartido entre líneas</li><li>Expediente reutilizable para NIS2 y la CADA</li></ul></div>
+      <div class="card"><h4>Mayorista</h4><ul class="ul"><li>Catálogo con clase CRA y fecha de fin de soporte</li><li>Verificación de conformidad para fabricantes de fuera de la UE</li><li>Alertas de vulnerabilidades al canal</li></ul></div>
+      <div class="card"><h4>Integrador</h4><ul class="ul"><li>Gestión del ciclo de vida de vulnerabilidades del parque</li><li>Inventario de software y SBOM agregados</li><li>Selección de productos con soporte suficiente</li></ul></div>
+      <div class="card"><h4>Cliente final</h4><ul class="ul"><li>Equipos con parches garantizados</li><li>Menos riesgo en la cadena de suministro NIS2</li><li>Compras con criterio objetivo</li></ul></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:hacer--><section class="sec" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Hoja de ruta</div><h2>Qué hacer, por orden</h2></div>
+    <div class="cards4">
+      <div class="card"><h4><span class="k">Ya</span>Notificar</h4><ul class="check"><li>Procedimiento de 24/72 horas con responsables y turnos</li><li>Registro en la plataforma de ENISA</li><li>Punto de contacto público para vulnerabilidades</li><!--NAT:hacer-ya--></ul></div>
+      <div class="card"><h4><span class="k">1T 2027</span>Clasificar</h4><ul class="check"><li>Clase de cada familia de producto</li><li>Ruta de conformidad</li><li>Reserva de organismo notificado si hace falta</li></ul></div>
+      <div class="card"><h4><span class="k">2T–3T 2027</span>Expediente</h4><ul class="check"><li>Evaluación de riesgos y SBOM</li><li>Periodo de soporte y su coste</li><li>Documentación técnica</li></ul></div>
+      <div class="card"><h4><span class="k">11-12-2027</span>Marcado CE</h4><ul class="check"><li>Declaración UE y marcado</li><li>Control en el alta para importadores y distribuidores</li><li>Ficha con fecha de fin de soporte</li></ul></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Cómo ayuda Software in a Box</h4><p><b>ARGOS</b> mantiene, por producto, la clase CRA, el periodo de soporte, el SBOM y la evidencia de conformidad, y genera la ficha que piden mayoristas e integradores. La misma evidencia alimenta los expedientes de NIS2 y de la CADA.</p></div>
+      <div class="card"><h4>Más en Regulación UE</h4><p>Radar de 18 normas, calendario 2025–2030, matriz de impacto y autodiagnóstico.</p><div class="ficha-nav"><a class="btn btn-ink" href="/regulacion/">Volver al radar</a></div></div>
+    </div>
+  </div>
+</section><!--/B-->
+
+<!--B:cta--><section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="ctaband"><div><h3>¿Fabrica, importa o vende con su marca productos conectados?</h3><p>Le ayudamos a montar la notificación de 24 horas, clasificar sus productos y preparar el expediente para el marcado CE de diciembre de 2027.</p></div><a class="btn btn-gold" href="/regulacion/#contacto">Hablemos</a></div>
+  </div>
+</section><!--/B-->
