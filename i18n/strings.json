@@ -39,77 +39,12 @@
   ]
  },
  {
-  "id": "0936bb9855",
-  "src": "Software in a Box",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "17ea0a188c",
-  "src": "Menú",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "450fe39ba0",
-  "src": "<a href=\"#productos\">Productos</a> <a href=\"#como\">Cómo trabajamos</a> <a href=\"#experiencia\">Experiencia</a> <a href=\"#sectores\">Sectores</a> <a href=\"/regulacion/\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
-  "kind": "html",
-  "pages": [
-   "index.html"
-  ]
- },
- {
   "id": "b6a55043a6",
   "src": "Su IA y sus datos, <span>dentro de casa.</span>",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -117,7 +52,8 @@
   "src": "Software in a Box desarrolla software para organizaciones que no pueden sacar sus datos de su perímetro: inteligencia artificial en su propio servidor, cumplimiento que se demuestra y espacios de datos para compartir sin perder el control.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -166,25 +102,15 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/espacios-de-datos/index.html",
    "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
    "regulacion/nis2/index.html",
    "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
+   "regulacion/data-union/index.html"
   ]
  },
  {
@@ -201,25 +127,14 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/argos/index.html",
    "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
    "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
+   "regulacion/csa2-eucs/index.html"
   ]
  },
  {
@@ -236,25 +151,14 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
    "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
    "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
+   "regulacion/csa2-eucs/index.html"
   ]
  },
  {
@@ -271,7 +175,8 @@
   "src": "Tres productos para el mismo problema",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html"
   ]
  },
  {
@@ -279,7 +184,8 @@
   "src": "Usar inteligencia artificial y compartir datos sin entregar el control. Cada producto resuelve una parte y tiene su propia web.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html"
   ]
  },
  {
@@ -287,7 +193,9 @@
   "src": "Su inteligencia artificial, en su servidor y bajo su control.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html"
   ]
  },
  {
@@ -295,7 +203,9 @@
   "src": "Servidor de IA propio sobre Lenovo ThinkSystem",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html"
   ]
  },
  {
@@ -303,7 +213,9 @@
   "src": "La inferencia se ejecuta dentro de su red",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html"
   ]
  },
  {
@@ -311,7 +223,9 @@
   "src": "Cinco módulos: CORE, VAULT, HUB, NEXUS y TRACE",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html"
   ]
  },
  {
@@ -320,6 +234,8 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
    "regulacion/index.html"
   ]
  },
@@ -328,7 +244,9 @@
   "src": "Un agente que pone a prueba sus sistemas y demuestra que cumplen.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/argos/index.html"
   ]
  },
  {
@@ -337,6 +255,8 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/argos/index.html",
    "regulacion/index.html"
   ]
  },
@@ -345,7 +265,9 @@
   "src": "RGPD, EHDS, Reglamento de IA, NIS2 y Data Act",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/argos/index.html"
   ]
  },
  {
@@ -353,7 +275,9 @@
   "src": "Informe emitido como credencial verificable",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/argos/index.html"
   ]
  },
  {
@@ -362,6 +286,8 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/argos/index.html",
    "regulacion/index.html"
   ]
  },
@@ -370,7 +296,9 @@
   "src": "Comparta datos con otras organizaciones sin que salgan de casa.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/espacios-de-datos/index.html"
   ]
  },
  {
@@ -379,6 +307,8 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/espacios-de-datos/index.html",
    "regulacion/index.html"
   ]
  },
@@ -388,6 +318,8 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/espacios-de-datos/index.html",
    "regulacion/index.html"
   ]
  },
@@ -396,7 +328,9 @@
   "src": "Primer vertical: clínicas dentales con IA sobre Azure",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/espacios-de-datos/index.html"
   ]
  },
  {
@@ -405,6 +339,8 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/espacios-de-datos/index.html",
    "regulacion/index.html"
   ]
  },
@@ -413,7 +349,8 @@
   "src": "La IA va al dato. El dato no se mueve.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -421,7 +358,8 @@
   "src": "La soberanía no depende de un contrato con un proveedor: está en la arquitectura.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -429,7 +367,8 @@
   "src": "Lo habitual",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -437,7 +376,8 @@
   "src": "Los datos se copian a la nube del proveedor para que un modelo los procese.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -445,7 +385,8 @@
   "src": "Su organización",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -453,7 +394,8 @@
   "src": "copia de sus datos",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -461,7 +403,8 @@
   "src": "Nube del proveedor",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -469,7 +412,8 @@
   "src": "Con Software in a Box",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -477,7 +421,8 @@
   "src": "El modelo se ejecuta donde vive el dato. Solo sale el resultado que usted autoriza.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -485,7 +430,8 @@
   "src": "modelo de IA",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -493,7 +439,8 @@
   "src": "el modelo entra",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -501,7 +448,8 @@
   "src": "sale solo el resultado",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -509,7 +457,8 @@
   "src": "Reglas que lee una máquina",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -517,7 +466,8 @@
   "src": "Cada uso del dato se rige por un contrato ODRL, y cada acceso queda registrado y es auditable.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -525,7 +475,8 @@
   "src": "Estándares europeos",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -533,7 +484,8 @@
   "src": "Gaia-X, Dataspace Protocol, HealthDCAT-AP y EHDS: cualquier miembro se conecta sin depender de un proveedor.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -541,7 +493,8 @@
   "src": "Cumplimiento desde el diseño",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -549,7 +502,8 @@
   "src": "RGPD, Reglamento de IA, EHDS, NIS2 y Data Act se resuelven en la arquitectura, no después.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -557,7 +511,8 @@
   "src": "Hardware en su sala",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -565,7 +520,8 @@
   "src": "Los servidores se instalan en sus instalaciones o en su centro de datos, sin dependencia de hiperescalares.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -573,7 +529,8 @@
   "src": "Tres espacios de datos reales detrás del producto",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -581,7 +538,8 @@
   "src": "El equipo de Software in a Box ha participado en el desarrollo tecnológico de tres espacios de datos cofinanciados por la Secretaría de Estado de Digitalización e Inteligencia Artificial (SEDIA).",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -589,7 +547,8 @@
   "src": "Global Data Care",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -597,7 +556,8 @@
   "src": "Salud · Pontus-X y Gaia-X",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -605,7 +565,8 @@
   "src": "Espacio de datos sanitario federado, con trabajo de cumplimiento para la Lista de Confianza del programa español de espacios de datos.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -613,7 +574,8 @@
   "src": "PROCUREDATA",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -621,7 +583,8 @@
   "src": "Compras · Eclipse EDC",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -629,7 +592,8 @@
   "src": "Gestión de compras con integración en sistemas ERP y conectores de la familia Eclipse.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -637,7 +601,8 @@
   "src": "EcoDataNet",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -645,7 +610,8 @@
   "src": "Residuos y economía circular",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -653,7 +619,8 @@
   "src": "Trazabilidad de la economía circular con políticas de uso y credenciales verificables.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -661,7 +628,8 @@
   "src": "<strong>Tecnología que ya hemos desplegado:</strong> Eclipse Dataspace Components, Dataspace Protocol, Pontus-X, ODRL, credenciales verificables, Gaia-X Trust Framework, FHIR, DICOM, OMOP, Kubernetes, Terraform y Helm.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -669,7 +637,8 @@
   "src": "Red federada: tres espacios de datos conectados por el conector de Software in a Box",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -677,7 +646,8 @@
   "src": "conector SiaB",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -685,7 +655,8 @@
   "src": "Cada nodo conserva sus datos; la red comparte solo lo autorizado.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -693,7 +664,9 @@
   "src": "Para sectores donde el dato no puede salir",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -701,7 +674,9 @@
   "src": "Qué producto encaja en cada sector regulado.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -709,7 +684,9 @@
   "src": "Productos de Software in a Box por sector",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -717,7 +694,9 @@
   "src": "Sector",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -725,7 +704,9 @@
   "src": "Qué protegemos",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -733,7 +714,9 @@
   "src": "COGNITIV<i></i>",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -741,7 +724,9 @@
   "src": "ARGOS<i></i>",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -749,7 +734,9 @@
   "src": "Datos<i></i>",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -758,6 +745,11 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html",
    "regulacion/index.html"
   ]
  },
@@ -766,7 +758,12 @@
   "src": "Historia clínica e imagen médica en hospitales, clínicas y MedTech, bajo el EHDS.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -774,7 +771,9 @@
   "src": "<span class=\"yes\"></span><span class=\"sr\">Sí</span>",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -782,7 +781,11 @@
   "src": "Finanzas",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -790,7 +793,11 @@
   "src": "Carteras y operaciones en banca y seguros, con DORA y secreto bancario.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -798,7 +805,9 @@
   "src": "<span class=\"no\"></span><span class=\"sr\">No</span>",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -807,6 +816,10 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html",
    "regulacion/index.html",
    "regulacion/rd-centros-datos/index.html"
   ]
@@ -816,7 +829,11 @@
   "src": "ERP, producción y calidad sin que el dato salga de planta.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -825,29 +842,15 @@
   "kind": "html",
   "pages": [
    "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "empresa/index.html",
    "regulacion/ai-act/index.html",
    "regulacion/data-act/index.html",
    "regulacion/cra/index.html",
    "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
+   "regulacion/csa2-eucs/index.html"
   ]
  },
  {
@@ -855,7 +858,11 @@
   "src": "Fondos documentales de despachos bajo secreto profesional.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -864,6 +871,10 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "productos/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html",
    "regulacion/index.html",
    "regulacion/ens/index.html",
    "regulacion/ley-gobernanza-ia/index.html"
@@ -874,7 +885,11 @@
   "src": "Datos de la ciudadanía en administraciones con ENS.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -882,7 +897,9 @@
   "src": "<strong>Con quién trabajamos:</strong> Lenovo (servidores ThinkSystem para COGNITIV), V-Valley (distribución y preventa), Microsoft Azure (nodos de datos sanitarios e IA) y el marco de confianza europeo Gaia-X.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -890,7 +907,11 @@
   "src": "¿Hablamos de su caso?",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -898,7 +919,11 @@
   "src": "Cuéntenos qué datos necesita proteger y qué quiere conseguir con ellos. Le proponemos el producto y la arquitectura adecuados.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -906,7 +931,8 @@
   "src": "<a href=\"mailto:emilio.mulet@softwareinabox.eu\">emilio.mulet@softwareinabox.eu</a><br> <a href=\"tel:+34601398868\">+34 601 398 868</a><br> Calle Ramírez de Arellano, 17, 4ª planta, 28043 Madrid",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -914,7 +940,8 @@
   "src": "Nombre",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -922,7 +949,8 @@
   "src": "Organización",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -930,7 +958,8 @@
   "src": "Correo profesional",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -938,7 +967,8 @@
   "src": "Qué le interesa",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -946,7 +976,8 @@
   "src": "COGNITIV · IA soberana",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -954,7 +985,8 @@
   "src": "ARGOS · cumplimiento",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -962,7 +994,8 @@
   "src": "Espacios de datos federados",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -970,7 +1003,8 @@
   "src": "Aún no lo sé",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -978,7 +1012,8 @@
   "src": "Mensaje",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -986,7 +1021,8 @@
   "src": "He leído y acepto la <a href=\"/privacidad.html\" target=\"_blank\" rel=\"noopener\">política de privacidad</a>. Usaremos sus datos solo para responderle.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
@@ -994,348 +1030,8 @@
   "src": "Enviar consulta",
   "kind": "html",
   "pages": [
-   "index.html"
-  ]
- },
- {
-  "id": "8296b655cb",
-  "src": "Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.",
-  "kind": "html",
-  "pages": [
    "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "14e2a639ae",
-  "src": "Productos",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "6eb94b7d13",
-  "src": "Empresa",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "df2c75fc25",
-  "src": "Cómo trabajamos",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "fbb04c1aaf",
-  "src": "Experiencia",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "d8a53e1f6d",
-  "src": "Contacto",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "privacidad.html"
-  ]
- },
- {
-  "id": "fb7f240fb3",
-  "src": "Recursos",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "07c85207e0",
-  "src": "Regulación UE",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "bfd74951d7",
-  "src": "llms.txt",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "b236d55f9d",
-  "src": "Mapa del sitio",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "8c1296793a",
-  "src": "© 2026 Software in a Box, marca de Ullswater Investments S.L.",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
-  "id": "008e20b72c",
-  "src": "<a href=\"/aviso-legal.html\">Aviso legal</a><a href=\"/privacidad.html\">Privacidad</a><a href=\"/cookies.html\">Cookies</a>",
-  "kind": "html",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
+   "contacto/index.html"
   ]
  },
  {
@@ -1360,6 +1056,60 @@
   "kind": "attr",
   "pages": [
    "index.html"
+  ]
+ },
+ {
+  "id": "bfd74951d7",
+  "src": "llms.txt",
+  "kind": "attr",
+  "pages": [
+   "index.html",
+   "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html",
+   "regulacion/dora/index.html",
+   "regulacion/dma-nube/index.html",
+   "regulacion/ehds/index.html",
+   "regulacion/rgpd-omnibus/index.html",
+   "regulacion/data-union/index.html",
+   "regulacion/chips-act/index.html",
+   "regulacion/ecodiseno-servidores/index.html",
+   "regulacion/raee/index.html",
+   "regulacion/factura-electronica/index.html",
+   "regulacion/ens/index.html",
+   "regulacion/ley-gobernanza-ia/index.html",
+   "regulacion/rd-centros-datos/index.html"
+  ]
+ },
+ {
+  "id": "0936bb9855",
+  "src": "Software in a Box",
+  "kind": "jsonld",
+  "pages": [
+   "index.html",
+   "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html",
+   "regulacion/dora/index.html",
+   "regulacion/dma-nube/index.html",
+   "regulacion/ehds/index.html",
+   "regulacion/rgpd-omnibus/index.html",
+   "regulacion/data-union/index.html",
+   "regulacion/chips-act/index.html",
+   "regulacion/ecodiseno-servidores/index.html",
+   "regulacion/raee/index.html",
+   "regulacion/factura-electronica/index.html",
+   "regulacion/ens/index.html",
+   "regulacion/ley-gobernanza-ia/index.html",
+   "regulacion/rd-centros-datos/index.html"
   ]
  },
  {
@@ -1444,68 +1194,6 @@
   ]
  },
  {
-  "id": "b4c75f2387",
-  "src": "Software in a Box, inicio",
-  "kind": "attr",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "f3b86b13db",
-  "src": "Principal",
-  "kind": "attr",
-  "pages": [
-   "index.html",
-   "regulacion/index.html",
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html",
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
   "id": "97e0376f27",
   "src": "ARGOS, cumplimiento verificado",
   "kind": "attr",
@@ -1526,7 +1214,8 @@
   "src": "Los datos salen de la organización hacia la nube del proveedor",
   "kind": "attr",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -1534,7 +1223,8 @@
   "src": "El modelo entra en la organización y el dato no sale",
   "kind": "attr",
   "pages": [
-   "index.html"
+   "index.html",
+   "empresa/index.html"
   ]
  },
  {
@@ -1542,15 +1232,223 @@
   "src": "Describa brevemente su caso",
   "kind": "attr",
   "pages": [
-   "index.html"
+   "index.html",
+   "contacto/index.html"
   ]
  },
  {
-  "id": "d71629087b",
-  "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
+  "id": "21b96deb14",
+  "src": "Productos: COGNITIV, ARGOS y Espacios de datos · Software in a Box",
   "kind": "html",
   "pages": [
+   "productos/index.html"
+  ]
+ },
+ {
+  "id": "14e2a639ae",
+  "src": "Productos",
+  "kind": "html",
+  "pages": [
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "0cf7705404",
+  "src": "Hablemos",
+  "kind": "html",
+  "pages": [
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
    "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d5c71d2b9a",
+  "src": "Tres productos para usar IA y compartir datos sin entregar el control: COGNITIV, ARGOS y Espacios de datos federados.",
+  "kind": "attr",
+  "pages": [
+   "productos/index.html"
+  ]
+ },
+ {
+  "id": "ffc748abcd",
+  "src": "Productos de Software in a Box: COGNITIV, ARGOS y Espacios de datos",
+  "kind": "attr",
+  "pages": [
+   "productos/index.html"
+  ]
+ },
+ {
+  "id": "4f70d8c37e",
+  "src": "Inicio",
+  "kind": "jsonld",
+  "pages": [
+   "productos/index.html",
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html",
+   "empresa/index.html",
+   "contacto/index.html"
+  ]
+ },
+ {
+  "id": "af3c3cd5d7",
+  "src": "COGNITIV · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "productos/cognitiv/index.html"
+  ]
+ },
+ {
+  "id": "9d2d6bed5d",
+  "src": "Producto",
+  "kind": "html",
+  "pages": [
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html"
+  ]
+ },
+ {
+  "id": "da20f4de28",
+  "src": "Qué ofrece",
+  "kind": "html",
+  "pages": [
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html"
+  ]
+ },
+ {
+  "id": "f00ef58769",
+  "src": "Para qué sectores",
+  "kind": "html",
+  "pages": [
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html"
+  ]
+ },
+ {
+  "id": "7964e38046",
+  "src": "Normas europeas en las que ayuda",
+  "kind": "html",
+  "pages": [
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html"
+  ]
+ },
+ {
+  "id": "adae548886",
+  "src": "Fichas de la sección Regulación UE en las que este producto aparece como respuesta.",
+  "kind": "html",
+  "pages": [
+   "productos/cognitiv/index.html",
+   "productos/argos/index.html",
+   "productos/espacios-de-datos/index.html"
+  ]
+ },
+ {
+  "id": "72db8c684b",
+  "src": "ARGOS · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "productos/argos/index.html"
+  ]
+ },
+ {
+  "id": "4647b1e421",
+  "src": "Espacios de datos · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "productos/espacios-de-datos/index.html"
+  ]
+ },
+ {
+  "id": "4dfe25f3f3",
+  "src": "Empresa: cómo trabajamos, experiencia y sectores · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "empresa/index.html"
+  ]
+ },
+ {
+  "id": "6eb94b7d13",
+  "src": "Empresa",
+  "kind": "html",
+  "pages": [
+   "empresa/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "2d81da8a79",
+  "src": "Solicitar una reunión",
+  "kind": "html",
+  "pages": [
+   "empresa/index.html",
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7c3d1cc4cb",
+  "src": "Conocer los productos",
+  "kind": "html",
+  "pages": [
+   "empresa/index.html"
+  ]
+ },
+ {
+  "id": "5c28720100",
+  "src": "Quiénes somos: la IA va al dato y el dato no se mueve. Tres espacios de datos reales detrás del producto y los sectores en los que trabajamos.",
+  "kind": "attr",
+  "pages": [
+   "empresa/index.html"
+  ]
+ },
+ {
+  "id": "870672baae",
+  "src": "Software in a Box: cómo trabajamos, experiencia y sectores",
+  "kind": "attr",
+  "pages": [
+   "empresa/index.html"
+  ]
+ },
+ {
+  "id": "05c4bb054b",
+  "src": "Contacto · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "contacto/index.html"
+  ]
+ },
+ {
+  "id": "d8a53e1f6d",
+  "src": "Contacto",
+  "kind": "jsonld",
+  "pages": [
+   "contacto/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html",
+   "privacidad.html"
   ]
  },
  {
@@ -5229,14 +5127,6 @@
   ]
  },
  {
-  "id": "0cf7705404",
-  "src": "Hablemos",
-  "kind": "html",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
   "id": "5b1218711d",
   "src": "¿Qué nivel necesitará su próximo cliente?",
   "kind": "html",
@@ -5247,14 +5137,6 @@
  {
   "id": "812015fe0f",
   "src": "Le ayudamos a leer la norma desde su eslabón, a preparar la evidencia y a convertirla en oferta.",
-  "kind": "html",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
-  "id": "2d81da8a79",
-  "src": "Solicitar una reunión",
   "kind": "html",
   "pages": [
    "regulacion/index.html"
@@ -5451,6 +5333,32 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/index.html",
+   "regulacion/rd-centros-datos/index.html"
+  ]
+ },
+ {
+  "id": "07c85207e0",
+  "src": "Regulación UE",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html",
+   "regulacion/informe-cada/index.html",
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html",
+   "regulacion/dora/index.html",
+   "regulacion/dma-nube/index.html",
+   "regulacion/ehds/index.html",
+   "regulacion/rgpd-omnibus/index.html",
+   "regulacion/data-union/index.html",
+   "regulacion/chips-act/index.html",
+   "regulacion/ecodiseno-servidores/index.html",
+   "regulacion/raee/index.html",
+   "regulacion/factura-electronica/index.html",
+   "regulacion/ens/index.html",
+   "regulacion/ley-gobernanza-ia/index.html",
    "regulacion/rd-centros-datos/index.html"
   ]
  },
@@ -8131,31 +8039,6 @@
   ]
  },
  {
-  "id": "c351ac4960",
-  "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"/regulacion/#contacto\">Hablemos</a>",
-  "kind": "html",
-  "pages": [
-   "regulacion/informe-cada/index.html",
-   "regulacion/ai-act/index.html",
-   "regulacion/data-act/index.html",
-   "regulacion/cra/index.html",
-   "regulacion/nis2/index.html",
-   "regulacion/csa2-eucs/index.html",
-   "regulacion/dora/index.html",
-   "regulacion/dma-nube/index.html",
-   "regulacion/ehds/index.html",
-   "regulacion/rgpd-omnibus/index.html",
-   "regulacion/data-union/index.html",
-   "regulacion/chips-act/index.html",
-   "regulacion/ecodiseno-servidores/index.html",
-   "regulacion/raee/index.html",
-   "regulacion/factura-electronica/index.html",
-   "regulacion/ens/index.html",
-   "regulacion/ley-gobernanza-ia/index.html",
-   "regulacion/rd-centros-datos/index.html"
-  ]
- },
- {
   "id": "b9ec924424",
   "src": "<a href=\"#resumen\">Resumen</a><a href=\"#eslabon\">Por eslabón</a><a href=\"#contenido\">Contenido</a><a href=\"#infografias\">Infografías</a><a href=\"#descarga\">Descarga</a>",
   "kind": "html",
@@ -8695,6 +8578,30 @@
   "kind": "html",
   "pages": [
    "regulacion/ai-act/index.html"
+  ]
+ },
+ {
+  "id": "17ea0a188c",
+  "src": "Menú",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "c351ac4960",
+  "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"/regulacion/#contacto\">Hablemos</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
   ]
  },
  {
@@ -11529,6 +11436,90 @@
   ]
  },
  {
+  "id": "8296b655cb",
+  "src": "Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "df2c75fc25",
+  "src": "Cómo trabajamos",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "fbb04c1aaf",
+  "src": "Experiencia",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "fb7f240fb3",
+  "src": "Recursos",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "b236d55f9d",
+  "src": "Mapa del sitio",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "8c1296793a",
+  "src": "© 2026 Software in a Box, marca de Ullswater Investments S.L.",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "008e20b72c",
+  "src": "<a href=\"/aviso-legal.html\">Aviso legal</a><a href=\"/privacidad.html\">Privacidad</a><a href=\"/cookies.html\">Cookies</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
   "id": "300f3f0be0",
   "src": "Ficha completa del AI Act para fabricantes, mayoristas, integradores y cliente final: niveles de riesgo, calendario tras el Ómnibus Digital sobre IA (Reglamento 2026/1744), obligaciones por rol, modelos de uso general, España y qué hacer ahora.",
   "kind": "attr",
@@ -11542,6 +11533,30 @@
   "kind": "attr",
   "pages": [
    "regulacion/ai-act/index.html"
+  ]
+ },
+ {
+  "id": "b4c75f2387",
+  "src": "Software in a Box, inicio",
+  "kind": "attr",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
+  ]
+ },
+ {
+  "id": "f3b86b13db",
+  "src": "Principal",
+  "kind": "attr",
+  "pages": [
+   "regulacion/ai-act/index.html",
+   "regulacion/data-act/index.html",
+   "regulacion/cra/index.html",
+   "regulacion/nis2/index.html",
+   "regulacion/csa2-eucs/index.html"
   ]
  },
  {
@@ -31818,17 +31833,6 @@
   ]
  },
  {
-  "id": "efd41d81be",
-  "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#principio\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a class=\"btn btn-navy\" href=\"/#contacto\">Hablemos</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
   "id": "befcb20093",
   "src": "Información legal",
   "kind": "html",
@@ -32063,132 +32067,11 @@
   ]
  },
  {
-  "id": "9368c25be5",
-  "src": "<b>Software in a Box</b>Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid · Unión Europea.",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "9ecad5a292",
-  "src": "<a href=\"https://cognitiv.softwareinabox.eu/\">COGNITIV</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "63219fe676",
-  "src": "<a href=\"https://argos.softwareinabox.eu/\">ARGOS</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "69790142a8",
-  "src": "<a href=\"https://datos.softwareinabox.eu/\">Espacios de datos</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "aee765fc2f",
-  "src": "<a href=\"/#principio\">Cómo trabajamos</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "2c1c68e287",
-  "src": "<a href=\"/#experiencia\">Experiencia</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "1a74de162b",
-  "src": "<a href=\"/#contacto\">Contacto</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "325284b23e",
-  "src": "<a href=\"/llms.txt\">llms.txt</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "9be9b6eca9",
-  "src": "<a href=\"/sitemap.xml\">Mapa del sitio</a>",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
-  "id": "6f0e6816f6",
-  "src": "© 2026 Software in a Box · marca de Ullswater Investments S.L.",
-  "kind": "html",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
-  ]
- },
- {
   "id": "48592c6c96",
   "src": "Aviso legal de los sitios web de Software in a Box, marca de Ullswater Investments S.L.",
   "kind": "attr",
   "pages": [
    "aviso-legal.html"
-  ]
- },
- {
-  "id": "256a5c2ab3",
-  "src": "Abrir menú",
-  "kind": "attr",
-  "pages": [
-   "aviso-legal.html",
-   "privacidad.html",
-   "cookies.html",
-   "gracias.html"
   ]
  },
  {

@@ -18,8 +18,8 @@ SRC = open(os.path.join(ROOT, "regulacion", "index.html"), encoding="utf-8").rea
 SRC = re.sub(r"<!-- I18N(?:-SW)?:BEGIN -->.*?<!-- I18N(?:-SW)?:END -->", "", SRC, flags=re.S)
 
 CSS = re.search(r"<style>.*?</style>", SRC, re.S).group(0)
-HEADER = re.search(r"<header class=\"hd\">.*?</header>", SRC, re.S).group(0)
-FOOTER = re.search(r"<footer class=\"ft\">.*?</footer>", SRC, re.S).group(0)
+HEADER = re.search(r"<header\b.*?</header>", SRC, re.S).group(0)  # nav.py la sustituye por la cabecera común
+FOOTER = re.search(r"<footer\b.*?</footer>", SRC, re.S).group(0)  # ídem: pie común
 HEADER = HEADER.replace('href="#contacto"', 'href="/regulacion/#contacto"')
 
 EXTRA_CSS = """<style>

@@ -17,6 +17,9 @@ ROOT = os.path.dirname(HERE)
 CFG = json.load(open(os.path.join(HERE, "sites.json"), encoding="utf-8"))
 SITE_KEY = open(os.path.join(HERE, "SITE"), encoding="utf-8").read().strip()
 SITE = CFG["sites"][SITE_KEY]
+sys.path.insert(0, HERE)
+import nav  # navegación común de www (i18n/nav.py)
+nav.B = sys.modules[__name__]
 LANGS = CFG["langs"]
 SRC = CFG["source_lang"]
 ALL = [SRC] + LANGS
@@ -160,7 +163,7 @@ def units(raw, site=SITE):
                     lead = len(seg) - len(seg.lstrip()); trail = len(seg.rstrip())
                     out.append((a + lead, a + trail, "html", seg.strip(), None))
                 continue
-            if k.tag in NOTEXT or "data-seo" in k.attrs:
+            if k.tag in NOTEXT or "data-seo" in k.attrs or "data-nav" in k.attrs:
                 continue  # data-seo: título y descripción cortos que genera seo_short() en cada build
             if k.tag not in ("html", "head", "body", "#root") and k.kids and inline_only(k) and has_letters(raw, k):
                 out.append((k.s1, k.e0, "html", raw[k.s1:k.e0].strip() and raw[k.s1:k.e0], None))
@@ -174,11 +177,12 @@ def units(raw, site=SITE):
         fixed.append((a + lead, a + trail, kind, seg.strip(), x))
     out = fixed
 
+    navr = [(n.s0, n.e0) for n in walk(root) if "data-nav" in n.attrs]  # navegación común (nav.py): no se traduce aquí
     for n in walk(root):
         # atributos
         tag_raw = raw[n.s0:n.s1]
         names = set()
-        if "data-seo" in n.attrs:
+        if "data-seo" in n.attrs or any(a <= n.s0 <= b for a, b in navr):
             continue
         for an in ATTRS:
             if an in n.attrs and n.attrs[an] and LETTER.search(n.attrs[an]):
@@ -251,7 +255,7 @@ def jsonld_strings(txt):
 # ---------------------------------------------------------------- extract / status
 def extract():
     seen = {}
-    for pg in SITE["pages"]:
+    for pg in [p for p in SITE["pages"] if not p.get("gen")]:
         if pg.get("langs") and not [l for l in pg["langs"] if l != SRC]:
             continue  # página solo en español: no hay nada que traducir
         raw = strip_i18n(open(os.path.join(ROOT, src_file(pg, "en")), encoding="utf-8").read())
@@ -638,7 +642,7 @@ def build_page(pg, lang, tr, missing):
     path = os.path.join(ROOT, src_file(pg, lang))
     raw = strip_i18n(open(path, encoding="utf-8").read())
     if lang == SRC:
-        return add_common(seo_short(raw, pg, lang), pg, lang)
+        return add_common(nav.inject(seo_short(raw, pg, lang), pg, lang, {}), pg, lang)
     reps = []
     for a, b, kind, s, x in units(raw):
         if kind == "jsonld":
@@ -691,7 +695,7 @@ def build_page(pg, lang, tr, missing):
     # formularios: página de gracias en el idioma y asunto marcado
     raw = re.sub(r'(name="_next" value=")([^"]*)"', lambda m: m.group(1) + loc_url(m.group(2), lang) + '"', raw)
     raw = re.sub(r'(name="_subject" value=")([^"]*)"', lambda m: m.group(1) + m.group(2) + " [" + lang.upper() + ']"', raw)
-    return add_common(seo_short(raw, pg, lang), pg, lang)
+    return add_common(nav.inject(seo_short(raw, pg, lang), pg, lang, tr), pg, lang)
 
 
 def sitemap():
@@ -768,7 +772,7 @@ def build(only=None):
     langs = [l for l in LANGS if (not only or l in only) and os.path.exists(os.path.join(HERE, f"{l}.json"))]
     BUILDING.update(langs)
     report = {}
-    for pg in SITE["pages"]:
+    for pg in [p for p in SITE["pages"] if not p.get("gen")]:
         out = build_page(pg, SRC, {}, [])
         open(os.path.join(ROOT, pg["file"]), "w", encoding="utf-8").write(out)
     for lang in langs:
@@ -776,7 +780,7 @@ def build(only=None):
         if not tr:
             print(f"{lang}: sin traducciones, se omite"); continue
         missing = []
-        for pg in [pg for pg in SITE["pages"] if has_lang(pg, lang)]:
+        for pg in [pg for pg in SITE["pages"] if has_lang(pg, lang) and not pg.get("gen")]:
             out = build_page(pg, lang, tr, missing)
             dest = os.path.join(ROOT, lang, lfile(pg, lang))
             os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -787,6 +791,8 @@ def build(only=None):
                 open(old, "w", encoding="utf-8").write(redirect_stub(SITE["base"] + lpath(pg, lang)))
         report[lang] = sorted(set(missing))
         print(f"{lang}: {sum(has_lang(pg, lang) for pg in SITE['pages'])} páginas" + (f", {len(report[lang])} textos sin traducir" if report[lang] else ""))
+    if SITE is CFG["sites"].get("www"):
+        nav.postpass(langs)
     sitemap(); llms()
     json.dump(report, open(os.path.join(HERE, "missing.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 

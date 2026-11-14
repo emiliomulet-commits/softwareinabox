@@ -400,6 +400,7 @@ h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
 @media(max-width:1100px){.flow{grid-template-columns:repeat(3,1fr)}.flow>div:nth-child(3):after{display:none}}
 @media(max-width:680px){.flow{grid-template-columns:1fr}.flow>div:after{display:none}.ctaband{padding:26px}}
 </style>
+<link rel="stylesheet" href="/assets/nav.css?v=30ca4ad7">
 <!-- I18N:BEGIN -->
 <link rel="alternate" hreflang="es-ES" href="https://www.softwareinabox.eu/regulacion/data-act/">
 <link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/data-act/">
@@ -417,17 +418,11 @@ h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
 <body>
 <a class="skip" href="#contenido">Vai al contenuto</a>
 
-<header class="hd">
-  <div class="wrap">
-    <a class="logo" href="/it/" aria-label="Software in a Box, home">
-      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
-      Software in a Box
-    </a>
-    <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav class="nav" id="nav" aria-label="Menu principale">
-      <a href="/it/#productos">Prodotti</a> <a href="/it/#como">Il nostro approccio</a> <a href="/it/#experiencia">Esperienza</a> <a href="/it/#sectores">Settori</a> <a href="/it/regulacion/" aria-current="page">Normativa UE</a> <a class="btn btn-gold" href="/it/regulacion/#contacto">Parliamone</a>
-    </nav>
-                                      
+<header class="sx-hd" data-nav>
+  <div class="sx-wrap">
+    <a class="sx-logo" href="/it/" aria-label="Software in a Box, home"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg><span>Software in a Box</span></a>
+    <button class="sx-burger" type="button" aria-expanded="false" aria-controls="sx-nav">Menu</button>
+    <nav class="sx-nav" id="sx-nav" aria-label="Menu principale"><a href="/it/">Home</a><div class="sx-dd"><a href="/it/productos/">Prodotti</a><button type="button" aria-expanded="false" aria-label="Espandi: Prodotti"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/it/productos/cognitiv/">COGNITIV<small>IA sovrana sul vostro server</small></a><a href="/it/productos/argos/">ARGOS<small>Verifiche di conformità verificabili</small></a><a href="/it/productos/espacios-de-datos/">Spazi di dati<small>Condividere i dati senza spostarli</small></a><hr><a href="/it/productos/">Tutti i prodotti</a></div></div><div class="sx-dd"><a href="/it/regulacion/" aria-current="page">Normativa UE</a><button type="button" aria-expanded="false" aria-label="Espandi: Normativa UE"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/it/regulacion/">Indice e radar</a><a href="/it/regulacion/#calendario">Calendario</a><a href="/it/regulacion/informe-cada/">Rapporto CADA</a><hr><a href="/it/mapa-del-sitio/#normas">Tutte le norme (A–Z)</a></div></div><div class="sx-dd"><a href="/it/empresa/">Azienda</a><button type="button" aria-expanded="false" aria-label="Espandi: Azienda"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><div class="sx-panel"><a href="/it/empresa/#como">Il nostro approccio</a><a href="/it/empresa/#experiencia">Esperienza</a><a href="/it/empresa/#sectores">Settori</a></div></div><a class="sx-cta" href="/it/contacto/">Contatti</a></nav>
   <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Lingua"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>IT</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/data-act/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulacion/data-act/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/regulacion/data-act/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulacion/data-act/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regulacion/data-act/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulacion/data-act/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/regulacion/data-act/" hreflang="it" lang="it" aria-current="true">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulacion/data-act/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/regulacion/data-act/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regulacion/data-act/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
   </div>
 </header>
@@ -818,25 +813,21 @@ h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
 
 </main>
 
-<footer class="ft">
-  <div class="wrap">
-    <div class="cols">
-      <div>
-        <a class="logo" href="/it/" style="display:flex">Software in a Box</a>
-        <p style="margin-top:12px;max-width:26em">Software per il dato sensibile: IA sovrana, conformità verificata e spazi di dati federati. Madrid, Unione europea.</p>
-      </div>
-      <div><h4>Prodotti</h4><a href="https://cognitiv.softwareinabox.eu/it/">COGNITIV</a><a href="https://argos.softwareinabox.eu/it/">ARGOS</a><a href="https://datos.softwareinabox.eu/it/">Spazi di dati</a></div>
-      <div><h4>Azienda</h4><a href="/it/#como">Il nostro approccio</a><a href="/it/#experiencia">Esperienza</a><a href="/it/#contacto">Contatti</a></div>
-      <div><h4>Risorse</h4><a href="/it/regulacion/">Normativa UE</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Mappa del sito</a></div>
+<!--SX:PG--><nav class="sx-pager" data-nav aria-label="Norma precedente / Norma successiva"><div class="sx-wrap"><a class="sx-prev" href="/it/regulacion/ai-act/" rel="prev"><small>← Norma precedente</small><b>AI Act in Italia</b></a><a class="sx-up" href="/it/regulacion/#radar">Torna al radar</a><a class="sx-next" href="/it/regulacion/cra/" rel="next"><small>Norma successiva →</small><b>CRA in Italia</b></a></div></nav><!--/SX:PG-->
+<footer class="sx-ft" data-nav>
+  <div class="sx-wrap">
+    <div class="sx-cols">
+      <div><a class="sx-brand" href="/it/">Software in a Box</a><p>Software per il dato sensibile: IA sovrana, conformità verificata e spazi di dati federati. Madrid, Unione europea.</p></div>
+      <div><h2>Prodotti</h2><a href="/it/productos/cognitiv/">COGNITIV</a><a href="/it/productos/argos/">ARGOS</a><a href="/it/productos/espacios-de-datos/">Spazi di dati</a><a href="/it/productos/">Tutti i prodotti</a></div>
+      <div><h2>Normativa UE</h2><a href="/it/regulacion/">Indice e radar</a><a href="/it/regulacion/informe-cada/">Rapporto CADA</a><a href="/it/mapa-del-sitio/#normas">Tutte le norme (A–Z)</a></div>
+      <div><h2>Azienda</h2><a href="/it/empresa/#como">Il nostro approccio</a><a href="/it/empresa/#experiencia">Esperienza</a><a href="/it/empresa/#sectores">Settori</a><a href="/it/contacto/">Contatti</a></div>
+      <div><h2>Risorse</h2><a href="/it/mapa-del-sitio/">Mappa del sito</a><a href="https://cognitiv.softwareinabox.eu/">cognitiv.softwareinabox.eu</a><a href="https://argos.softwareinabox.eu/">argos.softwareinabox.eu</a><a href="https://datos.softwareinabox.eu/">datos.softwareinabox.eu</a><a href="/llms.txt">llms.txt</a></div>
     </div>
-    <div class="legal">
-      <span>© 2026 Software in a Box, marchio di Ullswater Investments S.L.</span>
-      <nav aria-label="Legale"><a href="/it/aviso-legal.html">Note legali</a><a href="/it/privacidad.html">Privacy</a><a href="/it/cookies.html">Cookie</a></nav>
-    </div>
+    <div class="sx-legal"><span>© 2026 Software in a Box, marchio di Ullswater Investments S.L.</span><nav aria-label="Legale"><a href="/it/aviso-legal.html">Note legali</a><a href="/it/privacidad.html">Privacy</a><a href="/it/cookies.html">Cookie</a></nav></div>
   </div>
 </footer>
 <script>
-(function(){var b=document.querySelector(".burger"),n=document.getElementById("nav");
+(function(){var b=document.querySelector(".sx-none"),n=document.getElementById("nav");
  if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
  document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
   t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
@@ -846,5 +837,7 @@ h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
   document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
 })();
 </script>
+<button class="sx-top" type="button" data-nav aria-label="Torna su" title="Torna su"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<script src="/assets/nav.js?v=30ca4ad7" defer></script>
 </body>
 </html>

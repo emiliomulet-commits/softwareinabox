@@ -1,0 +1,182 @@
+{
+ "Compartir datos sin moverlos": {
+  "en": "Share data without moving it",
+  "fr": "Partager des données sans les déplacer",
+  "de": "Daten teilen, ohne sie zu verschieben",
+  "nl": "Gegevens delen zonder ze te verplaatsen",
+  "pt": "Partilhar dados sem os mover",
+  "it": "Condividere i dati senza spostarli",
+  "da": "Del data uden at flytte dem"
+ },
+ "Cookies": {
+  "en": "Cookies",
+  "fr": "Cookies",
+  "de": "Cookies",
+  "nl": "Cookies",
+  "pt": "Cookies",
+  "it": "Cookie",
+  "da": "Cookies"
+ },
+ "Desplegar": {
+  "en": "Expand",
+  "fr": "Ouvrir",
+  "de": "Aufklappen",
+  "nl": "Uitvouwen",
+  "pt": "Expandir",
+  "it": "Espandi",
+  "da": "Fold ud"
+ },
+ "Inicio": {
+  "en": "Home",
+  "fr": "Accueil",
+  "de": "Startseite",
+  "nl": "Home",
+  "pt": "Início",
+  "it": "Home",
+  "da": "Forside"
+ },
+ "La dirección que ha abierto no existe o ha cambiado de sitio. Estas son las secciones principales:": {
+  "en": "The address you opened does not exist or has moved. These are the main sections:",
+  "fr": "L'adresse que vous avez ouverte n'existe pas ou a changé. Voici les principales rubriques :",
+  "de": "Die aufgerufene Adresse existiert nicht oder wurde verschoben. Das sind die wichtigsten Bereiche:",
+  "nl": "Het adres dat u hebt geopend, bestaat niet of is verplaatst. Dit zijn de belangrijkste rubrieken:",
+  "pt": "O endereço que abriu não existe ou mudou de local. Estas são as secções principais:",
+  "it": "L'indirizzo che ha aperto non esiste o è stato spostato. Ecco le sezioni principali:",
+  "da": "Adressen, du har åbnet, findes ikke eller er flyttet. Her er de vigtigste afsnit:"
+ },
+ "Norma anterior": {
+  "en": "Previous regulation",
+  "fr": "Norme précédente",
+  "de": "Vorherige Vorschrift",
+  "nl": "Vorige regeling",
+  "pt": "Norma anterior",
+  "it": "Norma precedente",
+  "da": "Forrige regulering"
+ },
+ "Norma siguiente": {
+  "en": "Next regulation",
+  "fr": "Norme suivante",
+  "de": "Nächste Vorschrift",
+  "nl": "Volgende regeling",
+  "pt": "Norma seguinte",
+  "it": "Norma successiva",
+  "da": "Næste regulering"
+ },
+ "Otras webs": {
+  "en": "Other websites",
+  "fr": "Autres sites",
+  "de": "Weitere Websites",
+  "nl": "Andere websites",
+  "pt": "Outros sites",
+  "it": "Altri siti",
+  "da": "Andre websites"
+ },
+ "Para buscadores (XML)": {
+  "en": "For search engines (XML)",
+  "fr": "Pour les moteurs de recherche (XML)",
+  "de": "Für Suchmaschinen (XML)",
+  "nl": "Voor zoekmachines (XML)",
+  "pt": "Para motores de busca (XML)",
+  "it": "Per i motori di ricerca (XML)",
+  "da": "Til søgemaskiner (XML)"
+ },
+ "Privacidad": {
+  "en": "Privacy",
+  "fr": "Confidentialité",
+  "de": "Datenschutz",
+  "nl": "Privacy",
+  "pt": "Privacidade",
+  "it": "Privacy",
+  "da": "Privatliv"
+ },
+ "Pruebas de cumplimiento verificables": {
+  "en": "Verifiable compliance testing",
+  "fr": "Preuves de conformité vérifiables",
+  "de": "Nachprüfbare Compliance-Tests",
+  "nl": "Verifieerbare nalevingstests",
+  "pt": "Testes de conformidade verificáveis",
+  "it": "Verifiche di conformità verificabili",
+  "da": "Verificerbare compliance-tests"
+ },
+ "Página no encontrada": {
+  "en": "Page not found",
+  "fr": "Page introuvable",
+  "de": "Seite nicht gefunden",
+  "nl": "Pagina niet gevonden",
+  "pt": "Página não encontrada",
+  "it": "Pagina non trovata",
+  "da": "Siden blev ikke fundet"
+ },
+ "Sectores": {
+  "en": "Sectors",
+  "fr": "Secteurs",
+  "de": "Branchen",
+  "nl": "Sectoren",
+  "pt": "Setores",
+  "it": "Settori",
+  "da": "Brancher"
+ },
+ "Todas las normas (A–Z)": {
+  "en": "All regulations (A–Z)",
+  "fr": "Toutes les normes (A–Z)",
+  "de": "Alle Vorschriften (A–Z)",
+  "nl": "Alle regelingen (A–Z)",
+  "pt": "Todas as normas (A–Z)",
+  "it": "Tutte le norme (A–Z)",
+  "da": "Alle reguleringer (A–Z)"
+ },
+ "Todas las páginas de Software in a Box, ordenadas por sección.": {
+  "en": "Every page on Software in a Box, sorted by section.",
+  "fr": "Toutes les pages de Software in a Box, classées par rubrique.",
+  "de": "Alle Seiten von Software in a Box, nach Bereichen geordnet.",
+  "nl": "Alle pagina's van Software in a Box, per rubriek geordend.",
+  "pt": "Todas as páginas da Software in a Box, organizadas por secção.",
+  "it": "Tutte le pagine di Software in a Box, ordinate per sezione.",
+  "da": "Alle sider på Software in a Box, sorteret efter afsnit."
+ },
+ "Todos los productos": {
+  "en": "All products",
+  "fr": "Tous les produits",
+  "de": "Alle Produkte",
+  "nl": "Alle producten",
+  "pt": "Todos os produtos",
+  "it": "Tutti i prodotti",
+  "da": "Alle produkter"
+ },
+ "Volver a la página anterior": {
+  "en": "Back to the previous page",
+  "fr": "Retour à la page précédente",
+  "de": "Zurück zur vorherigen Seite",
+  "nl": "Terug naar de vorige pagina",
+  "pt": "Voltar à página anterior",
+  "it": "Torna alla pagina precedente",
+  "da": "Tilbage til forrige side"
+ },
+ "Volver al radar": {
+  "en": "Back to the radar",
+  "fr": "Retour au radar",
+  "de": "Zurück zum Radar",
+  "nl": "Terug naar de radar",
+  "pt": "Voltar ao radar",
+  "it": "Torna al radar",
+  "da": "Tilbage til radaren"
+ },
+ "Volver arriba": {
+  "en": "Back to top",
+  "fr": "Haut de page",
+  "de": "Nach oben",
+  "nl": "Terug naar boven",
+  "pt": "Voltar ao topo",
+  "it": "Torna su",
+  "da": "Til toppen"
+ },
+ "Índice y radar": {
+  "en": "Overview and radar",
+  "fr": "Sommaire et radar",
+  "de": "Übersicht und Radar",
+  "nl": "Overzicht en radar",
+  "pt": "Índice e radar",
+  "it": "Indice e radar",
+  "da": "Oversigt og radar"
+ }
+}

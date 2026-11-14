@@ -52,6 +52,49 @@
           "priority": "1.0"
         },
         {
+          "file": "productos/index.html",
+          "path": "/productos/",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
+          "file": "productos/cognitiv/index.html",
+          "path": "/productos/cognitiv/",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
+          "file": "productos/argos/index.html",
+          "path": "/productos/argos/",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
+          "file": "productos/espacios-de-datos/index.html",
+          "path": "/productos/espacios-de-datos/",
+          "changefreq": "monthly",
+          "priority": "0.9"
+        },
+        {
+          "file": "empresa/index.html",
+          "path": "/empresa/",
+          "changefreq": "monthly",
+          "priority": "0.7"
+        },
+        {
+          "file": "contacto/index.html",
+          "path": "/contacto/",
+          "changefreq": "yearly",
+          "priority": "0.7"
+        },
+        {
+          "file": "mapa-del-sitio/index.html",
+          "path": "/mapa-del-sitio/",
+          "gen": "sitemap",
+          "changefreq": "weekly",
+          "priority": "0.4"
+        },
+        {
           "file": "regulacion/index.html",
           "path": "/regulacion/",
           "changefreq": "weekly",
