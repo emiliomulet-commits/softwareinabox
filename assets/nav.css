@@ -113,4 +113,11 @@ nav.subnav.sx-toc>.wrap{flex:1;min-width:0}
 .sx-views a:hover{opacity:1}
 .sx-views a[aria-current]{opacity:1;background:#C9A227;border-color:#C9A227;color:#0B2545;font-weight:700}
 .sx-views small{opacity:.7;margin-left:3px;font-size:11px}
+/* preguntas frecuentes */
+.sx-faq details{border:1px solid #D5DDE7;border-radius:12px;background:#fff;margin-bottom:10px}
+.sx-faq summary{cursor:pointer;padding:18px 22px;font:700 16.5px 'Montserrat',system-ui,sans-serif;color:#0B2545;list-style:none}
+.sx-faq summary::-webkit-details-marker{display:none}
+.sx-faq summary::after{content:"+";float:right;color:#8C6D0E;font-weight:800}
+.sx-faq details[open] summary::after{content:"–"}
+.sx-faq details p{padding:0 22px 18px;margin:0;color:#233044}
 @media print{header.sx-hd,footer.sx-ft,.sx-top,.sx-pager{display:none}}

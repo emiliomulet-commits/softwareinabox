@@ -1,0 +1,82 @@
+{
+"data-act": [
+ ["Sinds wanneer is de Data Act van toepassing?", "Verordening (EU) 2023/2854 geldt sinds 12 september 2025, met gespreide termijnen: datatoegang door ontwerp geldt voor verbonden producten die vanaf 12-9-2026 in de handel worden gebracht, en kosten voor overstappen van cloudaanbieder verdwijnen op 12-1-2027."],
+ ["Wat verandert de Data Act voor cloudaanbieders?", "Zij moeten het klanten makkelijk maken over te stappen naar een andere aanbieder of naar eigen infrastructuur: maximale opzegtermijnen, export van data en hulp tijdens de migratie. Vanaf 12-1-2027 mag overstappen geen uitstapkosten meer met zich meebrengen."],
+ ["Wie handhaaft de Data Act?", "Elke lidstaat wijst zijn toezichthouders aan (art. 37) en stelt de sancties vast (art. 40). Gaat het om persoonsgegevens, dan gelden daarnaast de boetes van de AVG."]
+],
+"cra": [
+ ["Op welke producten is de CRA van toepassing?", "Op elk product met digitale elementen dat in de EU in de handel wordt gebracht, hardware of software, gedurende de hele levenscyclus. Cyberbeveiliging wordt een voorwaarde voor de CE-markering."],
+ ["Vanaf wanneer moet aan de CRA worden voldaan?", "Het melden van actief uitgebuite kwetsbaarheden en ernstige incidenten is sinds 11-9-2026 verplicht via het centrale meldplatform van ENISA. De overige verplichtingen, waaronder de CE-markering, gelden vanaf 11-12-2027."],
+ ["Welke boetes kent de CRA?", "Tot 15 mln. € of 2,5 % van de wereldwijde omzet bij schending van de essentiële eisen, tot 10 mln. € of 2 % voor andere verplichtingen en tot 5 mln. € of 1 % voor onjuiste informatie."]
+],
+"nis2": [
+ ["Welke bedrijven vallen onder NIS2?", "Essentiële en belangrijke entiteiten in kritieke sectoren, afhankelijk van hun omvang; in de digitale sector ook cloudaanbieders, datacenters en aanbieders van beheerde diensten. Andere leveranciers worden indirect geraakt via contracten met klanten die eronder vallen."],
+ ["Binnen welke termijn moet een incident onder NIS2 worden gemeld?", "Een vroegtijdige waarschuwing binnen 24 uur, een melding binnen 72 uur en een eindverslag binnen een maand, aan het CSIRT of de bevoegde autoriteit van elk land."],
+ ["Welke sancties kent NIS2?", "Tot 10 mln. € of 2 % van de wereldwijde omzet voor essentiële entiteiten en tot 7 mln. € of 1,4 % voor belangrijke entiteiten. Elke lidstaat werkt ze uit in zijn omzettingswet."]
+],
+"csa2-eucs": [
+ ["Wat is de CSA2?", "Het voorstel van de Commissie COM(2026) 11 van 20-1-2026 om de Cybersecurity Act van 2019 te vervangen: het versterkt ENISA, versnelt de Europese certificering en maakt het mogelijk leveranciers met een hoog risico uit derde landen aan te wijzen."],
+ ["Is de CSA2 al van kracht?", "Nee. Het is een voorstel in eerste lezing in het Parlement; de Raad presenteerde op 22-5-2026 een voortgangsverslag. De Cybersecurity Act en zijn regelingen, zoals EUCC, blijven gelden."],
+ ["Wat gebeurt er onder de CSA2 met leveranciers met een hoog risico?", "Het voorstel zou het mogelijk maken hen aan te wijzen en hun componenten uit kritieke infrastructuur te laten verwijderen, met boetes tot 7 % van de wereldwijde omzet. Het loont om leveranciers en componenten nu al per land van zeggenschap in kaart te brengen."]
+],
+"dora": [
+ ["Voor wie geldt DORA?", "Voor 21 soorten financiële entiteiten in de EU en, via hun contracten, voor de ICT-dienstverleners die hen bedienen. DORA geldt sinds 17 januari 2025."],
+ ["Wat moeten contracten met ICT-dienstverleners bevatten?", "Artikel 30 schrijft minimumbepalingen voor: beschrijving van de diensten, locaties van de data, serviceniveaus, samenwerking met toezichthouders, auditrechten en exitstrategieën."],
+ ["Wie houdt toezicht op kritieke ICT-dienstverleners?", "De Europese toezichthouders EBA, EIOPA en ESMA. Op 18-11-2025 wezen zij 19 kritieke externe ICT-dienstverleners aan, die dwangsommen kunnen krijgen tot 1 % van hun gemiddelde wereldwijde dagomzet."]
+],
+"dma-nube": [
+ ["Zijn AWS en Azure onder de DMA aangewezen?", "De Commissie concludeerde op 25-6-2026 voorlopig dat zij poortwachters zouden moeten zijn voor hun clouddiensten. De formele aanwijzing heeft nog niet plaatsgevonden."],
+ ["Waaraan zouden AWS en Azure moeten voldoen?", "Aan verplichtingen voor interoperabiliteit, dataportabiliteit en geen zelfbevoordeling, ook voor hun AI-tools, binnen zes maanden na de aanwijzing."],
+ ["Welke boetes kent de DMA?", "Alleen de Europese Commissie handhaaft de DMA. De boetes lopen op tot 10 % van de wereldwijde omzet en tot 20 % bij herhaling."]
+],
+"ehds": [
+ ["Vanaf wanneer geldt de EHDS?", "Verordening (EU) 2025/327 trad op 26-3-2025 in werking; de algemene toepassing begint op 26-3-2027 en loopt gefaseerd door tot 2035."],
+ ["Wat verandert er voor fabrikanten van elektronische patiëntendossiers?", "Hun systemen moeten interoperabel zijn met het Europese formaat en een CE-markering dragen; voor de eerste groep gegevenscategorieën vanaf 26-3-2029."],
+ ["Mogen gezondheidsgegevens worden hergebruikt voor onderzoek en AI?", "Ja, met datavergunningen van nationale toegangsorganen en altijd in beveiligde verwerkingsomgevingen, zonder de ruwe data af te staan."]
+],
+"rgpd-omnibus": [
+ ["Heeft de Digitale Omnibus de AVG al gewijzigd?", "Nee. Het is een voorstel van de Commissie van 19-11-2025 waarover nog wordt onderhandeld: de Raad bepaalde zijn standpunt in oktober 2026 en het Parlement zit nog in de commissiefase. De huidige AVG blijft gelden."],
+ ["Wat stelt de Omnibus voor op het gebied van persoonsgegevens?", "Hij zou het begrip persoonsgegeven, cookies, het gebruik van data voor AI-training en de melding van datalekken wijzigen. Toezichthouders en verschillende lidstaten hebben de verst gaande wijzigingen afgeremd."],
+ ["Wat is de nieuwe procedureverordening van de AVG?", "Verordening (EU) 2025/2518 harmoniseert de procedures in grensoverschrijdende zaken en geldt vanaf 2-4-2027."]
+],
+"data-union": [
+ ["Wat is de strategie voor een Data-Unie?", "Een mededeling van de Commissie, COM(2025) 835 van 19-11-2025, voor meer kwalitatieve data voor AI, eenvoudigere regels en een duidelijk beleid voor internationale datastromen."],
+ ["Is de strategie voor een Data-Unie bindend?", "Ze heeft geen rechtstreeks rechtsgevolg: ze wordt uitgevoerd via andere wetgeving en programma's, zoals de Digitale Omnibus, de gemeenschappelijke Europese dataruimten en de Cloud and AI Development Act."],
+ ["Welke financiering kondigt de strategie aan?", "100 mln. € extra voor gemeenschappelijke dataruimten vanaf 2026, plus datalabs en AI-fabrieken."]
+],
+"chips-act": [
+ ["Wat is de Chips Act 2.0?", "Voorstel COM(2026) 504 van 3-6-2026, dat de Europese chipverordening van 2023 zou intrekken en de nadruk legt op de vraag: innovatieve overheidsopdrachten, vraagversnellers en chips voor AI."],
+ ["Is de Chips Act 2.0 al aangenomen?", "Nee. Het is een voorstel voor een verordening, gepresenteerd met de CADA in het pakket voor technologische soevereiniteit; Parlement en Raad onderhandelen erover."],
+ ["Wat is het doel van de EU voor chips?", "20 % van de wereldproductie in 2030, al wijzen prognoses op een werkelijk aandeel van ongeveer 11,7 %."]
+],
+"ecodiseno-servidores": [
+ ["Wat eist de ecodesignverordening van servers?", "Efficiëntie van de voeding, grenzen aan het verbruik in rust, veilig wissen van data, firmware-updates en informatie over materialen. Ze geldt sinds 1-3-2020 voor servers en online-dataopslagproducten."],
+ ["Wie moet voldoen aan de ecodesignverordening voor servers?", "De fabrikant, importeur of gemachtigde die het product in de EU in de handel brengt, met CE-markering en technische documentatie."],
+ ["Welke efficiëntieverplichtingen hebben datacenters?", "Datacenters vanaf 500 kW rapporteren jaarlijks hun energieprestaties aan de Europese database; het volgende verslag is uiterlijk 15-5-2027 verschuldigd, en de Commissie bereidt een efficiëntielabel A–G voor."]
+],
+"raee": [
+ ["Wie is in Spanje producent van AEEA (RAEE)?", "Wie elektrische of elektronische apparatuur op de Spaanse markt brengt: fabrikant, importeur of verkoper op afstand. Hij moet zich registreren, zijn verkopen melden en de inzameling en verwerking financieren."],
+ ["Vallen servers en netwerkapparatuur onder de AEEA-regels?", "Ja. Sinds 15-8-2018 geldt een open toepassingsgebied: alle elektrische en elektronische apparatuur, behalve uitdrukkelijk uitgesloten apparaten."],
+ ["Welke regelgeving geldt voor AEEA in Spanje?", "Koninklijk Besluit 110/2015, gewijzigd bij Koninklijk Besluit 27/2021, dat Richtlijn 2012/19/EU omzet binnen het kader van afvalwet 7/2022."]
+],
+"factura-electronica": [
+ ["Wanneer wordt B2B-e-facturatie in Spanje verplicht?", "Vanaf 6 oktober 2027 voor bedrijven met een omzet van meer dan 8 mln. € en vanaf 6 oktober 2028 voor alle andere, volgens Koninklijk Besluit 238/2026."],
+ ["Is e-facturatie hetzelfde als VERI*FACTU?", "Nee. VERI*FACTU regelt factureringssoftware (Koninklijk Besluit 1007/2023) en wordt naar verwachting uitgesteld tot oktober 2028; B2B-e-facturatie is een aparte verplichting."],
+ ["En e-facturatie op EU-niveau?", "Richtlijn (EU) 2025/516 (ViDA) maakt e-facturatie verplicht voor intracommunautaire transacties vanaf 1-7-2030."]
+],
+"ens": [
+ ["Wie moet voldoen aan het Spaanse ENS?", "De hele Spaanse publieke sector en de leveranciers die hem IT-diensten of -oplossingen leveren, volgens Koninklijk Besluit 311/2022."],
+ ["Hoe verkrijg je ENS-certificering?", "Elk systeem wordt ingedeeld (basis, midden of hoog), er worden een risicoanalyse en een verklaring van toepasselijkheid van de 73 maatregelen opgesteld en een audit doorstaan, die elke twee jaar wordt vernieuwd."],
+ ["Helpt het ENS bij NIS2 of EUCS?", "Zolang er geen Europese EUCS-regeling en geen Spaanse NIS2-wet is, is het de stevigste nationale referentie, en veel van zijn maatregelen dekken wat die regels vragen."]
+],
+"ley-gobernanza-ia": [
+ ["Is de Spaanse wet op AI-governance van kracht?", "Nee. Het wetsontwerp bereikte het Congres in juni 2026, maar verviel toen de Cortes op 6 oktober 2026 werden ontbonden."],
+ ["Geldt de AI-verordening dan niet in Spanje?", "Jawel: het is een rechtstreeks toepasselijke EU-verordening. Wat ontbreekt, is de nationale wet over toezichthouders, sancties en AI-gebruik in de publieke sector."],
+ ["Wat kunnen bedrijven doen zolang er geen Spaanse AI-wet is?", "AI-systemen inventariseren, naar risico indelen, personeel opleiden, de richtsnoeren van AESIA gebruiken en de termijnen van de AI-Omnibus voor hoog risico volgen: december 2027 en augustus 2028."]
+],
+"rd-centros-datos": [
+ ["Is het Spaanse datacenterdecreet al goedgekeurd?", "Nog niet. Het is een ontwerp in spoedprocedure, met openbare consultatie van 27-8 tot 10-9-2026; goedkeuring door de Ministerraad wordt in november 2026 verwacht."],
+ ["Voor welke datacenters zou het decreet gelden?", "Volgens de tekst van oktober voor datacenters met een aansluitvermogen van 10 MW of meer; de eisen voor digitale soevereiniteit ongeacht het vermogen."],
+ ["Wat gebeurt er als een datacenter niet aan de eisen voldoet?", "Vergunningen voor netaansluiting worden niet verleend of reeds verleende vergunningen vervallen."]
+]
+}

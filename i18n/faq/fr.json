@@ -1,0 +1,82 @@
+{
+"data-act": [
+ ["Depuis quand le Data Act s'applique-t-il ?", "Le règlement (UE) 2023/2854 s'applique depuis le 12 septembre 2025, avec des échéances échelonnées : l'accès aux données dès la conception vise les produits connectés mis sur le marché à partir du 12-9-2026, et les frais de changement de fournisseur cloud disparaissent le 12-1-2027."],
+ ["Que change le Data Act pour les fournisseurs de cloud ?", "Ils doivent faciliter le passage du client à un autre fournisseur ou à sa propre infrastructure : préavis maximaux, export des données et assistance pendant la migration. À partir du 12-1-2027, le changement ne peut plus entraîner de frais de sortie."],
+ ["Qui sanctionne le non-respect du Data Act ?", "Chaque État membre désigne ses autorités (art. 37) et fixe les sanctions (art. 40). Lorsque des données personnelles sont en jeu, les amendes du RGPD s'appliquent aussi."]
+],
+"cra": [
+ ["À quels produits le CRA s'applique-t-il ?", "À tout produit comportant des éléments numériques mis sur le marché de l'UE, matériel ou logiciel, pendant tout son cycle de vie. La cybersécurité devient une exigence du marquage CE."],
+ ["Quand faut-il se conformer au CRA ?", "Le signalement des vulnérabilités activement exploitées et des incidents graves est obligatoire depuis le 11-9-2026, via la plateforme unique de l'ENISA. Les autres obligations, dont le marquage CE, s'appliquent à partir du 11-12-2027."],
+ ["Quelles amendes le CRA prévoit-il ?", "Jusqu'à 15 M€ ou 2,5 % du chiffre d'affaires mondial pour non-respect des exigences essentielles ; jusqu'à 10 M€ ou 2 % pour les autres obligations ; et jusqu'à 5 M€ ou 1 % pour la fourniture d'informations inexactes."]
+],
+"nis2": [
+ ["Quelles entreprises sont soumises à NIS2 ?", "Les entités essentielles et importantes des secteurs critiques selon leur taille ; dans le secteur numérique, aussi les fournisseurs de cloud, les centres de données et les prestataires de services gérés. Les autres fournisseurs sont concernés indirectement par les contrats avec leurs clients assujettis."],
+ ["Dans quel délai faut-il notifier un incident selon NIS2 ?", "Une alerte précoce sous 24 heures, une notification sous 72 heures et un rapport final sous un mois, adressés au CSIRT ou à l'autorité compétente de chaque pays."],
+ ["Quelles sanctions NIS2 prévoit-elle ?", "Jusqu'à 10 M€ ou 2 % du chiffre d'affaires mondial pour les entités essentielles et jusqu'à 7 M€ ou 1,4 % pour les entités importantes. Chaque État les précise dans sa loi de transposition."]
+],
+"csa2-eucs": [
+ ["Qu'est-ce que le CSA2 ?", "La proposition de la Commission COM(2026) 11 du 20-1-2026 visant à remplacer le Cybersecurity Act de 2019 : elle renforce l'ENISA, accélère la certification européenne et permet de désigner des fournisseurs à haut risque de pays tiers."],
+ ["Le CSA2 est-il déjà en vigueur ?", "Non. C'est une proposition en première lecture au Parlement ; le Conseil a présenté un rapport d'étape le 22-5-2026. Le Cybersecurity Act et ses schémas, comme l'EUCC, restent en vigueur."],
+ ["Qu'advient-il des fournisseurs à haut risque selon le CSA2 ?", "La proposition permettrait de les identifier et d'imposer le retrait de leurs composants des infrastructures critiques, avec des amendes jusqu'à 7 % du chiffre d'affaires mondial. Il est utile de recenser dès maintenant fournisseurs et composants par pays de contrôle."]
+],
+"dora": [
+ ["À qui DORA s'applique-t-il ?", "À 21 types d'entités financières de l'UE et, via leurs contrats, aux prestataires TIC qui les servent. Il s'applique depuis le 17 janvier 2025."],
+ ["Que doivent contenir les contrats avec les prestataires TIC ?", "L'article 30 impose des clauses minimales : description des services, localisation des données, niveaux de service, coopération avec les autorités, droits d'audit et stratégies de sortie."],
+ ["Qui supervise les prestataires TIC critiques ?", "Les autorités européennes de surveillance ABE, AEAPP et AEMF. Le 18-11-2025, elles ont désigné 19 prestataires TIC critiques, passibles d'astreintes jusqu'à 1 % de leur chiffre d'affaires quotidien mondial."]
+],
+"dma-nube": [
+ ["AWS et Azure sont-ils désignés au titre du DMA ?", "Le 25-6-2026, la Commission a conclu à titre préliminaire qu'ils devraient être contrôleurs d'accès pour leurs services cloud. La désignation formelle n'a pas encore eu lieu."],
+ ["Quelles obligations AWS et Azure devraient-ils respecter ?", "Des obligations d'interopérabilité, de portabilité des données et d'absence d'autopréférence, y compris pour leurs outils d'IA, dans un délai de six mois après la désignation."],
+ ["Quelles amendes le DMA prévoit-il ?", "Seule la Commission européenne l'applique. Les amendes atteignent 10 % du chiffre d'affaires mondial et 20 % en cas de récidive."]
+],
+"ehds": [
+ ["Quand l'EHDS s'applique-t-il ?", "Le règlement (UE) 2025/327 est entré en vigueur le 26-3-2025 ; son application générale débute le 26-3-2027 et se poursuit par étapes jusqu'en 2035."],
+ ["Que change-t-il pour les fabricants de dossiers médicaux électroniques ?", "Leurs systèmes devront être interopérables avec le format européen et porter le marquage CE ; pour le premier groupe de catégories de données, à partir du 26-3-2029."],
+ ["Les données de santé pourront-elles être réutilisées pour la recherche et l'IA ?", "Oui, au moyen d'autorisations d'accès délivrées par des organismes nationaux et toujours dans des environnements de traitement sécurisés, sans remise des données brutes."]
+],
+"rgpd-omnibus": [
+ ["L'Omnibus numérique a-t-il déjà modifié le RGPD ?", "Non. C'est une proposition de la Commission du 19-11-2025 encore en négociation : le Conseil a arrêté sa position en octobre 2026 et le Parlement est toujours en commission. Le RGPD actuel s'applique."],
+ ["Que propose l'Omnibus en matière de données personnelles ?", "Il toucherait à la notion de donnée personnelle, aux cookies, à l'utilisation de données pour entraîner l'IA et à la notification des violations. Les autorités de protection des données et plusieurs États ont freiné les changements les plus profonds."],
+ ["Qu'est-ce que le nouveau règlement de procédure du RGPD ?", "Le règlement (UE) 2025/2518 harmonise les procédures dans les affaires transfrontières et s'applique à partir du 2-4-2027."]
+],
+"data-union": [
+ ["Qu'est-ce que la stratégie pour une Union des données ?", "Une communication de la Commission, COM(2025) 835 du 19-11-2025, qui vise plus de données de qualité pour l'IA, des règles plus simples et une politique ferme sur les flux internationaux de données."],
+ ["La stratégie pour une Union des données est-elle contraignante ?", "Elle n'a pas d'effet juridique direct : elle se concrétise dans d'autres textes et programmes, comme l'Omnibus numérique, les espaces européens communs de données et le Cloud and AI Development Act."],
+ ["Quel financement la stratégie annonce-t-elle ?", "100 M€ supplémentaires pour les espaces communs de données à partir de 2026, ainsi que des laboratoires de données et des usines d'IA."]
+],
+"chips-act": [
+ ["Qu'est-ce que le Chips Act 2.0 ?", "La proposition COM(2026) 504 du 3-6-2026, qui abrogerait la législation européenne sur les semi-conducteurs de 2023 et mettrait l'accent sur la demande : achats publics innovants, accélérateurs de demande et puces pour l'IA."],
+ ["Le Chips Act 2.0 est-il adopté ?", "Non. C'est une proposition de règlement présentée avec le CADA dans le paquet de souveraineté technologique ; elle est négociée par le Parlement et le Conseil."],
+ ["Quel est l'objectif de l'UE pour les puces ?", "20 % de la production mondiale en 2030, même si les prévisions tablent sur une part réelle d'environ 11,7 %."]
+],
+"ecodiseno-servidores": [
+ ["Qu'exige le règlement écoconception pour les serveurs ?", "Rendement de l'alimentation, limites de consommation au repos, effacement sécurisé des données, mises à jour du micrologiciel et information sur les matériaux. Il s'applique depuis le 1-3-2020 aux serveurs et produits de stockage en ligne."],
+ ["Qui doit respecter le règlement écoconception des serveurs ?", "Le fabricant, l'importateur ou le mandataire qui met le produit sur le marché de l'UE, avec marquage CE et documentation technique."],
+ ["Quelles obligations d'efficacité pour les centres de données ?", "Ceux de 500 kW ou plus déclarent chaque année leur performance énergétique dans la base de données européenne ; le prochain rapport est dû le 15-5-2027, et la Commission prépare une étiquette d'efficacité A–G."]
+],
+"raee": [
+ ["Qui est producteur de DEEE en Espagne ?", "Quiconque met sur le marché espagnol un équipement électrique ou électronique : fabricant, importateur ou vendeur à distance. Il doit s'enregistrer, déclarer ce qu'il vend et financer la collecte et le traitement."],
+ ["Les serveurs et équipements réseau relèvent-ils des DEEE ?", "Oui. Depuis le 15-8-2018, le champ est ouvert : tous les équipements électriques et électroniques sauf exclusions expresses."],
+ ["Quel texte régit les DEEE en Espagne ?", "Le décret royal 110/2015, modifié par le décret royal 27/2021, qui transpose la directive 2012/19/UE dans le cadre de la loi 7/2022 sur les déchets."]
+],
+"factura-electronica": [
+ ["Quand la facture électronique B2B deviendra-t-elle obligatoire en Espagne ?", "À partir du 6 octobre 2027 pour les entreprises dont le chiffre d'affaires dépasse 8 M€ et du 6 octobre 2028 pour les autres, selon le décret royal 238/2026."],
+ ["La facture électronique est-elle la même chose que VERI*FACTU ?", "Non. VERI*FACTU encadre les logiciels de facturation (décret royal 1007/2023) et devrait être reporté à octobre 2028 ; la facture électronique B2B est une obligation distincte."],
+ ["Et la facture électronique au niveau de l'UE ?", "La directive (UE) 2025/516 (ViDA) rendra la facture électronique obligatoire pour les opérations intracommunautaires à partir du 1-7-2030."]
+],
+"ens": [
+ ["Qui doit respecter l'ENS espagnol ?", "L'ensemble du secteur public espagnol et les fournisseurs qui lui livrent des services ou solutions technologiques, selon le décret royal 311/2022."],
+ ["Comment obtenir la certification ENS ?", "On catégorise chaque système (basique, moyen ou élevé), on réalise l'analyse de risques et la déclaration d'applicabilité des 73 mesures, puis on passe un audit, renouvelé tous les deux ans."],
+ ["L'ENS aide-t-il pour NIS2 ou l'EUCS ?", "Tant que le schéma européen EUCS et la loi espagnole NIS2 n'existent pas, c'est la référence nationale la plus solide, et une bonne partie de ses mesures couvre ce qu'exigent ces textes."]
+],
+"ley-gobernanza-ia": [
+ ["La loi espagnole sur la gouvernance de l'IA est-elle en vigueur ?", "Non. Le projet de loi organique est arrivé au Congrès en juin 2026, mais il est devenu caduc avec la dissolution des Cortes le 6 octobre 2026."],
+ ["L'AI Act ne s'applique-t-il donc pas en Espagne ?", "Si : c'est un règlement européen d'application directe. Ce qui manque, c'est la loi nationale sur les autorités, les sanctions et l'usage de l'IA dans le secteur public."],
+ ["Que faire en attendant une loi espagnole sur l'IA ?", "Recenser les systèmes d'IA, les classer par niveau de risque, former le personnel, utiliser les guides de l'AESIA et suivre les échéances de l'Omnibus IA pour le haut risque : décembre 2027 et août 2028."]
+],
+"rd-centros-datos": [
+ ["Le décret espagnol sur les centres de données est-il adopté ?", "Pas encore. C'est un projet en procédure d'urgence, soumis à consultation publique du 27-8 au 10-9-2026 ; son adoption en Conseil des ministres est prévue pour novembre 2026."],
+ ["À quels centres de données s'appliquerait le décret ?", "Selon le texte d'octobre, à ceux d'une puissance d'accès de 10 MW ou plus ; les exigences de souveraineté numérique, quelle que soit la puissance."],
+ ["Que se passe-t-il si un centre de données ne respecte pas les exigences ?", "Les autorisations d'accès et de raccordement au réseau électrique ne sont pas accordées, ou celles déjà accordées sont perdues."]
+]
+}

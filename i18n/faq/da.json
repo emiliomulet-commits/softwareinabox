@@ -1,0 +1,82 @@
+{
+"data-act": [
+ ["Hvornår finder dataforordningen (Data Act) anvendelse?", "Forordning (EU) 2023/2854 har fundet anvendelse siden den 12. september 2025 med forskudte frister: dataadgang gennem design gælder for forbundne produkter, der bringes i omsætning fra den 12.9.2026, og gebyrer for at skifte cloududbyder forsvinder den 12.1.2027."],
+ ["Hvad ændrer Data Act for cloududbydere?", "De skal gøre det let for kunden at skifte til en anden udbyder eller til egen infrastruktur: maksimale opsigelsesvarsler, eksport af data og bistand under migreringen. Fra den 12.1.2027 må et skift ikke medføre udtrædelsesgebyrer."],
+ ["Hvem håndhæver Data Act?", "Hver medlemsstat udpeger sine myndigheder (art. 37) og fastsætter sanktionerne (art. 40). Når personoplysninger er involveret, gælder GDPR's bøder også."]
+],
+"cra": [
+ ["Hvilke produkter omfatter CRA?", "Alle produkter med digitale elementer, der bringes i omsætning i EU, hardware eller software, i hele deres livscyklus. Cybersikkerhed bliver et krav for CE-mærkning."],
+ ["Hvornår skal CRA overholdes?", "Indberetning af aktivt udnyttede sårbarheder og alvorlige hændelser har været obligatorisk siden den 11.9.2026 via ENISA's fælles indberetningsplatform. De øvrige forpligtelser, herunder CE-mærkning, gælder fra den 11.12.2027."],
+ ["Hvilke bøder indeholder CRA?", "Op til 15 mio. € eller 2,5 % af den globale omsætning for overtrædelse af de væsentlige krav, op til 10 mio. € eller 2 % for andre forpligtelser og op til 5 mio. € eller 1 % for urigtige oplysninger."]
+],
+"nis2": [
+ ["Hvilke virksomheder er omfattet af NIS2?", "Væsentlige og vigtige enheder i kritiske sektorer afhængigt af størrelse; i den digitale sektor også cloududbydere, datacentre og udbydere af administrerede tjenester. Andre leverandører berøres indirekte gennem kontrakter med omfattede kunder."],
+ ["Hvor hurtigt skal en hændelse indberettes efter NIS2?", "En tidlig varsling inden for 24 timer, en hændelsesindberetning inden for 72 timer og en endelig rapport inden for en måned til CSIRT eller den kompetente myndighed i hvert land."],
+ ["Hvilke sanktioner indeholder NIS2?", "Op til 10 mio. € eller 2 % af den globale omsætning for væsentlige enheder og op til 7 mio. € eller 1,4 % for vigtige enheder. Hver medlemsstat fastsætter dem i sin gennemførelseslov."]
+],
+"csa2-eucs": [
+ ["Hvad er CSA2?", "Kommissionens forslag COM(2026) 11 af 20.1.2026, der skal erstatte Cybersecurity Act fra 2019: det styrker ENISA, fremskynder europæisk certificering og gør det muligt at udpege højrisikoleverandører fra tredjelande."],
+ ["Er CSA2 allerede trådt i kraft?", "Nej. Det er et forslag til førstebehandling i Parlamentet; Rådet fremlagde en statusrapport den 22.5.2026. Cybersecurity Act og dens ordninger, som EUCC, gælder fortsat."],
+ ["Hvad sker der med højrisikoleverandører efter CSA2?", "Forslaget ville gøre det muligt at udpege dem og kræve deres komponenter fjernet fra kritisk infrastruktur, med bøder på op til 7 % af den globale omsætning. Det kan betale sig allerede nu at kortlægge leverandører og komponenter efter kontrollerende land."]
+],
+"dora": [
+ ["Hvem gælder DORA for?", "For 21 typer finansielle enheder i EU og, gennem deres kontrakter, for de IKT-udbydere, der leverer til dem. DORA har fundet anvendelse siden den 17. januar 2025."],
+ ["Hvad skal kontrakter med IKT-udbydere indeholde?", "Artikel 30 fastsætter minimumsklausuler: beskrivelse af tjenesterne, placering af data, serviceniveauer, samarbejde med myndighederne, revisionsrettigheder og exitstrategier."],
+ ["Hvem fører tilsyn med kritiske IKT-udbydere?", "De europæiske tilsynsmyndigheder EBA, EIOPA og ESMA. Den 18.11.2025 udpegede de 19 kritiske tredjepartsudbydere af IKT-tjenester, som kan pålægges tvangsbøder på op til 1 % af deres gennemsnitlige globale dagsomsætning."]
+],
+"dma-nube": [
+ ["Er AWS og Azure udpeget efter DMA?", "Kommissionen konkluderede foreløbigt den 25.6.2026, at de bør være gatekeepere for deres cloudtjenester. Den formelle udpegning er endnu ikke sket."],
+ ["Hvad skulle AWS og Azure overholde?", "Forpligtelser om interoperabilitet, dataportabilitet og forbud mod selvpræference, også for deres AI-værktøjer, senest seks måneder efter udpegningen."],
+ ["Hvilke bøder indeholder DMA?", "Kun Europa-Kommissionen håndhæver den. Bøderne kan nå 10 % af den globale omsætning og 20 % ved gentagne overtrædelser."]
+],
+"ehds": [
+ ["Hvornår finder EHDS anvendelse?", "Forordning (EU) 2025/327 trådte i kraft den 26.3.2025; den generelle anvendelse begynder den 26.3.2027 og fortsætter i faser frem til 2035."],
+ ["Hvad ændrer sig for producenter af elektroniske patientjournaler?", "Deres systemer skal være interoperable med det europæiske format og være CE-mærkede; for den første gruppe af datakategorier fra den 26.3.2029."],
+ ["Kan sundhedsdata genbruges til forskning og AI?", "Ja, via datatilladelser fra nationale adgangsorganer og altid i sikre behandlingsmiljøer, uden at rådata udleveres."]
+],
+"rgpd-omnibus": [
+ ["Har den digitale omnibus allerede ændret GDPR?", "Nej. Det er et kommissionsforslag af 19.11.2025, som stadig forhandles: Rådet fastlagde sin holdning i oktober 2026, og Parlamentet er stadig på udvalgsstadiet. Den nuværende GDPR gælder."],
+ ["Hvad foreslår omnibussen om personoplysninger?", "Den ville ændre begrebet personoplysning, cookies, brug af data til AI-træning og anmeldelse af brud. Datatilsynsmyndigheder og flere medlemsstater har bremset de mest vidtgående ændringer."],
+ ["Hvad er den nye GDPR-procesforordning?", "Forordning (EU) 2025/2518 harmoniserer procedurerne i grænseoverskridende sager og gælder fra den 2.4.2027."]
+],
+"data-union": [
+ ["Hvad er strategien for en dataunion?", "En meddelelse fra Kommissionen, COM(2025) 835 af 19.11.2025, om flere data af høj kvalitet til AI, enklere regler og en fast linje for internationale datastrømme."],
+ ["Er strategien for en dataunion bindende?", "Den har ingen direkte retsvirkning: den gennemføres via andre retsakter og programmer, såsom den digitale omnibus, de fælles europæiske dataområder og Cloud and AI Development Act."],
+ ["Hvilken finansiering annoncerer strategien?", "Yderligere 100 mio. € til fælles dataområder fra 2026 samt datalaboratorier og AI-fabrikker."]
+],
+"chips-act": [
+ ["Hvad er Chips Act 2.0?", "Forslaget COM(2026) 504 af 3.6.2026, som ville ophæve den europæiske chipforordning fra 2023 og flytte fokus til efterspørgslen: innovative offentlige indkøb, efterspørgselsacceleratorer og chips til AI."],
+ ["Er Chips Act 2.0 vedtaget?", "Nej. Det er et forordningsforslag, der blev fremlagt sammen med CADA i pakken om teknologisk suverænitet, og som forhandles i Parlamentet og Rådet."],
+ ["Hvad er EU's mål for chips?", "20 % af verdensproduktionen i 2030, selv om prognoserne peger på en reel andel på omkring 11,7 %."]
+],
+"ecodiseno-servidores": [
+ ["Hvad kræver ecodesignforordningen af servere?", "Strømforsyningens effektivitet, grænser for forbrug i tomgang, sikker sletning af data, firmwareopdateringer og oplysninger om materialer. Den har gældt siden 1.3.2020 for servere og onlinedatalagringsprodukter."],
+ ["Hvem skal overholde ecodesignforordningen for servere?", "Producenten, importøren eller den bemyndigede repræsentant, der bringer produktet i omsætning i EU, med CE-mærkning og teknisk dokumentation."],
+ ["Hvilke effektivitetskrav har datacentre?", "Datacentre på 500 kW eller mere indberetter hvert år deres energimæssige ydeevne til den europæiske database; næste rapport skal indsendes senest den 15.5.2027, og Kommissionen forbereder en effektivitetsmærkning A–G."]
+],
+"raee": [
+ ["Hvem er producent af WEEE (RAEE) i Spanien?", "Den, der bringer elektrisk eller elektronisk udstyr i omsætning på det spanske marked: producent, importør eller fjernsælger. Vedkommende skal registreres, indberette sit salg og finansiere indsamling og behandling."],
+ ["Er servere og netværksudstyr omfattet af WEEE-reglerne?", "Ja. Siden den 15.8.2018 har anvendelsesområdet været åbent: alt elektrisk og elektronisk udstyr undtagen det, der udtrykkeligt er undtaget."],
+ ["Hvilken regel gælder for WEEE i Spanien?", "Kongeligt dekret 110/2015, ændret ved kongeligt dekret 27/2021, som gennemfører direktiv 2012/19/EU inden for rammerne af affaldslov 7/2022."]
+],
+"factura-electronica": [
+ ["Hvornår bliver B2B-e-faktura obligatorisk i Spanien?", "Fra den 6. oktober 2027 for virksomheder med en omsætning over 8 mio. € og fra den 6. oktober 2028 for alle andre, jf. kongeligt dekret 238/2026."],
+ ["Er e-faktura det samme som VERI*FACTU?", "Nej. VERI*FACTU regulerer faktureringssoftware (kongeligt dekret 1007/2023) og forventes udskudt til oktober 2028; B2B-e-faktura er en særskilt forpligtelse."],
+ ["Hvad med e-faktura på EU-niveau?", "Direktiv (EU) 2025/516 (ViDA) gør e-faktura obligatorisk for transaktioner inden for EU fra den 1.7.2030."]
+],
+"ens": [
+ ["Hvem skal overholde den spanske ENS?", "Hele den spanske offentlige sektor og de leverandører, der leverer it-tjenester eller -løsninger til den, jf. kongeligt dekret 311/2022."],
+ ["Hvordan opnår man ENS-certificering?", "Hvert system kategoriseres (basis, middel eller høj), der udarbejdes en risikoanalyse og en anvendelighedserklæring for de 73 foranstaltninger, og der bestås en audit, som fornyes hvert andet år."],
+ ["Hjælper ENS med NIS2 eller EUCS?", "Så længe der hverken findes en europæisk EUCS-ordning eller en spansk NIS2-lov, er den den mest solide nationale reference, og mange af dens foranstaltninger dækker det, disse regler kræver."]
+],
+"ley-gobernanza-ia": [
+ ["Er den spanske lov om AI-styring trådt i kraft?", "Nej. Lovforslaget nåede Kongressen i juni 2026, men bortfaldt, da Cortes blev opløst den 6. oktober 2026."],
+ ["Gælder AI-forordningen så ikke i Spanien?", "Jo: den er en direkte gældende EU-forordning. Det, der mangler, er den nationale lov om myndigheder, sanktioner og brug af AI i den offentlige sektor."],
+ ["Hvad bør virksomheder gøre, indtil Spanien har en AI-lov?", "Kortlægge deres AI-systemer, klassificere dem efter risiko, uddanne medarbejderne, bruge AESIA's vejledninger og følge AI-omnibussens frister for højrisikosystemer: december 2027 og august 2028."]
+],
+"rd-centros-datos": [
+ ["Er det spanske datacenterdekret vedtaget?", "Ikke endnu. Det er et udkast behandlet efter hasteproceduren med offentlig høring fra 27.8 til 10.9.2026; vedtagelse i Ministerrådet forventes i november 2026."],
+ ["Hvilke datacentre ville dekretet gælde for?", "Efter oktoberteksten datacentre med en tilslutningseffekt på 10 MW eller mere; kravene om digital suverænitet uanset effekt."],
+ ["Hvad sker der, hvis et datacenter ikke opfylder kravene?", "Tilladelser til nettilslutning gives ikke, eller allerede givne tilladelser bortfalder."]
+]
+}

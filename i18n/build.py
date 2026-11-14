@@ -464,6 +464,8 @@ def strip_i18n(raw):
     # quita también el "\n  " que add_common añade tras el selector, para que cada build sea idéntico al anterior
     raw = re.sub(r"<!-- I18N-SW:BEGIN -->.*?<!-- I18N-SW:END -->(?:\n  (?=</div>)|\n)?", "", raw, flags=re.S)
     raw = re.sub(r"[ \t]*<link rel=\"alternate\" hreflang=\"[^\"]*\" href=\"[^\"]*\">\n?", "", raw)
+    if SITE is CFG["sites"].get("www"):
+        raw = nav.strip(raw)  # bloques que genera nav.py: fuera antes de traducir
     return raw
 
 

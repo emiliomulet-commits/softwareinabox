@@ -166,6 +166,31 @@ def views(pg, lang, tr):
             + "".join(items) + "</nav>")
 
 
+_FAQ = {}
+
+
+def faq_data(slug, lang):
+    base = {"fr-be": "fr", "nl-be": "nl"}.get(lang, lang)
+    if base not in _FAQ:
+        f = os.path.join(HERE, "faq", base + ".json")
+        _FAQ[base] = json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}
+    return _FAQ[base].get(slug)
+
+
+def faq_block(pg, lang, tr, items):
+    t = lambda s: esc(T(s, lang, tr))
+    qa = "".join(f'<details class="faq"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in items)
+    return (f'<!--SX:FAQ--><section class="sec sx-faq" id="faq" data-nav><div class="wrap"><div class="sec-h"><h2>{t("Preguntas frecuentes")}</h2></div>'
+            f'{qa}</div></section><!--/SX:FAQ-->\n')
+
+
+def faq_ld(pg, lang, items):
+    url = B.SITE["base"] + B.lpath(pg, lang)
+    ld = {"@context": "https://schema.org", "@type": "FAQPage", "@id": url + "#faq", "inLanguage": lang,
+          "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in items]}
+    return '<script type="application/ld+json" data-nav id="sx-faq-ld">' + json.dumps(ld, ensure_ascii=False).replace("</", "<\\/") + "</script>\n"
+
+
 def top_button(pg, lang, tr):
     a = lambda s: html.escape(T(s, lang, tr), quote=True)
     extra = f' data-toc="{a("En esta página")}" data-more="{a("Ver todo")}" data-less="{a("Ver menos")}"'
@@ -180,6 +205,9 @@ def strip(raw):
     raw = re.sub(r"\n?<!--SX:PG-->.*?<!--/SX:PG-->", "", raw, flags=re.S)
     raw = re.sub(r"<!--SX:CR-->.*?<!--/SX:CR-->", "<!--SX:CRUMBS-->", raw, flags=re.S)
     raw = re.sub(r'\n?<nav class="sx-views" data-nav.*?</nav>', "", raw, flags=re.S)
+    raw = re.sub(r"<!--SX:FAQ-->.*?<!--/SX:FAQ-->\n?", "", raw, flags=re.S)
+    raw = re.sub(r'<script type="application/ld\+json" data-nav id="sx-faq-ld">.*?</script>\n?', "", raw, flags=re.S)
+    raw = re.sub(r'<a href="#faq" data-nav>.*?</a>', "", raw)
     raw = re.sub(r"<!--SX:NORMS:(l-\w+)-->.*?<!--/SX:NORMS-->", r"<!--SX:NORMS:\1--><!--/SX:NORMS-->", raw, flags=re.S)
     raw = re.sub(r'\n?<button class="sx-top" type="button" data-nav.*?</button>', "", raw, flags=re.S)
     raw = re.sub(r'\n?<link rel="stylesheet" href="/assets/nav\.css[^"]*">', "", raw)
@@ -204,6 +232,16 @@ def inject(raw, pg, lang, tr):
         if c:
             c = "<!--SX:CR-->" + c + "<!--/SX:CR-->"
             raw = raw.replace("<!--SX:CRUMBS-->", c, 1) if "<!--SX:CRUMBS-->" in raw else raw.replace("</header>", "</header>\n" + c, 1)
+    ms = re.match(r"^/regulacion/([a-z0-9-]+)/$", pg["path"])
+    items = faq_data(ms.group(1), lang) if ms and not pg.get("gen") else None
+    if items and 'id="faq"' not in raw:
+        i = raw.find('id="fuentes"')
+        i = raw.rfind("<section", 0, i) if i > 0 else raw.rfind("<footer")
+        raw = raw[:i] + faq_block(pg, lang, tr, items) + raw[i:]
+        raw = raw.replace("</head>", faq_ld(pg, lang, items) + "</head>", 1)
+        m = re.search(r'(<nav class="subnav"[^>]*>.*?)(<a href="#fuentes")', raw, re.S)
+        if m:
+            raw = raw[:m.start(2)] + f'<a href="#faq" data-nav>{esc(T("Preguntas frecuentes", lang, tr))}</a>' + raw[m.start(2):]
     if adapted(pg):
         m = re.search(r'<nav class="crumbs"[^>]*>.*?</nav>', raw, re.S)
         if m:
