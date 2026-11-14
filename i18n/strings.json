@@ -1483,6 +1483,14 @@
   ]
  },
  {
+  "id": "fbe367cf96",
+  "src": "<a class=\"btn btn-gold\" href=\"/regulacion/informe-cada/\">Nuevo: informe CADA para la cadena de valor</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
   "id": "3445089f44",
   "src": "MARCO DE SOBERANÍA",
   "kind": "html",
@@ -2103,6 +2111,14 @@
  {
   "id": "3e98a24503",
   "src": "El nivel se otorga al servicio, pero se gana en la cadena. Un fabricante que no aporte su parte de la evidencia deja a sus integradores fuera de los niveles 2 a 4.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c548af6167",
+  "src": "<a class=\"btn btn-gold\" href=\"/descargas/informe-cada/CADA_informe_es.pdf\" download>Descargar el informe completo (PDF)</a><a class=\"btn btn-line\" href=\"/regulacion/informe-cada/\">Ver el informe</a>",
   "kind": "html",
   "pages": [
    "regulacion/index.html"
@@ -5193,16 +5209,16 @@
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
