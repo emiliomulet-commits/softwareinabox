@@ -495,6 +495,66 @@ def js_escape(t, q):
     return re.sub(r"(?<!\\)" + re.escape(q), "\\" + q, t).replace("\n", "\\n")
 
 
+
+# ---------------------------------------------------------------- landings de país (idiomas traducidos)
+LAND_DIR = os.path.join(HERE, "landings")
+
+
+def landing_file(pg, lang):
+    m = re.match(r"^/regulacion/([a-z0-9-]+)/$", pg["path"])
+    if not m or lang == SRC:
+        return None
+    f = os.path.join(LAND_DIR, lang, m.group(1) + ".html")
+    return f if os.path.exists(f) else None
+
+
+def assemble_landing(lraw, lang):
+    """BLOCK:x -> bloque común del idioma (landings/_blocks/<lang>.html); NAT:x -> DEF:x del fichero del país."""
+    defs = dict(re.findall(r"<!--DEF:([a-zA-Z0-9-]+)-->(.*?)<!--/DEF-->", lraw, re.S))
+    lraw = re.sub(r"<!--DEF:[a-zA-Z0-9-]+-->.*?<!--/DEF-->\n?", "", lraw, flags=re.S)
+    bf = os.path.join(LAND_DIR, "_blocks", lang + ".html")
+    if not os.path.exists(bf):  # fr-be -> fr, nl-be -> nl
+        bf = os.path.join(LAND_DIR, "_blocks", lang.split("-")[0] + ".html")
+    blocks = dict(re.findall(r"<!--B:([a-z0-9-]+)-->(.*?)<!--/B-->", open(bf, encoding="utf-8").read(), re.S)) if os.path.exists(bf) else {}
+    lraw = re.sub(r"<!--BLOCK:([a-z0-9-]+)-->", lambda m: blocks[m.group(1)], lraw)
+    return re.sub(r"<!--NAT:([a-zA-Z0-9-]+)-->", lambda m: defs.get(m.group(1), ""), lraw)
+
+
+def apply_landing(raw, lfile_):
+    import build_fichas as BF
+    lraw = open(lfile_, encoding="utf-8").read()
+    lm = re.match(r"\s*<!--META (\{.*?\}) -->\n", lraw, re.S)
+    meta = json.loads(lm.group(1))
+    lang = os.path.basename(os.path.dirname(lfile_))
+    body = assemble_landing(lraw[lm.end():], lang)
+    mm = re.search(r'(<main id="contenido">)(.*)(</main>)', raw, re.S)
+    body = BF.landing_body(body, mm.group(2))
+    raw = raw[:mm.start(2)] + "\n" + body + "\n" + raw[mm.end(2):]
+    t = html.escape(meta["title"], quote=True)
+    d = html.escape(meta["desc"], quote=True)
+    raw = re.sub(r"<title>.*?</title>", "<title>" + t + " · Software in a Box</title>", raw, count=1, flags=re.S)
+    raw = re.sub(r'(<meta name="description" content=")[^"]*"', lambda m: m.group(1) + d + '"', raw, count=1)
+    raw = re.sub(r'(<meta property="og:title" content=")[^"]*"', lambda m: m.group(1) + t + '"', raw, count=1)
+    raw = re.sub(r'(<meta property="og:description" content=")[^"]*"', lambda m: m.group(1) + d + '"', raw, count=1)
+    def ld(m):
+        o = json.loads(m.group(2))
+        g = o["@graph"]
+        g[0]["headline"] = meta["title"]; g[0]["description"] = meta["desc"]
+        if meta.get("country"):
+            g[0]["spatialCoverage"] = {"@type": "Country", "name": meta["country"]}
+        for it in g:
+            if it.get("@type") == "BreadcrumbList":
+                it["itemListElement"][-1]["name"] = meta["short"]
+        faq = [{"@type": "Question", "name": BF.strip_tags(q), "acceptedAnswer": {"@type": "Answer", "text": BF.strip_tags(a)}}
+               for q, a in BF.FAQ_RE.findall(body)]
+        g[:] = [x for x in g if x.get("@type") != "FAQPage"]
+        if faq:
+            g.append({"@type": "FAQPage", "@id": g[0]["@id"].replace("#article", "#faq"), "mainEntity": faq})
+        return m.group(1) + json.dumps(o, ensure_ascii=False) + m.group(3)
+    raw = re.sub(r'(<script type="application/ld\+json">\s*)(\{.*?\})(\s*</script>)', ld, raw, count=1, flags=re.S)
+    return raw
+
+
 def src_file(pg, lang):
     """Fuente de la página. "tr_src" en sites.json: fuente distinta para los idiomas traducidos
     (p. ej. la landing española de un país y la ficha UE que se traduce mientras no hay landing propia)."""
@@ -528,6 +588,9 @@ def build_page(pg, lang, tr, missing):
             continue  # solapamiento: se queda la unidad exterior ya aplicada
         raw = raw[:a] + t + raw[b:]
         last = a
+    lf = landing_file(pg, lang)
+    if lf:
+        raw = apply_landing(raw, lf)
     url = SITE["base"] + lpath(pg, lang)
     raw = re.sub(r'(<html\b[^>]*?\blang=")[^"]*"', r"\g<1>" + lang + '"', raw, count=1)
     raw = re.sub(r'(<link rel="canonical" href=")[^"]*"', r"\g<1>" + url + '"', raw)

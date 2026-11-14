@@ -49,7 +49,7 @@ EXTRA_CSS = """<style>
 .case dl{margin:0;font-size:15px}.case dt{font:700 12.5px var(--disp);color:var(--gold-d);text-transform:uppercase;letter-spacing:.06em;margin-top:8px}.case dd{margin:2px 0 0}
 .case .src-l{font-size:13.5px;margin-top:auto;padding-top:8px;border-top:1px solid var(--line)}.case .src-l a{color:var(--ink);font-weight:600}
 .scen{border:1.5px dashed var(--gold);background:var(--gold-t)}
-.scen .meta:before{content:"Escenario ilustrativo";background:var(--gold);color:var(--ink);padding:3px 9px;border-radius:6px;letter-spacing:.04em}
+.scen .meta .sl{background:var(--gold);color:var(--ink);padding:3px 9px;border-radius:6px;letter-spacing:.04em}
 .risk td:nth-child(3),.risk td:nth-child(4){white-space:nowrap}
 .lvl{display:inline-block;font:700 12px var(--disp);padding:3px 10px;border-radius:999px}
 .lvl.h{background:#FCEFEA;color:#A3201A}.lvl.m{background:#FDF6E6;color:var(--warn)}.lvl.b{background:#EEF8F2;color:var(--ok)}
