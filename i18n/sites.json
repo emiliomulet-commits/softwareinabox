@@ -85,6 +85,7 @@
         {
           "file": "regulacion/nis2/index.html",
           "path": "/regulacion/nis2/",
+          "tr_src": "i18n/src/regulacion-nis2.html",
           "changefreq": "monthly",
           "priority": "0.8"
         },

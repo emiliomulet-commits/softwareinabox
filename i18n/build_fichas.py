@@ -36,6 +36,7 @@ EXTRA_CSS = """<style>
 .tbl td,.tbl th{vertical-align:top}
 @media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.cards4{grid-template-columns:1fr}}
+h1,h2,h3,h4{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
 /* landings de país */
 .hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
 .flag{display:inline-flex;align-items:center;gap:8px;font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,162,39,.5);border-radius:999px;padding:5px 12px}
@@ -149,6 +150,23 @@ def strip_tags(x):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", x)).strip()
 
 
+def assemble_landing(lraw, lang, slug):
+    """BLOCK:x -> bloque común de la norma y el idioma (landings/_blocks/<slug>/<lang>.html); NAT:x -> DEF:x del fichero del país."""
+    defs = dict(re.findall(r"<!--DEF:([a-zA-Z0-9-]+)-->(.*?)<!--/DEF-->", lraw, re.S))
+    lraw = re.sub(r"<!--DEF:[a-zA-Z0-9-]+-->.*?<!--/DEF-->\n?", "", lraw, flags=re.S)
+    bd = os.path.join(HERE, "landings", "_blocks", slug)
+    bf = os.path.join(bd, lang + ".html")
+    if not os.path.exists(bf):  # fr-be -> fr, nl-be -> nl
+        bf = os.path.join(bd, lang.split("-")[0] + ".html")
+    blocks = dict(re.findall(r"<!--B:([a-z0-9-]+)-->(.*?)<!--/B-->", open(bf, encoding="utf-8").read(), re.S)) if os.path.exists(bf) else {}
+    def blk(m):
+        if m.group(1) not in blocks:
+            raise SystemExit(f"BLOCK:{m.group(1)} no existe en {bf}")
+        return blocks[m.group(1)]
+    lraw = re.sub(r"<!--BLOCK:([a-z0-9-]+)-->", blk, lraw)
+    return re.sub(r"<!--NAT:([a-zA-Z0-9-]+)-->", lambda m: defs.get(m.group(1), ""), lraw)
+
+
 def landing_body(raw, ficha_body):
     """Sustituye <!--FICHA:id--> por la sección id de la ficha UE (calendario, niveles de riesgo...)."""
     def sec(m):
@@ -191,7 +209,7 @@ def main():
             lraw = open(land, encoding="utf-8").read()
             lm = re.match(r"\s*<!--META (\{.*?\}) -->\n", lraw, re.S)
             lmeta = dict(meta, **json.loads(lm.group(1)))
-            lbody = landing_body(lraw[lm.end():], body)
+            lbody = landing_body(assemble_landing(lraw[lm.end():], "es", meta["slug"]), body)
             faq = [{"@type": "Question", "name": strip_tags(q), "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}}
                    for q, a in FAQ_RE.findall(lbody)]
             os.makedirs(os.path.dirname(out), exist_ok=True)

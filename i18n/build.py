@@ -508,16 +508,9 @@ def landing_file(pg, lang):
     return f if os.path.exists(f) else None
 
 
-def assemble_landing(lraw, lang):
-    """BLOCK:x -> bloque común del idioma (landings/_blocks/<lang>.html); NAT:x -> DEF:x del fichero del país."""
-    defs = dict(re.findall(r"<!--DEF:([a-zA-Z0-9-]+)-->(.*?)<!--/DEF-->", lraw, re.S))
-    lraw = re.sub(r"<!--DEF:[a-zA-Z0-9-]+-->.*?<!--/DEF-->\n?", "", lraw, flags=re.S)
-    bf = os.path.join(LAND_DIR, "_blocks", lang + ".html")
-    if not os.path.exists(bf):  # fr-be -> fr, nl-be -> nl
-        bf = os.path.join(LAND_DIR, "_blocks", lang.split("-")[0] + ".html")
-    blocks = dict(re.findall(r"<!--B:([a-z0-9-]+)-->(.*?)<!--/B-->", open(bf, encoding="utf-8").read(), re.S)) if os.path.exists(bf) else {}
-    lraw = re.sub(r"<!--BLOCK:([a-z0-9-]+)-->", lambda m: blocks[m.group(1)], lraw)
-    return re.sub(r"<!--NAT:([a-zA-Z0-9-]+)-->", lambda m: defs.get(m.group(1), ""), lraw)
+def assemble_landing(lraw, lang, slug):
+    import build_fichas as BF
+    return BF.assemble_landing(lraw, lang, slug)
 
 
 def apply_landing(raw, lfile_):
@@ -526,7 +519,7 @@ def apply_landing(raw, lfile_):
     lm = re.match(r"\s*<!--META (\{.*?\}) -->\n", lraw, re.S)
     meta = json.loads(lm.group(1))
     lang = os.path.basename(os.path.dirname(lfile_))
-    body = assemble_landing(lraw[lm.end():], lang)
+    body = assemble_landing(lraw[lm.end():], lang, os.path.basename(lfile_)[:-5])
     mm = re.search(r'(<main id="contenido">)(.*)(</main>)', raw, re.S)
     body = BF.landing_body(body, mm.group(2))
     raw = raw[:mm.start(2)] + "\n" + body + "\n" + raw[mm.end(2):]
