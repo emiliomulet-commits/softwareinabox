@@ -456,7 +456,11 @@ def switcher(pg, lang):
     label = {"es": "Idioma", "en": "Language", "fr": "Langue", "de": "Sprache", "nl": "Taal", "pt": "Idioma", "it": "Lingua", "da": "Sprog", "fr-be": "Langue", "nl-be": "Taal"}.get(lang, "Language")
     return ("<!-- I18N-SW:BEGIN -->" + SW_CSS +
             f'<nav class="i18n-sw" aria-label="{label}"><details><summary>{globe}{lang.upper()}</summary><ul>'
-            + "".join(items) + "</ul></details></nav><!-- I18N-SW:END -->")
+            + "".join(items) + "</ul></details></nav>"
+            # Recuerda la elección del usuario (cookie siab_lang) para que el Worker de la portada la respete.
+            "<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('.i18n-sw a[hreflang]');"
+            "if(a)document.cookie='siab_lang='+a.getAttribute('hreflang')+';path=/;max-age=31536000;SameSite=Lax;Secure'})</script>"
+            "<!-- I18N-SW:END -->")
 
 
 def strip_i18n(raw):
