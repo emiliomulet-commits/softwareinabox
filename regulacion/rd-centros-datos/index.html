@@ -394,14 +394,14 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
       <a href="/regulacion/" aria-current="page">Regulación UE</a>
       <a class="btn btn-gold" href="/regulacion/#contacto">Hablemos</a>
     </nav>
-                      
+                            
   <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>ES</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/" hreflang="es" lang="es" aria-current="true">Español</a></li></ul></details></nav><!-- I18N-SW:END -->
   </div>
 </header>
 
 <main id="contenido">
 <nav class="subnav" id="subnav" aria-label="Secciones de la ficha"><div class="wrap">
-  <a href="#resumen">Resumen</a><a href="#calendario">Calendario</a><a href="#requisitos">Requisitos</a><a href="#cambios">Agosto frente a octubre</a><a href="#soberania">Soberanía digital</a><a href="#debate">Debate</a><a href="#eslabon">Por eslabón</a><a href="#relacion">Otras normas</a><a href="#hacer">Qué hacer</a><a href="#fuentes">Fuentes</a>
+  <a href="#resumen">Resumen</a><a href="#calendario">Calendario</a><a href="#requisitos">Requisitos</a><a href="#cambios">Agosto frente a octubre</a><a href="#soberania">Soberanía digital</a><a href="#debate">Debate</a><a href="#paises">En cada país</a><a href="#eslabon">Por eslabón</a><a href="#relacion">Otras normas</a><a href="#hacer">Qué hacer</a><a href="#fuentes">Fuentes</a>
 </div></nav>
 
 <section class="sec fh" id="resumen">
@@ -518,7 +518,26 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
   </div>
 </section>
 
-<section class="sec" id="eslabon">
+<section class="sec" id="paises">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">En cada país</div><h2>Centros de datos en los ocho mercados clave</h2></div>
+    <div class="tbl"><table><caption class="sr">Regulación de centros de datos por país</caption>
+      <thead><tr><th style="width:130px">País</th><th>Norma</th><th>Lo que cambia</th><th style="width:120px">Situación</th></tr></thead><tbody>
+      <tr><td><b>España</b></td><td><b>RD</b> para centros de 10 MW o más, con aprobación prevista en noviembre de 2026.</td><td>80 % renovable con correlación horaria, clase A en PUE y WUE y soberanía digital como condición del acceso a la red.</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>Portugal</b></td><td><b>Plan Nacional de Centros de Datos</b> (abril de 2026) y decreto-ley en preparación.</td><td>Ventanilla única (AICEP) y plazos máximos de licencia; el Gobierno dice que no seguirá el modelo español.</td><td><span class="badge b-gra">En curso</span></td></tr>
+      <tr><td><b>Bélgica</b></td><td>Sin ley específica; licencias regionales.</td><td>Elia limita la capacidad de red para centros de datos y Flandes propone ponerlos al final de la cola de conexión.</td><td><span class="badge b-esp">Pendiente</span></td></tr>
+      <tr><td><b>Países Bajos</b></td><td><b>Prohibición de hyperscale</b> (más de 10 ha y 70 MW) salvo en Eemshaven y Wieringermeer.</td><td>Moratoria local en Ámsterdam y congestión de la red.</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>Alemania</b></td><td>Ley de eficiencia energética (<b>EnEfG</b>): PUE de 1,2 para los nuevos.</td><td>Reforma de junio de 2026: existentes a 1,6 en 2027 y 1,4 en 2030, umbral a 500 kW; reutilización del calor.</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>Francia</b></td><td><b>Ley 2026-403</b>: los centros de datos pueden declararse proyecto de interés nacional mayor.</td><td>Urbanismo acelerado y prioridad de conexión; RTE reserva 18 GW para unos 80 proyectos.</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>Italia</b></td><td><b>Autorización única</b> (DL 21/2026): un procedimiento de 10 meses que integra los permisos.</td><td>Proyecto de ley que los declara infraestructura estratégica nacional.</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>Dinamarca</b></td><td>Reporte energético para centros de <b>500 kW</b> o más.</td><td>Ley de red de emergencia (agosto de 2026) que los pone al final de la cola de conexión; tradición de calor residual en redes urbanas.</td><td><span class="badge b-vig">En vigor</span></td></tr>
+    </tbody></table></div>
+    <div class="callout">España, Países Bajos y Alemania restringen; Francia, Portugal e Italia compiten por atraer inversión. Para un promotor, el RD español es el más exigente de los ocho mercados.</div>
+    <p class="dl">Situación a 14-11-2026. España, Portugal, Bélgica, Países Bajos, Alemania, Francia, Italia y Dinamarca.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="eslabon">
   <div class="wrap">
     <div class="sec-h"><div class="eyebrow">Lectura por eslabón</div><h2>Qué significa para cada actor de la cadena</h2></div>
     <div>
@@ -558,7 +577,7 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
   </div>
 </section>
 
-<section class="sec alt" id="relacion">
+<section class="sec" id="relacion">
   <div class="wrap">
     <div class="sec-h"><div class="eyebrow">Encaje con otras normas</div><h2>Con quién comparte terreno</h2></div>
     <div class="tbl"><table><caption class="sr">Relación con otras normas</caption>
@@ -571,7 +590,7 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
   </div>
 </section>
 
-<section class="sec" id="hacer">
+<section class="sec alt" id="hacer">
   <div class="wrap">
     <div class="sec-h"><div class="eyebrow">Hoja de ruta</div><h2>Qué hacer</h2></div>
     <div class="cards4">
@@ -587,7 +606,7 @@ body.aud-on [data-aud]:not(.aud-match){opacity:.38}
   </div>
 </section>
 
-<section class="sec alt" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+<section class="sec" id="fuentes" style="padding-top:64px;padding-bottom:64px">
   <div class="wrap">
     <h3>Fuentes principales</h3>
     <ul class="src">
