@@ -12,21 +12,64 @@
         if (e.target.closest("a")) { n.classList.remove("open"); b.setAttribute("aria-expanded", "false"); }
       });
     }
-    hd.querySelectorAll(".sx-dd>button").forEach(function (t) {
-      t.addEventListener("click", function (e) {
-        e.stopPropagation();
-        var d = t.parentNode, o = !d.classList.contains("open");
-        hd.querySelectorAll(".sx-dd.open").forEach(function (x) { x.classList.remove("open"); x.querySelector("button").setAttribute("aria-expanded", "false"); });
-        d.classList.toggle("open", o);
-        t.setAttribute("aria-expanded", o);
+    /* Desplegables del menú: menú clásico.
+       Ratón: se abre al pasar por encima (todo el elemento, no solo la flecha) y se cierra con 300 ms de margen,
+       así se puede bajar a las opciones sin que se cierre. Táctil: el primer toque abre, el segundo entra.
+       Teclado: flecha abajo abre y recorre las opciones, Esc cierra. */
+    hd.classList.add("js-dd");
+    var dds = [].slice.call(hd.querySelectorAll(".sx-dd"));
+    var mobile = function () { return n && getComputedStyle(b).display !== "none"; };
+    var canHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    var setOpen = function (d, o) {
+      d.classList.toggle("open", o);
+      d.querySelector("button").setAttribute("aria-expanded", o ? "true" : "false");
+    };
+    var closeAll = function (except) { dds.forEach(function (x) { if (x !== except) { clearTimeout(x._t); setOpen(x, false); } }); };
+    var items = function (d) { return [].slice.call(d.querySelectorAll(".sx-panel a")); };
+    dds.forEach(function (d) {
+      var link = d.querySelector("a"), btn = d.querySelector("button");
+      d.addEventListener("mouseenter", function () {
+        if (!canHover || mobile()) return;
+        clearTimeout(d._t); closeAll(d); setOpen(d, true);
       });
+      d.addEventListener("mouseleave", function () {
+        if (!canHover || mobile()) return;
+        clearTimeout(d._t);
+        d._t = setTimeout(function () { setOpen(d, false); }, 300);
+      });
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var o = !d.classList.contains("open"); closeAll(d); setOpen(d, o);
+      });
+      /* táctil (o menú móvil): el primer toque en «Productos», «Regulación UE»… abre la lista en vez de saltar */
+      link.addEventListener("click", function (e) {
+        if ((!canHover || mobile()) && !d.classList.contains("open")) { e.preventDefault(); closeAll(d); setOpen(d, true); }
+      });
+      d.addEventListener("keydown", function (e) {
+        var list = items(d), i = list.indexOf(document.activeElement);
+        if (e.key === "ArrowDown") {
+          e.preventDefault(); setOpen(d, true); closeAll(d);
+          (list[i + 1] || list[0]).focus();
+        } else if (e.key === "ArrowUp" && i >= 0) {
+          e.preventDefault(); (i === 0 ? link : list[i - 1]).focus();
+        } else if (e.key === "Escape" && d.classList.contains("open")) {
+          e.stopPropagation(); setOpen(d, false); link.focus();
+        }
+      });
+      d.addEventListener("focusout", function (e) { if (!d.contains(e.relatedTarget)) setOpen(d, false); });
     });
-    document.addEventListener("click", function (e) {
-      if (!e.target.closest(".sx-dd")) hd.querySelectorAll(".sx-dd.open").forEach(function (x) { x.classList.remove("open"); x.querySelector("button").setAttribute("aria-expanded", "false"); });
-    });
+    document.addEventListener("click", function (e) { if (!e.target.closest(".sx-dd")) closeAll(); });
+    /* selector de idioma: también se abre al pasar el ratón */
+    var sw = hd.querySelector(".i18n-sw details");
+    if (sw && canHover) {
+      var swt;
+      sw.parentNode.addEventListener("mouseenter", function () { if (mobile()) return; clearTimeout(swt); closeAll(); sw.open = true; });
+      sw.parentNode.addEventListener("mouseleave", function () { if (mobile()) return; clearTimeout(swt); swt = setTimeout(function () { sw.open = false; }, 300); });
+    }
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") {
-        hd.querySelectorAll(".sx-dd.open").forEach(function (x) { x.classList.remove("open"); x.querySelector("button").setAttribute("aria-expanded", "false"); });
+        closeAll();
+        if (sw) sw.open = false;
         if (n && n.classList.contains("open")) { n.classList.remove("open"); b.setAttribute("aria-expanded", "false"); b.focus(); }
       }
     });
