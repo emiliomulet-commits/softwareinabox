@@ -1,0 +1,93 @@
+R1 Comissão Europeia. Proposta de Regulamento relativo ao desenvolvimento da cloud e da IA (Cloud and AI Development Act), COM(2026) 502, anexos I–III e exposição de motivos. https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada
+R2 Parlamento Europeu, Observatório Legislativo (OEIL). Processo 2026/0138(COD). https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1903654
+R3 Simmons & Simmons, «Outline on the proposal for the CADA»; activeMind.legal, guia da CADA. https://www.activemind.legal/guides/cada/
+R4 MLex, cobertura da tramitação parlamentar (relator Diego Solier, projeto revisto). https://www.mlex.com/mlex/articles/2496130
+R5 Euronews, os eurodeputados apresentam o projeto de relatório conjunto sobre a CADA (11 de novembro de 2026). https://euronews.com/2026/11/11/eu-lawmakers-push-to-reduce-europes-dependence-on-foreign-cloud-providers
+R6 Newsbook n.º 334 (fevereiro de 2026), o negócio grossista em Espanha cresce 15,1 % segundo a CONTEXT. https://newsbook.es/wp-content/uploads/2026/02/Newsbook-334-febrero-2026.pdf
+R7 Esprinet S.p.A., comunicado de resultados do primeiro semestre de 2026 (9 de setembro de 2026). https://statics.esprinet.com/prod/2026/09/2026-09-09-ESPRINET-CS-H1-2026-ITA.pdf
+R8 Unifyr Channel Atlas, distribuição em dois níveis e economia do distribuidor. https://www.unifyr.com/atlas/distributor/
+R9 GTDC, «Distribution: The Digital Force Multiplier» (março de 2026). https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/new-gtdc-research-details-distributions-influence-on-ai-cloud-and-1142729
+R10 IT Reseller (Suíça), Omdia: a despesa em TI cresce e a quota do canal desce de 70,1 % para 66,7 % em 2026. https://www.itreseller.ch/Artikel/104782/IT-Ausgaben_wachsen_Channel-Anteil_sinkt.html
+R11 Channel Dive, Omdia: os parceiros captam o grosso da despesa em TI das PME em 2026 (82 % na EMEA). https://www.channeldive.com/news/partners-capture-bulk-of-2026-sme-it-spending/811995/
+R12 IT Channel Oxygen, Omdia: o canal canaliza 91,7 % das vendas de cibersegurança. https://itchanneloxygen.com/cyber-retains-golden-status-as-channel-pockets-92-of-sales/
+R13 Newsbook, Especial Formação Gadesoft 2026 (Acer, Dell, Fsas, HP, HPE e Lenovo; 98 % dos parceiros são PME). https://newsbook.es/wp-content/uploads/2026/06/Especial-Formacion-Gadesoft-2026.pdf
+R14 Canalys (Jay McBain), os 28 momentos do percurso de compra B2B. https://canalys.com/about/meet-us/Jay_McBain
+R15 Alimarket, Relatório 2026 do setor dos grossistas tecnológicos (ranking de 36 empresas). https://www.alimarket.es/electro/informe/431665/informe-2026-del-sector-de-mayoristas-tecnologicos
+R16 Esprinet Portugal, apresentação do grupo (mais de 650 fabricantes e 31.000 revendedores). https://esprinet.com/pt
+R17 Esprinet S.p.A., comunicado de resultados do exercício de 2025 (11 de março de 2026). https://statics.esprinet.com/prod/2026/03/2026-03-11-ESPRINET-CS-FY-2025-ITA.pdf
+R18 Newsbook, balanço de 2024 da V-Valley (25 % da faturação e mais de 60 % do EBITDA do grupo). https://newsbook.es/?p=113704
+R19 Esprinet Espanha, sala de imprensa da V-Valley (acordos 2025–2026: Forescout, Ironchip, Qualys, Checkmk, Templus, Rittal, Elastic, SOTI, Huawei). https://www.esprinet.com/es/sala-de-prensa/noticias/
+R20 Esprinet, Templus e V-Valley: acordo para colocation preparado para a IA (13 de maio de 2026). https://statics.esprinet.com/prod/2026/05/NdP-V-Valley-y-Templus.pdf
+R21 El Español Invertia, entrevista a Hugo Fernández (V-Valley) e V-Valley Tech Summit 2026 (23 de maio de 2026). https://www.elespanol.com/invertia/disruptores/grandes-actores/tecnologicas/20260523/hugo-fernandez-v-valley-no-dedico-simplemente-revender-tecnologia-vendo-innovacion/1003744255927_0.html
+R22 Freshfields, «The EU's Technological Sovereignty Package»; Jones Day, «EU data center rules combine expansion incentives with new energy obligations». https://www.jonesday.com/en/insights/2026/06/eu-data-center-rules-combine-expansion-incentives-with-new-energy-obligations
+R23 techUK, «Dispatch from Brussels» (outubro de 2026). https://www.techuk.org/insights/news/dispatch-from-brussels-updates-on-eu-tech-policy-09-10
+R24 Comité Económico e Social Europeu, parecer INT/1126 Cloud and AI Development Act. https://www.eesc.europa.eu/es/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act
+R25 Autoridade Europeia para a Proteção de Dados, Parecer 14/2026 sobre a proposta CADA. https://www.edps.europa.eu
+R26 Comissão Europeia, Apply AI Strategy. https://digital-strategy.ec.europa.eu/en/policies/apply-ai
+R27 EuroHPC JU, AI Factories e concurso AI Gigafactories (julho de 2026). https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en
+R28 Herbert Smith Freehills Kramer, «The EU's Cloud and AI Development Act: towards a sovereignty-focused framework». https://www.hlc.com/en/publications/the-eus-cloud-and-ai-development-act-cada-towards-a-sovereigntyfocused-framework-for-cloud
+R29 Jones Day, «European Commission's proposed cloud sovereignty framework creates new compliance tiers» (junho de 2026). https://www.jonesday.com/en/insights/2026/06/european-commissions-proposed-cloud-sovereignty-framework-creates-new-compliance-tiers-for-software-providers
+R30 International Data Spaces Association, Rulebook (julho de 2026). https://internationaldataspaces.org/download/56295
+R31 Malta Business Bureau, nota informativa sobre a CADA (junho de 2026). https://mbb.org.mt/wp-content/uploads/2026/06/CADA-Brief-04062026.pdf
+R32 CNLL, comunicado sobre o pacote de soberania tecnológica (junho de 2026); OSB Alliance; April. https://cnll.fr/documents/132/2026-06-cnll-press-release-tech-sovereignty-package-adoption.pdf
+R33 Regulamento (UE) 2024/1689 relativo à Inteligência Artificial (AI Act). https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-AI
+R34 Digital Omnibus sobre IA: adiamento das obrigações de risco elevado (análise Stephenson Harwood / William Fry). https://www.stephensonharwood.com/post/102msaw/eu-digital-omnibus-deal-simplification-of-ai-act-and-postponed-deadlines/
+R35 TD SYNNEX, nomeada distribuidor NVIDIA do ano na EMEA 2026. https://news.tdsynnex.com/?p=8469
+R36 NVIDIA, Partners of the Year EMEA 2026. https://blogs.nvidia.com/blog/nvidia-partner-network-awards-emea-2026/
+R37 Regulamento (UE) 2023/2854 relativo aos dados (Data Act) e perguntas frequentes da Comissão. https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32023R2854
+R38 Comissão Europeia, recomendação sobre cláusulas contratuais-tipo (MCT) e cláusulas normalizadas para cloud (SCC) do Data Act. https://digital-strategy.ec.europa.eu/en/library/draft-recommendation-non-binding-model-contractual-terms-data-access-and-use-and-non-binding
+R39 White & Case, «EU Digital Omnibus: what changes lie ahead for the Data Act, GDPR and AI Act». https://www.whitecase.com/insight-alert/eu-digital-omnibus-what-changes-lie-ahead-data-act-gdpr-and-ai-act
+R40 Proposta de revisão do Regulamento da Cibersegurança (CSA2) e esquema EUCS; nota do Conselho WK 13637/2026. https://data.consilium.europa.eu/doc/document/WK-13637-2026-INIT/en/pdf
+R41 Diretiva (UE) 2022/2555 (NIS2) e acompanhamento da transposição. https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32022L2555
+R42 Euronews, as leis que caducam com a convocação das eleições de 29 de novembro (8 de outubro de 2026). https://es.euronews.com/2026/10/08/el-otro-29-n-las-leyes-y-promesas-del-gobierno-de-coalicion-que-decaen-con-la-convocatoria
+R43 Newsbook, Especial grossistas de segurança 2026 (mercado de 2.500 M€ em 2024, NIS2 e DORA). https://newsbook.es/wp-content/uploads/2026/06/Especial-Mayoristas-Seguridad-2026.pdf
+R44 Regulamento (UE) 2024/2847 relativo à ciber-resiliência (CRA) e guias de notificação. https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32024R2847
+R45 DEKRA, requisitos do Cyber Resilience Act e obrigações por função (importadores e distribuidores). https://www.dekra.com.tw/en/eu-cra-requirements/
+R46 Regulamento (UE) 2022/2554 (DORA); ESMA, designação de prestadores terceiros críticos de serviços de TIC. https://www.esma.europa.eu/node/223376
+R47 Comissão Europeia, IP/26/1444, conclusões preliminares no âmbito do DMA sobre AWS e Azure; Synergy Research Group (quotas). https://europa.eu/newsroom/ecpc-failover/pdf/ip-26-1444_en.pdf
+R48 TechPartner News, alterações ao programa CSP da Microsoft (limiares de 1 M$ e 30 M$). https://www.techpartner.news/news/microsoft-announces-sweeping-csp-changes-adding-us1m-csp-revenue-threshold-to-direct-bill-616900
+R49 Microsoft Partner, Microsoft Marketplace: disponibilidade geral das resale enabled offers (novembro de 2025). https://partner.microsoft.com/en-US/blog/article/microsoft-marketplace-november-2025
+R50 MSDynamicsWorld via Pulse, a Microsoft alarga as ofertas privadas multiparte a 30 mercados europeus (maio de 2026). https://www.pulse.bot/b2b-growth/news/microsoft-expands-multiparty-private-offers-in-marketplace-13c878ca-73ea-470b-8f8f-c76e9e63c026/
+R51 The Register, a Broadcom encerra o programa VCSP na Europa (janeiro de 2026); ITPro, queixa da CISPE. https://www.theregister.com/2026/01/31/broadcom_vmware_cloud_partners/
+R52 IT Channel Oxygen, Omdia/Canalys: o canal ficará com 59 % da despesa nos marketplaces dos hiperescaladores em 2030. https://itchanneloxygen.com/channel-to-pocket-59-of-hyperscaler-marketplace-spend-by-2030-canalys/
+R53 Comissão Europeia, Data Union Strategy, COM(2025) 835. https://digital-strategy.ec.europa.eu/en/policies/data-union
+R54 Programa Simpl e Data Spaces Support Centre. https://simpl-programme.ec.europa.eu/topic/simpl-and-european-data-strategy
+R55 Regulamento (UE) 2025/327 relativo ao Espaço Europeu de Dados de Saúde (EHDS). https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32025R0327
+R56 ERP Espanha, Real Decreto 110/2015: o que regula a regulamentação sobre REEE (outubro de 2026). https://erp-recycling.org/es-es/news-and-events/2026/10/real-decreto-110-2015-que-regula-normativa-raee/
+R57 Comissão Europeia, servidores e produtos de armazenamento de dados: Regulamento (UE) 2019/424 (em revisão). https://energy-efficient-products.ec.europa.eu/product-list/servers-and-data-storage-products_en
+R58 Diretiva (UE) 2023/1791 relativa à eficiência energética e pacote de eficiência dos centros de dados. https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32023L1791
+R59 Newsbook, Em destaque: produtos recondicionados 2026 (CONTEXT: +7 % no 4.º T 2025). https://newsbook.es/wp-content/uploads/2026/04/En-portada-Productos-reacondicionados-2026.pdf
+R60 CMS, «Fatura eletrónica B2B: começa a contagem decrescente e o VERI*FACTU é adiado para 2028» (6 de outubro de 2026). https://cms.law/en/esp/publication/factura-electronica-b2b-arranca-la-cuenta-atras-y-veri-factu-se-aplaza-a-2028
+R61 Ministério espanhol para a Transformação Digital e da Função Pública, anteprojeto de lei orgânica da IA (maio de 2026). https://digital.gob.es/content/dam/portal-mtdfp/comunicacion/comunicacion_ministro/2026/05/2026-05-26/260526%20NP%20CMin%20APL%20IA.pdf
+R62 Governo de Espanha, roteiro de soberania digital (fevereiro de 2026); CMS Espanha sobre a proposta CADA. https://cms.law/en/esp/publication/impulsar-la-nube-y-la-ia-para-una-ue-mas-competitiva-y-resiliente-la-propuesta-de-la-comision
+R63 Ministério espanhol para a Transformação Digital, projeto de real decreto sobre centros de dados e consulta pública sobre a CADA. https://digital.gob.es/ministerio/participacion-proyectos-normativos/participacion_publica_propuestas_legislativas_europeas/2026-06-16
+R64 CNMC, parecer IPN/CNMC/038/26 sobre o projeto de real decreto de centros de dados (22 de setembro de 2026). https://www.cnmc.es/sites/default/files/6855348.pdf
+R65 Mundiario, o Conselho de Estado dá parecer favorável ao real decreto de centros de dados com quatro alterações (7 de novembro de 2026). https://www.mundiario.com/economia/decision-que-permite-gobierno-acelerar-decreto-centros-datos/20261107122123451488.html
+R66 Red.es, balanço do programa Kit Digital (agentes digitalizadores). https://red.es/sites/redes/files/media/documents/NdP_Balance_Programa_Kit_Digital_.pdf
+R67 Portugal Global (AICEP), Portugal ICT Study 2026–2030. https://portugalglobal.pt/pt/noticias/2026/maio/novas-oportunidades-para-o-setor-das-tic-em-portugal/
+R68 Cloud Security Alliance, «EU tech sovereignty, cloud and AI: enterprise risk» (inclui dados da Gartner). https://labs.cloudsecurityalliance.org/research/eu-tech-sovereignty-cloud-ai-enterprise-risk-v1-0-csa-styled/
+R69 Comissão Europeia, estudo sobre o desenvolvimento da cloud e da IA na UE. https://digital-strategy.ec.europa.eu/es/library/study-cloud-and-ai-development-eu
+R70 Bruegel, Policy Brief 18/2026 sobre o défice de computação para IA na Europa. https://www.bruegel.org/sites/default/files/2026-09/PB%2018%202026.pdf
+R71 IT Reseller (Suíça), CONTEXT: a distribuição europeia de TI crescerá 2,1 % em 2026. https://www.itreseller.ch/Artikel/105046/IT-Distributionsmarkt_in_Europa_soll_2026_um_21_Prozent_wachsen.html
+R72 CONTEXT, a escassez de memória impulsiona o PC a curto prazo e aperta os preços no segundo semestre. https://www.contextworld.com/context-memory-shortages-drive-short-term-pc-growth-as-channel-faces-h2-pricing-squeeze
+R73 Dutch IT Channel, Canalys Forum EMEA 2026: até 30 % do panorama de parceiros não existirá na sua forma atual em 2030. https://www.dutchitchannel.nl/news/761907/groei-in-it-kanaal-verschuift-naar-ai-cyber-en-dataspecialisten
+R74 Channel Insider, relatório do GTDC sobre o valor crescente da distribuição de TI (julho de 2026). https://www.channelinsider.com/channel-business/channel-analysis/gtdc-report-it-distribution-channel-value/
+R75 GTDC e Channelnomics, «The Evolving Role of Distribution in Technology Go-To-Market Models» (julho de 2026). https://gtdc.org/news/new-gtdc-research-illuminates-distributions-expanding-role-in-modern-technology-ecosystems/
+R76 Newsbook n.º 335 (março de 2026), mesa-redonda: o grossista, essencial no ambiente cloud (Arrow, Ingram Micro, TD SYNNEX e V-Valley). https://newsbook.es/wp-content/uploads/2026/03/Newsbook-335-marzo-2026.pdf
+R77 HPE, comunicado de imprensa HPE Discover 2026: unificação da HPE e da Juniper no Partner Ready Vantage a partir de 1 de novembro de 2026. https://www.businesswire.com/news/home/20260615729111/en/
+R78 Newsbook, entrevista HPE Aruba Networking: quase 90 % das oportunidades ganhas em Espanha são identificadas por um parceiro. https://newsbook.es/actualidad/queremos-contar-con-partners-que-doten-de-inteligencia-al-negocio-20240327108351.htm
+R79 Channel Insider, Cisco 360 Partner Program: o que os parceiros devem saber. https://www.channelinsider.com/channel-business/vendor-leadership-and-partner-programs/cisco-360-partners-february-launch/
+R80 Google Cloud, «Introducing Google Cloud Partner Network» (16 de dezembro de 2025). https://cloud.google.com/blog/topics/partners/introducing-google-cloud-partner-network
+R81 ITPro, programa de parceiros da Dell Technologies 2026. https://www.itpro.com/business/business-strategy/dell-technologies-eyes-fresh-market-opportunities-with-2026-partner-program
+R82 Forbes Espanha, Spain DC: 439 MW instalados e 66.900 M€ de investimento até 2030. https://forbes.es/economia/896049/los-centros-de-datos-captaran-66-900-millones-y-superaran-16-000-empleos-en-espana-hasta-2030-segun-spaindc/
+R83 Newsbook n.º 330, Especial grossistas no centro de dados (outubro de 2025). https://newsbook.es/wp-content/uploads/2025/10/Newsbook-330-Octubre-2025-especial-mayoristas.pdf
+R84 Comissão Europeia, Cloud Sovereignty Framework (níveis SEAL) e concurso de serviços de cloud soberana de 180 M€; análise na Raconteur. https://www.raconteur.net/global-business/eu-cloud-and-ai-development-act-what-sovereign-cloud-means-in-new-laws
+R85 CISPE, comunicado sobre a CADA (4 de junho de 2026). https://www.cispe.cloud/?p=25896
+R86 ANSSI, SecNumCloud; lei SREN e respetivo decreto de aplicação. https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud
+R87 Deutschland-Stack (Cloudmagazin) e Delos Cloud (SVA). https://www.cloudmagazin.com/en/2026/06/19/germanys-stack-goes-live-250-million-euros-for-the-federal-ai-cloud/
+R88 Relatório EuroStack (UCL IIPP). https://www.ucl.ac.uk/bartlett/public-purpose/publications/2025/feb/eurostack-european-alternative-digital-sovereignty
+R89 ECIPE / CCIA Europe, estimativa do custo da CADA (115.000 M€), via The Next Web e Raconteur. https://thenextweb.com/news/eu-cloud-sovereignty-cada-115bn-ccia-study
+R90 ICLE, «CADA, Compute and the Limits of Autarky». https://laweconcenter.org/wp-content/uploads/2026/06/CADA-Compute-and-the-Limits-of-Autarky.pdf
+R91 SEIDOR, receitas de 1.174 M€ em 2025 e plano estratégico 2030. https://www.seidor.com/news/seidor-reaches-1174-billion-euros-revenue-2025-approves-new-strategic-plan-2030
+R92 Nunsys Group, Relatório anual 2025 (305 M€ de faturação agregada). https://www.nunsys.com/wp-content/uploads/2026/07/Memoria-2025-version-version-2.pdf
+R93 Channel Dive, Omdia: os parceiros ficam para trás face aos hiperescaladores no boom da infraestrutura (2026). https://www.channeldive.com/news/partners-expect-to-lag-it-boom-as-hyperscalers-dominate-infrastructure/811627/
