@@ -1546,14 +1546,6 @@
   ]
  },
  {
-  "id": "1adbb21b4f",
-  "src": "Regulación UE de nube, IA, datos y ciberseguridad para el canal tecnológico · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
   "id": "d71629087b",
   "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
   "kind": "html",
@@ -5365,14 +5357,6 @@
   ]
  },
  {
-  "id": "0e4390ded3",
-  "src": "CADA, AI Act, Data Act, CRA, NIS2, DORA, EHDS y más, explicados para fabricantes, mayoristas, integradores e industria cliente final: obligaciones, calendario, casos de estudio y oportunidades de negocio.",
-  "kind": "attr",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
   "id": "482a7dcf1f",
   "src": "Regulación UE para la cadena tecnológica · Software in a Box",
   "kind": "attr",
@@ -5522,16 +5506,16 @@
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
@@ -7878,6 +7862,14 @@
   ]
  },
  {
+  "id": "4c6eb74f62",
+  "src": "Todas las fichas y guías de la sección",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
   "id": "4e5ff80c55",
   "src": "Afecta a:",
   "kind": "js",
@@ -8136,14 +8128,6 @@
   "kind": "js",
   "pages": [
    "regulacion/index.html"
-  ]
- },
- {
-  "id": "c7a7e3b7cd",
-  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/informe-cada/index.html"
   ]
  },
  {
@@ -8625,16 +8609,16 @@
   ]
  },
  {
-  "id": "2ca8589ea2",
-  "src": "Informe gratuito de 95 páginas y 35 infografías sobre la Cloud and AI Development Act: niveles de soberanía, evidencia por eslabón, cuellos de botella, oportunidades y hoja de ruta 2027–2030 para el canal tecnológico.",
+  "id": "44f9e435a8",
+  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final",
   "kind": "attr",
   "pages": [
    "regulacion/informe-cada/index.html"
   ]
  },
  {
-  "id": "44f9e435a8",
-  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final",
+  "id": "2ca8589ea2",
+  "src": "Informe gratuito de 95 páginas y 35 infografías sobre la Cloud and AI Development Act: niveles de soberanía, evidencia por eslabón, cuellos de botella, oportunidades y hoja de ruta 2027–2030 para el canal tecnológico.",
   "kind": "attr",
   "pages": [
    "regulacion/informe-cada/index.html"
@@ -18033,14 +18017,6 @@
   ]
  },
  {
-  "id": "d9f217376f",
-  "src": "DORA: ficha completa del Reglamento de resiliencia operativa digital · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/dora/index.html"
-  ]
- },
- {
   "id": "943e35b519",
   "src": "<a href=\"#resumen\">Resumen</a><a href=\"#calendario\">Calendario</a><a href=\"#pilares\">Cinco pilares</a><a href=\"#incidentes\">Incidentes</a><a href=\"#terceros\">Riesgo de terceros</a><a href=\"#criticos\">Proveedores críticos</a><a href=\"#normas\">Normas técnicas</a><a href=\"#espana\">España</a><a href=\"#eslabon\">Por eslabón</a><a href=\"#relacion\">Otras normas</a><a href=\"#hacer\">Qué hacer</a><a href=\"#fuentes\">Fuentes</a>",
   "kind": "html",
@@ -19446,16 +19422,16 @@
   ]
  },
  {
-  "id": "9806bc2097",
-  "src": "Ficha completa de DORA: los cinco pilares, normas técnicas, notificación de incidentes 4 h / 72 h / 1 mes, registro de información, cláusulas del art. 30, estrategia de salida, los 19 proveedores TIC críticos designados, supervisión en España y qué hacer.",
+  "id": "fce2f06442",
+  "src": "DORA: ficha completa del Reglamento de resiliencia operativa digital",
   "kind": "attr",
   "pages": [
    "regulacion/dora/index.html"
   ]
  },
  {
-  "id": "fce2f06442",
-  "src": "DORA: ficha completa del Reglamento de resiliencia operativa digital",
+  "id": "9806bc2097",
+  "src": "Ficha completa de DORA: los cinco pilares, normas técnicas, notificación de incidentes 4 h / 72 h / 1 mes, registro de información, cláusulas del art. 30, estrategia de salida, los 19 proveedores TIC críticos designados, supervisión en España y qué hacer.",
   "kind": "attr",
   "pages": [
    "regulacion/dora/index.html"
@@ -19467,14 +19443,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/dora/index.html"
-  ]
- },
- {
-  "id": "366e34357a",
-  "src": "DMA y nube: ficha completa de la designación de AWS y Azure como guardianes de acceso · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/dma-nube/index.html"
   ]
  },
  {
@@ -20668,16 +20636,16 @@
   ]
  },
  {
-  "id": "e5b2a974b9",
-  "src": "Ficha completa de la Ley de Mercados Digitales aplicada a la nube: las tres investigaciones de mercado de noviembre de 2025, la conclusión preliminar sobre AWS y Azure del 25-6-2026, qué obligaciones tendrían, plazos, multas, la relación con el Data Act y qué cambia para clientes y canal.",
+  "id": "973c797050",
+  "src": "DMA y nube: ficha completa de la designación de AWS y Azure como guardianes de acceso",
   "kind": "attr",
   "pages": [
    "regulacion/dma-nube/index.html"
   ]
  },
  {
-  "id": "973c797050",
-  "src": "DMA y nube: ficha completa de la designación de AWS y Azure como guardianes de acceso",
+  "id": "e5b2a974b9",
+  "src": "Ficha completa de la Ley de Mercados Digitales aplicada a la nube: las tres investigaciones de mercado de noviembre de 2025, la conclusión preliminar sobre AWS y Azure del 25-6-2026, qué obligaciones tendrían, plazos, multas, la relación con el Data Act y qué cambia para clientes y canal.",
   "kind": "attr",
   "pages": [
    "regulacion/dma-nube/index.html"
@@ -20689,14 +20657,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/dma-nube/index.html"
-  ]
- },
- {
-  "id": "1927727d3a",
-  "src": "EHDS: ficha completa del Espacio Europeo de Datos Sanitarios · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/ehds/index.html"
   ]
  },
  {
@@ -22153,16 +22113,16 @@
   ]
  },
  {
-  "id": "09a3e9d175",
-  "src": "Ficha completa del EHDS (Reglamento 2025/327): calendario 2025–2035, derechos de los pacientes, uso primario y MiSalud@UE, sistemas de historia clínica electrónica con marcado CE, uso secundario con organismos de acceso y permisos, el Espacio Nacional de Datos de Salud y la futura Ley de Salud Digital en España.",
+  "id": "d8e21a6dfe",
+  "src": "EHDS: ficha completa del Espacio Europeo de Datos Sanitarios",
   "kind": "attr",
   "pages": [
    "regulacion/ehds/index.html"
   ]
  },
  {
-  "id": "d8e21a6dfe",
-  "src": "EHDS: ficha completa del Espacio Europeo de Datos Sanitarios",
+  "id": "09a3e9d175",
+  "src": "Ficha completa del EHDS (Reglamento 2025/327): calendario 2025–2035, derechos de los pacientes, uso primario y MiSalud@UE, sistemas de historia clínica electrónica con marcado CE, uso secundario con organismos de acceso y permisos, el Espacio Nacional de Datos de Salud y la futura Ley de Salud Digital en España.",
   "kind": "attr",
   "pages": [
    "regulacion/ehds/index.html"
@@ -22174,14 +22134,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/ehds/index.html"
-  ]
- },
- {
-  "id": "24795018c1",
-  "src": "RGPD y Ómnibus Digital: ficha completa de la protección de datos en la UE · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/rgpd-omnibus/index.html"
   ]
  },
  {
@@ -23498,16 +23450,16 @@
   ]
  },
  {
-  "id": "27056f3e89",
-  "src": "Ficha completa del RGPD y de la propuesta de Ómnibus Digital (COM(2025) 837): qué cambiaría en dato personal, cookies, IA y brechas, el dictamen del CEPD y el SEPD, la posición del Consejo, el Parlamento, el reglamento procesal 2025/2518 y la actividad de la AEPD.",
+  "id": "9443740231",
+  "src": "RGPD y Ómnibus Digital: ficha completa de la protección de datos en la UE",
   "kind": "attr",
   "pages": [
    "regulacion/rgpd-omnibus/index.html"
   ]
  },
  {
-  "id": "9443740231",
-  "src": "RGPD y Ómnibus Digital: ficha completa de la protección de datos en la UE",
+  "id": "27056f3e89",
+  "src": "Ficha completa del RGPD y de la propuesta de Ómnibus Digital (COM(2025) 837): qué cambiaría en dato personal, cookies, IA y brechas, el dictamen del CEPD y el SEPD, la posición del Consejo, el Parlamento, el reglamento procesal 2025/2518 y la actividad de la AEPD.",
   "kind": "attr",
   "pages": [
    "regulacion/rgpd-omnibus/index.html"
@@ -23527,14 +23479,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/rgpd-omnibus/index.html"
-  ]
- },
- {
-  "id": "815f910fc6",
-  "src": "Data Union Strategy: ficha completa de la Estrategia de la Unión de Datos · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/data-union/index.html"
   ]
  },
  {
@@ -24520,16 +24464,16 @@
   ]
  },
  {
-  "id": "10411933ec",
-  "src": "Ficha completa de la Estrategia de la Unión de Datos (19-11-2025): tres pilares, laboratorios de datos, espacios comunes de datos, consolidación de la DGA y los datos abiertos en el Data Act, soberanía de datos y flujos internacionales, calendario de acciones y España.",
+  "id": "87f37f4872",
+  "src": "Data Union Strategy: ficha completa de la Estrategia de la Unión de Datos",
   "kind": "attr",
   "pages": [
    "regulacion/data-union/index.html"
   ]
  },
  {
-  "id": "87f37f4872",
-  "src": "Data Union Strategy: ficha completa de la Estrategia de la Unión de Datos",
+  "id": "10411933ec",
+  "src": "Ficha completa de la Estrategia de la Unión de Datos (19-11-2025): tres pilares, laboratorios de datos, espacios comunes de datos, consolidación de la DGA y los datos abiertos en el Data Act, soberanía de datos y flujos internacionales, calendario de acciones y España.",
   "kind": "attr",
   "pages": [
    "regulacion/data-union/index.html"
@@ -24541,14 +24485,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/data-union/index.html"
-  ]
- },
- {
-  "id": "21335fcbc0",
-  "src": "Chips Act 2.0: ficha completa de la nueva Ley Europea de Chips · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/chips-act/index.html"
   ]
  },
  {
@@ -25435,16 +25371,16 @@
   ]
  },
  {
-  "id": "319ee3c11c",
-  "src": "Ficha completa de la Chips Act 2.0 (3-6-2026): balance de la Chips Act de 2023 y el informe del Tribunal de Cuentas, medidas de demanda, Grandes Retos, permisos acelerados, ayudas a primeras instalaciones, Regiones de Excelencia, tramitación y el PERTE Chip en España.",
+  "id": "c1ac0f4b86",
+  "src": "Chips Act 2.0: ficha completa de la nueva Ley Europea de Chips",
   "kind": "attr",
   "pages": [
    "regulacion/chips-act/index.html"
   ]
  },
  {
-  "id": "c1ac0f4b86",
-  "src": "Chips Act 2.0: ficha completa de la nueva Ley Europea de Chips",
+  "id": "319ee3c11c",
+  "src": "Ficha completa de la Chips Act 2.0 (3-6-2026): balance de la Chips Act de 2023 y el informe del Tribunal de Cuentas, medidas de demanda, Grandes Retos, permisos acelerados, ayudas a primeras instalaciones, Regiones de Excelencia, tramitación y el PERTE Chip en España.",
   "kind": "attr",
   "pages": [
    "regulacion/chips-act/index.html"
@@ -25456,14 +25392,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/chips-act/index.html"
-  ]
- },
- {
-  "id": "f24f329915",
-  "src": "Ecodiseño de servidores: ficha completa del Reglamento 2019/424 y su revisión · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/ecodiseno-servidores/index.html"
   ]
  },
  {
@@ -26568,16 +26496,16 @@
   ]
  },
  {
-  "id": "29e9b75315",
-  "src": "Ficha completa del ecodiseño de servidores y almacenamiento: requisitos del Reglamento 2019/424, revisión en curso con el ESPR, obligaciones de los centros de datos en la Directiva de eficiencia energética, el paquete de septiembre de 2026 con etiqueta A–G y el proyecto de real decreto español.",
+  "id": "ebce6b4907",
+  "src": "Ecodiseño de servidores: ficha completa del Reglamento 2019/424 y su revisión",
   "kind": "attr",
   "pages": [
    "regulacion/ecodiseno-servidores/index.html"
   ]
  },
  {
-  "id": "ebce6b4907",
-  "src": "Ecodiseño de servidores: ficha completa del Reglamento 2019/424 y su revisión",
+  "id": "29e9b75315",
+  "src": "Ficha completa del ecodiseño de servidores y almacenamiento: requisitos del Reglamento 2019/424, revisión en curso con el ESPR, obligaciones de los centros de datos en la Directiva de eficiencia energética, el paquete de septiembre de 2026 con etiqueta A–G y el proyecto de real decreto español.",
   "kind": "attr",
   "pages": [
    "regulacion/ecodiseno-servidores/index.html"
@@ -26589,14 +26517,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/ecodiseno-servidores/index.html"
-  ]
- },
- {
-  "id": "45b16ea203",
-  "src": "RAEE: ficha completa de los residuos de aparatos eléctricos y electrónicos · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/raee/index.html"
   ]
  },
  {
@@ -27551,16 +27471,16 @@
   ]
  },
  {
-  "id": "552ce0580a",
-  "src": "Ficha completa de la normativa RAEE en España (RD 110/2015): responsabilidad ampliada del productor, registro y declaraciones, sistemas colectivos, recogida por distribuidores, equipos profesionales y de TI, la Directiva 2024/884 pendiente de transposición y la revisión europea dentro de la Circular Economy Act.",
+  "id": "a2c2913997",
+  "src": "RAEE: ficha completa de los residuos de aparatos eléctricos y electrónicos",
   "kind": "attr",
   "pages": [
    "regulacion/raee/index.html"
   ]
  },
  {
-  "id": "a2c2913997",
-  "src": "RAEE: ficha completa de los residuos de aparatos eléctricos y electrónicos",
+  "id": "552ce0580a",
+  "src": "Ficha completa de la normativa RAEE en España (RD 110/2015): responsabilidad ampliada del productor, registro y declaraciones, sistemas colectivos, recogida por distribuidores, equipos profesionales y de TI, la Directiva 2024/884 pendiente de transposición y la revisión europea dentro de la Circular Economy Act.",
   "kind": "attr",
   "pages": [
    "regulacion/raee/index.html"
@@ -27580,14 +27500,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/raee/index.html"
-  ]
- },
- {
-  "id": "f8d0ce187b",
-  "src": "Factura electrónica B2B y VERI*FACTU: ficha completa · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/factura-electronica/index.html"
   ]
  },
  {
@@ -28682,16 +28594,16 @@
   ]
  },
  {
-  "id": "edf9c58976",
-  "src": "Ficha completa de la factura electrónica obligatoria entre empresas en España y de VERI*FACTU: fechas de octubre de 2027 y 2028, solución pública de la AEAT, formatos y copia fiel en UBL, comunicación de pagos, aplazamiento previsto de VERI*FACTU a 2028 y el paquete europeo ViDA.",
+  "id": "45f3e0dc47",
+  "src": "Factura electrónica B2B y VERI*FACTU: ficha completa",
   "kind": "attr",
   "pages": [
    "regulacion/factura-electronica/index.html"
   ]
  },
  {
-  "id": "45f3e0dc47",
-  "src": "Factura electrónica B2B y VERI*FACTU: ficha completa",
+  "id": "edf9c58976",
+  "src": "Ficha completa de la factura electrónica obligatoria entre empresas en España y de VERI*FACTU: fechas de octubre de 2027 y 2028, solución pública de la AEAT, formatos y copia fiel en UBL, comunicación de pagos, aplazamiento previsto de VERI*FACTU a 2028 y el paquete europeo ViDA.",
   "kind": "attr",
   "pages": [
    "regulacion/factura-electronica/index.html"
@@ -28703,14 +28615,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/factura-electronica/index.html"
-  ]
- },
- {
-  "id": "bf0e330ffa",
-  "src": "ENS: ficha completa del Esquema Nacional de Seguridad · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/ens/index.html"
   ]
  },
  {
@@ -29594,16 +29498,16 @@
   ]
  },
  {
-  "id": "8e62bc4b32",
-  "src": "Ficha completa del Esquema Nacional de Seguridad (RD 311/2022): quién debe cumplirlo, categorías básica, media y alta, 73 medidas, certificación, guías CCN-STIC y CPSTIC, nube, contratación pública, relación con NIS2, la CADA y el real decreto de centros de datos.",
+  "id": "070a6a78c5",
+  "src": "ENS: ficha completa del Esquema Nacional de Seguridad",
   "kind": "attr",
   "pages": [
    "regulacion/ens/index.html"
   ]
  },
  {
-  "id": "070a6a78c5",
-  "src": "ENS: ficha completa del Esquema Nacional de Seguridad",
+  "id": "8e62bc4b32",
+  "src": "Ficha completa del Esquema Nacional de Seguridad (RD 311/2022): quién debe cumplirlo, categorías básica, media y alta, 73 medidas, certificación, guías CCN-STIC y CPSTIC, nube, contratación pública, relación con NIS2, la CADA y el real decreto de centros de datos.",
   "kind": "attr",
   "pages": [
    "regulacion/ens/index.html"
@@ -29623,14 +29527,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/ens/index.html"
-  ]
- },
- {
-  "id": "44b59e0974",
-  "src": "Ley de gobernanza de la IA: ficha completa del proyecto español · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/ley-gobernanza-ia/index.html"
   ]
  },
  {
@@ -30634,16 +30530,16 @@
   ]
  },
  {
-  "id": "567e40e22e",
-  "src": "Ficha completa del proyecto de Ley Orgánica para el buen uso y la gobernanza de la IA: qué preveía (AESIA, autoridades, sanciones, sandbox, IA en el sector público), por qué caducó con la disolución de las Cortes en octubre de 2026 y qué se aplica mientras tanto en España.",
+  "id": "4a260f90aa",
+  "src": "Ley de gobernanza de la IA: ficha completa del proyecto español",
   "kind": "attr",
   "pages": [
    "regulacion/ley-gobernanza-ia/index.html"
   ]
  },
  {
-  "id": "4a260f90aa",
-  "src": "Ley de gobernanza de la IA: ficha completa del proyecto español",
+  "id": "567e40e22e",
+  "src": "Ficha completa del proyecto de Ley Orgánica para el buen uso y la gobernanza de la IA: qué preveía (AESIA, autoridades, sanciones, sandbox, IA en el sector público), por qué caducó con la disolución de las Cortes en octubre de 2026 y qué se aplica mientras tanto en España.",
   "kind": "attr",
   "pages": [
    "regulacion/ley-gobernanza-ia/index.html"
@@ -30655,14 +30551,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/ley-gobernanza-ia/index.html"
-  ]
- },
- {
-  "id": "3f38ee8ba1",
-  "src": "RD de centros de datos: ficha completa del proyecto español · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/rd-centros-datos/index.html"
   ]
  },
  {
@@ -31898,16 +31786,16 @@
   ]
  },
  {
-  "id": "21612a7bc1",
-  "src": "Ficha completa del proyecto de real decreto español de centros de datos: origen en el RDL 7/2026, renovables con correlación horaria, eficiencia energética e hídrica, soberanía digital, cambios del texto de octubre de 2026 (umbral de 10 MW), informe de la CNMC, dictamen del Consejo de Estado y calendario.",
+  "id": "59509b3fc8",
+  "src": "RD de centros de datos: ficha completa del proyecto español",
   "kind": "attr",
   "pages": [
    "regulacion/rd-centros-datos/index.html"
   ]
  },
  {
-  "id": "59509b3fc8",
-  "src": "RD de centros de datos: ficha completa del proyecto español",
+  "id": "21612a7bc1",
+  "src": "Ficha completa del proyecto de real decreto español de centros de datos: origen en el RDL 7/2026, renovables con correlación horaria, eficiencia energética e hídrica, soberanía digital, cambios del texto de octubre de 2026 (umbral de 10 MW), informe de la CNMC, dictamen del Consejo de Estado y calendario.",
   "kind": "attr",
   "pages": [
    "regulacion/rd-centros-datos/index.html"

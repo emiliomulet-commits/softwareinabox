@@ -160,8 +160,8 @@ def units(raw, site=SITE):
                     lead = len(seg) - len(seg.lstrip()); trail = len(seg.rstrip())
                     out.append((a + lead, a + trail, "html", seg.strip(), None))
                 continue
-            if k.tag in NOTEXT:
-                continue
+            if k.tag in NOTEXT or "data-seo" in k.attrs:
+                continue  # data-seo: título y descripción cortos que genera seo_short() en cada build
             if k.tag not in ("html", "head", "body", "#root") and k.kids and inline_only(k) and has_letters(raw, k):
                 out.append((k.s1, k.e0, "html", raw[k.s1:k.e0].strip() and raw[k.s1:k.e0], None))
                 continue
@@ -178,6 +178,8 @@ def units(raw, site=SITE):
         # atributos
         tag_raw = raw[n.s0:n.s1]
         names = set()
+        if "data-seo" in n.attrs:
+            continue
         for an in ATTRS:
             if an in n.attrs and n.attrs[an] and LETTER.search(n.attrs[an]):
                 names.add(an)
@@ -397,11 +399,24 @@ def rewrite_links(raw, lang):
 
 
 # ---------------------------------------------------------------- bloques comunes
+REGION = {"es": "es-ES", "pt": "pt-PT", "fr": "fr-FR", "de": "de-DE", "nl": "nl-NL", "it": "it-IT",
+          "da": "da-DK", "fr-be": "fr-BE", "nl-be": "nl-BE"}
+
+
+def hl(pg, l):
+    """Código hreflang. En las landings de país (contenido de un país concreto) se añade la región:
+    es-ES, de-DE, fr-BE…; la versión en inglés (UE) queda como «en» y x-default. El resto de páginas
+    usa solo el idioma, salvo fr-be y nl-be, que ya son regionales."""
+    if pg.get("tr_src") and l in REGION and (l == SRC or landing_file(pg, l)):
+        return REGION[l]
+    return {"fr-be": "fr-BE", "nl-be": "nl-BE"}.get(l, l)
+
+
 def hreflang_block(pg):
     base = SITE["base"]
     lines = ["<!-- I18N:BEGIN -->"]
     for l in active(pg):
-        lines.append(f'<link rel="alternate" hreflang="{l}" href="{base}{lpath(pg, l)}">')
+        lines.append(f'<link rel="alternate" hreflang="{hl(pg, l)}" href="{base}{lpath(pg, l)}">')
     xd = CFG["x_default"] if has_lang(pg, CFG["x_default"]) else SRC
     lines.append(f'<link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, xd)}">')
     lines.append("<!-- I18N:END -->")
@@ -440,7 +455,8 @@ def switcher(pg, lang):
 
 def strip_i18n(raw):
     raw = re.sub(r"\n?<!-- I18N:BEGIN -->.*?<!-- I18N:END -->", "", raw, flags=re.S)
-    raw = re.sub(r"<!-- I18N-SW:BEGIN -->.*?<!-- I18N-SW:END -->\n?", "", raw, flags=re.S)
+    # quita también el "\n  " que add_common añade tras el selector, para que cada build sea idéntico al anterior
+    raw = re.sub(r"<!-- I18N-SW:BEGIN -->.*?<!-- I18N-SW:END -->(?:\n  (?=</div>)|\n)?", "", raw, flags=re.S)
     raw = re.sub(r"[ \t]*<link rel=\"alternate\" hreflang=\"[^\"]*\" href=\"[^\"]*\">\n?", "", raw)
     return raw
 
@@ -598,11 +614,31 @@ def src_file(pg, lang):
     return pg["file"]
 
 
+def seo_short(raw, pg, lang):
+    """/regulacion/: <title> y meta description cortos (i18n/seo.py), a partir de og:title y og:description."""
+    m = re.match(r"^/regulacion/(?:([a-z0-9-]+)/)?$", pg["path"])
+    if not m:
+        return raw
+    import seo
+    ot = re.search(r'<meta property="og:title" content="([^"]*)"', raw)
+    od = re.search(r'<meta property="og:description" content="([^"]*)"', raw)
+    if not ot or not od:
+        return raw
+    slug = m.group(1) or ""
+    landing = bool(pg.get("tr_src")) and (lang == SRC or bool(landing_file(pg, lang)))
+    t = seo.short_title(html.unescape(ot.group(1)), slug, lang, landing)
+    d = seo.short_desc(html.unescape(od.group(1)))
+    raw = re.sub(r"<title\b[^>]*>.*?</title>", lambda _: '<title data-seo="auto">' + html.escape(t, quote=False) + "</title>", raw, count=1, flags=re.S)
+    raw = re.sub(r'<meta name="description"(?: data-seo="auto")? content="[^"]*">',
+                 lambda _: '<meta name="description" data-seo="auto" content="' + html.escape(d, quote=True) + '">', raw, count=1)
+    return raw
+
+
 def build_page(pg, lang, tr, missing):
     path = os.path.join(ROOT, src_file(pg, lang))
     raw = strip_i18n(open(path, encoding="utf-8").read())
     if lang == SRC:
-        return add_common(raw, pg, lang)
+        return add_common(seo_short(raw, pg, lang), pg, lang)
     reps = []
     for a, b, kind, s, x in units(raw):
         if kind == "jsonld":
@@ -640,6 +676,8 @@ def build_page(pg, lang, tr, missing):
         cand = m.group(1) + "_" + lang.split("-")[0] + m.group(2)
         return cand if os.path.exists(os.path.join(ROOT, cand.lstrip("/"))) else m.group(0)
     raw = re.sub(r'(/descargas/[^"\'\s]*?)_es(\.(?:pdf|jpg|png))', _dl, raw)
+    # imágenes sociales por idioma: /assets/og/…_es.jpg -> _<lang> si existe (i18n/og_cards.py)
+    raw = re.sub(r'(/assets/og/[^"\'\s]*?)_es(\.(?:jpg|png))', _dl, raw)
     # fichas de /regulacion/: enlace JS al idioma si la ficha existe traducida; si no, queda la española
     # y la etiqueta conserva el "(en español)"; si existe, se le quita.
     def fic(m):
@@ -653,7 +691,7 @@ def build_page(pg, lang, tr, missing):
     # formularios: página de gracias en el idioma y asunto marcado
     raw = re.sub(r'(name="_next" value=")([^"]*)"', lambda m: m.group(1) + loc_url(m.group(2), lang) + '"', raw)
     raw = re.sub(r'(name="_subject" value=")([^"]*)"', lambda m: m.group(1) + m.group(2) + " [" + lang.upper() + ']"', raw)
-    return add_common(raw, pg, lang)
+    return add_common(seo_short(raw, pg, lang), pg, lang)
 
 
 def sitemap():
@@ -663,7 +701,7 @@ def sitemap():
     for pg in SITE["pages"]:
         if pg.get("sitemap") is False:
             continue
-        alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{base}{lpath(pg, l)}"/>' for l in active(pg))
+        alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{hl(pg, l)}" href="{base}{lpath(pg, l)}"/>' for l in active(pg))
         xd = CFG["x_default"] if has_lang(pg, CFG["x_default"]) else SRC
         alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, xd)}"/>'
         for l in active(pg):
@@ -673,11 +711,54 @@ def sitemap():
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(out))
 
 
+LANG_ES = {"en": "inglés (versión UE)", "fr": "francés", "de": "alemán", "nl": "neerlandés", "pt": "portugués",
+           "it": "italiano", "da": "danés", "fr-be": "francés (Bélgica)", "nl-be": "neerlandés (Bélgica)"}
+COUNTRY_ES = {"es": "España", "pt": "Portugal", "fr": "Francia", "fr-be": "Bélgica (fr)", "nl": "Países Bajos",
+              "nl-be": "Bélgica (nl)", "de": "Alemania", "it": "Italia", "da": "Dinamarca"}
+
+
+def llms_regulacion():
+    """Sección «Regulación UE» de llms.txt: una línea por página con su og:title y og:description en español,
+    las guías por país (landings) y los idiomas en que existe cada página."""
+    base = SITE["base"]
+    out = ["## Regulación UE"]
+    for pg in SITE["pages"]:
+        if not pg["path"].startswith("/regulacion/") or pg.get("sitemap") is False:
+            continue
+        raw = open(os.path.join(ROOT, pg["file"]), encoding="utf-8").read()
+        ot = re.search(r'<meta property="og:title" content="([^"]*)"', raw)
+        od = re.search(r'<meta property="og:description" content="([^"]*)"', raw)
+        if not ot:
+            continue
+        line = f"- [{html.unescape(ot.group(1))}]({base}{pg['path']})"
+        if od:
+            line += ": " + html.unescape(od.group(1)).rstrip(".") + "."
+        langs = [l for l in active(pg) if l != SRC]
+        if pg.get("tr_src"):
+            countries = ["España"] + [COUNTRY_ES[l] for l in langs if landing_file(pg, l)]
+            if len(countries) > 1:
+                line += " Guías por país: " + ", ".join(
+                    f"{c} ({lpath(pg, l)})" for c, l in zip(countries, [SRC] + [l for l in langs if landing_file(pg, l)])) + "."
+            if "en" in langs and not landing_file(pg, "en"):
+                line += f" Visión UE en inglés: {lpath(pg, 'en')}."
+        elif langs:
+            line += " También en " + ", ".join(LANG_ES[l] for l in langs) + f" (/{langs[0]}{pg['path']}…)."
+        else:
+            line += " Solo en español."
+        if pg["path"] == "/regulacion/informe-cada/":
+            pdfs = sorted(re.sub(r"^CADA_informe_|\.pdf$", "", f) for f in os.listdir(os.path.join(ROOT, "descargas", "informe-cada")) if f.endswith(".pdf"))
+            line += " PDF: /descargas/informe-cada/CADA_informe_<idioma>.pdf (" + ", ".join(pdfs) + ")."
+        out.append(line)
+    return "\n".join(out)
+
+
 def llms():
     p = os.path.join(ROOT, "llms.txt")
     if not os.path.exists(p):
         return
     t = re.sub(r"\n*## (Idiomas|Languages)[^\n]*\n(?:- [^\n]*\n?)*", "\n", open(p, encoding="utf-8").read()).rstrip() + "\n"
+    if "\n## Regulación UE\n" in t:  # sección regenerada en cada build a partir de las páginas publicadas
+        t = re.sub(r"\n## Regulación UE\n(?:- [^\n]*\n?)*", lambda _: "\n" + llms_regulacion() + "\n", t)
     home = next(pg for pg in SITE["pages"] if pg["file"] == "index.html")
     t += "\n## Idiomas / Languages\n" + "".join(f"- [{CFG['names'][l]}]({SITE['base']}{lpath(home, l)})\n" for l in active())
     open(p, "w", encoding="utf-8").write(t)
