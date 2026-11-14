@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Union Strategy: ficha completa de la Estrategia de la Unión de Datos · Software in a Box</title>
+<meta name="description" content="Ficha completa de la Estrategia de la Unión de Datos (19-11-2025): tres pilares, laboratorios de datos, espacios comunes de datos, consolidación de la DGA y los datos abiertos en el Data Act, soberanía de datos y flujos internacionales, calendario de acciones y España.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/regulacion/data-union/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Data Union Strategy: ficha completa de la Estrategia de la Unión de Datos">
+<meta property="og:description" content="Ficha completa de la Estrategia de la Unión de Datos (19-11-2025): tres pilares, laboratorios de datos, espacios comunes de datos, consolidación de la DGA y los datos abiertos en el Data Act, soberanía de datos y flujos internacionales, calendario de acciones y España.">
+<meta property="og:url" content="https://www.softwareinabox.eu/regulacion/data-union/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://www.softwareinabox.eu/regulacion/data-union/#article", "url": "https://www.softwareinabox.eu/regulacion/data-union/", "headline": "Data Union Strategy: ficha completa de la Estrategia de la Unión de Datos", "description": "Ficha completa de la Estrategia de la Unión de Datos (19-11-2025): tres pilares, laboratorios de datos, espacios comunes de datos, consolidación de la DGA y los datos abiertos en el Data Act, soberanía de datos y flujos internacionales, calendario de acciones y España.", "inLanguage": "es", "dateModified": "2026-11-14", "isPartOf": {"@id": "https://www.softwareinabox.eu/#website"}, "publisher": {"@id": "https://www.softwareinabox.eu/#organization"}, "author": {"@id": "https://www.softwareinabox.eu/#organization"}, "about": {"@type": "Legislation", "name": "Estrategia de la Unión de Datos, COM(2025) 835", "legislationIdentifier": "COM(2025) 835", "legislationJurisdiction": "UE"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Software in a Box", "item": "https://www.softwareinabox.eu/"}, {"@type": "ListItem", "position": 2, "name": "Regulación UE", "item": "https://www.softwareinabox.eu/regulacion/"}, {"@type": "ListItem", "position": 3, "name": "Data Union Strategy", "item": "https://www.softwareinabox.eu/regulacion/data-union/"}]}]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+</style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/data-union/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Software in a Box, inicio">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
+      Software in a Box
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="/#productos">Productos</a>
+      <a href="/#como">Cómo trabajamos</a>
+      <a href="/#experiencia">Experiencia</a>
+      <a href="/#sectores">Sectores</a>
+      <a href="/regulacion/" aria-current="page">Regulación UE</a>
+      <a class="btn btn-gold" href="/regulacion/#contacto">Hablemos</a>
+    </nav>
+                
+  <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>ES</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/data-union/" hreflang="es" lang="es" aria-current="true">Español</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Secciones de la ficha"><div class="wrap">
+  <a href="#resumen">Resumen</a><a href="#calendario">Calendario</a><a href="#pilares">Tres pilares</a><a href="#labs">Laboratorios de datos</a><a href="#simplificar">Simplificación</a><a href="#soberania">Soberanía</a><a href="#espana">España</a><a href="#eslabon">Por eslabón</a><a href="#relacion">Otras normas</a><a href="#hacer">Qué hacer</a><a href="#fuentes">Fuentes</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a> › <a href="/regulacion/">Regulación UE</a> › Data Union Strategy</nav>
+    <div class="eyebrow">Ficha completa · Datos</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="badge b-vig">En ejecución</span><span class="layer l-dat">Espacios de datos</span></div>
+        <h1>Estrategia de la Unión de Datos</h1>
+        <p class="lead">La Comisión pasa de hacer reglas a <b>obtener resultados</b>: más datos de calidad para la IA, <b>menos normas y más claras</b>, y una política <b>abierta pero firme</b> en los flujos internacionales de datos. Sus piezas son los laboratorios de datos, los espacios comunes de datos, el Ómnibus Digital y la CADA.</p>
+        <div class="callout">Es una comunicación política, no una norma: no crea obligaciones por sí misma. Llega a las empresas a través de las propuestas legislativas, las convocatorias y las guías que la desarrollan.</div>
+      </div>
+      <div class="facts">
+        <h4>Ficha técnica</h4>
+        <dl class="kv">
+          <dt>Documento</dt><dd>Comunicación COM(2025) 835 «Desbloquear datos para la IA»</dd>
+          <dt>Fecha</dt><dd>19 de noviembre de 2025</dd>
+          <dt>Forma</dt><dd>Comunicación de la Comisión (sin efecto jurídico directo)</dd>
+          <dt>Paquete</dt><dd>Con el Ómnibus Digital, el Ómnibus sobre IA y la Cartera Empresarial Europea</dd>
+          <dt>Sucede a</dt><dd>Estrategia europea de datos (2020–2025)</dd>
+          <dt>Inversión anunciada</dt><dd>100 M€ adicionales para espacios comunes de datos desde 2026</dd>
+          <dt>Acción emblemática</dt><dd>Cloud and AI Development Act, propuesta el 3-6-2026</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Lo esencial en tres ideas</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>Datos para la IA</h4><p>Laboratorios de datos vinculados a las Fábricas de IA, más espacios comunes de datos y más conjuntos de datos de alto valor.</p><div class="mini">Pilar 1</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>De cuatro normas a una</h4><p>La DGA, la Directiva de datos abiertos y el Reglamento de libre flujo pasarían al Data Act, con un régimen más ligero para los intermediarios de datos.</p><div class="mini">Pilar 2</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Soberanía de datos</h4><p>Guías y una caja de herramientas contra la localización injustificada, la exclusión y la fuga de datos a terceros países.</p><div class="mini">Pilar 3</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Calendario de acciones</div><h2>Qué ha llegado y qué falta</h2></div>
+    <div class="tbl"><table><caption class="sr">Calendario de la Estrategia</caption>
+      <thead><tr><th style="width:150px">Fecha</th><th>Acción</th><th>Situación</th></tr></thead><tbody>
+      <tr><td><b>19-11-2025</b></td><td>Comunicación y propuesta de Ómnibus Digital</td><td><span class="badge b-vig">Cumplido</span></td></tr>
+      <tr><td><b>4T 2025 →</b></td><td>Primeros laboratorios de datos y medidas de apoyo al Data Act (cláusulas tipo, guías, servicio de ayuda jurídica)</td><td><span class="badge b-vig">En marcha</span></td></tr>
+      <tr><td><b>2026 →</b></td><td>100 M€ adicionales para espacios comunes de datos; nuevo espacio de datos de defensa</td><td><span class="badge b-vig">En marcha</span></td></tr>
+      <tr><td><b>3-6-2026</b></td><td>Propuesta de Cloud and AI Development Act</td><td><span class="badge b-pro">Propuesta</span></td></tr>
+      <tr><td><b>2T 2026</b></td><td>Guías para evaluar el trato justo de los datos de la UE en el extranjero y caja de herramientas contra la fuga de datos</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>8-7-2026</b></td><td>Consulta dirigida sobre la soberanía de datos de la UE (hasta el 8-9-2026)</td><td><span class="badge b-vig">Cerrada</span></td></tr>
+      <tr><td><b>3T 2026</b></td><td>Medidas para proteger datos no personales sensibles</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>4T 2026</b></td><td>Más de 30 millones de objetos culturales digitalizados disponibles para la IA; ampliación de los datos de alto valor</td><td><span class="badge b-gra">Previsto</span></td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="pilares">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Estructura</div><h2>Los tres pilares</h2></div>
+    <div class="tbl"><table><caption class="sr">Pilares de la Estrategia</caption>
+      <thead><tr><th style="width:260px">Pilar</th><th>Acciones principales</th></tr></thead><tbody>
+      <tr><td><b>1 · Ampliar el acceso a datos para la IA</b></td><td>Laboratorios de datos; espacios comunes de datos con apoyo continuado y Simpl como middleware de interoperabilidad; CADA; conjuntos de datos de alto valor ampliados a datos jurídicos, judiciales y administrativos; guías y normas sobre datos sintéticos y puesta en común de datos</td></tr>
+      <tr><td><b>2 · Simplificar las normas de datos</b></td><td>Ómnibus Digital: consolidación en el Data Act, reforma focalizada del RGPD, cookies; apoyo a la aplicación del Data Act con cláusulas tipo, cláusulas cloud estándar, guías y servicio de ayuda</td></tr>
+      <tr><td><b>3 · Salvaguardar la soberanía de datos</b></td><td>Flujos transfronterizos justos, protección de datos no personales sensibles, conexión con ecosistemas de países afines y más voz de la UE en G7, G20 y OCDE</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="labs">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Pilar 1</div><h2>Laboratorios de datos</h2>
+    <p class="lead">Centros operativos que dan a empresas e investigadores acceso a conjuntos de datos diversos y servicios para aplicar IA sobre ellos. Los primeros nacen dentro de las Fábricas de IA.</p></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Qué ofrecen</h4><ul class="check">
+        <li>Puesta en común de datos de varias fuentes, compatible con la competencia</li>
+        <li>Limpieza, normalización, curación y etiquetado</li>
+        <li>Anonimización y generación de datos sintéticos</li>
+        <li>Orientación regulatoria y formación</li>
+        <li>Puente entre los espacios de datos y el ecosistema de IA</li></ul></div>
+      <div class="card soft"><h4>Qué no son</h4><p>No sustituyen a los portales de datos abiertos ni a los espacios de datos: los complementan. Los espacios de datos ponen orden en la disponibilidad del dato; los laboratorios lo convierten en un recurso listo para entrenar, probar o desplegar IA. Tampoco son salas seguras para datos protegidos como ES_Datalab.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="simplificar">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Pilar 2 · Ómnibus Digital</div><h2>La consolidación en el Data Act</h2></div>
+    <div class="tbl"><table><caption class="sr">Consolidación de normas de datos</caption>
+      <thead><tr><th style="width:280px">Norma actual</th><th>Qué pasaría</th></tr></thead><tbody>
+      <tr><td><b>Data Governance Act</b> (2022/868)</td><td>Se deroga. La intermediación de datos y el altruismo pasan al Data Act; el registro de intermediarios se vuelve voluntario y la separación jurídica pasa a funcional</td></tr>
+      <tr><td><b>Directiva de datos abiertos</b> (2019/1024)</td><td>Se deroga; la reutilización de datos del sector público se une a las reglas de datos protegidos de la DGA en un solo capítulo. Podrían cobrarse tarifas mayores a empresas muy grandes</td></tr>
+      <tr><td><b>Libre flujo de datos no personales</b> (2018/1807)</td><td>Se deroga, salvo la prohibición de requisitos injustificados de localización, que pasa al Data Act</td></tr>
+      <tr><td><b>Data Act</b> (2023/2854)</td><td>Se convierte en la norma central de la economía del dato, con ajustes propios (secretos comerciales, datos B2G solo en emergencias)</td></tr>
+    </tbody></table></div>
+    <p class="note">La sociedad civil (EDRi, Open Future) critica que la intermediación pase a ser voluntaria y el cambio en las tarifas de datos abiertos. Es propuesta, no derecho vigente.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="soberania">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Pilar 3</div><h2>Un enfoque abierto pero firme</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Instrumentos</h4><ul class="check">
+        <li>Guías para evaluar el trato justo de los datos y empresas de la UE en terceros países</li>
+        <li>Caja de herramientas contra la localización injustificada, la exclusión, las garantías débiles y la fuga de datos</li>
+        <li>Medidas específicas para datos no personales sensibles</li>
+        <li>Posibilidad de negar el intercambio de datos cuando haya alto riesgo de fuga de secretos comerciales a terceros países</li></ul></div>
+      <div class="card soft"><h4>La consulta de 2026</h4><p>Entre el 8 de julio y el 8 de septiembre de 2026, la Comisión preguntó por las dependencias de datos, las barreras para acceder a datos en terceros países y los riesgos de acceso de terceros países a datos sensibles. La consulta enlaza con el paquete de soberanía tecnológica del 3 de junio, donde se presentó la CADA.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">España</div><h2>Cómo se aterriza en España</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Espacios de datos</h4><p>España financia demostradores y casos de uso de espacios de datos con 150 M€ (Orden TDF/1461/2023, modificada por la Orden TDF/294/2024) y mantiene el Centro de Referencia de Espacios de Datos. El Espacio Nacional de Datos de Salud, presentado en enero de 2026, es un ejemplo sectorial de gran escala.</p></div>
+      <div class="card soft"><h4>Divulgación y datos abiertos</h4><p>La Oficina del Dato publica en datos.gob.es análisis de la Estrategia y de los laboratorios de datos. El Ministerio para la Transformación Digital presentó la Estrategia en enero de 2026 y abrió en marzo la consulta sobre el Ómnibus Digital.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="eslabon">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Lectura por eslabón</div><h2>Qué significa para cada actor de la cadena</h2></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="eF" role="tab" aria-selected="true">Fabricante</button>
+      <button class="tab" data-p="eM" role="tab" aria-selected="false">Mayorista</button>
+      <button class="tab" data-p="eI" role="tab" aria-selected="false">Integrador</button>
+      <button class="tab" data-p="eC" role="tab" aria-selected="false">Cliente final</button>
+    </div>
+    <div class="tabpane on" id="eF" role="tabpanel"><div class="grid2">
+      <div><h4>Oportunidad</h4><ul class="check">
+        <li>Conectores compatibles con Simpl, IDSA, Eclipse Dataspace y Gaia-X.</li>
+        <li>Herramientas para laboratorios de datos: curación, anonimización, datos sintéticos.</li></ul></div>
+      <div><h4>Vigilar</h4><ul class="check">
+        <li>Medidas sobre datos no personales sensibles y fuga a terceros países.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eM" role="tabpanel"><div class="grid2">
+      <div><h4>Oportunidad</h4><ul class="check">
+        <li>Nodos de espacio de datos como producto de catálogo.</li>
+        <li>Infraestructura para laboratorios de datos y Fábricas de IA.</li></ul></div>
+      <div><h4>Vigilar</h4><ul class="check">
+        <li>Convocatorias asociadas a los 100 M€ para espacios de datos.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eI" role="tabpanel"><div class="grid2">
+      <div><h4>Oportunidad</h4><ul class="check">
+        <li>Operar nodos y servicios de intermediación para clientes sectoriales, con menos carga si se aprueba el registro voluntario.</li>
+        <li>Preparar datos para IA dentro de laboratorios de datos.</li></ul></div>
+      <div><h4>Vigilar</h4><ul class="check">
+        <li>Cambios del Data Act que traiga el Ómnibus.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eC" role="tabpanel"><div class="grid2">
+      <div><h4>Qué gana</h4><ul class="check">
+        <li>Acceso a datos de alto valor y servicios de laboratorio para IA.</li>
+        <li>Participar en espacios de datos con garantías de control.</li></ul></div>
+      <div><h4>Qué hacer</h4><ul class="check">
+        <li>Inventariar qué datos podría compartir y en qué condiciones.</li></ul></div>
+    </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Encaje con otras normas</div><h2>Con quién comparte terreno</h2></div>
+    <div class="tbl"><table><caption class="sr">Relación con otras normas</caption>
+      <thead><tr><th style="width:220px">Norma</th><th>Punto de contacto</th></tr></thead><tbody>
+      <tr><td><a href="/regulacion/data-act/"><b>Data Act</b></a></td><td>Pasaría a ser la norma central de datos; la Estrategia financia su aplicación.</td></tr>
+      <tr><td><a href="/regulacion/rgpd-omnibus/"><b>RGPD + Ómnibus</b></a></td><td>El Ómnibus Digital es el instrumento legislativo del pilar 2.</td></tr>
+      <tr><td><a href="/regulacion/#cada"><b>CADA</b></a></td><td>Acción emblemática del pilar 1: capacidad de nube e IA en la UE.</td></tr>
+      <tr><td><a href="/regulacion/ehds/"><b>EHDS</b></a></td><td>Espacio común de datos de referencia, puente entre los datos de salud y la IA.</td></tr>
+      <tr><td><a href="/regulacion/ai-act/"><b>AI Act</b></a></td><td>Los laboratorios de datos ayudan a cumplir la calidad de datos de la IA de alto riesgo.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Hoja de ruta</div><h2>Qué hacer</h2></div>
+    <div class="cards4">
+      <div class="card soft"><h4><span class="k">Ya</span>Interoperar</h4><p class="dl">Alinear productos con Simpl, el Dataspace Protocol y los vocabularios DCAT y ODRL.</p></div>
+      <div class="card soft"><h4><span class="k">2026–2027</span>Financiación</h4><p class="dl">Convocatorias de espacios de datos, laboratorios de datos y Fábricas de IA.</p></div>
+      <div class="card soft"><h4><span class="k">2027</span>Data Act</h4><p class="dl">Ajustar contratos y servicios cuando se cierre la consolidación.</p></div>
+      <div class="card soft"><h4><span class="k">Continuo</span>Soberanía</h4><p class="dl">Seguir las guías sobre fuga de datos y datos no personales sensibles.</p></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Cómo ayuda Software in a Box</h4><p>La capa de <span class="layer l-dat">Espacios de datos</span> despliega nodos interoperables con políticas de uso ODRL, catálogo DCAT y conectores estándar, listos para unirse a espacios sectoriales y servir datos a laboratorios de IA sin perder el control.</p></div>
+      <div class="card"><h4>Más en la sección Regulación UE</h4><p>Radar de 18 normas, calendario 2025–2030, matriz de impacto y autodiagnóstico.</p><div class="ficha-nav"><a class="btn btn-ink" href="/regulacion/#radar">Volver al radar</a><a class="btn btn-out" href="/regulacion/#contacto">Hablemos</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Fuentes principales</h3>
+    <ul class="src">
+      <li>Texto · <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025DC0835">COM(2025) 835 (EUR-Lex)</a></li>
+      <li>Comisión · <a href="https://digital-strategy.ec.europa.eu/en/policies/data-union">Estrategia de la Unión de Datos</a></li>
+      <li>Comisión · <a href="https://digital-strategy.ec.europa.eu/en/factpages/data-union-nutshell">La Unión de Datos en síntesis</a></li>
+      <li>Comisión · <a href="https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-safeguarding-eus-data-sovereignty">Consulta sobre la soberanía de datos</a></li>
+      <li>data.europa.eu · <a href="https://data.europa.eu/sites/default/files/course/Slides%20Data%20Union%20Strategy%20Webinar.pdf">Webinario de la Estrategia (PDF)</a></li>
+      <li>Calendario · <a href="https://connect.geant.org/?p=26133">GÉANT: la Estrategia y los laboratorios de datos</a></li>
+      <li>España · <a href="https://datos.gob.es/es/noticias/la-estrategia-union-de-datos-el-nuevo-impulso-europeo-para-la-economia-del-dato-y-la-ia">datos.gob.es: la Estrategia Unión de Datos</a></li>
+      <li>España · <a href="https://datos.gob.es/es/blog/data-labs-europeos-del-dato-disponible-al-dato-preparado-para-la-inteligencia-artificial">datos.gob.es: los data labs europeos</a></li>
+      <li>Análisis · <a href="https://www.medialaws.eu/the-data-omnibus-the-good-the-bad-and-the-ugly-behind-the-dga-and-data-act-rewrite/">MediaLaws: la reescritura de la DGA</a></li>
+      <li>Análisis · <a href="https://openfuture.eu/blog/openness-power-and-the-paradox-of-open-data-in-the-digital-omnibus/">Open Future: los datos abiertos en el Ómnibus</a></li>
+    </ul>
+    <p class="note">Ficha elaborada a partir de un catálogo de 98 fuentes sobre la Estrategia de la Unión de Datos mantenido por Software in a Box. Información orientativa; no constituye asesoramiento jurídico. Última revisión: 14 de noviembre de 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="/" style="display:flex">Software in a Box</a>
+        <p style="margin-top:12px;max-width:26em">Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.</p>
+      </div>
+      <div><h4>Productos</h4><a href="https://cognitiv.softwareinabox.eu/">COGNITIV</a><a href="https://argos.softwareinabox.eu/">ARGOS</a><a href="https://datos.softwareinabox.eu/">Espacios de datos</a></div>
+      <div><h4>Empresa</h4><a href="/#como">Cómo trabajamos</a><a href="/#experiencia">Experiencia</a><a href="/#contacto">Contacto</a></div>
+      <div><h4>Recursos</h4><a href="/regulacion/">Regulación UE</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Mapa del sitio</a></div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Software in a Box, marca de Ullswater Investments S.L.</span>
+      <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a></nav>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.querySelector(".burger"),n=document.getElementById("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+</body>
+</html>

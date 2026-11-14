@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RGPD y Ómnibus Digital: ficha completa de la protección de datos en la UE · Software in a Box</title>
+<meta name="description" content="Ficha completa del RGPD y de la propuesta de Ómnibus Digital (COM(2025) 837): qué cambiaría en dato personal, cookies, IA y brechas, el dictamen del CEPD y el SEPD, la posición del Consejo, el Parlamento, el reglamento procesal 2025/2518 y la actividad de la AEPD.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="RGPD y Ómnibus Digital: ficha completa de la protección de datos en la UE">
+<meta property="og:description" content="Ficha completa del RGPD y de la propuesta de Ómnibus Digital (COM(2025) 837): qué cambiaría en dato personal, cookies, IA y brechas, el dictamen del CEPD y el SEPD, la posición del Consejo, el Parlamento, el reglamento procesal 2025/2518 y la actividad de la AEPD.">
+<meta property="og:url" content="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "@id": "https://www.softwareinabox.eu/regulacion/rgpd-omnibus/#article", "url": "https://www.softwareinabox.eu/regulacion/rgpd-omnibus/", "headline": "RGPD y Ómnibus Digital: ficha completa de la protección de datos en la UE", "description": "Ficha completa del RGPD y de la propuesta de Ómnibus Digital (COM(2025) 837): qué cambiaría en dato personal, cookies, IA y brechas, el dictamen del CEPD y el SEPD, la posición del Consejo, el Parlamento, el reglamento procesal 2025/2518 y la actividad de la AEPD.", "inLanguage": "es", "dateModified": "2026-11-14", "isPartOf": {"@id": "https://www.softwareinabox.eu/#website"}, "publisher": {"@id": "https://www.softwareinabox.eu/#organization"}, "author": {"@id": "https://www.softwareinabox.eu/#organization"}, "about": {"@type": "Legislation", "name": "Reglamento (UE) 2016/679 (RGPD) y propuesta de Ómnibus Digital", "legislationIdentifier": "Reglamento (UE) 2016/679", "legislationJurisdiction": "UE"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Software in a Box", "item": "https://www.softwareinabox.eu/"}, {"@type": "ListItem", "position": 2, "name": "Regulación UE", "item": "https://www.softwareinabox.eu/regulacion/"}, {"@type": "ListItem", "position": 3, "name": "RGPD + Ómnibus", "item": "https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"}]}]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+</style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Software in a Box, inicio">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
+      Software in a Box
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="/#productos">Productos</a>
+      <a href="/#como">Cómo trabajamos</a>
+      <a href="/#experiencia">Experiencia</a>
+      <a href="/#sectores">Sectores</a>
+      <a href="/regulacion/" aria-current="page">Regulación UE</a>
+      <a class="btn btn-gold" href="/regulacion/#contacto">Hablemos</a>
+    </nav>
+                
+  <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>ES</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/" hreflang="es" lang="es" aria-current="true">Español</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Secciones de la ficha"><div class="wrap">
+  <a href="#resumen">Resumen</a><a href="#calendario">Calendario</a><a href="#base">El RGPD hoy</a><a href="#omnibus">Qué propone el Ómnibus</a><a href="#posiciones">Posiciones</a><a href="#procesal">Reglamento procesal</a><a href="#espana">España</a><a href="#eslabon">Por eslabón</a><a href="#relacion">Otras normas</a><a href="#hacer">Qué hacer</a><a href="#fuentes">Fuentes</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a> › <a href="/regulacion/">Regulación UE</a> › RGPD + Ómnibus</nav>
+    <div class="eyebrow">Ficha completa · Datos</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="badge b-vig">RGPD en vigor</span><span class="badge b-pro">Ómnibus: propuesta</span><span class="layer l-arg">ARGOS</span><span class="layer l-cog">COGNITIV</span></div>
+        <h1>RGPD y Ómnibus Digital</h1>
+        <p class="lead">El RGPD sigue siendo la base de toda la gobernanza del dato en Europa. La Comisión propuso en noviembre de 2025 un <b>Ómnibus Digital</b> que tocaría el concepto de <b>dato personal</b>, las <b>cookies</b>, el uso de datos para <b>entrenar IA</b> y la <b>notificación de brechas</b>. Las autoridades de protección de datos y los Estados han frenado los cambios más profundos.</p>
+        <div class="callout">El Ómnibus es una propuesta en negociación: el Consejo fijó su posición en octubre de 2026 y el Parlamento aún no. Hoy se cumple el RGPD tal como está. El Ómnibus sobre IA, en cambio, ya es ley: Reglamento (UE) 2026/1744.</div>
+      </div>
+      <div class="facts">
+        <h4>Ficha técnica</h4>
+        <dl class="kv">
+          <dt>Norma</dt><dd>Reglamento (UE) 2016/679 (RGPD)</dd>
+          <dt>Aplicación</dt><dd>25 de mayo de 2018</dd>
+          <dt>España</dt><dd>Ley Orgánica 3/2018 (LOPDGDD) · AEPD</dd>
+          <dt>Multas máximas</dt><dd>20 M€ o 4 % · 10 M€ o 2 %</dd>
+          <dt>Reglamento procesal</dt><dd>Reglamento (UE) 2025/2518, aplicable desde el 2-4-2027</dd>
+          <dt>Propuesta</dt><dd>Ómnibus Digital, COM(2025) 837 · 2025/0360(COD)</dd>
+          <dt>Fecha</dt><dd>19 de noviembre de 2025</dd>
+          <dt>Modificaría</dt><dd>RGPD, ePrivacy, Data Act, NIS2 y otras; derogaría la DGA, la Directiva de datos abiertos y el Reglamento de libre flujo</dd>
+          <dt>Estado</dt><dd>Posición del Consejo (oct. 2026); Parlamento en comisión</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Lo esencial en tres ideas</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>El dato personal no cambia, por ahora</h4><p>La Comisión quería que la información no fuera dato personal para quien no puede identificar a la persona con medios razonables. Autoridades, Parlamento y Consejo se han opuesto; el Consejo mantiene la definición actual.</p><div class="mini">Art. 4.1 RGPD</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>IA con interés legítimo</h4><p>La propuesta reconocería el interés legítimo como base para desarrollar y operar sistemas de IA, con garantías, y toleraría datos sensibles residuales en los conjuntos de entrenamiento.</p><div class="mini">Art. 88c propuesto</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Menos carga en brechas</h4><p>Notificar solo brechas de alto riesgo, en 96 horas en lugar de 72, con plantilla común y un punto único de notificación para varias normas. Es lo que más apoyo reúne.</p><div class="mini">Art. 33 RGPD</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Calendario</div><h2>Hitos</h2></div>
+    <div class="tbl"><table><caption class="sr">Calendario del RGPD y del Ómnibus</caption>
+      <thead><tr><th style="width:150px">Fecha</th><th>Hito</th><th>Situación</th></tr></thead><tbody>
+      <tr><td><b>25-5-2018</b></td><td>El RGPD empieza a aplicarse</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>19-11-2025</b></td><td>La Comisión propone el Ómnibus Digital y el Ómnibus sobre IA</td><td><span class="badge b-pro">Propuesta</span></td></tr>
+      <tr><td><b>1-1-2026</b></td><td>Entra en vigor el reglamento procesal del RGPD (2025/2518)</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>10-2-2026</b></td><td>Dictamen conjunto 2/2026 del CEPD y el SEPD</td><td><span class="badge b-vig">Publicado</span></td></tr>
+      <tr><td><b>Mar. 2026</b></td><td>Consulta pública del Ministerio para la Transformación Digital sobre el Ómnibus</td><td><span class="badge b-vig">Cerrada</span></td></tr>
+      <tr><td><b>22-6-2026</b></td><td>Proyecto de informe de los ponentes del Parlamento; después, unas 1.840 enmiendas</td><td><span class="badge b-gra">En comisión</span></td></tr>
+      <tr><td><b>27-7-2026</b></td><td>Entra en vigor el Ómnibus sobre IA (Reglamento 2026/1744)</td><td><span class="badge b-vig">En vigor</span></td></tr>
+      <tr><td><b>Oct. 2026</b></td><td>El Consejo fija su posición negociadora sobre el Ómnibus Digital</td><td><span class="badge b-vig">Cumplido</span></td></tr>
+      <tr><td><b>2-4-2027</b></td><td>Se aplica el reglamento procesal a casos transfronterizos nuevos</td><td><span class="badge b-gra">Previsto</span></td></tr>
+      <tr><td><b>Fin de 2027</b></td><td>Objetivo político para cerrar los paquetes de simplificación</td><td><span class="badge b-gra">Previsto</span></td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="base">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Lo que ya se aplica</div><h2>El RGPD hoy</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Obligaciones clave</h4><ul class="check">
+        <li>Base jurídica para cada tratamiento y transparencia</li>
+        <li>Registro de actividades y evaluación de impacto cuando hay alto riesgo</li>
+        <li>Privacidad desde el diseño y por defecto</li>
+        <li>Contratos de encargado del tratamiento y control de subencargados</li>
+        <li>Notificación de brechas a la autoridad en 72 horas y, si hay alto riesgo, a los afectados</li>
+        <li>Transferencias internacionales con garantías (decisión de adecuación, cláusulas tipo)</li></ul></div>
+      <div class="card soft"><h4>Lo que más se sanciona</h4><p>Los incumplimientos de principios generales y las medidas técnicas y organizativas insuficientes siguen siendo los principales detonantes de sanciones en Europa. En España, muchas actuaciones de la AEPD empiezan por una brecha y acaban revisando toda la gestión de la protección de datos.</p><p>Las transferencias a EE. UU. se apoyan en el Marco de Privacidad de Datos, que el Tribunal General confirmó en el asunto Latombe.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="omnibus">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">COM(2025) 837</div><h2>Qué propone el Ómnibus Digital</h2></div>
+    <div class="tbl"><table><caption class="sr">Cambios propuestos</caption>
+      <thead><tr><th style="width:240px">Tema</th><th>Propuesta de la Comisión</th><th style="width:240px">Dónde está el debate</th></tr></thead><tbody>
+      <tr><td><b>Dato personal</b></td><td>Relativo a cada entidad: no lo es para quien no puede identificar a la persona con medios razonables. Actos de ejecución sobre seudonimización (art. 41a)</td><td>El Consejo mantiene la definición actual, elimina el art. 41a y añade un art. 25a sobre datos seudonimizados</td></tr>
+      <tr><td><b>Investigación científica</b></td><td>Nueva definición y tratamiento compatible</td><td>Apoyo general; el Consejo añade criterios metodológicos y éticos</td></tr>
+      <tr><td><b>IA</b></td><td>Interés legítimo para desarrollar y operar IA (art. 88c), con transparencia, derecho de oposición y técnicas de privacidad; datos sensibles residuales en entrenamiento</td><td>Muy contestado; el CEPD lo ve innecesario tras su dictamen 28/2024</td></tr>
+      <tr><td><b>Cookies</b></td><td>La regla pasa al RGPD (art. 88a) con excepciones sin consentimiento, rechazo con un clic y seis meses sin volver a preguntar; señales de preferencia en el navegador (art. 88b), con excepción para medios</td><td>Apoyo a simplificar; los editores y la publicidad piden suprimir el art. 88b. Un texto de la Presidencia de septiembre devolvía las cookies a la Directiva ePrivacy</td></tr>
+      <tr><td><b>Brechas</b></td><td>Solo alto riesgo, 96 horas, plantilla común y punto único de notificación</td><td>Amplio apoyo</td></tr>
+      <tr><td><b>Evaluaciones de impacto</b></td><td>Listas armonizadas en la UE</td><td>Apoyo</td></tr>
+      <tr><td><b>Derecho de acceso</b></td><td>Límites al ejercicio abusivo</td><td>Críticas de las autoridades y la sociedad civil</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="posiciones">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Negociación</div><h2>Quién piensa qué</h2></div>
+    <div class="levels">
+      <div class="lv"><div class="big">CEPD</div><div class="tag">Dictamen 2/2026</div><ul><li>Rechaza cambiar la definición</li><li>Apoya brechas, investigación y cookies</li></ul></div>
+      <div class="lv"><div class="big">Consejo</div><div class="tag">Posición oct. 2026</div><ul><li>Mantiene la definición</li><li>Art. 25a sobre seudonimización</li></ul></div>
+      <div class="lv"><div class="big">PE</div><div class="tag">ITRE y LIBE</div><ul><li>Ponentes: Aura Salla y Marina Kaljurand</li><li>Sin voto en comisión</li></ul></div>
+      <div class="lv"><div class="big">Sociedad</div><div class="tag">Civil e industria</div><ul><li>EDRi y noyb: rebaja de derechos</li><li>Industria: pide ir más lejos</li></ul></div>
+    </div>
+    <p class="note">La ponente de LIBE anunció que sus primeras enmiendas mantendrían intacta la definición de dato personal. El Parlamento esperaba en otoño un estudio de impacto sobre el efecto de las cookies en editores y publicidad.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="procesal">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Reglamento (UE) 2025/2518</div><h2>El reglamento procesal del RGPD</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Qué cambia</h4><ul class="check">
+        <li>Criterios comunes de admisión de reclamaciones transfronterizas</li>
+        <li>Plazos vinculantes para las investigaciones</li>
+        <li>Derechos procesales del reclamante y de la empresa investigada, con acceso al expediente</li>
+        <li>Procedimientos simplificados para casos sencillos</li></ul></div>
+      <div class="card soft"><h4>Cuándo</h4><p>Adoptado el 26-11-2025, en vigor desde el 1-1-2026 y aplicable a partir del 2-4-2027 a reclamaciones e investigaciones transfronterizas nuevas. No cambia los derechos sustantivos del RGPD. Los casos puramente nacionales quedan fuera.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">España</div><h2>La AEPD y la posición española</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Actividad de la AEPD (Memoria 2025)</h4><ul class="check">
+        <li>30.931 reclamaciones en 2025, un 64 % más que el año anterior</li>
+        <li>Las brechas aumentaron un 157 % y supusieron casi 20 M€ en sanciones, el 40 % del total</li>
+        <li>Más de 126.000 delegados de protección de datos comunicados</li>
+        <li>Foco en IA, incluida la IA agéntica, y guía conjunta RGPD-AI Act en preparación con la Comisión y el CEPD</li></ul></div>
+      <div class="card soft"><h4>Posición en el Ómnibus</h4><p>El Ministerio para la Transformación Digital abrió una consulta pública sobre la propuesta en marzo de 2026. España presentó comentarios por escrito en el Consejo junto con otros Estados. El Plan de Actuación 2026 y el Plan Estratégico 2025–2030 de la AEPD marcan sus prioridades.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="eslabon">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Lectura por eslabón</div><h2>Qué significa para cada actor de la cadena</h2></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="eF" role="tab" aria-selected="true">Fabricante</button>
+      <button class="tab" data-p="eM" role="tab" aria-selected="false">Mayorista</button>
+      <button class="tab" data-p="eI" role="tab" aria-selected="false">Integrador</button>
+      <button class="tab" data-p="eC" role="tab" aria-selected="false">Cliente final</button>
+    </div>
+    <div class="tabpane on" id="eF" role="tabpanel"><div class="grid2">
+      <div><h4>Hoy</h4><ul class="check">
+        <li>Privacidad desde el diseño y configuración por defecto.</li>
+        <li>Si entrena IA con datos personales: base jurídica, evaluación de impacto y dictamen 28/2024 del CEPD.</li></ul></div>
+      <div><h4>Con el Ómnibus</h4><ul class="check">
+        <li>Posible interés legítimo para IA con garantías.</li>
+        <li>Productos que respeten señales de preferencia del navegador.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eM" role="tabpanel"><div class="grid2">
+      <div><h4>Hoy</h4><ul class="check">
+        <li>Contratos de encargo en soporte y servicios gestionados.</li>
+        <li>Brechas en la cadena: quién avisa a quién y en qué plazo.</li></ul></div>
+      <div><h4>Con el Ómnibus</h4><ul class="check">
+        <li>Punto único de notificación compartido con NIS2 y otras normas.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eI" role="tabpanel"><div class="grid2">
+      <div><h4>Hoy</h4><ul class="check">
+        <li>Encargado del tratamiento: medidas, subencargados, transferencias.</li>
+        <li>Evidencias para auditorías del cliente.</li></ul></div>
+      <div><h4>Línea de servicio</h4><ul class="check">
+        <li>Seudonimización y anonimización con evaluación de riesgo de reidentificación.</li>
+        <li>Gestión de consentimiento y cookies preparada para ambos escenarios.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eC" role="tabpanel"><div class="grid2">
+      <div><h4>Responsable del tratamiento</h4><ul class="check">
+        <li>Bases jurídicas, registro, evaluaciones de impacto.</li>
+        <li>Procedimiento de brechas: 72 horas hoy.</li></ul></div>
+      <div><h4>Qué no hacer</h4><ul class="check">
+        <li>Reclasificar datos seudonimizados como no personales por la propuesta: no es ley.</li></ul></div>
+    </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Encaje con otras normas</div><h2>Con quién comparte terreno</h2></div>
+    <div class="tbl"><table><caption class="sr">Relación con otras normas</caption>
+      <thead><tr><th style="width:220px">Norma</th><th>Punto de contacto</th></tr></thead><tbody>
+      <tr><td><a href="/regulacion/ai-act/"><b>AI Act</b></a></td><td>El Ómnibus sobre IA (2026/1744) ya ajustó plazos y el tratamiento de datos para detectar sesgos; el RGPD sigue aplicándose al entrenamiento.</td></tr>
+      <tr><td><a href="/regulacion/data-act/"><b>Data Act</b></a></td><td>El Ómnibus integraría en el Data Act la DGA, la Directiva de datos abiertos y el libre flujo de datos no personales.</td></tr>
+      <tr><td><a href="/regulacion/nis2/"><b>NIS2</b></a>, <a href="/regulacion/dora/"><b>DORA</b></a></td><td>Punto único de notificación de incidentes y brechas.</td></tr>
+      <tr><td><a href="/regulacion/ehds/"><b>EHDS</b></a></td><td>Norma sectorial que complementa el RGPD para datos de salud.</td></tr>
+      <tr><td><a href="/regulacion/data-union/"><b>Data Union Strategy</b></a></td><td>El Ómnibus es su principal instrumento legislativo de simplificación.</td></tr>
+      <tr><td><a href="/regulacion/#cada"><b>CADA</b></a></td><td>Los requisitos de soberanía de datos se apoyan en el RGPD y en las reglas de transferencias.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Hoja de ruta</div><h2>Qué hacer</h2></div>
+    <div class="cards4">
+      <div class="card soft"><h4><span class="k">Ya</span>Cumplir el RGPD actual</h4><p class="dl">Nada de lo propuesto exime hoy; datos seudonimizados siguen siendo personales.</p></div>
+      <div class="card soft"><h4><span class="k">Ya</span>Brechas</h4><p class="dl">Procedimiento de 72 horas, registro y coordinación con NIS2 y DORA.</p></div>
+      <div class="card soft"><h4><span class="k">2027</span>IA</h4><p class="dl">Documentar base jurídica y garantías del entrenamiento; ajustar si se aprueba el art. 88c.</p></div>
+      <div class="card soft"><h4><span class="k">2-4-2027</span>Procesal</h4><p class="dl">Preparar la defensa en procedimientos transfronterizos con las nuevas reglas.</p></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Cómo ayuda Software in a Box</h4><p><span class="layer l-arg">ARGOS</span> mantiene el registro de actividades, las evaluaciones de impacto y la evidencia de medidas, y <span class="layer l-cog">COGNITIV</span> ejecuta la IA sobre datos que no salen del entorno del cliente, lo que reduce el riesgo en cualquiera de los escenarios del Ómnibus.</p></div>
+      <div class="card"><h4>Más en la sección Regulación UE</h4><p>Radar de 18 normas, calendario 2025–2030, matriz de impacto y autodiagnóstico.</p><div class="ficha-nav"><a class="btn btn-ink" href="/regulacion/#radar">Volver al radar</a><a class="btn btn-out" href="/regulacion/#contacto">Hablemos</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Fuentes principales</h3>
+    <ul class="src">
+      <li>Texto · <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679">Reglamento (UE) 2016/679 (EUR-Lex)</a></li>
+      <li>Comisión · <a href="https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-regulation-proposal">Propuesta de Ómnibus Digital</a></li>
+      <li>CEPD-SEPD · <a href="https://www.edpb.europa.eu/system/files/2026-02/edpb_edps_jointopinion_202602_digitalomnibus_en.pdf">Dictamen conjunto 2/2026 (PDF)</a></li>
+      <li>Consejo · <a href="https://www.cuatrecasas.com/es/portugal/propiedad-intelectual/art/digital-omnibus-consejo-ue-fija-su-posicion">Cuatrecasas: el Consejo fija su posición</a></li>
+      <li>Parlamento · <a href="https://euperspectives.eu/2026/08/after-1840-amendemnts-the-eu-fight-over-data-will-begin/">EU Perspectives: 1.840 enmiendas</a></li>
+      <li>Procesal · <a href="https://www.arthurcox.com/knowledge/cross-border-processing-complaints/">Arthur Cox: Reglamento 2025/2518</a></li>
+      <li>España · <a href="https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-agencia-recibio-mas-de-30.000-reclamaciones-en-2025-un-64-mas">AEPD: Memoria 2025</a></li>
+      <li>España · <a href="https://finreg360.com/alerta/la-agencia-espanola-de-proteccion-de-datos-presenta-la-memoria-de-actuacion-de-2025/">Finreg360: memoria de la AEPD</a></li>
+      <li>España · <a href="https://digital.gob.es/va/comunicacion/notas-prensa/secretaria-digitalizacion-e-inteligencia-artificial/2026/03/abierta-la-consulta-publica-del-omnibus-digital-">Consulta pública del Ómnibus</a></li>
+      <li>Análisis · <a href="https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2026/02/edpb-and-edps-opine-on-bold-changes-to-european-digital-regulati.html">Clifford Chance: diez claves del dictamen</a></li>
+    </ul>
+    <p class="note">Ficha elaborada a partir de un catálogo de 139 fuentes sobre el RGPD y el Ómnibus Digital mantenido por Software in a Box. Información orientativa; no constituye asesoramiento jurídico. Última revisión: 14 de noviembre de 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="/" style="display:flex">Software in a Box</a>
+        <p style="margin-top:12px;max-width:26em">Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.</p>
+      </div>
+      <div><h4>Productos</h4><a href="https://cognitiv.softwareinabox.eu/">COGNITIV</a><a href="https://argos.softwareinabox.eu/">ARGOS</a><a href="https://datos.softwareinabox.eu/">Espacios de datos</a></div>
+      <div><h4>Empresa</h4><a href="/#como">Cómo trabajamos</a><a href="/#experiencia">Experiencia</a><a href="/#contacto">Contacto</a></div>
+      <div><h4>Recursos</h4><a href="/regulacion/">Regulación UE</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Mapa del sitio</a></div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Software in a Box, marca de Ullswater Investments S.L.</span>
+      <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a></nav>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.querySelector(".burger"),n=document.getElementById("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+</body>
+</html>

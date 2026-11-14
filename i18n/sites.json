@@ -130,6 +130,42 @@
           ]
         },
         {
+          "file": "regulacion/rgpd-omnibus/index.html",
+          "path": "/regulacion/rgpd-omnibus/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/data-union/index.html",
+          "path": "/regulacion/data-union/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/chips-act/index.html",
+          "path": "/regulacion/chips-act/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/ecodiseno-servidores/index.html",
+          "path": "/regulacion/ecodiseno-servidores/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
           "file": "aviso-legal.html",
           "path": "/aviso-legal.html",
           "changefreq": "yearly",

@@ -405,6 +405,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ehds/"/>
   </url>
   <url>
+    <loc>https://www.softwareinabox.eu/regulacion/rgpd-omnibus/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/rgpd-omnibus/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/data-union/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/data-union/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/chips-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/chips-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
+  </url>
+  <url>
     <loc>https://www.softwareinabox.eu/aviso-legal.html</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>yearly</changefreq>

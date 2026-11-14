@@ -17,6 +17,10 @@
 - [Ficha completa de DORA](https://www.softwareinabox.eu/regulacion/dora/): Reglamento (UE) 2022/2554 de resiliencia operativa digital: cinco pilares, notificación de incidentes, registro de información, cláusulas del art. 30, los 19 proveedores TIC críticos y supervisión en España. En español.
 - [Ficha completa de la DMA en la nube](https://www.softwareinabox.eu/regulacion/dma-nube/): investigaciones de mercado de 2025 y conclusión preliminar de 25-6-2026 sobre AWS y Azure como guardianes de acceso, obligaciones, plazos y relación con el Data Act. En español.
 - [Ficha completa del EHDS](https://www.softwareinabox.eu/regulacion/ehds/): Reglamento (UE) 2025/327 del Espacio Europeo de Datos Sanitarios: calendario 2025–2035, derechos del paciente, sistemas de HCE con marcado CE, uso secundario y aplicación en España. En español.
+- [Ficha completa del RGPD y el Ómnibus Digital](https://www.softwareinabox.eu/regulacion/rgpd-omnibus/): Reglamento (UE) 2016/679 y propuesta COM(2025) 837: cambios en dato personal, cookies, IA y brechas, posiciones del CEPD, el Consejo y el Parlamento, reglamento procesal 2025/2518 y AEPD. En español.
+- [Ficha completa de la Data Union Strategy](https://www.softwareinabox.eu/regulacion/data-union/): Estrategia de la Unión de Datos COM(2025) 835: tres pilares, laboratorios de datos, consolidación de la DGA y los datos abiertos en el Data Act y soberanía de datos. En español.
+- [Ficha completa de la Chips Act 2.0](https://www.softwareinabox.eu/regulacion/chips-act/): propuesta COM(2026) 504: balance de la Chips Act de 2023, medidas de demanda, permisos, ayudas a primeras instalaciones y PERTE Chip en España. En español.
+- [Ficha completa del ecodiseño de servidores](https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/): Reglamento (UE) 2019/424, su revisión, obligaciones de los centros de datos, clasificación A–G y real decreto español. En español.
 
 ## Experiencia
 - El equipo de Software in a Box ha participado en el desarrollo tecnológico de tres espacios de datos cofinanciados por la SEDIA (2024–2026): Global Data Care (salud), PROCUREDATA (compras) y EcoDataNet (economía circular).
