@@ -289,6 +289,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/"/>
   </url>
   <url>
+    <loc>https://www.softwareinabox.eu/regulacion/ai-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ai-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ai-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/data-act/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/data-act/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/data-act/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/cra/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/cra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/cra/"/>
+  </url>
+  <url>
     <loc>https://www.softwareinabox.eu/aviso-legal.html</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>yearly</changefreq>

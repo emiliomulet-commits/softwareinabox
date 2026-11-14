@@ -58,6 +58,33 @@
           "priority": "0.9"
         },
         {
+          "file": "regulacion/ai-act/index.html",
+          "path": "/regulacion/ai-act/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/data-act/index.html",
+          "path": "/regulacion/data-act/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/cra/index.html",
+          "path": "/regulacion/cra/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
           "file": "aviso-legal.html",
           "path": "/aviso-legal.html",
           "changefreq": "yearly",

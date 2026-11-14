@@ -1604,8 +1604,8 @@
   ]
  },
  {
-  "id": "e6f4f563de",
-  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle.",
+  "id": "00c7093c2e",
+  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle. CADA, AI Act, Data Act y CRA tienen ficha completa.",
   "kind": "html",
   "pages": [
    "regulacion/index.html"
@@ -4872,16 +4872,16 @@
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
@@ -5034,6 +5034,14 @@
  {
   "id": "86d8e76fc4",
   "src": "Compra pública por niveles; evidencia repartida en la cadena",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee7fdf27fa",
+  "src": "Ficha completa",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -7128,6 +7136,14 @@
   ]
  },
  {
+  "id": "19920b6596",
+  "src": "Ver la ficha completa",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
   "id": "4e5ff80c55",
   "src": "Afecta a:",
   "kind": "js",
@@ -7186,6 +7202,14 @@
  {
   "id": "b42c115f97",
   "src": "${T.impactAria}: ${[",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9a134205b5",
+  "src": "btn btn-gold",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
