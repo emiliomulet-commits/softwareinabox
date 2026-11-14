@@ -178,5 +178,149 @@
   "pt": "Índice e radar",
   "it": "Indice e radar",
   "da": "Oversigt og radar"
+ },
+ "Alemania": {
+  "en": "Germany",
+  "fr": "Allemagne",
+  "de": "Deutschland",
+  "nl": "Duitsland",
+  "pt": "Alemanha",
+  "it": "Germania",
+  "da": "Tyskland"
+ },
+ "Bélgica": {
+  "en": "Belgium",
+  "fr": "Belgique",
+  "de": "Belgien",
+  "nl": "België",
+  "pt": "Bélgica",
+  "it": "Belgio",
+  "da": "Belgien"
+ },
+ "Cada guía adapta las normas a un país: autoridades, leyes nacionales y calendario. La versión de la UE está en inglés.": {
+  "en": "Each guide adapts the regulations to one country: authorities, national laws and timeline. The EU version is in English.",
+  "fr": "Chaque guide adapte les normes à un pays : autorités, lois nationales et calendrier. La version UE est en anglais.",
+  "de": "Jeder Leitfaden passt die Vorschriften an ein Land an: Behörden, nationale Gesetze und Zeitplan. Die EU-Fassung ist auf Englisch.",
+  "nl": "Elke gids past de regels aan een land aan: toezichthouders, nationale wetgeving en tijdlijn. De EU-versie is in het Engels.",
+  "pt": "Cada guia adapta as normas a um país: autoridades, legislação nacional e calendário. A versão da UE está em inglês.",
+  "it": "Ogni guida adatta le norme a un paese: autorità, leggi nazionali e calendario. La versione UE è in inglese.",
+  "da": "Hver guide tilpasser reglerne til ét land: myndigheder, national lovgivning og tidsplan. EU-versionen er på engelsk."
+ },
+ "Calendario completo": {
+  "en": "Full timeline",
+  "fr": "Calendrier complet",
+  "de": "Vollständiger Kalender",
+  "nl": "Volledige kalender",
+  "pt": "Calendário completo",
+  "it": "Calendario completo",
+  "da": "Hele kalenderen"
+ },
+ "Calendario de la regulación europea": {
+  "en": "European regulation timeline",
+  "fr": "Calendrier de la réglementation européenne",
+  "de": "Kalender der EU-Regulierung",
+  "nl": "Kalender van de Europese regelgeving",
+  "pt": "Calendário da regulamentação europeia",
+  "it": "Calendario della normativa europea",
+  "da": "Kalender for EU-reguleringen"
+ },
+ "Dinamarca": {
+  "en": "Denmark",
+  "fr": "Danemark",
+  "de": "Dänemark",
+  "nl": "Denemarken",
+  "pt": "Dinamarca",
+  "it": "Danimarca",
+  "da": "Danmark"
+ },
+ "En esta página": {
+  "en": "On this page",
+  "fr": "Sur cette page",
+  "de": "Auf dieser Seite",
+  "nl": "Op deze pagina",
+  "pt": "Nesta página",
+  "it": "In questa pagina",
+  "da": "På denne side"
+ },
+ "Francia": {
+  "en": "France",
+  "fr": "France",
+  "de": "Frankreich",
+  "nl": "Frankrijk",
+  "pt": "França",
+  "it": "Francia",
+  "da": "Frankrig"
+ },
+ "Italia": {
+  "en": "Italy",
+  "fr": "Italie",
+  "de": "Italien",
+  "nl": "Italië",
+  "pt": "Itália",
+  "it": "Italia",
+  "da": "Italien"
+ },
+ "La regulación europea, país por país": {
+  "en": "European regulation, country by country",
+  "fr": "La réglementation européenne, pays par pays",
+  "de": "EU-Regulierung, Land für Land",
+  "nl": "Europese regelgeving, land per land",
+  "pt": "A regulamentação europeia, país a país",
+  "it": "La normativa europea, paese per paese",
+  "da": "EU-regulering, land for land"
+ },
+ "Países Bajos": {
+  "en": "Netherlands",
+  "fr": "Pays-Bas",
+  "de": "Niederlande",
+  "nl": "Nederland",
+  "pt": "Países Baixos",
+  "it": "Paesi Bassi",
+  "da": "Nederlandene"
+ },
+ "Por país": {
+  "en": "By country",
+  "fr": "Par pays",
+  "de": "Nach Land",
+  "nl": "Per land",
+  "pt": "Por país",
+  "it": "Per paese",
+  "da": "Efter land"
+ },
+ "Portugal": {
+  "en": "Portugal",
+  "fr": "Portugal",
+  "de": "Portugal",
+  "nl": "Portugal",
+  "pt": "Portugal",
+  "it": "Portogallo",
+  "da": "Portugal"
+ },
+ "Todos los hitos de 2025 a 2030, norma a norma: fechas de aplicación, plazos y decisiones pendientes.": {
+  "en": "Every milestone from 2025 to 2030, regulation by regulation: application dates, deadlines and pending decisions.",
+  "fr": "Toutes les étapes de 2025 à 2030, norme par norme : dates d'application, échéances et décisions en attente.",
+  "de": "Alle Meilensteine von 2025 bis 2030, Vorschrift für Vorschrift: Geltungsbeginn, Fristen und offene Entscheidungen.",
+  "nl": "Alle mijlpalen van 2025 tot 2030, regeling per regeling: toepassingsdata, termijnen en openstaande besluiten.",
+  "pt": "Todos os marcos de 2025 a 2030, norma a norma: datas de aplicação, prazos e decisões pendentes.",
+  "it": "Tutte le tappe dal 2025 al 2030, norma per norma: date di applicazione, scadenze e decisioni in sospeso.",
+  "da": "Alle milepæle fra 2025 til 2030, regulering for regulering: anvendelsesdatoer, frister og udestående beslutninger."
+ },
+ "Ver esta norma en:": {
+  "en": "Version for:",
+  "fr": "Version pour :",
+  "de": "Fassung für:",
+  "nl": "Versie voor:",
+  "pt": "Versão para:",
+  "it": "Versione per:",
+  "da": "Version for:"
+ },
+ "Ver menos": {
+  "en": "Show less",
+  "fr": "Afficher moins",
+  "de": "Weniger anzeigen",
+  "nl": "Minder tonen",
+  "pt": "Ver menos",
+  "it": "Mostra meno",
+  "da": "Vis mindre"
  }
 }

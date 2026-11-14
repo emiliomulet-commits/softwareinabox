@@ -187,6 +187,42 @@
           }
         },
         {
+          "file": "regulacion/calendario/index.html",
+          "path": "/regulacion/calendario/",
+          "gen": "calendar",
+          "changefreq": "weekly",
+          "priority": "0.7",
+          "paths": {
+            "en": "/regulation/calendar/",
+            "fr": "/reglementation/calendrier/",
+            "de": "/regulierung/kalender/",
+            "nl": "/regelgeving/kalender/",
+            "pt": "/regulamentacao/calendario/",
+            "it": "/normativa/calendario/",
+            "da": "/regulering/kalender/",
+            "fr-be": "/reglementation/calendrier/",
+            "nl-be": "/regelgeving/kalender/"
+          }
+        },
+        {
+          "file": "regulacion/paises/index.html",
+          "path": "/regulacion/paises/",
+          "gen": "paises",
+          "changefreq": "weekly",
+          "priority": "0.7",
+          "paths": {
+            "en": "/regulation/countries/",
+            "fr": "/reglementation/pays/",
+            "de": "/regulierung/laender/",
+            "nl": "/regelgeving/landen/",
+            "pt": "/regulamentacao/paises/",
+            "it": "/normativa/paesi/",
+            "da": "/regulering/lande/",
+            "fr-be": "/reglementation/pays/",
+            "nl-be": "/regelgeving/landen/"
+          }
+        },
+        {
           "file": "regulacion/informe-cada/index.html",
           "path": "/regulacion/informe-cada/",
           "changefreq": "monthly",

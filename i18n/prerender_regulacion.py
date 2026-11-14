@@ -34,6 +34,16 @@ def hub_path(d):
     return ("/" + d if d else "") + (pg.get("paths", {}).get(d) or "/regulacion/") if d else "/regulacion/"
 
 
+def cal_file(d):
+    import json
+    cfg = json.load(open(os.path.join(ROOT, "i18n", "sites.json"), encoding="utf-8"))
+    pg = next((p for p in cfg["sites"]["www"]["pages"] if p["path"] == "/regulacion/calendario/"), None)
+    if not pg:
+        return None
+    path = (pg.get("paths", {}).get(d) or pg["path"]) if d else pg["path"]
+    return os.path.join(ROOT, d, path.strip("/"), "index.html")
+
+
 def pages():
     for d in LANG_DIRS:
         p = os.path.join(ROOT, hub_path(d).strip("/"), "index.html")
@@ -66,6 +76,11 @@ async def main():
             for k, html in out.items():
                 raw = raw.replace(f"<!--PRE:{k}--><!--/PRE:{k}-->", f"<!--PRE:{k}-->{html}<!--/PRE:{k}-->")
             open(p, "w", encoding="utf-8").write(raw)
+            cf = cal_file(d)  # el calendario completo tiene su página propia (i18n/nav.py)
+            if cf and os.path.exists(cf):
+                c = open(cf, encoding="utf-8").read()
+                c = re.sub(r"<!--PRE:tl-->.*<!--/PRE:tl-->", lambda _: f"<!--PRE:tl-->{out['tl']}<!--/PRE:tl-->", c, flags=re.S)
+                open(cf, "w", encoding="utf-8").write(c)
             print("prerenderizado:", d or "es")
         await b.close()
     srv.shutdown()

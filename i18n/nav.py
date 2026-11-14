@@ -71,7 +71,8 @@ def header(pg, lang, tr):
     t = lambda s: esc(T(s, lang, tr))
     prods = "".join(f'<a href="{U(p, lang)}"{cur(p)}>{t(n)}<small>{t(d)}</small></a>' for p, n, d, _ in PRODUCTS)
     reg = (f'<a href="{U("/regulacion/", lang)}"{cur("/regulacion/")}>{t("Índice y radar")}</a>'
-           f'<a href="{U("/regulacion/", lang)}#calendario">{t("Calendario")}</a>'
+           f'<a href="{U("/regulacion/calendario/", lang)}"{cur("/regulacion/calendario/")}>{t("Calendario")}</a>'
+           f'<a href="{U("/regulacion/paises/", lang)}"{cur("/regulacion/paises/")}>{t("Por país")}</a>'
            f'<a href="{U("/regulacion/informe-cada/", lang)}"{cur("/regulacion/informe-cada/")}>{t("Informe CADA")}</a>'
            f'<hr><a href="{U("/mapa-del-sitio/", lang)}#normas">{t("Todas las normas (A–Z)")}</a>')
     emp = (f'<a href="{U("/empresa/", lang)}#como">{t("Cómo trabajamos")}</a>'
@@ -97,7 +98,8 @@ def footer(pg, lang, tr):
     t = lambda s: esc(T(s, lang, tr))
     col = lambda h, links: f'<div><h2>{t(h)}</h2>' + "".join(f'<a href="{u}"{x}>{l}</a>' for u, l, x in links) + "</div>"
     prods = [(U(p, lang), t(n), "") for p, n, _, _ in PRODUCTS] + [(U("/productos/", lang), t("Todos los productos"), "")]
-    reg = [(U("/regulacion/", lang), t("Índice y radar"), ""), (U("/regulacion/informe-cada/", lang), t("Informe CADA"), ""),
+    reg = [(U("/regulacion/", lang), t("Índice y radar"), ""), (U("/regulacion/calendario/", lang), t("Calendario"), ""),
+           (U("/regulacion/paises/", lang), t("Por país"), ""), (U("/regulacion/informe-cada/", lang), t("Informe CADA"), ""),
            (U("/mapa-del-sitio/", lang) + "#normas", t("Todas las normas (A–Z)"), "")]
     emp = [(U("/empresa/", lang) + "#como", t("Cómo trabajamos"), ""), (U("/empresa/", lang) + "#experiencia", t("Experiencia"), ""),
            (U("/empresa/", lang) + "#sectores", t("Sectores"), ""), (U("/contacto/", lang), t("Contacto"), "")]
@@ -116,12 +118,14 @@ def footer(pg, lang, tr):
 
 CRUMB = {"/aviso-legal.html": "Aviso legal", "/privacidad.html": "Privacidad", "/cookies.html": "Cookies",
          "/gracias.html": None, "/productos/": "Productos", "/empresa/": "Empresa", "/contacto/": "Contacto",
-         "/mapa-del-sitio/": "Mapa del sitio"}
+         "/mapa-del-sitio/": "Mapa del sitio", "/regulacion/calendario/": "Calendario", "/regulacion/paises/": "Por país"}
 
 
 def crumbs(pg, lang, tr):
     p = pg["path"]
     trail = [(U("/", lang), T("Inicio", lang, tr))]
+    if p.startswith("/regulacion/") and p != "/regulacion/":
+        trail.append((U("/regulacion/", lang), T("Regulación UE", lang, tr)))
     if p.startswith("/productos/") and p != "/productos/":
         trail.append((U("/productos/", lang), T("Productos", lang, tr)))
         last = next((T(n, lang, tr) for q, n, _, _ in PRODUCTS if q == p), "")
@@ -134,14 +138,48 @@ def crumbs(pg, lang, tr):
             + f' › <span aria-current="page">{esc(last)}</span></nav>')
 
 
-def top_button(lang, tr):
-    return (f'<button class="sx-top" type="button" data-nav aria-label="{esc(T("Volver arriba", lang, tr))}" '
-            f'title="{esc(T("Volver arriba", lang, tr))}">{UP}</button>')
+VIEWS = [("en", "UE"), ("es", "España"), ("pt", "Portugal"), ("fr", "Francia"), ("fr-be", "Bélgica"), ("nl", "Países Bajos"),
+         ("nl-be", "Bélgica"), ("de", "Alemania"), ("it", "Italia"), ("da", "Dinamarca")]
+_ADAPT = None
+
+
+def adapted(pg):
+    """Fichas con contenido propio de cada país: landings (tr_src) o capa i18n/fichas_pais/."""
+    global _ADAPT
+    if _ADAPT is None:
+        f = os.path.join(HERE, "fichas_pais", "de.html")
+        _ADAPT = set(re.findall(r"<!--SLUG:([a-z0-9-]+)-->", open(f, encoding="utf-8").read())) if os.path.exists(f) else set()
+    m = re.match(r"^/regulacion/([a-z0-9-]+)/$", pg["path"])
+    return bool(m) and (bool(pg.get("tr_src")) or m.group(1) in _ADAPT)
+
+
+def views(pg, lang, tr):
+    t = lambda s: esc(T(s, lang, tr))
+    items = []
+    for l, name in VIEWS:
+        if not B.has_lang(pg, l):
+            continue
+        cur = ' aria-current="page"' if l == lang else ""
+        code = "" if l == "en" else f"<small>{l.upper()}</small>"
+        items.append(f'<a href="{B.SITE["base"]}{B.lpath(pg, l)}" hreflang="{l}" lang="{l}"{cur}>{t(name)}{code}</a>')
+    return (f'<nav class="sx-views" data-nav aria-label="{t("Ver esta norma en:")}"><b>{t("Ver esta norma en:")}</b>'
+            + "".join(items) + "</nav>")
+
+
+def top_button(pg, lang, tr):
+    a = lambda s: html.escape(T(s, lang, tr), quote=True)
+    extra = f' data-toc="{a("En esta página")}" data-more="{a("Ver todo")}" data-less="{a("Ver menos")}"'
+    if pg["path"] == "/regulacion/":
+        links = {"calendario": [U("/regulacion/calendario/", lang), T("Calendario completo", lang, tr)]}
+        extra += ' data-fold="cada casos oportunidades glosario" data-foldlinks="' + html.escape(json.dumps(links, ensure_ascii=False), quote=True) + '"'
+    return (f'<button class="sx-top" type="button" data-nav aria-label="{a("Volver arriba")}" '
+            f'title="{a("Volver arriba")}"{extra}>{UP}</button>')
 
 
 def strip(raw):
     raw = re.sub(r"\n?<!--SX:PG-->.*?<!--/SX:PG-->", "", raw, flags=re.S)
     raw = re.sub(r"<!--SX:CR-->.*?<!--/SX:CR-->", "<!--SX:CRUMBS-->", raw, flags=re.S)
+    raw = re.sub(r'\n?<nav class="sx-views" data-nav.*?</nav>', "", raw, flags=re.S)
     raw = re.sub(r"<!--SX:NORMS:(l-\w+)-->.*?<!--/SX:NORMS-->", r"<!--SX:NORMS:\1--><!--/SX:NORMS-->", raw, flags=re.S)
     raw = re.sub(r'\n?<button class="sx-top" type="button" data-nav.*?</button>', "", raw, flags=re.S)
     raw = re.sub(r'\n?<link rel="stylesheet" href="/assets/nav\.css[^"]*">', "", raw)
@@ -166,6 +204,10 @@ def inject(raw, pg, lang, tr):
         if c:
             c = "<!--SX:CR-->" + c + "<!--/SX:CR-->"
             raw = raw.replace("<!--SX:CRUMBS-->", c, 1) if "<!--SX:CRUMBS-->" in raw else raw.replace("</header>", "</header>\n" + c, 1)
+    if adapted(pg):
+        m = re.search(r'<nav class="crumbs"[^>]*>.*?</nav>', raw, re.S)
+        if m:
+            raw = raw[:m.end()] + "\n" + views(pg, lang, tr) + raw[m.end():]
     raw = raw.replace("</head>", f'<link rel="stylesheet" href="/assets/nav.css?v={v}">\n</head>', 1)
     # imagen social propia de la página (i18n/og_pages.py), si existe
     k = pg["path"].strip("/").replace(".html", "").replace("/", "-")
@@ -174,7 +216,7 @@ def inject(raw, pg, lang, tr):
         img = f"https://www.softwareinabox.eu/assets/og/{k}_{base}.jpg"
         raw = re.sub(r'(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*"', lambda m: m.group(1) + img + '"', raw)
     k = raw.rfind("</body>")
-    raw = raw[:k] + top_button(lang, tr) + f'\n<script src="/assets/nav.js?v={v}" defer></script>\n' + raw[k:]
+    raw = raw[:k] + top_button(pg, lang, tr) + f'\n<script src="/assets/nav.js?v={v}" defer></script>\n' + raw[k:]
     # los scripts propios de cada página ya no gobiernan el menú (lo hace nav.js)
     raw = re.sub(r"document\.querySelector\(([\"'])\.(?:burger|sx-none)\1\),n=document\.getElementById\(([\"'])nav\2\)",
                  'document.createElement("button"),n=document.createElement("nav")', raw)
@@ -223,7 +265,7 @@ def label(raw):
 
 
 def regs():
-    return [pg for pg in B.SITE["pages"] if re.match(r"^/regulacion/[a-z0-9-]+/$", pg["path"]) and pg["path"] != "/regulacion/informe-cada/"]
+    return [pg for pg in B.SITE["pages"] if re.match(r"^/regulacion/[a-z0-9-]+/$", pg["path"]) and pg["path"] != "/regulacion/informe-cada/" and not pg.get("gen")]
 
 
 def pager(pg, lang, tr, labels):
@@ -248,13 +290,18 @@ def norms_list(layer, lang, labels):
 
 
 def postpass(langs):
-    for lang in [B.SRC] + list(langs):
-        tr = B.load_tr(lang) if lang != B.SRC else {}
-        labels = {}
+    L = [B.SRC] + list(langs)
+    ALL = {}
+    for lang in L:
+        ALL[lang] = {}
         for pg in B.SITE["pages"]:
             f = out_file(pg, lang)
             if os.path.exists(f) and B.has_lang(pg, lang) and not pg.get("gen"):
-                labels[pg["path"]] = label(open(f, encoding="utf-8").read())
+                ALL[lang][pg["path"]] = label(open(f, encoding="utf-8").read())
+    GEN = {"sitemap": sitemap_page, "calendar": calendar_page, "paises": paises_page}
+    for lang in L:
+        tr = B.load_tr(lang) if lang != B.SRC else {}
+        labels = ALL[lang]
         for pg in regs():
             f = out_file(pg, lang)
             if not os.path.exists(f):
@@ -265,17 +312,17 @@ def postpass(langs):
             raw = raw[:i] + pager(pg, lang, tr, labels) + "\n" + raw[i:]
             open(f, "w", encoding="utf-8").write(raw)
         for pg in B.SITE["pages"]:
-            if not pg["path"].startswith("/productos/") or not B.has_lang(pg, lang):
+            if not pg["path"].startswith("/productos/") or not B.has_lang(pg, lang) or pg.get("gen"):
                 continue
             f = out_file(pg, lang)
             raw = open(f, encoding="utf-8").read()
             raw = re.sub(r"<!--SX:NORMS:(l-\w+)-->.*?<!--/SX:NORMS-->", lambda m: norms_list(m.group(1), lang, labels), raw, flags=re.S)
             open(f, "w", encoding="utf-8").write(raw)
         for pg in B.SITE["pages"]:
-            if pg.get("gen") == "sitemap":
+            if pg.get("gen") in GEN:
                 f = out_file(pg, lang)
                 os.makedirs(os.path.dirname(f), exist_ok=True)
-                open(f, "w", encoding="utf-8").write(sitemap_page(pg, lang, tr, labels))
+                open(f, "w", encoding="utf-8").write(GEN[pg["gen"]](pg, lang, tr, labels, ALL))
                 if lang != B.SRC and B.lfile(pg, lang) != pg["file"]:  # ruta antigua -> nueva
                     old = os.path.join(ROOT, lang, pg["file"])
                     os.makedirs(os.path.dirname(old), exist_ok=True)
@@ -283,6 +330,36 @@ def postpass(langs):
     open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(page_404(langs))
     if MISSING:
         print("nav: textos sin traducir:", sorted(MISSING)[:20], "…" if len(MISSING) > 20 else "")
+
+
+def calendar_page(pg, lang, tr, labels, ALL):
+    t = lambda s: esc(T(s, lang, tr))
+    body = (f'<h1>{t("Calendario de la regulación europea")}</h1>\n'
+            f'<p class="lead">{t("Todos los hitos de 2025 a 2030, norma a norma: fechas de aplicación, plazos y decisiones pendientes.")}</p>\n'
+            f'<div class="sx-cal"><table><thead><tr><th>{t("Fecha")}</th><th>{t("Norma")}</th><th>{t("Hito")}</th><th>{t("A quién afecta")}</th></tr></thead>'
+            f'<tbody><!--PRE:tl--><!--/PRE:tl--></tbody></table></div>\n'
+            f'<p class="sx-back"><a href="{U("/regulacion/", lang)}#radar">← {t("Volver al radar")}</a> · '
+            f'<a href="{U("/regulacion/paises/", lang)}">{t("Por país")}</a> · <a href="{U("/mapa-del-sitio/", lang)}#normas">{t("Todas las normas (A–Z)")}</a></p>\n'
+            '<script data-i18n="skip">(function(){var M={fabricante:"F",mayorista:"M",integrador:"I",cliente:"C"},r=M[new URLSearchParams(location.search).get("rol")];'
+            'if(!r)return;document.querySelectorAll(".sx-cal tr[data-aud]").forEach(function(x){if(x.dataset.aud.indexOf(r)<0)x.style.display="none"})})();</script>')
+    title = T("Calendario de la regulación europea", lang, tr) + " · Software in a Box"
+    return shell(pg, lang, tr, title, T("Todos los hitos de 2025 a 2030, norma a norma: fechas de aplicación, plazos y decisiones pendientes.", lang, tr), body)
+
+
+def paises_page(pg, lang, tr, labels, ALL):
+    t = lambda s: esc(T(s, lang, tr))
+    cards = []
+    for l, name in VIEWS:
+        lab = ALL.get(l, {})
+        items = [p for p in regs() if adapted(p) and B.has_lang(p, l) and p["path"] in lab]
+        lis = "".join(f'<li><a href="{U(p["path"], l)}">{esc(lab[p["path"]])}</a></li>' for p in items)
+        sub = "" if l == "en" else f' <small>{l.upper()}</small>'
+        cards.append(f'<section lang="{l}"><h2><a href="{U("/regulacion/", l)}">{t(name)}</a>{sub}</h2><ul>{lis}</ul></section>')
+    body = (f'<h1>{t("La regulación europea, país por país")}</h1>\n'
+            f'<p class="lead">{t("Cada guía adapta las normas a un país: autoridades, leyes nacionales y calendario. La versión de la UE está en inglés.")}</p>\n'
+            '<div class="sx-map">' + "\n".join(cards) + '</div>')
+    title = T("La regulación europea, país por país", lang, tr) + " · Software in a Box"
+    return shell(pg, lang, tr, title, T("Cada guía adapta las normas a un país: autoridades, leyes nacionales y calendario. La versión de la UE está en inglés.", lang, tr), body)
 
 
 def shell(pg, lang, tr, title, desc, body, robots="index, follow"):
@@ -304,13 +381,18 @@ def shell(pg, lang, tr, title, desc, body, robots="index, follow"):
            '.sx-map section{border-top:3px solid #C9A227;padding-top:14px}.sx-map h2{font-size:19px;margin:0 0 10px}'
            '.sx-map ul{list-style:none;margin:0;padding:0}.sx-map li{padding:5px 0;border-bottom:1px solid #EEF1F5}'
            '.sx-map a{color:#0B2545;text-decoration:none}.sx-map a:hover{text-decoration:underline}.sx-map small{color:#5A6A80}'
-           '.sx-wide{grid-column:1/-1}.sx-wide ul{columns:3 280px;column-gap:30px}.sx-wide li{break-inside:avoid}</style>\n'
+           '.sx-wide{grid-column:1/-1}.sx-wide ul{columns:3 280px;column-gap:30px}.sx-wide li{break-inside:avoid}'
+           '.sx-map h2 small{font:600 12px Montserrat,system-ui;color:#8C6D0E;margin-left:6px}.sx-map h2 a{color:#0B2545;text-decoration:none}'
+           '.sx-cal{overflow-x:auto;border:1px solid #D5DDE7;border-radius:14px}.sx-cal table{border-collapse:collapse;width:100%;font-size:15.5px}'
+           '.sx-cal th{position:sticky;top:0;background:#0B2545;color:#fff;text-align:left;font:700 13px Montserrat,system-ui;text-transform:uppercase;letter-spacing:.06em;padding:12px 14px}'
+           '.sx-cal td{padding:11px 14px;border-top:1px solid #EEF1F5;vertical-align:top}.sx-cal tr:nth-child(even) td{background:#F7F9FB}.sx-cal .mini{font-size:13.5px;color:#5A6A80}'
+           '.sx-back{margin-top:24px}.sx-back a{color:#0B2545;font-weight:600}</style>\n'
            '</head>\n<body>\n<header></header>\n'
            f'<main id="contenido" class="sx-main">\n{body}\n</main>\n<footer></footer>\n</body>\n</html>\n')
     return B.add_common(inject(raw, pg, lang, tr), pg, lang)
 
 
-def sitemap_page(pg, lang, tr, labels):
+def sitemap_page(pg, lang, tr, labels, ALL=None):
     t = lambda s: esc(T(s, lang, tr))
     li = lambda p, extra="": f'<li><a href="{U(p, lang)}">{esc(labels.get(p, p))}</a>{extra}</li>'
     pages = [p for p in B.SITE["pages"] if B.has_lang(p, lang) and p.get("sitemap", True) is not False and not p.get("gen")]

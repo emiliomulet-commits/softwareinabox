@@ -85,4 +85,32 @@ footer.sx-ft{background:#071A33;color:#AFC0D6;font:15px/1.55 'Hanken Grotesk',sy
 .sx-top:hover{background:#C9A227;color:#0B2545}
 .sx-top svg{width:20px;height:20px}
 .sx-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* «En esta página» y progreso */
+nav.subnav.sx-toc{display:flex;align-items:stretch}
+nav.subnav.sx-toc>.wrap{flex:1;min-width:0}
+.sx-tocbox{position:relative;flex:none;display:flex;align-items:center;padding-left:max(12px,calc((100vw - 1240px)/2));border-right:1px solid #D5DDE7}
+.sx-tocbtn{display:flex;align-items:center;gap:7px;background:none;border:0;cursor:pointer;font:700 14px 'Montserrat',system-ui,sans-serif;color:#0B2545;padding:10px 14px 10px 6px;white-space:nowrap}
+.sx-tocbtn svg{width:12px;height:12px;transition:transform .15s}.sx-tocbox.open .sx-tocbtn svg{transform:rotate(180deg)}
+.sx-toclist{display:none;position:absolute;top:100%;left:max(12px,calc((100vw - 1240px)/2));min-width:280px;max-height:70vh;overflow:auto;background:#fff;border:1px solid #D5DDE7;border-radius:12px;box-shadow:0 14px 34px rgba(11,37,69,.18);padding:8px;z-index:60}
+.sx-tocbox.open .sx-toclist{display:block}
+.sx-toclist a{display:block;padding:9px 12px;border-radius:8px;color:#233044;text-decoration:none;font:500 15px 'Hanken Grotesk',system-ui,sans-serif;border:0!important}
+.sx-toclist a:hover{background:#F2F5F9}.sx-toclist a.on{color:#0B2545;font-weight:700;box-shadow:inset 3px 0 0 #C9A227}
+.sx-prog{position:absolute;left:0;bottom:-1px;height:3px;width:0;background:#C9A227;transition:width .1s linear;pointer-events:none}
+@media (max-width:700px){.sx-tocbtn span{max-width:9.5em;overflow:hidden;text-overflow:ellipsis}}
+/* secciones plegadas */
+.sx-fold{position:relative;max-height:min(1100px,130vh);overflow:hidden}
+.sx-fold:not(.open)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(rgba(255,255,255,0),var(--sx-bg,#fff));pointer-events:none}
+.sec.alt .sx-fold{--sx-bg:#F2F5F9}
+.sx-fold.open{max-height:none}
+.sx-foldrow{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:18px}
+.sx-more{background:#0B2545;color:#fff;border:0;border-radius:10px;padding:12px 20px;font:700 15px 'Montserrat',system-ui,sans-serif;cursor:pointer}
+.sx-more:hover{background:#13315C}
+.sx-morelink{font:700 15px 'Montserrat',system-ui,sans-serif;color:#0B2545}
+/* versiones UE / país de una ficha */
+.sx-views{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 18px;font:14px 'Hanken Grotesk',system-ui,sans-serif}
+.sx-views b{font-weight:700;margin-right:4px;opacity:.8}
+.sx-views a{text-decoration:none;border:1px solid currentColor;border-radius:999px;padding:4px 11px;opacity:.75;color:inherit}
+.sx-views a:hover{opacity:1}
+.sx-views a[aria-current]{opacity:1;background:#C9A227;border-color:#C9A227;color:#0B2545;font-weight:700}
+.sx-views small{opacity:.7;margin-left:3px;font-size:11px}
 @media print{header.sx-hd,footer.sx-ft,.sx-top,.sx-pager{display:none}}
