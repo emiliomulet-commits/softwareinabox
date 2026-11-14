@@ -73,6 +73,7 @@
         {
           "file": "regulacion/data-act/index.html",
           "path": "/regulacion/data-act/",
+          "tr_src": "i18n/src/regulacion-data-act.html",
           "changefreq": "monthly",
           "priority": "0.8"
         },
