@@ -93,6 +93,7 @@
         },
         {
           "file": "regulacion/csa2-eucs/index.html",
+          "tr_src": "i18n/src/regulacion-csa2-eucs.html",
           "path": "/regulacion/csa2-eucs/",
           "changefreq": "monthly",
           "priority": "0.8"
