@@ -596,73 +596,202 @@
           "file": "que-es-cognitiv.html",
           "path": "/que-es-cognitiv",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/what-is-cognitiv",
+            "fr": "/quest-ce-que-cognitiv",
+            "de": "/was-ist-cognitiv",
+            "nl": "/wat-is-cognitiv",
+            "pt": "/o-que-e-cognitiv",
+            "it": "/cos-e-cognitiv",
+            "da": "/hvad-er-cognitiv",
+            "fr-be": "/quest-ce-que-cognitiv",
+            "nl-be": "/wat-is-cognitiv"
+          }
         },
         {
           "file": "servidores.html",
           "path": "/servidores",
           "changefreq": "monthly",
-          "priority": "0.9"
+          "priority": "0.9",
+          "paths": {
+            "en": "/servers",
+            "fr": "/serveurs",
+            "de": "/server",
+            "nl": "/servers",
+            "it": "/server",
+            "da": "/servere",
+            "fr-be": "/serveurs",
+            "nl-be": "/servers"
+          }
         },
         {
           "file": "escenarios.html",
           "path": "/escenarios",
           "changefreq": "monthly",
-          "priority": "0.8"
+          "priority": "0.8",
+          "paths": {
+            "en": "/scenarios",
+            "fr": "/scenarios",
+            "de": "/szenarien",
+            "nl": "/scenarios",
+            "pt": "/cenarios",
+            "it": "/scenari",
+            "da": "/scenarier",
+            "fr-be": "/scenarios",
+            "nl-be": "/scenarios"
+          }
         },
         {
           "file": "escenario-industria.html",
           "path": "/escenario-industria",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/scenario-industry",
+            "fr": "/scenario-industrie",
+            "de": "/szenario-industrie",
+            "nl": "/scenario-industrie",
+            "pt": "/cenario-industria",
+            "it": "/scenario-industria",
+            "da": "/scenarie-industri",
+            "fr-be": "/scenario-industrie",
+            "nl-be": "/scenario-industrie"
+          }
         },
         {
           "file": "escenario-finanzas.html",
           "path": "/escenario-finanzas",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/scenario-finance",
+            "fr": "/scenario-finance",
+            "de": "/szenario-finanzen",
+            "nl": "/scenario-financien",
+            "pt": "/cenario-financas",
+            "it": "/scenario-finanza",
+            "da": "/scenarie-finans",
+            "fr-be": "/scenario-finance",
+            "nl-be": "/scenario-financien"
+          }
         },
         {
           "file": "escenario-legal.html",
           "path": "/escenario-legal",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/scenario-legal",
+            "fr": "/scenario-juridique",
+            "de": "/szenario-recht",
+            "nl": "/scenario-juridisch",
+            "pt": "/cenario-juridico",
+            "it": "/scenario-legale",
+            "da": "/scenarie-jura",
+            "fr-be": "/scenario-juridique",
+            "nl-be": "/scenario-juridisch"
+          }
         },
         {
           "file": "soberania-y-control.html",
           "path": "/soberania-y-control",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/sovereignty-and-control",
+            "fr": "/souverainete-et-controle",
+            "de": "/souveraenitaet-und-kontrolle",
+            "nl": "/soevereiniteit-en-controle",
+            "pt": "/soberania-e-controlo",
+            "it": "/sovranita-e-controllo",
+            "da": "/suveraenitet-og-kontrol",
+            "fr-be": "/souverainete-et-controle",
+            "nl-be": "/soevereiniteit-en-controle"
+          }
         },
         {
           "file": "seguridad-y-cumplimiento.html",
           "path": "/seguridad-y-cumplimiento",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/security-and-compliance",
+            "fr": "/securite-et-conformite",
+            "de": "/sicherheit-und-compliance",
+            "nl": "/beveiliging-en-compliance",
+            "pt": "/seguranca-e-conformidade",
+            "it": "/sicurezza-e-conformita",
+            "da": "/sikkerhed-og-compliance",
+            "fr-be": "/securite-et-conformite",
+            "nl-be": "/beveiliging-en-compliance"
+          }
         },
         {
           "file": "inteligencia-y-capacidad.html",
           "path": "/inteligencia-y-capacidad",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/intelligence-and-capability",
+            "fr": "/intelligence-et-capacite",
+            "de": "/intelligenz-und-leistung",
+            "nl": "/intelligentie-en-capaciteit",
+            "pt": "/inteligencia-e-capacidade",
+            "it": "/intelligenza-e-capacita",
+            "da": "/intelligens-og-kapacitet",
+            "fr-be": "/intelligence-et-capacite",
+            "nl-be": "/intelligentie-en-capaciteit"
+          }
         },
         {
           "file": "valor-economico.html",
           "path": "/valor-economico",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/economic-value",
+            "fr": "/valeur-economique",
+            "de": "/wirtschaftlicher-wert",
+            "nl": "/economische-waarde",
+            "it": "/valore-economico",
+            "da": "/oekonomisk-vaerdi",
+            "fr-be": "/valeur-economique",
+            "nl-be": "/economische-waarde"
+          }
         },
         {
           "file": "estrategia-y-confianza.html",
           "path": "/estrategia-y-confianza",
           "changefreq": "monthly",
-          "priority": "0.7"
+          "priority": "0.7",
+          "paths": {
+            "en": "/strategy-and-trust",
+            "fr": "/strategie-et-confiance",
+            "de": "/strategie-und-vertrauen",
+            "nl": "/strategie-en-vertrouwen",
+            "pt": "/estrategia-e-confianca",
+            "it": "/strategia-e-fiducia",
+            "da": "/strategi-og-tillid",
+            "fr-be": "/strategie-et-confiance",
+            "nl-be": "/strategie-en-vertrouwen"
+          }
         },
         {
           "file": "contacto.html",
           "path": "/contacto",
           "changefreq": "yearly",
-          "priority": "0.6"
+          "priority": "0.6",
+          "paths": {
+            "en": "/contact",
+            "fr": "/contact",
+            "de": "/kontakt",
+            "nl": "/contact",
+            "it": "/contatti",
+            "da": "/kontakt",
+            "fr-be": "/contact",
+            "nl-be": "/contact"
+          }
         },
         {
           "file": "gracias.html",
@@ -749,15 +878,21 @@
   "lang_sites": {
     "fr-be": [
       "www",
-      "datos"
+      "datos",
+      "cognitiv",
+      "argos"
     ],
     "nl-be": [
       "www",
-      "datos"
+      "datos",
+      "cognitiv",
+      "argos"
     ],
     "da": [
       "www",
-      "datos"
+      "datos",
+      "cognitiv",
+      "argos"
     ]
   }
 }
