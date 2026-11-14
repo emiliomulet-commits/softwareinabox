@@ -21,6 +21,11 @@
 - [Ficha completa de la Data Union Strategy](https://www.softwareinabox.eu/regulacion/data-union/): Estrategia de la Unión de Datos COM(2025) 835: tres pilares, laboratorios de datos, consolidación de la DGA y los datos abiertos en el Data Act y soberanía de datos. En español.
 - [Ficha completa de la Chips Act 2.0](https://www.softwareinabox.eu/regulacion/chips-act/): propuesta COM(2026) 504: balance de la Chips Act de 2023, medidas de demanda, permisos, ayudas a primeras instalaciones y PERTE Chip en España. En español.
 - [Ficha completa del ecodiseño de servidores](https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/): Reglamento (UE) 2019/424, su revisión, obligaciones de los centros de datos, clasificación A–G y real decreto español. En español.
+- [Ficha completa de RAEE](https://www.softwareinabox.eu/regulacion/raee/): Real Decreto 110/2015 de residuos de aparatos eléctricos y electrónicos: productores, distribuidores, equipos de TI, Directiva 2024/884 pendiente y revisión europea. En español.
+- [Ficha completa de la factura electrónica y VERI*FACTU](https://www.softwareinabox.eu/regulacion/factura-electronica/): RD 238/2026 y Orden HAC/1028/2026 (6-10-2027 y 6-10-2028), solución pública de la AEAT, formatos, VERI*FACTU y ViDA. En español.
+- [Ficha completa del ENS](https://www.softwareinabox.eu/regulacion/ens/): Esquema Nacional de Seguridad (RD 311/2022): ámbito, categorías, certificación, nube, contratación pública y NIS2. En español.
+- [Ficha completa de la ley española de gobernanza de la IA](https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/): proyecto de ley orgánica de 2026, su contenido y su caducidad con la disolución de las Cortes; qué se aplica mientras tanto. En español.
+- [Ficha completa del RD de centros de datos](https://www.softwareinabox.eu/regulacion/rd-centros-datos/): proyecto de real decreto sobre renovables horarias, eficiencia y soberanía digital de los centros de datos, texto revisado de 10 MW y tramitación. En español.
 
 ## Experiencia
 - El equipo de Software in a Box ha participado en el desarrollo tecnológico de tres espacios de datos cofinanciados por la SEDIA (2024–2026): Global Data Care (salud), PROCUREDATA (compras) y EcoDataNet (economía circular).

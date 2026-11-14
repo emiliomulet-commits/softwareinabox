@@ -437,6 +437,46 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ecodiseno-servidores/"/>
   </url>
   <url>
+    <loc>https://www.softwareinabox.eu/regulacion/raee/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/raee/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/factura-electronica/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/factura-electronica/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/ens/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ens/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/ley-gobernanza-ia/"/>
+  </url>
+  <url>
+    <loc>https://www.softwareinabox.eu/regulacion/rd-centros-datos/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/rd-centros-datos/"/>
+  </url>
+  <url>
     <loc>https://www.softwareinabox.eu/aviso-legal.html</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>yearly</changefreq>

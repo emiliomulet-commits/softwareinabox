@@ -1604,8 +1604,8 @@
   ]
  },
  {
-  "id": "c039fc17bb",
-  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle. CADA, AI Act, Data Act, CRA, NIS2, CSA2, DORA, DMA, EHDS, RGPD, Data Union, Chips Act y Ecodiseño tienen ficha completa.",
+  "id": "7aad9c3665",
+  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle. Todas las normas del radar tienen ficha completa.",
   "kind": "html",
   "pages": [
    "regulacion/index.html"
@@ -3832,8 +3832,8 @@
   ]
  },
  {
-  "id": "4db1f54c18",
-  "src": "El proyecto de real decreto español exige, para centros de 1 MW o más, que al menos el 80 % del consumo de cada hora esté respaldado por renovables de esa misma hora.",
+  "id": "1c78a5f825",
+  "src": "El proyecto de real decreto español exige, en su versión revisada, que los centros de 10 MW o más cubran el 80 % de su consumo con renovables de la misma hora, con plazos de adaptación hasta 2031.",
   "kind": "html",
   "pages": [
    "regulacion/index.html"
@@ -4872,16 +4872,16 @@
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
@@ -5976,8 +5976,8 @@
   ]
  },
  {
-  "id": "ebe0d7358f",
-  "src": "Factura electrónica B2B obligatoria y solución pública regulada (oct. 2026). VERI*FACTU, aplazado a octubre de 2028.",
+  "id": "74d12b704c",
+  "src": "Factura electrónica B2B obligatoria desde el 6-10-2027 para quien supere 8 M€ y desde el 6-10-2028 para el resto. VERI*FACTU, con aplazamiento previsto a octubre de 2028.",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -5992,8 +5992,24 @@
   ]
  },
  {
+  "id": "04c8dc6d32",
+  "src": "Más de 8 M€",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
   "id": "cf85b0cad8",
   "src": "Oct. 2028",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7c61f649aa",
+  "src": "Resto y VERI*FACTU",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -6104,16 +6120,16 @@
   ]
  },
  {
-  "id": "be0ce66e98",
-  "src": "Proyecto de Ley Orgánica (remitido a las Cortes 26-5-2026)",
+  "id": "f7ec8b3f47",
+  "src": "Proyecto de Ley Orgánica (caducado con la disolución de las Cortes, 6-10-2026)",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "943ea62993",
-  "src": "Designa a la AESIA como autoridad principal, regula entornos de pruebas y sanciones e incluye el uso de IA en el sector público estatal. Es proyecto, no derecho vigente.",
+  "id": "9d80407135",
+  "src": "Adaptaba el AI Act: AESIA como autoridad principal, sandbox, sanciones y uso de IA en el sector público estatal. Decayó con la disolución de las Cortes; el AI Act se aplica igualmente, pero sin régimen sancionador nacional.",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -6122,6 +6138,14 @@
  {
   "id": "1ed9abb2d4",
   "src": "Remisión a las Cortes",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cb89fca771",
+  "src": "Caduca con la disolución",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -6176,16 +6200,16 @@
   ]
  },
  {
-  "id": "2a62f1344a",
-  "src": "Proyecto de RD de centros de datos sostenibles (audiencia ago. 2026)",
+  "id": "43202d5c9c",
+  "src": "Proyecto de RD de centros de datos (dictamen del Consejo de Estado, nov. 2026)",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "05e17c0d1d",
-  "src": "Para instalaciones de 1 MW o más: al menos el 80 % del consumo de cada hora respaldado por renovables de esa hora, límites de consumo de red y operador establecido en la UE.",
+  "id": "ba4872668e",
+  "src": "Según el texto revisado, para centros de 10 MW o más: el 80 % del consumo con renovables de la misma hora, clase A en eficiencia energética e hídrica y, para sistemas públicos de categoría alta, datos solo en la UE. Pendiente de aprobación.",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -6194,6 +6218,22 @@
  {
   "id": "a0e7199bf1",
   "src": "Audiencia pública",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0bf1539437",
+  "src": "Nov. 2026",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "030f0ba860",
+  "src": "Dictamen del Consejo de Estado",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -6352,6 +6392,14 @@
   ]
  },
  {
+  "id": "df1751d176",
+  "src": "6-10-2026 · Disolución de las Cortes: decae el PLO de IA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
   "id": "14e41e68b5",
   "src": "11-11-2026 · Proyecto de informe conjunto en el Parlamento",
   "kind": "js",
@@ -6368,8 +6416,8 @@
   ]
  },
  {
-  "id": "824ce0a660",
-  "src": "Fin 2026 · Transposición NIS2 en España (prevista)",
+  "id": "d264571461",
+  "src": "2027 · Transposición NIS2 en España, tras las elecciones",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -7360,8 +7408,8 @@
   ]
  },
  {
-  "id": "f4137acfbc",
-  "src": "Renovable horaria y operador establecido en la UE para centros de 1 MW o más.",
+  "id": "dfe67a8897",
+  "src": "Renovable horaria, eficiencia de clase A y datos públicos sensibles en la UE para centros de 10 MW o más.",
   "kind": "js",
   "pages": [
    "regulacion/index.html"

@@ -166,6 +166,51 @@
           ]
         },
         {
+          "file": "regulacion/raee/index.html",
+          "path": "/regulacion/raee/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/factura-electronica/index.html",
+          "path": "/regulacion/factura-electronica/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/ens/index.html",
+          "path": "/regulacion/ens/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/ley-gobernanza-ia/index.html",
+          "path": "/regulacion/ley-gobernanza-ia/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
+          "file": "regulacion/rd-centros-datos/index.html",
+          "path": "/regulacion/rd-centros-datos/",
+          "changefreq": "monthly",
+          "priority": "0.8",
+          "langs": [
+            "es"
+          ]
+        },
+        {
           "file": "aviso-legal.html",
           "path": "/aviso-legal.html",
           "changefreq": "yearly",
