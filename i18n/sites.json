@@ -55,10 +55,7 @@
           "file": "regulacion/index.html",
           "path": "/regulacion/",
           "changefreq": "weekly",
-          "priority": "0.9",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.9"
         },
         {
           "file": "aviso-legal.html",

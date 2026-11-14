@@ -8,7 +8,7 @@
 - [Espacios de datos federados](https://datos.softwareinabox.eu/): conectores Eclipse EDC y Pontus-X, contratos ODRL, credenciales Gaia-X; primer vertical: clínicas dentales con IA sobre Microsoft Azure.
 
 ## Regulación UE
-- [Regulación UE para la cadena tecnológica](https://www.softwareinabox.eu/regulacion/): radar de 18 normas europeas (CADA, AI Act, Data Act, CRA, NIS2, CSA2, DORA, DMA, EHDS, RGPD, ENS y otras) leídas para fabricantes, mayoristas y distribuidores, integradores e industria cliente final; ficha completa de la Cloud and AI Development Act (cuatro niveles de garantía, Anexo III, arts. 29–33), calendario 2025–2030, matriz de impacto, casos de estudio, oportunidades, cuellos de botella y autodiagnóstico. En español.
+- [Regulación UE para la cadena tecnológica](https://www.softwareinabox.eu/regulacion/): radar de 18 normas europeas (CADA, AI Act, Data Act, CRA, NIS2, CSA2, DORA, DMA, EHDS, RGPD, ENS y otras) leídas para fabricantes, mayoristas y distribuidores, integradores e industria cliente final; ficha completa de la Cloud and AI Development Act (cuatro niveles de garantía, Anexo III, arts. 29–33), calendario 2025–2030, matriz de impacto, casos de estudio, oportunidades, cuellos de botella y autodiagnóstico. Disponible en español, inglés, francés, alemán, neerlandés, portugués e italiano (/en/regulacion/, /fr/regulacion/…).
 
 ## Experiencia
 - El equipo de Software in a Box ha participado en el desarrollo tecnológico de tres espacios de datos cofinanciados por la SEDIA (2024–2026): Global Data Care (salud), PROCUREDATA (compras) y EcoDataNet (economía circular).

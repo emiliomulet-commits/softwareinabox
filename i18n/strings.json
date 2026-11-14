@@ -13,6 +13,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -25,6 +26,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -36,7 +38,8 @@
   "src": "Menú",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -108,7 +111,8 @@
   "src": "Espacios de datos",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -124,7 +128,8 @@
   "src": "ARGOS",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -140,7 +145,8 @@
   "src": "COGNITIV",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -148,7 +154,8 @@
   "src": "IA soberana en su servidor",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -204,7 +211,8 @@
   "src": "Ir a COGNITIV",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -220,7 +228,8 @@
   "src": "Prueba accesos, cesiones y borrados de extremo a extremo",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -244,7 +253,8 @@
   "src": "Ir a ARGOS",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -260,7 +270,8 @@
   "src": "Conectores Eclipse EDC y Pontus-X con contratos ODRL",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -268,7 +279,8 @@
   "src": "Identidad con credenciales Gaia-X",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -284,7 +296,8 @@
   "src": "Ir a Espacios de datos",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -636,7 +649,8 @@
   "src": "Salud",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -684,7 +698,8 @@
   "src": "Industria",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -701,6 +716,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -720,7 +736,8 @@
   "src": "Sector público",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -856,7 +873,8 @@
   "src": "Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -865,6 +883,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -877,6 +896,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -888,7 +908,8 @@
   "src": "Cómo trabajamos",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -896,7 +917,8 @@
   "src": "Experiencia",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -905,6 +927,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "privacidad.html"
   ]
  },
@@ -914,6 +937,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -925,7 +949,8 @@
   "src": "Regulación UE",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -933,7 +958,8 @@
   "src": "llms.txt",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -941,7 +967,8 @@
   "src": "Mapa del sitio",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -949,7 +976,8 @@
   "src": "© 2026 Software in a Box, marca de Ullswater Investments S.L.",
   "kind": "html",
   "pages": [
-   "index.html"
+   "index.html",
+   "regulacion/index.html"
   ]
  },
  {
@@ -958,6 +986,7 @@
   "kind": "html",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -1074,6 +1103,7 @@
   "kind": "attr",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -1086,6 +1116,7 @@
   "kind": "attr",
   "pages": [
    "index.html",
+   "regulacion/index.html",
    "aviso-legal.html",
    "privacidad.html",
    "cookies.html",
@@ -1130,6 +1161,6218 @@
   "kind": "attr",
   "pages": [
    "index.html"
+  ]
+ },
+ {
+  "id": "1adbb21b4f",
+  "src": "Regulación UE de nube, IA, datos y ciberseguridad para el canal tecnológico · Software in a Box",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d71629087b",
+  "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "70ee5a6254",
+  "src": "<a href=\"/\">Inicio</a> › Regulación UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "627cc037a0",
+  "src": "Radar regulatorio UE · Nube · IA · Datos · Ciberseguridad",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c6a2fcf1ec",
+  "src": "La norma ya está aquí. <span>Su negocio, también.</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9cbc552a77",
+  "src": "Toda la regulación europea que afecta a la tecnología, explicada desde quien la fabrica, la distribuye, la integra y la compra. Qué cambia, cuándo, quién tiene que probar qué y dónde está la oportunidad.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "14ea6412b4",
+  "src": "Leer esta página como…",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "95a7ca4ed2",
+  "src": "Fabricante",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9a5e30dfa2",
+  "src": "Mayorista / distribuidor",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "25a344f8f7",
+  "src": "Integrador / MSP",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "32adb0e2c0",
+  "src": "Industria cliente final",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7e70af4fe5",
+  "src": "<b>18</b>normas seguidas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "10074f0484",
+  "src": "<b>4</b>eslabones de la cadena",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2814e99aa2",
+  "src": "<b>2027–2030</b>ventana de oportunidad",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "91dbda7029",
+  "src": "<b>+1.000</b>fuentes analizadas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3445089f44",
+  "src": "MARCO DE SOBERANÍA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1a73d62c73",
+  "src": "ESPACIOS DE DATOS",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d26fdb9a01",
+  "src": "CADA · CSA2 · ENS",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "224a752e1c",
+  "src": "AI Act · CADA niveles 2–4",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2ed31b2169",
+  "src": "NIS2 · CRA · RGPD · DORA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ca70edd531",
+  "src": "Data Act · EHDS",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "425fb3def6",
+  "src": "AI Act",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9a12a317d1",
+  "src": "Data Act",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0fadf1d700",
+  "src": "CRA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a8e9a70dc4",
+  "src": "NIS2",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "763a6b2db2",
+  "src": "CADA 2026",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "19fe9ef6f5",
+  "src": "<a href=\"#cadena\">La cadena</a> <a href=\"#radar\">Radar de normas</a> <a href=\"#calendario\">Calendario</a> <a href=\"#matriz\">Matriz de impacto</a> <a href=\"#cada\">Foco: CADA</a> <a href=\"#casos\">Casos de estudio</a> <a href=\"#oportunidades\">Oportunidades</a> <a href=\"#riesgos\">Cuellos de botella</a> <a href=\"#escenarios\">Escenarios</a> <a href=\"#diagnostico\">¿Qué me aplica?</a> <a href=\"#soluciones\">Cómo ayudamos</a> <a href=\"#glosario\">Glosario</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4f10641359",
+  "src": "Está leyendo la página como",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "54ec71f499",
+  "src": ". Resaltamos lo que más le afecta.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "486f7ff02b",
+  "src": "Ver todo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7960547e5d",
+  "src": "Por qué esta sección es distinta",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8b93bad301",
+  "src": "La soberanía no la acredita un actor aislado. La acredita una cadena.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "73d292fe2e",
+  "src": "Las normas europeas reparten obligaciones por eslabón: el fabricante aporta la evidencia técnica, el mayorista la normaliza y la verifica, el integrador construye el servicio y el cliente final decide qué nivel compra. Elija su eslabón.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "28e8cbde96",
+  "src": "Hardware, software, seguridad, IA, infraestructura física.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "83e7caef6b",
+  "src": "Telemetría y gestión: ¿dentro de la UE?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9e3b1f9608",
+  "src": "Soporte de 2.º y 3.er nivel desde la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3d4e99e4bc",
+  "src": "SBOM y vulnerabilidades (CRA)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e548be90cd",
+  "src": "Datos del cliente sin entrenar IA ajena",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c204c61f95",
+  "src": "Catálogo, logística, preventa, financiación, formación.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a6c37355ec",
+  "src": "Importador o distribuidor en el CRA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a3cd9658ab",
+  "src": "Ficha de soberanía por familia de producto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f4b8501f13",
+  "src": "Configuraciones de referencia por nivel",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8ebdeab40f",
+  "src": "RAEE, ecodiseño, factura electrónica",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7dbe60138d",
+  "src": "Proyecto, implantación, servicios gestionados.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bb7edaf467",
+  "src": "El nivel CADA se otorga a su servicio",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c1c836131a",
+  "src": "Expediente de evidencia (Anexo III)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "06e3b16f2e",
+  "src": "NIS2: cadena de suministro",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ea952b4bd2",
+  "src": "Migraciones conformes al Data Act",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a676ffc1fe",
+  "src": "Sector público, salud, energía, finanzas, industria.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ad37375372",
+  "src": "Evaluación de riesgos y compra por niveles",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "be34b6bf60",
+  "src": "AI Act como responsable del despliegue",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c0f5e333a1",
+  "src": "NIS2 / DORA: exigir a los proveedores",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "516778fcc4",
+  "src": "Cambio de proveedor sin cargos (2027)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "407cff6edc",
+  "src": "Radar de normas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4ead9ddd2f",
+  "src": "Cada norma, leída para su eslabón",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e6f4f563de",
+  "src": "Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8a3c344036",
+  "src": "Todas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9c87076f6a",
+  "src": "Nube y soberanía",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d41daf5937",
+  "src": "IA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bb0a7c3a87",
+  "src": "Datos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html",
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "ae6ff10f9c",
+  "src": "Ciberseguridad",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "658c675394",
+  "src": "Producto y mercado",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1ea132ffbd",
+  "src": "España",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "12be499a61",
+  "src": "<span class=\"badge b-vig\">En vigor</span><span class=\"badge b-gra\">Aplicación gradual</span><span class=\"badge b-pro\">Propuesta / en tramitación</span><span class=\"badge b-esp\">Pendiente en España</span><span>Barras: impacto en fabricante · mayorista · integrador · cliente</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dd7b02f344",
+  "src": "Calendario regulatorio 2025–2030",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "78c2134f5a",
+  "src": "Dos picos de carga, una sola preparación",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a34b9e7f27",
+  "src": "El primer pico llega en 2027: Data Act sin cargos de cambio, alto riesgo del AI Act y requisitos esenciales del CRA. El segundo, en 2029–2030, con la aplicación de la CADA y las primeras licitaciones por niveles. Pase el cursor por cada punto.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "264d98ffe4",
+  "src": "<span><i style=\"background:var(--ok)\"></i>Hito cumplido</span><span><i style=\"background:var(--gold)\"></i>Hito previsto con fecha</span><span><i style=\"border:2px dashed var(--prop)\"></i>Estimación (escenario base)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "70c7bc1499",
+  "src": "Hitos regulatorios 2025–2030",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bcc476092d",
+  "src": "Fecha",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "280079b10c",
+  "src": "Norma",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aacd72e0f8",
+  "src": "Hito",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "79a6edee1e",
+  "src": "A quién afecta",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "31ccca8754",
+  "src": "Matriz de impacto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2ef6b8490c",
+  "src": "Qué norma pesa más en cada eslabón",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "25ddc96ef0",
+  "src": "Lectura cualitativa de Software in a Box a partir del texto de cada norma. 0 = sin efecto directo · 3 = obligación directa o cambio de modelo de negocio.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f0a308aed3",
+  "src": "Impacto de cada norma por eslabón de la cadena",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5ddaefbbac",
+  "src": "Mayorista",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0474c29470",
+  "src": "Integrador",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4b94533289",
+  "src": "Cliente final",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9d272a1721",
+  "src": "Lo que más cambia",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "352988d3ea",
+  "src": "Foco · Ficha completa",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fe6f196e3d",
+  "src": "<span class=\"badge b-pro\">Propuesta en tramitación</span><span class=\"layer l-cog\">COGNITIV</span><span class=\"layer l-arg\">ARGOS</span><span class=\"layer l-dat\">Espacios de datos</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "700708638d",
+  "src": "Cloud and AI Development Act (CADA)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5276df2696",
+  "src": "La primera norma de la Unión que convierte la soberanía digital en <b>requisitos verificables</b> para comprar nube e IA. Ordena el mercado público en cuatro niveles de garantía, obliga a las administraciones a evaluar riesgos y quiere triplicar la capacidad europea de centros de datos en cinco a siete años.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3e98a24503",
+  "src": "El nivel se otorga al servicio, pero se gana en la cadena. Un fabricante que no aporte su parte de la evidencia deja a sus integradores fuera de los niveles 2 a 4.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "41ae936a79",
+  "src": "Ficha técnica",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8ae11c9993",
+  "src": "Documento",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dfaeb003c0",
+  "src": "COM(2026) 502 final y anexos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dec486dac8",
+  "src": "Procedimiento",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0de4e6d974",
+  "src": "2026/0138(COD), legislativo ordinario",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3e6a45571d",
+  "src": "Propuesta",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "13f7acdddb",
+  "src": "3 de junio de 2026",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d0f2807cb2",
+  "src": "Forma",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "84894e0aa1",
+  "src": "Reglamento (aplicación directa)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "de442caf4c",
+  "src": "Base jurídica",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html",
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "486d207407",
+  "src": "Arts. 114 y 173.3 TFUE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "de5df3acf8",
+  "src": "Estructura",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1ee2ae2267",
+  "src": "5 títulos · 48 artículos · 3 anexos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cf08aa5012",
+  "src": "Paquete",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fc8839d7d6",
+  "src": "Soberanía Tecnológica, con la Chips Act 2.0 y la Estrategia de Código Abierto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "87cf2a843e",
+  "src": "Estado",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b016df3000",
+  "src": "Proyecto de informe conjunto presentado en el Parlamento Europeo el 11-11-2026; informe de progreso del Consejo previsto a final de 2026",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fb097b23d2",
+  "src": "Objetivo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "48ca899905",
+  "src": "Acuerdo político en el 4T 2027 · aplicación hacia 2029 (escenario base)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4bb75bcd30",
+  "src": "Los tres pilares",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7ce70c5d4d",
+  "src": "<span class=\"n\">1</span>I+D+i",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "70c21cf124",
+  "src": "Iniciativas de liderazgo en nube e IA, Centros de IA sobre los polos de innovación digital, estrategias nacionales de nube e IA en un año y proyectos de IA de frontera.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3baf5d09a9",
+  "src": "Arts. 3–9 · Título II",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5b8983401f",
+  "src": "<span class=\"n\">2</span>Capacidad",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "419d739fa5",
+  "src": "Triplicar la capacidad de centros de datos en 5–7 años. Cada Estado propone al menos una <b>zona de aceleración</b> en 6 meses; proyectos estratégicos con permisos acelerados y ventanilla única.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6493691e3b",
+  "src": "Arts. 10–15 · Título III",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "714486f3bc",
+  "src": "<span class=\"n\">3</span>Autonomía",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d92e3c6b8c",
+  "src": "Marco de soberanía con <b>cuatro niveles de garantía</b>, evaluación de riesgos del sector público, criterios de valor añadido europeo, central de compras, EuroCloud Federation y fomento del código abierto.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fe013ba282",
+  "src": "Arts. 16–44 · Título IV",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f950ad066c",
+  "src": "Los cuatro niveles de garantía (Anexo II)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e2976e4ea9",
+  "src": "Voluntarios para el proveedor, pero deciden qué puede comprar la administración para cada actividad. El salto crítico está entre el nivel 1 y el 2.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "41f2c63b0b",
+  "src": "Autoevaluación",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5f67aa0b7b",
+  "src": "Proveedor establecido en la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "843c786cf3",
+  "src": "Infraestructura, datos, metadatos y telemetría en la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7656201ce2",
+  "src": "Soporte fuera de la UE sin comprometer la autonomía",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "48e9c134b0",
+  "src": "Ciberseguridad conforme al estado de la técnica",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a8d2514f69",
+  "src": "La declaración de una pyme vale en toda la UE (art. 17.3)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2aa74e4027",
+  "src": "Auditoría · «sustancial»",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "15849811b6",
+  "src": "Proveedor, subcontratistas, infraestructura y personal en la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e12957060f",
+  "src": "Soporte iniciado y prestado solo desde la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1c60adbbf7",
+  "src": "Prohibido entrenar IA de terceros países con los datos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "531a7091db",
+  "src": "SBOM, control de funciones remotas, plan de migración",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ed855e1838",
+  "src": "Separación de la matriz extracomunitaria",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8a628f7a06",
+  "src": "Personal con ciudadanía de la UE y habilitación si procede",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "346d9e9624",
+  "src": "Proveedor no controlado por un tercer país",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "49f8110fe7",
+  "src": "Salvo derogación ligada a un tercer país reconocido (art. 18)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a41232c752",
+  "src": "Auditoría · «alto»",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0369f045e2",
+  "src": "Sin control de terceros países",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "831b2280a7",
+  "src": "Datos sensibles siempre en la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4d8cf999fd",
+  "src": "Control efectivo de toda la cadena de software",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fc78d03410",
+  "src": "Quién aporta cada prueba (Anexo III)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2a2e508f4e",
+  "src": "El Anexo III convierte la soberanía en un expediente que verifica un auditor. Leído desde el canal, es un reparto de tareas.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee67a1d7ce",
+  "src": "Criterios del Anexo III y quién aporta la prueba",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7b681a6b7d",
+  "src": "Criterio",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "934d4ba0e6",
+  "src": "Qué se prueba",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3c8c66ea5f",
+  "src": "Quién aporta la prueba",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d86f7ec92e",
+  "src": "Dificultad con pila no europea",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8a4722d385",
+  "src": "<b>A</b> · Establecimiento",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b33e5d56d8",
+  "src": "Escrituras, domicilio, administración central",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a0dbdda965",
+  "src": "Integrador u operador",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bb7166ddcb",
+  "src": "<span class=\"badge b-vig\">Baja</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "76564cb9e1",
+  "src": "<b>B</b> · Infraestructura y activos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c5e02189da",
+  "src": "Ubicación de equipos, copias, recuperación, registros e inventarios",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9827747962",
+  "src": "Integrador y mayorista",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2d47cb28d6",
+  "src": "<span class=\"badge b-gra\">Media</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ec8fead943",
+  "src": "<b>C</b> · Localización de datos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "43f193da88",
+  "src": "Flujos, registros de acceso, contratos sin transferencias",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "91590bf514",
+  "src": "Integrador y fabricante (telemetría)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a410b8737e",
+  "src": "<b>D</b> · Ciudadanía del personal",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f532d166e8",
+  "src": "Identidades, organigramas, control de accesos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c730ab43e4",
+  "src": "Integrador, fabricante y mayorista (soporte)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "05162d9745",
+  "src": "<b>E</b> · Certificación",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "59af75f430",
+  "src": "Certificado europeo o esquema nacional (ENS) mientras no exista",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6c2f1efd98",
+  "src": "Fabricante e integrador",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8c86c7cb5f",
+  "src": "<b>F</b> · IA de terceros países",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7180b29262",
+  "src": "Cláusulas de no entrenamiento, MLOps en la UE, fichas de modelo, linaje",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2d055a1d17",
+  "src": "<span class=\"badge b-esp\">Alta</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1f2aca9059",
+  "src": "<b>G</b> · Propiedad y control",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "094c9deb89",
+  "src": "Accionistas con 5 % o más, gobierno, solicitudes de terceros países",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3d0696dd3c",
+  "src": "<b>H</b> · Soporte desde la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4b8b551d57",
+  "src": "Cláusulas, subcontratistas, rutas de acceso administrativo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "374de9e9d5",
+  "src": "Fabricante y mayorista",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e9c32e2c25",
+  "src": "<b>I</b> · Cadena de software",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7556b1e8ce",
+  "src": "Transparencia de componentes, SBOM",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cee6463e04",
+  "src": "Cómo se crea la demanda: evaluación de riesgos y reglas de compra",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3cbc8027bb",
+  "src": "Art. 29 · Evaluación de riesgos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "568fbbb371",
+  "src": "Estados y entidades de la UE evalúan, en un año y después cada dos, qué actividades públicas contribuyen al <b>orden público</b> y qué nivel (2, 3 o 4) exige cada una. Si hay que migrar, la transición no puede superar <b>12 meses</b>.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d66a97f5e9",
+  "src": "Art. 30 · Regla de compra",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cc4386ddce",
+  "src": "Sin actividades de orden público: <b>al menos nivel 1</b>. Con actividades de orden público: <b>niveles 2, 3 o 4</b>. Hay derogaciones si no existe servicio adecuado, la licitación queda desierta o el coste es desproporcionado.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e250fdb0bd",
+  "src": "Art. 31 · Sector privado crítico",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "442cf04dba",
+  "src": "Las entidades de los sectores del Anexo I de NIS2 (energía, transporte, banca, salud, agua, infraestructura digital…) pueden evaluarse voluntariamente; la Comisión puede hacerlo <b>obligatorio</b> en sectores de alta criticidad.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4e05191cad",
+  "src": "Arts. 32–33 · Valor europeo y pymes",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8b8f030181",
+  "src": "Criterios de tecnología desarrollada y hardware fabricado en la UE (hasta 15 de 120 puntos según el considerando 67) y objetivo de que el <b>25 %</b> de la compra innovadora de nube e IA vaya a pymes.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "09ef7084b7",
+  "src": "Lectura por eslabón",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d86ff500c9",
+  "src": "Qué le pedirán sus integradores",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2e996be2fb",
+  "src": "Dónde se procesan telemetría, registros y diagnósticos, y si pueden quedarse en la UE o desactivarse.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ae27054e52",
+  "src": "Modo de gestión local o desde una región europea, sin consola obligatoria fuera de la UE.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "508cb0b3ad",
+  "src": "Soporte de 2.º y 3.er nivel desde la UE, con acceso remoto controlado y registrado.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "01b01324e6",
+  "src": "SBOM y política de vulnerabilidades conforme al CRA.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "22980c66ba",
+  "src": "Cláusula de que los datos del cliente no entrenan modelos de IA.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f9f6f22136",
+  "src": "Estructura de propiedad y política ante solicitudes de autoridades de terceros países.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "25852da72b",
+  "src": "Impacto por tipo de fabricante",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6cc6198d9e",
+  "src": "Tipo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html",
+   "cookies.html"
+  ]
+ },
+ {
+  "id": "330debb22d",
+  "src": "Impacto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0550c6213f",
+  "src": "Acción prioritaria",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c112e14a17",
+  "src": "Hardware de infraestructura no europeo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7c5abecea2",
+  "src": "<span class=\"badge b-gra\">Medio</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "330f9b6d59",
+  "src": "Modo local y soporte desde la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ea8d4b2157",
+  "src": "Infraestructura física (energía, frío, racks)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8eb2616c69",
+  "src": "<span class=\"badge b-vig\">Bajo; alta demanda</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3cc76121ae",
+  "src": "Eficiencia y fabricación en la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c788217748",
+  "src": "Software y seguridad cloud no europeos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f2c631b413",
+  "src": "<span class=\"badge b-esp\">Alto</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "15d618e0e7",
+  "src": "Regiones UE, cláusulas de IA, separación",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5f9c0d5bd6",
+  "src": "Software y seguridad europeos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c27ecf30cf",
+  "src": "<span class=\"badge b-vig\">Positivo</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "34b6f681f2",
+  "src": "Documentar el valor añadido europeo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5d23676093",
+  "src": "Código abierto con soporte",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7599a66b93",
+  "src": "<span class=\"badge b-vig\">Positivo en niveles altos</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3972803a79",
+  "src": "Soporte desde la UE y SBOM",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "16933a3839",
+  "src": "La CADA no es una barrera si se documenta pronto. Es una barrera si deja que sus integradores descubran en una licitación que usted no puede aportar la evidencia.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1ca24d8e6e",
+  "src": "De suministrar a orquestar",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0abeb3d81d",
+  "src": "El mayorista ya mantiene, para miles de referencias, el registro de productor (RAEE), la eficiencia (ecodiseño), el marcado y las garantías. La CADA añade una columna más a la ficha de cada referencia: la soberanía. Y el CRA le convierte en un eslabón de control de conformidad como importador o distribuidor.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7791de8586",
+  "src": "Modelo de servicio en tres capas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "26c0e79785",
+  "src": "<b>Información</b>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6695e8f069",
+  "src": "Fichas de soberanía, matrices normativas (CADA, CRA, NIS2, ENS, RAEE, ecodiseño) y alertas de cambios",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0ed4a88a8d",
+  "src": "<b>Soluciones</b>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "93a10015e6",
+  "src": "Configuraciones de referencia por nivel con precio, financiación y documentación para el expediente",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "655db3ba84",
+  "src": "<b>Servicios</b>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b20524fbc6",
+  "src": "Preventa especializada, formación, apoyo al reconocimiento y consorcios para licitaciones",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "519a67d2f8",
+  "src": "Lista de verificación del mayorista",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2f90ce19c5",
+  "src": "¿Existe una ficha de soberanía por familia de producto? <span class=\"mini\">(B, C, H, I)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4feaf11c81",
+  "src": "¿Se verifican la conformidad CRA y el marcado en el alta de producto?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "465bbab1ad",
+  "src": "¿El soporte de primer nivel y la logística de repuestos se prestan desde la UE? <span class=\"mini\">(B, H)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "48f8578229",
+  "src": "¿Hay configuraciones de referencia por nivel? <span class=\"mini\">(Anexo II)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c0289e2e8b",
+  "src": "¿Se comunican a los partners los cambios materiales de los fabricantes? <span class=\"mini\">(art. 23)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1347ad740e",
+  "src": "La CADA convierte la información de la cadena de suministro en un activo comercial. El mayorista que la normalice se convierte en el orquestador de la soberanía del canal.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3bb2f358d9",
+  "src": "Cuatro perfiles, cuatro situaciones",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d197d56718",
+  "src": "Perfil",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8b9dc6d817",
+  "src": "Ante la CADA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b416d4e5d1",
+  "src": "Qué necesita",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "69921776da",
+  "src": "Gran integrador nacional",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0d6d9c7725",
+  "src": "Puede construir niveles 2–3 propios",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "30ae988367",
+  "src": "Volumen, financiación, configuraciones complejas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "79b8d18ff8",
+  "src": "Integrador regional",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "254fa549c6",
+  "src": "Nivel 1 propio; nivel 2 con socios",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "256855f900",
+  "src": "Fichas de soberanía, centros regionales, formación",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a7adbed38d",
+  "src": "Proveedor de servicios gestionados",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4d75ea138d",
+  "src": "Objeto directo de la norma",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "87d0028376",
+  "src": "Herramientas con datos en la UE, evidencia operativa",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c26bfc7aac",
+  "src": "Revendedor de producto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "02f429c3ee",
+  "src": "Asesor y suministrador",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "51914ff860",
+  "src": "Información clara por producto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0330e17b6c",
+  "src": "Lista de verificación del integrador",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "891561aecf",
+  "src": "Entidad prestadora establecida en la UE <span class=\"mini\">(A)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "eb607f3fa1",
+  "src": "Infraestructura, copias y recuperación en la UE <span class=\"mini\">(B)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c5a1e6e57b",
+  "src": "Datos, metadatos y telemetría en la UE <span class=\"mini\">(C)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "051fb70c1b",
+  "src": "Subcontratistas declarados <span class=\"mini\">(H)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "11a8120c99",
+  "src": "Ciberseguridad conforme al estado de la técnica: ENS, ISO/IEC 27001 <span class=\"mini\">(E)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "571b86b769",
+  "src": "Responsable del expediente y procedimiento de cambios materiales <span class=\"mini\">(art. 23)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b0d5d2931c",
+  "src": "Si es pyme, reconocimiento automático del nivel 1 <span class=\"mini\">(art. 17.3)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b1393ac9c3",
+  "src": "El integrador pyme no tiene que construir la soberanía solo. Tiene que saber elegir los productos, los centros de datos y el mayorista que se la permiten demostrar.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "09664ba614",
+  "src": "Si es sector público",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6cc3167bcc",
+  "src": "Primera evaluación de riesgos (art. 29) en el año siguiente a la aplicación; después, cada dos años.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c04596f7ef",
+  "src": "Gestión ordinaria en nivel 1; sanidad, justicia, tributos y seguridad, probablemente en niveles 2–3.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1d54baed7d",
+  "src": "Migraciones exigidas en un máximo de 12 meses: planifíquelas con el Data Act.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b9f165d19c",
+  "src": "Criterios de valor añadido europeo y 25 % de compra innovadora a pymes.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9344ac9a5f",
+  "src": "Si es industria o servicios críticos (NIS2)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "70c36a851e",
+  "src": "Evaluación voluntaria hoy (art. 31); posible obligación sectorial mañana.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f1f9927791",
+  "src": "El nivel de garantía será un sello que podrá exigir a sus proveedores de nube, IA y servicios gestionados.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "76f21be4cd",
+  "src": "Combínelo con NIS2 (cadena de suministro) y DORA (finanzas) en un único cuestionario de proveedor.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1eae0a6cad",
+  "src": "Qué pedir a su proveedor desde hoy",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "34e64ff1fe",
+  "src": "Nivel CADA objetivo de cada servicio y calendario para alcanzarlo.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b994bea8de",
+  "src": "Mapa de dónde están datos, copias, registros y telemetría.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "692e730e68",
+  "src": "Desde dónde se presta el soporte y quién puede acceder a sus sistemas.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c54244605c",
+  "src": "Garantía contractual de que sus datos no entrenan IA.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "50c21855d5",
+  "src": "Plan de salida y portabilidad conforme al Data Act (sin cargos desde el 12-1-2027).",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5fd61be328",
+  "src": "Clasificación en el AI Act de cada funcionalidad de IA que vaya a desplegar.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "91c582de1f",
+  "src": "Para el cliente final, la CADA es una palanca de negociación: convierte «confíe en nosotros» en «demuéstrelo con evidencia auditable».",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "95c0f1d217",
+  "src": "La ficha de soberanía: diez preguntas por familia de producto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2a711d5eff",
+  "src": "Propuesta de Software in a Box para el canal: una o dos páginas por familia de producto, rellenadas por el fabricante y mantenidas por el mayorista. Con estas respuestas, un integrador sabe en minutos si el producto sirve para el nivel 1, si sostiene un nivel 2 y qué le falta para un nivel 3.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7e528d9e92",
+  "src": "Entidad que comercializa el producto en la UE",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ca8636931c",
+  "src": "Estructura de control y propiedad",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9bf5b1bb1f",
+  "src": "Dónde se procesan telemetría, registros y diagnósticos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9444883f37",
+  "src": "Modo de gestión local o región europea disponible",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "03bc93454f",
+  "src": "Origen del soporte de primer, segundo y tercer nivel",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e80710cf16",
+  "src": "Política de acceso remoto",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5be40f5134",
+  "src": "Existencia y formato del SBOM",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1d5434800b",
+  "src": "Política de vulnerabilidades conforme al CRA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ae94e8f1a2",
+  "src": "Uso de datos del cliente para entrenar modelos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dadebe58f1",
+  "src": "Certificaciones disponibles (ISO, ENS, esquemas nacionales)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e03c2365e1",
+  "src": "Procedimiento de reconocimiento (niveles 2–4)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "376f40395f",
+  "src": "Fase",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "44b58814d9",
+  "src": "Responsable",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html",
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "9c9e6edf33",
+  "src": "Plazo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f0adc54c1a",
+  "src": "Preparación de evidencia",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a748ab1a75",
+  "src": "Proveedor, con datos de fabricante y mayorista",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "960329befe",
+  "src": "6–12 meses <span class=\"mini\">(estimación)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e146d0ee56",
+  "src": "Auditoría",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8e68cfb603",
+  "src": "Organismo auditor",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "19de69cb60",
+  "src": "Variable",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "48f079ac80",
+  "src": "Evaluación de la autoridad nacional",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "50086f86de",
+  "src": "Autoridad del Estado de establecimiento (art. 17)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "376f5afd25",
+  "src": "60 días",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "37b4d27c97",
+  "src": "Revisión por otros Estados",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5fb45e1a18",
+  "src": "Autoridades nacionales",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1657cac263",
+  "src": "Inclusión en el repositorio central",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "372751c4ab",
+  "src": "Comisión (arts. 22–23)",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2f0f53035f",
+  "src": "Tras el reconocimiento",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "068d763792",
+  "src": "En España, la autoridad podría ser el Centro Criptológico Nacional, por su papel en el ENS, o una unidad del Ministerio para la Transformación Digital; en Portugal, el Centro Nacional de Cibersegurança. Las sanciones (art. 24) las fija cada Estado.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "576afeeaf4",
+  "src": "Casos de estudio",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "556ff18d98",
+  "src": "Cómo se juega en la práctica",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "389c9bc810",
+  "src": "Casos ilustrativos construidos sobre el texto de la propuesta y el funcionamiento real del canal en España y Portugal. No describen clientes concretos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "06437e4ff6",
+  "src": "Oportunidades de negocio",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "483c4dd107",
+  "src": "La primera oportunidad es física. La segunda, de servicio.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cf907fea88",
+  "src": "Cada carga que vuelve a un entorno controlado necesita infraestructura, y esa infraestructura se vende a través del canal. Después llegan la evidencia, la operación gestionada, el marketplace y la financiación.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "80e49e78b6",
+  "src": "<span class=\"mini\">Centros de datos en España</span><b>439 MW</b><span class=\"mut\">de capacidad en 2025 y 66.900 M€ de inversión prevista hasta 2030</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0a38439ebc",
+  "src": "<span class=\"mini\">Peso del canal</span><b>≈ 2/3</b><span class=\"mut\">del gasto TI pasa por partners; más del 80 % en las pymes de EMEA y cerca del 92 % en ciberseguridad</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b42635cd2a",
+  "src": "<span class=\"mini\">Mercado mayorista en España</span><b>+15,1 %</b><span class=\"mut\">de crecimiento en 2025, por encima de 8.200 M€ (CONTEXT)</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f0603cf17a",
+  "src": "Cuellos de botella y efectos en el mercado",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2be23f417f",
+  "src": "Lo que puede frenar, y cómo anticiparse",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "62bc73ccb8",
+  "src": "Normativos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "21cc3ec990",
+  "src": "Técnicos y de suministro",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ea26ad0c06",
+  "src": "Mercado, márgenes y talento",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "64f9391d14",
+  "src": "La certificación que no existe",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "09fbeece50",
+  "src": "Los niveles 2–4 exigen un certificado europeo «sustancial» o «alto», pero el EUCS sigue bloqueado. Mientras tanto: ENS en España, SecNumCloud en Francia, C5 en Alemania. Riesgo de fragmentación.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e397e54b4f",
+  "src": "Autoridades sin rodaje",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4a3813aaa2",
+  "src": "Veintisiete autoridades arrancando a la vez con pocos auditores acreditados: posibles colas en los primeros 12–18 meses.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "be837c6e81",
+  "src": "Anexos revisables cada 18 meses",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "98eb7668a1",
+  "src": "Los actos delegados pueden endurecer requisitos. Los contratos deben prever cláusulas de adaptación.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "85987c4467",
+  "src": "Superposición normativa",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aa6bac5ffb",
+  "src": "La misma evidencia la piden CADA, NIS2, CRA, DORA, AI Act, ENS y Data Act con formatos distintos. Sin un marco común de controles, el coste se multiplica.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee763e1129",
+  "src": "Terceros países reconocidos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fb34ce1d03",
+  "src": "La lista del art. 18 decidirá si muchos fabricantes de EE. UU., Japón, Corea o Taiwán pueden aspirar al nivel 3.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ffbc2c8be2",
+  "src": "Derogaciones y aplicación desigual",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "11b5619c95",
+  "src": "El «coste desproporcionado» puede convertirse en la vía de algunos compradores para seguir comprando lo de siempre.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8f2ce7de9e",
+  "src": "Memoria y precios",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c245ec277b",
+  "src": "Escasez de memoria en 2026 y competencia por la memoria de alto ancho de banda para IA: plazos largos y precios volátiles en servidores y almacenamiento.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "79480cc3dd",
+  "src": "GPU y capacidad de IA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aff55c505b",
+  "src": "Cómputo europeo escaso y caro a corto plazo; las zonas de aceleración no aportarán megavatios antes de 2029–2030.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b65cd96322",
+  "src": "Gestión remota y telemetría",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1b988c2afe",
+  "src": "Los productos gestionados desde consolas fuera de la UE solo valdrán para el nivel 1 hasta que el fabricante ofrezca un modo local.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e8b2b78af5",
+  "src": "Cadena de software",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cef7de1761",
+  "src": "SBOM obligatorio por el CRA desde el 11-12-2027; los niveles 3–4 exigen ir más allá: firmware, funciones remotas y componentes de terceros países.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "767532d9e7",
+  "src": "Migraciones simultáneas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5d97505fc1",
+  "src": "Si muchas administraciones deben migrar en 12 meses a la vez, integradores y centros de datos pueden saturarse en 2029–2030.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2996a11fbf",
+  "src": "Energía y permisos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4db1f54c18",
+  "src": "El proyecto de real decreto español exige, para centros de 1 MW o más, que al menos el 80 % del consumo de cada hora esté respaldado por renovables de esa misma hora.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "52de391ce9",
+  "src": "Márgenes estrechos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "12ea59bfa9",
+  "src": "Con márgenes de mayorista del 3–8 % en hardware, el cumplimiento debe convertirse en un servicio facturable, no en un coste.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b9509a6bf3",
+  "src": "Consolidación del canal",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "48d6454b1c",
+  "src": "Hasta un 30 % de los partners actuales podría no existir en su forma actual hacia 2030. La CADA puede acelerarlo si solo los grandes alcanzan los niveles altos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "445add49d9",
+  "src": "Talento",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ffc86cac13",
+  "src": "Arquitectos de nube soberana, especialistas en cumplimiento y auditores de cadena de software: perfiles escasos y caros.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2bb08e998d",
+  "src": "Grandes lotes frente a pymes",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d134ac24e4",
+  "src": "La compra centralizada favorece la escala; el 25 % para pymes y el nivel 1 automático las favorecen. La clave son los consorcios.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "10e5e90c75",
+  "src": "Desintermediación",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8fa52db9f1",
+  "src": "Hiperescalares y fabricantes venden cada vez más en directo o por marketplace. La CADA, al valorar el soporte local, puede devolver peso al canal.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3aace0a07b",
+  "src": "Programas de fabricante en cambio",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d1178cc65d",
+  "src": "Umbrales CSP de Microsoft, cierre del VCSP de Broadcom, Cisco 360, HPE Partner Ready Vantage: el mapa de partners se reordena.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f15e159737",
+  "src": "Escenarios 2027–2030",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cade02cc2e",
+  "src": "Tres escenarios y una hoja de ruta que sirve en los tres",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "db8edbe757",
+  "src": "Suave · probabilidad media",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cea070c647",
+  "src": "Requisitos rebajados y amplias derogaciones; el nivel 1 domina y los niveles 2–4 son un nicho. El canal gana sobre todo por la ola de centros de datos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b80a8e3057",
+  "src": "Base · probabilidad más alta",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f7e49ff2b4",
+  "src": "Acuerdo en el 4T 2027 y aplicación en 2029. Nivel 1 general; niveles 2–3 en sanidad, justicia, tributos, seguridad e infraestructuras críticas. Primera ola de licitaciones en 2029–2030.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4a212c91bf",
+  "src": "Estricto · probabilidad baja-media",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e396404f13",
+  "src": "Niveles altos para amplias categorías públicas y evaluaciones obligatorias en sectores privados críticos. La demanda de infraestructura soberana se acelera.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "597ea0f6a5",
+  "src": "Probabilidades cualitativas: análisis propio de Software in a Box, no previsiones oficiales.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9c1d8bf59c",
+  "src": "Hoja de ruta por eslabón",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8ec461139e",
+  "src": "2027<span class=\"mini\">Diagnóstico</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f7ab64eac5",
+  "src": "Documentar telemetría, soporte, control y cadena de software; preparar la conformidad CRA.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9e3eef4afb",
+  "src": "Crear la ficha de soberanía; clasificar el catálogo por nivel; formación en CADA, CRA y AI Act; acuerdos con centros de datos regionales.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a4fc972db9",
+  "src": "Inventario de servicios y dependencias; autoevaluación de nivel 1; elegir qué servicios subir de nivel.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "65f696f8d5",
+  "src": "2028<span class=\"mini\">Evidencia y alianzas</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b089e5206f",
+  "src": "Modos de gestión local o regiones europeas; soporte desde la UE; SBOM; cláusulas de no entrenamiento.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fd585b12dd",
+  "src": "Publicar configuraciones de referencia de nivel 1, 2 y 3; acompañar los primeros reconocimientos; preparar acuerdos marco.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "79b06f6d49",
+  "src": "Preparar el expediente con el mayorista; elegir centros de datos; formar equipos; alianzas.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bea9f064a5",
+  "src": "2029–30<span class=\"mini\">Licitaciones</span>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8392647986",
+  "src": "Competencias de despliegue soberano en los programas de partners.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c4051b96c2",
+  "src": "Servicio de evidencia a escala; coordinar consorcios; ampliar a Portugal.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8be2b18c80",
+  "src": "Primeras licitaciones con niveles; servicios de evidencia y migración.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0feca20a3e",
+  "src": "Autodiagnóstico",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f82fce8c42",
+  "src": "¿Qué normas le aplican?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "20cb691865",
+  "src": "Cinco preguntas y un resultado orientativo inmediato: qué normas revisar primero y por qué.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "df3c303bd7",
+  "src": "1. ¿Qué papel tiene en la cadena?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b62f5802e7",
+  "src": "Mayorista, distribuidor o importador",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c322a485d0",
+  "src": "2. ¿En qué sector están usted o sus clientes?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "588fd2076d",
+  "src": "Banca y seguros",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e3b1f0076a",
+  "src": "Energía, agua, transporte",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cfa3819e9d",
+  "src": "Otros servicios",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3b1f232d65",
+  "src": "3. ¿Qué vende, opera o compra?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e29c9d3103",
+  "src": "Hardware con software o conectado",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9ad052271e",
+  "src": "Software",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b7338b1a42",
+  "src": "Servicios cloud o gestionados",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "98a796e1e3",
+  "src": "Centro de datos o infraestructura física",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f9da43087a",
+  "src": "4. ¿Hay IA de por medio?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e716283453",
+  "src": "Sí, desarrollamos o integramos IA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6ad9a860ea",
+  "src": "La usamos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "816c52fd2b",
+  "src": "No",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "59d86050b9",
+  "src": "5. ¿Comparte o explota datos con terceros?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "873caab4d0",
+  "src": "Sí",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ac59eea34c",
+  "src": "Su mapa normativo",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "27b1961abd",
+  "src": "Responda a las preguntas para ver las normas que le afectan.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "99872e34e8",
+  "src": "<a class=\"btn btn-ink\" href=\"#contacto\">Pedir un diagnóstico completo</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1d74d28bc1",
+  "src": "Resultado orientativo; no constituye asesoramiento jurídico.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7f9d5ca082",
+  "src": "Cómo ayuda Software in a Box",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8c2bf7e93d",
+  "src": "Cada norma termina en una capa que la resuelve",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "511e6be31e",
+  "src": "Inferencia dentro de su red, sobre Lenovo ThinkSystem",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cd7eb41757",
+  "src": "Responde a los niveles 2–3 de la CADA para usos de IA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aea7a8528b",
+  "src": "Base para la documentación del AI Act: datos, modelos, registros",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0fbd3446e8",
+  "src": "Sus datos no entrenan IA ajena",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "03b5cd4483",
+  "src": "Cumplimiento que se demuestra",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f7eabda1ac",
+  "src": "Un marco de controles para RGPD, EHDS, AI Act, NIS2 y Data Act",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cb282c4422",
+  "src": "Informe emitido como credencial verificable, reutilizable en el expediente CADA",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f1a7c8c9c0",
+  "src": "Compartir sin entregar el dato",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c21a82496f",
+  "src": "Nodos que el canal despliega en el borde: planta, hospital, centro logístico",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "06c75d2587",
+  "src": "Para fabricantes y mayoristas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6e00b7ca1a",
+  "src": "Plantilla de ficha de soberanía, matriz normativa por familia de producto y configuraciones de referencia por nivel listas para el portal de partners.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fecd67a8b0",
+  "src": "Para integradores y clientes finales",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c576f2fe4e",
+  "src": "Diagnóstico del nivel CADA de cada servicio, expediente de evidencia del Anexo III, migraciones conformes al Data Act e IA local doblemente conforme (AI Act y CADA).",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a3a1f65932",
+  "src": "Glosario",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8d7013ec26",
+  "src": "Términos que conviene dominar",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "246cdc732e",
+  "src": "<b>CADA</b> · Cloud and AI Development Act, propuesta COM(2026) 502.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5b965b6a5e",
+  "src": "<b>Niveles de garantía</b> · Los cuatro niveles de soberanía de la CADA (Union Assurance Levels).",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b150564ec7",
+  "src": "<b>SEAL</b> · Escala 0–4 que usa la Comisión en su propia contratación cloud.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0834e94711",
+  "src": "<b>Zona de aceleración</b> · Área designada para desplegar centros de datos con permisos rápidos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e33914f23e",
+  "src": "<b>Orden público</b> · Actividades públicas que, según la evaluación del art. 29, exigen niveles 2–4.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "42a896bcbb",
+  "src": "<b>EUCS</b> · Esquema europeo de certificación de ciberseguridad para servicios cloud, hoy bloqueado.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "da49e1f05a",
+  "src": "<b>CSA2</b> · Propuesta de nuevo Reglamento de Ciberseguridad (enero de 2026).",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fe6e06030c",
+  "src": "<b>CRA</b> · Reglamento de Ciberresiliencia: requisitos para productos con elementos digitales.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7feb38cf02",
+  "src": "<b>SBOM</b> · Lista de materiales de software: inventario de componentes de un producto.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "98113ade24",
+  "src": "<b>NIS2</b> · Directiva de ciberseguridad para entidades esenciales e importantes.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f785e7ac48",
+  "src": "<b>DORA</b> · Reglamento de resiliencia operativa digital del sector financiero.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3fbb867cd0",
+  "src": "<b>Proveedor TIC crítico</b> · Proveedor tecnológico supervisado directamente bajo DORA.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bf2299668c",
+  "src": "<b>DMA</b> · Ley de Mercados Digitales; guardián de acceso (gatekeeper).",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a3a01f9fcf",
+  "src": "<b>EHDS</b> · Espacio Europeo de Datos Sanitarios, Reglamento (UE) 2025/327.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4200ab88e0",
+  "src": "<b>ENS</b> · Esquema Nacional de Seguridad (RD 311/2022), obligatorio para el sector público español y sus proveedores.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "87e74092b9",
+  "src": "<b>AESIA</b> · Agencia Española de Supervisión de la Inteligencia Artificial.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d0f64f1844",
+  "src": "<b>Mayorista de valor (VAD)</b> · Distribuidor con preventa, integración multifabricante, formación y servicios.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4517e30420",
+  "src": "<b>MSP</b> · Proveedor de servicios gestionados.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "52c9aa2dcf",
+  "src": "<b>ODRL</b> · Lenguaje para expresar políticas de uso de datos legibles por máquina.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0f628895d0",
+  "src": "<b>Gaia-X</b> · Marco europeo de confianza para infraestructuras y espacios de datos.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c6aa055b33",
+  "src": "<b>Cláusulas tipo del Data Act</b> · Modelos de la Comisión para contratos de datos y de nube (noviembre de 2025).",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0cf7705404",
+  "src": "Hablemos",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5b1218711d",
+  "src": "¿Qué nivel necesitará su próximo cliente?",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "812015fe0f",
+  "src": "Le ayudamos a leer la norma desde su eslabón, a preparar la evidencia y a convertirla en oferta.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2d81da8a79",
+  "src": "Solicitar una reunión",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "321238e755",
+  "src": "<a href=\"mailto:emilio.mulet@softwareinabox.eu\">emilio.mulet@softwareinabox.eu</a> · <a href=\"tel:+34601398868\">+34 601 398 868</a> · Madrid y Bruselas",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b954952459",
+  "src": "Fuentes oficiales principales",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "21e830240b",
+  "src": "CADA · <a href=\"https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1903654\">Procedimiento 2026/0138(COD)</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3f4b583298",
+  "src": "CADA · <a href=\"https://www.eesc.europa.eu/es/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act\">Dictamen del CESE INT/1126</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "87dd98ce1a",
+  "src": "Reglamento de IA · <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\">Reglamento (UE) 2024/1689</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "055fb23da5",
+  "src": "Reglamento de Datos · <a href=\"https://eur-lex.europa.eu/eli/reg/2023/2854/oj\">Reglamento (UE) 2023/2854</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "eb3df81181",
+  "src": "Ciberresiliencia · <a href=\"https://eur-lex.europa.eu/eli/reg/2024/2847/oj\">Reglamento (UE) 2024/2847</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6e1b5c0a46",
+  "src": "NIS2 · <a href=\"https://eur-lex.europa.eu/eli/dir/2022/2555/oj\">Directiva (UE) 2022/2555</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5bf1d6c2ea",
+  "src": "DORA · <a href=\"https://eur-lex.europa.eu/eli/reg/2022/2554/oj\">Reglamento (UE) 2022/2554</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "26b2269ee2",
+  "src": "EHDS · <a href=\"https://eur-lex.europa.eu/eli/reg/2025/327/oj\">Reglamento (UE) 2025/327</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9a33d2a73f",
+  "src": "ENS · <a href=\"https://www.boe.es/eli/es/rd/2022/05/03/311\">Real Decreto 311/2022</a>",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "526b506e90",
+  "src": "Esta sección se apoya en un catálogo de más de 1.000 fuentes mantenido por Software in a Box. Información orientativa; no constituye asesoramiento jurídico. Última revisión: 14 de noviembre de 2026.",
+  "kind": "html",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0e4390ded3",
+  "src": "CADA, AI Act, Data Act, CRA, NIS2, DORA, EHDS y más, explicados para fabricantes, mayoristas, integradores e industria cliente final: obligaciones, calendario, casos de estudio y oportunidades de negocio.",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "482a7dcf1f",
+  "src": "Regulación UE para la cadena tecnológica · Software in a Box",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dab215d2ec",
+  "src": "La norma ya está aquí. Su negocio, también. Radar de 18 normas europeas, ficha completa de la Cloud and AI Development Act (CADA), calendario 2025–2030 y autodiagnóstico.",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "497de96a5e",
+  "src": "Regulación UE para la cadena tecnológica",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "01c39194f0",
+  "src": "Normativa europea de nube, IA, datos y ciberseguridad explicada para fabricantes, mayoristas y distribuidores, integradores e industria cliente final.",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6c16f72b15",
+  "src": "Fabricantes de tecnología, mayoristas y distribuidores, integradores de sistemas y empresas usuarias",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "82156ff55d",
+  "src": "Cloud and AI Development Act",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "11db0bd916",
+  "src": "Reglamento de Inteligencia Artificial",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ccda5b0000",
+  "src": "Reglamento de Datos",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2e4c775cb5",
+  "src": "Reglamento de Ciberresiliencia",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8788b8a933",
+  "src": "DORA",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f29f8ef81d",
+  "src": "Espacio Europeo de Datos Sanitarios",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e074a863e0",
+  "src": "Soberanía digital",
+  "kind": "jsonld",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4373399b0e",
+  "src": "Ruta",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "25325d46df",
+  "src": "Elegir eslabón de la cadena",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c925330134",
+  "src": "Las tres capas de Software in a Box conectadas a la regulación europea",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "306e6cc090",
+  "src": "Secciones de la página",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4b0816bbd5",
+  "src": "Cerrar",
+  "kind": "attr",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "47960b78dd",
+  "src": "Inteligencia artificial",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9382946ec8",
+  "src": "En vigor",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f58505764d",
+  "src": "Aplicación gradual",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5f2b8cb7f3",
+  "src": "Propuesta / en tramitación",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4bf737889a",
+  "src": "Pendiente en España",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f88cce55a8",
+  "src": "Cloud and AI Development Act · COM(2026) 502",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a36fa380cb",
+  "src": "Ficha completa más abajo",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "93bf708c09",
+  "src": "Cuatro niveles de garantía de soberanía para comprar nube e IA en el sector público, evaluación de riesgos obligatoria y plan para triplicar la capacidad de centros de datos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7adbff91c4",
+  "src": "Propuesta de la Comisión",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0161757c07",
+  "src": "Proyecto de informe conjunto en el Parlamento",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0045f99383",
+  "src": "4T 2027",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "342b40c0f7",
+  "src": "Objetivo de acuerdo político",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "921026f81b",
+  "src": "Aplicación (escenario base)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c42e6181e5",
+  "src": "Documentar telemetría, soporte, control y cadena de software: es la evidencia que piden los niveles 2–4.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3426561a33",
+  "src": "Ficha de soberanía por familia de producto y configuraciones de referencia por nivel.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "44a93127c9",
+  "src": "El nivel se otorga a su servicio: inventario, autoevaluación de nivel 1 y expediente.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "731c00467a",
+  "src": "Evaluación de riesgos (público) o voluntaria (NIS2); exigir nivel a proveedores.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "86d8e76fc4",
+  "src": "Compra pública por niveles; evidencia repartida en la cadena",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e76a5089aa",
+  "src": "Reglamento (UE) 2024/1689 de Inteligencia Artificial",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "42aa673ad4",
+  "src": "Regula sistemas y modelos de IA según su riesgo. El Digital Omnibus aplaza las obligaciones de alto riesgo del Anexo III al 2-12-2027 (productos regulados, 2028).",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "412a2ede0f",
+  "src": "Poderes de supervisión de la Oficina de IA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "65a8da02b0",
+  "src": "Marcado de contenido generado (tras Omnibus)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cd8ea4f5c1",
+  "src": "Alto riesgo (Anexo III)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c8636acfae",
+  "src": "Documentación técnica y de datos de sus sistemas de IA; dónde se procesan telemetría y actualizaciones.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1fa9980609",
+  "src": "Configuraciones de «IA doblemente conforme» (AI Act + CADA) con documentación.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5476e7ac80",
+  "src": "Clasificar cada funcionalidad de IA por riesgo y saber dónde se ejecuta.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c1e45f5499",
+  "src": "Como responsable del despliegue: supervisión humana, registros, transparencia.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1b578fd881",
+  "src": "Clasificación de riesgo y documentación de datos y modelos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d439501094",
+  "src": "Reglamento (UE) 2023/2854 de Datos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "788ac01856",
+  "src": "Acceso a datos de productos conectados, cambio de proveedor cloud y salvaguardas frente al acceso de terceros países a datos no personales.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee0ada525a",
+  "src": "Aplicación general",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "280fe9eecb",
+  "src": "Cambio de proveedor sin cargos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1dbef49118",
+  "src": "Aplicación a contratos anteriores",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "63680694d1",
+  "src": "Productos conectados (IoT, SAI, equipos de red gestionados): el usuario debe poder acceder a sus datos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a5b23e0537",
+  "src": "Contratos y portales de gestión que reflejen los derechos de datos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "54025b8030",
+  "src": "Línea de servicio: migraciones conformes, portabilidad, nuevas cláusulas tipo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4efabd8766",
+  "src": "Palanca para salir de un proveedor sin cargos desde 2027.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cf355536eb",
+  "src": "Portabilidad y fin de los cargos por cambio de proveedor",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "787c21fad9",
+  "src": "Reglamento de Ciberresiliencia (UE) 2024/2847",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e5c4bf81f5",
+  "src": "Requisitos de ciberseguridad para todo producto con elementos digitales, hardware o software, con obligaciones a lo largo de la cadena de distribución.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3663d33bc1",
+  "src": "Notificación de vulnerabilidades explotadas e incidentes graves",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "441c5bfb39",
+  "src": "Requisitos esenciales, SBOM y obligaciones de importadores y distribuidores",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "32df259e75",
+  "src": "Evaluación de conformidad, marcado CE, SBOM, gestión de vulnerabilidades durante el soporte.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9cb507a2d3",
+  "src": "Como importador: verificar conformidad, documentación y marcado. Como distribuidor: no vender lo no conforme e informar.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0f9bc884fe",
+  "src": "Elegir productos conformes; incorporarlo a los pliegos de cliente.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "391430b705",
+  "src": "Exigir marcado y política de vulnerabilidades.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2676e6f29c",
+  "src": "Obligaciones directas para importadores y distribuidores",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "66222e2ed0",
+  "src": "Directiva (UE) 2022/2555",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "559b4d4255",
+  "src": "Gestión de riesgos, notificación de incidentes y seguridad de la cadena de suministro para entidades esenciales e importantes, incluidos nube, centros de datos y servicios gestionados.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "19067bc4c2",
+  "src": "Fin 2026",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7c570c31f8",
+  "src": "Transposición prevista en España",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "00ece769af",
+  "src": "Responder a cuestionarios de cadena de suministro de clientes NIS2.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c0791c444c",
+  "src": "Formación del canal; portfolio de seguridad alineado con NIS2.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "91a4d8429e",
+  "src": "MSP y nube son entidades de infraestructura digital: obligaciones propias.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a3692360f0",
+  "src": "Gestión de riesgos de proveedores; responsabilidad de la dirección.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "894cdc44ce",
+  "src": "Seguridad de la cadena de suministro y notificación",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ad82583556",
+  "src": "CSA2 · EUCS",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "19645d9e77",
+  "src": "Propuesta de nuevo Reglamento de Ciberseguridad (20-1-2026) y esquema EUCS",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3efebd18e3",
+  "src": "Refuerza ENISA, agiliza la certificación y permite designar proveedores de alto riesgo de terceros países y obligar a retirar sus componentes, con multas de hasta el 7 % de la facturación mundial. El EUCS sigue bloqueado.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b03839787e",
+  "src": "Propuesta CSA2",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a1e0122c3b",
+  "src": "Riesgo comercial directo si se le designa de alto riesgo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "edfb6f5bbe",
+  "src": "Diversificar catálogo; seguir la lista de alto riesgo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2d43e9d0ec",
+  "src": "Certificado «sustancial»/«alto» para niveles CADA 2–4; mientras, ENS.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "83f2d52e28",
+  "src": "Posible retirada de componentes en activos clave.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ead8ea2ba9",
+  "src": "Proveedores de alto riesgo y certificación cloud",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2dd71fcfc5",
+  "src": "Reglamento (UE) 2022/2554 de resiliencia operativa digital",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5725409204",
+  "src": "Resiliencia operativa del sector financiero y supervisión directa de proveedores TIC críticos: 19 designados en noviembre de 2025, entre ellos los grandes hiperescalares.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c266c02269",
+  "src": "Aplicación",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b825731edb",
+  "src": "Designación de 19 proveedores TIC críticos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2919a70f67",
+  "src": "Cláusulas de localización, acceso, auditoría y salida en contratos con banca.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "470af20315",
+  "src": "Contratos de soporte compatibles con DORA.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a26b412aca",
+  "src": "Un paquete de evidencias común DORA + CADA para clientes financieros.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "087705f9bb",
+  "src": "Registro de proveedores, pruebas de resiliencia y planes de salida.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dc72fd3eae",
+  "src": "Cláusulas de salida y auditoría en finanzas",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6b3d2ecc49",
+  "src": "DMA · nube",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "73366d3efd",
+  "src": "Ley de Mercados Digitales aplicada a la nube",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f342699270",
+  "src": "Conclusión preliminar de la Comisión (25-6-2026): AWS y Azure deben designarse guardianes de acceso. Si se confirma, seis meses para cumplir interoperabilidad, portabilidad y no autopreferencia.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9d56062b95",
+  "src": "Conclusión preliminar",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7c844b1b2e",
+  "src": "Licencias que permitan ejecutar su software en nubes de terceros.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "343ef8e0f1",
+  "src": "Nuevas condiciones de reventa y marketplace.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2b944c5a84",
+  "src": "Más opciones de despliegue multinube.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f98780ba86",
+  "src": "Mejores condiciones de portabilidad.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2221a7b3fd",
+  "src": "Interoperabilidad y licencias en nube",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "474c7a13d9",
+  "src": "Espacio Europeo de Datos Sanitarios · Reglamento (UE) 2025/327",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5f7ad30803",
+  "src": "Uso primario y secundario de datos de salud. Organismos de acceso y entornos de tratamiento seguro serán probablemente actividades de orden público en la CADA (nivel 2+).",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9f94d21bc3",
+  "src": "Principales actos de ejecución",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f50c66ca25",
+  "src": "MedTech: interoperabilidad (FHIR, HealthDCAT-AP) y documentación.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fbc4821834",
+  "src": "Configuraciones de nodo sanitario soberano.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "52706f0af5",
+  "src": "Infraestructura sanitaria soberana e integración HCE.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7ae57ae887",
+  "src": "Hospitales: compartir datos sin perder el control.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1fab713bcf",
+  "src": "Infraestructura sanitaria soberana",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "31bddc6e85",
+  "src": "RGPD + Digital Omnibus",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5a46c89d63",
+  "src": "Reglamento (UE) 2016/679 y propuesta de Digital Omnibus",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2cc5b1ff2a",
+  "src": "El RGPD sigue siendo la base. El Digital Omnibus propone consolidar normas de datos en el Data Act y ajustar el RGPD; esos cambios están contestados por el EDPB y el SEPD.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dbf27d30aa",
+  "src": "Propuesta Digital Omnibus",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6f3488e653",
+  "src": "Privacidad desde el diseño en productos y servicios.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "07d5fe508d",
+  "src": "Contratos de encargo en la cadena de soporte.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9e3496cc79",
+  "src": "Encargado del tratamiento: evidencias y transferencias.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1fdae9904b",
+  "src": "Responsable del tratamiento: bases legales, EIPD.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0119571565",
+  "src": "Base de toda la gobernanza del dato",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6601633c33",
+  "src": "Data Union Strategy",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8db04a090c",
+  "src": "Estrategia de la Unión de Datos (19-11-2025)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6e2dbda705",
+  "src": "Orienta la política de datos a la implementación: Data Labs que conectan espacios de datos con AI Factories, 100 M€ adicionales para espacios de datos desde 2026 y la CADA como acción emblemática.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "80d0e9bbc7",
+  "src": "Comunicación",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "73228dd89c",
+  "src": "Conectores y compatibilidad con Simpl, IDSA, Eclipse, Gaia-X.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "70459085c7",
+  "src": "Nodos de espacio de datos como producto de catálogo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f9deb91727",
+  "src": "Operar nodos para clientes sectoriales.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2795efe4b6",
+  "src": "Participar en espacios de datos con garantías.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e85d990906",
+  "src": "Financiación y prioridad de los espacios de datos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f45236cf26",
+  "src": "Chips Act 2.0",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "687779f295",
+  "src": "Propuesta COM(2026) 504",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9b2adfcc17",
+  "src": "Parte del mismo Paquete de Soberanía Tecnológica que la CADA: refuerzo de la cadena europea de semiconductores.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ba86f84642",
+  "src": "Origen de componentes y capacidad europea.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3e097f7002",
+  "src": "Seguridad de suministro en el catálogo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "356fbdad4c",
+  "src": "Menor efecto directo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "66ff81330c",
+  "src": "Seguridad de suministro de chips",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "252430bb73",
+  "src": "Ecodiseño servidores",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8fc79796d4",
+  "src": "Reglamento (UE) 2019/424 (en revisión)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1f5e27c478",
+  "src": "Eficiencia de fuentes de alimentación, rendimiento activo, información de materiales, desmontaje y borrado seguro para reutilización. La revisión y el Anexo I de la CADA anticipan requisitos más exigentes.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "26e927366d",
+  "src": "Paquete europeo de eficiencia de centros de datos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e6fb1f1d47",
+  "src": "Documentar eficiencia y origen.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ace5c78059",
+  "src": "Información al canal; reacondicionados.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1b85d2514f",
+  "src": "ITAD y borrado certificado.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "38f594ff75",
+  "src": "Compras eficientes y circulares.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4e83f4a8ca",
+  "src": "Eficiencia y circularidad del hardware",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1fbb1be802",
+  "src": "RD 110/2015 de residuos de aparatos eléctricos y electrónicos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ed8d983275",
+  "src": "Productores e importadores se registran, declaran y financian la gestión de residuos; los distribuidores recogen equipos usados en determinados supuestos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2e1c6c33e0",
+  "src": "Registro y financiación de la gestión de residuos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4930eafc6e",
+  "src": "Número de registro en facturas; recogida.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a42097b908",
+  "src": "Retirada de equipos del cliente.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e521bb1f42",
+  "src": "Gestión correcta de equipos al final de su vida.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "83df5b720d",
+  "src": "Responsabilidad ampliada del productor",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b187796154",
+  "src": "Factura electrónica · VERI*FACTU",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cee65cb2e2",
+  "src": "RD 238/2026 y Orden HAC/1028/2026",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ebe0d7358f",
+  "src": "Factura electrónica B2B obligatoria y solución pública regulada (oct. 2026). VERI*FACTU, aplazado a octubre de 2028.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "90865a4225",
+  "src": "Orden HAC/1028/2026",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cf85b0cad8",
+  "src": "Oct. 2028",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5d42138cff",
+  "src": "Fabricantes de software de gestión: adaptar ERP.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "630f9c8b55",
+  "src": "Procesos propios de facturación.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c0f7c1d449",
+  "src": "Proyectos de adaptación de ERP en clientes.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "59d61aed59",
+  "src": "Adaptar facturación.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "07742174e9",
+  "src": "Adaptación de software de gestión",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c79b9f621c",
+  "src": "Esquema Nacional de Seguridad · RD 311/2022",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6365c6c947",
+  "src": "Obligatorio para el sector público y sus proveedores tecnológicos. Es hoy la llave del mercado público cloud español y el puente natural hacia el reconocimiento CADA mientras no exista el EUCS.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c35ff48a4b",
+  "src": "Certificar productos y servicios: activo diferencial.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8fffa3f082",
+  "src": "Catálogo con productos certificados.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "fc1b982eae",
+  "src": "Mantener y elevar la categoría ENS.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "eef12ce40f",
+  "src": "Exigirlo a proveedores (sector público).",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "17a713795a",
+  "src": "Certificación puente hacia la CADA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dd268514f7",
+  "src": "Ley de gobernanza de la IA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "be0ce66e98",
+  "src": "Proyecto de Ley Orgánica (remitido a las Cortes 26-5-2026)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "943ea62993",
+  "src": "Designa a la AESIA como autoridad principal, regula entornos de pruebas y sanciones e incluye el uso de IA en el sector público estatal. Es proyecto, no derecho vigente.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1ed9abb2d4",
+  "src": "Remisión a las Cortes",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8993c7f0cb",
+  "src": "Seguir el régimen sancionador.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a2edbd165b",
+  "src": "Formación del canal.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bfeda21b94",
+  "src": "Proyectos de IA en el sector público.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9e65737ffe",
+  "src": "Uso de IA en la Administración.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f8dc4bc9fe",
+  "src": "Aplicación nacional del AI Act",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "11eb54ef5b",
+  "src": "RD centros de datos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2a62f1344a",
+  "src": "Proyecto de RD de centros de datos sostenibles (audiencia ago. 2026)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "05e17c0d1d",
+  "src": "Para instalaciones de 1 MW o más: al menos el 80 % del consumo de cada hora respaldado por renovables de esa hora, límites de consumo de red y operador establecido en la UE.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a0e7199bf1",
+  "src": "Audiencia pública",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3318ac69e7",
+  "src": "Equipos eficientes; energía y frío.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d6592e67db",
+  "src": "Ofertas completas para operadores regionales.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "feaac2e94c",
+  "src": "Centros regionales y edge.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0c50945d76",
+  "src": "Coste y disponibilidad de capacidad local.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "401901275e",
+  "src": "Energía y permisos para centros de datos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e23408b603",
+  "src": "12-9-2025 · Aplicación general",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9a4a9abd3e",
+  "src": "17-1-2025 · Aplicación",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "62cd5a7d5f",
+  "src": "18-11-2025 · 19 proveedores TIC críticos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3bc283f504",
+  "src": "19-11-2025 · Data Union Strategy y Digital Omnibus",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "952431272d",
+  "src": "20-1-2026 · Propuesta CSA2",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9ed3ae8415",
+  "src": "24-2-2026 · Hoja de Ruta de Soberanía Digital",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "145622eb94",
+  "src": "7-5-2026 · Acuerdo provisional Omnibus IA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "acbca955c5",
+  "src": "26-5-2026 · PLO de gobernanza de la IA a las Cortes",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "82d1ca7ce3",
+  "src": "3-6-2026 · Propuesta COM(2026) 502",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "abac10a712",
+  "src": "25-6-2026 · DMA: AWS y Azure, conclusión preliminar",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4e0d77cada",
+  "src": "2-8-2026 · Poderes de supervisión de la Oficina de IA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "06c2f620ab",
+  "src": "27-8-2026 · Audiencia RD centros de datos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c4a6aa13d1",
+  "src": "11-9-2026 · Notificación de vulnerabilidades e incidentes",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c376af8d9e",
+  "src": "5-10-2026 · Orden HAC/1028/2026 factura electrónica",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "14e41e68b5",
+  "src": "11-11-2026 · Proyecto de informe conjunto en el Parlamento",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9676b09319",
+  "src": "Fin 2026 · Informe de progreso del Consejo",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "824ce0a660",
+  "src": "Fin 2026 · Transposición NIS2 en España (prevista)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "357f37313e",
+  "src": "2-12-2026 · Marcado de contenido generado",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ead9a18869",
+  "src": "12-1-2027 · Cambio de proveedor sin cargos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "29dcebec11",
+  "src": "26-3-2027 · Actos de ejecución EHDS",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "001326a857",
+  "src": "Mar. 2027 · Votación en comisión del Parlamento",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "201d68fd45",
+  "src": "12-9-2027 · Contratos anteriores a sept. 2025",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d37c7482cf",
+  "src": "4T 2027 · Objetivo de acuerdo político",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "260331bab0",
+  "src": "2-12-2027 · Alto riesgo (Anexo III)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3d1956fbf6",
+  "src": "11-12-2027 · Requisitos esenciales, SBOM, importadores y distribuidores",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "696324cead",
+  "src": "2028 · Publicación y entrada en vigor (estimación)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "95d83dd8d3",
+  "src": "Oct. 2028 · VERI*FACTU",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bde0888267",
+  "src": "2029 · Aplicación, autoridades y primeras evaluaciones de riesgo",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7e389049a6",
+  "src": "2029–2030 · Primeras licitaciones con niveles y pico de migraciones",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4470a0f7bf",
+  "src": "2030 · 66.900 M€ de inversión en centros de datos en España",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d9883de9ab",
+  "src": "Datos y Omnibus",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9e1c498be8",
+  "src": "Mercado",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4fc9d6089f",
+  "src": "Copia de seguridad de nivel 2 para un hospital público",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f78661fcc9",
+  "src": "Cliente: salud",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3e254d29c1",
+  "src": "Un integrador regional quiere ofrecer copia de seguridad gestionada a un hospital. La evaluación de riesgos clasifica la historia clínica como actividad de orden público: nivel 2 mínimo.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f14a683b74",
+  "src": "Centro de datos establecido en la UE con personal en la UE",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e53eeb37c8",
+  "src": "Almacenamiento y software de protección con soporte avanzado desde la UE",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ad47f92455",
+  "src": "Consola de gestión sin telemetría fuera de Europa",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bb1dcbc15b",
+  "src": "SBOM de los componentes",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9ed5211550",
+  "src": "ENS categoría alta mientras no exista el certificado europeo",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aebe8715a9",
+  "src": "Con una configuración de referencia del mayorista y un operador regional con nivel acreditado, el expediente se prepara en semanas en lugar de meses.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "880225fe79",
+  "src": "Una diputación provincial se convierte en dos mercados",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "eaf1a8b924",
+  "src": "Cliente: sector público",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "11f7a11a5c",
+  "src": "Gestión tributaria, RR. HH., sede electrónica y atención a municipios. Primera evaluación de riesgos hacia 2029 (escenario base).",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "29b71c1796",
+  "src": "Tributos y algunos registros: probablemente orden público → nivel 2",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "03b314f659",
+  "src": "RR. HH., gestión documental y web institucional → nivel 1",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "42e15fd11c",
+  "src": "El integrador que conoce la evaluación antes del pliego propone una arquitectura mixta",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e1e73a34a3",
+  "src": "El mayorista con ambas configuraciones validadas respalda varias ofertas",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "39a3316388",
+  "src": "Un mercado de nivel 1 abierto a casi todos y otro de nivel 2 donde solo compiten quienes tengan configuración y evidencia listas.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1ac799597d",
+  "src": "Integrador de 60 empleados ante su primera licitación CADA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bdbcc60187",
+  "src": "Integrador pyme",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b743052ace",
+  "src": "Especializado en ERP y servicios gestionados para industria y administración local. El pliego de 2029 exige nivel 1 para el servicio principal y nivel 2 para copia y recuperación.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "940b760169",
+  "src": "Nivel 1 propio: establecido en España, datos en centro nacional, subcontratistas declarados",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bd7800e495",
+  "src": "Nivel 2: necesita operador acreditado, productos con soporte y telemetría UE y auditoría",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "47c36a8dc8",
+  "src": "Con configuración de referencia del mayorista, solo paga la auditoría de su operación",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "09633797d9",
+  "src": "Sin ella, se presenta en consorcio o como subcontratista",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4c92f9f4d7",
+  "src": "La diferencia entre competir o subcontratar la marca el mayorista que elija.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c38b47404a",
+  "src": "Fabricante no europeo de almacenamiento ante el canal ibérico",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2b41dfd0ed",
+  "src": "Producto técnicamente líder, gestión desde consola cloud en EE. UU. y soporte avanzado desde fuera de la UE.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "77885b0aa1",
+  "src": "Hoy: solo apto para nivel 1",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7e7fab275e",
+  "src": "Activa región de gestión europea y modo desconectado",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c47dba4a02",
+  "src": "Soporte de 2.º y 3.º nivel desde la UE, con accesos registrados",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d459500e43",
+  "src": "Publica SBOM y política de vulnerabilidades CRA",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "167b73c1f5",
+  "src": "Rellena la ficha de soberanía y la entrega al mayorista",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "05d23f5a94",
+  "src": "Pasa a sostener servicios de nivel 2 y el canal lo recomienda frente a competidores que no publican su ficha.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9414fc8abc",
+  "src": "Industria con visión artificial en planta",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "86183ccd7a",
+  "src": "Cliente: industria",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "321263a232",
+  "src": "Un fabricante de componentes quiere IA de control de calidad con imágenes de producción y datos de máquinas conectadas.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ec00c0036c",
+  "src": "AI Act: clasificar el caso de uso y documentar datos y modelo",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2c0ba50bcd",
+  "src": "Data Act: derecho de acceso a los datos de las máquinas conectadas",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ad3b6f723d",
+  "src": "Ejecutar el modelo en planta: el dato no sale del perímetro",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b6c0eed8c6",
+  "src": "Compartir indicadores con proveedores mediante un espacio de datos con políticas ODRL",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1bc7477e83",
+  "src": "Si es entidad NIS2: evaluación CADA voluntaria de sus servicios",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "987fba8be9",
+  "src": "IA doblemente conforme y datos compartidos sin entregarlos: ventaja frente a clientes que auditan su cadena.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "317c0e6b26",
+  "src": "Banco mediano revisa sus contratos cloud",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "358d2933a0",
+  "src": "Cliente: finanzas",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5519bf6cef",
+  "src": "DORA exige cláusulas de localización, acceso, auditoría y salida; el Data Act elimina los cargos por cambio desde el 12-1-2027.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "73127f21fa",
+  "src": "Registro de proveedores TIC y criticidad",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d463fc3f34",
+  "src": "Un único paquete de evidencias DORA + CADA para cada proveedor",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "3d1afbf92d",
+  "src": "Plan de salida probado con las cláusulas tipo del Data Act",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b7d2c7cb7c",
+  "src": "IA sobre datos de clientes en local o en infraestructura UE",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "c31aaf27ad",
+  "src": "El cumplimiento deja de ser un cuestionario por norma y pasa a ser un expediente reutilizable.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7194a07aa5",
+  "src": "Repatriación de cargas",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "42137487dc",
+  "src": "Coste, control, CADA y Data Act devuelven cargas a entornos privados, híbridos o regionales: servidores, almacenamiento, redes y protección de datos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "7c35800d10",
+  "src": "Nube privada y alternativas de virtualización",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b36e39a9ef",
+  "src": "El cierre del VCSP de Broadcom y los cambios de licencias empujan a evaluar plataformas alternativas, orientables desde el inicio a niveles de garantía.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dd9a5917e5",
+  "src": "IA local",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "46c2b700eb",
+  "src": "La respuesta más directa a los niveles 2–3 para usos de IA: servidores con aceleradores, almacenamiento rápido y orquestación de modelos abiertos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "80bbc31eb7",
+  "src": "Centros de datos regionales y edge",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "29f471be47",
+  "src": "Energía, frío, racks, servidores y redes; plantas, hospitales y nodos de espacios de datos encajan con la capilaridad del canal.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4e4a976f2d",
+  "src": "Hardware europeo y eficiente",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f37c34595f",
+  "src": "Arts. 14 y 32 de la CADA y la revisión del ecodiseño premian fabricación en la UE y eficiencia.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b7b5673501",
+  "src": "Expediente de soberanía como servicio",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "230ae80e96",
+  "src": "Inventarios, flujos de datos, subcontratistas, cadena de software: servicio recurrente reutilizable en licitaciones y auditorías.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8248bd7b7c",
+  "src": "Servicios gestionados de nivel 2",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6217c4c525",
+  "src": "MSP con herramientas que mantienen los datos en la UE y SOC peninsular: el perfil del canal más afectado y que más crece.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "6a23db91b9",
+  "src": "Inventario de datos exportables, personalizaciones, cláusulas y pruebas de portabilidad, con documentación para el expediente.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1fb541b5f5",
+  "src": "Marketplaces y ofertas privadas",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "be173aed80",
+  "src": "Reventa y ofertas multiparte en 30 mercados europeos; los partners generarán el 59 % de las ventas de marketplace hacia 2030.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a5ba616ed2",
+  "src": "Financiación y pago por uso",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "e0df9e5ef1",
+  "src": "Renting y modelos as-a-service para repartir la inversión de proyectos de nivel 2–3.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "8d33c5b95c",
+  "src": "Consorcios y fondos europeos",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9432ce683e",
+  "src": "Financiación de Europa Digital, Horizonte Europa, CDTI y Red.es para pilotos de pilas abiertas, espacios de datos e IA soberana.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "59f4b58591",
+  "src": "Formación y talento",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4226d8edff",
+  "src": "Itinerarios de soberanía, AI Act y CRA para el canal: arquitectos, especialistas en cumplimiento y auditores.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "187595c682",
+  "src": "Fabr. · Mayor. · Integr. · Cliente",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9371acdcfc",
+  "src": "Impacto por eslabón, sobre 3",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "bbbaf9b6b0",
+  "src": "Ninguna norma coincide con el filtro.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ca3c8160cb",
+  "src": "Fechas clave",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "245fd10f6d",
+  "src": "Qué significa para cada eslabón",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2672ae9f23",
+  "src": "Capa que lo resuelve",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "d04dd4f35b",
+  "src": "Consultar mi caso",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4e5ff80c55",
+  "src": "Afecta a:",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9f5e79ca1a",
+  "src": "Toda la cadena",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "565e9824d9",
+  "src": "Hoy",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aaf01ac2f2",
+  "src": "(estimación)",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2a596b3400",
+  "src": "Caso",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "1ae2d40864",
+  "src": "Resultado ·",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "16ad18f0f1",
+  "src": "Complete más respuestas.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "b42c115f97",
+  "src": "${T.impactAria}: ${[",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "13298e1fca",
+  "src": "btn btn-ink",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "98afc32891",
+  "src": "btn btn-out",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5843164abc",
+  "src": "h h${v}",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4c938f853f",
+  "src": "card opp",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "82680ca630",
+  "src": "Compra pública por niveles de soberanía hacia 2029.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "dd2ef54b15",
+  "src": "Sus servicios cloud o gestionados necesitarán un nivel de garantía.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0abbc33eda",
+  "src": "Obligaciones directas como importador o distribuidor desde el 11-12-2027.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "a583b32967",
+  "src": "Conformidad, SBOM y notificación de vulnerabilidades (ya desde el 11-9-2026).",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "cb1e5074d3",
+  "src": "Productos conectados: el usuario debe poder acceder a los datos que generan.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "5af593df08",
+  "src": "Cambio de proveedor sin cargos desde el 12-1-2027.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "4c445fc255",
+  "src": "Como proveedor o integrador: clasificación de riesgo y documentación técnica.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "07007662e6",
+  "src": "Como responsable del despliegue: alto riesgo desde el 2-12-2027.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "9e6aa44500",
+  "src": "Entidad esencial o importante, o proveedor de una: cadena de suministro y notificación.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "08f9fe54a0",
+  "src": "Cláusulas de localización, auditoría y salida con los proveedores TIC.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "427041054c",
+  "src": "Uso primario y secundario de datos de salud; infraestructura de nivel 2 o superior.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "0d7aa42c3e",
+  "src": "Base de cualquier tratamiento de datos personales.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee7ac3da41",
+  "src": "Espacios de datos: compartir sin entregar el dato.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aef4c99fc4",
+  "src": "Obligatorio para proveedores del sector público español; puente hacia la CADA.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "f4137acfbc",
+  "src": "Renovable horaria y operador establecido en la UE para centros de 1 MW o más.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "2d69c3e6ff",
+  "src": "Ecodiseño de servidores y almacenamiento.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "005d964f8f",
+  "src": "Registro de productor y financiación de la gestión de residuos.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "812e8085c7",
+  "src": "Factura electrónica entre empresas y software de gestión que vende el canal.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "aa25704811",
+  "src": "Riesgo de designación como proveedor de alto riesgo de terceros países.",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
   ]
  },
  {
@@ -1547,14 +7790,6 @@
   ]
  },
  {
-  "id": "44b58814d9",
-  "src": "Responsable",
-  "kind": "html",
-  "pages": [
-   "privacidad.html"
-  ]
- },
- {
   "id": "981fb55e14",
   "src": "Ullswater Investments S.L. (marca comercial Software in a Box)",
   "kind": "html",
@@ -1579,28 +7814,12 @@
   ]
  },
  {
-  "id": "bb0a7c3a87",
-  "src": "Datos",
-  "kind": "html",
-  "pages": [
-   "privacidad.html"
-  ]
- },
- {
   "id": "165483019c",
   "src": "Finalidad",
   "kind": "html",
   "pages": [
    "privacidad.html",
    "cookies.html"
-  ]
- },
- {
-  "id": "de442caf4c",
-  "src": "Base jurídica",
-  "kind": "html",
-  "pages": [
-   "privacidad.html"
   ]
  },
  {
@@ -1894,14 +8113,6 @@
  {
   "id": "a3a33ed2f6",
   "src": "Tecnología",
-  "kind": "html",
-  "pages": [
-   "cookies.html"
-  ]
- },
- {
-  "id": "6cc6198d9e",
-  "src": "Tipo",
   "kind": "html",
   "pages": [
    "cookies.html"
