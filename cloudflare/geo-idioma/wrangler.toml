@@ -1,8 +1,11 @@
 name = "siab-geo-idioma"
 main = "worker.js"
 compatibility_date = "2026-11-01"
-# Solo la portada: el Worker no se ejecuta en el resto de la web.
+# Rutas activas en Cloudflare (14-11-2026), todas en modo «fail open».
+# Hace falta /* porque una ruta sin comodín no recoge URL con parámetros (/?lang=de, /?utm_source=…).
+# El código deja pasar al instante todo lo que no sea la portada.
 routes = [
+  { pattern = "www.softwareinabox.eu/*", zone_name = "softwareinabox.eu" },
   { pattern = "www.softwareinabox.eu/", zone_name = "softwareinabox.eu" },
   { pattern = "www.softwareinabox.eu/index.html", zone_name = "softwareinabox.eu" },
 ]

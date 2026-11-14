@@ -20,12 +20,15 @@
 | Archivo | Para qué |
 |---|---|
 | `worker.js` | El Worker de Cloudflare |
-| `wrangler.toml` | Rutas: solo `www.softwareinabox.eu/` y `/index.html` |
+| `wrangler.toml` | Rutas: `www.softwareinabox.eu/*`, `/` e `/index.html` (fail open) |
 | `test.mjs` | 17 pruebas (`node test.mjs`) |
 | `selector-cookie.patch` | Cambio en `i18n/build.py`: el selector guarda la cookie. Después: `python3 i18n/build.py build` |
 
+## Estado
+Desplegado el 14-11-2026: Worker `siab-geo-idioma` en la cuenta Cloudflare de Emilio, rutas `www.softwareinabox.eu/*`, `/` e `/index.html`, modo fail open (si el Worker fallara, la web se sirve igual). Probado en vivo: `?lang=de` redirige y guarda la cookie, la cookie se respeta, `?utm_…` llega al Worker, las páginas interiores no se tocan, y las visitas desde la propia web no se redirigen.
+
 ## Despliegue
-- Panel: Cloudflare → Workers & Pages → Create → Worker `siab-geo-idioma` → pegar `worker.js` → Deploy → Settings → Domains & Routes → añadir las 2 rutas de `wrangler.toml`.
+- Panel: Cloudflare → Workers & Pages → Create → Worker `siab-geo-idioma` → pegar `worker.js` → Deploy → Settings → Domains & Routes → añadir las 3 rutas de `wrangler.toml` (con «Fail open»).
 - O con terminal: `npx wrangler deploy` en esta carpeta.
 - Plan gratuito: 100.000 peticiones al día (solo cuentan las de la portada).
 - Marcha atrás: borrar las rutas del Worker (la web vuelve a ser como hoy al instante).
