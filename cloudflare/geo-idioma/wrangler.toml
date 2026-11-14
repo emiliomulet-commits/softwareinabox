@@ -1,0 +1,8 @@
+name = "siab-geo-idioma"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+# Solo la portada: el Worker no se ejecuta en el resto de la web.
+routes = [
+  { pattern = "www.softwareinabox.eu/", zone_name = "softwareinabox.eu" },
+  { pattern = "www.softwareinabox.eu/index.html", zone_name = "softwareinabox.eu" },
+]
