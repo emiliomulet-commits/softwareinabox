@@ -103,8 +103,8 @@ def footer(pg, lang, tr):
            (U("/mapa-del-sitio/", lang) + "#normas", t("Todas las normas (A–Z)"), "")]
     emp = [(U("/empresa/", lang) + "#como", t("Cómo trabajamos"), ""), (U("/empresa/", lang) + "#experiencia", t("Experiencia"), ""),
            (U("/empresa/", lang) + "#sectores", t("Sectores"), ""), (U("/contacto/", lang), t("Contacto"), "")]
-    res = [(U("/mapa-del-sitio/", lang), t("Mapa del sitio"), ""), ("https://cognitiv.softwareinabox.eu/", "cognitiv.softwareinabox.eu", ""),
-           ("https://argos.softwareinabox.eu/", "argos.softwareinabox.eu", ""), ("https://datos.softwareinabox.eu/", "datos.softwareinabox.eu", ""),
+    res = [(U("/mapa-del-sitio/", lang), t("Mapa del sitio"), ""), (U("https://cognitiv.softwareinabox.eu/", lang), "cognitiv.softwareinabox.eu", ""),
+           (U("https://argos.softwareinabox.eu/", lang), "argos.softwareinabox.eu", ""), (U("https://datos.softwareinabox.eu/", lang), "datos.softwareinabox.eu", ""),
            ("/llms.txt", "llms.txt", "")]
     legal = "".join(f'<a href="{U(p, lang)}">{t(l)}</a>' for p, l in
                     (("/aviso-legal.html", "Aviso legal"), ("/privacidad.html", "Privacidad"), ("/cookies.html", "Cookies")))
