@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DORA: ficha completa do Regulamento de resiliência operacional digital · Software in a Box</title>
+<meta name="description" content="Ficha completa do DORA: os cinco pilares, normas técnicas, notificação de incidentes 4 h / 72 h / 1 mês, registo de informação, cláusulas do art. 30.º, estratégia de saída, os 19 fornecedores críticos de TIC designados, supervisão em Espanha e o que fazer.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/pt/regulacion/dora/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:title" content="DORA: ficha completa do Regulamento de resiliência operacional digital">
+<meta property="og:description" content="Ficha completa do DORA: os cinco pilares, normas técnicas, notificação de incidentes 4 h / 72 h / 1 mês, registo de informação, cláusulas do art. 30.º, estratégia de saída, os 19 fornecedores críticos de TIC designados, supervisão em Espanha e o que fazer.">
+<meta property="og:url" content="https://www.softwareinabox.eu/pt/regulacion/dora/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://www.softwareinabox.eu/pt/regulacion/dora/#article",
+   "url": "https://www.softwareinabox.eu/pt/regulacion/dora/",
+   "headline": "DORA: ficha completa do Regulamento de resiliência operacional digital",
+   "description": "Ficha completa do DORA: os cinco pilares, normas técnicas, notificação de incidentes 4 h / 72 h / 1 mês, registo de informação, cláusulas do art. 30.º, estratégia de saída, os 19 fornecedores críticos de TIC designados, supervisão em Espanha e o que fazer.",
+   "inLanguage": "pt",
+   "dateModified": "2026-11-14",
+   "isPartOf": {
+    "@id": "https://www.softwareinabox.eu/#website"
+   },
+   "publisher": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   },
+   "author": {
+    "@id": "https://www.softwareinabox.eu/#organization"
+   },
+   "about": {
+    "@type": "Legislation",
+    "name": "Regulamento (UE) 2022/2554 relativo à resiliência operacional digital (DORA)",
+    "legislationIdentifier": "Reglamento (UE) 2022/2554",
+    "legislationJurisdiction": "UE"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Software in a Box",
+     "item": "https://www.softwareinabox.eu/pt/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Regulamentação UE",
+     "item": "https://www.softwareinabox.eu/pt/regulacion/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "DORA",
+     "item": "https://www.softwareinabox.eu/pt/regulacion/dora/"
+    }
+   ]
+  }
+ ]
+}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{text-transform:uppercase;position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{text-transform:uppercase;font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<style>
+.fh{padding-top:40px}
+.fh .crumbs{color:var(--mute)}.fh .crumbs a{color:var(--ink)}
+.cada-hero h1{color:#fff;font-size:clamp(32px,4vw,52px);font-weight:800;letter-spacing:-.03em;margin:0 0 16px}
+.cada-hero .lead b{color:#fff}
+.cards4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cards4>*{min-width:0}
+.card h4 .k{display:inline-block;font:800 13px var(--disp);color:var(--gold-d);margin-right:8px}
+.ul{padding-left:20px;margin:0}.ul li{margin-bottom:6px}
+.dl{font-size:14.5px}
+.ficha-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.tbl td,.tbl th{vertical-align:top}
+@media(max-width:1100px){.cards4{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.cards4{grid-template-columns:1fr}}
+</style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/dora/">
+<link rel="alternate" hreflang="en" href="https://www.softwareinabox.eu/en/regulacion/dora/">
+<link rel="alternate" hreflang="fr" href="https://www.softwareinabox.eu/fr/regulacion/dora/">
+<link rel="alternate" hreflang="de" href="https://www.softwareinabox.eu/de/regulacion/dora/">
+<link rel="alternate" hreflang="nl" href="https://www.softwareinabox.eu/nl/regulacion/dora/">
+<link rel="alternate" hreflang="pt" href="https://www.softwareinabox.eu/pt/regulacion/dora/">
+<link rel="alternate" hreflang="it" href="https://www.softwareinabox.eu/it/regulacion/dora/">
+<link rel="alternate" hreflang="da" href="https://www.softwareinabox.eu/da/regulacion/dora/">
+<link rel="alternate" hreflang="fr-be" href="https://www.softwareinabox.eu/fr-be/regulacion/dora/">
+<link rel="alternate" hreflang="nl-be" href="https://www.softwareinabox.eu/nl-be/regulacion/dora/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/en/regulacion/dora/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar para o conteúdo</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="/pt/" aria-label="Software in a Box, início">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
+      Software in a Box
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="/pt/#productos">Produtos</a> <a href="/pt/#como">Como trabalhamos</a> <a href="/pt/#experiencia">Experiência</a> <a href="/pt/#sectores">Setores</a> <a href="/pt/regulacion/" aria-current="page">Regulamentação UE</a> <a class="btn btn-gold" href="/pt/regulacion/#contacto">Falemos</a>
+    </nav>
+            
+          <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>PT</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/dora/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/regulacion/dora/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/regulacion/dora/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/regulacion/dora/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/regulacion/dora/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/regulacion/dora/" hreflang="pt" lang="pt" aria-current="true">Português</a></li><li><a href="https://www.softwareinabox.eu/it/regulacion/dora/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/da/regulacion/dora/" hreflang="da" lang="da">Dansk</a></li><li><a href="https://www.softwareinabox.eu/fr-be/regulacion/dora/" hreflang="fr-be" lang="fr-be">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/regulacion/dora/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<nav class="subnav" id="subnav" aria-label="Secções da ficha"><div class="wrap">
+  <a href="#resumen">Resumo</a><a href="#calendario">Calendário</a><a href="#pilares">Cinco pilares</a><a href="#incidentes">Incidentes</a><a href="#terceros">Risco de terceiros</a><a href="#criticos">Fornecedores críticos</a><a href="#normas">Normas técnicas</a><a href="#espana">Espanha</a><a href="#eslabon">Por elo</a><a href="#relacion">Outras normas</a><a href="#hacer">O que fazer</a><a href="#fuentes">Fontes</a>
+</div></nav>
+
+<section class="sec fh" id="resumen">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Percurso"><a href="/pt/">Início</a> › <a href="/pt/regulacion/">Regulamentação UE</a> › DORA</nav>
+    <div class="eyebrow">Ficha completa · Cibersegurança · Setor financeiro</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="badge b-vig">Em vigor</span><span class="layer l-arg">ARGOS</span></div>
+        <h1>Regulamento DORA</h1>
+        <p class="lead">As entidades financeiras da UE devem demonstrar que <b>resistem, respondem e recuperam</b> de incidentes tecnológicos, e <b>controlar os seus fornecedores de TIC</b> por contrato. Pela primeira vez, as autoridades europeias <b>supervisionam diretamente</b> os fornecedores tecnológicos críticos do setor, incluindo os grandes hiperescaladores.</p>
+        <div class="callout">O DORA não é só para bancos. As suas cláusulas obrigatórias (art. 30.º) chegam a qualquer fornecedor de TIC de uma entidade financeira, mesmo que seja uma PME: auditoria, localização de dados, notificação, saída.</div>
+      </div>
+      <div class="facts">
+        <h4>Ficha técnica</h4>
+        <dl class="kv">
+          <dt>Norma</dt><dd>Regulamento (UE) 2022/2554 (JO de 27-12-2022)</dd>
+          <dt>Aplicação</dt><dd>17 de janeiro de 2025</dd>
+          <dt>Forma</dt><dd>Regulamento, com a Diretiva (UE) 2022/2556 que adapta outras normas</dd>
+          <dt>Fundamento jurídico</dt><dd>Art. 114.º TFUE</dd>
+          <dt>Estrutura</dt><dd>9 capítulos · 64 artigos</dd>
+          <dt>Âmbito</dt><dd>21 tipos de entidade financeira e terceiros prestadores de serviços de TIC</dd>
+          <dt>Supervisores europeus</dt><dd>EBA, EIOPA e ESMA (ESA)</dd>
+          <dt>Espanha</dt><dd>Banco de Espanha, CNMV e DGSFP</dd>
+          <dt>Fornecedores críticos</dt><dd>19 designados a 18-11-2025; sanção pecuniária compulsória até 1 % do volume de negócios diário mundial</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">O essencial em três ideias</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>Um único quadro</h4><p>Substitui orientações dispersas de cada supervisor por um regulamento comum para banca, seguros, investimento, pagamentos, criptoativos e outros, com proporcionalidade para as entidades pequenas.</p><div class="mini">Arts. 2.º e 4.º</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>A direção é responsável</h4><p>O órgão de administração define, aprova e responde pelo quadro de gestão do risco das TIC, incluindo a estratégia de fornecedores.</p><div class="mini">Art. 5.º</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Os fornecedores, incluídos</h4><p>Registo de todos os contratos TIC, cláusulas mínimas, estratégias de saída e, para os críticos, supervisão europeia direta.</p><div class="mini">Arts. 28.º–44.º</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="calendario">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Calendário</div><h2>O que se aplica e desde quando</h2></div>
+    <div class="tbl"><table><caption class="sr">Calendário do DORA</caption>
+      <thead><tr><th style="width:150px">Data</th><th>Marco</th><th>Situação</th></tr></thead><tbody>
+      <tr><td><b>16-1-2023</b></td><td>Entrada em vigor</td><td><span class="badge b-vig">Cumprido</span></td></tr>
+      <tr><td><b>17-1-2025</b></td><td>Aplicação plena às entidades financeiras</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>Abr.–mai. 2025</b></td><td>Primeira entrega dos registos de informação às ESA</td><td><span class="badge b-vig">Cumprido</span></td></tr>
+      <tr><td><b>8-7-2025</b></td><td>Normas técnicas de testes de penetração orientados por ameaças (TLPT)</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>22-7-2025</b></td><td>Normas técnicas de subcontratação (Regulamento Delegado 2025/532)</td><td><span class="badge b-vig">Em vigor</span></td></tr>
+      <tr><td><b>18-11-2025</b></td><td>Primeira lista de 19 fornecedores críticos de TIC</td><td><span class="badge b-vig">Cumprido</span></td></tr>
+      <tr><td><b>2026</b></td><td>Início da supervisão dos fornecedores críticos: supervisor principal e equipas conjuntas de análise</td><td><span class="badge b-vig">Em curso</span></td></tr>
+      <tr><td><b>31-3-2026</b></td><td>Registos de informação de 2026 das autoridades nacionais às ESA</td><td><span class="badge b-vig">Cumprido</span></td></tr>
+      <tr><td><b>17-1-2028</b></td><td>Revisão do DORA pela Comissão</td><td><span class="badge b-gra">Previsto</span></td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="pilares">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Estrutura</div><h2>Os cinco pilares</h2></div>
+    <div class="tbl"><table><caption class="sr">Pilares do DORA</caption>
+      <thead><tr><th style="width:240px">Pilar</th><th>O que exige</th><th style="width:220px">Norma de desenvolvimento</th></tr></thead><tbody>
+      <tr><td><b>1 · Gestão do risco das TIC</b> (arts. 5.º–16.º)</td><td>Quadro documentado, inventário de ativos, proteção, deteção, continuidade, cópias, aprendizagem e comunicação. Quadro simplificado para entidades pequenas</td><td>Regulamento Delegado 2024/1774</td></tr>
+      <tr><td><b>2 · Incidentes</b> (arts. 17.º–23.º)</td><td>Gestão, classificação e notificação de incidentes graves; notificação voluntária de ciberameaças</td><td>2024/1772 · 2025/301 · Regulamento de Execução 2025/302</td></tr>
+      <tr><td><b>3 · Testes</b> (arts. 24.º–27.º)</td><td>Programa anual de testes para todas; TLPT de três em três anos para as entidades significativas</td><td>Regulamento Delegado 2025/1190</td></tr>
+      <tr><td><b>4 · Risco de terceiros de TIC</b> (arts. 28.º–44.º)</td><td>Estratégia, registo, diligência, cláusulas, saída, concentração; supervisão de fornecedores críticos</td><td>2024/1773 · 2024/2956 · 2025/532 · 2024/1502 · 2024/1505</td></tr>
+      <tr><td><b>5 · Partilha de informações</b> (art. 45.º)</td><td>Acordos voluntários para partilhar informação sobre ciberameaças</td><td>—</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec alt" id="incidentes">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Artigo 19.º · Regulamento Delegado 2025/301</div><h2>Notificação de incidentes graves</h2>
+    <p class="lead">A entidade classifica cada incidente com os critérios do Regulamento Delegado 2024/1772 (clientes afetados, duração, extensão geográfica, dados, criticidade, impacto económico). Se for grave, notifica o seu supervisor nacional.</p></div>
+    <div class="levels">
+      <div class="lv"><div class="big">4 h</div><div class="tag">Notificação inicial</div><ul><li>Desde que se classifica como grave</li><li>Nunca mais de 24 h desde que se deteta</li></ul></div>
+      <div class="lv"><div class="big">72 h</div><div class="tag">Relatório intercalar</div><ul><li>Desde a notificação inicial</li><li>Atualizar se a situação mudar</li></ul></div>
+      <div class="lv"><div class="big">1 mês</div><div class="tag">Relatório final</div><ul><li>Desde o último relatório intercalar</li><li>Causa raiz, impacto, medidas</li></ul></div>
+      <div class="lv"><div class="big">Clientes</div><div class="tag">Informação</div><ul><li>Se afetar os seus interesses financeiros</li><li>Sem demora injustificada</li></ul></div>
+    </div>
+    <p class="note">Em Espanha, o Banco de Espanha recebe as notificações pela sua plataforma de intercâmbio telemático; a CNMV e a DGSFP têm procedimentos próprios.</p>
+  </div>
+</section>
+
+<section class="sec" id="terceros">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Artigos 28.º–30.º</div><h2>Risco de fornecedores de TIC: o que toca a qualquer fornecedor</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Registo de informação (art. 28.º, n.º 3)</h4><p>Cada entidade mantém um registo de todos os acordos com fornecedores de TIC, no formato do Regulamento de Execução 2024/2956, e entrega-o todos os anos ao seu supervisor. Com esses registos as ESA identificaram os fornecedores críticos. Em 2026, a CNMV publicou o seu guia operacional de reporte a 12 de fevereiro.</p></div>
+      <div class="card soft"><h4>Estratégia de saída (art. 28.º, n.º 8)</h4><p>Para os serviços que suportam funções críticas ou importantes: planos de saída documentados e testados, alternativas identificadas e transição sem interromper o serviço. Usar várias clouds é uma opção, não uma obrigação.</p></div>
+    </div>
+    <div class="tbl" style="margin-top:24px"><table><caption class="sr">Cláusulas do artigo 30.º</caption>
+      <thead><tr><th style="width:50%">Em todos os contratos TIC (art. 30.º, n.º 2)</th><th>Além disso, se suportarem funções críticas ou importantes (art. 30.º, n.º 3)</th></tr></thead><tbody>
+      <tr><td>Descrição clara dos serviços e da subcontratação permitida</td><td>Níveis de serviço com objetivos quantitativos</td></tr>
+      <tr><td>Localização dos dados e do tratamento; aviso prévio de alterações</td><td>Prazos de pré-aviso e obrigação de informar de alterações relevantes</td></tr>
+      <tr><td>Disponibilidade, autenticidade, integridade e confidencialidade dos dados</td><td>Planos de contingência testados e medidas de segurança</td></tr>
+      <tr><td>Acesso, recuperação e devolução dos dados se o fornecedor falir ou o contrato terminar</td><td>Participação nos testes de resiliência e TLPT da entidade</td></tr>
+      <tr><td>Assistência em incidentes, sem custo ou a custo predeterminado</td><td>Direitos ilimitados de acesso, inspeção e auditoria</td></tr>
+      <tr><td>Cooperação plena com as autoridades</td><td>Estratégias de saída com período de transição obrigatório</td></tr>
+      <tr><td>Direitos de rescisão e formação em segurança</td><td>—</td></tr>
+    </tbody></table></div>
+    <div class="callout">A subcontratação de funções críticas segue o Regulamento Delegado 2025/532. A Comissão retirou do texto final o artigo que obrigava a vigiar toda a cadeia de subcontratantes, mas o registo de informação continua a exigir identificá-la.</div>
+  </div>
+</section>
+
+<section class="sec alt" id="criticos">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Artigos 31.º–44.º</div><h2>Os fornecedores críticos de TIC</h2>
+    <p class="lead">A 18-11-2025 as ESA publicaram a primeira lista: 19 fornecedores, entre eles grandes clouds, plataformas de core banking e fornecedores de dados. A lista é revista todos os anos.</p></div>
+    <div class="grid2">
+      <div class="card soft"><h4>Como são designados</h4><ul class="check">
+        <li>Impacto sistémico se falharem e número de entidades que dependem deles</li>
+        <li>Importância sistémica dessas entidades</li>
+        <li>Dependência para funções críticas ou importantes</li>
+        <li>Dificuldade de substituição</li>
+        <li>Direito a ser ouvido antes da designação; possibilidade de pedir voluntariamente a inclusão</li></ul></div>
+      <div class="card soft"><h4>O que implica</h4><ul class="check">
+        <li>Um <b>supervisor principal</b> (EBA, EIOPA ou ESMA) com equipas conjuntas de análise</li>
+        <li>Inspeções, pedidos e recomendações</li>
+        <li>Sanções pecuniárias compulsórias diárias até 1 % do volume de negócios diário médio mundial, até seis meses</li>
+        <li>Filial na UE em doze meses se o fornecedor for de fora</li>
+        <li>Taxas de supervisão</li></ul></div>
+    </div>
+    <p class="note">O Banco de Espanha contribui com dois supervisores a tempo inteiro para as equipas de análise. As recomendações a um fornecedor crítico são comunicadas às entidades que o utilizam, que as devem ter em conta na sua gestão de riscos.</p>
+  </div>
+</section>
+
+<section class="sec" id="normas">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Nível 2</div><h2>Normas técnicas e simplificação</h2></div>
+    <div class="grid2">
+      <div class="card soft"><h4>O regulamento já está completo</h4><p>Com a publicação das normas de subcontratação e TLPT em 2025, o conjunto de normas técnicas previsto está em vigor. O trabalho de 2026 é de supervisão: registos, inspeções e vigilância dos fornecedores críticos.</p></div>
+      <div class="card soft"><h4>Omnibus Digital</h4><p>A proposta de novembro de 2025 inclui um <b>ponto único de notificação</b> de incidentes para o DORA, a NIS2, o RGPD e outras normas. O setor financeiro (AFME, fundos de pensões) pede mais simplificação e o BCE pediu para retirar o DORA dessa alteração. Não está aprovada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="espana">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Supervisão nacional</div><h2>Espanha</h2></div>
+    <div class="tbl"><table><caption class="sr">Supervisores DORA em Espanha</caption>
+      <thead><tr><th style="width:240px">Supervisor</th><th>Entidades</th></tr></thead><tbody>
+      <tr><td><b>Banco de Espanha</b></td><td>Instituições de crédito, de pagamento e de moeda eletrónica. Coordena os TLPT no quadro TIBER-ES</td></tr>
+      <tr><td><b>CNMV</b></td><td>Empresas de investimento, sociedades gestoras, infraestruturas de mercado, prestadores de serviços de criptoativos. Perguntas frequentes atualizadas a 10-2-2026</td></tr>
+      <tr><td><b>DGSFP</b></td><td>Seguradoras, resseguradoras, mediadores e fundos de pensões</td></tr>
+    </tbody></table></div>
+    <div class="callout">O projeto de lei de digitalização e modernização do sistema financeiro completa o regime sancionatório do DORA em Espanha e regula a participação espanhola no fórum de supervisão de fornecedores críticos.</div>
+  </div>
+</section>
+
+<section class="sec" id="eslabon">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Leitura por elo</div><h2>O que significa para cada ator da cadeia</h2></div>
+    <div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-p="eF" role="tab" aria-selected="true">Fabricante</button>
+      <button class="tab" data-p="eM" role="tab" aria-selected="false">Grossista</button>
+      <button class="tab" data-p="eI" role="tab" aria-selected="false">Integrador</button>
+      <button class="tab" data-p="eC" role="tab" aria-selected="false">Cliente final</button>
+    </div>
+    <div class="tabpane on" id="eF" role="tabpanel"><div class="grid2">
+      <div><h4>Se vende software ou cloud ao setor financeiro</h4><ul class="check">
+        <li>Anexo contratual DORA com as cláusulas do art. 30.º.</li>
+        <li>Direitos de auditoria e participação em testes.</li>
+        <li>Plano de saída e devolução de dados.</li></ul></div>
+      <div><h4>Vantagem</h4><ul class="check">
+        <li>A localização de dados na UE e a transparência de subcontratantes facilitam entrar no registo sem objeções.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eM" role="tabpanel"><div class="grid2">
+      <div><h4>O que lhe pedem</h4><ul class="check">
+        <li>Contratos de suporte e manutenção compatíveis com o DORA.</li>
+        <li>Informação sobre a cadeia de subcontratação do fabricante.</li></ul></div>
+      <div><h4>Oportunidade</h4><ul class="check">
+        <li>Modelos contratuais DORA para o canal.</li>
+        <li>Alternativas de catálogo que reduzam a concentração.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eI" role="tabpanel"><div class="grid2">
+      <div><h4>Obrigações contratuais</h4><ul class="check">
+        <li>Se suportar funções críticas: SLA quantitativos, continuidade testada, auditoria ilimitada.</li>
+        <li>Notificação e assistência em incidentes.</li></ul></div>
+      <div><h4>Linha de serviço</h4><ul class="check">
+        <li>Construção do registo de informação.</li>
+        <li>Estratégias de saída testadas e arquiteturas portáveis.</li>
+        <li>Pacote de evidências comum DORA e CADA.</li></ul></div>
+    </div></div>
+    <div class="tabpane" id="eC" role="tabpanel"><div class="grid2">
+      <div><h4>Entidade financeira</h4><ul class="check">
+        <li>Registo de informação anual atualizado.</li>
+        <li>Classificação e notificação de incidentes no prazo.</li>
+        <li>Testes anuais e TLPT se for significativa.</li></ul></div>
+      <div><h4>Fornecedores críticos</h4><ul class="check">
+        <li>Incorporar as recomendações do supervisor principal na sua gestão de riscos.</li>
+        <li>Medir e gerir a concentração em poucos fornecedores.</li></ul></div>
+    </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="relacion">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Articulação com outras normas</div><h2>Com quem partilha terreno</h2></div>
+    <div class="tbl"><table><caption class="sr">Relação do DORA com outras normas</caption>
+      <thead><tr><th style="width:220px">Norma</th><th>Ponto de contacto</th></tr></thead><tbody>
+      <tr><td><a href="/pt/regulacion/nis2/"><b>NIS2</b></a></td><td>Para as entidades financeiras, o DORA é norma especial e prevalece na gestão de riscos e notificação.</td></tr>
+      <tr><td><a href="/pt/regulacion/data-act/"><b>Data Act</b></a></td><td>As suas regras de mudança de fornecedor de cloud (sem encargos de saída a partir de 12-1-2027) facilitam cumprir a estratégia de saída do DORA.</td></tr>
+      <tr><td><a href="/pt/regulacion/cra/"><b>CRA</b></a></td><td>Produtos com elementos digitais comprados por bancos: o setor pede que se evitem notificações duplicadas.</td></tr>
+      <tr><td><b>RGPD</b></td><td>Se o incidente afetar dados pessoais, notifica-se também a AEPD em 72 horas; o contrato DORA coexiste com o de subcontratante.</td></tr>
+      <tr><td><a href="/pt/regulacion/#cada"><b>CADA</b></a></td><td>Os clientes financeiros vão pedir a mesma evidência de fornecedores e localização de dados para o DORA e para os níveis de garantia da proposta.</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="hacer">
+  <div class="wrap">
+    <div class="sec-h"><div class="eyebrow">Roteiro</div><h2>O que fazer nos próximos doze meses</h2></div>
+    <div class="cards4">
+      <div class="card soft"><h4><span class="k">Já</span>Contratos</h4><p class="dl">Rever os contratos com entidades financeiras face ao art. 30.º e ter um anexo DORA padrão.</p></div>
+      <div class="card soft"><h4><span class="k">1.º T 2027</span>Registo</h4><p class="dl">Registo de informação de 2027 com subcontratantes identificados.</p></div>
+      <div class="card soft"><h4><span class="k">2027</span>Saída</h4><p class="dl">Planos de saída testados, aproveitando o fim dos encargos de mudança do Data Act.</p></div>
+      <div class="card soft"><h4><span class="k">Contínuo</span>Incidentes</h4><p class="dl">Classificação e notificação 4 h / 72 h / 1 mês ensaiadas.</p></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="card"><h4>Como a Software in a Box ajuda</h4><p><span class="layer l-arg">ARGOS</span> mantém o inventário de fornecedores, contratos, localizações de dados e subcontratantes que alimenta o registo de informação, e guarda a evidência de testes e planos de saída. A mesma base serve para a NIS2 e a CADA.</p></div>
+      <div class="card"><h4>Mais na secção Regulamentação UE</h4><p>Radar de 18 normas, calendário 2025–2030, matriz de impacto e autodiagnóstico.</p><div class="ficha-nav"><a class="btn btn-ink" href="/pt/regulacion/#radar">Voltar ao radar</a><a class="btn btn-out" href="/pt/regulacion/#contacto">Falemos</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Fontes principais</h3>
+    <ul class="src">
+      <li>Texto · <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32022R2554">Regulamento (UE) 2022/2554 (EUR-Lex)</a></li>
+      <li>Texto · <a href="https://eur-lex.europa.eu/eli/reg_del/2025/301">Regulamento Delegado (UE) 2025/301</a></li>
+      <li>ESA · <a href="https://www.eba.europa.eu/publications-and-media/press-releases/european-supervisory-authorities-designate-critical-ict-third-party-providers-under-digital">Designação de fornecedores críticos de TIC (18-11-2025)</a></li>
+      <li>EBA · <a href="https://www.eba.europa.eu/regulation-and-policy/operational-resilience">Resiliência operacional</a></li>
+      <li>Espanha · <a href="https://www.bde.es/f/webbe/Secciones/Publicaciones/PublicacionesAnuales/MemoriaSupervisionBancaria/25/MemoriaSupervision2025_Cap3_Rec3.1.pdf">Banco de Espanha: supervisão de terceiros críticos (PDF)</a></li>
+      <li>Espanha · <a href="https://internet.cnmv.es/DocPortal/Ciberseguridad/ProcOperRepRegProvDORA2026.pdf">CNMV: guia de reporte do registo 2026 (PDF)</a></li>
+      <li>Espanha · <a href="https://finreg360.com/alerta/la-cnmv-actualiza-las-preguntas-frecuentes-sobre-el-reglamento-de-resiliencia-operativa-digital/">Finreg360: perguntas frequentes da CNMV</a></li>
+      <li>Supervisor · <a href="https://www.fma.gv.at/en/cross-sectoral-topics/dora/dora-oversight-framework-of-critical-ict-third-party-service-providers/">FMA: quadro de vigilância de fornecedores críticos</a></li>
+      <li>Análise · <a href="https://www.jonesday.com/de/insights/2025/07/uniform-standards-for-ict-subcontracting-in-eu-financial-sector-new-obligations">Jones Day: Regulamento Delegado 2025/532</a></li>
+      <li>Omnibus · <a href="https://www.afme.eu/news-insights/press-releases/afme-highlights-missed-simplification-opportunities-in-eu-digital-omnibus/">AFME: simplificação do Omnibus Digital</a></li>
+    </ul>
+    <p class="note">Ficha elaborada a partir de um catálogo de 81 fontes sobre o DORA mantido pela Software in a Box. Informação indicativa; não constitui aconselhamento jurídico. Última revisão: 14 de novembro de 2026.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="/pt/" style="display:flex">Software in a Box</a>
+        <p style="margin-top:12px;max-width:26em">Software para o dado sensível: IA soberana, conformidade verificada e espaços de dados federados. Madrid, União Europeia.</p>
+      </div>
+      <div><h4>Produtos</h4><a href="https://cognitiv.softwareinabox.eu/pt/">COGNITIV</a><a href="https://argos.softwareinabox.eu/pt/">ARGOS</a><a href="https://datos.softwareinabox.eu/pt/">Espaços de dados</a></div>
+      <div><h4>Empresa</h4><a href="/pt/#como">Como trabalhamos</a><a href="/pt/#experiencia">Experiência</a><a href="/pt/#contacto">Contacto</a></div>
+      <div><h4>Recursos</h4><a href="/pt/regulacion/">Regulamentação UE</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Mapa do site</a></div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Software in a Box, marca da Ullswater Investments S.L.</span>
+      <nav aria-label="Jurídico"><a href="/pt/aviso-legal.html">Aviso legal</a><a href="/pt/privacidad.html">Privacidade</a><a href="/pt/cookies.html">Cookies</a></nav>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){var b=document.querySelector(".burger"),n=document.getElementById("nav");
+ if(b&&n){b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});}
+ document.querySelectorAll(".tabs").forEach(function(g){g.querySelectorAll(".tab").forEach(function(t){
+  t.addEventListener("click",function(){g.querySelectorAll(".tab").forEach(function(x){x.classList.toggle("on",x===t);x.setAttribute("aria-selected",x===t)});
+   var box=g.parentNode;box.querySelectorAll(":scope > .tabpane").forEach(function(p){p.classList.toggle("on",p.id===t.dataset.p)});});});});
+ var subs=document.querySelectorAll("#subnav a");if(subs.length&&"IntersectionObserver" in window){
+  var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){subs.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});
+  document.querySelectorAll("main section[id]").forEach(function(s){obs.observe(s)});}
+})();
+</script>
+</body>
+</html>

@@ -526,6 +526,16 @@ def build_page(pg, lang, tr, missing):
     raw = re.sub(r'(<meta property="og:url" content=")[^"]*"', r"\g<1>" + url + '"', raw)
     raw = re.sub(r'(<meta property="og:locale" content=")[^"]*"', r"\g<1>" + CFG["locales"][lang] + '"', raw)
     raw = rewrite_links(raw, lang)
+    # fichas de /regulacion/: enlace JS al idioma si la ficha existe traducida; si no, queda la española
+    # y la etiqueta conserva el "(en español)"; si existe, se le quita.
+    def fic(m):
+        u = loc_url(m.group(1), lang)
+        flag = m.group(3)
+        if not u.startswith("/regulacion/"):
+            flag = re.sub(r"\s*\([^)]*\)$", "", flag)
+        return 'fic:"' + u + '"' + m.group(2) + flag + '"'
+    raw = re.sub(r'fic:"(/regulacion/[^"]*)"(,flag:")([^"]*)"', fic, raw)
+    raw = raw.replace("${T.fic}", '${/^\\/regulacion\\//.test(r.fic)?T.fic:T.fic.replace(/\\s*\\([^)]*\\)$/,"")}')
     # formularios: página de gracias en el idioma y asunto marcado
     raw = re.sub(r'(name="_next" value=")([^"]*)"', lambda m: m.group(1) + loc_url(m.group(2), lang) + '"', raw)
     raw = re.sub(r'(name="_subject" value=")([^"]*)"', lambda m: m.group(1) + m.group(2) + " [" + lang.upper() + ']"', raw)

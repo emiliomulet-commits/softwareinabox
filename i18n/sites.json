@@ -61,73 +61,49 @@
           "file": "regulacion/ai-act/index.html",
           "path": "/regulacion/ai-act/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/data-act/index.html",
           "path": "/regulacion/data-act/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/cra/index.html",
           "path": "/regulacion/cra/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/nis2/index.html",
           "path": "/regulacion/nis2/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/csa2-eucs/index.html",
           "path": "/regulacion/csa2-eucs/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/dora/index.html",
           "path": "/regulacion/dora/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/dma-nube/index.html",
           "path": "/regulacion/dma-nube/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/ehds/index.html",
           "path": "/regulacion/ehds/",
           "changefreq": "monthly",
-          "priority": "0.8",
-          "langs": [
-            "es"
-          ]
+          "priority": "0.8"
         },
         {
           "file": "regulacion/rgpd-omnibus/index.html",
