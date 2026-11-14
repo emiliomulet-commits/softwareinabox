@@ -121,3 +121,21 @@ nav.subnav.sx-toc>.wrap{flex:1;min-width:0}
 .sx-faq details[open] summary::after{content:"–"}
 .sx-faq details p{padding:0 22px 18px;margin:0;color:#233044}
 @media print{header.sx-hd,footer.sx-ft,.sx-top,.sx-pager{display:none}}
+
+/* Menú clásico (15-11-2026): el panel cuelga pegado a la barra, sin hueco; zona de ratón de toda la altura de la barra;
+   apertura y cierre los controla nav.js (con margen de 300 ms). */
+@media (min-width:1101px){
+  .sx-hd .sx-nav{align-self:stretch}
+  .sx-hd .sx-dd{align-self:stretch;cursor:pointer}
+  .sx-hd .sx-dd>a{padding-right:3px}
+  .sx-hd .sx-dd>button{padding:8px 10px 8px 3px;align-self:stretch}
+  .sx-hd .sx-dd>button svg{width:13px;height:13px}
+  .sx-hd .sx-dd.open>a,.sx-hd .sx-dd.open>button{color:#fff}
+  .sx-hd .sx-panel{top:100%;margin-top:-6px}
+  .sx-hd .sx-panel::before{content:"";position:absolute;left:-12px;right:-12px;top:-18px;height:18px}
+  .sx-hd.js-dd .sx-dd:hover .sx-panel,.sx-hd.js-dd .sx-dd:focus-within .sx-panel{display:none}
+  .sx-hd.js-dd .sx-dd.open .sx-panel{display:block}
+  .sx-hd .sx-panel a{padding:11px 14px}
+  .sx-hd .sx-panel a:focus-visible{outline:2px solid #C9A227;outline-offset:-2px;background:rgba(255,255,255,.07);color:#fff}
+  .sx-hd .i18n-sw ul::before{content:"";position:absolute;left:0;right:0;top:-12px;height:12px}
+}
