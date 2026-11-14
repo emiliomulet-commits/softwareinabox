@@ -32,5 +32,6 @@
 - [Nederlands](https://www.softwareinabox.eu/nl/)
 - [Português](https://www.softwareinabox.eu/pt/)
 - [Italiano](https://www.softwareinabox.eu/it/)
+- [Dansk](https://www.softwareinabox.eu/da/)
 - [Français (Belgique)](https://www.softwareinabox.eu/fr-be/)
 - [Nederlands (België)](https://www.softwareinabox.eu/nl-be/)
