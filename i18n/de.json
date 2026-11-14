@@ -2,7 +2,6 @@
 "87462ee764": "Software in a Box · Souveräne KI, nachgewiesene Compliance und Datenräume",
 "61a5d1fc23": "Zum Inhalt springen",
 "17ea0a188c": "Menü",
-"b5ac9da6f1": "<a href=\"#productos\">Produkte</a> <a href=\"#como\">Unser Ansatz</a> <a href=\"#experiencia\">Referenzen</a> <a href=\"#sectores\">Branchen</a> <a class=\"btn btn-gold\" href=\"#contacto\">Kontakt aufnehmen</a>",
 "b6a55043a6": "Ihre KI und Ihre Daten <span>bleiben im Haus.</span>",
 "620cb10598": "Software in a Box entwickelt Software für Organisationen, deren Daten ihren Perimeter nicht verlassen dürfen: künstliche Intelligenz auf dem eigenen Server, nachweisbare Compliance und Datenräume, um Daten zu teilen, ohne die Kontrolle zu verlieren.",
 "d1dda77292": "<a class=\"btn btn-gold\" href=\"#productos\">Produkte entdecken</a> <a class=\"btn btn-line\" href=\"#contacto\">Termin vereinbaren</a>",
@@ -222,5 +221,7 @@
 "44f2c93112": "Danke für Ihre Nachricht",
 "54dc7d9a16": "Wir haben Ihre Nachricht erhalten und antworten Ihnen so bald wie möglich.",
 "181d919447": "<a class=\"btn btn-navy\" href=\"/\" style=\"color:#fff\">Zur Startseite</a> <a class=\"btn\" href=\"https://cognitiv.softwareinabox.eu/\" style=\"border-color:var(--line)\">COGNITIV entdecken</a>",
-"057b5bb9e8": "Bestätigung des Versands des Kontaktformulars."
+"057b5bb9e8": "Bestätigung des Versands des Kontaktformulars.",
+"450fe39ba0": "<a href=\"#productos\">Produkte</a> <a href=\"#como\">Unser Ansatz</a> <a href=\"#experiencia\">Referenzen</a> <a href=\"#sectores\">Branchen</a> <a href=\"/regulacion/\" hreflang=\"es\">EU-Regulierung · ES</a> <a class=\"btn btn-gold\" href=\"#contacto\">Kontakt aufnehmen</a>",
+"07c85207e0": "EU-Regulierung · ES"
 }

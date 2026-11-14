@@ -25,9 +25,17 @@ ALL = [SRC] + LANGS
 BUILDING = set()
 
 
-def active():
-    """Idiomas publicados: español + los que se están generando + los que ya tienen carpeta."""
-    return [SRC] + [l for l in LANGS if l in BUILDING or os.path.isdir(os.path.join(ROOT, l))]
+def active(pg=None):
+    """Idiomas publicados: español + los que se están generando + los que ya tienen carpeta.
+    Si la página declara "langs" en sites.json, solo esos idiomas (p. ej. una sección aún sin traducir)."""
+    out = [SRC] + [l for l in LANGS if l in BUILDING or os.path.isdir(os.path.join(ROOT, l))]
+    if pg is not None and pg.get("langs"):
+        out = [l for l in out if l in pg["langs"]]
+    return out
+
+
+def has_lang(pg, lang):
+    return not pg.get("langs") or lang in pg["langs"]
 
 INLINE = {"a", "b", "strong", "i", "em", "span", "br", "small", "sup", "sub", "code", "u",
           "mark", "abbr", "s", "wbr", "q", "cite", "time", "tspan", "bdi", "kbd", "del", "ins"}
@@ -242,6 +250,8 @@ def jsonld_strings(txt):
 def extract():
     seen = {}
     for pg in SITE["pages"]:
+        if pg.get("langs") and not [l for l in pg["langs"] if l != SRC]:
+            continue  # página solo en español: no hay nada que traducir
         raw = strip_i18n(open(os.path.join(ROOT, pg["file"]), encoding="utf-8").read())
         for a, b, kind, s, x in units(raw):
             items = jsonld_strings(s) if kind == "jsonld" else [s]
@@ -359,6 +369,8 @@ def loc_url(u, lang):
             return u
         if lang in CFG.get("lang_sites", {}) and key not in CFG["lang_sites"][lang]:
             lang = CFG["fallback"][lang]  # la web de destino no tiene esa versión (fr-be -> fr, da -> en)
+        if not has_lang(pg, lang):
+            lang = SRC
         return s["base"] + lpath(pg, lang) + (m.group(4) or "")
     if re.match(r"^[a-z]+:", u):
         return u
@@ -370,7 +382,7 @@ def loc_url(u, lang):
             path = "/"
     pg = page_match(SITE, path)
     if pg:
-        return lpath(pg, lang) + rest
+        return lpath(pg, lang if has_lang(pg, lang) else SRC) + rest
     return path + rest
 
 
@@ -388,9 +400,10 @@ def rewrite_links(raw, lang):
 def hreflang_block(pg):
     base = SITE["base"]
     lines = ["<!-- I18N:BEGIN -->"]
-    for l in active():
+    for l in active(pg):
         lines.append(f'<link rel="alternate" hreflang="{l}" href="{base}{lpath(pg, l)}">')
-    lines.append(f'<link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, CFG["x_default"])}">')
+    xd = CFG["x_default"] if has_lang(pg, CFG["x_default"]) else SRC
+    lines.append(f'<link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, xd)}">')
     lines.append("<!-- I18N:END -->")
     return "\n".join(lines)
 
@@ -414,7 +427,7 @@ SW_CSS = ("<style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:
 def switcher(pg, lang):
     base = SITE["base"]
     items = []
-    for l in active():
+    for l in active(pg):
         cur = ' aria-current="true"' if l == lang else ""
         items.append(f'<li><a href="{base}{lpath(pg, l)}" hreflang="{l}" lang="{l}"{cur}>{CFG["names"][l]}</a></li>')
     globe = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
@@ -526,9 +539,10 @@ def sitemap():
     for pg in SITE["pages"]:
         if pg.get("sitemap") is False:
             continue
-        alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{base}{lpath(pg, l)}"/>' for l in active())
-        alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, CFG["x_default"])}"/>'
-        for l in active():
+        alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{base}{lpath(pg, l)}"/>' for l in active(pg))
+        xd = CFG["x_default"] if has_lang(pg, CFG["x_default"]) else SRC
+        alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{lpath(pg, xd)}"/>'
+        for l in active(pg):
             out.append(f"  <url>\n    <loc>{base}{lpath(pg, l)}</loc>\n    <lastmod>{today}</lastmod>\n"
                        f"    <changefreq>{pg.get('changefreq', 'monthly')}</changefreq>\n    <priority>{pg.get('priority', '0.5')}</priority>{alts}\n  </url>")
     out.append("</urlset>\n")
@@ -557,7 +571,7 @@ def build(only=None):
         if not tr:
             print(f"{lang}: sin traducciones, se omite"); continue
         missing = []
-        for pg in SITE["pages"]:
+        for pg in [pg for pg in SITE["pages"] if has_lang(pg, lang)]:
             out = build_page(pg, lang, tr, missing)
             dest = os.path.join(ROOT, lang, lfile(pg, lang))
             os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -567,7 +581,7 @@ def build(only=None):
                 os.makedirs(os.path.dirname(old), exist_ok=True)
                 open(old, "w", encoding="utf-8").write(redirect_stub(SITE["base"] + lpath(pg, lang)))
         report[lang] = sorted(set(missing))
-        print(f"{lang}: {len(SITE['pages'])} páginas" + (f", {len(report[lang])} textos sin traducir" if report[lang] else ""))
+        print(f"{lang}: {sum(has_lang(pg, lang) for pg in SITE['pages'])} páginas" + (f", {len(report[lang])} textos sin traducir" if report[lang] else ""))
     sitemap(); llms()
     json.dump(report, open(os.path.join(HERE, "missing.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 

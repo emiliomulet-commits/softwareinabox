@@ -40,8 +40,8 @@
   ]
  },
  {
-  "id": "b5ac9da6f1",
-  "src": "<a href=\"#productos\">Productos</a> <a href=\"#como\">Cómo trabajamos</a> <a href=\"#experiencia\">Experiencia</a> <a href=\"#sectores\">Sectores</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
+  "id": "450fe39ba0",
+  "src": "<a href=\"#productos\">Productos</a> <a href=\"#como\">Cómo trabajamos</a> <a href=\"#experiencia\">Experiencia</a> <a href=\"#sectores\">Sectores</a> <a href=\"/regulacion/\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
   "kind": "html",
   "pages": [
    "index.html"
@@ -918,6 +918,14 @@
    "privacidad.html",
    "cookies.html",
    "gracias.html"
+  ]
+ },
+ {
+  "id": "07c85207e0",
+  "src": "Regulación UE",
+  "kind": "html",
+  "pages": [
+   "index.html"
   ]
  },
  {

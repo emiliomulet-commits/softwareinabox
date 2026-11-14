@@ -2,7 +2,6 @@
 "87462ee764": "Software in a Box · IA soberana, conformidade verificada e espaços de dados",
 "61a5d1fc23": "Saltar para o conteúdo",
 "17ea0a188c": "Menu",
-"b5ac9da6f1": "<a href=\"#productos\">Produtos</a> <a href=\"#como\">Como trabalhamos</a> <a href=\"#experiencia\">Experiência</a> <a href=\"#sectores\">Setores</a> <a class=\"btn btn-gold\" href=\"#contacto\">Falemos</a>",
 "b6a55043a6": "A sua IA e os seus dados, <span>dentro de casa.</span>",
 "620cb10598": "A Software in a Box desenvolve software para organizações que não podem tirar os seus dados do seu perímetro: inteligência artificial no seu próprio servidor, conformidade que se demonstra e espaços de dados para partilhar sem perder o controlo.",
 "d1dda77292": "<a class=\"btn btn-gold\" href=\"#productos\">Conhecer os produtos</a> <a class=\"btn btn-line\" href=\"#contacto\">Pedir uma reunião</a>",
@@ -222,5 +221,7 @@
 "44f2c93112": "Obrigado por nos escrever",
 "54dc7d9a16": "Recebemos a sua mensagem. Responderemos com a maior brevidade possível.",
 "181d919447": "<a class=\"btn btn-navy\" href=\"/\" style=\"color:#fff\">Voltar ao início</a> <a class=\"btn\" href=\"https://cognitiv.softwareinabox.eu/\" style=\"border-color:var(--line)\">Conhecer o COGNITIV</a>",
-"057b5bb9e8": "Confirmação de envio do formulário de contacto."
+"057b5bb9e8": "Confirmação de envio do formulário de contacto.",
+"450fe39ba0": "<a href=\"#productos\">Produtos</a> <a href=\"#como\">Como trabalhamos</a> <a href=\"#experiencia\">Experiência</a> <a href=\"#sectores\">Setores</a> <a href=\"/regulacion/\" hreflang=\"es\">Regulamentação UE · ES</a> <a class=\"btn btn-gold\" href=\"#contacto\">Falemos</a>",
+"07c85207e0": "Regulamentação UE · ES"
 }

@@ -122,7 +122,7 @@ h1,h2,h3{font-family:var(--disp);color:var(--ink);letter-spacing:-.025em;line-he
 .hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
 .logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
 .nav{display:flex;align-items:center;gap:30px}
-.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
 .nav a:hover{color:#fff}
 .nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
 .burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
@@ -254,6 +254,11 @@ section{scroll-margin-top:72px}
   .principles{grid-template-columns:1fr 1fr}
   .ft .cols{grid-template-columns:1fr 1fr}
 }
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
 @media (max-width:760px){
   body{font-size:17px}
   .hero .proof{grid-template-columns:1fr 1fr;gap:20px 28px}
@@ -296,9 +301,9 @@ section{scroll-margin-top:72px}
     </a>
     <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav" aria-label="Principal">
-      <a href="#productos">Produits</a> <a href="#como">Notre approche</a> <a href="#experiencia">Références</a> <a href="#sectores">Secteurs</a> <a class="btn btn-gold" href="#contacto">Parlons-en</a>
+      <a href="#productos">Produits</a> <a href="#como">Notre approche</a> <a href="#experiencia">Références</a> <a href="#sectores">Secteurs</a> <a href="/regulacion/" hreflang="es">Réglementation UE · ES</a> <a class="btn btn-gold" href="#contacto">Parlons-en</a>
     </nav>
-    <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Langue"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>FR-BE</summary><ul><li><a href="https://www.softwareinabox.eu/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/fr-be/" hreflang="fr-be" lang="fr-be" aria-current="true">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
+        <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Langue"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>FR-BE</summary><ul><li><a href="https://www.softwareinabox.eu/" hreflang="es" lang="es">Español</a></li><li><a href="https://www.softwareinabox.eu/en/" hreflang="en" lang="en">English</a></li><li><a href="https://www.softwareinabox.eu/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="https://www.softwareinabox.eu/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="https://www.softwareinabox.eu/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="https://www.softwareinabox.eu/pt/" hreflang="pt" lang="pt">Português</a></li><li><a href="https://www.softwareinabox.eu/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="https://www.softwareinabox.eu/fr-be/" hreflang="fr-be" lang="fr-be" aria-current="true">Français (Belgique)</a></li><li><a href="https://www.softwareinabox.eu/nl-be/" hreflang="nl-be" lang="nl-be">Nederlands (België)</a></li></ul></details></nav><!-- I18N-SW:END -->
   </div>
 </header>
 
@@ -605,7 +610,7 @@ section{scroll-margin-top:72px}
       </div>
       <div><h4>Produits</h4><a href="https://cognitiv.softwareinabox.eu/fr/">COGNITIV</a><a href="https://argos.softwareinabox.eu/fr/">ARGOS</a><a href="https://datos.softwareinabox.eu/fr-be/">Espaces de données</a></div>
       <div><h4>Entreprise</h4><a href="#como">Notre approche</a><a href="#experiencia">Références</a><a href="#contacto">Contact</a></div>
-      <div><h4>Ressources</h4><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Plan du site</a></div>
+      <div><h4>Ressources</h4><a href="/regulacion/">Réglementation UE · ES</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Plan du site</a></div>
     </div>
     <div class="legal">
       <span>© 2026 Software in a Box, marque d'Ullswater Investments S.L.</span>

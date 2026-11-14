@@ -3,7 +3,6 @@
 "61a5d1fc23": "Skip to content",
 "0936bb9855": "=",
 "17ea0a188c": "Menu",
-"b5ac9da6f1": "<a href=\"#productos\">Products</a> <a href=\"#como\">How we work</a> <a href=\"#experiencia\">Track record</a> <a href=\"#sectores\">Sectors</a> <a class=\"btn btn-gold\" href=\"#contacto\">Let's talk</a>",
 "b6a55043a6": "Your AI and your data, <span>kept in-house.</span>",
 "620cb10598": "Software in a Box builds software for organisations that cannot let their data leave their perimeter: artificial intelligence on their own server, compliance they can prove, and data spaces to share without losing control.",
 "d1dda77292": "<a class=\"btn btn-gold\" href=\"#productos\">Explore the products</a> <a class=\"btn btn-line\" href=\"#contacto\">Request a meeting</a>",
@@ -242,5 +241,7 @@
 "44f2c93112": "Thank you for writing to us",
 "54dc7d9a16": "We have received your message. We will reply as soon as possible.",
 "181d919447": "<a class=\"btn btn-navy\" href=\"/\" style=\"color:#fff\">Back to home</a> <a class=\"btn\" href=\"https://cognitiv.softwareinabox.eu/\" style=\"border-color:var(--line)\">Discover COGNITIV</a>",
-"057b5bb9e8": "Contact form submission confirmation."
+"057b5bb9e8": "Contact form submission confirmation.",
+"450fe39ba0": "<a href=\"#productos\">Products</a> <a href=\"#como\">How we work</a> <a href=\"#experiencia\">Track record</a> <a href=\"#sectores\">Sectors</a> <a href=\"/regulacion/\" hreflang=\"es\">EU Regulation · ES</a> <a class=\"btn btn-gold\" href=\"#contacto\">Let's talk</a>",
+"07c85207e0": "EU Regulation · ES"
 }

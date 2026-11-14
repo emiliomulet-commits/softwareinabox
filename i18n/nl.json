@@ -2,7 +2,6 @@
 "87462ee764": "Software in a Box · Soevereine AI, aantoonbare compliance en dataspaces",
 "61a5d1fc23": "Naar de inhoud",
 "17ea0a188c": "Menu",
-"b5ac9da6f1": "<a href=\"#productos\">Producten</a> <a href=\"#como\">Onze aanpak</a> <a href=\"#experiencia\">Ervaring</a> <a href=\"#sectores\">Sectoren</a> <a class=\"btn btn-gold\" href=\"#contacto\">Neem contact op</a>",
 "b6a55043a6": "Uw AI en uw data <span>blijven in huis.</span>",
 "620cb10598": "Software in a Box ontwikkelt software voor organisaties die hun data niet buiten hun perimeter mogen laten gaan: kunstmatige intelligentie op de eigen server, compliance die aantoonbaar is en dataspaces om data te delen zonder de controle te verliezen.",
 "d1dda77292": "<a class=\"btn btn-gold\" href=\"#productos\">Bekijk de producten</a> <a class=\"btn btn-line\" href=\"#contacto\">Plan een afspraak</a>",
@@ -222,5 +221,7 @@
 "44f2c93112": "Bedankt voor uw bericht",
 "54dc7d9a16": "We hebben uw bericht ontvangen en antwoorden zo snel mogelijk.",
 "181d919447": "<a class=\"btn btn-navy\" href=\"/\" style=\"color:#fff\">Terug naar home</a> <a class=\"btn\" href=\"https://cognitiv.softwareinabox.eu/\" style=\"border-color:var(--line)\">Ontdek COGNITIV</a>",
-"057b5bb9e8": "Bevestiging van verzending van het contactformulier."
+"057b5bb9e8": "Bevestiging van verzending van het contactformulier.",
+"450fe39ba0": "<a href=\"#productos\">Producten</a> <a href=\"#como\">Onze aanpak</a> <a href=\"#experiencia\">Ervaring</a> <a href=\"#sectores\">Sectoren</a> <a href=\"/regulacion/\" hreflang=\"es\">EU-regelgeving · ES</a> <a class=\"btn btn-gold\" href=\"#contacto\">Neem contact op</a>",
+"07c85207e0": "EU-regelgeving · ES"
 }

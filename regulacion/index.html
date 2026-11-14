@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulación UE de nube, IA, datos y ciberseguridad para el canal tecnológico · Software in a Box</title>
+<meta name="description" content="CADA, AI Act, Data Act, CRA, NIS2, DORA, EHDS y más, explicados para fabricantes, mayoristas, integradores e industria cliente final: obligaciones, calendario, casos de estudio y oportunidades de negocio.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.softwareinabox.eu/regulacion/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Software in a Box">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Regulación UE para la cadena tecnológica · Software in a Box">
+<meta property="og:description" content="La norma ya está aquí. Su negocio, también. Radar de 18 normas europeas, ficha completa de la Cloud and AI Development Act (CADA), calendario 2025–2030 y autodiagnóstico.">
+<meta property="og:url" content="https://www.softwareinabox.eu/regulacion/">
+<meta property="og:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.softwareinabox.eu/assets/og.jpg">
+<link rel="alternate" type="text/plain" title="llms.txt" href="https://www.softwareinabox.eu/llms.txt">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"WebPage","@id":"https://www.softwareinabox.eu/regulacion/#webpage","url":"https://www.softwareinabox.eu/regulacion/","name":"Regulación UE para la cadena tecnológica","inLanguage":"es","dateModified":"2026-11-14","isPartOf":{"@id":"https://www.softwareinabox.eu/#website"},"publisher":{"@id":"https://www.softwareinabox.eu/#organization"},
+  "description":"Normativa europea de nube, IA, datos y ciberseguridad explicada para fabricantes, mayoristas y distribuidores, integradores e industria cliente final.",
+  "audience":{"@type":"BusinessAudience","audienceType":"Fabricantes de tecnología, mayoristas y distribuidores, integradores de sistemas y empresas usuarias"},
+  "about":["Cloud and AI Development Act","Reglamento de Inteligencia Artificial","Reglamento de Datos","Reglamento de Ciberresiliencia","NIS2","DORA","Espacio Europeo de Datos Sanitarios","Soberanía digital"]},
+ {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Software in a Box","item":"https://www.softwareinabox.eu/"},{"@type":"ListItem","position":2,"name":"Regulación UE","item":"https://www.softwareinabox.eu/regulacion/"}]}
+]}
+</script>
+<meta name="theme-color" content="#0B2545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2545'/%3E%3Cpath d='M32 13 50 23v18L32 51 14 41V23z' fill='none' stroke='%23C9A227' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/fonts.css">
+<style>
+:root{
+  --ink:#0B2545; --deep:#071A33; --paper:#F2F5F9; --white:#FFFFFF; --line:#D5DDE7; --text:#233044; --mute:#5A6A80;
+  --gold:#C9A227; --gold-d:#8C6D0E; --gold-t:#FBF3D9;
+  --cog:#C8411B; --cog-l:#E4572E; --arg:#6C4CF1; --arg-l:#8B73F5; --dat:#0E8A8A; --dat-l:#2BB8B8;
+  --ok:#1E8E5A; --warn:#A86E00; --prop:#2563C9; --esp:#C8411B;
+  --disp:'Montserrat',system-ui,sans-serif; --body:'Hanken Grotesk',system-ui,sans-serif;
+  --w:1200px; --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--white);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 32px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--ink);padding:10px 16px;font-weight:700;z-index:50}
+.skip:focus{left:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);letter-spacing:-.02em;line-height:1.12}
+h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;margin-bottom:16px}
+h3{font-size:24px;font-weight:800;margin:0 0 14px}
+h4{font-size:17.5px;font-weight:700;margin:0 0 10px}
+p{margin:0 0 1em}
+.mut{color:var(--mute)} .gold{color:var(--gold-d)}
+.eyebrow{font-family:var(--disp);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.eyebrow:before{content:'';width:28px;height:3px;background:var(--gold);border-radius:2px}
+.lead{font-size:19px;color:var(--mute);max-width:46em}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:15.5px;padding:14px 24px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#DDB632}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:transparent}.btn-line:hover{border-color:#fff}
+.btn-ink{background:var(--ink);color:#fff}.btn-ink:hover{background:#163663}
+.btn-out{border-color:var(--line);color:var(--ink);background:#fff}.btn-out:hover{border-color:var(--ink)}
+
+/* cabecera (idéntica a la home) */
+.hd{position:sticky;top:0;z-index:40;background:rgba(7,26,51,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-family:var(--disp);font-weight:800;font-size:18px;letter-spacing:-.01em}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{color:#C9D3E0;text-decoration:none;font-size:15.5px;font-weight:500;white-space:nowrap}
+.nav a:hover,.nav a[aria-current]{color:#fff}
+.nav a[aria-current]{font-weight:700;box-shadow:inset 0 -2px 0 var(--gold);padding:6px 0}
+.nav .btn{padding:11px 20px;font-size:14.5px;color:var(--ink)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:10px;padding:8px 12px;font:600 15px var(--disp);cursor:pointer}
+
+/* portada */
+.rhero{background:radial-gradient(1200px 600px at 80% 20%,#123766 0%,transparent 60%),var(--deep);color:#fff;overflow:hidden}
+.rhero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:80px}
+.crumbs{font-size:14px;color:#8FA0B6;margin-bottom:22px}.crumbs a{color:#C9D3E0;text-decoration:none}.crumbs a:hover{color:#fff}
+.rhero .eyebrow{color:var(--gold)}
+.rhero h1{color:#fff;font-size:clamp(40px,5.2vw,70px);font-weight:800;letter-spacing:-.035em;line-height:1.03}
+.rhero h1 span{display:block;color:#AFC0D6;font-weight:600}
+.rhero .lead{color:#C9D3E0;font-size:19.5px;margin:26px 0 0;max-width:34em}
+.aud-pick{margin-top:32px}
+.aud-pick .lbl{font-family:var(--disp);font-size:12.5px;font-weight:700;color:#8FA0B6;text-transform:uppercase;letter-spacing:.14em;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.04);color:#fff;padding:10px 16px;border-radius:999px;font:600 14.5px var(--body);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.chip:hover{border-color:var(--gold)}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,auto);justify-content:start;gap:36px;margin-top:40px;border-top:1px solid rgba(255,255,255,.12);padding-top:22px;color:#AFC0D6;font-size:14.5px}
+.stats b{display:block;color:#fff;font-family:var(--disp);font-size:24px;letter-spacing:-.02em}
+
+/* subnavegación */
+.subnav{position:sticky;top:72px;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.subnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.subnav .wrap::-webkit-scrollbar{display:none}
+.subnav a{flex:none;color:var(--mute);text-decoration:none;font:600 14px var(--disp);padding:15px 13px;border-bottom:3px solid transparent}
+.subnav a:hover,.subnav a.on{color:var(--ink);border-bottom-color:var(--gold)}
+
+.audbar{display:none;background:var(--gold-t);border:1px solid #E8D28A;border-radius:12px;padding:12px 18px;font-size:15px;margin-top:18px;gap:12px;align-items:center}
+.audbar.show{display:flex}
+.audbar b{color:var(--ink)}
+.audbar button{margin-left:auto;background:none;border:0;color:var(--ink);cursor:pointer;font:inherit;text-decoration:underline}
+
+/* secciones */
+section{scroll-margin-top:130px}
+.sec{padding:96px 0}
+.sec.alt{background:var(--paper)}
+.sec-h{max-width:820px;margin-bottom:44px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.sec:not(.alt) .card.soft{background:var(--paper);border-color:transparent}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid2>*,.grid3>*,.regs>*,.quiz>*,.cada-hero>*{min-width:0}
+.mini{font-size:13px;color:var(--mute)}
+.note{font-size:13.5px;color:var(--mute);margin-top:14px}
+
+/* cadena */
+.chain{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px}
+.chain .node{background:#fff;border:1px solid var(--line);padding:26px 26px 26px 30px;position:relative;cursor:pointer;transition:background .2s}
+.chain .node+.node{border-left:0}
+.chain .node:first-child{border-radius:var(--r) 0 0 var(--r)}
+.chain .node:last-child{border-radius:0 var(--r) var(--r) 0}
+.chain .node:not(:last-child):after{content:"";position:absolute;right:-13px;top:50%;width:24px;height:24px;background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);transform:translateY(-50%) rotate(45deg);z-index:2}
+.chain .node:hover{background:#FAFBFD}.chain .node:hover:after{background:#FAFBFD}
+.chain .node.on{background:var(--ink);border-color:var(--ink)}
+.chain .node.on:after{background:var(--ink);border-color:var(--ink)}
+.chain .node.on h4,.chain .node.on li{color:#fff}.chain .node.on p{color:#AFC0D6}
+.chain .num{font:800 12.5px var(--disp);color:var(--gold-d);letter-spacing:.14em}
+.chain .node.on .num{color:var(--gold)}
+.chain h4{margin:6px 0 6px;font-size:20px}
+.chain p{font-size:14.5px;color:var(--mute);margin:0}
+.chain ul{margin:14px 0 0;padding-left:18px;font-size:14.5px;color:var(--text)}
+.chain li{margin-bottom:4px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 18px}
+.filters .sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.fbtn{background:#fff;border:1.5px solid var(--line);color:var(--text);padding:8px 15px;border-radius:999px;font:600 14px var(--body);cursor:pointer}
+.fbtn:hover{border-color:var(--ink)}
+.fbtn.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.search{flex:1;min-width:220px;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:9px 18px;color:var(--ink);font:15px var(--body)}
+.legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13.5px;color:var(--mute);margin-bottom:22px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+/* fichas de normas */
+.regs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.reg{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;position:relative;text-align:left;font:inherit;color:inherit}
+.reg:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 10px 26px rgba(11,37,69,.08)}
+.reg .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reg .th{font:700 11.5px var(--disp);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.reg h3{margin:0;font-size:19px}
+.reg .full{font-size:13px;color:var(--mute);margin-top:-6px}
+.reg p{font-size:15px;color:var(--text);margin:0}
+.reg .imp{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.reg .imp div{font-size:11.5px;color:var(--mute);text-align:center}
+.reg .imp i{display:block;height:6px;border-radius:3px;margin-bottom:5px}
+.reg .flag{position:absolute;top:-11px;right:16px;background:var(--gold);color:var(--ink);font:800 11px var(--disp);padding:4px 11px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:6px;font:700 11.5px var(--disp);padding:4px 10px;border-radius:999px;border:1px solid;white-space:nowrap}
+.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-vig{color:var(--ok);border-color:#A9D9C0;background:#EEF8F2}
+.b-gra{color:var(--warn);border-color:#E9CF97;background:#FDF6E6}
+.b-pro{color:var(--prop);border-color:#B4CBF0;background:#EEF3FC}
+.b-esp{color:var(--esp);border-color:#EDB9A7;background:#FCEFEA}
+.layer{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;color:#fff;letter-spacing:.02em}
+.l-cog{background:var(--cog)} .l-arg{background:var(--arg)} .l-dat{background:var(--dat)}
+.empty{color:var(--mute);border:1.5px dashed var(--line);border-radius:12px;padding:28px;text-align:center;grid-column:1/-1}
+
+/* ventana de detalle */
+.modal{position:fixed;inset:0;background:rgba(7,26,51,.6);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:48px 16px;overflow:auto}
+.modal.show{display:flex}
+.modal .box{background:#fff;border-radius:20px;max-width:880px;width:100%;padding:36px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.3)}
+.modal .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--mute);font-size:30px;cursor:pointer;line-height:1}
+.modal h2{margin-bottom:4px}
+
+/* tablas */
+.tbl{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:700 12px var(--disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);background:#FAFBFD}
+.tbl tr:last-child td{border-bottom:0}
+.matrix td.h{text-align:center;font:800 14px var(--disp)}
+.matrix th.c{text-align:center}
+.h0{color:#9AA8BA}
+.h1{background:#FBF3D9;color:var(--gold-d)}
+.h2{background:#F1D98A;color:var(--ink)}
+.h3{background:var(--cog);color:#fff}
+.matrix tbody tr{cursor:pointer}
+.matrix tbody tr:hover td{filter:brightness(.97)}
+.matrix td.hl{box-shadow:inset 0 0 0 2px var(--ink)}
+tr.dimrow{opacity:.4}
+
+/* calendario */
+.tl{overflow-x:auto;padding:22px}
+.tl-track{position:relative;min-width:1060px}
+.tl-head{display:grid;grid-template-columns:150px 1fr;gap:10px}
+.tl-years{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:2px solid var(--line);margin-bottom:10px}
+.tl-years div{font:800 17px var(--disp);color:var(--ink);padding:6px 0}
+.tl-rows{display:flex;flex-direction:column;gap:8px}
+.tl-row{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center}
+.tl-row .nm{font:700 13px var(--disp);color:var(--mute)}
+.tl-lane{position:relative;height:30px;background:var(--paper);border-radius:6px}
+.ev{position:absolute;top:5px;width:20px;height:20px;border-radius:50%;transform:translateX(-50%);border:2px solid #fff;cursor:pointer;padding:0}
+.ev.done{background:var(--ok)} .ev.next{background:var(--gold)} .ev.est{background:#fff;border:2px dashed var(--prop)}
+.ev:hover,.ev:focus-visible{transform:translateX(-50%) scale(1.3)}
+.tl-now{position:absolute;top:0;bottom:0;width:2px;background:var(--cog);z-index:3}
+.tl-now span{position:absolute;top:-2px;left:6px;font:800 11px var(--disp);color:var(--cog);white-space:nowrap}
+.tip{position:fixed;z-index:120;max-width:300px;background:var(--ink);color:#fff;border-radius:10px;padding:10px 12px;font-size:13.5px;pointer-events:none;display:none;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip .mini{color:#AFC0D6}
+
+/* CADA */
+.cada-hero{background:linear-gradient(135deg,#123766 0%,var(--deep) 70%);border-radius:24px;padding:44px;display:grid;grid-template-columns:1.3fr 1fr;gap:36px;color:#C9D3E0}
+.cada-hero h2{color:#fff;font-size:clamp(30px,3.6vw,46px)}
+.cada-hero .lead{color:#C9D3E0;font-size:18px}
+.cada-hero .lead b{color:#fff}
+.cada-hero .facts{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px}
+.cada-hero .facts h4{color:var(--gold)}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:9px 14px;font-size:14.5px}
+.kv dt{color:#8FA0B6;font-weight:600}
+.kv dd{margin:0;color:#fff}
+.callout{border-left:4px solid var(--gold);background:var(--gold-t);padding:18px 22px;border-radius:0 12px 12px 0;font:600 17px/1.5 var(--disp);color:var(--ink);margin:26px 0;letter-spacing:-.01em}
+.cada-hero .callout{background:rgba(201,162,39,.14);color:#fff;margin-bottom:0}
+.sub-h{margin-top:64px}
+.pillar .n{width:36px;height:36px;border-radius:10px;background:var(--gold-t);color:var(--gold-d);display:inline-grid;place-items:center;font:800 16px var(--disp);margin-right:10px}
+.pillar h4{display:flex;align-items:center}
+.levels{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.levels .lv{padding:24px;border-right:1px solid var(--line)}
+.levels .lv:last-child{border-right:0}
+.levels .big{font:800 46px/1 var(--disp)}
+.levels .lv:nth-child(1) .big{color:var(--prop)} .levels .lv:nth-child(2) .big{color:var(--gold-d)} .levels .lv:nth-child(3) .big{color:var(--cog-l)} .levels .lv:nth-child(4) .big{color:#A3201A}
+.levels .tag{font:700 12px var(--disp);color:var(--mute);text-transform:uppercase;letter-spacing:.1em;margin:8px 0 12px}
+.levels ul{padding-left:18px;font-size:14.5px}
+.levels li{margin-bottom:4px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin:8px 0 0}
+.tab{background:none;border:0;color:var(--mute);font:700 15px var(--disp);padding:13px 18px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpane{display:none;padding-top:28px}
+.tabpane.on{display:block}
+.check{list-style:none;padding:0}
+.check li{padding:11px 0 11px 32px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.check li:before{content:"✓";position:absolute;left:4px;top:10px;color:var(--gold-d);font-weight:800}
+.ficha{counter-reset:q;display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.ficha div{counter-increment:q;padding:13px 0 13px 46px;position:relative;border-bottom:1px solid var(--line);font-size:15.5px}
+.ficha div:before{content:counter(q,decimal-leading-zero);position:absolute;left:0;top:12px;font:800 16px var(--disp);color:var(--gold-d)}
+
+/* casos */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px}
+.case .k{font:800 12px var(--disp);letter-spacing:.14em;color:var(--gold-d)}
+.case h3{font-size:20px;margin:0}
+.case .who{display:flex;gap:6px;flex-wrap:wrap}
+.case .who span{font:700 11.5px var(--disp);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--mute)}
+.case .steps{counter-reset:s;list-style:none;padding:0;margin:4px 0}
+.case .steps li{counter-increment:s;padding:6px 0 6px 36px;position:relative;font-size:15px}
+.case .steps li:before{content:counter(s);position:absolute;left:0;top:6px;width:24px;height:24px;border-radius:50%;background:var(--paper);font:800 12px/24px var(--disp);text-align:center;color:var(--ink)}
+.case .res{margin-top:auto;background:var(--paper);border-radius:12px;padding:14px 16px;font-size:15px}
+.case .res b{color:var(--ink)}
+
+/* oportunidades */
+.opp h3{font-size:18px;margin-bottom:8px}
+.opp p{font-size:15px;margin:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.tags span{font:700 11px var(--disp);padding:4px 9px;border-radius:6px;background:var(--paper);color:var(--ink)}
+.kpi b{display:block;font:800 32px var(--disp);color:var(--ink);letter-spacing:-.02em}
+
+/* escenarios y hoja de ruta */
+.scen .p{font:800 12px var(--disp);text-transform:uppercase;letter-spacing:.1em}
+.bar{height:8px;border-radius:4px;background:var(--paper);overflow:hidden;margin:10px 0 14px}
+.bar i{display:block;height:100%}
+.road{display:grid;grid-template-columns:130px repeat(3,1fr);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
+.road>div{padding:16px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:15px}
+.road>div:nth-child(4n){border-right:0}
+.road>div:nth-last-child(-n+4){border-bottom:0}
+.road .h{background:var(--ink);color:#fff;font:700 15px var(--disp)}
+.road .y{font:800 18px var(--disp);color:var(--ink);background:#FAFBFD}
+.road .y .mini{display:block;font:600 12.5px var(--body)}
+
+/* autodiagnóstico */
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.q{margin-bottom:22px}
+.q .ql{font:700 16px var(--disp);color:var(--ink);margin-bottom:10px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.res-list{display:flex;flex-direction:column;gap:10px}
+.res-item{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.res-item:hover{border-color:var(--ink)}
+.res-item b{font-family:var(--disp);color:var(--ink)}
+.res-item>span{display:block;font-size:14.5px;color:var(--mute);margin-top:4px}
+.quiz-out{position:sticky;top:140px}
+
+/* soluciones */
+.stack .card{border-top:5px solid}
+.stack .c1{border-top-color:var(--cog)} .stack .c2{border-top-color:var(--arg)} .stack .c3{border-top-color:var(--dat)}
+.stack h3{margin-bottom:2px}
+.stack .c1 h3{color:var(--cog)} .stack .c2 h3{color:var(--arg)} .stack .c3 h3{color:var(--dat)}
+.stack .sub{font:600 16px var(--disp);color:var(--ink);margin-bottom:14px}
+.stack ul{padding-left:18px;font-size:15px;margin-bottom:16px}
+.stack li{margin-bottom:4px}
+.stack a.more{font:700 14.5px var(--disp);text-decoration:none;color:var(--ink);border-bottom:2px solid var(--gold)}
+
+/* glosario */
+.gloss{columns:3;column-gap:34px}
+.gloss div{break-inside:avoid;margin-bottom:16px;font-size:15px}
+.gloss b{font-family:var(--disp);color:var(--ink)}
+
+/* llamada final */
+.rcta{background:var(--deep);color:#C9D3E0;text-align:center}
+.rcta h2{color:#fff}
+.rcta .lead{color:#C9D3E0;margin:0 auto 28px}
+.rcta .direct{margin-top:22px;font-size:15.5px}
+.rcta .direct a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.src{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;font-size:15px}
+.src a{color:var(--ink);font-weight:600}
+
+/* lectura por audiencia */
+body.aud-on [data-aud]:not(.aud-match){opacity:.38}
+[data-aud]{transition:opacity .2s}
+
+/* pie (idéntico a la home) */
+.ft{background:#04111F;color:#8FA0B6;font-size:15px;padding:64px 0 32px}
+.ft .cols{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.ft h4{font-family:var(--disp);color:#fff;font-size:15px;margin-bottom:14px}
+.ft a{color:#C9D3E0;text-decoration:none;display:block;line-height:2}
+.ft a:hover{color:var(--gold)}
+.ft .legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:14px}
+.ft .legal nav{display:flex;gap:22px}
+.ft .legal a{display:inline}
+
+@media (max-width:1080px){
+  .regs,.grid3{grid-template-columns:repeat(2,1fr)}
+  .rhero .wrap,.cada-hero,.quiz{grid-template-columns:1fr}
+  .chain{grid-template-columns:1fr 1fr;gap:12px}
+  .chain .node{border-radius:var(--r)!important;border-left:1px solid var(--line)!important}
+  .chain .node:after{display:none}
+  .levels{grid-template-columns:1fr 1fr}
+  .levels .lv{border-bottom:1px solid var(--line)}
+  .gloss{columns:2}
+  .ft .cols{grid-template-columns:1fr 1fr}
+  .quiz-out{position:static}
+  .stats{grid-template-columns:repeat(2,auto)}
+}
+@media (max-width:1100px){
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 32px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .wrap{padding:0 20px}
+  .nav{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:flex-start;gap:18px;padding:24px 20px 28px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.1)}
+  .nav.open{display:flex}
+  .burger{display:block}
+  .sec{padding:68px 0}
+  .regs,.grid2,.grid3,.chain,.levels,.ficha,.src{grid-template-columns:1fr}
+  .gloss{columns:1}
+  .road{grid-template-columns:90px 1fr}
+  .road .c3,.road .c4{display:none}
+  .road>div:nth-child(4n){border-right:1px solid var(--line)}
+  .cada-hero{padding:26px}
+  .kv{grid-template-columns:1fr}
+  .ft .cols{grid-template-columns:1fr}
+  .rhero svg.stackart{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reg,.chain .node{transition:none}}
+</style>
+<!-- I18N:BEGIN -->
+<link rel="alternate" hreflang="es" href="https://www.softwareinabox.eu/regulacion/">
+<link rel="alternate" hreflang="x-default" href="https://www.softwareinabox.eu/regulacion/">
+<!-- I18N:END -->
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="Software in a Box, inicio">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0B2545" stroke="rgba(255,255,255,.18)"/><path d="M32 13 50 23v18L32 51 14 41V23z" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/><path d="M14 23l18 10 18-10M32 33v18" fill="none" stroke="#C9A227" stroke-width="4" stroke-linejoin="round"/></svg>
+      Software in a Box
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="nav">Menú</button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="/#productos">Productos</a>
+      <a href="/#como">Cómo trabajamos</a>
+      <a href="/#experiencia">Experiencia</a>
+      <a href="/#sectores">Sectores</a>
+      <a href="/regulacion/" aria-current="page">Regulación UE</a>
+      <a class="btn btn-gold" href="#contacto">Hablemos</a>
+    </nav>
+    <!-- I18N-SW:BEGIN --><style>.i18n-sw{position:relative;flex:none;margin-left:18px;z-index:60;font:600 14px/1.2 system-ui,-apple-system,'Segoe UI',sans-serif}.i18n-sw.fl{position:fixed;top:16px;right:16px;margin:0;z-index:2147483000}header .wrap>.burger,header .wrap>nav:not(.i18n-sw){margin-left:auto}.i18n-sw summary{list-style:none;cursor:pointer;padding:8px 13px;display:flex;align-items:center;gap:7px;user-select:none;background:#0B2545;color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:999px}.i18n-sw summary:hover{border-color:#C9A227}.i18n-sw summary::-webkit-details-marker{display:none}.i18n-sw summary:focus-visible,.i18n-sw a:focus-visible{outline:3px solid #C9A227;outline-offset:-3px}.i18n-sw ul{position:absolute;right:0;top:calc(100% + 8px);min-width:210px;list-style:none;margin:0;padding:6px 0;background:#0B2545;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.3)}.i18n-sw a{display:block;padding:8px 16px;color:#C9D3E0;text-decoration:none;font-weight:500;white-space:nowrap}.i18n-sw a:hover{color:#fff;background:rgba(255,255,255,.08)}.i18n-sw a[aria-current]{color:#C9A227;font-weight:700}@media print{.i18n-sw{display:none}}</style><nav class="i18n-sw" aria-label="Idioma"><details><summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>ES</summary><ul><li><a href="https://www.softwareinabox.eu/regulacion/" hreflang="es" lang="es" aria-current="true">Español</a></li></ul></details></nav><!-- I18N-SW:END -->
+  </div>
+</header>
+
+<main id="contenido">
+<section class="rhero" id="inicio">
+  <div class="wrap">
+    <div>
+      <nav class="crumbs" aria-label="Ruta"><a href="/">Inicio</a> › Regulación UE</nav>
+      <div class="eyebrow">Radar regulatorio UE · Nube · IA · Datos · Ciberseguridad</div>
+      <h1>La norma ya está aquí. <span>Su negocio, también.</span></h1>
+      <p class="lead">Toda la regulación europea que afecta a la tecnología, explicada desde quien la fabrica, la distribuye, la integra y la compra. Qué cambia, cuándo, quién tiene que probar qué y dónde está la oportunidad.</p>
+      <div class="aud-pick">
+        <div class="lbl">Leer esta página como…</div>
+        <div class="chips" id="audChips" role="group" aria-label="Elegir eslabón de la cadena">
+          <button class="chip" data-a="F" aria-pressed="false">Fabricante</button>
+          <button class="chip" data-a="M" aria-pressed="false">Mayorista / distribuidor</button>
+          <button class="chip" data-a="I" aria-pressed="false">Integrador / MSP</button>
+          <button class="chip" data-a="C" aria-pressed="false">Industria cliente final</button>
+        </div>
+      </div>
+      <div class="stats">
+        <div><b>18</b>normas seguidas</div>
+        <div><b>4</b>eslabones de la cadena</div>
+        <div><b>2027–2030</b>ventana de oportunidad</div>
+        <div><b>+1.000</b>fuentes analizadas</div>
+      </div>
+    </div>
+    <svg class="stackart" viewBox="0 0 520 480" role="img" aria-label="Las tres capas de Software in a Box conectadas a la regulación europea">
+      <path d="M200 40 L330 105 L200 170 L70 105 Z" fill="rgba(201,162,39,.07)" stroke="#C9A227" stroke-width="1.5"/>
+      <path d="M200 150 L300 200 L200 250 L100 200 Z" fill="#E4572E"/><path d="M100 200 L200 250 L200 278 L100 228 Z" fill="#A8361A"/><path d="M300 200 L200 250 L200 278 L300 228 Z" fill="#C8411B"/>
+      <path d="M200 240 L300 290 L200 340 L100 290 Z" fill="#8B73F5"/><path d="M100 290 L200 340 L200 368 L100 318 Z" fill="#5236D1"/><path d="M300 290 L200 340 L200 368 L300 318 Z" fill="#6C4CF1"/>
+      <path d="M200 330 L300 380 L200 430 L100 380 Z" fill="#2BB8B8"/><path d="M100 380 L200 430 L200 458 L100 408 Z" fill="#0A6E6E"/><path d="M300 380 L200 430 L200 458 L300 408 Z" fill="#0E8A8A"/>
+      <g font-family="Montserrat,sans-serif" font-size="13" font-weight="800" fill="#fff">
+        <line x1="330" y1="105" x2="350" y2="105" stroke="#C9A227"/><text x="356" y="100" fill="#C9A227">MARCO DE SOBERANÍA</text>
+        <line x1="300" y1="205" x2="350" y2="205" stroke="#E4572E"/><text x="356" y="200">COGNITIV</text>
+        <line x1="300" y1="295" x2="350" y2="295" stroke="#8B73F5"/><text x="356" y="290">ARGOS</text>
+        <line x1="300" y1="385" x2="350" y2="385" stroke="#2BB8B8"/><text x="356" y="380">ESPACIOS DE DATOS</text>
+      </g>
+      <g font-family="Hanken Grotesk,sans-serif" font-size="13" fill="#AFC0D6">
+        <text x="356" y="118">CADA · CSA2 · ENS</text><text x="356" y="218">AI Act · CADA niveles 2–4</text><text x="356" y="308">NIS2 · CRA · RGPD · DORA</text><text x="356" y="398">Data Act · EHDS</text>
+      </g>
+      <g font-family="Montserrat,sans-serif" font-size="11" font-weight="700">
+        <rect x="16" y="60" width="66" height="22" rx="11" fill="#0B2545" stroke="rgba(255,255,255,.3)"/><text x="28" y="75" fill="#fff">AI Act</text>
+        <rect x="6" y="200" width="72" height="22" rx="11" fill="#0B2545" stroke="rgba(255,255,255,.3)"/><text x="18" y="215" fill="#fff">Data Act</text>
+        <rect x="22" y="300" width="50" height="22" rx="11" fill="#0B2545" stroke="rgba(255,255,255,.3)"/><text x="34" y="315" fill="#fff">CRA</text>
+        <rect x="10" y="400" width="58" height="22" rx="11" fill="#0B2545" stroke="rgba(255,255,255,.3)"/><text x="22" y="415" fill="#fff">NIS2</text>
+        <rect x="150" y="6" width="100" height="24" rx="12" fill="#C9A227"/><text x="167" y="22" fill="#0B2545">CADA 2026</text>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<nav class="subnav" aria-label="Secciones de la página">
+  <div class="wrap" id="subnav">
+    <a href="#cadena">La cadena</a>
+    <a href="#radar">Radar de normas</a>
+    <a href="#calendario">Calendario</a>
+    <a href="#matriz">Matriz de impacto</a>
+    <a href="#cada">Foco: CADA</a>
+    <a href="#casos">Casos de estudio</a>
+    <a href="#oportunidades">Oportunidades</a>
+    <a href="#riesgos">Cuellos de botella</a>
+    <a href="#escenarios">Escenarios</a>
+    <a href="#diagnostico">¿Qué me aplica?</a>
+    <a href="#soluciones">Cómo ayudamos</a>
+    <a href="#glosario">Glosario</a>
+  </div>
+</nav>
+
+<section class="sec" id="cadena">
+  <div class="wrap">
+    <div class="audbar" id="audbar" role="status">Está leyendo la página como <b id="audName"></b>. Resaltamos lo que más le afecta. <button id="audClear">Ver todo</button></div>
+    <div class="sec-h" style="margin-top:28px">
+      <div class="eyebrow">Por qué esta sección es distinta</div>
+      <h2>La soberanía no la acredita un actor aislado. La acredita una cadena.</h2>
+      <p class="lead">Las normas europeas reparten obligaciones por eslabón: el fabricante aporta la evidencia técnica, el mayorista la normaliza y la verifica, el integrador construye el servicio y el cliente final decide qué nivel compra. Elija su eslabón.</p>
+    </div>
+    <div class="chain" id="chain">
+      <div class="node" data-a="F" role="button" tabindex="0"><div class="num">01</div><h4>Fabricante</h4><p>Hardware, software, seguridad, IA, infraestructura física.</p>
+        <ul><li>Telemetría y gestión: ¿dentro de la UE?</li><li>Soporte de 2.º y 3.er nivel desde la UE</li><li>SBOM y vulnerabilidades (CRA)</li><li>Datos del cliente sin entrenar IA ajena</li></ul></div>
+      <div class="node" data-a="M" role="button" tabindex="0"><div class="num">02</div><h4>Mayorista / distribuidor</h4><p>Catálogo, logística, preventa, financiación, formación.</p>
+        <ul><li>Importador o distribuidor en el CRA</li><li>Ficha de soberanía por familia de producto</li><li>Configuraciones de referencia por nivel</li><li>RAEE, ecodiseño, factura electrónica</li></ul></div>
+      <div class="node" data-a="I" role="button" tabindex="0"><div class="num">03</div><h4>Integrador / MSP</h4><p>Proyecto, implantación, servicios gestionados.</p>
+        <ul><li>El nivel CADA se otorga a su servicio</li><li>Expediente de evidencia (Anexo III)</li><li>NIS2: cadena de suministro</li><li>Migraciones conformes al Data Act</li></ul></div>
+      <div class="node" data-a="C" role="button" tabindex="0"><div class="num">04</div><h4>Industria cliente final</h4><p>Sector público, salud, energía, finanzas, industria.</p>
+        <ul><li>Evaluación de riesgos y compra por niveles</li><li>AI Act como responsable del despliegue</li><li>NIS2 / DORA: exigir a los proveedores</li><li>Cambio de proveedor sin cargos (2027)</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="radar">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Radar de normas</div>
+      <h2>Cada norma, leída para su eslabón</h2>
+      <p class="lead">Estado actual, fechas clave, impacto en cada eslabón de la cadena y qué capa tecnológica lo resuelve. Pulse una ficha para ver el detalle.</p>
+    </div>
+    <div class="filters" id="themeFilters">
+      <button class="fbtn on" data-t="all">Todas</button>
+      <button class="fbtn" data-t="Nube y soberanía">Nube y soberanía</button>
+      <button class="fbtn" data-t="IA">IA</button>
+      <button class="fbtn" data-t="Datos">Datos</button>
+      <button class="fbtn" data-t="Ciberseguridad">Ciberseguridad</button>
+      <button class="fbtn" data-t="Producto y mercado">Producto y mercado</button>
+      <button class="fbtn" data-t="España">España</button>
+      <span class="sep"></span>
+      <input class="search" id="regSearch" type="search" placeholder="Buscar: SBOM, telemetría, hospital, migración…" aria-label="Buscar en las normas">
+    </div>
+    <div class="legend"><span class="badge b-vig">En vigor</span><span class="badge b-gra">Aplicación gradual</span><span class="badge b-pro">Propuesta / en tramitación</span><span class="badge b-esp">Pendiente en España</span><span>Barras: impacto en fabricante · mayorista · integrador · cliente</span></div>
+    <div class="regs" id="regs"><!--PRE:regs--><button class="reg" type="button" data-aud="F M I C"><span class="flag">Ficha completa más abajo</span><span class="row"><span class="th">Nube y soberanía</span><span class="badge b-pro" style="margin-left:auto">Propuesta / en tramitación</span></span>
+      <h3>CADA</h3><span class="full">Cloud and AI Development Act · COM(2026) 502</span><p>Cuatro niveles de garantía de soberanía para comprar nube e IA en el sector público, evaluación de riesgos obligatoria y plan para triplicar la capacidad de centros de datos.</p>
+      <span class="row"><span class="layer l-cog">COGNITIV</span><span class="layer l-arg">ARGOS</span><span class="layer l-dat">Espacios de datos</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 3, integrador 3, cliente 2 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#C8411B"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#D9A520"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">IA</span><span class="badge b-gra" style="margin-left:auto">Aplicación gradual</span></span>
+      <h3>AI Act</h3><span class="full">Reglamento (UE) 2024/1689 de Inteligencia Artificial</span><p>Regula sistemas y modelos de IA según su riesgo. El Digital Omnibus aplaza las obligaciones de alto riesgo del Anexo III al 2-12-2027 (productos regulados, 2028).</p>
+      <span class="row"><span class="layer l-cog">COGNITIV</span><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 2, integrador 3, cliente 3 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">Datos</span><span class="badge b-gra" style="margin-left:auto">Aplicación gradual</span></span>
+      <h3>Data Act</h3><span class="full">Reglamento (UE) 2023/2854 de Datos</span><p>Acceso a datos de productos conectados, cambio de proveedor cloud y salvaguardas frente al acceso de terceros países a datos no personales.</p>
+      <span class="row"><span class="layer l-dat">Espacios de datos</span><span class="layer l-cog">COGNITIV</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 2, integrador 3, cliente 3 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I"><span class="row"><span class="th">Ciberseguridad</span><span class="badge b-gra" style="margin-left:auto">Aplicación gradual</span></span>
+      <h3>CRA</h3><span class="full">Reglamento de Ciberresiliencia (UE) 2024/2847</span><p>Requisitos de ciberseguridad para todo producto con elementos digitales, hardware o software, con obligaciones a lo largo de la cadena de distribución.</p>
+      <span class="row"><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 3, integrador 2, cliente 1 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#C8411B"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#F1D98A"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">Ciberseguridad</span><span class="badge b-esp" style="margin-left:auto">Pendiente en España</span></span>
+      <h3>NIS2</h3><span class="full">Directiva (UE) 2022/2555</span><p>Gestión de riesgos, notificación de incidentes y seguridad de la cadena de suministro para entidades esenciales e importantes, incluidos nube, centros de datos y servicios gestionados.</p>
+      <span class="row"><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 2, integrador 3, cliente 3 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I"><span class="row"><span class="th">Ciberseguridad</span><span class="badge b-pro" style="margin-left:auto">Propuesta / en tramitación</span></span>
+      <h3>CSA2 · EUCS</h3><span class="full">Propuesta de nuevo Reglamento de Ciberseguridad (20-1-2026) y esquema EUCS</span><p>Refuerza ENISA, agiliza la certificación y permite designar proveedores de alto riesgo de terceros países y obligar a retirar sus componentes, con multas de hasta el 7 % de la facturación mundial. El EUCS sigue bloqueado.</p>
+      <span class="row"><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 2, integrador 2, cliente 1 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#F1D98A"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F I C"><span class="row"><span class="th">Ciberseguridad</span><span class="badge b-vig" style="margin-left:auto">En vigor</span></span>
+      <h3>DORA</h3><span class="full">Reglamento (UE) 2022/2554 de resiliencia operativa digital</span><p>Resiliencia operativa del sector financiero y supervisión directa de proveedores TIC críticos: 19 designados en noviembre de 2025, entre ellos los grandes hiperescalares.</p>
+      <span class="row"><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 1, integrador 3, cliente 3 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#F1D98A"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">Producto y mercado</span><span class="badge b-pro" style="margin-left:auto">Propuesta / en tramitación</span></span>
+      <h3>DMA · nube</h3><span class="full">Ley de Mercados Digitales aplicada a la nube</span><p>Conclusión preliminar de la Comisión (25-6-2026): AWS y Azure deben designarse guardianes de acceso. Si se confirma, seis meses para cumplir interoperabilidad, portabilidad y no autopreferencia.</p>
+      
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 2, integrador 2, cliente 2 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#D9A520"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F I C"><span class="row"><span class="th">Datos</span><span class="badge b-gra" style="margin-left:auto">Aplicación gradual</span></span>
+      <h3>EHDS</h3><span class="full">Espacio Europeo de Datos Sanitarios · Reglamento (UE) 2025/327</span><p>Uso primario y secundario de datos de salud. Organismos de acceso y entornos de tratamiento seguro serán probablemente actividades de orden público en la CADA (nivel 2+).</p>
+      <span class="row"><span class="layer l-dat">Espacios de datos</span><span class="layer l-cog">COGNITIV</span><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 1, integrador 2, cliente 3 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#F1D98A"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F I C"><span class="row"><span class="th">Datos</span><span class="badge b-vig" style="margin-left:auto">En vigor</span></span>
+      <h3>RGPD + Digital Omnibus</h3><span class="full">Reglamento (UE) 2016/679 y propuesta de Digital Omnibus</span><p>El RGPD sigue siendo la base. El Digital Omnibus propone consolidar normas de datos en el Data Act y ajustar el RGPD; esos cambios están contestados por el EDPB y el SEPD.</p>
+      <span class="row"><span class="layer l-arg">ARGOS</span><span class="layer l-cog">COGNITIV</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 1, integrador 3, cliente 3 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#F1D98A"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="I C"><span class="row"><span class="th">Datos</span><span class="badge b-vig" style="margin-left:auto">En vigor</span></span>
+      <h3>Data Union Strategy</h3><span class="full">Estrategia de la Unión de Datos (19-11-2025)</span><p>Orienta la política de datos a la implementación: Data Labs que conectan espacios de datos con AI Factories, 100 M€ adicionales para espacios de datos desde 2026 y la CADA como acción emblemática.</p>
+      <span class="row"><span class="layer l-dat">Espacios de datos</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 1, mayorista 1, integrador 2, cliente 2 sobre 3"><div><i style="background:#F1D98A"></i>Fabr.</div><div><i style="background:#F1D98A"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#D9A520"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M"><span class="row"><span class="th">Nube y soberanía</span><span class="badge b-pro" style="margin-left:auto">Propuesta / en tramitación</span></span>
+      <h3>Chips Act 2.0</h3><span class="full">Propuesta COM(2026) 504</span><p>Parte del mismo Paquete de Soberanía Tecnológica que la CADA: refuerzo de la cadena europea de semiconductores.</p>
+      
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 2, integrador 1, cliente 1 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#F1D98A"></i>Integr.</div><div><i style="background:#F1D98A"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M"><span class="row"><span class="th">Producto y mercado</span><span class="badge b-vig" style="margin-left:auto">En vigor</span></span>
+      <h3>Ecodiseño servidores</h3><span class="full">Reglamento (UE) 2019/424 (en revisión)</span><p>Eficiencia de fuentes de alimentación, rendimiento activo, información de materiales, desmontaje y borrado seguro para reutilización. La revisión y el Anexo I de la CADA anticipan requisitos más exigentes.</p>
+      
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 2, integrador 1, cliente 1 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#F1D98A"></i>Integr.</div><div><i style="background:#F1D98A"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M"><span class="row"><span class="th">España</span><span class="badge b-vig" style="margin-left:auto">En vigor</span></span>
+      <h3>RAEE</h3><span class="full">RD 110/2015 de residuos de aparatos eléctricos y electrónicos</span><p>Productores e importadores se registran, declaran y financian la gestión de residuos; los distribuidores recogen equipos usados en determinados supuestos.</p>
+      
+      <span class="imp" aria-label="Impacto: fabricante 3, mayorista 3, integrador 1, cliente 1 sobre 3"><div><i style="background:#C8411B"></i>Fabr.</div><div><i style="background:#C8411B"></i>Mayor.</div><div><i style="background:#F1D98A"></i>Integr.</div><div><i style="background:#F1D98A"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">España</span><span class="badge b-esp" style="margin-left:auto">Pendiente en España</span></span>
+      <h3>Factura electrónica · VERI*FACTU</h3><span class="full">RD 238/2026 y Orden HAC/1028/2026</span><p>Factura electrónica B2B obligatoria y solución pública regulada (oct. 2026). VERI*FACTU, aplazado a octubre de 2028.</p>
+      
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 3, integrador 3, cliente 3 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#C8411B"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">España</span><span class="badge b-vig" style="margin-left:auto">En vigor</span></span>
+      <h3>ENS</h3><span class="full">Esquema Nacional de Seguridad · RD 311/2022</span><p>Obligatorio para el sector público y sus proveedores tecnológicos. Es hoy la llave del mercado público cloud español y el puente natural hacia el reconocimiento CADA mientras no exista el EUCS.</p>
+      <span class="row"><span class="layer l-arg">ARGOS</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 2, integrador 3, cliente 3 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#C8411B"></i>Integr.</div><div><i style="background:#C8411B"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="I C"><span class="row"><span class="th">España</span><span class="badge b-esp" style="margin-left:auto">Pendiente en España</span></span>
+      <h3>Ley de gobernanza de la IA</h3><span class="full">Proyecto de Ley Orgánica (remitido a las Cortes 26-5-2026)</span><p>Designa a la AESIA como autoridad principal, regula entornos de pruebas y sanciones e incluye el uso de IA en el sector público estatal. Es proyecto, no derecho vigente.</p>
+      <span class="row"><span class="layer l-cog">COGNITIV</span></span>
+      <span class="imp" aria-label="Impacto: fabricante 1, mayorista 1, integrador 2, cliente 2 sobre 3"><div><i style="background:#F1D98A"></i>Fabr.</div><div><i style="background:#F1D98A"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#D9A520"></i>Cliente</div></span></button><button class="reg" type="button" data-aud="F M I C"><span class="row"><span class="th">España</span><span class="badge b-esp" style="margin-left:auto">Pendiente en España</span></span>
+      <h3>RD centros de datos</h3><span class="full">Proyecto de RD de centros de datos sostenibles (audiencia ago. 2026)</span><p>Para instalaciones de 1 MW o más: al menos el 80 % del consumo de cada hora respaldado por renovables de esa hora, límites de consumo de red y operador establecido en la UE.</p>
+      
+      <span class="imp" aria-label="Impacto: fabricante 2, mayorista 2, integrador 2, cliente 2 sobre 3"><div><i style="background:#D9A520"></i>Fabr.</div><div><i style="background:#D9A520"></i>Mayor.</div><div><i style="background:#D9A520"></i>Integr.</div><div><i style="background:#D9A520"></i>Cliente</div></span></button><!--/PRE:regs--></div>
+  </div>
+</section>
+
+<section class="sec" id="calendario">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Calendario regulatorio 2025–2030</div>
+      <h2>Dos picos de carga, una sola preparación</h2>
+      <p class="lead">El primer pico llega en 2027: Data Act sin cargos de cambio, alto riesgo del AI Act y requisitos esenciales del CRA. El segundo, en 2029–2030, con la aplicación de la CADA y las primeras licitaciones por niveles. Pase el cursor por cada punto.</p>
+    </div>
+    <div class="legend"><span><i style="background:var(--ok)"></i>Hito cumplido</span><span><i style="background:var(--gold)"></i>Hito previsto con fecha</span><span><i style="border:2px dashed var(--prop)"></i>Estimación (escenario base)</span></div>
+    <div class="card tl">
+      <div class="tl-track" id="tlTrack">
+        <div class="tl-head"><div></div><div class="tl-years"><div>2025</div><div>2026</div><div>2027</div><div>2028</div><div>2029</div><div>2030</div></div></div>
+        <div class="tl-rows" id="tlRows"></div>
+      </div>
+    </div>
+    <div class="tbl" style="margin-top:22px;max-height:440px">
+      <table id="tlTable"><caption class="sr">Hitos regulatorios 2025–2030</caption><thead><tr><th>Fecha</th><th>Norma</th><th>Hito</th><th>A quién afecta</th></tr></thead><tbody><!--PRE:tl--><tr data-aud="I C"><td style="white-space:nowrap"><b>17-1-2025</b></td><td>DORA</td><td>Aplicación</td><td class="mini">Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F I C"><td style="white-space:nowrap"><b>12-9-2025</b></td><td>Data Act</td><td>Aplicación general</td><td class="mini">Fabricante, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="I C"><td style="white-space:nowrap"><b>18-11-2025</b></td><td>DORA</td><td>19 proveedores TIC críticos</td><td class="mini">Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>19-11-2025</b></td><td>Datos/Omnibus</td><td>Data Union Strategy y Digital Omnibus</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F M"><td style="white-space:nowrap"><b>20-1-2026</b></td><td>Ciberseguridad</td><td>Propuesta CSA2</td><td class="mini">Fabricante, Mayorista / distribuidor</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>24-2-2026</b></td><td>España</td><td>Hoja de Ruta de Soberanía Digital</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F I C"><td style="white-space:nowrap"><b>7-5-2026</b></td><td>AI Act</td><td>Acuerdo provisional Omnibus IA</td><td class="mini">Fabricante, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="I C"><td style="white-space:nowrap"><b>26-5-2026</b></td><td>España</td><td>PLO de gobernanza de la IA a las Cortes</td><td class="mini">Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>3-6-2026</b></td><td>CADA</td><td>Propuesta COM(2026) 502</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F M I"><td style="white-space:nowrap"><b>25-6-2026</b></td><td>Mercado</td><td>DMA: AWS y Azure, conclusión preliminar</td><td class="mini">Fabricante, Mayorista / distribuidor, Integrador / MSP</td></tr><tr data-aud="F I C"><td style="white-space:nowrap"><b>2-8-2026</b></td><td>AI Act</td><td>Poderes de supervisión de la Oficina de IA</td><td class="mini">Fabricante, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I"><td style="white-space:nowrap"><b>27-8-2026</b></td><td>España</td><td>Audiencia RD centros de datos</td><td class="mini">Fabricante, Mayorista / distribuidor, Integrador / MSP</td></tr><tr data-aud="F M"><td style="white-space:nowrap"><b>11-9-2026</b></td><td>CRA</td><td>Notificación de vulnerabilidades e incidentes</td><td class="mini">Fabricante, Mayorista / distribuidor</td></tr><tr data-aud="M I C"><td style="white-space:nowrap"><b>5-10-2026</b></td><td>España</td><td>Orden HAC/1028/2026 factura electrónica</td><td class="mini">Mayorista / distribuidor, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>11-11-2026</b></td><td>CADA</td><td>Proyecto de informe conjunto en el Parlamento</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F I"><td style="white-space:nowrap"><b>2-12-2026</b></td><td>AI Act</td><td>Marcado de contenido generado</td><td class="mini">Fabricante, Integrador / MSP</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>Fin 2026</b></td><td>CADA</td><td>Informe de progreso del Consejo</td><td class="mini">Toda la cadena</td></tr><tr data-aud="I C"><td style="white-space:nowrap"><b>Fin 2026</b></td><td>Ciberseguridad</td><td>Transposición NIS2 en España (prevista)</td><td class="mini">Integrador / MSP, Industria cliente final</td></tr><tr data-aud="I C"><td style="white-space:nowrap"><b>12-1-2027</b></td><td>Data Act</td><td>Cambio de proveedor sin cargos</td><td class="mini">Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>Mar. 2027</b></td><td>CADA</td><td>Votación en comisión del Parlamento</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F I C"><td style="white-space:nowrap"><b>26-3-2027</b></td><td>Datos/Omnibus</td><td>Actos de ejecución EHDS</td><td class="mini">Fabricante, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="I C"><td style="white-space:nowrap"><b>12-9-2027</b></td><td>Data Act</td><td>Contratos anteriores a sept. 2025</td><td class="mini">Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>4T 2027</b> <span class="mini">(estimación)</span></td><td>CADA</td><td>Objetivo de acuerdo político</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F I C"><td style="white-space:nowrap"><b>2-12-2027</b></td><td>AI Act</td><td>Alto riesgo (Anexo III)</td><td class="mini">Fabricante, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M"><td style="white-space:nowrap"><b>11-12-2027</b></td><td>CRA</td><td>Requisitos esenciales, SBOM, importadores y distribuidores</td><td class="mini">Fabricante, Mayorista / distribuidor</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>2028</b> <span class="mini">(estimación)</span></td><td>CADA</td><td>Publicación y entrada en vigor (estimación)</td><td class="mini">Toda la cadena</td></tr><tr data-aud="M I C"><td style="white-space:nowrap"><b>Oct. 2028</b></td><td>España</td><td>VERI*FACTU</td><td class="mini">Mayorista / distribuidor, Integrador / MSP, Industria cliente final</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>2029</b> <span class="mini">(estimación)</span></td><td>CADA</td><td>Aplicación, autoridades y primeras evaluaciones de riesgo</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F M I C"><td style="white-space:nowrap"><b>2029–2030</b> <span class="mini">(estimación)</span></td><td>CADA</td><td>Primeras licitaciones con niveles y pico de migraciones</td><td class="mini">Toda la cadena</td></tr><tr data-aud="F M I"><td style="white-space:nowrap"><b>2030</b> <span class="mini">(estimación)</span></td><td>Mercado</td><td>66.900 M€ de inversión en centros de datos en España</td><td class="mini">Fabricante, Mayorista / distribuidor, Integrador / MSP</td></tr><!--/PRE:tl--></tbody></table>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="matriz">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Matriz de impacto</div>
+      <h2>Qué norma pesa más en cada eslabón</h2>
+      <p class="lead">Lectura cualitativa de Software in a Box a partir del texto de cada norma. 0 = sin efecto directo · 3 = obligación directa o cambio de modelo de negocio.</p>
+    </div>
+    <div class="tbl matrix"><table id="matrixT"><caption class="sr">Impacto de cada norma por eslabón de la cadena</caption><thead><tr><th>Norma</th><th class="c">Fabricante</th><th class="c">Mayorista</th><th class="c">Integrador</th><th class="c">Cliente final</th><th>Lo que más cambia</th></tr></thead><tbody><!--PRE:matrix--><tr><td><b>CADA</b><br><span class="mini">Nube y soberanía</span></td><td class="h h3" data-col="F">3</td><td class="h h3" data-col="M">3</td><td class="h h3" data-col="I">3</td><td class="h h2" data-col="C">2</td><td class="mut">Compra pública por niveles; evidencia repartida en la cadena</td></tr><tr><td><b>AI Act</b><br><span class="mini">IA</span></td><td class="h h3" data-col="F">3</td><td class="h h2" data-col="M">2</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Clasificación de riesgo y documentación de datos y modelos</td></tr><tr><td><b>Data Act</b><br><span class="mini">Datos</span></td><td class="h h3" data-col="F">3</td><td class="h h2" data-col="M">2</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Portabilidad y fin de los cargos por cambio de proveedor</td></tr><tr><td><b>CRA</b><br><span class="mini">Ciberseguridad</span></td><td class="h h3" data-col="F">3</td><td class="h h3" data-col="M">3</td><td class="h h2" data-col="I">2</td><td class="h h1" data-col="C">1</td><td class="mut">Obligaciones directas para importadores y distribuidores</td></tr><tr><td><b>NIS2</b><br><span class="mini">Ciberseguridad</span></td><td class="h h2" data-col="F">2</td><td class="h h2" data-col="M">2</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Seguridad de la cadena de suministro y notificación</td></tr><tr><td><b>CSA2 · EUCS</b><br><span class="mini">Ciberseguridad</span></td><td class="h h3" data-col="F">3</td><td class="h h2" data-col="M">2</td><td class="h h2" data-col="I">2</td><td class="h h1" data-col="C">1</td><td class="mut">Proveedores de alto riesgo y certificación cloud</td></tr><tr><td><b>DORA</b><br><span class="mini">Ciberseguridad</span></td><td class="h h2" data-col="F">2</td><td class="h h1" data-col="M">1</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Cláusulas de salida y auditoría en finanzas</td></tr><tr><td><b>DMA · nube</b><br><span class="mini">Producto y mercado</span></td><td class="h h2" data-col="F">2</td><td class="h h2" data-col="M">2</td><td class="h h2" data-col="I">2</td><td class="h h2" data-col="C">2</td><td class="mut">Interoperabilidad y licencias en nube</td></tr><tr><td><b>EHDS</b><br><span class="mini">Datos</span></td><td class="h h2" data-col="F">2</td><td class="h h1" data-col="M">1</td><td class="h h2" data-col="I">2</td><td class="h h3" data-col="C">3</td><td class="mut">Infraestructura sanitaria soberana</td></tr><tr><td><b>RGPD + Digital Omnibus</b><br><span class="mini">Datos</span></td><td class="h h2" data-col="F">2</td><td class="h h1" data-col="M">1</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Base de toda la gobernanza del dato</td></tr><tr><td><b>Data Union Strategy</b><br><span class="mini">Datos</span></td><td class="h h1" data-col="F">1</td><td class="h h1" data-col="M">1</td><td class="h h2" data-col="I">2</td><td class="h h2" data-col="C">2</td><td class="mut">Financiación y prioridad de los espacios de datos</td></tr><tr><td><b>Chips Act 2.0</b><br><span class="mini">Nube y soberanía</span></td><td class="h h3" data-col="F">3</td><td class="h h2" data-col="M">2</td><td class="h h1" data-col="I">1</td><td class="h h1" data-col="C">1</td><td class="mut">Seguridad de suministro de chips</td></tr><tr><td><b>Ecodiseño servidores</b><br><span class="mini">Producto y mercado</span></td><td class="h h3" data-col="F">3</td><td class="h h2" data-col="M">2</td><td class="h h1" data-col="I">1</td><td class="h h1" data-col="C">1</td><td class="mut">Eficiencia y circularidad del hardware</td></tr><tr><td><b>RAEE</b><br><span class="mini">España</span></td><td class="h h3" data-col="F">3</td><td class="h h3" data-col="M">3</td><td class="h h1" data-col="I">1</td><td class="h h1" data-col="C">1</td><td class="mut">Responsabilidad ampliada del productor</td></tr><tr><td><b>Factura electrónica · VERI*FACTU</b><br><span class="mini">España</span></td><td class="h h2" data-col="F">2</td><td class="h h3" data-col="M">3</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Adaptación de software de gestión</td></tr><tr><td><b>ENS</b><br><span class="mini">España</span></td><td class="h h2" data-col="F">2</td><td class="h h2" data-col="M">2</td><td class="h h3" data-col="I">3</td><td class="h h3" data-col="C">3</td><td class="mut">Certificación puente hacia la CADA</td></tr><tr><td><b>Ley de gobernanza de la IA</b><br><span class="mini">España</span></td><td class="h h1" data-col="F">1</td><td class="h h1" data-col="M">1</td><td class="h h2" data-col="I">2</td><td class="h h2" data-col="C">2</td><td class="mut">Aplicación nacional del AI Act</td></tr><tr><td><b>RD centros de datos</b><br><span class="mini">España</span></td><td class="h h2" data-col="F">2</td><td class="h h2" data-col="M">2</td><td class="h h2" data-col="I">2</td><td class="h h2" data-col="C">2</td><td class="mut">Energía y permisos para centros de datos</td></tr><!--/PRE:matrix--></tbody></table></div>
+  </div>
+</section>
+
+<section class="sec" id="cada">
+  <div class="wrap">
+    <div class="eyebrow">Foco · Ficha completa</div>
+    <div class="cada-hero">
+      <div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px"><span class="badge b-pro">Propuesta en tramitación</span><span class="layer l-cog">COGNITIV</span><span class="layer l-arg">ARGOS</span><span class="layer l-dat">Espacios de datos</span></div>
+        <h2>Cloud and AI Development Act (CADA)</h2>
+        <p class="lead">La primera norma de la Unión que convierte la soberanía digital en <b>requisitos verificables</b> para comprar nube e IA. Ordena el mercado público en cuatro niveles de garantía, obliga a las administraciones a evaluar riesgos y quiere triplicar la capacidad europea de centros de datos en cinco a siete años.</p>
+        <div class="callout">El nivel se otorga al servicio, pero se gana en la cadena. Un fabricante que no aporte su parte de la evidencia deja a sus integradores fuera de los niveles 2 a 4.</div>
+      </div>
+      <div class="facts">
+        <h4>Ficha técnica</h4>
+        <dl class="kv">
+          <dt>Documento</dt><dd>COM(2026) 502 final y anexos</dd>
+          <dt>Procedimiento</dt><dd>2026/0138(COD), legislativo ordinario</dd>
+          <dt>Propuesta</dt><dd>3 de junio de 2026</dd>
+          <dt>Forma</dt><dd>Reglamento (aplicación directa)</dd>
+          <dt>Base jurídica</dt><dd>Arts. 114 y 173.3 TFUE</dd>
+          <dt>Estructura</dt><dd>5 títulos · 48 artículos · 3 anexos</dd>
+          <dt>Paquete</dt><dd>Soberanía Tecnológica, con la Chips Act 2.0 y la Estrategia de Código Abierto</dd>
+          <dt>Estado</dt><dd>Proyecto de informe conjunto presentado en el Parlamento Europeo el 11-11-2026; informe de progreso del Consejo previsto a final de 2026</dd>
+          <dt>Objetivo</dt><dd>Acuerdo político en el 4T 2027 · aplicación hacia 2029 (escenario base)</dd>
+        </dl>
+      </div>
+    </div>
+
+    <h3 class="sub-h">Los tres pilares</h3>
+    <div class="grid3">
+      <div class="card soft pillar"><h4><span class="n">1</span>I+D+i</h4><p>Iniciativas de liderazgo en nube e IA, Centros de IA sobre los polos de innovación digital, estrategias nacionales de nube e IA en un año y proyectos de IA de frontera.</p><div class="mini">Arts. 3–9 · Título II</div></div>
+      <div class="card soft pillar"><h4><span class="n">2</span>Capacidad</h4><p>Triplicar la capacidad de centros de datos en 5–7 años. Cada Estado propone al menos una <b>zona de aceleración</b> en 6 meses; proyectos estratégicos con permisos acelerados y ventanilla única.</p><div class="mini">Arts. 10–15 · Título III</div></div>
+      <div class="card soft pillar"><h4><span class="n">3</span>Autonomía</h4><p>Marco de soberanía con <b>cuatro niveles de garantía</b>, evaluación de riesgos del sector público, criterios de valor añadido europeo, central de compras, EuroCloud Federation y fomento del código abierto.</p><div class="mini">Arts. 16–44 · Título IV</div></div>
+    </div>
+
+    <h3 class="sub-h">Los cuatro niveles de garantía (Anexo II)</h3>
+    <p class="mut" style="max-width:52em">Voluntarios para el proveedor, pero deciden qué puede comprar la administración para cada actividad. El salto crítico está entre el nivel 1 y el 2.</p>
+    <div class="levels">
+      <div class="lv"><div class="big">1</div><div class="tag">Autoevaluación</div><ul><li>Proveedor establecido en la UE</li><li>Infraestructura, datos, metadatos y telemetría en la UE</li><li>Soporte fuera de la UE sin comprometer la autonomía</li><li>Ciberseguridad conforme al estado de la técnica</li><li>La declaración de una pyme vale en toda la UE (art. 17.3)</li></ul></div>
+      <div class="lv"><div class="big">2</div><div class="tag">Auditoría · «sustancial»</div><ul><li>Proveedor, subcontratistas, infraestructura y personal en la UE</li><li>Soporte iniciado y prestado solo desde la UE</li><li>Prohibido entrenar IA de terceros países con los datos</li><li>SBOM, control de funciones remotas, plan de migración</li><li>Separación de la matriz extracomunitaria</li></ul></div>
+      <div class="lv"><div class="big">3</div><div class="tag">Auditoría · «sustancial»</div><ul><li>Personal con ciudadanía de la UE y habilitación si procede</li><li>Proveedor no controlado por un tercer país</li><li>Salvo derogación ligada a un tercer país reconocido (art. 18)</li></ul></div>
+      <div class="lv"><div class="big">4</div><div class="tag">Auditoría · «alto»</div><ul><li>Sin control de terceros países</li><li>Datos sensibles siempre en la UE</li><li>Control efectivo de toda la cadena de software</li></ul></div>
+    </div>
+
+    <h3 class="sub-h">Quién aporta cada prueba (Anexo III)</h3>
+    <p class="mut" style="max-width:52em">El Anexo III convierte la soberanía en un expediente que verifica un auditor. Leído desde el canal, es un reparto de tareas.</p>
+    <div class="tbl"><table>
+      <caption class="sr">Criterios del Anexo III y quién aporta la prueba</caption>
+      <thead><tr><th>Criterio</th><th>Qué se prueba</th><th>Quién aporta la prueba</th><th>Dificultad con pila no europea</th></tr></thead>
+      <tbody>
+        <tr><td><b>A</b> · Establecimiento</td><td>Escrituras, domicilio, administración central</td><td>Integrador u operador</td><td><span class="badge b-vig">Baja</span></td></tr>
+        <tr><td><b>B</b> · Infraestructura y activos</td><td>Ubicación de equipos, copias, recuperación, registros e inventarios</td><td>Integrador y mayorista</td><td><span class="badge b-gra">Media</span></td></tr>
+        <tr><td><b>C</b> · Localización de datos</td><td>Flujos, registros de acceso, contratos sin transferencias</td><td>Integrador y fabricante (telemetría)</td><td><span class="badge b-gra">Media</span></td></tr>
+        <tr><td><b>D</b> · Ciudadanía del personal</td><td>Identidades, organigramas, control de accesos</td><td>Integrador, fabricante y mayorista (soporte)</td><td><span class="badge b-gra">Media</span></td></tr>
+        <tr><td><b>E</b> · Certificación</td><td>Certificado europeo o esquema nacional (ENS) mientras no exista</td><td>Fabricante e integrador</td><td><span class="badge b-gra">Media</span></td></tr>
+        <tr><td><b>F</b> · IA de terceros países</td><td>Cláusulas de no entrenamiento, MLOps en la UE, fichas de modelo, linaje</td><td>Fabricante</td><td><span class="badge b-esp">Alta</span></td></tr>
+        <tr><td><b>G</b> · Propiedad y control</td><td>Accionistas con 5 % o más, gobierno, solicitudes de terceros países</td><td>Fabricante</td><td><span class="badge b-esp">Alta</span></td></tr>
+        <tr><td><b>H</b> · Soporte desde la UE</td><td>Cláusulas, subcontratistas, rutas de acceso administrativo</td><td>Fabricante y mayorista</td><td><span class="badge b-esp">Alta</span></td></tr>
+        <tr><td><b>I</b> · Cadena de software</td><td>Transparencia de componentes, SBOM</td><td>Fabricante</td><td><span class="badge b-esp">Alta</span></td></tr>
+      </tbody></table></div>
+
+    <h3 class="sub-h">Cómo se crea la demanda: evaluación de riesgos y reglas de compra</h3>
+    <div class="grid2">
+      <div class="card soft"><h4>Art. 29 · Evaluación de riesgos</h4><p>Estados y entidades de la UE evalúan, en un año y después cada dos, qué actividades públicas contribuyen al <b>orden público</b> y qué nivel (2, 3 o 4) exige cada una. Si hay que migrar, la transición no puede superar <b>12 meses</b>.</p></div>
+      <div class="card soft"><h4>Art. 30 · Regla de compra</h4><p>Sin actividades de orden público: <b>al menos nivel 1</b>. Con actividades de orden público: <b>niveles 2, 3 o 4</b>. Hay derogaciones si no existe servicio adecuado, la licitación queda desierta o el coste es desproporcionado.</p></div>
+      <div class="card soft"><h4>Art. 31 · Sector privado crítico</h4><p>Las entidades de los sectores del Anexo I de NIS2 (energía, transporte, banca, salud, agua, infraestructura digital…) pueden evaluarse voluntariamente; la Comisión puede hacerlo <b>obligatorio</b> en sectores de alta criticidad.</p></div>
+      <div class="card soft"><h4>Arts. 32–33 · Valor europeo y pymes</h4><p>Criterios de tecnología desarrollada y hardware fabricado en la UE (hasta 15 de 120 puntos según el considerando 67) y objetivo de que el <b>25 %</b> de la compra innovadora de nube e IA vaya a pymes.</p></div>
+    </div>
+
+    <h3 class="sub-h">Lectura por eslabón</h3>
+    <div class="tabs" id="cadaTabs" role="tablist">
+      <button class="tab on" data-p="pF" role="tab">Fabricante</button>
+      <button class="tab" data-p="pM" role="tab">Mayorista</button>
+      <button class="tab" data-p="pI" role="tab">Integrador</button>
+      <button class="tab" data-p="pC" role="tab">Cliente final</button>
+    </div>
+    <div class="tabpane on" id="pF" role="tabpanel">
+      <div class="grid2">
+        <div><h4>Qué le pedirán sus integradores</h4><ul class="check">
+          <li>Dónde se procesan telemetría, registros y diagnósticos, y si pueden quedarse en la UE o desactivarse.</li>
+          <li>Modo de gestión local o desde una región europea, sin consola obligatoria fuera de la UE.</li>
+          <li>Soporte de 2.º y 3.er nivel desde la UE, con acceso remoto controlado y registrado.</li>
+          <li>SBOM y política de vulnerabilidades conforme al CRA.</li>
+          <li>Cláusula de que los datos del cliente no entrenan modelos de IA.</li>
+          <li>Estructura de propiedad y política ante solicitudes de autoridades de terceros países.</li></ul></div>
+        <div><h4>Impacto por tipo de fabricante</h4>
+          <div class="tbl"><table><thead><tr><th>Tipo</th><th>Impacto</th><th>Acción prioritaria</th></tr></thead><tbody>
+            <tr><td>Hardware de infraestructura no europeo</td><td><span class="badge b-gra">Medio</span></td><td>Modo local y soporte desde la UE</td></tr>
+            <tr><td>Infraestructura física (energía, frío, racks)</td><td><span class="badge b-vig">Bajo; alta demanda</span></td><td>Eficiencia y fabricación en la UE</td></tr>
+            <tr><td>Software y seguridad cloud no europeos</td><td><span class="badge b-esp">Alto</span></td><td>Regiones UE, cláusulas de IA, separación</td></tr>
+            <tr><td>Software y seguridad europeos</td><td><span class="badge b-vig">Positivo</span></td><td>Documentar el valor añadido europeo</td></tr>
+            <tr><td>Código abierto con soporte</td><td><span class="badge b-vig">Positivo en niveles altos</span></td><td>Soporte desde la UE y SBOM</td></tr>
+          </tbody></table></div></div>
+      </div>
+      <div class="callout">La CADA no es una barrera si se documenta pronto. Es una barrera si deja que sus integradores descubran en una licitación que usted no puede aportar la evidencia.</div>
+    </div>
+    <div class="tabpane" id="pM" role="tabpanel">
+      <div class="grid2">
+        <div><h4>De suministrar a orquestar</h4><p>El mayorista ya mantiene, para miles de referencias, el registro de productor (RAEE), la eficiencia (ecodiseño), el marcado y las garantías. La CADA añade una columna más a la ficha de cada referencia: la soberanía. Y el CRA le convierte en un eslabón de control de conformidad como importador o distribuidor.</p>
+          <h4 style="margin-top:20px">Modelo de servicio en tres capas</h4>
+          <div class="tbl"><table><tbody>
+            <tr><td><b>Información</b></td><td>Fichas de soberanía, matrices normativas (CADA, CRA, NIS2, ENS, RAEE, ecodiseño) y alertas de cambios</td></tr>
+            <tr><td><b>Soluciones</b></td><td>Configuraciones de referencia por nivel con precio, financiación y documentación para el expediente</td></tr>
+            <tr><td><b>Servicios</b></td><td>Preventa especializada, formación, apoyo al reconocimiento y consorcios para licitaciones</td></tr>
+          </tbody></table></div></div>
+        <div><h4>Lista de verificación del mayorista</h4><ul class="check">
+          <li>¿Existe una ficha de soberanía por familia de producto? <span class="mini">(B, C, H, I)</span></li>
+          <li>¿Se verifican la conformidad CRA y el marcado en el alta de producto?</li>
+          <li>¿El soporte de primer nivel y la logística de repuestos se prestan desde la UE? <span class="mini">(B, H)</span></li>
+          <li>¿Hay configuraciones de referencia por nivel? <span class="mini">(Anexo II)</span></li>
+          <li>¿Se comunican a los partners los cambios materiales de los fabricantes? <span class="mini">(art. 23)</span></li></ul></div>
+      </div>
+      <div class="callout">La CADA convierte la información de la cadena de suministro en un activo comercial. El mayorista que la normalice se convierte en el orquestador de la soberanía del canal.</div>
+    </div>
+    <div class="tabpane" id="pI" role="tabpanel">
+      <div class="grid2">
+        <div><h4>Cuatro perfiles, cuatro situaciones</h4>
+          <div class="tbl"><table><thead><tr><th>Perfil</th><th>Ante la CADA</th><th>Qué necesita</th></tr></thead><tbody>
+            <tr><td>Gran integrador nacional</td><td>Puede construir niveles 2–3 propios</td><td>Volumen, financiación, configuraciones complejas</td></tr>
+            <tr><td>Integrador regional</td><td>Nivel 1 propio; nivel 2 con socios</td><td>Fichas de soberanía, centros regionales, formación</td></tr>
+            <tr><td>Proveedor de servicios gestionados</td><td>Objeto directo de la norma</td><td>Herramientas con datos en la UE, evidencia operativa</td></tr>
+            <tr><td>Revendedor de producto</td><td>Asesor y suministrador</td><td>Información clara por producto</td></tr>
+          </tbody></table></div></div>
+        <div><h4>Lista de verificación del integrador</h4><ul class="check">
+          <li>Entidad prestadora establecida en la UE <span class="mini">(A)</span></li>
+          <li>Infraestructura, copias y recuperación en la UE <span class="mini">(B)</span></li>
+          <li>Datos, metadatos y telemetría en la UE <span class="mini">(C)</span></li>
+          <li>Subcontratistas declarados <span class="mini">(H)</span></li>
+          <li>Ciberseguridad conforme al estado de la técnica: ENS, ISO/IEC 27001 <span class="mini">(E)</span></li>
+          <li>Responsable del expediente y procedimiento de cambios materiales <span class="mini">(art. 23)</span></li>
+          <li>Si es pyme, reconocimiento automático del nivel 1 <span class="mini">(art. 17.3)</span></li></ul></div>
+      </div>
+      <div class="callout">El integrador pyme no tiene que construir la soberanía solo. Tiene que saber elegir los productos, los centros de datos y el mayorista que se la permiten demostrar.</div>
+    </div>
+    <div class="tabpane" id="pC" role="tabpanel">
+      <div class="grid2">
+        <div><h4>Si es sector público</h4><ul class="check">
+          <li>Primera evaluación de riesgos (art. 29) en el año siguiente a la aplicación; después, cada dos años.</li>
+          <li>Gestión ordinaria en nivel 1; sanidad, justicia, tributos y seguridad, probablemente en niveles 2–3.</li>
+          <li>Migraciones exigidas en un máximo de 12 meses: planifíquelas con el Data Act.</li>
+          <li>Criterios de valor añadido europeo y 25 % de compra innovadora a pymes.</li></ul>
+          <h4 style="margin-top:22px">Si es industria o servicios críticos (NIS2)</h4><ul class="check">
+          <li>Evaluación voluntaria hoy (art. 31); posible obligación sectorial mañana.</li>
+          <li>El nivel de garantía será un sello que podrá exigir a sus proveedores de nube, IA y servicios gestionados.</li>
+          <li>Combínelo con NIS2 (cadena de suministro) y DORA (finanzas) en un único cuestionario de proveedor.</li></ul></div>
+        <div><h4>Qué pedir a su proveedor desde hoy</h4><ul class="check">
+          <li>Nivel CADA objetivo de cada servicio y calendario para alcanzarlo.</li>
+          <li>Mapa de dónde están datos, copias, registros y telemetría.</li>
+          <li>Desde dónde se presta el soporte y quién puede acceder a sus sistemas.</li>
+          <li>Garantía contractual de que sus datos no entrenan IA.</li>
+          <li>Plan de salida y portabilidad conforme al Data Act (sin cargos desde el 12-1-2027).</li>
+          <li>Clasificación en el AI Act de cada funcionalidad de IA que vaya a desplegar.</li></ul></div>
+      </div>
+      <div class="callout">Para el cliente final, la CADA es una palanca de negociación: convierte «confíe en nosotros» en «demuéstrelo con evidencia auditable».</div>
+    </div>
+
+    <h3 class="sub-h">La ficha de soberanía: diez preguntas por familia de producto</h3>
+    <p class="mut" style="max-width:52em">Propuesta de Software in a Box para el canal: una o dos páginas por familia de producto, rellenadas por el fabricante y mantenidas por el mayorista. Con estas respuestas, un integrador sabe en minutos si el producto sirve para el nivel 1, si sostiene un nivel 2 y qué le falta para un nivel 3.</p>
+    <div class="ficha card">
+      <div>Entidad que comercializa el producto en la UE</div><div>Estructura de control y propiedad</div>
+      <div>Dónde se procesan telemetría, registros y diagnósticos</div><div>Modo de gestión local o región europea disponible</div>
+      <div>Origen del soporte de primer, segundo y tercer nivel</div><div>Política de acceso remoto</div>
+      <div>Existencia y formato del SBOM</div><div>Política de vulnerabilidades conforme al CRA</div>
+      <div>Uso de datos del cliente para entrenar modelos</div><div>Certificaciones disponibles (ISO, ENS, esquemas nacionales)</div>
+    </div>
+
+    <h3 class="sub-h">Procedimiento de reconocimiento (niveles 2–4)</h3>
+    <div class="tbl"><table><thead><tr><th>Fase</th><th>Responsable</th><th>Plazo</th></tr></thead><tbody>
+      <tr><td>Preparación de evidencia</td><td>Proveedor, con datos de fabricante y mayorista</td><td>6–12 meses <span class="mini">(estimación)</span></td></tr>
+      <tr><td>Auditoría</td><td>Organismo auditor</td><td>Variable</td></tr>
+      <tr><td>Evaluación de la autoridad nacional</td><td>Autoridad del Estado de establecimiento (art. 17)</td><td>60 días</td></tr>
+      <tr><td>Revisión por otros Estados</td><td>Autoridades nacionales</td><td>60 días</td></tr>
+      <tr><td>Inclusión en el repositorio central</td><td>Comisión (arts. 22–23)</td><td>Tras el reconocimiento</td></tr>
+    </tbody></table></div>
+    <p class="note">En España, la autoridad podría ser el Centro Criptológico Nacional, por su papel en el ENS, o una unidad del Ministerio para la Transformación Digital; en Portugal, el Centro Nacional de Cibersegurança. Las sanciones (art. 24) las fija cada Estado.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="casos">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Casos de estudio</div>
+      <h2>Cómo se juega en la práctica</h2>
+      <p class="lead">Casos ilustrativos construidos sobre el texto de la propuesta y el funcionamiento real del canal en España y Portugal. No describen clientes concretos.</p>
+    </div>
+    <div class="grid2" id="cases"><!--PRE:cases--><article class="case" data-aud="I M F C"><div class="k">CASO 01</div><h3>Copia de seguridad de nivel 2 para un hospital público</h3><div class="who"><span>Integrador</span><span>Mayorista</span><span>Fabricante</span><span>Cliente: salud</span></div><p style="margin:0">Un integrador regional quiere ofrecer copia de seguridad gestionada a un hospital. La evaluación de riesgos clasifica la historia clínica como actividad de orden público: nivel 2 mínimo.</p><ol class="steps"><li>Centro de datos establecido en la UE con personal en la UE</li><li>Almacenamiento y software de protección con soporte avanzado desde la UE</li><li>Consola de gestión sin telemetría fuera de Europa</li><li>SBOM de los componentes</li><li>ENS categoría alta mientras no exista el certificado europeo</li></ol><div class="res"><b>Resultado · </b>Con una configuración de referencia del mayorista y un operador regional con nivel acreditado, el expediente se prepara en semanas en lugar de meses.</div><div style="display:flex;gap:6px"><span class="layer l-arg">ARGOS</span><span class="layer l-cog">COGNITIV</span></div></article><article class="case" data-aud="C I M"><div class="k">CASO 02</div><h3>Una diputación provincial se convierte en dos mercados</h3><div class="who"><span>Cliente: sector público</span><span>Integrador</span><span>Mayorista</span></div><p style="margin:0">Gestión tributaria, RR. HH., sede electrónica y atención a municipios. Primera evaluación de riesgos hacia 2029 (escenario base).</p><ol class="steps"><li>Tributos y algunos registros: probablemente orden público → nivel 2</li><li>RR. HH., gestión documental y web institucional → nivel 1</li><li>El integrador que conoce la evaluación antes del pliego propone una arquitectura mixta</li><li>El mayorista con ambas configuraciones validadas respalda varias ofertas</li></ol><div class="res"><b>Resultado · </b>Un mercado de nivel 1 abierto a casi todos y otro de nivel 2 donde solo compiten quienes tengan configuración y evidencia listas.</div><div style="display:flex;gap:6px"><span class="layer l-arg">ARGOS</span></div></article><article class="case" data-aud="I M"><div class="k">CASO 03</div><h3>Integrador de 60 empleados ante su primera licitación CADA</h3><div class="who"><span>Integrador pyme</span><span>Mayorista</span></div><p style="margin:0">Especializado en ERP y servicios gestionados para industria y administración local. El pliego de 2029 exige nivel 1 para el servicio principal y nivel 2 para copia y recuperación.</p><ol class="steps"><li>Nivel 1 propio: establecido en España, datos en centro nacional, subcontratistas declarados</li><li>Nivel 2: necesita operador acreditado, productos con soporte y telemetría UE y auditoría</li><li>Con configuración de referencia del mayorista, solo paga la auditoría de su operación</li><li>Sin ella, se presenta en consorcio o como subcontratista</li></ol><div class="res"><b>Resultado · </b>La diferencia entre competir o subcontratar la marca el mayorista que elija.</div><div style="display:flex;gap:6px"><span class="layer l-arg">ARGOS</span></div></article><article class="case" data-aud="F M"><div class="k">CASO 04</div><h3>Fabricante no europeo de almacenamiento ante el canal ibérico</h3><div class="who"><span>Fabricante</span><span>Mayorista</span></div><p style="margin:0">Producto técnicamente líder, gestión desde consola cloud en EE. UU. y soporte avanzado desde fuera de la UE.</p><ol class="steps"><li>Hoy: solo apto para nivel 1</li><li>Activa región de gestión europea y modo desconectado</li><li>Soporte de 2.º y 3.º nivel desde la UE, con accesos registrados</li><li>Publica SBOM y política de vulnerabilidades CRA</li><li>Rellena la ficha de soberanía y la entrega al mayorista</li></ol><div class="res"><b>Resultado · </b>Pasa a sostener servicios de nivel 2 y el canal lo recomienda frente a competidores que no publican su ficha.</div><div style="display:flex;gap:6px"><span class="layer l-arg">ARGOS</span></div></article><article class="case" data-aud="C I F"><div class="k">CASO 05</div><h3>Industria con visión artificial en planta</h3><div class="who"><span>Cliente: industria</span><span>Integrador</span><span>Fabricante</span></div><p style="margin:0">Un fabricante de componentes quiere IA de control de calidad con imágenes de producción y datos de máquinas conectadas.</p><ol class="steps"><li>AI Act: clasificar el caso de uso y documentar datos y modelo</li><li>Data Act: derecho de acceso a los datos de las máquinas conectadas</li><li>Ejecutar el modelo en planta: el dato no sale del perímetro</li><li>Compartir indicadores con proveedores mediante un espacio de datos con políticas ODRL</li><li>Si es entidad NIS2: evaluación CADA voluntaria de sus servicios</li></ol><div class="res"><b>Resultado · </b>IA doblemente conforme y datos compartidos sin entregarlos: ventaja frente a clientes que auditan su cadena.</div><div style="display:flex;gap:6px"><span class="layer l-cog">COGNITIV</span><span class="layer l-dat">Espacios de datos</span></div></article><article class="case" data-aud="C I"><div class="k">CASO 06</div><h3>Banco mediano revisa sus contratos cloud</h3><div class="who"><span>Cliente: finanzas</span><span>Integrador</span></div><p style="margin:0">DORA exige cláusulas de localización, acceso, auditoría y salida; el Data Act elimina los cargos por cambio desde el 12-1-2027.</p><ol class="steps"><li>Registro de proveedores TIC y criticidad</li><li>Un único paquete de evidencias DORA + CADA para cada proveedor</li><li>Plan de salida probado con las cláusulas tipo del Data Act</li><li>IA sobre datos de clientes en local o en infraestructura UE</li></ol><div class="res"><b>Resultado · </b>El cumplimiento deja de ser un cuestionario por norma y pasa a ser un expediente reutilizable.</div><div style="display:flex;gap:6px"><span class="layer l-arg">ARGOS</span><span class="layer l-cog">COGNITIV</span></div></article><!--/PRE:cases--></div>
+  </div>
+</section>
+
+<section class="sec" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Oportunidades de negocio</div>
+      <h2>La primera oportunidad es física. La segunda, de servicio.</h2>
+      <p class="lead">Cada carga que vuelve a un entorno controlado necesita infraestructura, y esa infraestructura se vende a través del canal. Después llegan la evidencia, la operación gestionada, el marketplace y la financiación.</p>
+    </div>
+    <div class="grid3" style="margin-bottom:22px">
+      <div class="card kpi"><span class="mini">Centros de datos en España</span><b>439 MW</b><span class="mut">de capacidad en 2025 y 66.900 M€ de inversión prevista hasta 2030</span></div>
+      <div class="card kpi"><span class="mini">Peso del canal</span><b>≈ 2/3</b><span class="mut">del gasto TI pasa por partners; más del 80 % en las pymes de EMEA y cerca del 92 % en ciberseguridad</span></div>
+      <div class="card kpi"><span class="mini">Mercado mayorista en España</span><b>+15,1 %</b><span class="mut">de crecimiento en 2025, por encima de 8.200 M€ (CONTEXT)</span></div>
+    </div>
+    <div class="grid2" id="opps"><!--PRE:opps--><div class="card opp" data-aud="F I M"><h3>Repatriación de cargas</h3><p>Coste, control, CADA y Data Act devuelven cargas a entornos privados, híbridos o regionales: servidores, almacenamiento, redes y protección de datos.</p><div class="tags"><span>Fabricante</span><span>Integrador / MSP</span><span>Mayorista / distribuidor</span></div></div><div class="card opp" data-aud="M I F"><h3>Nube privada y alternativas de virtualización</h3><p>El cierre del VCSP de Broadcom y los cambios de licencias empujan a evaluar plataformas alternativas, orientables desde el inicio a niveles de garantía.</p><div class="tags"><span>Mayorista / distribuidor</span><span>Integrador / MSP</span><span>Fabricante</span></div></div><div class="card opp" data-aud="F M I C"><h3>IA local</h3><p>La respuesta más directa a los niveles 2–3 para usos de IA: servidores con aceleradores, almacenamiento rápido y orquestación de modelos abiertos.</p><div class="tags"><span>Fabricante</span><span>Mayorista / distribuidor</span><span>Integrador / MSP</span><span>Industria cliente final</span></div></div><div class="card opp" data-aud="F M I"><h3>Centros de datos regionales y edge</h3><p>Energía, frío, racks, servidores y redes; plantas, hospitales y nodos de espacios de datos encajan con la capilaridad del canal.</p><div class="tags"><span>Fabricante</span><span>Mayorista / distribuidor</span><span>Integrador / MSP</span></div></div><div class="card opp" data-aud="F M"><h3>Hardware europeo y eficiente</h3><p>Arts. 14 y 32 de la CADA y la revisión del ecodiseño premian fabricación en la UE y eficiencia.</p><div class="tags"><span>Fabricante</span><span>Mayorista / distribuidor</span></div></div><div class="card opp" data-aud="I M C"><h3>Expediente de soberanía como servicio</h3><p>Inventarios, flujos de datos, subcontratistas, cadena de software: servicio recurrente reutilizable en licitaciones y auditorías.</p><div class="tags"><span>Integrador / MSP</span><span>Mayorista / distribuidor</span><span>Industria cliente final</span></div></div><div class="card opp" data-aud="I"><h3>Servicios gestionados de nivel 2</h3><p>MSP con herramientas que mantienen los datos en la UE y SOC peninsular: el perfil del canal más afectado y que más crece.</p><div class="tags"><span>Integrador / MSP</span></div></div><div class="card opp" data-aud="I C"><h3>Migraciones conformes al Data Act</h3><p>Inventario de datos exportables, personalizaciones, cláusulas y pruebas de portabilidad, con documentación para el expediente.</p><div class="tags"><span>Integrador / MSP</span><span>Industria cliente final</span></div></div><div class="card opp" data-aud="M F"><h3>Marketplaces y ofertas privadas</h3><p>Reventa y ofertas multiparte en 30 mercados europeos; los partners generarán el 59 % de las ventas de marketplace hacia 2030.</p><div class="tags"><span>Mayorista / distribuidor</span><span>Fabricante</span></div></div><div class="card opp" data-aud="M C"><h3>Financiación y pago por uso</h3><p>Renting y modelos as-a-service para repartir la inversión de proyectos de nivel 2–3.</p><div class="tags"><span>Mayorista / distribuidor</span><span>Industria cliente final</span></div></div><div class="card opp" data-aud="I F C"><h3>Consorcios y fondos europeos</h3><p>Europa Digital, Horizonte Europa, CDTI y Red.es para pilotos de pilas abiertas, espacios de datos e IA soberana.</p><div class="tags"><span>Integrador / MSP</span><span>Fabricante</span><span>Industria cliente final</span></div></div><div class="card opp" data-aud="M I"><h3>Formación y talento</h3><p>Itinerarios de soberanía, AI Act y CRA para el canal: arquitectos, especialistas en cumplimiento y auditores.</p><div class="tags"><span>Mayorista / distribuidor</span><span>Integrador / MSP</span></div></div><!--/PRE:opps--></div>
+  </div>
+</section>
+
+<section class="sec alt" id="riesgos">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Cuellos de botella y efectos en el mercado</div>
+      <h2>Lo que puede frenar, y cómo anticiparse</h2>
+    </div>
+    <div class="tabs" id="riskTabs" role="tablist">
+      <button class="tab on" data-p="rN" role="tab">Normativos</button>
+      <button class="tab" data-p="rT" role="tab">Técnicos y de suministro</button>
+      <button class="tab" data-p="rM" role="tab">Mercado, márgenes y talento</button>
+    </div>
+    <div class="tabpane on" id="rN" role="tabpanel"><div class="grid2">
+      <div class="card"><h4>La certificación que no existe</h4><p>Los niveles 2–4 exigen un certificado europeo «sustancial» o «alto», pero el EUCS sigue bloqueado. Mientras tanto: ENS en España, SecNumCloud en Francia, C5 en Alemania. Riesgo de fragmentación.</p></div>
+      <div class="card"><h4>Autoridades sin rodaje</h4><p>Veintisiete autoridades arrancando a la vez con pocos auditores acreditados: posibles colas en los primeros 12–18 meses.</p></div>
+      <div class="card"><h4>Anexos revisables cada 18 meses</h4><p>Los actos delegados pueden endurecer requisitos. Los contratos deben prever cláusulas de adaptación.</p></div>
+      <div class="card"><h4>Superposición normativa</h4><p>La misma evidencia la piden CADA, NIS2, CRA, DORA, AI Act, ENS y Data Act con formatos distintos. Sin un marco común de controles, el coste se multiplica.</p></div>
+      <div class="card"><h4>Terceros países reconocidos</h4><p>La lista del art. 18 decidirá si muchos fabricantes de EE. UU., Japón, Corea o Taiwán pueden aspirar al nivel 3.</p></div>
+      <div class="card"><h4>Derogaciones y aplicación desigual</h4><p>El «coste desproporcionado» puede convertirse en la vía de algunos compradores para seguir comprando lo de siempre.</p></div>
+    </div></div>
+    <div class="tabpane" id="rT" role="tabpanel"><div class="grid2">
+      <div class="card"><h4>Memoria y precios</h4><p>Escasez de memoria en 2026 y competencia por la memoria de alto ancho de banda para IA: plazos largos y precios volátiles en servidores y almacenamiento.</p></div>
+      <div class="card"><h4>GPU y capacidad de IA</h4><p>Cómputo europeo escaso y caro a corto plazo; las zonas de aceleración no aportarán megavatios antes de 2029–2030.</p></div>
+      <div class="card"><h4>Gestión remota y telemetría</h4><p>Los productos gestionados desde consolas fuera de la UE solo valdrán para el nivel 1 hasta que el fabricante ofrezca un modo local.</p></div>
+      <div class="card"><h4>Cadena de software</h4><p>SBOM obligatorio por el CRA desde el 11-12-2027; los niveles 3–4 exigen ir más allá: firmware, funciones remotas y componentes de terceros países.</p></div>
+      <div class="card"><h4>Migraciones simultáneas</h4><p>Si muchas administraciones deben migrar en 12 meses a la vez, integradores y centros de datos pueden saturarse en 2029–2030.</p></div>
+      <div class="card"><h4>Energía y permisos</h4><p>El proyecto de real decreto español exige, para centros de 1 MW o más, que al menos el 80 % del consumo de cada hora esté respaldado por renovables de esa misma hora.</p></div>
+    </div></div>
+    <div class="tabpane" id="rM" role="tabpanel"><div class="grid2">
+      <div class="card"><h4>Márgenes estrechos</h4><p>Con márgenes de mayorista del 3–8 % en hardware, el cumplimiento debe convertirse en un servicio facturable, no en un coste.</p></div>
+      <div class="card"><h4>Consolidación del canal</h4><p>Hasta un 30 % de los partners actuales podría no existir en su forma actual hacia 2030. La CADA puede acelerarlo si solo los grandes alcanzan los niveles altos.</p></div>
+      <div class="card"><h4>Talento</h4><p>Arquitectos de nube soberana, especialistas en cumplimiento y auditores de cadena de software: perfiles escasos y caros.</p></div>
+      <div class="card"><h4>Grandes lotes frente a pymes</h4><p>La compra centralizada favorece la escala; el 25 % para pymes y el nivel 1 automático las favorecen. La clave son los consorcios.</p></div>
+      <div class="card"><h4>Desintermediación</h4><p>Hiperescalares y fabricantes venden cada vez más en directo o por marketplace. La CADA, al valorar el soporte local, puede devolver peso al canal.</p></div>
+      <div class="card"><h4>Programas de fabricante en cambio</h4><p>Umbrales CSP de Microsoft, cierre del VCSP de Broadcom, Cisco 360, HPE Partner Ready Vantage: el mapa de partners se reordena.</p></div>
+    </div></div>
+  </div>
+</section>
+
+<section class="sec" id="escenarios">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Escenarios 2027–2030</div>
+      <h2>Tres escenarios y una hoja de ruta que sirve en los tres</h2>
+    </div>
+    <div class="grid3 scen">
+      <div class="card"><div class="p" style="color:var(--prop)">Suave · probabilidad media</div><div class="bar"><i style="width:35%;background:var(--prop)"></i></div><p>Requisitos rebajados y amplias derogaciones; el nivel 1 domina y los niveles 2–4 son un nicho. El canal gana sobre todo por la ola de centros de datos.</p></div>
+      <div class="card" style="border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)"><div class="p gold">Base · probabilidad más alta</div><div class="bar"><i style="width:50%;background:var(--gold)"></i></div><p>Acuerdo en el 4T 2027 y aplicación en 2029. Nivel 1 general; niveles 2–3 en sanidad, justicia, tributos, seguridad e infraestructuras críticas. Primera ola de licitaciones en 2029–2030.</p></div>
+      <div class="card"><div class="p" style="color:var(--cog)">Estricto · probabilidad baja-media</div><div class="bar"><i style="width:15%;background:var(--cog)"></i></div><p>Niveles altos para amplias categorías públicas y evaluaciones obligatorias en sectores privados críticos. La demanda de infraestructura soberana se acelera.</p></div>
+    </div>
+    <p class="note">Probabilidades cualitativas: análisis propio de Software in a Box, no previsiones oficiales.</p>
+    <h3 class="sub-h">Hoja de ruta por eslabón</h3>
+    <div class="road">
+      <div class="h"></div><div class="h">Fabricante</div><div class="h c3">Mayorista</div><div class="h c4">Integrador</div>
+      <div class="y">2027<span class="mini">Diagnóstico</span></div><div>Documentar telemetría, soporte, control y cadena de software; preparar la conformidad CRA.</div><div class="c3">Crear la ficha de soberanía; clasificar el catálogo por nivel; formación en CADA, CRA y AI Act; acuerdos con centros de datos regionales.</div><div class="c4">Inventario de servicios y dependencias; autoevaluación de nivel 1; elegir qué servicios subir de nivel.</div>
+      <div class="y">2028<span class="mini">Evidencia y alianzas</span></div><div>Modos de gestión local o regiones europeas; soporte desde la UE; SBOM; cláusulas de no entrenamiento.</div><div class="c3">Publicar configuraciones de referencia de nivel 1, 2 y 3; acompañar los primeros reconocimientos; preparar acuerdos marco.</div><div class="c4">Preparar el expediente con el mayorista; elegir centros de datos; formar equipos; alianzas.</div>
+      <div class="y">2029–30<span class="mini">Licitaciones</span></div><div>Competencias de despliegue soberano en los programas de partners.</div><div class="c3">Servicio de evidencia a escala; coordinar consorcios; ampliar a Portugal.</div><div class="c4">Primeras licitaciones con niveles; servicios de evidencia y migración.</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="diagnostico">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Autodiagnóstico</div>
+      <h2>¿Qué normas le aplican?</h2>
+      <p class="lead">Cinco preguntas y un resultado orientativo inmediato: qué normas revisar primero y por qué.</p>
+    </div>
+    <div class="quiz">
+      <div class="card">
+        <div class="q"><div class="ql">1. ¿Qué papel tiene en la cadena?</div><div class="opts" data-q="rol">
+          <button class="fbtn" data-v="F">Fabricante</button><button class="fbtn" data-v="M">Mayorista, distribuidor o importador</button><button class="fbtn" data-v="I">Integrador / MSP</button><button class="fbtn" data-v="C">Cliente final</button></div></div>
+        <div class="q"><div class="ql">2. ¿En qué sector están usted o sus clientes?</div><div class="opts" data-q="sec" data-multi="1">
+          <button class="fbtn" data-v="pub">Sector público</button><button class="fbtn" data-v="sal">Salud</button><button class="fbtn" data-v="fin">Banca y seguros</button><button class="fbtn" data-v="ene">Energía, agua, transporte</button><button class="fbtn" data-v="ind">Industria</button><button class="fbtn" data-v="otr">Otros servicios</button></div></div>
+        <div class="q"><div class="ql">3. ¿Qué vende, opera o compra?</div><div class="opts" data-q="que" data-multi="1">
+          <button class="fbtn" data-v="hw">Hardware con software o conectado</button><button class="fbtn" data-v="sw">Software</button><button class="fbtn" data-v="cloud">Servicios cloud o gestionados</button><button class="fbtn" data-v="dc">Centro de datos o infraestructura física</button></div></div>
+        <div class="q"><div class="ql">4. ¿Hay IA de por medio?</div><div class="opts" data-q="ia">
+          <button class="fbtn" data-v="si">Sí, desarrollamos o integramos IA</button><button class="fbtn" data-v="uso">La usamos</button><button class="fbtn" data-v="no">No</button></div></div>
+        <div class="q" style="margin-bottom:0"><div class="ql">5. ¿Comparte o explota datos con terceros?</div><div class="opts" data-q="dat">
+          <button class="fbtn" data-v="si">Sí</button><button class="fbtn" data-v="no">No</button></div></div>
+      </div>
+      <div class="card quiz-out">
+        <h4>Su mapa normativo</h4>
+        <div class="res-list" id="quizRes" aria-live="polite"><div class="empty">Responda a las preguntas para ver las normas que le afectan.</div></div>
+        <div id="quizCta" hidden style="margin-top:18px"><a class="btn btn-ink" href="#contacto">Pedir un diagnóstico completo</a></div>
+        <p class="note">Resultado orientativo; no constituye asesoramiento jurídico.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="soluciones">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Cómo ayuda Software in a Box</div>
+      <h2>Cada norma termina en una capa que la resuelve</h2>
+    </div>
+    <div class="grid3 stack">
+      <div class="card c1"><h3>COGNITIV</h3><div class="sub">IA soberana en su servidor</div><ul><li>Inferencia dentro de su red, sobre Lenovo ThinkSystem</li><li>Responde a los niveles 2–3 de la CADA para usos de IA</li><li>Base para la documentación del AI Act: datos, modelos, registros</li><li>Sus datos no entrenan IA ajena</li></ul><a class="more" href="https://cognitiv.softwareinabox.eu/">Ir a COGNITIV</a></div>
+      <div class="card c2"><h3>ARGOS</h3><div class="sub">Cumplimiento que se demuestra</div><ul><li>Prueba accesos, cesiones y borrados de extremo a extremo</li><li>Un marco de controles para RGPD, EHDS, AI Act, NIS2 y Data Act</li><li>Informe emitido como credencial verificable, reutilizable en el expediente CADA</li></ul><a class="more" href="https://argos.softwareinabox.eu/">Ir a ARGOS</a></div>
+      <div class="card c3"><h3>Espacios de datos</h3><div class="sub">Compartir sin entregar el dato</div><ul><li>Conectores Eclipse EDC y Pontus-X con contratos ODRL</li><li>Identidad con credenciales Gaia-X</li><li>Nodos que el canal despliega en el borde: planta, hospital, centro logístico</li></ul><a class="more" href="https://datos.softwareinabox.eu/">Ir a Espacios de datos</a></div>
+    </div>
+    <div class="grid2" style="margin-top:22px">
+      <div class="card soft"><h4>Para fabricantes y mayoristas</h4><p style="margin:0">Plantilla de ficha de soberanía, matriz normativa por familia de producto y configuraciones de referencia por nivel listas para el portal de partners.</p></div>
+      <div class="card soft"><h4>Para integradores y clientes finales</h4><p style="margin:0">Diagnóstico del nivel CADA de cada servicio, expediente de evidencia del Anexo III, migraciones conformes al Data Act e IA local doblemente conforme (AI Act y CADA).</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="glosario">
+  <div class="wrap">
+    <div class="sec-h">
+      <div class="eyebrow">Glosario</div>
+      <h2>Términos que conviene dominar</h2>
+    </div>
+    <div class="gloss card">
+      <div><b>CADA</b> · Cloud and AI Development Act, propuesta COM(2026) 502.</div>
+      <div><b>Niveles de garantía</b> · Los cuatro niveles de soberanía de la CADA (Union Assurance Levels).</div>
+      <div><b>SEAL</b> · Escala 0–4 que usa la Comisión en su propia contratación cloud.</div>
+      <div><b>Zona de aceleración</b> · Área designada para desplegar centros de datos con permisos rápidos.</div>
+      <div><b>Orden público</b> · Actividades públicas que, según la evaluación del art. 29, exigen niveles 2–4.</div>
+      <div><b>EUCS</b> · Esquema europeo de certificación de ciberseguridad para servicios cloud, hoy bloqueado.</div>
+      <div><b>CSA2</b> · Propuesta de nuevo Reglamento de Ciberseguridad (enero de 2026).</div>
+      <div><b>CRA</b> · Reglamento de Ciberresiliencia: requisitos para productos con elementos digitales.</div>
+      <div><b>SBOM</b> · Lista de materiales de software: inventario de componentes de un producto.</div>
+      <div><b>NIS2</b> · Directiva de ciberseguridad para entidades esenciales e importantes.</div>
+      <div><b>DORA</b> · Reglamento de resiliencia operativa digital del sector financiero.</div>
+      <div><b>Proveedor TIC crítico</b> · Proveedor tecnológico supervisado directamente bajo DORA.</div>
+      <div><b>DMA</b> · Ley de Mercados Digitales; guardián de acceso (gatekeeper).</div>
+      <div><b>EHDS</b> · Espacio Europeo de Datos Sanitarios, Reglamento (UE) 2025/327.</div>
+      <div><b>ENS</b> · Esquema Nacional de Seguridad (RD 311/2022), obligatorio para el sector público español y sus proveedores.</div>
+      <div><b>AESIA</b> · Agencia Española de Supervisión de la Inteligencia Artificial.</div>
+      <div><b>Mayorista de valor (VAD)</b> · Distribuidor con preventa, integración multifabricante, formación y servicios.</div>
+      <div><b>MSP</b> · Proveedor de servicios gestionados.</div>
+      <div><b>ODRL</b> · Lenguaje para expresar políticas de uso de datos legibles por máquina.</div>
+      <div><b>Gaia-X</b> · Marco europeo de confianza para infraestructuras y espacios de datos.</div>
+      <div><b>Cláusulas tipo del Data Act</b> · Modelos de la Comisión para contratos de datos y de nube (noviembre de 2025).</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec rcta" id="contacto">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center;color:var(--gold)">Hablemos</div>
+    <h2>¿Qué nivel necesitará su próximo cliente?</h2>
+    <p class="lead">Le ayudamos a leer la norma desde su eslabón, a preparar la evidencia y a convertirla en oferta.</p>
+    <a class="btn btn-gold" href="/#contacto">Solicitar una reunión</a>
+    <p class="direct"><a href="mailto:emilio.mulet@softwareinabox.eu">emilio.mulet@softwareinabox.eu</a> · <a href="tel:+34601398868">+34 601 398 868</a> · Madrid y Bruselas</p>
+  </div>
+</section>
+
+<section class="sec" id="fuentes" style="padding-top:64px;padding-bottom:64px">
+  <div class="wrap">
+    <h3>Fuentes oficiales principales</h3>
+    <ul class="src">
+      <li>CADA · <a href="https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1903654">Procedimiento 2026/0138(COD)</a></li>
+      <li>CADA · <a href="https://www.eesc.europa.eu/es/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act">Dictamen del CESE INT/1126</a></li>
+      <li>Reglamento de IA · <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">Reglamento (UE) 2024/1689</a></li>
+      <li>Reglamento de Datos · <a href="https://eur-lex.europa.eu/eli/reg/2023/2854/oj">Reglamento (UE) 2023/2854</a></li>
+      <li>Ciberresiliencia · <a href="https://eur-lex.europa.eu/eli/reg/2024/2847/oj">Reglamento (UE) 2024/2847</a></li>
+      <li>NIS2 · <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj">Directiva (UE) 2022/2555</a></li>
+      <li>DORA · <a href="https://eur-lex.europa.eu/eli/reg/2022/2554/oj">Reglamento (UE) 2022/2554</a></li>
+      <li>EHDS · <a href="https://eur-lex.europa.eu/eli/reg/2025/327/oj">Reglamento (UE) 2025/327</a></li>
+      <li>ENS · <a href="https://www.boe.es/eli/es/rd/2022/05/03/311">Real Decreto 311/2022</a></li>
+    </ul>
+    <p class="note">Esta sección se apoya en un catálogo de más de 1.000 fuentes mantenido por Software in a Box. Información orientativa; no constituye asesoramiento jurídico. Última revisión: 14 de noviembre de 2026.</p>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="/" style="display:flex">Software in a Box</a>
+        <p style="margin-top:12px;max-width:26em">Software para el dato sensible: IA soberana, cumplimiento verificado y espacios de datos federados. Madrid, Unión Europea.</p>
+      </div>
+      <div><h4>Productos</h4><a href="https://cognitiv.softwareinabox.eu/">COGNITIV</a><a href="https://argos.softwareinabox.eu/">ARGOS</a><a href="https://datos.softwareinabox.eu/">Espacios de datos</a></div>
+      <div><h4>Empresa</h4><a href="/#como">Cómo trabajamos</a><a href="/#experiencia">Experiencia</a><a href="/#contacto">Contacto</a></div>
+      <div><h4>Recursos</h4><a href="/regulacion/">Regulación UE</a><a href="/llms.txt">llms.txt</a><a href="/sitemap.xml">Mapa del sitio</a></div>
+    </div>
+    <div class="legal">
+      <span>© 2026 Software in a Box, marca de Ullswater Investments S.L.</span>
+      <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a></nav>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle"><div class="box"><button class="x" id="mx" aria-label="Cerrar">×</button><div id="mbody"></div></div></div>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+const AUD={F:"Fabricante",M:"Mayorista / distribuidor",I:"Integrador / MSP",C:"Industria cliente final"};
+const ST={vig:["b-vig","En vigor"],gra:["b-gra","Aplicación gradual"],pro:["b-pro","Propuesta / en tramitación"],esp:["b-esp","Pendiente en España"]};
+const LY={cog:["l-cog","COGNITIV"],arg:["l-arg","ARGOS"],dat:["l-dat","Espacios de datos"]};
+
+const REGS=[
+ {id:"cada",n:"CADA",full:"Cloud and AI Development Act · COM(2026) 502",t:"Nube y soberanía",s:"pro",imp:[3,3,3,2],ly:["cog","arg","dat"],flag:"Ficha completa más abajo",
+  sum:"Cuatro niveles de garantía de soberanía para comprar nube e IA en el sector público, evaluación de riesgos obligatoria y plan para triplicar la capacidad de centros de datos.",
+  dates:[["3-6-2026","Propuesta de la Comisión"],["11-11-2026","Proyecto de informe conjunto en el Parlamento"],["4T 2027","Objetivo de acuerdo político"],["≈2029","Aplicación (escenario base)"]],
+  act:{F:"Documentar telemetría, soporte, control y cadena de software: es la evidencia que piden los niveles 2–4.",M:"Ficha de soberanía por familia de producto y configuraciones de referencia por nivel.",I:"El nivel se otorga a su servicio: inventario, autoevaluación de nivel 1 y expediente.",C:"Evaluación de riesgos (público) o voluntaria (NIS2); exigir nivel a proveedores."},
+  key:"Compra pública por niveles; evidencia repartida en la cadena"},
+ {id:"aiact",n:"AI Act",full:"Reglamento (UE) 2024/1689 de Inteligencia Artificial",t:"IA",s:"gra",imp:[3,2,3,3],ly:["cog","arg"],
+  sum:"Regula sistemas y modelos de IA según su riesgo. El Digital Omnibus aplaza las obligaciones de alto riesgo del Anexo III al 2-12-2027 (productos regulados, 2028).",
+  dates:[["2-8-2026","Poderes de supervisión de la Oficina de IA"],["2-12-2026","Marcado de contenido generado (tras Omnibus)"],["2-12-2027","Alto riesgo (Anexo III)"]],
+  act:{F:"Documentación técnica y de datos de sus sistemas de IA; dónde se procesan telemetría y actualizaciones.",M:"Configuraciones de «IA doblemente conforme» (AI Act + CADA) con documentación.",I:"Clasificar cada funcionalidad de IA por riesgo y saber dónde se ejecuta.",C:"Como responsable del despliegue: supervisión humana, registros, transparencia."},
+  key:"Clasificación de riesgo y documentación de datos y modelos"},
+ {id:"dataact",n:"Data Act",full:"Reglamento (UE) 2023/2854 de Datos",t:"Datos",s:"gra",imp:[3,2,3,3],ly:["dat","cog"],
+  sum:"Acceso a datos de productos conectados, cambio de proveedor cloud y salvaguardas frente al acceso de terceros países a datos no personales.",
+  dates:[["12-9-2025","Aplicación general"],["12-1-2027","Cambio de proveedor sin cargos"],["12-9-2027","Aplicación a contratos anteriores"]],
+  act:{F:"Productos conectados (IoT, SAI, equipos de red gestionados): el usuario debe poder acceder a sus datos.",M:"Contratos y portales de gestión que reflejen los derechos de datos.",I:"Línea de servicio: migraciones conformes, portabilidad, nuevas cláusulas tipo.",C:"Palanca para salir de un proveedor sin cargos desde 2027."},
+  key:"Portabilidad y fin de los cargos por cambio de proveedor"},
+ {id:"cra",n:"CRA",full:"Reglamento de Ciberresiliencia (UE) 2024/2847",t:"Ciberseguridad",s:"gra",imp:[3,3,2,1],ly:["arg"],
+  sum:"Requisitos de ciberseguridad para todo producto con elementos digitales, hardware o software, con obligaciones a lo largo de la cadena de distribución.",
+  dates:[["11-9-2026","Notificación de vulnerabilidades explotadas e incidentes graves"],["11-12-2027","Requisitos esenciales, SBOM y obligaciones de importadores y distribuidores"]],
+  act:{F:"Evaluación de conformidad, marcado CE, SBOM, gestión de vulnerabilidades durante el soporte.",M:"Como importador: verificar conformidad, documentación y marcado. Como distribuidor: no vender lo no conforme e informar.",I:"Elegir productos conformes; incorporarlo a los pliegos de cliente.",C:"Exigir marcado y política de vulnerabilidades."},
+  key:"Obligaciones directas para importadores y distribuidores"},
+ {id:"nis2",n:"NIS2",full:"Directiva (UE) 2022/2555",t:"Ciberseguridad",s:"esp",imp:[2,2,3,3],ly:["arg"],
+  sum:"Gestión de riesgos, notificación de incidentes y seguridad de la cadena de suministro para entidades esenciales e importantes, incluidos nube, centros de datos y servicios gestionados.",
+  dates:[["Fin 2026","Transposición prevista en España"]],
+  act:{F:"Responder a cuestionarios de cadena de suministro de clientes NIS2.",M:"Formación del canal; portfolio de seguridad alineado con NIS2.",I:"MSP y nube son entidades de infraestructura digital: obligaciones propias.",C:"Gestión de riesgos de proveedores; responsabilidad de la dirección."},
+  key:"Seguridad de la cadena de suministro y notificación"},
+ {id:"csa2",n:"CSA2 · EUCS",full:"Propuesta de nuevo Reglamento de Ciberseguridad (20-1-2026) y esquema EUCS",t:"Ciberseguridad",s:"pro",imp:[3,2,2,1],ly:["arg"],
+  sum:"Refuerza ENISA, agiliza la certificación y permite designar proveedores de alto riesgo de terceros países y obligar a retirar sus componentes, con multas de hasta el 7 % de la facturación mundial. El EUCS sigue bloqueado.",
+  dates:[["20-1-2026","Propuesta CSA2"]],
+  act:{F:"Riesgo comercial directo si se le designa de alto riesgo.",M:"Diversificar catálogo; seguir la lista de alto riesgo.",I:"Certificado «sustancial»/«alto» para niveles CADA 2–4; mientras, ENS.",C:"Posible retirada de componentes en activos clave."},
+  key:"Proveedores de alto riesgo y certificación cloud"},
+ {id:"dora",n:"DORA",full:"Reglamento (UE) 2022/2554 de resiliencia operativa digital",t:"Ciberseguridad",s:"vig",imp:[2,1,3,3],ly:["arg"],
+  sum:"Resiliencia operativa del sector financiero y supervisión directa de proveedores TIC críticos: 19 designados en noviembre de 2025, entre ellos los grandes hiperescalares.",
+  dates:[["17-1-2025","Aplicación"],["18-11-2025","Designación de 19 proveedores TIC críticos"]],
+  act:{F:"Cláusulas de localización, acceso, auditoría y salida en contratos con banca.",M:"Contratos de soporte compatibles con DORA.",I:"Un paquete de evidencias común DORA + CADA para clientes financieros.",C:"Registro de proveedores, pruebas de resiliencia y planes de salida."},
+  key:"Cláusulas de salida y auditoría en finanzas"},
+ {id:"dma",n:"DMA · nube",full:"Ley de Mercados Digitales aplicada a la nube",t:"Producto y mercado",s:"pro",imp:[2,2,2,2],ly:[],
+  sum:"Conclusión preliminar de la Comisión (25-6-2026): AWS y Azure deben designarse guardianes de acceso. Si se confirma, seis meses para cumplir interoperabilidad, portabilidad y no autopreferencia.",
+  dates:[["25-6-2026","Conclusión preliminar"]],
+  act:{F:"Licencias que permitan ejecutar su software en nubes de terceros.",M:"Nuevas condiciones de reventa y marketplace.",I:"Más opciones de despliegue multinube.",C:"Mejores condiciones de portabilidad."},
+  key:"Interoperabilidad y licencias en nube"},
+ {id:"ehds",n:"EHDS",full:"Espacio Europeo de Datos Sanitarios · Reglamento (UE) 2025/327",t:"Datos",s:"gra",imp:[2,1,2,3],ly:["dat","cog","arg"],
+  sum:"Uso primario y secundario de datos de salud. Organismos de acceso y entornos de tratamiento seguro serán probablemente actividades de orden público en la CADA (nivel 2+).",
+  dates:[["26-3-2027","Principales actos de ejecución"]],
+  act:{F:"MedTech: interoperabilidad (FHIR, HealthDCAT-AP) y documentación.",M:"Configuraciones de nodo sanitario soberano.",I:"Infraestructura sanitaria soberana e integración HCE.",C:"Hospitales: compartir datos sin perder el control."},
+  key:"Infraestructura sanitaria soberana"},
+ {id:"rgpd",n:"RGPD + Digital Omnibus",full:"Reglamento (UE) 2016/679 y propuesta de Digital Omnibus",t:"Datos",s:"vig",imp:[2,1,3,3],ly:["arg","cog"],
+  sum:"El RGPD sigue siendo la base. El Digital Omnibus propone consolidar normas de datos en el Data Act y ajustar el RGPD; esos cambios están contestados por el EDPB y el SEPD.",
+  dates:[["19-11-2025","Propuesta Digital Omnibus"]],
+  act:{F:"Privacidad desde el diseño en productos y servicios.",M:"Contratos de encargo en la cadena de soporte.",I:"Encargado del tratamiento: evidencias y transferencias.",C:"Responsable del tratamiento: bases legales, EIPD."},
+  key:"Base de toda la gobernanza del dato"},
+ {id:"datau",n:"Data Union Strategy",full:"Estrategia de la Unión de Datos (19-11-2025)",t:"Datos",s:"vig",imp:[1,1,2,2],ly:["dat"],
+  sum:"Orienta la política de datos a la implementación: Data Labs que conectan espacios de datos con AI Factories, 100 M€ adicionales para espacios de datos desde 2026 y la CADA como acción emblemática.",
+  dates:[["19-11-2025","Comunicación"]],
+  act:{F:"Conectores y compatibilidad con Simpl, IDSA, Eclipse, Gaia-X.",M:"Nodos de espacio de datos como producto de catálogo.",I:"Operar nodos para clientes sectoriales.",C:"Participar en espacios de datos con garantías."},
+  key:"Financiación y prioridad de los espacios de datos"},
+ {id:"chips",n:"Chips Act 2.0",full:"Propuesta COM(2026) 504",t:"Nube y soberanía",s:"pro",imp:[3,2,1,1],ly:[],
+  sum:"Parte del mismo Paquete de Soberanía Tecnológica que la CADA: refuerzo de la cadena europea de semiconductores.",
+  dates:[["3-6-2026","Propuesta"]],
+  act:{F:"Origen de componentes y capacidad europea.",M:"Seguridad de suministro en el catálogo.",I:"Menor efecto directo.",C:"Menor efecto directo."},
+  key:"Seguridad de suministro de chips"},
+ {id:"eco",n:"Ecodiseño servidores",full:"Reglamento (UE) 2019/424 (en revisión)",t:"Producto y mercado",s:"vig",imp:[3,2,1,1],ly:[],
+  sum:"Eficiencia de fuentes de alimentación, rendimiento activo, información de materiales, desmontaje y borrado seguro para reutilización. La revisión y el Anexo I de la CADA anticipan requisitos más exigentes.",
+  dates:[["21-9-2026","Paquete europeo de eficiencia de centros de datos"]],
+  act:{F:"Documentar eficiencia y origen.",M:"Información al canal; reacondicionados.",I:"ITAD y borrado certificado.",C:"Compras eficientes y circulares."},
+  key:"Eficiencia y circularidad del hardware"},
+ {id:"raee",n:"RAEE",full:"RD 110/2015 de residuos de aparatos eléctricos y electrónicos",t:"España",s:"vig",imp:[3,3,1,1],ly:[],
+  sum:"Productores e importadores se registran, declaran y financian la gestión de residuos; los distribuidores recogen equipos usados en determinados supuestos.",
+  dates:[],
+  act:{F:"Registro y financiación de la gestión de residuos.",M:"Número de registro en facturas; recogida.",I:"Retirada de equipos del cliente.",C:"Gestión correcta de equipos al final de su vida."},
+  key:"Responsabilidad ampliada del productor"},
+ {id:"fe",n:"Factura electrónica · VERI*FACTU",full:"RD 238/2026 y Orden HAC/1028/2026",t:"España",s:"esp",imp:[2,3,3,3],ly:[],
+  sum:"Factura electrónica B2B obligatoria y solución pública regulada (oct. 2026). VERI*FACTU, aplazado a octubre de 2028.",
+  dates:[["5-10-2026","Orden HAC/1028/2026"],["Oct. 2028","VERI*FACTU"]],
+  act:{F:"Fabricantes de software de gestión: adaptar ERP.",M:"Procesos propios de facturación.",I:"Proyectos de adaptación de ERP en clientes.",C:"Adaptar facturación."},
+  key:"Adaptación de software de gestión"},
+ {id:"ens",n:"ENS",full:"Esquema Nacional de Seguridad · RD 311/2022",t:"España",s:"vig",imp:[2,2,3,3],ly:["arg"],
+  sum:"Obligatorio para el sector público y sus proveedores tecnológicos. Es hoy la llave del mercado público cloud español y el puente natural hacia el reconocimiento CADA mientras no exista el EUCS.",
+  dates:[],
+  act:{F:"Certificar productos y servicios: activo diferencial.",M:"Catálogo con productos certificados.",I:"Mantener y elevar la categoría ENS.",C:"Exigirlo a proveedores (sector público)."},
+  key:"Certificación puente hacia la CADA"},
+ {id:"loia",n:"Ley de gobernanza de la IA",full:"Proyecto de Ley Orgánica (remitido a las Cortes 26-5-2026)",t:"España",s:"esp",imp:[1,1,2,2],ly:["cog"],
+  sum:"Designa a la AESIA como autoridad principal, regula entornos de pruebas y sanciones e incluye el uso de IA en el sector público estatal. Es proyecto, no derecho vigente.",
+  dates:[["26-5-2026","Remisión a las Cortes"]],
+  act:{F:"Seguir el régimen sancionador.",M:"Formación del canal.",I:"Proyectos de IA en el sector público.",C:"Uso de IA en la Administración."},
+  key:"Aplicación nacional del AI Act"},
+ {id:"rddc",n:"RD centros de datos",full:"Proyecto de RD de centros de datos sostenibles (audiencia ago. 2026)",t:"España",s:"esp",imp:[2,2,2,2],ly:[],
+  sum:"Para instalaciones de 1 MW o más: al menos el 80 % del consumo de cada hora respaldado por renovables de esa hora, límites de consumo de red y operador establecido en la UE.",
+  dates:[["27-8-2026","Audiencia pública"]],
+  act:{F:"Equipos eficientes; energía y frío.",M:"Ofertas completas para operadores regionales.",I:"Centros regionales y edge.",C:"Coste y disponibilidad de capacidad local."},
+  key:"Energía y permisos para centros de datos"}
+];
+
+/* Timeline events: [lane, date(decimal year), label, status(done/next/est), who] */
+const EV=[
+ ["Data Act",2025.70,"12-9-2025 · Aplicación general","done","F I C"],
+ ["DORA",2025.05,"17-1-2025 · Aplicación","done","I C"],
+ ["DORA",2025.88,"18-11-2025 · 19 proveedores TIC críticos","done","I C"],
+ ["Datos/Omnibus",2025.88,"19-11-2025 · Data Union Strategy y Digital Omnibus","done","Todos"],
+ ["Ciberseguridad",2026.05,"20-1-2026 · Propuesta CSA2","done","F M"],
+ ["España",2026.15,"24-2-2026 · Hoja de Ruta de Soberanía Digital","done","Todos"],
+ ["AI Act",2026.35,"7-5-2026 · Acuerdo provisional Omnibus IA","done","F I C"],
+ ["España",2026.40,"26-5-2026 · PLO de gobernanza de la IA a las Cortes","done","I C"],
+ ["CADA",2026.42,"3-6-2026 · Propuesta COM(2026) 502","done","Todos"],
+ ["Mercado",2026.48,"25-6-2026 · DMA: AWS y Azure, conclusión preliminar","done","F M I"],
+ ["AI Act",2026.59,"2-8-2026 · Poderes de supervisión de la Oficina de IA","done","F I C"],
+ ["España",2026.65,"27-8-2026 · Audiencia RD centros de datos","done","F M I"],
+ ["CRA",2026.70,"11-9-2026 · Notificación de vulnerabilidades e incidentes","done","F M"],
+ ["España",2026.76,"5-10-2026 · Orden HAC/1028/2026 factura electrónica","done","M I C"],
+ ["CADA",2026.86,"11-11-2026 · Proyecto de informe conjunto en el Parlamento","done","Todos"],
+ ["CADA",2026.97,"Fin 2026 · Informe de progreso del Consejo","next","Todos"],
+ ["Ciberseguridad",2026.97,"Fin 2026 · Transposición NIS2 en España (prevista)","next","I C"],
+ ["AI Act",2026.92,"2-12-2026 · Marcado de contenido generado","next","F I"],
+ ["Data Act",2027.03,"12-1-2027 · Cambio de proveedor sin cargos","next","I C"],
+ ["Datos/Omnibus",2027.23,"26-3-2027 · Actos de ejecución EHDS","next","F I C"],
+ ["CADA",2027.20,"Mar. 2027 · Votación en comisión del Parlamento","next","Todos"],
+ ["Data Act",2027.70,"12-9-2027 · Contratos anteriores a sept. 2025","next","I C"],
+ ["CADA",2027.85,"4T 2027 · Objetivo de acuerdo político","est","Todos"],
+ ["AI Act",2027.92,"2-12-2027 · Alto riesgo (Anexo III)","next","F I C"],
+ ["CRA",2027.94,"11-12-2027 · Requisitos esenciales, SBOM, importadores y distribuidores","next","F M"],
+ ["CADA",2028.40,"2028 · Publicación y entrada en vigor (estimación)","est","Todos"],
+ ["España",2028.78,"Oct. 2028 · VERI*FACTU","next","M I C"],
+ ["CADA",2029.30,"2029 · Aplicación, autoridades y primeras evaluaciones de riesgo","est","Todos"],
+ ["CADA",2029.85,"2029–2030 · Primeras licitaciones con niveles y pico de migraciones","est","Todos"],
+ ["Mercado",2030.50,"2030 · 66.900 M€ de inversión en centros de datos en España","est","F M I"]
+];
+const LANES=["CADA","AI Act","Data Act","CRA","Ciberseguridad","DORA","Datos/Omnibus","Mercado","España"];
+
+/* CASES */
+const CASES=[
+ {t:"Copia de seguridad de nivel 2 para un hospital público",who:["Integrador","Mayorista","Fabricante","Cliente: salud"],
+  ctx:"Un integrador regional quiere ofrecer copia de seguridad gestionada a un hospital. La evaluación de riesgos clasifica la historia clínica como actividad de orden público: nivel 2 mínimo.",
+  steps:["Centro de datos establecido en la UE con personal en la UE","Almacenamiento y software de protección con soporte avanzado desde la UE","Consola de gestión sin telemetría fuera de Europa","SBOM de los componentes","ENS categoría alta mientras no exista el certificado europeo"],
+  res:"Con una configuración de referencia del mayorista y un operador regional con nivel acreditado, el expediente se prepara en semanas en lugar de meses.",aud:"I M F C",ly:["arg","cog"]},
+ {t:"Una diputación provincial se convierte en dos mercados",who:["Cliente: sector público","Integrador","Mayorista"],
+  ctx:"Gestión tributaria, RR. HH., sede electrónica y atención a municipios. Primera evaluación de riesgos hacia 2029 (escenario base).",
+  steps:["Tributos y algunos registros: probablemente orden público → nivel 2","RR. HH., gestión documental y web institucional → nivel 1","El integrador que conoce la evaluación antes del pliego propone una arquitectura mixta","El mayorista con ambas configuraciones validadas respalda varias ofertas"],
+  res:"Un mercado de nivel 1 abierto a casi todos y otro de nivel 2 donde solo compiten quienes tengan configuración y evidencia listas.",aud:"C I M",ly:["arg"]},
+ {t:"Integrador de 60 empleados ante su primera licitación CADA",who:["Integrador pyme","Mayorista"],
+  ctx:"Especializado en ERP y servicios gestionados para industria y administración local. El pliego de 2029 exige nivel 1 para el servicio principal y nivel 2 para copia y recuperación.",
+  steps:["Nivel 1 propio: establecido en España, datos en centro nacional, subcontratistas declarados","Nivel 2: necesita operador acreditado, productos con soporte y telemetría UE y auditoría","Con configuración de referencia del mayorista, solo paga la auditoría de su operación","Sin ella, se presenta en consorcio o como subcontratista"],
+  res:"La diferencia entre competir o subcontratar la marca el mayorista que elija.",aud:"I M",ly:["arg"]},
+ {t:"Fabricante no europeo de almacenamiento ante el canal ibérico",who:["Fabricante","Mayorista"],
+  ctx:"Producto técnicamente líder, gestión desde consola cloud en EE. UU. y soporte avanzado desde fuera de la UE.",
+  steps:["Hoy: solo apto para nivel 1","Activa región de gestión europea y modo desconectado","Soporte de 2.º y 3.º nivel desde la UE, con accesos registrados","Publica SBOM y política de vulnerabilidades CRA","Rellena la ficha de soberanía y la entrega al mayorista"],
+  res:"Pasa a sostener servicios de nivel 2 y el canal lo recomienda frente a competidores que no publican su ficha.",aud:"F M",ly:["arg"]},
+ {t:"Industria con visión artificial en planta",who:["Cliente: industria","Integrador","Fabricante"],
+  ctx:"Un fabricante de componentes quiere IA de control de calidad con imágenes de producción y datos de máquinas conectadas.",
+  steps:["AI Act: clasificar el caso de uso y documentar datos y modelo","Data Act: derecho de acceso a los datos de las máquinas conectadas","Ejecutar el modelo en planta: el dato no sale del perímetro","Compartir indicadores con proveedores mediante un espacio de datos con políticas ODRL","Si es entidad NIS2: evaluación CADA voluntaria de sus servicios"],
+  res:"IA doblemente conforme y datos compartidos sin entregarlos: ventaja frente a clientes que auditan su cadena.",aud:"C I F",ly:["cog","dat"]},
+ {t:"Banco mediano revisa sus contratos cloud",who:["Cliente: finanzas","Integrador"],
+  ctx:"DORA exige cláusulas de localización, acceso, auditoría y salida; el Data Act elimina los cargos por cambio desde el 12-1-2027.",
+  steps:["Registro de proveedores TIC y criticidad","Un único paquete de evidencias DORA + CADA para cada proveedor","Plan de salida probado con las cláusulas tipo del Data Act","IA sobre datos de clientes en local o en infraestructura UE"],
+  res:"El cumplimiento deja de ser un cuestionario por norma y pasa a ser un expediente reutilizable.",aud:"C I",ly:["arg","cog"]}
+];
+
+/* OPPORTUNITIES */
+const OPPS=[
+ ["Repatriación de cargas","Coste, control, CADA y Data Act devuelven cargas a entornos privados, híbridos o regionales: servidores, almacenamiento, redes y protección de datos.","F I M"],
+ ["Nube privada y alternativas de virtualización","El cierre del VCSP de Broadcom y los cambios de licencias empujan a evaluar plataformas alternativas, orientables desde el inicio a niveles de garantía.","M I F"],
+ ["IA local","La respuesta más directa a los niveles 2–3 para usos de IA: servidores con aceleradores, almacenamiento rápido y orquestación de modelos abiertos.","F M I C"],
+ ["Centros de datos regionales y edge","Energía, frío, racks, servidores y redes; plantas, hospitales y nodos de espacios de datos encajan con la capilaridad del canal.","F M I"],
+ ["Hardware europeo y eficiente","Arts. 14 y 32 de la CADA y la revisión del ecodiseño premian fabricación en la UE y eficiencia.","F M"],
+ ["Expediente de soberanía como servicio","Inventarios, flujos de datos, subcontratistas, cadena de software: servicio recurrente reutilizable en licitaciones y auditorías.","I M C"],
+ ["Servicios gestionados de nivel 2","MSP con herramientas que mantienen los datos en la UE y SOC peninsular: el perfil del canal más afectado y que más crece.","I"],
+ ["Migraciones conformes al Data Act","Inventario de datos exportables, personalizaciones, cláusulas y pruebas de portabilidad, con documentación para el expediente.","I C"],
+ ["Marketplaces y ofertas privadas","Reventa y ofertas multiparte en 30 mercados europeos; los partners generarán el 59 % de las ventas de marketplace hacia 2030.","M F"],
+ ["Financiación y pago por uso","Renting y modelos as-a-service para repartir la inversión de proyectos de nivel 2–3.","M C"],
+ ["Consorcios y fondos europeos","Europa Digital, Horizonte Europa, CDTI y Red.es para pilotos de pilas abiertas, espacios de datos e IA soberana.","I F C"],
+ ["Formación y talento","Itinerarios de soberanía, AI Act y CRA para el canal: arquitectos, especialistas en cumplimiento y auditores.","M I"]
+];
+
+/* ---------- utilidades ---------- */
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+let curAud=null, curTheme="all", q="";
+const LVC=["#E3E9F1","#F1D98A","#D9A520","#C8411B"];
+const whoTxt=w=>w==="Todos"?"Toda la cadena":w.split(" ").map(k=>AUD[k]).join(", ");
+
+/* ---------- radar ---------- */
+function renderRegs(){
+  const box=$("#regs"); box.innerHTML="";
+  const list=REGS.filter(r=>(curTheme==="all"||r.t===curTheme)&&(q===""||(r.n+" "+r.full+" "+r.sum+" "+r.key+" "+Object.values(r.act).join(" ")).toLowerCase().includes(q)));
+  list.forEach(r=>{
+    const d=document.createElement("button"); d.className="reg"; d.type="button";
+    d.dataset.aud=["F","M","I","C"].filter((k,i)=>r.imp[i]>=2).join(" ");
+    d.innerHTML=`${r.flag?`<span class="flag">${r.flag}</span>`:""}<span class="row"><span class="th">${r.t}</span><span class="badge ${ST[r.s][0]}" style="margin-left:auto">${ST[r.s][1]}</span></span>
+      <h3>${r.n}</h3><span class="full">${r.full}</span><p>${r.sum}</p>
+      ${r.ly.length?`<span class="row">${r.ly.map(l=>`<span class="layer ${LY[l][0]}">${LY[l][1]}</span>`).join("")}</span>`:""}
+      <span class="imp" aria-label="Impacto: fabricante ${r.imp[0]}, mayorista ${r.imp[1]}, integrador ${r.imp[2]}, cliente ${r.imp[3]} sobre 3">${["Fabr.","Mayor.","Integr.","Cliente"].map((l,i)=>`<div><i style="background:${LVC[r.imp[i]]}"></i>${l}</div>`).join("")}</span>`;
+    d.addEventListener("click",()=>r.id==="cada"?go("cada"):openReg(r));
+    box.appendChild(d);
+  });
+  if(!list.length) box.innerHTML='<div class="empty">Ninguna norma coincide con el filtro.</div>';
+  applyAud();
+}
+let lastFocus=null;
+function openReg(r){
+  lastFocus=document.activeElement;
+  $("#mbody").innerHTML=`<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;align-items:center"><span class="badge ${ST[r.s][0]}">${ST[r.s][1]}</span><span class="mini" style="font-weight:700;letter-spacing:.1em;text-transform:uppercase">${r.t}</span></div>
+   <h2 id="mTitle">${r.n}</h2><p class="mut">${r.full}</p><p>${r.sum}</p>
+   ${r.dates.length?`<h4 style="margin-top:22px">Fechas clave</h4><div class="tbl"><table><tbody>${r.dates.map(x=>`<tr><td style="width:150px"><b>${x[0]}</b></td><td>${x[1]}</td></tr>`).join("")}</tbody></table></div>`:""}
+   <h4 style="margin-top:22px">Qué significa para cada eslabón</h4>
+   <div class="tbl"><table><tbody>${["F","M","I","C"].map((k,i)=>`<tr class="${curAud&&curAud!==k?"dimrow":""}"><td style="width:200px"><b>${AUD[k]}</b><br><span class="mini">Impacto ${r.imp[i]}/3</span></td><td>${r.act[k]}</td></tr>`).join("")}</tbody></table></div>
+   ${r.ly.length?`<h4 style="margin-top:22px">Capa que lo resuelve</h4><div style="display:flex;gap:8px">${r.ly.map(l=>`<span class="layer ${LY[l][0]}">${LY[l][1]}</span>`).join("")}</div>`:""}
+   <div style="margin-top:26px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-ink" href="#contacto" data-close>Consultar mi caso</a><button class="btn btn-out" type="button" data-close>Cerrar</button></div>`;
+  $("#modal").classList.add("show"); $("#mx").focus();
+}
+function closeM(){$("#modal").classList.remove("show"); if(lastFocus) lastFocus.focus();}
+$("#mx").addEventListener("click",closeM);
+$("#modal").addEventListener("click",e=>{if(e.target.id==="modal"||e.target.closest("[data-close]"))closeM()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&$("#modal").classList.contains("show"))closeM()});
+
+/* ---------- matriz ---------- */
+function renderMatrix(){
+  const tb=$("#matrixT tbody"); tb.innerHTML="";
+  REGS.forEach(r=>{const tr=document.createElement("tr");
+    tr.innerHTML=`<td><b>${r.n}</b><br><span class="mini">${r.t}</span></td>${r.imp.map((v,i)=>`<td class="h h${v}" data-col="${"FMIC"[i]}">${v}</td>`).join("")}<td class="mut">${r.key}</td>`;
+    tr.addEventListener("click",()=>r.id==="cada"?go("cada"):openReg(r)); tb.appendChild(tr);});
+}
+
+/* ---------- calendario ---------- */
+function renderTL(){
+  const rows=$("#tlRows"); rows.innerHTML="";
+  const pos=y=>((y-2025)/6*100);
+  LANES.forEach(l=>{const row=document.createElement("div");row.className="tl-row";
+    row.innerHTML=`<div class="nm">${l}</div><div class="tl-lane"></div>`;
+    const lane=row.querySelector(".tl-lane");
+    EV.filter(e=>e[0]===l).forEach(e=>{const d=document.createElement("button");d.type="button";d.className="ev "+e[3];d.style.left=pos(e[1])+"%";
+      d.setAttribute("aria-label",e[0]+": "+e[2]);
+      const show=(x,y)=>{const t=$("#tip");t.innerHTML=`<b>${e[0]}</b><br>${e[2]}<br><span class="mini">Afecta a: ${whoTxt(e[4])}</span>`;t.style.display="block";t.style.left=Math.min(x+14,innerWidth-320)+"px";t.style.top=(y+14)+"px"};
+      d.addEventListener("mouseenter",ev=>show(ev.clientX,ev.clientY));
+      d.addEventListener("focus",()=>{const b=d.getBoundingClientRect();show(b.left,b.bottom)});
+      d.addEventListener("mouseleave",()=>$("#tip").style.display="none");
+      d.addEventListener("blur",()=>$("#tip").style.display="none");
+      lane.appendChild(d);});
+    rows.appendChild(row);});
+  const now=new Date(), yr=now.getFullYear()+(now-new Date(now.getFullYear(),0,1))/31557600000;
+  if(yr>=2025&&yr<=2031){const nl=document.createElement("div");nl.className="tl-now";nl.style.left=`calc(160px + (100% - 160px) * ${(yr-2025)/6})`;nl.innerHTML="<span>HOY</span>";$("#tlTrack").appendChild(nl);}
+  const tb=$("#tlTable tbody"); tb.innerHTML="";
+  [...EV].sort((a,b)=>a[1]-b[1]).forEach(e=>{const parts=e[2].split(" · ");const tr=document.createElement("tr");
+    tr.dataset.aud=e[4]==="Todos"?"F M I C":e[4];
+    tr.innerHTML=`<td style="white-space:nowrap"><b>${parts[0]}</b>${e[3]==="est"?' <span class="mini">(estimación)</span>':""}</td><td>${e[0]}</td><td>${parts.slice(1).join(" · ")}</td><td class="mini">${whoTxt(e[4])}</td>`;tb.appendChild(tr);});
+}
+
+/* ---------- casos y oportunidades ---------- */
+function renderCases(){
+  const b=$("#cases"); b.innerHTML="";
+  CASES.forEach((c,i)=>{const d=document.createElement("article");d.className="case";d.dataset.aud=c.aud;
+    d.innerHTML=`<div class="k">CASO ${String(i+1).padStart(2,"0")}</div><h3>${c.t}</h3><div class="who">${c.who.map(w=>`<span>${w}</span>`).join("")}</div><p style="margin:0">${c.ctx}</p><ol class="steps">${c.steps.map(s=>`<li>${s}</li>`).join("")}</ol><div class="res"><b>Resultado · </b>${c.res}</div><div style="display:flex;gap:6px">${c.ly.map(l=>`<span class="layer ${LY[l][0]}">${LY[l][1]}</span>`).join("")}</div>`;
+    b.appendChild(d);});
+}
+function renderOpps(){
+  const b=$("#opps"); b.innerHTML="";
+  OPPS.forEach(o=>{const d=document.createElement("div");d.className="card opp";d.dataset.aud=o[2];
+    d.innerHTML=`<h3>${o[0]}</h3><p>${o[1]}</p><div class="tags">${o[2].split(" ").map(k=>`<span>${AUD[k]}</span>`).join("")}</div>`;b.appendChild(d);});
+}
+
+/* ---------- lectura por audiencia ---------- */
+function setAud(a){
+  curAud=(curAud===a)?null:a;
+  $$("#audChips .chip").forEach(c=>{c.classList.toggle("on",c.dataset.a===curAud);c.setAttribute("aria-pressed",c.dataset.a===curAud)});
+  $$("#chain .node").forEach(n=>n.classList.toggle("on",n.dataset.a===curAud));
+  document.body.classList.toggle("aud-on",!!curAud);
+  $("#audbar").classList.toggle("show",!!curAud);
+  if(curAud){$("#audName").textContent=AUD[curAud];activateTab("#cadaTabs",{F:"pF",M:"pM",I:"pI",C:"pC"}[curAud]);}
+  try{localStorage.setItem("siab-aud",curAud||"")}catch(e){}
+  applyAud();
+}
+function applyAud(){
+  $$("[data-aud]").forEach(el=>el.classList.toggle("aud-match",!!curAud&&el.dataset.aud.split(" ").includes(curAud)));
+  $$("#matrixT td.h").forEach(td=>td.classList.toggle("hl",!!curAud&&td.dataset.col===curAud));
+}
+$$("#audChips .chip").forEach(c=>c.addEventListener("click",()=>setAud(c.dataset.a)));
+$$("#chain .node").forEach(c=>{c.addEventListener("click",()=>setAud(c.dataset.a));c.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();setAud(c.dataset.a)}})});
+$("#audClear").addEventListener("click",()=>{if(curAud)setAud(curAud)});
+
+/* ---------- filtros ---------- */
+$$("#themeFilters .fbtn").forEach(b=>b.addEventListener("click",()=>{curTheme=b.dataset.t;$$("#themeFilters .fbtn").forEach(x=>x.classList.toggle("on",x===b));renderRegs()}));
+$("#regSearch").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();renderRegs()});
+
+/* ---------- pestañas ---------- */
+function activateTab(group,id){$$(group+" .tab").forEach(t=>{const on=t.dataset.p===id;t.classList.toggle("on",on);t.setAttribute("aria-selected",on);const p=document.getElementById(t.dataset.p);if(p)p.classList.toggle("on",on)})}
+["#cadaTabs","#riskTabs"].forEach(g=>$$(g+" .tab").forEach(t=>t.addEventListener("click",()=>activateTab(g,t.dataset.p))));
+
+/* ---------- navegación ---------- */
+function go(id){const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:"smooth"})}
+const obs=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){$$("#subnav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+en.target.id))}}),{rootMargin:"-40% 0px -55% 0px"});
+$$("main section[id]").forEach(s=>obs.observe(s));
+(function(){var b=document.querySelector(".burger"),n=document.getElementById("nav");
+  b.addEventListener("click",function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o)});
+  n.addEventListener("click",function(e){if(e.target.tagName==="A"){n.classList.remove("open");b.setAttribute("aria-expanded","false")}});})();
+
+/* ---------- autodiagnóstico ---------- */
+const ans={rol:null,sec:new Set(),que:new Set(),ia:null,dat:null};
+$$(".opts").forEach(g=>{const k=g.dataset.q,multi=g.dataset.multi;
+  g.querySelectorAll(".fbtn").forEach(b=>b.addEventListener("click",()=>{
+    if(multi){b.classList.toggle("on");ans[k].has(b.dataset.v)?ans[k].delete(b.dataset.v):ans[k].add(b.dataset.v)}
+    else{g.querySelectorAll(".fbtn").forEach(x=>x.classList.toggle("on",x===b));ans[k]=b.dataset.v}
+    b.setAttribute("aria-pressed",b.classList.contains("on"));
+    quiz();}));});
+function quiz(){
+  const out=[];const add=(id,why)=>{if(!out.find(o=>o.id===id))out.push({id,why})};
+  const r=ans.rol,s=ans.sec,w=ans.que;
+  if(!r&&!s.size&&!w.size&&!ans.ia&&!ans.dat){$("#quizRes").innerHTML='<div class="empty">Responda a las preguntas para ver las normas que le afectan.</div>';$("#quizCta").hidden=true;return}
+  if(s.has("pub")||w.has("cloud")) add("cada", s.has("pub")?"Compra pública por niveles de soberanía hacia 2029.":"Sus servicios cloud o gestionados necesitarán un nivel de garantía.");
+  if((r==="F"||r==="M")&&(w.has("hw")||w.has("sw"))) add("cra", r==="M"?"Obligaciones directas como importador o distribuidor desde el 11-12-2027.":"Conformidad, SBOM y notificación de vulnerabilidades (ya desde el 11-9-2026).");
+  if(w.has("hw")) add("dataact","Productos conectados: el usuario debe poder acceder a los datos que generan.");
+  if(w.has("cloud")||r==="C") add("dataact","Cambio de proveedor sin cargos desde el 12-1-2027.");
+  if(ans.ia==="si"||ans.ia==="uso") add("aiact", ans.ia==="si"?"Como proveedor o integrador: clasificación de riesgo y documentación técnica.":"Como responsable del despliegue: alto riesgo desde el 2-12-2027.");
+  if(["sal","fin","ene"].some(x=>s.has(x))||w.has("cloud")||w.has("dc")) add("nis2","Entidad esencial o importante, o proveedor de una: cadena de suministro y notificación.");
+  if(s.has("fin")) add("dora","Cláusulas de localización, auditoría y salida con los proveedores TIC.");
+  if(s.has("sal")) add("ehds","Uso primario y secundario de datos de salud; infraestructura de nivel 2 o superior.");
+  if(ans.dat==="si"){add("rgpd","Base de cualquier tratamiento de datos personales.");add("datau","Espacios de datos: compartir sin entregar el dato.");}
+  if(s.has("pub")) add("ens","Obligatorio para proveedores del sector público español; puente hacia la CADA.");
+  if(w.has("dc")){add("rddc","Renovable horaria y operador establecido en la UE para centros de 1 MW o más.");add("eco","Ecodiseño de servidores y almacenamiento.");}
+  if((r==="F"||r==="M")&&w.has("hw")) add("raee","Registro de productor y financiación de la gestión de residuos.");
+  if(r==="M"||r==="I") add("fe","Factura electrónica entre empresas y software de gestión que vende el canal.");
+  if(r==="F"&&(w.has("sw")||w.has("cloud"))) add("csa2","Riesgo de designación como proveedor de alto riesgo de terceros países.");
+  $("#quizRes").innerHTML=out.map(o=>{const g=REGS.find(x=>x.id===o.id);return `<button type="button" class="res-item" data-id="${g.id}"><span style="display:flex;gap:8px;align-items:center"><b>${g.n}</b><span class="badge ${ST[g.s][0]}" style="margin-left:auto">${ST[g.s][1]}</span></span><span>${o.why}</span></button>`}).join("")||'<div class="empty">Complete más respuestas.</div>';
+  $$("#quizRes .res-item").forEach(el=>el.addEventListener("click",()=>{const g=REGS.find(x=>x.id===el.dataset.id);g.id==="cada"?go("cada"):openReg(g)}));
+  $("#quizCta").hidden=!out.length;
+}
+
+/* ---------- arranque ---------- */
+renderRegs();renderMatrix();renderTL();renderCases();renderOpps();
+try{const a=localStorage.getItem("siab-aud");if(a)setAud(a)}catch(e){}
+</script>
+</body>
+</html>
