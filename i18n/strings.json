@@ -1354,14 +1354,6 @@
   ]
  },
  {
-  "id": "1adbb21b4f",
-  "src": "Regulación UE de nube, IA, datos y ciberseguridad para el canal tecnológico · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
   "id": "d71629087b",
   "src": "<a href=\"/#productos\">Productos</a> <a href=\"/#como\">Cómo trabajamos</a> <a href=\"/#experiencia\">Experiencia</a> <a href=\"/#sectores\">Sectores</a> <a href=\"/regulacion/\" aria-current=\"page\">Regulación UE</a> <a class=\"btn btn-gold\" href=\"#contacto\">Hablemos</a>",
   "kind": "html",
@@ -5062,14 +5054,6 @@
   ]
  },
  {
-  "id": "0e4390ded3",
-  "src": "CADA, AI Act, Data Act, CRA, NIS2, DORA, EHDS y más, explicados para fabricantes, mayoristas, integradores e industria cliente final: obligaciones, calendario, casos de estudio y oportunidades de negocio.",
-  "kind": "attr",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
   "id": "482a7dcf1f",
   "src": "Regulación UE para la cadena tecnológica · Software in a Box",
   "kind": "attr",
@@ -5209,16 +5193,16 @@
   ]
  },
  {
-  "id": "57f8e5d3f3",
-  "src": "Buscar en las normas",
+  "id": "ac5dd277fa",
+  "src": "Buscar: SBOM, telemetría, hospital, migración…",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
   ]
  },
  {
-  "id": "ac5dd277fa",
-  "src": "Buscar: SBOM, telemetría, hospital, migración…",
+  "id": "57f8e5d3f3",
+  "src": "Buscar en las normas",
   "kind": "attr",
   "pages": [
    "regulacion/index.html"
@@ -5461,14 +5445,6 @@
  {
   "id": "1b578fd881",
   "src": "Clasificación de riesgo y documentación de datos y modelos",
-  "kind": "js",
-  "pages": [
-   "regulacion/index.html"
-  ]
- },
- {
-  "id": "ee7fdf27fa",
-  "src": "Ficha completa",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -5768,6 +5744,14 @@
  {
   "id": "ead8ea2ba9",
   "src": "Proveedores de alto riesgo y certificación cloud",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
+  "id": "ee7fdf27fa",
+  "src": "Ficha completa",
   "kind": "js",
   "pages": [
    "regulacion/index.html"
@@ -7550,6 +7534,14 @@
   ]
  },
  {
+  "id": "4c6eb74f62",
+  "src": "Todas las fichas y guías de la sección",
+  "kind": "js",
+  "pages": [
+   "regulacion/index.html"
+  ]
+ },
+ {
   "id": "4e5ff80c55",
   "src": "Afecta a:",
   "kind": "js",
@@ -7803,14 +7795,6 @@
   "kind": "js",
   "pages": [
    "regulacion/index.html"
-  ]
- },
- {
-  "id": "c7a7e3b7cd",
-  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/informe-cada/index.html"
   ]
  },
  {
@@ -8271,16 +8255,16 @@
   ]
  },
  {
-  "id": "2ca8589ea2",
-  "src": "Informe gratuito de 95 páginas y 35 infografías sobre la Cloud and AI Development Act: niveles de soberanía, evidencia por eslabón, cuellos de botella, oportunidades y hoja de ruta 2027–2030 para el canal tecnológico.",
+  "id": "44f9e435a8",
+  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final",
   "kind": "attr",
   "pages": [
    "regulacion/informe-cada/index.html"
   ]
  },
  {
-  "id": "44f9e435a8",
-  "src": "Informe CADA para la cadena de valor: fabricantes, mayoristas, integradores e industria cliente final",
+  "id": "2ca8589ea2",
+  "src": "Informe gratuito de 95 páginas y 35 infografías sobre la Cloud and AI Development Act: niveles de soberanía, evidencia por eslabón, cuellos de botella, oportunidades y hoja de ruta 2027–2030 para el canal tecnológico.",
   "kind": "attr",
   "pages": [
    "regulacion/informe-cada/index.html"
@@ -17442,14 +17426,6 @@
   ]
  },
  {
-  "id": "d9f217376f",
-  "src": "DORA: ficha completa del Reglamento de resiliencia operativa digital · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/dora/index.html"
-  ]
- },
- {
   "id": "943e35b519",
   "src": "<a href=\"#resumen\">Resumen</a><a href=\"#calendario\">Calendario</a><a href=\"#pilares\">Cinco pilares</a><a href=\"#incidentes\">Incidentes</a><a href=\"#terceros\">Riesgo de terceros</a><a href=\"#criticos\">Proveedores críticos</a><a href=\"#normas\">Normas técnicas</a><a href=\"#espana\">España</a><a href=\"#eslabon\">Por eslabón</a><a href=\"#relacion\">Otras normas</a><a href=\"#hacer\">Qué hacer</a><a href=\"#fuentes\">Fuentes</a>",
   "kind": "html",
@@ -18850,16 +18826,16 @@
   ]
  },
  {
-  "id": "9806bc2097",
-  "src": "Ficha completa de DORA: los cinco pilares, normas técnicas, notificación de incidentes 4 h / 72 h / 1 mes, registro de información, cláusulas del art. 30, estrategia de salida, los 19 proveedores TIC críticos designados, supervisión en España y qué hacer.",
+  "id": "fce2f06442",
+  "src": "DORA: ficha completa del Reglamento de resiliencia operativa digital",
   "kind": "attr",
   "pages": [
    "regulacion/dora/index.html"
   ]
  },
  {
-  "id": "fce2f06442",
-  "src": "DORA: ficha completa del Reglamento de resiliencia operativa digital",
+  "id": "9806bc2097",
+  "src": "Ficha completa de DORA: los cinco pilares, normas técnicas, notificación de incidentes 4 h / 72 h / 1 mes, registro de información, cláusulas del art. 30, estrategia de salida, los 19 proveedores TIC críticos designados, supervisión en España y qué hacer.",
   "kind": "attr",
   "pages": [
    "regulacion/dora/index.html"
@@ -18871,14 +18847,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/dora/index.html"
-  ]
- },
- {
-  "id": "366e34357a",
-  "src": "DMA y nube: ficha completa de la designación de AWS y Azure como guardianes de acceso · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/dma-nube/index.html"
   ]
  },
  {
@@ -20067,16 +20035,16 @@
   ]
  },
  {
-  "id": "e5b2a974b9",
-  "src": "Ficha completa de la Ley de Mercados Digitales aplicada a la nube: las tres investigaciones de mercado de noviembre de 2025, la conclusión preliminar sobre AWS y Azure del 25-6-2026, qué obligaciones tendrían, plazos, multas, la relación con el Data Act y qué cambia para clientes y canal.",
+  "id": "973c797050",
+  "src": "DMA y nube: ficha completa de la designación de AWS y Azure como guardianes de acceso",
   "kind": "attr",
   "pages": [
    "regulacion/dma-nube/index.html"
   ]
  },
  {
-  "id": "973c797050",
-  "src": "DMA y nube: ficha completa de la designación de AWS y Azure como guardianes de acceso",
+  "id": "e5b2a974b9",
+  "src": "Ficha completa de la Ley de Mercados Digitales aplicada a la nube: las tres investigaciones de mercado de noviembre de 2025, la conclusión preliminar sobre AWS y Azure del 25-6-2026, qué obligaciones tendrían, plazos, multas, la relación con el Data Act y qué cambia para clientes y canal.",
   "kind": "attr",
   "pages": [
    "regulacion/dma-nube/index.html"
@@ -20088,14 +20056,6 @@
   "kind": "jsonld",
   "pages": [
    "regulacion/dma-nube/index.html"
-  ]
- },
- {
-  "id": "1927727d3a",
-  "src": "EHDS: ficha completa del Espacio Europeo de Datos Sanitarios · Software in a Box",
-  "kind": "html",
-  "pages": [
-   "regulacion/ehds/index.html"
   ]
  },
  {
@@ -21547,16 +21507,16 @@
   ]
  },
  {
-  "id": "09a3e9d175",
-  "src": "Ficha completa del EHDS (Reglamento 2025/327): calendario 2025–2035, derechos de los pacientes, uso primario y MiSalud@UE, sistemas de historia clínica electrónica con marcado CE, uso secundario con organismos de acceso y permisos, el Espacio Nacional de Datos de Salud y la futura Ley de Salud Digital en España.",
+  "id": "d8e21a6dfe",
+  "src": "EHDS: ficha completa del Espacio Europeo de Datos Sanitarios",
   "kind": "attr",
   "pages": [
    "regulacion/ehds/index.html"
   ]
  },
  {
-  "id": "d8e21a6dfe",
-  "src": "EHDS: ficha completa del Espacio Europeo de Datos Sanitarios",
+  "id": "09a3e9d175",
+  "src": "Ficha completa del EHDS (Reglamento 2025/327): calendario 2025–2035, derechos de los pacientes, uso primario y MiSalud@UE, sistemas de historia clínica electrónica con marcado CE, uso secundario con organismos de acceso y permisos, el Espacio Nacional de Datos de Salud y la futura Ley de Salud Digital en España.",
   "kind": "attr",
   "pages": [
    "regulacion/ehds/index.html"

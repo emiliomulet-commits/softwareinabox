@@ -11,7 +11,7 @@ Los datos se editan en el <script> de regulacion/index.html (REGS, EV, CASES, OP
 import asyncio, os, re, sys, threading, http.server, socketserver, functools
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANG_DIRS = ["", "en", "fr", "de", "nl", "pt", "it", "da", "fr-be", "nl-be"]
-BLOCKS = {"regs": "#regs", "tl": "#tlTable tbody", "matrix": "#matrixT tbody", "cases": "#cases", "opps": "#opps"}
+BLOCKS = {"regs": "#regs", "allfic": "#allfic", "tl": "#tlTable tbody", "matrix": "#matrixT tbody", "cases": "#cases", "opps": "#opps"}
 
 def serve():
     h = functools.partial(http.server.SimpleHTTPRequestHandler, directory=ROOT)
