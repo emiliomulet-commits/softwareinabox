@@ -85,9 +85,10 @@ NAT = {
      "La qualification <b>SecNumCloud</b> de l'ANSSI est exigée pour les données sensibles de l'État (doctrine « cloud au centre »).",
      "Pour les données de santé, l'hébergeur doit être certifié <b>HDS</b>."]),
    ("NIS2",
-     "La loi « Résilience », qui transpose NIS2, était encore en débat à l'Assemblée en novembre 2026. L'ANSSI a publié son référentiel (ReCyF) et ouvert un pré-enregistrement pour environ 15 000 entités. Il n'existe pas d'équivalent français de la certification ENS.")],
+     "La loi « Résilience », qui transpose NIS2, a été examinée à l'Assemblée nationale les 9 et 10-11-2026. Le vote solennel est prévu le 17-11-2026, puis une commission mixte paritaire. L'ANSSI a publié son référentiel (ReCyF) et ouvert un pré-enregistrement pour environ 15 000 entités. Il n'existe pas d'équivalent français de la certification ENS.")],
    srctitle=SRC, srcs=[("ANSSI", "SecNumCloud", "https://cyber.gouv.fr/secnumcloud"),
-                       ("ANSSI", "MonEspaceNIS2", "https://monespacenis2.cyber.gouv.fr/")])},
+                       ("ANSSI", "MonEspaceNIS2", "https://monespacenis2.cyber.gouv.fr/"),
+                       ("Leto", "Loi Résilience : examen à l'Assemblée et vote le 17-11-2026", "https://www.leto.legal/news/nis-2-loi-resilience-assemblee-article-16-bis-supprime-vote-17-novembre-2026")])},
 "ley-gobernanza-ia": {"sec": S_("France", "Et en France ?", [
    ("Pas encore de loi d'application", [
      "Le projet DDADUE, qui doit désigner les autorités de l'AI Act, n'était pas adopté en novembre 2026.",

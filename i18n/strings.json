@@ -15964,8 +15964,8 @@
   ]
  },
  {
-  "id": "11dc9130d3",
-  "src": "<b>Francia:</b> el proyecto de ley Resiliencia (NIS2, entidades críticas y DORA) llegó al pleno de la Asamblea Nacional en octubre de 2026; la ANSSI tiene su marco ReCyf como documento de trabajo.",
+  "id": "48f8518af3",
+  "src": "<b>Francia:</b> el proyecto de ley Résilience (NIS2, entidades críticas y DORA) se examinó en el pleno de la Asamblea Nacional los días 9 y 10-11-2026; voto solemne el 17-11-2026. La ANSSI tiene su marco ReCyf como documento de trabajo.",
   "kind": "html",
   "pages": [
    "regulacion/nis2/index.html"
@@ -16084,8 +16084,8 @@
   ]
  },
  {
-  "id": "12aa9e49d7",
-  "src": "Proyecto de ley <b>Résilience</b> (NIS2, entidades críticas y DORA), en el pleno de la Asamblea Nacional en noviembre de 2026.",
+  "id": "1c07c3520b",
+  "src": "Proyecto de ley <b>Résilience</b> (NIS2, entidades críticas y DORA): examen en la Asamblea Nacional terminado el 10-11-2026; voto solemne el 17-11-2026 y después comisión mixta paritaria.",
   "kind": "html",
   "pages": [
    "regulacion/nis2/index.html"
@@ -31856,7 +31856,6 @@
   "kind": "html",
   "pages": [
    "aviso-legal.html",
-   "privacidad.html",
    "cookies.html",
    "gracias.html"
   ]
@@ -32091,6 +32090,14 @@
   ]
  },
  {
+  "id": "595c253a3e",
+  "src": "Última actualización: 15 de noviembre de 2026",
+  "kind": "html",
+  "pages": [
+   "privacidad.html"
+  ]
+ },
+ {
   "id": "6f9a74e4c1",
   "src": "Esta política explica cómo tratamos los datos personales de quienes visitan www.softwareinabox.eu, cognitiv.softwareinabox.eu, argos.softwareinabox.eu y datos.softwareinabox.eu o nos escriben a través de ellos, conforme al Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).",
   "kind": "html",
@@ -32204,6 +32211,38 @@
   ]
  },
  {
+  "id": "d5b39d5631",
+  "src": "Asistente de la web de ARGOS (argos.softwareinabox.eu)",
+  "kind": "html",
+  "pages": [
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "484c39873d",
+  "src": "El texto de las preguntas que usted escribe y la conversación en curso; la dirección IP, solo para limitar el número de preguntas diarias",
+  "kind": "html",
+  "pages": [
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "54da00c4c6",
+  "src": "Responder a sus preguntas sobre ARGOS y evitar abusos del servicio",
+  "kind": "html",
+  "pages": [
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "8e1d10840f",
+  "src": "Interés legítimo en atender consultas sobre nuestros productos (art. 6.1.f)",
+  "kind": "html",
+  "pages": [
+   "privacidad.html"
+  ]
+ },
+ {
   "id": "7ce6fc1b03",
   "src": "Registros técnicos del alojamiento",
   "kind": "html",
@@ -32236,8 +32275,8 @@
   ]
  },
  {
-  "id": "08ae08a747",
-  "src": "No elaboramos perfiles, no tomamos decisiones automatizadas con efectos jurídicos y no usamos sus datos con fines publicitarios.",
+  "id": "bb24caf1f3",
+  "src": "No elaboramos perfiles, no tomamos decisiones automatizadas con efectos jurídicos y no usamos sus datos con fines publicitarios. Las respuestas del asistente de ARGOS las genera un sistema de inteligencia artificial, tienen carácter informativo y no constituyen asesoramiento jurídico.",
   "kind": "html",
   "pages": [
    "privacidad.html"
@@ -32294,6 +32333,14 @@
  {
   "id": "f066260ab8",
   "src": "<b>FormSubmit</b> (envío a nuestro correo de los mensajes de los formularios).",
+  "kind": "html",
+  "pages": [
+   "privacidad.html"
+  ]
+ },
+ {
+  "id": "7b2e82febd",
+  "src": "<b>Cloudflare, Inc.</b> (Cloudflare Workers, servidor intermedio del asistente de ARGOS) y <b>Anthropic</b> (modelo de IA que genera las respuestas del asistente). Las preguntas se envían al modelo sin datos de identificación y no las conservamos; le pedimos que no incluya datos personales en ellas.",
   "kind": "html",
   "pages": [
    "privacidad.html"
